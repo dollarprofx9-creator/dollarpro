@@ -1,27 +1,33 @@
-name: EURUSD Signal Bot
+name: EURUSD London Session Bot
 
+# Trigger manually or on schedule (optional)
 on:
-  workflow_dispatch:  # Run manually
+  workflow_dispatch:
   schedule:
-    - cron: "*/1 * * * *"  # Optional: runs every minute
+    # Every 5 minutes, adjust as needed
+    - cron: "*/5 * * * *"
 
 jobs:
-  test-and-run:
+  run-eurusd-bot:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pytz
 
-      - name: Test GitHub Secrets
+      # 4️⃣ Debug secrets
+      - name: Check GitHub Secrets
         run: |
           if [ -z "$TWELVEDATA_API_KEY" ]; then
             echo "❌ TWELVEDATA_API_KEY is empty"
@@ -44,7 +50,8 @@ jobs:
             echo "✅ TELEGRAM_CHAT_ID is set"
           fi
 
-      - name: Run EURUSD Bot
+      # 5️⃣ Run EURUSD bot
+      - name: Run EURUSD London Session Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
