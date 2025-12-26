@@ -1,14 +1,14 @@
 import os
 import requests
-from datetime import datetime
+from datetime import datetime, time as dt_time
+import pytz
 import time
 
-# ===== Load Secrets =====
+# ===== Load secrets =====
 TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-# ===== Check if secrets exist =====
 if not TWELVEDATA_API_KEY or not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
     print("❌ One or more secrets are missing. Exiting.")
     exit(1)
@@ -17,13 +17,23 @@ if not TWELVEDATA_API_KEY or not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
 SYMBOL = "EUR/USD"
 INTERVAL = "1min"
 SMA_PERIOD = 20
-CHECK_DELAY = 60  # seconds
-SESSION = "New York"
+CHECK_DELAY = 60  # seconds between checks
+SESSION = "London"
 
 last_signal = None
+TIMEZONE = pytz.timezone("Europe/London")
+
+# London session times
+LONDON_OPEN = dt_time(8, 0)   # 08:00 London time
+LONDON_CLOSE = dt_time(16, 0) # 16:00 London time
 
 
 # ===== Functions =====
+def is_london_session():
+    now = datetime.now(TIMEZONE).time()
+    return LONDON_OPEN <= now <= LONDON_CLOSE
+
+
 def get_price_data():
     """Fetch EUR/USD price data from Twelve Data"""
     url = "https://api.twelvedata.com/time_series"
@@ -55,12 +65,12 @@ def calculate_sma(data, period):
 
 
 def format_signal(signal_type, price):
-    date_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+    date_time = datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M")
     emoji = "🔥💚" if signal_type == "BUY" else "🔥❤️"
     direction = "Buy" if signal_type == "BUY" else "Sell"
 
     return (
-        f"{emoji} {direction} Signal ({SESSION} Session Start)\n"
+        f"{emoji} {direction} Signal ({SESSION} Session)\n"
         f"💰 Pair: EUR/USD\n"
         f"💵 Price: {price}\n"
         f"🕒 Session: {SESSION}\n"
@@ -69,7 +79,6 @@ def format_signal(signal_type, price):
 
 
 def send_telegram_message(message):
-    """Send message to Telegram channel"""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message}
     try:
@@ -82,8 +91,13 @@ def send_telegram_message(message):
         print("❌ Exception sending message:", e)
 
 
-# ===== Main Loop =====
+# ===== Main loop =====
 while True:
+    if not is_london_session():
+        print("⏱ Outside London session, waiting...")
+        time.sleep(CHECK_DELAY)
+        continue
+
     price, closes = get_price_data()
     if price is None:
         print("Waiting before retrying...")
@@ -96,7 +110,6 @@ while True:
         time.sleep(CHECK_DELAY)
         continue
 
-    # Generate signal
     global last_signal
     if price > sma and last_signal != "BUY":
         msg = format_signal("BUY", price)
