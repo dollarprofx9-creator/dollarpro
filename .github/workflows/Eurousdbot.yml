@@ -1,4 +1,4 @@
-name: EURUSD MA Signal Bot
+name: Eurousdbot
 
 on:
   schedule:
