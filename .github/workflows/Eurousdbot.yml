@@ -1,12 +1,12 @@
-name: Eurousdbot
+name: EURUSD Signal Bot
 
 on:
+  workflow_dispatch:  # Run manually
   schedule:
-    - cron: "*/1 * * * *"   # runs every minute
-  workflow_dispatch:
+    - cron: "*/1 * * * *"  # Optional: runs every minute
 
 jobs:
-  run-bot:
+  test-and-run:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,11 +19,34 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install requests
 
-      - name: Run EURUSD bot
+      - name: Test GitHub Secrets
+        run: |
+          if [ -z "$TWELVEDATA_API_KEY" ]; then
+            echo "❌ TWELVEDATA_API_KEY is empty"
+            exit 1
+          else
+            echo "✅ TWELVEDATA_API_KEY is set"
+          fi
+
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "❌ TELEGRAM_BOT_TOKEN is empty"
+            exit 1
+          else
+            echo "✅ TELEGRAM_BOT_TOKEN is set"
+          fi
+
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "❌ TELEGRAM_CHAT_ID is empty"
+            exit 1
+          else
+            echo "✅ TELEGRAM_CHAT_ID is set"
+          fi
+
+      - name: Run EURUSD Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python Eurousdbot.py
+        run: python eurusd_bot.py
