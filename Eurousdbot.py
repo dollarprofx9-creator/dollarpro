@@ -4,7 +4,7 @@ from datetime import datetime, time as dt_time
 import pytz
 import time
 
-# ===== Load secrets =====
+# Load secrets
 TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
@@ -13,70 +13,45 @@ if not TWELVEDATA_API_KEY or not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
     print("❌ One or more secrets are missing. Exiting.")
     exit(1)
 
-# ===== Settings =====
+# Settings
 SYMBOL = "EUR/USD"
 INTERVAL = "1min"
 SMA_PERIOD = 20
-CHECK_DELAY = 60  # seconds between checks
+CHECK_DELAY = 60  # seconds
 SESSION = "London"
-
-last_signal = None
 TIMEZONE = pytz.timezone("Europe/London")
+LONDON_OPEN = dt_time(8, 0)
+LONDON_CLOSE = dt_time(16, 0)
+last_signal = None
 
-# London session times
-LONDON_OPEN = dt_time(8, 0)   # 08:00 London time
-LONDON_CLOSE = dt_time(16, 0) # 16:00 London time
-
-
-# ===== Functions =====
 def is_london_session():
     now = datetime.now(TIMEZONE).time()
     return LONDON_OPEN <= now <= LONDON_CLOSE
 
-
 def get_price_data():
-    """Fetch EUR/USD price data from Twelve Data"""
     url = "https://api.twelvedata.com/time_series"
-    params = {
-        "symbol": SYMBOL,
-        "interval": INTERVAL,
-        "apikey": TWELVEDATA_API_KEY,
-        "outputsize": 50
-    }
-
+    params = {"symbol": SYMBOL, "interval": INTERVAL, "apikey": TWELVEDATA_API_KEY, "outputsize": 50}
     try:
         response = requests.get(url, timeout=10).json()
         if "values" not in response:
             print("❌ Error fetching data:", response)
             return None, None
-
         closes = [float(candle["close"]) for candle in response["values"]]
-        current_price = closes[0]
-        return current_price, closes
+        return closes[0], closes
     except Exception as e:
         print("❌ Exception fetching data:", e)
         return None, None
-
 
 def calculate_sma(data, period):
     if len(data) < period:
         return None
     return sum(data[:period]) / period
 
-
 def format_signal(signal_type, price):
     date_time = datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M")
     emoji = "🔥💚" if signal_type == "BUY" else "🔥❤️"
     direction = "Buy" if signal_type == "BUY" else "Sell"
-
-    return (
-        f"{emoji} {direction} Signal ({SESSION} Session)\n"
-        f"💰 Pair: EUR/USD\n"
-        f"💵 Price: {price}\n"
-        f"🕒 Session: {SESSION}\n"
-        f"📅 Date: {date_time}"
-    )
-
+    return f"{emoji} {direction} Signal ({SESSION} Session)\n💰 Pair: EUR/USD\n💵 Price: {price}\n🕒 Session: {SESSION}\n📅 Date: {date_time}"
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
@@ -90,8 +65,6 @@ def send_telegram_message(message):
     except Exception as e:
         print("❌ Exception sending message:", e)
 
-
-# ===== Main loop =====
 while True:
     if not is_london_session():
         print("⏱ Outside London session, waiting...")
