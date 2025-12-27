@@ -69,7 +69,7 @@ def run_bot(manual=False):
     if signal:
         now = datetime.datetime.now(LONDON_TZ).strftime("%Y-%m-%d %H:%M")
         message = (
-            f"🔥 {signal} Signal {'(Scheduled)' if not manual else '(Manual Run)'}\n"
+            f"🔥 {signal} Signal {'(Scheduled)' if not manual else '(London session)'}\n"
             f"💰 Pair: EUR/USD\n"
             f"💵 Price: {prices[-1]}\n"
             f"🕒 Time: {now}"
