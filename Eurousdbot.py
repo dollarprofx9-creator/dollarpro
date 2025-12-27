@@ -63,9 +63,9 @@ def generate_signal(prices):
     latest_close = prices[-1]
 
     if latest_close > sma:
-        signal = "💚BUY"
+        signal = "💚 BUY"
     elif latest_close < sma:
-        signal = "♥️SELL"
+        signal = "♥️ SELL"
     else:
         signal = None
 
