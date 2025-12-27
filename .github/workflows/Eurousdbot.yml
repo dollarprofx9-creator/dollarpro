@@ -2,12 +2,12 @@ name: EURUSD London Bot
 
 on:
   schedule:
-    # Every 15 minutes during London session (08:00–16:00 London time)
-    - cron: "*/15 8-16 * * 1-5"
+    # Run once daily at 08:00 UTC = 09:00 WAT (Nigeria)
+    - cron: "0 8 * * 1-5"
   workflow_dispatch:
     inputs:
       manual:
-        description: 'Run manually outside London session?'
+        description: 'Run manually outside scheduled time?'
         required: false
         default: 'true'
 
