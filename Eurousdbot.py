@@ -49,9 +49,9 @@ def generate_signal(prices):
     sma = calculate_sma(prices[:-1])
     latest_close = prices[-1]
     if latest_close > sma:
-        return "BUY"
+        return "💚 BUY"
     elif latest_close < sma:
-        return "SELL"
+        return "♥️ SELL"
     return None
 
 # ===== RUN BOT =====
