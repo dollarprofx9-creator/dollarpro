@@ -3,7 +3,7 @@ name: EURUSD London Bot
 on:
   schedule:
     # Run once daily at 08:00 UTC = 09:00 WAT (Nigeria)
-    - cron: "1 8 * * 1-5"
+    - cron: "0 8 * * 1-5"
   workflow_dispatch:
     inputs:
       manual:
