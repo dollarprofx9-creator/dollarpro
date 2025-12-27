@@ -2,8 +2,8 @@ name: EURUSD London Session Bot
 
 on:
   schedule:
-    # Runs every 15 minutes during London session (7–11 UTC)
-    - cron: "*/15 7-11 * * 1-5"
+    # Every 15 minutes during London session (08:00–16:00 London time)
+    - cron: "*/15 8-16 * * 1-5"
   workflow_dispatch:
 
 jobs:
@@ -11,20 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      # 2️⃣ Setup Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify Secrets Exist
+      # 4️⃣ Verify secrets
+      - name: Verify Secrets
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -47,10 +51,10 @@ jobs:
 
           echo "✅ All secrets detected"
 
-      - name: Run EURUSD Bot
+      # 5️⃣ Run Python bot
+      - name: Run EURUSD London Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          python Eurousdbot.py
+        run: python Eurousdbot.py
