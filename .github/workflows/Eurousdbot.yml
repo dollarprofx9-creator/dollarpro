@@ -1,17 +1,22 @@
-name: EURUSD London Session Bot
+name: EURUSD London Bot
 
 on:
   schedule:
     # Every 15 minutes during London session (08:00–16:00 London time)
     - cron: "*/15 8-16 * * 1-5"
   workflow_dispatch:
+    inputs:
+      manual:
+        description: 'Run manually outside London session?'
+        required: false
+        default: 'true'
 
 jobs:
   trade:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -27,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4️⃣ Verify secrets
+      # 4️⃣ Verify Secrets
       - name: Verify Secrets
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
@@ -52,9 +57,10 @@ jobs:
           echo "✅ All secrets detected"
 
       # 5️⃣ Run Python bot
-      - name: Run EURUSD London Bot
+      - name: Run EURUSD Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python Eurousdbot.py
+        run: |
+          python Eurousdbot.py --manual=${{ github.event.inputs.manual }}
