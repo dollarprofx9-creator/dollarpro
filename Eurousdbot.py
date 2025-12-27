@@ -7,16 +7,11 @@ import sys
 # ===== ENV VARIABLES =====
 TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")  # @username or numeric ID
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")  # numeric ID preferred
 
-# ===== GLOBAL =====
-last_signal = None
+# ===== TIME SETTINGS =====
 LONDON_TZ = pytz.timezone("Europe/London")
-
-# ===== TIME CHECK =====
-def is_london_session():
-    now = datetime.datetime.now(LONDON_TZ)
-    return 8 <= now.hour < 16
+last_signal_sent = False
 
 # ===== TELEGRAM =====
 def send_telegram(message):
@@ -37,7 +32,6 @@ def get_historical_prices(interval="15min", outputsize=50):
     try:
         r = requests.get(url, timeout=10).json()
         if "values" in r:
-            # Return closes in chronological order
             closes = [float(v["close"]) for v in reversed(r["values"])]
             return closes
         else:
@@ -47,60 +41,45 @@ def get_historical_prices(interval="15min", outputsize=50):
         print(f"❌ Exception fetching historical prices: {e}")
         return None
 
-# ===== CALCULATE SMA =====
+# ===== SMA LOGIC =====
 def calculate_sma(prices):
-    if len(prices) == 0:
-        return None
-    return sum(prices) / len(prices)
+    return sum(prices) / len(prices) if prices else None
 
-# ===== SIGNAL LOGIC =====
 def generate_signal(prices):
-    global last_signal
-    if len(prices) < 2:
-        return None  # Not enough data
-
-    sma = calculate_sma(prices[:-1])  # exclude latest candle for SMA
+    sma = calculate_sma(prices[:-1])
     latest_close = prices[-1]
-
     if latest_close > sma:
-        signal = "💚 BUY"
+        return "BUY"
     elif latest_close < sma:
-        signal = "♥️ SELL"
-    else:
-        signal = None
+        return "SELL"
+    return None
 
-    # Avoid duplicate signals
-    if signal == last_signal:
-        return None
-
-    last_signal = signal
-    return signal
-
-# ===== MAIN BOT =====
+# ===== RUN BOT =====
 def run_bot(manual=False):
-    if not manual and not is_london_session():
-        print("⏱ Outside London session")
+    global last_signal_sent
+    if last_signal_sent and not manual:
+        print("✅ Signal already sent for today")
         return
 
     prices = get_historical_prices()
     if not prices:
-        print("❌ No price data available")
         return
 
     signal = generate_signal(prices)
     if signal:
         now = datetime.datetime.now(LONDON_TZ).strftime("%Y-%m-%d %H:%M")
         message = (
-            f"🔥 {signal} Signal {'(London Session)' if not manual else '(London session)'}\n"
+            f"🔥 {signal} Signal {'(Scheduled)' if not manual else '(Manual Run)'}\n"
             f"💰 Pair: EUR/USD\n"
             f"💵 Price: {prices[-1]}\n"
             f"🕒 Time: {now}"
         )
         send_telegram(message)
+        last_signal_sent = True
     else:
-        print("No new signal to send")
+        print("No new signal")
 
-# ===== HANDLE MANUAL FLAG =====
+# ===== MANUAL FLAG =====
 manual = False
 for arg in sys.argv:
     if arg.lower() in ["--manual=true", "--manual=1"]:
