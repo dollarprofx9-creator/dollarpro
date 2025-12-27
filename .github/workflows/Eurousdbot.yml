@@ -1,57 +1,56 @@
 name: EURUSD London Session Bot
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"  # optional, runs every 5 min
+    # Runs every 15 minutes during London session (7–11 UTC)
+    - cron: "*/15 7-11 * * 1-5"
+  workflow_dispatch:
 
 jobs:
-  run-eurusd-bot:
+  trade:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Python
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3️⃣ Install dependencies directly (no requirements.txt)
       - name: Install dependencies
-        run: pip install requests pytz
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # 4️⃣ Debug secrets
-      - name: Debug Secrets
+      - name: Verify Secrets Exist
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           if [ -z "$TWELVEDATA_API_KEY" ]; then
             echo "❌ TWELVEDATA_API_KEY is empty"
             exit 1
-          else
-            echo "✅ TWELVEDATA_API_KEY is set"
           fi
 
           if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
             echo "❌ TELEGRAM_BOT_TOKEN is empty"
             exit 1
-          else
-            echo "✅ TELEGRAM_BOT_TOKEN is set"
           fi
 
           if [ -z "$TELEGRAM_CHAT_ID" ]; then
             echo "❌ TELEGRAM_CHAT_ID is empty"
             exit 1
-          else
-            echo "✅ TELEGRAM_CHAT_ID is set"
           fi
 
-      # 5️⃣ Run Python bot
-      - name: Run EURUSD London Bot
+          echo "✅ All secrets detected"
+
+      - name: Run EURUSD Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python eurusd_bot.py
+        run: |
+          python Eurousdbot.py
