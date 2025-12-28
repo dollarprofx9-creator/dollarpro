@@ -1,66 +1,45 @@
-name: EURUSD London Bot
+name: EURUSD Daily 9AM Bot
 
 on:
   schedule:
-    # Run once daily at 08:00 UTC = 09:00 WAT (Nigeria)
-    - cron: "0 8 * * 1-5"
+    # 09:00 AM Nigerian Time (WAT = UTC+1)
+    - cron: "0 8 * * *"
   workflow_dispatch:
-    inputs:
-      manual:
-        description: 'Run manually outside scheduled time?'
-        required: false
-        default: 'true'
 
 jobs:
-  trade:
+  run-bot:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Python
-      - name: Setup Python
+      # Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3️⃣ Install dependencies
+      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests pytz
 
-      # 4️⃣ Verify Secrets
-      - name: Verify Secrets
-        env:
-          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # Log execution time
+      - name: Log execution time
         run: |
-          if [ -z "$TWELVEDATA_API_KEY" ]; then
-            echo "❌ TWELVEDATA_API_KEY is empty"
-            exit 1
-          fi
+          echo "UTC Time:"
+          date -u
+          echo "Nigeria Time (WAT):"
+          date
 
-          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-            echo "❌ TELEGRAM_BOT_TOKEN is empty"
-            exit 1
-          fi
-
-          if [ -z "$TELEGRAM_CHAT_ID" ]; then
-            echo "❌ TELEGRAM_CHAT_ID is empty"
-            exit 1
-          fi
-
-          echo "✅ All secrets detected"
-
-      # 5️⃣ Run Python bot
+      # Run EURUSD bot
       - name: Run EURUSD Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python Eurousdbot.py --manual=${{ github.event.inputs.manual }}
+          python Eurousdbot.py
