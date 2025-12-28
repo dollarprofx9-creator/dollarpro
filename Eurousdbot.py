@@ -2,88 +2,114 @@ import requests
 import os
 import datetime
 import pytz
-import sys
 
-# ===== ENV VARIABLES =====
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
 TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")  # numeric ID preferred
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-# ===== TIME SETTINGS =====
-LONDON_TZ = pytz.timezone("Europe/London")
-last_signal_sent = False
+if not TWELVEDATA_API_KEY:
+    raise ValueError("❌ TWELVEDATA_API_KEY is missing")
 
-# ===== TELEGRAM =====
+if not TELEGRAM_BOT_TOKEN:
+    raise ValueError("❌ TELEGRAM_BOT_TOKEN is missing")
+
+if not TELEGRAM_CHAT_ID:
+    raise ValueError("❌ TELEGRAM_CHAT_ID is missing")
+
+# =========================
+# SETTINGS
+# =========================
+SYMBOL = "EUR/USD"
+INTERVAL = "15min"
+SMA_PERIOD = 20
+TIMEZONE = pytz.timezone("Africa/Lagos")
+
+# =========================
+# TELEGRAM FUNCTION
+# =========================
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": TELEGRAM_CHAT_ID, "text": message}
-    try:
-        response = requests.post(url, json=payload, timeout=10)
-        if response.status_code == 200:
-            print(f"✅ Telegram message sent: {message}")
-        else:
-            print(f"❌ Telegram failed ({response.status_code}): {response.text}")
-    except Exception as e:
-        print(f"❌ Exception sending Telegram: {e}")
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
 
-# ===== FETCH HISTORICAL DATA =====
-def get_historical_prices(interval="15min", outputsize=50):
-    url = f"https://api.twelvedata.com/time_series?symbol=EUR/USD&interval={interval}&outputsize={outputsize}&apikey={TWELVEDATA_API_KEY}"
-    try:
-        r = requests.get(url, timeout=10).json()
-        if "values" in r:
-            closes = [float(v["close"]) for v in reversed(r["values"])]
-            return closes
-        else:
-            print(f"❌ TwelveData API error: {r}")
-            return None
-    except Exception as e:
-        print(f"❌ Exception fetching historical prices: {e}")
-        return None
+    response = requests.post(url, json=payload, timeout=10)
+    print("📨 Telegram response:", response.text)
 
-# ===== SMA LOGIC =====
+# =========================
+# FETCH DATA FROM TWELVEDATA
+# =========================
+def get_price_data():
+    url = (
+        f"https://api.twelvedata.com/time_series"
+        f"?symbol={SYMBOL}"
+        f"&interval={INTERVAL}"
+        f"&outputsize={SMA_PERIOD + 2}"
+        f"&apikey={TWELVEDATA_API_KEY}"
+    )
+
+    response = requests.get(url, timeout=10).json()
+
+    if "values" not in response:
+        raise ValueError(f"❌ TwelveData error: {response}")
+
+    values = list(reversed(response["values"]))
+    closes = [float(candle["close"]) for candle in values]
+
+    return closes, values[-1]["datetime"]
+
+# =========================
+# SMA LOGIC
+# =========================
 def calculate_sma(prices):
-    return sum(prices) / len(prices) if prices else None
+    return sum(prices) / len(prices)
 
-def generate_signal(prices):
-    sma = calculate_sma(prices[:-1])
-    latest_close = prices[-1]
-    if latest_close > sma:
-        return "💚 BUY"
-    elif latest_close < sma:
-        return "♥️ SELL"
+def generate_signal(closes):
+    last_close = closes[-1]
+    sma = calculate_sma(closes[-SMA_PERIOD-1:-1])
+
+    print(f"📊 Last Close: {last_close}")
+    print(f"📈 SMA({SMA_PERIOD}): {sma}")
+
+    if last_close > sma:
+        return "BUY"
+    elif last_close < sma:
+        return "SELL"
     return None
 
-# ===== RUN BOT =====
-def run_bot(manual=False):
-    global last_signal_sent
-    if last_signal_sent and not manual:
-        print("✅ Signal already sent for today")
+# =========================
+# MAIN BOT
+# =========================
+def main():
+    now = datetime.datetime.now(TIMEZONE)
+    print("🕒 Bot run time (Nigeria):", now.strftime("%Y-%m-%d %H:%M:%S"))
+
+    closes, candle_time = get_price_data()
+    signal = generate_signal(closes)
+
+    if not signal:
+        print("ℹ️ No clear signal")
         return
 
-    prices = get_historical_prices()
-    if not prices:
-        return
+    message = (
+        f"🔥 *{signal} Signal (London Session)*\n"
+        f"💰 Pair: EUR/USD\n"
+        f"⏱ Timeframe: 15M\n"
+        f"📊 Strategy: SMA {SMA_PERIOD}\n"
+        f"🕒 Candle Close: {candle_time}\n"
+        f"📅 Date: {now.strftime('%Y-%m-%d %H:%M')}"
+    )
 
-    signal = generate_signal(prices)
-    if signal:
-        now = datetime.datetime.now(LONDON_TZ).strftime("%Y-%m-%d %H:%M")
-        message = (
-            f"🔥 {signal} Signal {'(London session)' if not manual else '(London session)'}\n"
-            f"💰 Pair: EUR/USD\n"
-            f"💵 Price: {prices[-1]}\n"
-            f"🕒 Time: {now}"
-        )
-        send_telegram(message)
-        last_signal_sent = True
-    else:
-        print("No new signal")
+    send_telegram(message)
+    print("✅ Signal sent successfully")
 
-# ===== MANUAL FLAG =====
-manual = False
-for arg in sys.argv:
-    if arg.lower() in ["--manual=true", "--manual=1"]:
-        manual = True
-
+# =========================
+# RUN
+# =========================
 if __name__ == "__main__":
-    run_bot(manual=manual)
+    main()
