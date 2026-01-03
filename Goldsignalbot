@@ -15,16 +15,15 @@ if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
     raise ValueError("Missing environment variables")
 
 # ======================
-# CONFIG
+# CONFIGURATION
 # ======================
 
 SYMBOL = "XAU/USD"
-INTERVAL = "15min"        # ✅ M15
+INTERVAL = "15min"         # M15 timeframe
 SMA_PERIOD = 20
 ATR_PERIOD = 14
 RR_RATIO = 3
-
-TIMEZONE = pytz.timezone("Africa/Lagos")
+TIMEZONE = pytz.timezone("Africa/Lagos")  # Nigerian time
 
 # ======================
 # FETCH DATA
@@ -40,7 +39,10 @@ def fetch_data():
     }
     r = requests.get(url, params=params, timeout=10)
     r.raise_for_status()
-    return r.json()["values"]
+    data = r.json()
+    if "values" not in data:
+        raise ValueError(f"Invalid response: {data}")
+    return data["values"]
 
 # ======================
 # INDICATORS
@@ -56,14 +58,8 @@ def calculate_atr(values):
         high = float(values[i]["high"])
         low = float(values[i]["low"])
         prev_close = float(values[i - 1]["close"])
-
-        tr = max(
-            high - low,
-            abs(high - prev_close),
-            abs(low - prev_close)
-        )
+        tr = max(high - low, abs(high - prev_close), abs(low - prev_close))
         trs.append(tr)
-
     return sum(trs) / len(trs)
 
 # ======================
@@ -73,11 +69,8 @@ def calculate_atr(values):
 def generate_signal():
     values = fetch_data()
     close_price = float(values[0]["close"])
-
     sma = calculate_sma(values)
-    atr = calculate_atr(values)
-
-    atr = round(atr, 2)
+    atr = round(calculate_atr(values), 2)
 
     if close_price > sma:
         signal = "Buy Signal"
@@ -91,7 +84,7 @@ def generate_signal():
     now = datetime.datetime.now(TIMEZONE)
 
     message = (
-        f"🕒 Session: London\n"
+        f"🕒 Session: New York\n"
         f"📅 Date: {now.strftime('%Y-%m-%d %H:%M')}\n"
         f"🔥🚥 {signal}\n"
         f"💰 Pair: XAU/USD\n"
@@ -100,18 +93,17 @@ def generate_signal():
         f"TP: {tp}\n"
         f"R:R: 3:1"
     )
-
     return message
 
 # ======================
-# TELEGRAM
+# TELEGRAM SENDER
 # ======================
 
-def send_telegram(text):
+def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": text
+        "text": message
     }
     r = requests.post(url, json=payload, timeout=10)
     print("Telegram response:", r.text)
@@ -121,4 +113,8 @@ def send_telegram(text):
 # ======================
 
 if __name__ == "__main__":
-    send_telegram(generate_signal())
+    try:
+        msg = generate_signal()
+        send_telegram(msg)
+    except Exception as e:
+        print("Error:", e)
