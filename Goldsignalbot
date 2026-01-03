@@ -1,0 +1,124 @@
+import requests
+import datetime
+import pytz
+import os
+
+# ======================
+# ENV VARIABLES
+# ======================
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
+
+if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
+    raise ValueError("Missing environment variables")
+
+# ======================
+# CONFIG
+# ======================
+
+SYMBOL = "XAU/USD"
+INTERVAL = "15min"        # ✅ M15
+SMA_PERIOD = 20
+ATR_PERIOD = 14
+RR_RATIO = 3
+
+TIMEZONE = pytz.timezone("Africa/Lagos")
+
+# ======================
+# FETCH DATA
+# ======================
+
+def fetch_data():
+    url = "https://api.twelvedata.com/time_series"
+    params = {
+        "symbol": SYMBOL,
+        "interval": INTERVAL,
+        "apikey": TWELVEDATA_API_KEY,
+        "outputsize": 50
+    }
+    r = requests.get(url, params=params, timeout=10)
+    r.raise_for_status()
+    return r.json()["values"]
+
+# ======================
+# INDICATORS
+# ======================
+
+def calculate_sma(values):
+    closes = [float(v["close"]) for v in values[:SMA_PERIOD]]
+    return sum(closes) / len(closes)
+
+def calculate_atr(values):
+    trs = []
+    for i in range(1, ATR_PERIOD + 1):
+        high = float(values[i]["high"])
+        low = float(values[i]["low"])
+        prev_close = float(values[i - 1]["close"])
+
+        tr = max(
+            high - low,
+            abs(high - prev_close),
+            abs(low - prev_close)
+        )
+        trs.append(tr)
+
+    return sum(trs) / len(trs)
+
+# ======================
+# SIGNAL GENERATION
+# ======================
+
+def generate_signal():
+    values = fetch_data()
+    close_price = float(values[0]["close"])
+
+    sma = calculate_sma(values)
+    atr = calculate_atr(values)
+
+    atr = round(atr, 2)
+
+    if close_price > sma:
+        signal = "Buy Signal"
+        sl = round(close_price - atr, 2)
+        tp = round(close_price + (atr * RR_RATIO), 2)
+    else:
+        signal = "Sell Signal"
+        sl = round(close_price + atr, 2)
+        tp = round(close_price - (atr * RR_RATIO), 2)
+
+    now = datetime.datetime.now(TIMEZONE)
+
+    message = (
+        f"🕒 Session: London\n"
+        f"📅 Date: {now.strftime('%Y-%m-%d %H:%M')}\n"
+        f"🔥🚥 {signal}\n"
+        f"💰 Pair: XAU/USD\n"
+        f"💵 Price: {close_price}\n"
+        f"SL: {sl}\n"
+        f"TP: {tp}\n"
+        f"R:R: 3:1"
+    )
+
+    return message
+
+# ======================
+# TELEGRAM
+# ======================
+
+def send_telegram(text):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": text
+    }
+    r = requests.post(url, json=payload, timeout=10)
+    print("Telegram response:", r.text)
+
+# ======================
+# MAIN
+# ======================
+
+if __name__ == "__main__":
+    send_telegram(generate_signal())
