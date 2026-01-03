@@ -1,9 +1,10 @@
-name: Gold Signal Bot
+name: XAUUSD New York Signal Bot
 
 on:
   schedule:
-    - cron: "8 13 * * 1-5"   # 2:08 PM Nigeria | Mon–Fri
-  workflow_dispatch:        # Manual run enabled
+    # Runs at 14:00 UTC (9:00 AM EST) Monday to Friday
+    - cron: "0 14 * * 1-5"
+  workflow_dispatch:   # Manual trigger enabled
 
 jobs:
   run-bot:
@@ -23,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
-      - name: Run Goldsignalbot
+      - name: Run XAUUSD New York Signal Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
