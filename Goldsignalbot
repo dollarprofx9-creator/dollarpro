@@ -7,26 +7,26 @@ import os
 # ENV VARIABLES
 # ======================
 
+TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
-if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
-    raise ValueError("Missing environment variables")
+if not TWELVEDATA_API_KEY or not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+    raise ValueError("Missing environment variables. Please check your GitHub secrets.")
 
 # ======================
 # CONFIGURATION
 # ======================
 
 SYMBOL = "XAU/USD"
-INTERVAL = "15min"         # M15 timeframe
+INTERVAL = "15min"       # M15 timeframe
 SMA_PERIOD = 20
 ATR_PERIOD = 14
 RR_RATIO = 3
 TIMEZONE = pytz.timezone("Africa/Lagos")  # Nigerian time
 
 # ======================
-# FETCH DATA
+# FETCH MARKET DATA
 # ======================
 
 def fetch_data():
@@ -37,11 +37,11 @@ def fetch_data():
         "apikey": TWELVEDATA_API_KEY,
         "outputsize": 50
     }
-    r = requests.get(url, params=params, timeout=10)
-    r.raise_for_status()
-    data = r.json()
+    response = requests.get(url, params=params, timeout=10)
+    response.raise_for_status()
+    data = response.json()
     if "values" not in data:
-        raise ValueError(f"Invalid response: {data}")
+        raise ValueError(f"Unexpected API response: {data}")
     return data["values"]
 
 # ======================
@@ -87,7 +87,7 @@ def generate_signal():
         f"🕒 Session: New York\n"
         f"📅 Date: {now.strftime('%Y-%m-%d %H:%M')}\n"
         f"🔥🚥 {signal}\n"
-        f"💰 Pair: XAU/USD\n"
+        f"💰 Pair: {SYMBOL}\n"
         f"💵 Price: {close_price}\n"
         f"SL: {sl}\n"
         f"TP: {tp}\n"
@@ -105,8 +105,12 @@ def send_telegram(message):
         "chat_id": TELEGRAM_CHAT_ID,
         "text": message
     }
-    r = requests.post(url, json=payload, timeout=10)
-    print("Telegram response:", r.text)
+    try:
+        r = requests.post(url, json=payload, timeout=10)
+        r.raise_for_status()
+        print("Telegram response:", r.text)
+    except Exception as e:
+        print("Error sending Telegram message:", e)
 
 # ======================
 # MAIN
@@ -117,4 +121,4 @@ if __name__ == "__main__":
         msg = generate_signal()
         send_telegram(msg)
     except Exception as e:
-        print("Error:", e)
+        print("Bot error:", e)
