@@ -1,4 +1,4 @@
-name: XAUUSD update 
+name: XAUUSDupdate 
 
 on:
   schedule:
@@ -26,4 +26,4 @@ jobs:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python XAUUSD update.py
+        run: python XAUUSDupdate.py
