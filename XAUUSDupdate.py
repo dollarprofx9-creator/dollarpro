@@ -1,13 +1,11 @@
 import requests
-from datetime import datetime, timezone
-import schedule
-import time
-import os  # <-- needed for GitHub Secrets
+from datetime import datetime
+import os
 
 # ------------------- CONFIG -------------------
-TWELVEDATA_API_KEY = os.environ.get("TWELVEDATA_API_KEY")  # From GitHub Secrets
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")  # From GitHub Secrets
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # From GitHub Secrets
+TWELVEDATA_API_KEY = os.environ.get("TWELVEDATA_API_KEY")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 SYMBOL = "XAU/USD"
 # ----------------------------------------------
 
@@ -54,24 +52,16 @@ def send_to_telegram(message):
     response = requests.post(url, data=payload)
     return response.json()
 
-def job():
-    today_weekday = datetime.now().weekday()
-    if today_weekday >= 5:
-        print(f"{datetime.now()} - Weekend detected. Skipping Telegram post.")
-        return
-
+# ------------------- MAIN -------------------
+today_weekday = datetime.utcnow().weekday()  # UTC for GitHub Actions
+# Nigeria time is UTC+1, 8 AM = 7 AM UTC in cron
+if today_weekday >= 5:
+    print("Weekend detected. Skipping Telegram post.")
+else:
     try:
         data = get_xauusd_data()
         message = format_telegram_post(data)
         result = send_to_telegram(message)
-        print(f"{datetime.now()} - Telegram post sent:", result)
+        print("Telegram post sent:", result)
     except Exception as e:
-        print(f"{datetime.now()} - Error:", e)
-
-# Schedule daily post at 8:00 AM Nigerian time
-schedule.every().day.at("08:00").do(job)
-
-print("Scheduler started. Waiting for 8 AM Nigeria time (Mon-Fri)...")
-while True:
-    schedule.run_pending()
-    time.sleep(30)
+        print("Error:", e)
