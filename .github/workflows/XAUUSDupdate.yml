@@ -1,29 +1,42 @@
-name: XAUUSDupdate 
+name: XAUUSDupdate
 
+# Run on schedule (Mon-Fri at 8:00 AM Nigeria time) or manually
 on:
   schedule:
-    # Runs at 7:00 UTC (8 AM Nigeria time)
-    - cron: '0 7 * * 1-5'  # Monday-Friday
-  workflow_dispatch: # Optional manual trigger
+    # 7:00 UTC = 8:00 Nigeria time (UTC+1), Monday-Friday
+    - cron: '0 7 * * 1-5'
+  workflow_dispatch:  # Optional manual trigger
 
 jobs:
   post-xauusd:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout your repository
       - name: Checkout Repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Debug: List all files to confirm script location
+      - name: List files (debug)
+        run: ls -R
+
+      # 3️⃣ Setup Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
+      # 4️⃣ Install dependencies
       - name: Install dependencies
         run: pip install requests schedule
 
-      - name: Run Telegram Bot
+      # 5️⃣ Run your Python bot
+      - name: Run XAUUSD Telegram Bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python XAUUSDupdate.py
+        run: |
+          # Change directory if your script is inside a folder
+          # cd scripts  # uncomment if your script is inside a 'scripts' folder
+          python XAUUSDupdate.py
