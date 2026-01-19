@@ -2,37 +2,29 @@ import os
 import requests
 from datetime import datetime
 
-# ================== ENV VARIABLES ==================
+# ---------------- CONFIG ----------------
 TWELVEDATA_API_KEY = os.environ.get("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # Can be @username or -100XXXXXXXXXX
+SYMBOL = "XAU/USD"
 
-# ================== SAFETY CHECK ==================
-if not all([TWELVEDATA_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID]):
-    raise RuntimeError("❌ Missing environment variables")
-
-# ================== WEEKDAY CHECK ==================
-# GitHub Actions runs in UTC
-weekday = datetime.utcnow().weekday()  # Mon=0 ... Sun=6
-if weekday >= 5:
-    print("🛑 Weekend detected — no post sent")
+# ---------------- WEEKDAY CHECK ----------------
+weekday = datetime.utcnow().weekday()  # GitHub Actions runs in UTC
+if weekday >= 5:  # 5=Saturday, 6=Sunday
+    print("🛑 Weekend detected — skipping post")
     exit(0)
 
-# ================== FETCH XAUUSD DATA ==================
+# ---------------- FETCH LIVE DATA ----------------
 def get_xauusd():
     url = (
-        "https://api.twelvedata.com/time_series"
-        "?symbol=XAU/USD"
-        "&interval=1day"
-        "&outputsize=2"
-        f"&apikey={TWELVEDATA_API_KEY}"
+        f"https://api.twelvedata.com/time_series"
+        f"?symbol={SYMBOL}&interval=1day&outputsize=2&apikey={TWELVEDATA_API_KEY}"
     )
-
     r = requests.get(url, timeout=20)
     data = r.json()
 
     if "values" not in data:
-        raise RuntimeError(f"❌ TwelveData error: {data}")
+        raise RuntimeError(f"❌ TwelveData API error: {data}")
 
     today = data["values"][0]
     prev = data["values"][1]
@@ -44,7 +36,7 @@ def get_xauusd():
         "prev_close": float(prev["close"]),
     }
 
-# ================== FORMAT TELEGRAM POST ==================
+# ---------------- FORMAT TELEGRAM MESSAGE ----------------
 def build_message(d):
     direction = "🔼" if d["price"] > d["prev_close"] else "🔽"
 
@@ -56,24 +48,21 @@ def build_message(d):
         f"📅 *Prev Close:* ${d['prev_close']:,.2f}"
     )
 
-# ================== SEND TO TELEGRAM ==================
+# ---------------- SEND TO TELEGRAM ----------------
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-
     payload = {
-        "chat_id": TELEGRAM_CHAT_ID,  # MUST be -100xxxxxxxxxx
+        "chat_id": TELEGRAM_CHAT_ID,
         "text": msg,
         "parse_mode": "Markdown",
         "disable_web_page_preview": True,
     }
-
     r = requests.post(url, data=payload, timeout=20)
     print("📨 Telegram response:", r.text)
-
     if not r.ok:
         raise RuntimeError("❌ Telegram message failed")
 
-# ================== MAIN ==================
+# ---------------- MAIN ----------------
 try:
     data = get_xauusd()
     message = build_message(data)
@@ -81,5 +70,5 @@ try:
     print("✅ XAUUSD update sent successfully")
 
 except Exception as e:
-    print("🔥 ERROR:", str(e))
+    print("🔥 ERROR:", e)
     raise
