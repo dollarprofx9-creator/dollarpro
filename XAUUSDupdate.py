@@ -5,14 +5,8 @@ from datetime import datetime
 # ---------------- CONFIG ----------------
 TWELVEDATA_API_KEY = os.environ.get("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # Can be @username or -100XXXXXXXXXX
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # Numeric ID (-100...) or @username
 SYMBOL = "XAU/USD"
-
-# ---------------- WEEKDAY CHECK ----------------
-weekday = datetime.utcnow().weekday()  # GitHub Actions runs in UTC
-if weekday >= 5:  # 5=Saturday, 6=Sunday
-    print("🛑 Weekend detected — skipping post")
-    exit(0)
 
 # ---------------- FETCH LIVE DATA ----------------
 def get_xauusd():
@@ -39,13 +33,16 @@ def get_xauusd():
 # ---------------- FORMAT TELEGRAM MESSAGE ----------------
 def build_message(d):
     direction = "🔼" if d["price"] > d["prev_close"] else "🔽"
+    change = d["price"] - d["prev_close"]
+    percent_change = (change / d["prev_close"]) * 100
 
     return (
         "🟡 *XAUUSD Market Update*\n\n"
         f"💰 *Price:* ${d['price']:,.2f} {direction}\n"
         f"📈 *High:* ${d['high']:,.2f}\n"
         f"📉 *Low:* ${d['low']:,.2f}\n"
-        f"📅 *Prev Close:* ${d['prev_close']:,.2f}"
+        f"📅 *Prev Close:* ${d['prev_close']:,.2f}\n"
+        f"📊 *Change:* ${change:,.2f} ({percent_change:+.2f}%)"
     )
 
 # ---------------- SEND TO TELEGRAM ----------------
