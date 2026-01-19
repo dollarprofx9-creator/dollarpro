@@ -1,71 +1,67 @@
-import os
 import requests
 from datetime import datetime
+import os
 
-# ---------------- CONFIG ----------------
+# ------------------- CONFIG -------------------
 TWELVEDATA_API_KEY = os.environ.get("TWELVEDATA_API_KEY")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # Numeric ID (-100...) or @username
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 SYMBOL = "XAU/USD"
+# ----------------------------------------------
 
-# ---------------- FETCH LIVE DATA ----------------
-def get_xauusd():
-    url = (
-        f"https://api.twelvedata.com/time_series"
-        f"?symbol={SYMBOL}&interval=1day&outputsize=2&apikey={TWELVEDATA_API_KEY}"
-    )
-    r = requests.get(url, timeout=20)
-    data = r.json()
+def get_xauusd_data():
+    url = f"https://api.twelvedata.com/time_series?symbol={SYMBOL}&interval=1day&outputsize=7&apikey={TWELVEDATA_API_KEY}"
+    response = requests.get(url)
+    data = response.json()
 
     if "values" not in data:
-        raise RuntimeError(f"❌ TwelveData API error: {data}")
+        raise Exception(f"Error fetching data: {data}")
 
     today = data["values"][0]
-    prev = data["values"][1]
+    prev_close = float(data["values"][1]["close"])
+    current_price = float(today["close"])
+    high = float(today["high"])
+    low = float(today["low"])
+    
+    weekly_change = ((current_price - float(data["values"][-1]["close"])) / float(data["values"][-1]["close"])) * 100
+    trend_emoji = "🔼" if weekly_change >= 0 else "🔽"
 
     return {
-        "price": float(today["close"]),
-        "high": float(today["high"]),
-        "low": float(today["low"]),
-        "prev_close": float(prev["close"]),
+        "current_price": current_price,
+        "high": high,
+        "low": low,
+        "prev_close": prev_close,
+        "weekly_change": weekly_change,
+        "trend_emoji": trend_emoji
     }
 
-# ---------------- FORMAT TELEGRAM MESSAGE ----------------
-def build_message(d):
-    direction = "🔼" if d["price"] > d["prev_close"] else "🔽"
-    change = d["price"] - d["prev_close"]
-    percent_change = (change / d["prev_close"]) * 100
+def format_telegram_post(data):
+    post = f"🟡 *XAUUSD (Gold) Price Update*\n\n"
+    post += f"💰 *Current Price:* ${data['current_price']:,.2f}\n"
+    post += f"📈 *Day High:* ${data['high']:,.2f} | *Day Low:* ${data['low']:,.2f}\n"
+    post += f"📅 *Prev Close:* ${data['prev_close']:,.2f} | *Weekly Move:* {data['weekly_change']:.2f}% {data['trend_emoji']}"
+    return post
 
-    return (
-        "🟡 *XAUUSD Market Update*\n\n"
-        f"💰 *Price:* ${d['price']:,.2f} {direction}\n"
-        f"📈 *High:* ${d['high']:,.2f}\n"
-        f"📉 *Low:* ${d['low']:,.2f}\n"
-        f"📅 *Prev Close:* ${d['prev_close']:,.2f}\n"
-        f"📊 *Change:* ${change:,.2f} ({percent_change:+.2f}%)"
-    )
-
-# ---------------- SEND TO TELEGRAM ----------------
-def send_telegram(msg):
+def send_to_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": msg,
-        "parse_mode": "Markdown",
-        "disable_web_page_preview": True,
+        "text": message,
+        "parse_mode": "Markdown"
     }
-    r = requests.post(url, data=payload, timeout=20)
-    print("📨 Telegram response:", r.text)
-    if not r.ok:
-        raise RuntimeError("❌ Telegram message failed")
+    response = requests.post(url, data=payload)
+    return response.json()
 
-# ---------------- MAIN ----------------
-try:
-    data = get_xauusd()
-    message = build_message(data)
-    send_telegram(message)
-    print("✅ XAUUSD update sent successfully")
-
-except Exception as e:
-    print("🔥 ERROR:", e)
-    raise
+# ------------------- MAIN -------------------
+today_weekday = datetime.utcnow().weekday()  # UTC for GitHub Actions
+# Nigeria time is UTC+1, 8 AM = 7 AM UTC in cron
+if today_weekday >= 5:
+    print("Weekend detected. Skipping Telegram post.")
+else:
+    try:
+        data = get_xauusd_data()
+        message = format_telegram_post(data)
+        result = send_to_telegram(message)
+        print("Telegram post sent:", result)
+    except Exception as e:
+        print("Error:", e)
