@@ -24,37 +24,35 @@ def get_candles():
 
     return list(reversed(data["values"]))
 
-# ================== SMA CALCULATION ==================
+# ================== SMA ==================
 def sma(values, period):
     closes = [float(v["close"]) for v in values]
     return sum(closes[-period:]) / period
 
 # ================== SIGNAL LOGIC ==================
 def check_signal(candles):
-    curr = candles[-1]  # last closed candle
+    curr = candles[-1]
     sma_value = sma(candles, SMA_PERIOD)
 
     curr_close = float(curr["close"])
     high = float(curr["high"])
     low = float(curr["low"])
 
-    # BUY signal
+    # BUY
     if curr_close > sma_value:
-        entry = curr_close
         sl = low
-        tp = entry + (entry - sl) * 2
-        return "BUY", entry, sl, tp
+        tp = curr_close + (curr_close - sl) * 2
+        return "BUY", curr_close, sl, tp
 
-    # SELL signal
+    # SELL
     if curr_close < sma_value:
-        entry = curr_close
         sl = high
-        tp = entry - (sl - entry) * 2
-        return "SELL", entry, sl, tp
+        tp = curr_close - (sl - curr_close) * 2
+        return "SELL", curr_close, sl, tp
 
     return None
 
-# ================== TELEGRAM SENDER ==================
+# ================== TELEGRAM ==================
 def send_telegram(msg):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
@@ -64,7 +62,7 @@ def send_telegram(msg):
     }
     r = requests.post(url, data=payload, timeout=20)
     if not r.ok:
-        raise RuntimeError(f"Telegram error: {r.text}")
+        raise RuntimeError(r.text)
 
 # ================== MAIN ==================
 try:
@@ -84,8 +82,6 @@ try:
         )
         send_telegram(message)
         print("✅ Signal sent")
-    else:
-        print("ℹ️ No signal")
 
 except Exception as e:
     print("❌ ERROR:", e)
