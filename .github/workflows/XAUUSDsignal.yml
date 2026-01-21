@@ -1,0 +1,32 @@
+name: XAUUSDsignal
+
+on:
+  schedule:
+    # 2:10 PM Nigeria time (WAT = UTC+1 → 13:10 UTC)
+    - cron: "10 13 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  run-signal-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run XAUUSD Signal Bot
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python XAUUSDsignal.py
