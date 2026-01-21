@@ -1,0 +1,29 @@
+name: XAUUSDopen 
+
+on:
+  schedule:
+    # Every day at 7:00 AM Nigeria Time (UTC+1 → 6:00 UTC)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-market-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests pytz
+
+      - name: Run Market Status Bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: XAUUSDopen.py
