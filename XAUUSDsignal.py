@@ -31,24 +31,21 @@ def sma(values, period):
 
 # ================== SIGNAL LOGIC ==================
 def check_signal(candles):
-    prev = candles[-2]
     curr = candles[-1]
+    sma_value = sma(candles, SMA_PERIOD)
 
-    sma_value = sma(candles[:-1], SMA_PERIOD)
-
-    prev_close = float(prev["close"])
     curr_close = float(curr["close"])
     high = float(curr["high"])
     low = float(curr["low"])
 
     # BUY
-    if prev_close < sma_value and curr_close > sma_value:
+    if curr_close > sma_value:
         sl = low
         tp = curr_close + (curr_close - sl) * 2
         return "BUY", curr_close, sl, tp
 
     # SELL
-    if prev_close > sma_value and curr_close < sma_value:
+    if curr_close < sma_value:
         sl = high
         tp = curr_close - (sl - curr_close) * 2
         return "SELL", curr_close, sl, tp
@@ -85,8 +82,6 @@ try:
         )
         send_telegram(message)
         print("✅ Signal sent")
-    else:
-        print("ℹ️ No signal")
 
 except Exception as e:
     print("❌ ERROR:", e)
