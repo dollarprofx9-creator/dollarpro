@@ -1,4 +1,4 @@
-name: XAUUSD SMA Exit Bot
+name: XAUUSDexit
 
 on:
   schedule:
