@@ -5,16 +5,16 @@ from datetime import datetime
 # =======================
 # ENV VARIABLES
 # =======================
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 TWELVE_API_KEY = os.getenv("TWELVE_API_KEY")
 
 # Debug prints
-print("BOT_TOKEN exists:", bool(BOT_TOKEN))
-print("CHAT_ID exists:", CHAT_ID)
-print("TWELVE_API_KEY exists:", bool(TWELVE_API_KEY))
+print("TELEGRAM_BOT_TOKEN exists:", bool(TELEGRAM_BOT_TOKEN))
+print("TELEGRAM_CHAT_ID exists:", TELEGRAM_CHAT_ID)
+print("TWELVE_API_KEY exists:", bool(TWELVEDATA_API_KEY))
 
-if not BOT_TOKEN or not CHAT_ID or not TWELVE_API_KEY:
+if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
     raise RuntimeError("❌ Missing environment variables")
 
 # =======================
