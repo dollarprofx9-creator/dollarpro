@@ -6,8 +6,8 @@ from datetime import datetime
 # ======================
 # ENV VARIABLES
 # ======================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 TWELVE_API_KEY = os.getenv("TWELVE_API_KEY")
 
 if not BOT_TOKEN or not CHAT_ID or not TWELVE_API_KEY:
