@@ -1,11 +1,10 @@
 import os
 import requests
-import pandas as pd
 from datetime import datetime
 
-# -------------------------
+# =======================
 # ENV VARIABLES
-# -------------------------
+# =======================
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
@@ -13,67 +12,50 @@ TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
     raise RuntimeError("❌ Missing environment variables")
 
-# -------------------------
-# CONFIG
-# -------------------------
-SYMBOL = "XAU/USD"
-INTERVAL = "15min"
-SMA_PERIOD = 20
+# =======================
+# ACTIVE TRADE SETTINGS
+# =======================
+try:
+    ENTRY_PRICE = float(os.getenv("ENTRY_PRICE"))
+    STOP_LOSS = float(os.getenv("STOP_LOSS"))
+    TRADE_TYPE = os.getenv("TRADE_TYPE").upper()  # BUY or SELL
+except Exception:
+    raise RuntimeError("❌ Invalid trade environment variables")
 
-# -------------------------
-# FETCH MARKET DATA
-# -------------------------
-def fetch_data():
-    url = "https://api.twelvedata.com/time_series"
+# =======================
+# CALCULATE TP BASED ON 1:2 RISK-REWARD
+# =======================
+def calculate_tp(entry, sl, trade_type):
+    risk = abs(entry - sl)
+    reward = risk * 2
+    if trade_type == "BUY":
+        return entry + reward
+    elif trade_type == "SELL":
+        return entry - reward
+    else:
+        return None
+
+TAKE_PROFIT = calculate_tp(ENTRY_PRICE, STOP_LOSS, TRADE_TYPE)
+
+# =======================
+# FETCH CURRENT XAUUSD PRICE
+# =======================
+def fetch_price():
+    url = "https://api.twelvedata.com/price"
     params = {
-        "symbol": SYMBOL,
-        "interval": INTERVAL,
-        "apikey": TWELVEDATA_API_KEY,
-        "outputsize": SMA_PERIOD + 2  # Need extra for SMA calculation
+        "symbol": "XAU/USD",
+        "apikey": TWELVE_API_KEY
     }
     r = requests.get(url, params=params, timeout=15)
     data = r.json()
-    if "values" not in data:
+    if "price" not in data:
         raise RuntimeError(f"❌ TwelveData error: {data}")
-    df = pd.DataFrame(data["values"])
-    df = df[::-1]  # Oldest to newest
-    df["close"] = df["close"].astype(float)
-    df["high"] = df["high"].astype(float)
-    df["low"] = df["low"].astype(float)
-    df["SMA20"] = df["close"].rolling(SMA_PERIOD).mean()
-    return df
+    return float(data["price"])
 
-# -------------------------
-# DECIDE SIGNAL
-# -------------------------
-def check_signal(df):
-    last_candle = df.iloc[-1]
-    prev_candle = df.iloc[-2]
-
-    # BUY signal: previous close < SMA, current close > SMA
-    if prev_candle["close"] < prev_candle["SMA20"] and last_candle["close"] > last_candle["SMA20"]:
-        trade_type = "BUY"
-        entry = last_candle["close"]
-        stop_loss = last_candle["low"]
-        risk = entry - stop_loss
-        take_profit = entry + 2 * risk
-        return trade_type, entry, stop_loss, take_profit
-
-    # SELL signal: previous close > SMA, current close < SMA
-    elif prev_candle["close"] > prev_candle["SMA20"] and last_candle["close"] < last_candle["SMA20"]:
-        trade_type = "SELL"
-        entry = last_candle["close"]
-        stop_loss = last_candle["high"]
-        risk = stop_loss - entry
-        take_profit = entry - 2 * risk
-        return trade_type, entry, stop_loss, take_profit
-
-    return None, None, None, None
-
-# -------------------------
-# SEND TELEGRAM
-# -------------------------
-def send_telegram(message):
+# =======================
+# SEND TELEGRAM MESSAGE
+# =======================
+def send_telegram(message: str):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": message}
     r = requests.post(url, data=payload, timeout=10)
@@ -81,31 +63,47 @@ def send_telegram(message):
     if not r.ok:
         raise RuntimeError("❌ Telegram message failed")
 
-# -------------------------
-# MAIN
-# -------------------------
+# =======================
+# MAIN EXIT LOGIC
+# =======================
 def main():
-    print("🚀 Running XAUUSD SMA Signal Bot")
+    print("🚀 Running XAUUSD EXIT Bot")
+    price = fetch_price()
+    reason = None
 
-    df = fetch_data()
-    trade_type, entry, sl, tp = check_signal(df)
+    # Check exit conditions
+    if TRADE_TYPE == "BUY":
+        if price <= STOP_LOSS:
+            reason = "Stop Loss Hit ❌"
+        elif price >= TAKE_PROFIT:
+            reason = "Take Profit Reached 🎯"
+    elif TRADE_TYPE == "SELL":
+        if price >= STOP_LOSS:
+            reason = "Stop Loss Hit ❌"
+        elif price <= TAKE_PROFIT:
+            reason = "Take Profit Reached 🎯"
 
-    if not trade_type:
-        print("ℹ️ No SMA signal detected")
+    # Optional: Liquidity low exit at 5 PM UTC
+    # if datetime.utcnow().hour == 17:
+    #     reason = "Liquidity Low — Exit Trade 🕔"
+
+    if not reason:
+        print("ℹ️ No exit condition met")
         return
 
     message = f"""
-📈 XAUUSD SIGNAL ALERT
+🚪 XAUUSD EXIT ALERT
 
-Trade Type: {trade_type}
-Entry Price: {entry:.2f}
-SL: {sl:.2f}
-TP: {tp:.2f}
+Reason: {reason}
+Entry Price: {ENTRY_PRICE:.2f}
+SL: {STOP_LOSS:.2f}
+TP: {TAKE_PROFIT:.2f}
+Exit Price: {price:.2f}
 
 ⏰ Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC
 """
     send_telegram(message.strip())
-    print("✅ Signal sent")
+    print("✅ Exit message sent")
 
 if __name__ == "__main__":
     main()
