@@ -10,7 +10,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 TWELVE_API_KEY = os.getenv("TWELVE_API_KEY")
 
-if not BOT_TOKEN or not CHAT_ID or not TWELVE_API_KEY:
+if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID or not TWELVE_API_KEY:
     raise RuntimeError("❌ Missing environment variables")
 
 # ======================
