@@ -5,11 +5,11 @@ from datetime import datetime
 # ======================
 # ENV VARIABLES
 # ======================
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-API_KEY = os.getenv("TWELVEDATA_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
-if not BOT_TOKEN or not CHAT_ID or not API_KEY:
+if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID or not TWELVEDATA_API_KEY:
     raise RuntimeError("❌ Missing Telegram or TwelveData credentials")
 
 # ======================
