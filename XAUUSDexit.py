@@ -7,7 +7,7 @@ from datetime import datetime
 # =======================
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-TWELVE_API_KEY = os.getenv("TWELVE_API_KEY")
+TWELVE_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
 # Debug prints
 print("TELEGRAM_BOT_TOKEN exists:", bool(TELEGRAM_BOT_TOKEN))
