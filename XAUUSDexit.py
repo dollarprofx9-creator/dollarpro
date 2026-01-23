@@ -28,7 +28,7 @@ def fetch_data():
     params = {
         "symbol": SYMBOL,
         "interval": INTERVAL,
-        "apikey": TWELVE_API_KEY,
+        "apikey": TWELVEDATA_API_KEY,
         "outputsize": SMA_PERIOD + 2  # Need extra for SMA calculation
     }
     r = requests.get(url, params=params, timeout=15)
