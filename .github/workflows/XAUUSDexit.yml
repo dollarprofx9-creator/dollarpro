@@ -1,0 +1,28 @@
+name: XAUUSD Liquidity Exit Alert
+
+on:
+  schedule:
+    - cron: "10 15 * * 1-5"  # 4:10 PM Nigeria time (Mon–Fri)
+  workflow_dispatch:
+
+jobs:
+  liquidity-alert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run liquidity exit bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python XAUUSD_liquidity_exit.py
