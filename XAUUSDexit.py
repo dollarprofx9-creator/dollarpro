@@ -2,30 +2,54 @@ import os
 import requests
 from datetime import datetime
 
+# === ENV (EXACT SECRET NAMES) ===
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
-if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-    raise RuntimeError("❌ Missing Telegram credentials")
+if not TELEGRAM_BOT_TOKEN:
+    raise RuntimeError("❌ TELEGRAM_BOT_TOKEN missing")
 
-def send_telegram(message):
+if not TELEGRAM_CHAT_ID:
+    raise RuntimeError("❌ TELEGRAM_CHAT_ID missing")
+
+if not TWELVEDATA_API_KEY:
+    raise RuntimeError("❌ TWELVEDATA_API_KEY missing")
+
+# === GET LIVE XAUUSD PRICE ===
+def get_price():
+    url = "https://api.twelvedata.com/price"
+    params = {
+        "symbol": "XAU/USD",
+        "apikey": TWELVEDATA_API_KEY
+    }
+    r = requests.get(url, params=params, timeout=10).json()
+    if "price" not in r:
+        raise RuntimeError(f"TwelveData error: {r}")
+    return float(r["price"])
+
+# === SEND TELEGRAM MESSAGE ===
+def send_message(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
-        "text": message
+        "text": text
     }
-    r = requests.post(url, data=payload, timeout=10)
-    if not r.ok:
-        raise RuntimeError(f"Telegram error: {r.text}")
+    response = requests.post(url, data=payload, timeout=10)
+    if not response.ok:
+        raise RuntimeError(f"Telegram error: {response.text}")
 
-message = f"""
-⚠️ XAUUSD LIQUIDITY WARNING
+# === MAIN ===
+price = get_price()
+time_utc = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-Liquidity is dropping.
-Exit all open XAUUSD positions.
+message = (
+    "⚠️ XAUUSD LIQUIDITY WARNING\n\n"
+    "Liquidity is dropping.\n"
+    "Exit all open XAUUSD positions.\n\n"
+    f"📉 Exit Price: {price:.2f}\n"
+    f"⏰ Time: {time_utc}"
+)
 
-⏰ Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC
-"""
-
-send_telegram(message.strip())
-print("✅ Liquidity exit alert sent")
+send_message(message)
+print("✅ Message sent successfully")
