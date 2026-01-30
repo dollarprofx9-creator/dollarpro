@@ -2,7 +2,7 @@ name: XAUUSDexit
 
 on:
   schedule:
-    - cron: "20 15 * * 1-5"  # 4:10 PM Nigeria time (Mon–Fri)
+    - cron: "30 15 * * 1-5"  # 4:10 PM Nigeria time (Mon–Fri)
   workflow_dispatch:
 
 jobs:
