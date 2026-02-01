@@ -9,7 +9,10 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 SYMBOL = "XAU/USD"
 INTERVAL = "15min"
 SMA_PERIOD = 20
-ATR_PERIOD = 14
+
+PIP_VALUE = 0.01
+SL_PIPS = 136
+SL_DISTANCE = SL_PIPS * PIP_VALUE  # 1.36
 
 # ================== FETCH MARKET DATA ==================
 def get_candles():
@@ -28,37 +31,24 @@ def sma(values, period):
     closes = [float(v["close"]) for v in values]
     return sum(closes[-period:]) / period
 
-# ================== ATR CALCULATION ==================
-def atr(values, period):
-    trs = []
-    for i in range(1, len(values)):
-        high = float(values[i]["high"])
-        low = float(values[i]["low"])
-        prev_close = float(values[i-1]["close"])
-        tr = max(high - low, abs(high - prev_close), abs(low - prev_close))
-        trs.append(tr)
-    return sum(trs[-period:]) / period
-
 # ================== SIGNAL LOGIC ==================
 def check_signal(candles):
     curr = candles[-1]  # last closed candle
     sma_value = sma(candles, SMA_PERIOD)
-    atr_value = atr(candles, ATR_PERIOD)
-
     curr_close = float(curr["close"])
 
-    # BUY signal
+    # BUY
     if curr_close > sma_value:
         entry = curr_close
-        sl = entry - atr_value          # SL = entry - ATR
-        tp = entry + 2 * (entry - sl)   # TP = 1:2 RR
+        sl = entry - SL_DISTANCE
+        tp = entry + 2 * SL_DISTANCE
         return "BUY", entry, sl, tp
 
-    # SELL signal
+    # SELL
     if curr_close < sma_value:
         entry = curr_close
-        sl = entry + atr_value          # SL = entry + ATR
-        tp = entry - 2 * (sl - entry)   # TP = 1:2 RR
+        sl = entry + SL_DISTANCE
+        tp = entry - 2 * SL_DISTANCE
         return "SELL", entry, sl, tp
 
     return None
@@ -86,7 +76,7 @@ try:
             f"📡 *XAUUSD SIGNAL*\n\n"
             f"🔔 *Type:* {side}\n"
             f"💰 *Entry:* {entry:.2f}\n"
-            f"🛑 *Stop Loss:* {sl:.2f}\n"
+            f"🛑 *Stop Loss:* {sl:.2f} (136 pips)\n"
             f"🎯 *Take Profit:* {tp:.2f}\n\n"
             f"📊 *Risk–Reward:* 1:2\n"
             f"⏱ *Timeframe:* M15"
