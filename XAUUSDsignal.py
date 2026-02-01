@@ -12,7 +12,8 @@ if not all([API_KEY, BOT_TOKEN, CHAT_ID]):
 SYMBOL = "XAU/USD"
 INTERVAL = "15min"
 SMA_PERIOD = 20
-ATR_PERIOD = 14  # calculated but not displayed
+ATR_PERIOD = 14
+ATR_MULTIPLIER = 1.5   # ✅ requested
 
 # ================== FETCH MARKET DATA ==================
 def get_candles():
@@ -24,14 +25,14 @@ def get_candles():
     data = r.json()
     if "values" not in data:
         raise RuntimeError(data)
-    return list(reversed(data["values"]))
+    return list(reversed(data["values"]))  # oldest → newest
 
 # ================== SMA ==================
 def sma(values, period):
     closes = [float(v["close"]) for v in values]
     return sum(closes[-period:]) / period
 
-# ================== ATR (kept internally) ==================
+# ================== ATR ==================
 def atr(values, period):
     trs = []
     for i in range(1, len(values)):
@@ -48,15 +49,26 @@ def atr(values, period):
 
 # ================== SIGNAL LOGIC ==================
 def check_signal(candles):
-    last = candles[-1]
+    last = candles[-1]  # last CLOSED candle
     close_price = float(last["close"])
+
     sma_value = sma(candles, SMA_PERIOD)
+    atr_value = atr(candles, ATR_PERIOD)
+    sl_distance = atr_value * ATR_MULTIPLIER  # ✅ ATR × 1.5
 
+    # BUY → close above SMA
     if close_price > sma_value:
-        return "BUY", close_price
+        entry = close_price
+        sl = entry - sl_distance
+        tp = entry + (2 * sl_distance)  # 1:2 RR
+        return "BUY", entry, sl, tp
 
+    # SELL → close below SMA
     if close_price < sma_value:
-        return "SELL", close_price
+        entry = close_price
+        sl = entry + sl_distance
+        tp = entry - (2 * sl_distance)  # 1:2 RR
+        return "SELL", entry, sl, tp
 
     return None
 
@@ -78,12 +90,16 @@ try:
     signal = check_signal(candles)
 
     if signal:
-        side, entry = signal
+        side, entry, sl, tp = signal
         message = (
             f"📡 *XAUUSD SIGNAL*\n\n"
             f"🔔 *Type:* {side}\n"
-            f"💰 *Price:* {entry:.2f}\n"
-            f"⏱ *Timeframe:* M15"
+            f"💰 *Entry:* {entry:.2f}\n"
+            f"🛑 *Stop Loss:* {sl:.2f}\n"
+            f"🎯 *Take Profit:* {tp:.2f}\n\n"
+            f"📊 *RR:* 1:2\n"
+            f"📐 *SL Logic:* ATR × 1.5\n"
+            f"⏱ *TF:* M15"
         )
         send_telegram(message)
         print("✅ Signal sent")
