@@ -80,7 +80,7 @@ try:
     if signal:
         side, entry = signal
         message = (
-            f"📡 *XAUUSD SIGNAL*\n\n"
+            f"🚥 *XAUUSD SIGNAL*\n\n"
             f"🔔 *Type:* {side}\n"
             f"💰 *Price:* {entry:.2f}\n"
             f"⏱ *Timeframe:* M15"
