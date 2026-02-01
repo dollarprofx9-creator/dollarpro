@@ -1,95 +1,67 @@
 import os
 import requests
+from datetime import datetime
 
-# ================== CONFIG ==================
-API_KEY = os.environ.get("TWELVEDATA_API_KEY")
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+# =====================
+# REQUIRED SECRETS
+# =====================
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
-if not all([API_KEY, BOT_TOKEN, CHAT_ID]):
-    raise RuntimeError("❌ Missing environment variables")
+if BOT_TOKEN is None:
+    raise RuntimeError("❌ TELEGRAM_BOT_TOKEN not found")
 
-SYMBOL = "XAU/USD"
-INTERVAL = "15min"
-SMA_PERIOD = 20
-ATR_PERIOD = 14  # calculated but not displayed
+if CHAT_ID is None:
+    raise RuntimeError("❌ TELEGRAM_CHAT_ID not found")
 
-# ================== FETCH MARKET DATA ==================
-def get_candles():
-    url = (
-        f"https://api.twelvedata.com/time_series?"
-        f"symbol={SYMBOL}&interval={INTERVAL}&outputsize=50&apikey={API_KEY}"
-    )
-    r = requests.get(url, timeout=20)
-    data = r.json()
-    if "values" not in data:
-        raise RuntimeError(data)
-    return list(reversed(data["values"]))
+if API_KEY is None:
+    raise RuntimeError("❌ TWELVEDATA_API_KEY not found")
 
-# ================== SMA ==================
-def sma(values, period):
-    closes = [float(v["close"]) for v in values]
-    return sum(closes[-period:]) / period
+# =====================
+# FETCH LIVE XAUUSD PRICE
+# =====================
+def get_xauusd_price():
+    url = "https://api.twelvedata.com/price"
+    params = {
+        "symbol": "XAU/USD",
+        "apikey": API_KEY
+    }
+    response = requests.get(url, params=params, timeout=10)
+    data = response.json()
 
-# ================== ATR (kept internally) ==================
-def atr(values, period):
-    trs = []
-    for i in range(1, len(values)):
-        high = float(values[i]["high"])
-        low = float(values[i]["low"])
-        prev_close = float(values[i - 1]["close"])
-        tr = max(
-            high - low,
-            abs(high - prev_close),
-            abs(low - prev_close)
-        )
-        trs.append(tr)
-    return sum(trs[-period:]) / period
+    if "price" not in data:
+        raise RuntimeError(f"❌ TwelveData error: {data}")
 
-# ================== SIGNAL LOGIC ==================
-def check_signal(candles):
-    last = candles[-1]
-    close_price = float(last["close"])
-    sma_value = sma(candles, SMA_PERIOD)
+    return float(data["price"])
 
-    if close_price > sma_value:
-        return "BUY", close_price
-
-    if close_price < sma_value:
-        return "SELL", close_price
-
-    return None
-
-# ================== TELEGRAM ==================
-def send_telegram(msg):
+# =====================
+# SEND TELEGRAM MESSAGE
+# =====================
+def send_telegram(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
-        "text": msg,
-        "parse_mode": "Markdown"
+        "text": text
     }
-    r = requests.post(url, data=payload, timeout=20)
+    r = requests.post(url, data=payload, timeout=10)
     if not r.ok:
-        raise RuntimeError(r.text)
+        raise RuntimeError(f"❌ Telegram error: {r.text}")
 
-# ================== MAIN ==================
-try:
-    candles = get_candles()
-    signal = check_signal(candles)
+# =====================
+# MAIN EXECUTION
+# =====================
+price = get_xauusd_price()
+utc_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
-    if signal:
-        side, entry = signal
-        message = (
-            f"📡 *XAUUSD SIGNAL*\n\n"
-            f"🔔 *Type:* {side}\n"
-            f"💰 *Price:* {entry:.2f}\n"
-            f"⏱ *Timeframe:* M15"
-        )
-        send_telegram(message)
-        print("✅ Signal sent")
-    else:
-        print("ℹ️ No signal")
+message = (
+    "⚠️ XAUUSD LIQUIDITY WARNING\n\n"
+    "Liquidity is dropping.\n"
+    "Exit all open XAUUSD positions.\n\n"
+    f"📉 Exit Price: {price:.2f}\n"
+    f"⏰ Time: {utc_time}"
+)
 
-except Exception as e:
-    print("❌ ERROR:", e)
-    raise
+send_telegram(message)
+
+print("✅ Liquidity exit message sent successfully")
