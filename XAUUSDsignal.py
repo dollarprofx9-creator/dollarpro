@@ -6,13 +6,13 @@ API_KEY = os.environ.get("TWELVEDATA_API_KEY")
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
+if not all([API_KEY, BOT_TOKEN, CHAT_ID]):
+    raise RuntimeError("❌ Missing environment variables")
+
 SYMBOL = "XAU/USD"
 INTERVAL = "15min"
 SMA_PERIOD = 20
-
-PIP_VALUE = 0.01
-SL_PIPS = 136
-SL_DISTANCE = SL_PIPS * PIP_VALUE  # 1.36
+ATR_PERIOD = 14  # calculated but not displayed
 
 # ================== FETCH MARKET DATA ==================
 def get_candles():
@@ -26,30 +26,37 @@ def get_candles():
         raise RuntimeError(data)
     return list(reversed(data["values"]))
 
-# ================== SMA CALCULATION ==================
+# ================== SMA ==================
 def sma(values, period):
     closes = [float(v["close"]) for v in values]
     return sum(closes[-period:]) / period
 
+# ================== ATR (kept internally) ==================
+def atr(values, period):
+    trs = []
+    for i in range(1, len(values)):
+        high = float(values[i]["high"])
+        low = float(values[i]["low"])
+        prev_close = float(values[i - 1]["close"])
+        tr = max(
+            high - low,
+            abs(high - prev_close),
+            abs(low - prev_close)
+        )
+        trs.append(tr)
+    return sum(trs[-period:]) / period
+
 # ================== SIGNAL LOGIC ==================
 def check_signal(candles):
-    curr = candles[-1]  # last closed candle
+    last = candles[-1]
+    close_price = float(last["close"])
     sma_value = sma(candles, SMA_PERIOD)
-    curr_close = float(curr["close"])
 
-    # BUY
-    if curr_close > sma_value:
-        entry = curr_close
-        sl = entry - SL_DISTANCE
-        tp = entry + 2 * SL_DISTANCE
-        return "BUY", entry, sl, tp
+    if close_price > sma_value:
+        return "BUY", close_price
 
-    # SELL
-    if curr_close < sma_value:
-        entry = curr_close
-        sl = entry + SL_DISTANCE
-        tp = entry - 2 * SL_DISTANCE
-        return "SELL", entry, sl, tp
+    if close_price < sma_value:
+        return "SELL", close_price
 
     return None
 
@@ -63,7 +70,7 @@ def send_telegram(msg):
     }
     r = requests.post(url, data=payload, timeout=20)
     if not r.ok:
-        raise RuntimeError(f"Telegram error: {r.text}")
+        raise RuntimeError(r.text)
 
 # ================== MAIN ==================
 try:
@@ -71,14 +78,11 @@ try:
     signal = check_signal(candles)
 
     if signal:
-        side, entry, sl, tp = signal
+        side, entry = signal
         message = (
             f"📡 *XAUUSD SIGNAL*\n\n"
             f"🔔 *Type:* {side}\n"
-            f"💰 *Entry:* {entry:.2f}\n"
-            f"🛑 *Stop Loss:* {sl:.2f} (136 pips)\n"
-            f"🎯 *Take Profit:* {tp:.2f}\n\n"
-            f"📊 *Risk–Reward:* 1:2\n"
+            f"💰 *Price:* {entry:.2f}\n"
             f"⏱ *Timeframe:* M15"
         )
         send_telegram(message)
