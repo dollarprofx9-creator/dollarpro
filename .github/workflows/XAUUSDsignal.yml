@@ -3,7 +3,7 @@ name: XAUUSDsignal
 on:
   schedule:
     # 2:10 PM Nigeria time (WAT = UTC+1 → 13:10 UTC)
-    - cron: "05 14 * * 1-5"
+    - cron: "30 13 * * 1-5"
   workflow_dispatch:
 
 jobs:
