@@ -11,7 +11,7 @@ if not all([API_KEY, BOT_TOKEN, CHAT_ID]):
 
 SYMBOL = "XAU/USD"
 INTERVAL = "15min"
-SMA_PERIOD = 20
+SMA_PERIOD = 10
 ATR_PERIOD = 14  # calculated but not displayed
 
 # ================== FETCH MARKET DATA ==================
