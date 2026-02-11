@@ -79,14 +79,29 @@ try:
 
     if signal:
         side, entry = signal
+
+        # Dynamic SL & TP2 text
+        if side == "BUY":
+            sl_text = "Below pullback low"
+            tp2_text = "Previous high liquidity"
+        else:
+            sl_text = "Above pullback high"
+            tp2_text = "Previous low liquidity"
+
         message = (
             f"🚥 *XAUUSD SIGNAL*\n\n"
             f"🔔 *Type:* {side}\n"
             f"💰 *Price:* {entry:.2f}\n"
-            f"⏱ *Timeframe:* M15"
+            f"⏱ *Timeframe:* M15\n\n"
+            f"📌 *Trade Plan:*\n"
+            f"SL: {sl_text}\n"
+            f"TP1: 1:2 RR\n"
+            f"TP2: {tp2_text}"
         )
+
         send_telegram(message)
         print("✅ Signal sent")
+
     else:
         print("ℹ️ No signal")
 
