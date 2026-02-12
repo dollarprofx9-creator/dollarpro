@@ -19,7 +19,7 @@ def send_telegram(message):
         raise RuntimeError(f"Telegram error: {r.text}")
 
 message = f"""
-⚠️ XAUUSD LIQUIDITY WARNING
+🚥 XAUUSD LIQUIDITY WARNING
 
 Liquidity is dropping.
 Exit all open XAUUSD positions.
