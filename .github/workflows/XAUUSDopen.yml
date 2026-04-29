@@ -1,5 +1,5 @@
 name: XAUUSDopen 
-
+ 
 on:
   schedule:
     # Every day at 7:00 AM Nigeria Time (UTC+1 → 6:00 UTC)
