@@ -4,7 +4,7 @@ import requests
 # ==========================
 # CONFIG
 # ==========================
-API_KEY = os.getenv("TWELVE_DATA_API_KEY")
+API_KEY = os.getenv("TWELVEDATA_API_KEY")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
