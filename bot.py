@@ -56,14 +56,22 @@ else:
 
 message = f"""
 📊 DAILY XAUUSD SIGNAL
+
 Direction: {direction}
+
 Entry: {entry:.2f}
+
 Stop Loss: {sl:.2f}
+
 Take Profit: {tp:.2f}
+
 ATR(14): {atr:.2f}
+
 Risk Reward: 1:2
+
 Timeframe: H1
-Generated Automatically
+
+🤖Generated Automatically
 """
 
 requests.post(
