@@ -1,59 +1,99 @@
 import os
 import requests
-import pandas as pd
 
+# ==========================
+# CONFIG
+# ==========================
 API_KEY = os.getenv("TWELVE_DATA_API_KEY")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
+# Try XAU/USD first. If your account doesn't support it,
+# change to "XAUUSD".
+SYMBOL = "XAU/USD"
+INTERVAL = "1h"
+
+# ==========================
+# GET DATA
+# ==========================
 url = "https://api.twelvedata.com/time_series"
 
 params = {
-    "symbol": "XAU/USD",
-    "interval": "1h",
+    "symbol": SYMBOL,
+    "interval": INTERVAL,
     "outputsize": 100,
-    "apikey": API_KEY
+    "apikey": API_KEY,
 }
 
 response = requests.get(url, params=params)
-data = response.json()["values"]
+result = response.json()
 
-df = pd.DataFrame(data)
-df = df.iloc[::-1]
+print(result)  # Shows API response in GitHub Actions logs
 
-for c in ["open","high","low","close"]:
-    df[c] = df[c].astype(float)
+if "values" not in result:
+    raise Exception(f"Twelve Data API Error:\n{result}")
 
-high = df["high"]
-low = df["low"]
-close = df["close"]
+candles = list(reversed(result["values"]))
 
-prev_close = close.shift()
+# ==========================
+# CONVERT TO FLOATS
+# ==========================
+for candle in candles:
+    candle["open"] = float(candle["open"])
+    candle["high"] = float(candle["high"])
+    candle["low"] = float(candle["low"])
+    candle["close"] = float(candle["close"])
 
-tr = pd.concat([
-    high-low,
-    (high-prev_close).abs(),
-    (low-prev_close).abs()
-], axis=1).max(axis=1)
+# ==========================
+# SMA 50
+# ==========================
+closes = [c["close"] for c in candles]
 
-atr = tr.rolling(14).mean().iloc[-1]
+sma50 = sum(closes[-50:]) / 50
 
-last = df.iloc[-1]
+# ==========================
+# ATR 14
+# ==========================
+trs = []
 
-entry = last["close"]
+for i in range(1, len(candles)):
+    high = candles[i]["high"]
+    low = candles[i]["low"]
+    prev_close = candles[i - 1]["close"]
 
-direction = "BUY" if last["close"] > last["open"] else "SELL"
+    tr = max(
+        high - low,
+        abs(high - prev_close),
+        abs(low - prev_close),
+    )
+
+    trs.append(tr)
+
+atr = sum(trs[-14:]) / 14
+
+# ==========================
+# SIGNAL
+# ==========================
+entry = closes[-1]
+
+if entry > sma50:
+    direction = "BUY"
+else:
+    direction = "SELL"
 
 sl_distance = atr * 1.5
 tp_distance = sl_distance * 2
 
 if direction == "BUY":
-    sl = entry - sl_distance
-    tp = entry + tp_distance
+    stop_loss = entry - sl_distance
+    take_profit = entry + tp_distance
 else:
-    sl = entry + sl_distance
-    tp = entry - tp_distance
+    stop_loss = entry + sl_distance
+    take_profit = entry - tp_distance
 
+# ==========================
+# MESSAGE
+# ==========================
 message = f"""
 📊 DAILY XAUUSD SIGNAL
 
@@ -61,11 +101,13 @@ Direction: {direction}
 
 Entry: {entry:.2f}
 
-Stop Loss: {sl:.2f}
+Stop Loss: {stop_loss:.2f}
 
-Take Profit: {tp:.2f}
+Take Profit: {take_profit:.2f}
 
 ATR(14): {atr:.2f}
+
+SMA(50): {sma50:.2f}
 
 Risk Reward: 1:2
 
@@ -74,12 +116,19 @@ Timeframe: H1
 Generated Automatically
 """
 
-requests.post(
-    f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+print(message)
+
+# ==========================
+# SEND TO TELEGRAM
+# ==========================
+telegram_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+
+telegram_response = requests.post(
+    telegram_url,
     data={
         "chat_id": CHAT_ID,
         "text": message
     }
 )
 
-print(message)
+print(telegram_response.text)
