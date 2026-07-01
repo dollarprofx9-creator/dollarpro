@@ -22,7 +22,7 @@ jobs:
           pip install requests pandas numpy
 
       - name: Run Bot
-        run: python bot.py
+        run: python signal.py
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
