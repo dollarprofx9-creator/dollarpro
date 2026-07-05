@@ -7,9 +7,8 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 message = """
 ⏰ TRADE UPDATE
 
-✅ Close all open positions.
-
-Do not hold this trade beyond the recommended time window.
+✅ Close all open positions,
+and wait for the next signal 👇.
 
 🤖 Automated Trade Management
 """
