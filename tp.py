@@ -7,9 +7,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 message = """
 ⏰ TRADE UPDATE
 
-The signal has reached its maximum holding time.
-
-✅ Take profit immediately and close all open positions.
+✅ Close all open positions.
 
 Do not hold this trade beyond the recommended time window.
 
