@@ -8,7 +8,7 @@ message = """
 ⏰ TRADE UPDATE
 
 ✅ Close all open positions,
-and wait for the next signal 👇.
+and get ready for the next signal 👇.
 
 🤖 Automated Trade Management
 """
