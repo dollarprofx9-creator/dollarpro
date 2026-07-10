@@ -72,6 +72,8 @@ Risk Reward: 1:2
 Timeframe: H1
 
 🤖Generated Automatically
+
+Apply risk management ⚠️
 """
 
 requests.post(
