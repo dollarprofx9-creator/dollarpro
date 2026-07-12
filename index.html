@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Soccer9 - Daily Football Predictions</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+  <style>
+    :root {
+      --primary-red: #e60000;
+      --dark-bg: #0f1419;
+      --card-bg: #1a1f2e;
+      --light-card: #ffffff;
+      --green-accent: #00c853;
+      --green-glow: rgba(0, 200, 83, 0.3);
+      --text-primary: #ffffff;
+      --text-secondary: #8899a6;
+      --text-dark: #1a1f2e;
+      --border-subtle: rgba(255,255,255,0.08);
+      --success: #00c853;
+      --warning: #ffab00;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--dark-bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .app-container {
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100vh;
+      position: relative;
+      background: var(--dark-bg);
+    }
+
+    /* Header */
+    .header {
+      background: var(--primary-red);
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(230, 0, 0, 0.3);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-name {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+
+    .brand-flag {
+      width: 24px;
+      height: 16px;
+      background: linear-gradient(180deg, #008751 33%, #ffffff 33%, #ffffff 66%, #008751 66%);
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .brand-flag::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #008751;
+      border-radius: 50%;
+    }
+
+    .header-right {
+      text-align: right;
+    }
+
+    .header-label {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .header-date {
+      font-size: 11px;
+      opacity: 0.7;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #1a1f2e 0%, #0f1419 100%);
+      padding: 24px 16px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 200, 83, 0.15);
+      color: var(--green-accent);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      border: 1px solid rgba(0, 200, 83, 0.2);
+    }
+
+    .hero-badge .pulse {
+      width: 8px;
+      height: 8px;
+      background: var(--green-accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+
+    .hero h1 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      background: linear-gradient(135deg, #fff 0%, #8899a6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-sub {
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    /* Date Tabs */
+    .date-tabs {
+      display: flex;
+      gap: 8px;
+      padding: 0 16px;
+      margin-bottom: 16px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .date-tabs::-webkit-scrollbar {
+      display: none;
+    }
+
+    .date-tab {
+      flex-shrink: 0;
+      padding: 10px 18px;
+      border-radius: 12px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+      min-width: 80px;
+      user-select: none;
+    }
+
+    .date-tab.active {
+      background: var(--green-accent);
+      color: #000;
+      border-color: var(--green-accent);
+      box-shadow: 0 4px 15px rgba(0, 200, 83, 0.3);
+    }
+
+    .date-tab .day-name {
+      font-size: 11px;
+      opacity: 0.8;
+      display: block;
+    }
+
+    .date-tab .day-date {
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    /* Win Rate */
+    .win-rate-section {
+      margin: 0 16px 16px;
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 16px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .win-rate-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .win-rate-label {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .win-rate-value {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--green-accent);
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--green-accent), #00e676);
+      border-radius: 4px;
+      transition: width 1s ease;
+      width: 0%;
+    }
+
+    /* Trust Badges */
+    .trust-bar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 16px;
+      margin: 0 16px 16px;
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .trust-item {
+      text-align: center;
+    }
+
+    .trust-icon {
+      font-size: 20px;
+      margin-bottom: 4px;
+      color: var(--green-accent);
+    }
+
+    .trust-text {
+      font-size: 11px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    /* Booking Code Card */
+    .booking-card {
+      background: var(--card-bg);
+      margin: 16px;
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid var(--border-subtle);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .booking-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--green-accent), #00e676);
+    }
+
+    .booking-label {
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .booking-code {
+      font-size: 36px;
+      font-weight: 900;
+      color: var(--green-accent);
+      letter-spacing: 4px;
+      text-shadow: 0 0 20px var(--green-glow);
+      margin-bottom: 16px;
+      font-family: 'Courier New', 'SF Mono', monospace;
+      word-break: break-all;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .stat-value.odds {
+      color: var(--green-accent);
+    }
+
+    /* Section Headers */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+      margin: 20px 0 12px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--green-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .match-count {
+      background: rgba(0, 200, 83, 0.15);
+      color: var(--green-accent);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* Match Cards */
+    .matches-container {
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .match-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 16px;
+      border: 1px solid var(--border-subtle);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .match-card:hover {
+      border-color: rgba(0, 200, 83, 0.3);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .match-card.won {
+      border-color: rgba(0, 200, 83, 0.4);
+    }
+
+    .match-card.won::after {
+      content: 'WON';
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: var(--green-accent);
+      color: #000;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    .match-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .prediction-tag {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .prediction-tag .ball-icon {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #1a1f2e, #2a3040);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      border: 1px solid var(--border-subtle);
+      color: var(--green-accent);
+    }
+
+    .prediction-text {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .odds-badge {
+      background: linear-gradient(135deg, rgba(0, 200, 83, 0.15), rgba(0, 200, 83, 0.05));
+      color: var(--green-accent);
+      padding: 6px 14px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 800;
+      border: 1px solid rgba(0, 200, 83, 0.2);
+    }
+
+    .match-teams {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+      padding-left: 36px;
+    }
+
+    .match-teams strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .match-market {
+      font-size: 12px;
+      color: var(--text-secondary);
+      padding-left: 36px;
+      font-weight: 500;
+    }
+
+    .match-time {
+      font-size: 11px;
+      color: var(--warning);
+      padding-left: 36px;
+      margin-top: 6px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .match-time i {
+      font-size: 12px;
+    }
+
+    /* Summary Card */
+    .summary-card {
+      background: linear-gradient(135deg, rgba(0, 200, 83, 0.08), rgba(0, 200, 83, 0.02));
+      margin: 16px;
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid rgba(0, 200, 83, 0.15);
+    }
+
+    .summary-title {
+      font-size: 13px;
+      color: var(--green-accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .summary-row:last-child {
+      border-bottom: none;
+    }
+
+    .summary-label {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .summary-value {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .summary-value.payout {
+      color: var(--green-accent);
+      font-size: 20px;
+    }
+
+    /* CTA Button */
+    .cta-section {
+      padding: 16px;
+      padding-bottom: 32px;
+    }
+
+    .cta-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--green-accent), #00e676);
+      color: #000;
+      border: none;
+      padding: 16px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      box-shadow: 0 4px 20px rgba(0, 200, 83, 0.3);
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0, 200, 83, 0.4);
+    }
+
+    .cta-btn:active {
+      transform: translateY(0);
+    }
+
+    .cta-btn i {
+      font-size: 18px;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      padding: 0 16px 24px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--card-bg);
+      color: var(--green-accent);
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      border: 1px solid rgba(0, 200, 83, 0.3);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .toast i {
+      font-size: 16px;
+    }
+
+    /* Responsive */
+    @media (min-width: 768px) {
+      body {
+        background: #0a0e14;
+      }
+      .app-container {
+        max-width: 520px;
+        box-shadow: 0 0 60px rgba(0,0,0,0.5);
+      }
+    }
+
+    @media (max-width: 360px) {
+      .booking-code {
+        font-size: 28px;
+        letter-spacing: 2px;
+      }
+      .stats-row {
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+      <img src="data:image/png;base64,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" alt="Soccer9" style="height:36px; width:auto; display:block;">
+      </div>
+      <div class="header-right">
+        <div class="header-label">Betslip</div>
+        <div class="header-date" id="currentDate">22/10/2023 13:07</div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge">
+        <span class="pulse"></span>
+        Today's High Rate Picks
+      </div>
+      <h1>Soccer9 Daily Sure 5</h1>
+      <p class="hero-sub">Expert analyzed matches with highest win probability</p>
+    </section>
+
+
+    <!-- Win Rate -->
+    <div class="win-rate-section">
+      <div class="win-rate-header">
+        <span class="win-rate-label">This Week's Accuracy</span>
+        <span class="win-rate-value">87%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <!-- Trust Badges -->
+    <div class="trust-bar">
+      <div class="trust-item">
+        <div class="trust-icon"><i class="ri-shield-check-line"></i></div>
+        <div class="trust-text">Verified</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon"><i class="ri-flashlight-line"></i></div>
+        <div class="trust-text">Daily Updates</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon"><i class="ri-bar-chart-line"></i></div>
+        <div class="trust-text">Stats Based</div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon"><i class="ri-trophy-line"></i></div>
+        <div class="trust-text">High Rate</div>
+      </div>
+    </div>
+
+   
+
+    <!-- Matches -->
+    <div class="section-header">
+      <span class="section-title">Selections</span>
+      <span class="match-count">5 Matches</span>
+    </div>
+
+    <div class="matches-container" id="matchesContainer">
+      <!-- Populated by JS -->
+    </div>
+
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <button class="cta-btn"><i class="ri-money-dollar-circle-line"></i> Place bet</button>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+      Predictions are based on statistical analysis and historical data.<br>
+      Bet responsibly. 18+ only. Gambling involves risk.
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"><i class="ri-check-line"></i> <span id="toastText"></span></div>
+
+  <script>
+    // Match data for all days
+    const matchData = {
+    
+      1: {
+        code: '8317452',
+        odds: '2.41',
+        bonus: '3.00%',
+        matches: [
+          { pred: 'Over 1.5', odds: '1.22', home: "Cologne", away: "Borussia M'gladbach", market: 'Over/Under', time: 'Today, 19:30' },
+          { pred: 'Over 1.5', odds: '1.15', home: 'Monaco', away: 'Metz', market: 'Over/Under', time: 'Today, 20:00' },
+          { pred: 'Over 1.5', odds: '1.20', home: 'Aston Villa', away: 'West Ham', market: 'Over/Under', time: 'Today, 20:15' },
+          { pred: 'Over 0.5', odds: '1.15', home: 'Atalanta', away: 'Genoa', market: 'Home Team Over/Under', time: 'Today, 18:30' },
+          { pred: 'Over 0.5', odds: '1.10', home: 'Asteras Tripolis', away: 'AEK Athens', market: 'Away Team Over/Under', time: 'Today, 19:00' }
+        ]
+      },
+      
+    };
+
+    let currentDay = 1;
+
+    // Update date display
+    function updateDate() {
+      const now = new Date();
+      const day = String(now.getDate()).padStart(2, '0');
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const year = now.getFullYear();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const mins = String(now.getMinutes()).padStart(2, '0');
+      document.getElementById('currentDate').textContent = day + '/' + month + '/' + year + ' ' + hours + ':' + mins;
+    }
+    updateDate();
+    setInterval(updateDate, 60000);
+
+    // Animate progress bar
+    setTimeout(function() {
+      document.getElementById('progressFill').style.width = '87%';
+    }, 300);
+
+    // Show toast
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastText').textContent = message;
+      toast.classList.add('show');
+      setTimeout(function() {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+
+
+    // Copy booking code
+    function copyCode() {
+      const code = document.getElementById('bookingCode').textContent;
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(code).then(function() {
+          showToast('Booking code copied!');
+        }).catch(function() {
+          fallbackCopy(code);
+        });
+      } else {
+        fallbackCopy(code);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        showToast('Booking code copied!');
+      } catch (err) {
+        showToast('Code: ' + text);
+      }
+      document.body.removeChild(textarea);
+    }
+
+    // Render matches
+    function renderMatches(dayIndex) {
+      const data = matchData[dayIndex];
+      const container = document.getElementById('matchesContainer');
+      container.innerHTML = '';
+
+      data.matches.forEach(function(match) {
+        const card = document.createElement('div');
+        card.className = 'match-card' + (match.won ? ' won' : '');
+        card.onclick = function() { toggleWon(this); };
+        card.innerHTML =
+          '<div class="match-top">' +
+            '<div class="prediction-tag">' +
+              '<div class="ball-icon"><i class="ri-football-line"></i></div>' +
+              '<span class="prediction-text">' + match.pred + '</span>' +
+            '</div>' +
+            '<div class="odds-badge">' + match.odds + '</div>' +
+          '</div>' +
+          '<div class="match-teams"><strong>' + match.home + '</strong> vs <strong>' + match.away + '</strong></div>' +
+          '<div class="match-market">' + match.market + '</div>' +
+          '<div class="match-time"><i class="ri-time-line"></i> ' + match.time + '</div>';
+        container.appendChild(card);
+      });
+    }
+
+    // Switch date tabs
+    function switchTab(tab, dayIndex) {
+      currentDay = dayIndex;
+      document.querySelectorAll('.date-tab').forEach(function(t) {
+        t.classList.remove('active');
+      });
+      tab.classList.add('active');
+
+      const data = matchData[dayIndex];
+      document.getElementById('bookingCode').textContent = data.code;
+      document.getElementById('totalOdds').textContent = data.odds;
+      document.getElementById('maxBonus').textContent = data.bonus;
+
+      renderMatches(dayIndex);
+    }
+
+    // Initial render
+    renderMatches(1);
+  </script>
+</body>
+</html>
