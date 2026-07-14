@@ -1,6 +1,7 @@
 import os
 import requests
 import pandas as pd
+from twelvedata import TDClient  # Official SDK to bypass Cloudflare protection
 
 # Load Environment Variables
 API_KEY = os.getenv("TWELVEDATA_API_KEY")
@@ -8,70 +9,44 @@ BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 if not API_KEY:
-    print("❌ Error: 'TWELVEDATA_API_KEY' is missing or not set in environment secrets.")
-    exit(0)  # Changed to 0 so GitHub Actions doesn't show a red failure mark on setup gaps
-
-url = "https://twelvedata.com"
-
-params = {
-    "symbol": "XAU/USD",
-    "interval": "15min",   
-    "outputsize": 300,  
-    "apikey": API_KEY
-}
+    print("❌ Error: 'TWELVEDATA_API_KEY' is missing from environment secrets.")
+    exit(0)
 
 try:
-    # Explicit User-Agent added to bypass strict CDN scraper/bot blocks
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
+    # Initialize the official Twelve Data client
+    td = TDClient(apikey=API_KEY)
     
-    response = requests.get(url, params=params, headers=headers)
+    # Fetch historical data natively as a Pandas DataFrame
+    # The SDK bypasses cloud protection layers and handles underlying HTTP requests safely
+    ts = td.time_series(
+        symbol="XAU/USD",
+        interval="15min",
+        outputsize=300
+    )
     
-    # 1. Print status and inspect if Content-Type is actually JSON
-    content_type = response.headers.get("Content-Type", "")
+    df = ts.as_pandas()
     
-    if response.status_code != 200:
-        print(f"❌ API Server Error Status: {response.status_code}")
-        print(f"📄 Response Content-Type: {content_type}")
-        print(f"💬 Snippet of raw body received:\n{response.text[:500]}")
-        exit(0)
-        
-    if "application/json" not in content_type:
-        print("⚠️ Warning: The server responded with HTTP 200 but did NOT send application/json!")
-        print(f"📄 Detected Content-Type: {content_type}")
-        print(f"💬 Raw content preview (likely an HTML rate limit or authorization wall):\n{response.text[:500]}")
-        exit(0)
-        
-    try:
-        res_data = response.json()
-    except Exception as json_err:
-        print(f"❌ Failed parsing text body into JSON dict structure: {json_err}")
-        print(f"💬 Body payload context:\n{response.text[:500]}")
-        exit(0)
-    
-    if "values" not in res_data:
-        print("❌ API Error payload returned inside JSON dictionary format:")
-        print(res_data)
-        exit(0)
-        
-    data = res_data["values"]
-    df = pd.DataFrame(data)
-    df = df.iloc[::-1].reset_index(drop=True)  
+    # The SDK automatically returns chronological, float-mapped historical candles, 
+    # but we force reverse sorting to match the original oldest-to-newest logic.
+    df = df.iloc[::-1].reset_index(drop=True)
 
+    # Ensure technical float integrity 
     for c in ["open", "high", "low", "close"]:
         df[c] = df[c].astype(float)
 
-    # --- Technical Indicators ---
+    # --- Pure Pandas Technical Indicators ---
+    # 1. EMA Calculations
     df["ema_50"] = df["close"].ewm(span=50, adjust=False).mean()
     df["ema_200"] = df["close"].ewm(span=200, adjust=False).mean()
     
+    # 2. RSI Calculation
     delta = df["close"].diff()
     gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
     rs = gain / (loss + 1e-10)
     df["rsi"] = 100 - (100 / (1 + rs))
     
+    # 3. ATR Calculation
     prev_close = df["close"].shift(1)
     tr = pd.concat([
         df["high"] - df["low"],
@@ -80,15 +55,18 @@ try:
     ], axis=1).max(axis=1)
     df["atr"] = tr.rolling(window=14).mean()
 
+    # Capture candle high/low points from previous interval
     df["prev_high"] = df["high"].shift(1)
     df["prev_low"] = df["low"].shift(1)
 
+    # Extract the target current candle data point
     last = df.iloc[-1]
 
     if pd.isna(last["ema_200"]) or pd.isna(last["rsi"]) or pd.isna(last["atr"]):
         print("❌ Error: Insufficient historical candles to compute indicator metrics.")
         exit(0)
 
+    # Extract required strategy values
     entry = last["close"]
     ema50 = last["ema_50"]
     ema200 = last["ema_200"]
@@ -182,4 +160,4 @@ Generated Automatically 🤖"""
         print(f"Current Market Data -> Entry: {entry:.2f} | RSI: {rsi_val:.1f} | EMA50: {ema50:.2f} | EMA200: {ema200:.2f}")
 
 except Exception as e:
-    print(f"❌ Script failed unexpectedly: {e}")
+    print(f"❌ Script failed unexpectedly during client fetch or calculation: {e}")
