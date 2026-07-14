@@ -10,7 +10,7 @@ url = "https://api.twelvedata.com/time_series"
 
 params = {
     "symbol": "XAU/USD",
-    "interval": "1h",
+    "interval": "15min",   # Changed from 1h to 15min
     "outputsize": 100,
     "apikey": API_KEY
 }
@@ -21,7 +21,7 @@ data = response.json()["values"]
 df = pd.DataFrame(data)
 df = df.iloc[::-1]
 
-for c in ["open","high","low","close"]:
+for c in ["open", "high", "low", "close"]:
     df[c] = df[c].astype(float)
 
 high = df["high"]
@@ -31,9 +31,9 @@ close = df["close"]
 prev_close = close.shift()
 
 tr = pd.concat([
-    high-low,
-    (high-prev_close).abs(),
-    (low-prev_close).abs()
+    high - low,
+    (high - prev_close).abs(),
+    (low - prev_close).abs()
 ], axis=1).max(axis=1)
 
 atr = tr.rolling(14).mean().iloc[-1]
@@ -55,7 +55,7 @@ else:
     tp = entry - tp_distance
 
 message = f"""
-📊 DAILY XAUUSD SIGNAL
+📊 M15 XAUUSD SIGNAL
 
 Direction: {direction}
 
@@ -69,9 +69,9 @@ ATR(14): {atr:.2f}
 
 Risk Reward: 1:2
 
-Timeframe: H1
+Timeframe: M15
 
-🤖Generated Automatically
+🤖 Generated Automatically
 
 Apply risk management ⚠️
 """
