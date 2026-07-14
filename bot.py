@@ -1,14 +1,13 @@
 import os
 import requests
 import pandas as pd
-import pandas_ta as ta  # Efficient technical analysis library
 
 # Load Environment Variables
 API_KEY = os.getenv("TWELVEDATA_API_KEY")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-url = "https://api.twelvedata.com/time_series"
+url = "https://twelvedata.com"
 
 # Increased outputsize to 300 to ensure enough data for EMA 200 and RSI 14
 params = {
@@ -34,11 +33,27 @@ try:
     for c in ["open", "high", "low", "close"]:
         df[c] = df[c].astype(float)
 
-    # Calculate Technical Indicators using pandas_ta
-    df["ema_50"] = ta.ema(df["close"], length=50)
-    df["ema_200"] = ta.ema(df["close"], length=200)
-    df["rsi"] = ta.rsi(df["close"], length=14)
-    df["atr"] = ta.atr(df["high"], df["low"], df["close"], length=14)
+    # --- Pure Pandas Technical Indicators Calculations ---
+    
+    # 1. EMA Calculations
+    df["ema_50"] = df["close"].ewm(span=50, adjust=False).mean()
+    df["ema_200"] = df["close"].ewm(span=200, adjust=False).mean()
+    
+    # 2. RSI Calculation
+    delta = df["close"].diff()
+    gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+    rs = gain / loss
+    df["rsi"] = 100 - (100 / (1 + rs))
+    
+    # 3. ATR Calculation
+    prev_close = df["close"].shift(1)
+    tr = pd.concat([
+        df["high"] - df["low"],
+        (df["high"] - prev_close).abs(),
+        (df["low"] - prev_close).abs()
+    ], axis=1).max(axis=1)
+    df["atr"] = tr.rolling(window=14).mean()
 
     # Shift columns to easily access historical data relative to current row
     df["prev_high"] = df["high"].shift(1)
@@ -54,9 +69,6 @@ try:
 
     # Extract required strategy values
     entry = last["close"]
-    open_p = last["open"]
-    high = last["high"]
-    low = last["low"]
     ema50 = last["ema_50"]
     ema200 = last["ema_200"]
     rsi_val = last["rsi"]
@@ -97,7 +109,6 @@ try:
             sl = entry + sl_distance
             tp = entry - tp_distance
 
-        # Note: 'Confidence' is kept as a visual template placeholder based on your example
         message = f"""📊 XAU/USD M15 SIGNAL
 
 {emoji} {direction}
@@ -126,7 +137,7 @@ Risk Reward:
 Generated Automatically 🤖"""
 
         # Send message to Telegram
-        telegram_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+        telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
         telegram_res = requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
         
         print("Signal sent successfully!")
