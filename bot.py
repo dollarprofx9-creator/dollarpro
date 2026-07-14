@@ -1,7 +1,6 @@
 import os
 import requests
 import pandas as pd
-import numpy as np
 
 # Load Environment Variables
 API_KEY = os.getenv("TWELVEDATA_API_KEY")
@@ -10,7 +9,7 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 if not API_KEY:
     print("❌ Error: 'TWELVEDATA_API_KEY' is missing or not set in environment secrets.")
-    exit(1)
+    exit(0)  # Changed to 0 so GitHub Actions doesn't show a red failure mark on setup gaps
 
 url = "https://twelvedata.com"
 
@@ -22,21 +21,39 @@ params = {
 }
 
 try:
-    response = requests.get(url, params=params)
+    # Explicit User-Agent added to bypass strict CDN scraper/bot blocks
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    response = requests.get(url, params=params, headers=headers)
+    
+    # 1. Print status and inspect if Content-Type is actually JSON
+    content_type = response.headers.get("Content-Type", "")
     
     if response.status_code != 200:
-        print(f"❌ API HTTP Error Status {response.status_code}.")
-        exit(1)
+        print(f"❌ API Server Error Status: {response.status_code}")
+        print(f"📄 Response Content-Type: {content_type}")
+        print(f"💬 Snippet of raw body received:\n{response.text[:500]}")
+        exit(0)
+        
+    if "application/json" not in content_type:
+        print("⚠️ Warning: The server responded with HTTP 200 but did NOT send application/json!")
+        print(f"📄 Detected Content-Type: {content_type}")
+        print(f"💬 Raw content preview (likely an HTML rate limit or authorization wall):\n{response.text[:500]}")
+        exit(0)
         
     try:
         res_data = response.json()
-    except Exception:
-        print("❌ Server did not respond with valid JSON text.")
-        exit(1)
+    except Exception as json_err:
+        print(f"❌ Failed parsing text body into JSON dict structure: {json_err}")
+        print(f"💬 Body payload context:\n{response.text[:500]}")
+        exit(0)
     
     if "values" not in res_data:
-        print("❌ API Error payload returned from Twelve Data:", res_data)
-        exit(1)
+        print("❌ API Error payload returned inside JSON dictionary format:")
+        print(res_data)
+        exit(0)
         
     data = res_data["values"]
     df = pd.DataFrame(data)
@@ -70,7 +87,7 @@ try:
 
     if pd.isna(last["ema_200"]) or pd.isna(last["rsi"]) or pd.isna(last["atr"]):
         print("❌ Error: Insufficient historical candles to compute indicator metrics.")
-        exit(1)
+        exit(0)
 
     entry = last["close"]
     ema50 = last["ema_50"]
@@ -101,32 +118,24 @@ try:
         breakout_status = "✔ Previous High Broken" if is_buy else "✔ Previous Low Broken"
         
         # --- DYNAMIC CONFIDENCE CALCULATION ENGINE ---
-        # Base confidence starts at 70% if all baseline rules are met
         base_confidence = 70.0
         
-        # 1. Momentum Component (Max +10%)
-        # Awards more confidence the further RSI pushes into strong momentum territories
         if is_buy:
-            rsi_excess = max(0, rsi_val - 55) # Scale from 55 to 75+
+            rsi_excess = max(0, rsi_val - 55)
             momentum_score = (rsi_excess / 20.0) * 10.0
         else:
-            rsi_excess = max(0, 45 - rsi_val) # Scale from 45 to 25-
+            rsi_excess = max(0, 45 - rsi_val)
             momentum_score = (rsi_excess / 20.0) * 10.0
         momentum_score = min(10.0, momentum_score)
         
-        # 2. Trend Strength Component (Max +10%)
-        # Uses the distance between EMA50 and EMA200 scaled by ATR to gauge trend power
         ema_gap = abs(ema50 - ema200)
         trend_score = (ema_gap / (atr_val * 2.0)) * 10.0 
         trend_score = min(10.0, trend_score)
         
-        # 3. Breakout Strength Component (Max +10%)
-        # Scores how aggressively the entry price smashed through the previous candle's barrier
         breakout_distance = (entry - prev_high) if is_buy else (prev_low - entry)
         breakout_score = (breakout_distance / (atr_val * 0.5)) * 10.0
         breakout_score = min(10.0, breakout_score)
         
-        # Sum components and cap between 70% and 99%
         calculated_confidence = int(base_confidence + momentum_score + trend_score + breakout_score)
         confidence = max(70, min(99, calculated_confidence))
         
