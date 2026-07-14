@@ -18,7 +18,7 @@ message = (
     "✅ Trust the process and let probabilities play out.\n\n"
     "The goal isn't to win every trade—it's to stay consistent, protect your capital, "
     "and grow steadily over the long run.\n\n"
-    "Trade smart. Stay disciplined. Success is built one well-managed trade at a time. 📈⚠️"
+    "Trade smart. Stay disciplined. Success is built one well-managed trade at a time."
 )
 
 url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
