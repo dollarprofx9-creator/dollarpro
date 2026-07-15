@@ -8,8 +8,15 @@ API_KEY = os.getenv("TWELVEDATA_API_KEY")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-if not API_KEY:
-    print("❌ Error: 'TWELVEDATA_API_KEY' is missing from environment secrets.")
+# --- STRICT CONFIGURATION VERIFICATION ---
+missing_vars = []
+if not API_KEY: missing_vars.append("TWELVEDATA_API_KEY")
+if not BOT_TOKEN: missing_vars.append("TELEGRAM_BOT_TOKEN")
+if not CHAT_ID: missing_vars.append("TELEGRAM_CHAT_ID")
+
+if missing_vars:
+    print(f"❌ Configuration Error: Missing environment variables: {', '.join(missing_vars)}")
+    print("👉 Please add these keys into your GitHub Repository -> Settings -> Secrets and Variables -> Actions.")
     exit(0)
 
 try:
@@ -76,6 +83,7 @@ try:
     is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy and cond_break_buy
     is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell and cond_break_sell
 
+    # Securely construct the endpoint URL
     telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
 
     if is_buy or is_sell:
@@ -156,9 +164,13 @@ Timeframe: M15
 Generated Automatically 🤖"""
 
     # Broadcast message to your channel
-    requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
-    print("🚀 Channel update broadcasted successfully.")
-    print(message)
+    response = requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
+    
+    if response.status_code == 200:
+        print("🚀 Channel update broadcasted successfully.")
+        print(message)
+    else:
+        print(f"❌ Telegram API Error ({response.status_code}): {response.text}")
 
 except Exception as e:
     print(f"❌ Script failed unexpectedly: {e}")
