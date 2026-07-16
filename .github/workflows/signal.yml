@@ -2,7 +2,6 @@ name: Daily XAUUSD Signal
 
 on:
   schedule:
-    # Runs every 15 minutes (e.g., :00, :15, :30, :45) Monday through Friday
     - cron: "*/15 * * * 1-5"
   workflow_dispatch:
 
@@ -23,8 +22,8 @@ jobs:
           pip install requests pandas numpy twelvedata
 
       - name: Run Bot
-        run: python bot.py
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bot.py
