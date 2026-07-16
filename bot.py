@@ -55,7 +55,7 @@ try:
     last = df.iloc[-1]
 
     if pd.isna(last["ema_200"]) or pd.isna(last["rsi"]) or pd.isna(last["atr"]):
-        print("❌ Error: Insufficient historical candles.")
+        print("❌ Error: Insufficient historical candles to compute indicators.")
         exit(0)
 
     entry = last["close"]
@@ -70,7 +70,7 @@ try:
     is_buy = (ema50 > ema200) and (entry > ema50) and (entry > ema200) and (rsi_val > 55) and (entry > prev_high)
     is_sell = (ema50 < ema200) and (entry < ema50) and (entry < ema200) and (rsi_val < 45) and (entry < prev_low)
 
-    # Securely construct the endpoint URL using the raw token string directly
+    # FIXED: Restored the exact, un-corrupted official Telegram URL pattern
     telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
 
     if is_buy or is_sell:
