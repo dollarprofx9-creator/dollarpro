@@ -83,21 +83,22 @@ try:
     cond_ema_buy = ema50 > ema200
     cond_price_buy = (entry > ema50) and (entry > ema200)
     cond_rsi_buy = rsi_val > 55
-    cond_break_buy = entry > prev_high
 
     cond_ema_sell = ema50 < ema200
     cond_price_sell = (entry < ema50) and (entry < ema200)
     cond_rsi_sell = rsi_val < 45
-    cond_break_sell = entry < prev_low
 
-    is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy and cond_break_buy
-    is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell and cond_break_sell
+    is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy
+    is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell
 
     if is_buy or is_sell:
         direction = "BUY" if is_buy else "SELL"
         emoji = "🟢" if is_buy else "🔴"
         trend_status = "✔ EMA50 > EMA200" if is_buy else "✔ EMA50 < EMA200"
-        breakout_status = "✔ Previous High Broken" if is_buy else "✔ Previous Low Broken"
+        if is_buy:
+            breakout_status = "✔ Previous High Broken" if entry > prev_high else "— Previous High Not Yet Broken"
+        else:
+            breakout_status = "✔ Previous Low Broken" if entry < prev_low else "— Previous Low Not Yet Broken"
 
         # --- DYNAMIC CONFIDENCE CALCULATION ENGINE ---
         base_confidence = 70.0
@@ -115,6 +116,7 @@ try:
         trend_score = min(10.0, trend_score)
 
         breakout_distance = (entry - prev_high) if is_buy else (prev_low - entry)
+        breakout_distance = max(0.0, breakout_distance)
         breakout_score = (breakout_distance / (atr_val * 0.5)) * 10.0
         breakout_score = min(10.0, breakout_score)
 
