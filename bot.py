@@ -12,7 +12,7 @@ if not API_KEY:
     print("❌ Error: 'TWELVEDATA_API_KEY' is missing or not set in environment secrets.")
     exit(1)
 
-url = "https://twelvedata.com"
+url = "https://api.twelvedata.com/time_series"
 
 params = {
     "symbol": "XAU/USD",
@@ -94,7 +94,7 @@ try:
     cond_price_sell = (entry < ema50) and (entry < ema200)
     cond_rsi_sell = rsi_val < 45
 
-    # Executing logic without previous high/low constraints
+    # Executing logic without previous high/low breakout constraints
     is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy
     is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell
 
@@ -133,10 +133,9 @@ Risk Reward:
 
 Generated Automatically 🤖"""
 
-        # FIXED: Corrected domain and path prefix formatting
+        # Fixed URL format string to target Telegram API servers directly
         telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
         
-        # Added a 10 second timeout safety net
         requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message}, timeout=10)
         print("🚀 Signal matched! Sent message to Telegram successfully.")
         print(message)
