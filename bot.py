@@ -12,10 +12,14 @@ if not API_KEY:
     print("❌ Error: 'TWELVEDATA_API_KEY' is missing from environment secrets.")
     exit(0)
 
+if not BOT_TOKEN or not CHAT_ID:
+    print("❌ Error: 'TELEGRAM_BOT_TOKEN' or 'TELEGRAM_CHAT_ID' is missing from environment secrets.")
+    exit(0)
+
 try:
     # Initialize the official Twelve Data client
     td = TDClient(apikey=API_KEY)
-    
+
     # Fetch historical data natively as a Pandas DataFrame
     # The SDK bypasses cloud protection layers and handles underlying HTTP requests safely
     ts = td.time_series(
@@ -23,14 +27,14 @@ try:
         interval="15min",
         outputsize=300
     )
-    
+
     df = ts.as_pandas()
-    
-    # The SDK automatically returns chronological, float-mapped historical candles, 
+
+    # The SDK automatically returns chronological, float-mapped historical candles,
     # but we force reverse sorting to match the original oldest-to-newest logic.
     df = df.iloc[::-1].reset_index(drop=True)
 
-    # Ensure technical float integrity 
+    # Ensure technical float integrity
     for c in ["open", "high", "low", "close"]:
         df[c] = df[c].astype(float)
 
@@ -38,14 +42,14 @@ try:
     # 1. EMA Calculations
     df["ema_50"] = df["close"].ewm(span=50, adjust=False).mean()
     df["ema_200"] = df["close"].ewm(span=200, adjust=False).mean()
-    
+
     # 2. RSI Calculation
     delta = df["close"].diff()
     gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
     rs = gain / (loss + 1e-10)
     df["rsi"] = 100 - (100 / (1 + rs))
-    
+
     # 3. ATR Calculation
     prev_close = df["close"].shift(1)
     tr = pd.concat([
@@ -94,10 +98,10 @@ try:
         emoji = "🟢" if is_buy else "🔴"
         trend_status = "✔ EMA50 > EMA200" if is_buy else "✔ EMA50 < EMA200"
         breakout_status = "✔ Previous High Broken" if is_buy else "✔ Previous Low Broken"
-        
+
         # --- DYNAMIC CONFIDENCE CALCULATION ENGINE ---
         base_confidence = 70.0
-        
+
         if is_buy:
             rsi_excess = max(0, rsi_val - 55)
             momentum_score = (rsi_excess / 20.0) * 10.0
@@ -105,22 +109,22 @@ try:
             rsi_excess = max(0, 45 - rsi_val)
             momentum_score = (rsi_excess / 20.0) * 10.0
         momentum_score = min(10.0, momentum_score)
-        
+
         ema_gap = abs(ema50 - ema200)
-        trend_score = (ema_gap / (atr_val * 2.0)) * 10.0 
+        trend_score = (ema_gap / (atr_val * 2.0)) * 10.0
         trend_score = min(10.0, trend_score)
-        
+
         breakout_distance = (entry - prev_high) if is_buy else (prev_low - entry)
         breakout_score = (breakout_distance / (atr_val * 0.5)) * 10.0
         breakout_score = min(10.0, breakout_score)
-        
+
         calculated_confidence = int(base_confidence + momentum_score + trend_score + breakout_score)
         confidence = max(70, min(99, calculated_confidence))
-        
+
         # --- Risk Management Metrics ---
         sl_distance = atr_val * 1.5
         tp_distance = sl_distance * 2
-        
+
         sl = entry - sl_distance if is_buy else entry + sl_distance
         tp = entry + tp_distance if is_buy else entry - tp_distance
 
@@ -151,10 +155,14 @@ Risk Reward:
 
 Generated Automatically 🤖"""
 
-        telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
-        requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
-        print("🚀 Signal matched! Sent message to Telegram successfully.")
-        print(message)
+        telegram_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+        resp = requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
+
+        if resp.status_code == 200:
+            print("🚀 Signal matched! Sent message to Telegram successfully.")
+            print(message)
+        else:
+            print(f"⚠️ Telegram send failed: {resp.status_code} - {resp.text}")
     else:
         print("\n=== ⚠️ NO SIGNAL GENERATED ===")
         print(f"Current Market Data -> Entry: {entry:.2f} | RSI: {rsi_val:.1f} | EMA50: {ema50:.2f} | EMA200: {ema200:.2f}")
