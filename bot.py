@@ -72,9 +72,6 @@ try:
     ], axis=1).max(axis=1)
     df["atr"] = tr.rolling(window=14).mean()
 
-    df["prev_high"] = df["high"].shift(1)
-    df["prev_low"] = df["low"].shift(1)
-
     last = df.iloc[-1]
 
     if pd.isna(last["ema_200"]) or pd.isna(last["rsi"]) or pd.isna(last["atr"]):
@@ -87,28 +84,24 @@ try:
     ema200 = last["ema_200"]
     rsi_val = last["rsi"]
     atr_val = last["atr"]
-    prev_high = last["prev_high"]
-    prev_low = last["prev_low"]
 
     # Individual validation checks for debug printing
     cond_ema_buy = ema50 > ema200
     cond_price_buy = (entry > ema50) and (entry > ema200)
     cond_rsi_buy = rsi_val > 55
-    cond_break_buy = entry > prev_high
 
     cond_ema_sell = ema50 < ema200
     cond_price_sell = (entry < ema50) and (entry < ema200)
     cond_rsi_sell = rsi_val < 45
-    cond_break_sell = entry < prev_low
 
-    is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy and cond_break_buy
-    is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell and cond_break_sell
+    # Executing logic without previous high/low constraints
+    is_buy = cond_ema_buy and cond_price_buy and cond_rsi_buy
+    is_sell = cond_ema_sell and cond_price_sell and cond_rsi_sell
 
     if is_buy or is_sell:
         direction = "BUY" if is_buy else "SELL"
         emoji = "🟢" if is_buy else "🔴"
         trend_status = "✔ EMA50 > EMA200" if is_buy else "✔ EMA50 < EMA200"
-        breakout_status = "✔ Previous High Broken" if is_buy else "✔ Previous Low Broken"
         
         sl_distance = atr_val * 1.5
         tp_distance = sl_distance * 2
@@ -135,9 +128,6 @@ Momentum:
 Volatility:
 ✔ ATR = {atr_val:.2f}
 
-Breakout:
-{breakout_status}
-
 Risk Reward:
 1:2
 
@@ -154,12 +144,10 @@ Generated Automatically 🤖"""
         print(f" └─ EMA50 > EMA200: {cond_ema_buy}")
         print(f" └─ Price above EMAs: {cond_price_buy}")
         print(f" └─ RSI > 55: {cond_rsi_buy}")
-        print(f" └─ Price ({entry:.2f}) > Prev High ({prev_high:.2f}): {cond_break_buy}")
         print("\n[SELL Conditions Status]:")
         print(f" └─ EMA50 < EMA200: {cond_ema_sell}")
         print(f" └─ Price below EMAs: {cond_price_sell}")
         print(f" └─ RSI < 45: {cond_rsi_sell}")
-        print(f" └─ Price ({entry:.2f}) < Prev Low ({prev_low:.2f}): {cond_break_sell}")
 
 except Exception as e:
     print(f"❌ Script failed unexpectedly: {e}")
