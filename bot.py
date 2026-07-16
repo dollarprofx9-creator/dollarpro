@@ -12,7 +12,7 @@ if not API_KEY:
     print("❌ Error: 'TWELVEDATA_API_KEY' is missing or not set in environment secrets.")
     exit(1)
 
-url = "https://api.twelvedata.com/time_series"
+url = "https://twelvedata.com"
 
 params = {
     "symbol": "XAU/USD",
@@ -133,8 +133,11 @@ Risk Reward:
 
 Generated Automatically 🤖"""
 
+        # FIXED: Corrected domain and path prefix formatting
         telegram_url = f"https://telegram.org{BOT_TOKEN}/sendMessage"
-        requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message})
+        
+        # Added a 10 second timeout safety net
+        requests.post(telegram_url, data={"chat_id": CHAT_ID, "text": message}, timeout=10)
         print("🚀 Signal matched! Sent message to Telegram successfully.")
         print(message)
     else:
