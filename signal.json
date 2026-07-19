@@ -1,0 +1,29 @@
+{
+  "latest_signal": null,
+  "signal_history": [],
+  "opening_range": {
+    "high": null,
+    "low": null,
+    "date": null,
+    "formed": false
+  },
+  "current_state": {
+    "active_signal": null,
+    "position": null,
+    "entry": null,
+    "stop_loss": null,
+    "take_profit": null,
+    "signal_time": null,
+    "signal_date": null
+  },
+  "market_data": {
+    "current_price": null,
+    "last_updated": null
+  },
+  "session_info": {
+    "session_start": "14:30",
+    "session_end": "20:45",
+    "timezone": "Africa/Lagos",
+    "is_active": false
+  }
+}
