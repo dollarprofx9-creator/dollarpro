@@ -11,8 +11,11 @@ A production-ready automated trading signal system for **XAU/USD (Gold/US Dollar
 ## Table of Contents
 
 - [Overview](#overview)
-- [How the Strategy Works](#how-the-strategy-works)
 - [Project Structure](#project-structure)
+- [How the Strategy Works](#how-the-strategy-works)
+- [Take Profit & Stop Loss Behavior](#take-profit--stop-loss-behavior)
+- [Monetization](#monetization)
+- [Landing Page](#landing-page)
 - [Installation](#installation)
 - [GitHub Secrets](#github-secrets)
 - [Deployment](#deployment)
@@ -31,16 +34,37 @@ This system automatically:
 - Detects the **Opening Range** (first M15 candle of the session: 2:30-2:45 PM WAT)
 - Monitors for **confirmed breakout signals** (candle close beyond OR high/low)
 - Calculates **Stop Loss** and **Take Profit** with a **1:2 Risk:Reward ratio**
-- Sends **Telegram alerts** for new signals
+- **Tracks TP/SL hits** and prevents invalid re-entries
+- Sends **Telegram alerts** for new signals, TP hits, and SL hits
 - Prevents **duplicate signals**
 - Auto-resets for each new trading day
 - Displays everything on a beautiful **dark-themed HTML dashboard**
+- Includes a **professional landing page** with Telegram CTAs
 
 ### Trading Session
 
 - **Start:** 2:30 PM WAT
 - **End:** 8:45 PM WAT
 - **Timezone:** WAT (West Africa Time, UTC+1)
+
+---
+
+## Project Structure
+
+```
+xauusd-signal-system/
+├── .github/
+│   └── workflows/
+│       └── signal.yml          # GitHub Actions workflow (runs every minute)
+├── landing.html                # Professional homepage with Telegram CTAs
+├── index.html                  # Dashboard HTML with auth & paywall
+├── style.css                   # Dashboard styles (dark theme + monetization UI)
+├── script.js                   # Dashboard JS (auth, payments, auto-refresh)
+├── signal.json                 # Signal data storage (updated by Python)
+├── generate_signal.py          # Main Python signal generator
+├── requirements.txt            # Python dependencies
+└── README.md                   # This file
+```
 
 ---
 
@@ -73,26 +97,13 @@ The system monitors subsequent M15 candles for **confirmed breakouts**:
 
 **Risk:Reward Ratio:** 1:2
 
-### 4. Stop Loss Behavior
-
-If a Stop Loss is hit:
-
-1. **Do NOT** instantly reverse the position
-2. Continue monitoring the market
-3. Only generate the opposite signal after a **confirmed candle close** beyond the opposite side of the Opening Range
-
-**Example:**
-```
-BUY Signal → Stop Loss Hit → Wait → Candle closes below OR Low → SELL Signal
-```
-
-### 5. Duplicate Prevention
+### 4. Duplicate Prevention
 
 - No duplicate BUY signals are sent
 - No duplicate SELL signals are sent
 - A new signal is only generated when a valid **opposite** breakout occurs
 
-### 6. Daily Reset
+### 5. Daily Reset
 
 All state is automatically reset at the start of each new trading day:
 - Opening Range is cleared
@@ -101,21 +112,143 @@ All state is automatically reset at the start of each new trading day:
 
 ---
 
-## Project Structure
+## Take Profit & Stop Loss Behavior
 
+### When Take Profit is Hit:
+
+1. The trade is marked as **TP Hit** in the system state
+2. A Telegram notification is sent with the exit details
+3. **No new signal is generated in the same direction** for the remainder of that move
+4. The system continues monitoring until 8:45 PM WAT
+5. Only a confirmed opposite breakout (candle close beyond the opposite OR boundary) can generate a new signal
+6. If no opposite breakout occurs before 8:45 PM WAT, the session ends and resets for the next day
+
+**Example:**
 ```
-xauusd-signal-system/
-├── .github/
-│   └── workflows/
-│       └── signal.yml          # GitHub Actions workflow (runs every minute)
-├── index.html                  # Dashboard HTML
-├── style.css                   # Dashboard styles (dark theme)
-├── script.js                   # Dashboard JavaScript (auto-refresh)
-├── signal.json                 # Signal data storage (updated by Python)
-├── generate_signal.py          # Main Python signal generator
-├── requirements.txt            # Python dependencies
-└── README.md                   # This file
+BUY Signal at 2650.00
+  ↓
+Price reaches TP at 2662.00
+  ↓
+TP HIT notification sent
+  ↓
+System blocks new BUY signals
+  ↓
+Waits for SELL breakout (close below OR Low)
+  ↓
+If SELL breakout occurs → Generate SELL
+  ↓
+If no SELL breakout by 8:45 PM → Session ends
 ```
+
+### When Stop Loss is Hit:
+
+1. The trade is marked as **SL Hit** in the system state
+2. A Telegram notification is sent with the exit details
+3. **Do NOT instantly reverse** the position
+4. Continue monitoring the market
+5. Only generate the opposite signal after a **confirmed candle close** beyond the opposite side of the Opening Range
+
+**Example:**
+```
+BUY Signal → Stop Loss Hit at 2647.00
+  ↓
+SL HIT notification sent
+  ↓
+Do NOT generate SELL instantly
+  ↓
+Continue monitoring
+  ↓
+Later candle closes below OR Low
+  ↓
+NOW generate SELL signal
+```
+
+### Session State Machine
+
+The system tracks the current session state:
+
+| State | Description |
+|-------|-------------|
+| `waiting` | No active trade, monitoring for first breakout |
+| `active` | Trade is open, monitoring for TP/SL hit |
+| `tp_hit` | Take Profit was hit, blocking same-direction re-entry |
+| `sl_hit` | Stop Loss was hit, waiting for opposite breakout |
+| `session_ended` | Trading session has ended |
+
+---
+
+## Monetization
+
+The dashboard includes a **built-in subscription system** with three tiers:
+
+### Free Tier (Starter)
+- Dashboard access
+- Current price display
+- Session countdown
+- **No live signals** (blurred)
+- **No signal history** (locked)
+- **No alerts**
+
+### Pro Tier — $29/month
+- Everything in Free
+- **Real-time BUY/SELL signals** with Entry, SL, TP
+- **Full signal history** table
+- **Telegram alerts**
+- **Email alerts**
+- Opening Range visualization
+- Performance stats
+
+### Elite Tier — $79/month
+- Everything in Pro
+- Priority 24/7 support
+- Strategy customization
+- API access
+- White-label option
+- Multi-timeframe analysis
+- Personal onboarding call
+
+### Production Payment Integration
+
+To accept real payments, integrate:
+- **Stripe** (Global)
+- **PayPal** (Wide acceptance)
+- **Flutterwave / Paystack** (Africa-focused)
+
+You'll need a backend to handle webhooks, store user tiers, and manage subscriptions securely.
+
+---
+
+## Landing Page
+
+The project includes a professional landing page (`landing.html`) designed to convert visitors into Telegram channel members and dashboard users.
+
+### Features:
+- **Modern hero section** with animated signal card preview
+- **"Join Our Free Telegram Channel"** CTA prominently displayed
+- **How It Works** section explaining the daily trading session
+- **Why Choose Us** highlighting key benefits
+- **FAQ section** with accordion interaction
+- **Professional footer** with navigation
+- Fully responsive (desktop, tablet, mobile)
+- Same dark theme as the dashboard
+
+### Setting Up the Telegram Link:
+
+Replace `YOUR_CHANNEL_LINK` in `landing.html` with your actual Telegram invite link:
+
+```html
+<!-- Find and replace all instances of: -->
+<a href="https://t.me/YOUR_CHANNEL_LINK" target="_blank">
+
+<!-- With your actual link, e.g.: -->
+<a href="https://t.me/xauusd_signals_free" target="_blank">
+```
+
+There are **4 places** to update:
+1. Navigation bar "Join Telegram" button
+2. Hero section primary CTA button
+3. Telegram CTA section button
+4. Footer Telegram link
 
 ---
 
@@ -126,45 +259,27 @@ xauusd-signal-system/
 - A **GitHub account**
 - A **Twelve Data API** account (free tier available)
 - A **Telegram Bot** (free via @BotFather)
+- A **Telegram Channel** for broadcasting signals
 
 ### Step 1: Fork or Create Repository
 
 1. Create a new repository on GitHub
 2. Upload all files from this project to the repository
 
-### Step 2: Install Python Dependencies Locally (Optional)
+### Step 2: Configure GitHub Secrets
 
-If you want to run the script locally for testing:
+See [GitHub Secrets](#github-secrets) section below.
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/xauusd-signal-system.git
-cd xauusd-signal-system
+### Step 3: Set Up GitHub Pages
 
-# Create virtual environment (recommended)
-python -m venv venv
+1. Go to **Settings** → **Pages**
+2. Select **Deploy from a branch**
+3. Choose **main** branch and **/(root)** folder
+4. Click **Save**
 
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+### Step 4: Update Telegram Links
 
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Step 3: Run Locally (Optional)
-
-```bash
-# Set environment variables
-export TWELVEDATA_API_KEY="your_api_key_here"
-export TELEGRAM_BOT_TOKEN="your_bot_token_here"
-export TELEGRAM_CHAT_ID="your_chat_id_here"
-
-# Run the signal generator
-python generate_signal.py
-```
+Replace all `YOUR_CHANNEL_LINK` placeholders in `landing.html` with your actual Telegram channel invite link.
 
 ---
 
@@ -185,21 +300,19 @@ You must configure the following **GitHub Secrets** in your repository:
 |-------------|-------------|------------|
 | `TWELVEDATA_API_KEY` | API key for Twelve Data | [twelvedata.com](https://twelvedata.com) — Sign up free |
 | `TELEGRAM_BOT_TOKEN` | Token for your Telegram bot | Message [@BotFather](https://t.me/BotFather) on Telegram |
-| `TELEGRAM_CHAT_ID` | Chat ID to send alerts to | Use [@userinfobot](https://t.me/userinfobot) or [@raw_data_bot](https://t.me/raw_data_bot) |
+| `TELEGRAM_CHAT_ID` | Chat ID to send alerts to | Use [@userinfobot](https://t.me/userinfobot) or your channel |
 
 ### Getting Your Telegram Chat ID
 
-**Method 1 — Using @userinfobot:**
-1. Open Telegram and search for `@userinfobot`
-2. Start the bot
-3. It will reply with your User ID (this is your Chat ID for private messages)
+**For a Channel:**
+1. Add your bot as an administrator to your channel
+2. Send a test message in the channel
+3. Visit: `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
+4. Look for `"chat":{"id":-1001234567890` — that's your Chat ID
 
-**Method 2 — Using your bot:**
-1. Send a message to your bot
-2. Visit: `https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates`
-3. Look for `"chat":{"id":123456789` — the number is your Chat ID
-
-> **Note:** For group chats, add your bot to the group first, then use Method 2.
+**For a Private Chat:**
+1. Message [@userinfobot](https://t.me/userinfobot)
+2. It will reply with your User ID
 
 ---
 
@@ -213,17 +326,14 @@ The system runs automatically via GitHub Actions:
 2. The workflow `XAUUSD Signal Generator` will run every minute
 3. You can also trigger it manually with **Run workflow**
 
-### GitHub Pages (Dashboard)
+### GitHub Pages (Dashboard + Landing Page)
 
-To host the dashboard on GitHub Pages:
+Both pages are hosted on GitHub Pages:
 
-1. Go to **Settings** → **Pages**
-2. Under **Source**, select **Deploy from a branch**
-3. Select the **main** branch and **/(root)** folder
-4. Click **Save**
-5. Your dashboard will be available at: `https://YOUR_USERNAME.github.io/xauusd-signal-system/`
+- **Landing Page:** `https://YOUR_USERNAME.github.io/xauusd-signal-system/landing.html`
+- **Dashboard:** `https://YOUR_USERNAME.github.io/xauusd-signal-system/index.html`
 
-> **Note:** It may take a few minutes for GitHub Pages to deploy.
+> **Note:** Set your repository's GitHub Pages source to the **main** branch.
 
 ---
 
@@ -246,15 +356,7 @@ schedule:
   - cron: '*/1 * * * *'  # Every minute
 ```
 
-> **Note:** GitHub Actions scheduling has ~1 minute granularity. The actual interval may vary slightly.
-
-### Manual Trigger
-
-You can manually trigger the workflow:
-
-1. Go to **Actions** tab
-2. Select **XAUUSD Signal Generator**
-3. Click **Run workflow**
+> **Note:** GitHub Actions scheduling has ~1 minute granularity.
 
 ---
 
@@ -265,83 +367,35 @@ You can manually trigger the workflow:
 Edit `generate_signal.py`:
 
 ```python
-# Trading session times (WAT)
-SESSION_START_HOUR = 14      # Change this
-SESSION_START_MINUTE = 30    # Change this
-SESSION_END_HOUR = 20        # Change this
-SESSION_END_MINUTE = 45      # Change this
-
-# Opening Range times
-OR_START_HOUR = 14
-OR_START_MINUTE = 30
-OR_END_HOUR = 14
-OR_END_MINUTE = 45
-```
-
-Also update the dashboard in `script.js`:
-
-```javascript
-sessionStart: { hour: 14, minute: 30 },
-sessionEnd: { hour: 20, minute: 45 }
-```
-
-And update the HTML in `index.html`:
-
-```html
-<span class="session-time">2:30 PM - 8:45 PM WAT</span>
+SESSION_START_HOUR = 14
+SESSION_START_MINUTE = 30
+SESSION_END_HOUR = 20
+SESSION_END_MINUTE = 45
 ```
 
 ### Change Risk:Reward Ratio
 
-Edit `generate_signal.py`:
-
 ```python
-RISK_REWARD_RATIO = 2.0  # Change to your desired ratio (e.g., 1.5, 3.0)
+RISK_REWARD_RATIO = 2.0  # e.g., 1.5, 3.0
 ```
 
-Update the dashboard in `index.html`:
+### Change Pricing Tiers
+
+Edit `script.js`:
+
+```javascript
+PRICING: {
+    pro: { price: 29, period: 'month' },
+    elite: { price: 79, period: 'month' }
+}
+```
+
+### Update Telegram Channel Link
+
+Replace all instances in `landing.html`:
 
 ```html
-<span class="detail-value">1:2</span>
-```
-
-### Change Symbol
-
-Edit `generate_signal.py`:
-
-```python
-SYMBOL = "XAU/USD"  # Change to any Twelve Data supported symbol
-```
-
-> **Note:** You may also need to update the dashboard labels in `index.html`.
-
-### Change Timeframe
-
-Edit `generate_signal.py`:
-
-```python
-TIMEFRAME = "15min"  # Options: 1min, 5min, 15min, 30min, 1h, etc.
-```
-
-Update the dashboard in `index.html`:
-
-```html
-<span class="ticker-value">M15</span>
-```
-
-### Change Timezone
-
-Edit `generate_signal.py`:
-
-```python
-WAT_TZ = tz.gettz("Africa/Lagos")  # Change to your timezone
-```
-
-Update the GitHub Actions workflow:
-
-```yaml
-env:
-  TZ: Africa/Lagos  # Change to your timezone
+<a href="https://t.me/YOUR_CHANNEL_LINK" target="_blank">
 ```
 
 ---
@@ -350,95 +404,42 @@ env:
 
 ### No Signals Being Generated
 
-1. **Check GitHub Actions logs:**
-   - Go to **Actions** tab → Select a workflow run → Check logs
-   - Look for error messages from the Python script
-
-2. **Verify API key:**
-   - Ensure `TWELVEDATA_API_KEY` is set correctly in GitHub Secrets
-   - Test your API key: `https://api.twelvedata.com/price?symbol=XAU/USD&apikey=YOUR_KEY`
-
-3. **Check trading session:**
-   - Signals are only generated between 2:30 PM and 8:45 PM WAT
-   - No signals on weekends (Saturday/Sunday)
-
-4. **Verify Opening Range formed:**
-   - The OR candle (2:30-2:45 PM WAT) must be available in the data
-   - Check `signal.json` to see if `opening_range.formed` is `true`
+1. **Check GitHub Actions logs** for error messages
+2. **Verify API key** is correct in GitHub Secrets
+3. **Check trading session** time (2:30 PM - 8:45 PM WAT)
+4. **Verify OR formed** — check `signal.json` for `opening_range.formed`
 
 ### Telegram Messages Not Received
 
-1. **Verify bot token:**
-   - Ensure `TELEGRAM_BOT_TOKEN` is correct (format: `123456:ABC-DEF...`)
-
-2. **Verify chat ID:**
-   - Ensure `TELEGRAM_CHAT_ID` is correct
-   - For private chats, it should be a number (e.g., `123456789`)
-   - For groups, it may start with `-` (e.g., `-1001234567890`)
-
-3. **Test your bot:**
-   - Send a test message via: `https://api.telegram.org/bot<TOKEN>/sendMessage?chat_id=<CHAT_ID>&text=Test`
+1. **Verify bot token** format: `123456:ABC-DEF...`
+2. **Verify chat ID** — for channels, it starts with `-100`
+3. **Test your bot** via: `https://api.telegram.org/bot<TOKEN>/sendMessage?chat_id=<ID>&text=Test`
+4. **Ensure bot is admin** in your channel
 
 ### Dashboard Not Updating
 
-1. **Check GitHub Pages is enabled:**
-   - Go to **Settings** → **Pages** → Verify source is set
-
-2. **Check signal.json is being committed:**
-   - Verify the GitHub Actions workflow is committing changes
-   - Check if `signal.json` was updated in recent commits
-
-3. **Browser cache:**
-   - Hard refresh: `Ctrl+Shift+R` (Windows) or `Cmd+Shift+R` (Mac)
-   - The dashboard adds cache-busting query parameters automatically
-
-4. **CORS issues:**
-   - If testing locally, you may need to serve files via a local server:
-   ```bash
-   python -m http.server 8000
-   ```
+1. **Check GitHub Pages** is enabled in Settings
+2. **Check signal.json** is being committed by Actions
+3. **Hard refresh** the page: `Ctrl+Shift+R`
 
 ### API Rate Limits
 
-Twelve Data free tier limits:
-- **8 API calls per minute**
-- **800 API calls per day**
+Twelve Data free tier: **8 calls/minute, 800/day**
 
-The script makes 2 API calls per run (price + time series). Running every minute uses:
-- ~120 calls per hour during session
-- ~960 calls per day (8-hour session)
-
-> **Tip:** If you hit rate limits, consider reducing the schedule frequency or upgrading your Twelve Data plan.
+The script makes 2 API calls per run. Consider upgrading if you hit limits.
 
 ### Weekend Behavior
 
-On weekends (Saturday and Sunday):
-- The script detects the weekend and skips processing
-- No API calls are made
-- The dashboard shows "Weekend" status
-- Everything resets on Monday
-
-### Data Gaps
-
-If Twelve Data returns incomplete data:
-- The script logs a warning
-- The Opening Range may not form until sufficient data is available
-- The system gracefully handles missing candles
+On Saturday/Sunday:
+- Script skips processing
+- Dashboard shows "Weekend" status
+- No API calls made
 
 ---
 
 ## License
 
 This project is provided as-is for educational and trading research purposes. Use at your own risk. Past performance does not guarantee future results.
-
----
-
-## Support
-
-For issues or questions:
-1. Check the **Troubleshooting** section above
-2. Review GitHub Actions logs for error details
-3. Verify all secrets are configured correctly
 
 ---
 

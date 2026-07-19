@@ -14,7 +14,12 @@
     "stop_loss": null,
     "take_profit": null,
     "signal_time": null,
-    "signal_date": null
+    "signal_date": null,
+    "status": "waiting",
+    "tp_hit": false,
+    "sl_hit": false,
+    "exit_price": null,
+    "exit_time": null
   },
   "market_data": {
     "current_price": null,
@@ -24,6 +29,7 @@
     "session_start": "14:30",
     "session_end": "20:45",
     "timezone": "Africa/Lagos",
-    "is_active": false
+    "is_active": false,
+    "countdown": ""
   }
 }

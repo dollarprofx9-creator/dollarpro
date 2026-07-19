@@ -14,6 +14,229 @@
     <div class="bg-grid"></div>
     <div class="bg-glow"></div>
 
+    <!-- Auth Modal (Paywall) -->
+    <div class="modal-overlay" id="authModal">
+        <div class="modal auth-modal">
+            <div class="modal-header">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>XAUUSD Signal</h1>
+                        <span>Professional Trading Signals</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Sign In</button>
+                    <button class="auth-tab" data-tab="register">Create Account</button>
+                </div>
+
+                <!-- Login Form -->
+                <form class="auth-form" id="loginForm">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="loginEmail" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="loginPassword" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+                    <p class="form-error" id="loginError"></p>
+                </form>
+
+                <!-- Register Form -->
+                <form class="auth-form hidden" id="registerForm">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" id="regName" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="regEmail" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="regPassword" placeholder="Min 8 characters" required minlength="8">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Create Free Account</button>
+                    <p class="form-error" id="registerError"></p>
+                </form>
+
+                <div class="auth-divider">
+                    <span>or</span>
+                </div>
+
+                <button class="btn btn-outline btn-full" id="guestBtn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                    Continue as Guest (Limited Preview)
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upgrade Modal -->
+    <div class="modal-overlay hidden" id="upgradeModal">
+        <div class="modal upgrade-modal">
+            <button class="modal-close" id="closeUpgrade">&times;</button>
+            <div class="modal-header center">
+                <h2>Upgrade Your Plan</h2>
+                <p>Choose the plan that fits your trading style</p>
+            </div>
+            <div class="modal-body">
+                <div class="pricing-grid">
+                    <!-- Free Tier -->
+                    <div class="pricing-card">
+                        <div class="pricing-badge">Free</div>
+                        <h3>Starter</h3>
+                        <div class="pricing-price">$0<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li class="included">Dashboard access</li>
+                            <li class="included">Current price display</li>
+                            <li class="included">Session countdown</li>
+                            <li class="excluded">Live signals</li>
+                            <li class="excluded">Signal history</li>
+                            <li class="excluded">Telegram alerts</li>
+                            <li class="excluded">Email alerts</li>
+                            <li class="excluded">Priority support</li>
+                        </ul>
+                        <button class="btn btn-outline btn-full" disabled>Current Plan</button>
+                    </div>
+
+                    <!-- Pro Tier -->
+                    <div class="pricing-card popular">
+                        <div class="pricing-badge popular-badge">Most Popular</div>
+                        <h3>Pro Trader</h3>
+                        <div class="pricing-price">$29<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li class="included">Everything in Starter</li>
+                            <li class="included">Real-time BUY/SELL signals</li>
+                            <li class="included">Full signal history</li>
+                            <li class="included">Telegram alerts</li>
+                            <li class="included">Email alerts</li>
+                            <li class="included">Opening Range visualization</li>
+                            <li class="excluded">Priority support</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full" id="upgradeProBtn" data-plan="pro">Upgrade to Pro</button>
+                    </div>
+
+                    <!-- Elite Tier -->
+                    <div class="pricing-card">
+                        <div class="pricing-badge elite-badge">Best Value</div>
+                        <h3>Elite</h3>
+                        <div class="pricing-price">$79<span>/month</span></div>
+                        <ul class="pricing-features">
+                            <li class="included">Everything in Pro</li>
+                            <li class="included">Priority 24/7 support</li>
+                            <li class="included">Strategy customization</li>
+                            <li class="included">API access</li>
+                            <li class="included">White-label option</li>
+                            <li class="included">Multi-timeframe analysis</li>
+                            <li class="included">Personal onboarding call</li>
+                        </ul>
+                        <button class="btn btn-gold btn-full" id="upgradeEliteBtn" data-plan="elite">Go Elite</button>
+                    </div>
+                </div>
+
+                <div class="payment-section hidden" id="paymentSection">
+                    <div class="payment-divider">
+                        <span>Secure Payment</span>
+                    </div>
+                    <div class="payment-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Card Number</label>
+                                <input type="text" id="cardNumber" placeholder="4242 4242 4242 4242" maxlength="19">
+                            </div>
+                        </div>
+                        <div class="form-row two-col">
+                            <div class="form-group">
+                                <label>Expiry</label>
+                                <input type="text" id="cardExpiry" placeholder="MM/YY" maxlength="5">
+                            </div>
+                            <div class="form-group">
+                                <label>CVC</label>
+                                <input type="text" id="cardCvc" placeholder="123" maxlength="4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Name on Card</label>
+                            <input type="text" id="cardName" placeholder="John Doe">
+                        </div>
+                        <button class="btn btn-primary btn-full" id="payBtn">
+                            <span id="payBtnText">Pay $29.00</span>
+                            <span class="spinner hidden" id="paySpinner"></span>
+                        </button>
+                        <p class="payment-note">🔒 Secured by Stripe. We never store your card details.</p>
+                        <p class="form-error" id="paymentError"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Account Modal -->
+    <div class="modal-overlay hidden" id="accountModal">
+        <div class="modal account-modal">
+            <button class="modal-close" id="closeAccount">&times;</button>
+            <div class="modal-header">
+                <h2>My Account</h2>
+            </div>
+            <div class="modal-body">
+                <div class="account-info">
+                    <div class="account-avatar" id="accountAvatar">JD</div>
+                    <div class="account-details">
+                        <h3 id="accountName">John Doe</h3>
+                        <p id="accountEmail">john@example.com</p>
+                        <span class="account-plan-badge" id="accountPlanBadge">Free</span>
+                    </div>
+                </div>
+                <div class="account-section">
+                    <h4>Subscription</h4>
+                    <div class="subscription-card" id="subscriptionCard">
+                        <div class="sub-plan">
+                            <span class="sub-name" id="subName">Starter</span>
+                            <span class="sub-status active" id="subStatus">Active</span>
+                        </div>
+                        <div class="sub-details">
+                            <p id="subPrice">$0/month</p>
+                            <p id="subRenewal">No renewal date</p>
+                        </div>
+                        <button class="btn btn-primary" id="accountUpgradeBtn">Upgrade</button>
+                    </div>
+                </div>
+                <div class="account-section">
+                    <h4>Settings</h4>
+                    <div class="setting-row">
+                        <span>Telegram Notifications</span>
+                        <label class="toggle">
+                            <input type="checkbox" id="telegramToggle" checked>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                    <div class="setting-row">
+                        <span>Email Notifications</span>
+                        <label class="toggle">
+                            <input type="checkbox" id="emailToggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <button class="btn btn-danger btn-full" id="logoutBtn">Sign Out</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <div class="header-content">
@@ -35,8 +258,14 @@
                     <span class="live-dot"></span>
                     <span class="live-text">Live</span>
                 </div>
-                <div class="last-updated" id="lastUpdated">
-                    Updated: --
+                <div class="last-updated" id="lastUpdated">Updated: --</div>
+                <button class="btn btn-outline btn-sm hidden" id="upgradeHeaderBtn">Upgrade</button>
+                <div class="user-menu hidden" id="userMenu">
+                    <button class="user-avatar" id="userAvatarBtn">JD</button>
+                    <div class="user-dropdown hidden" id="userDropdown">
+                        <button id="accountBtn">My Account</button>
+                        <button id="headerLogoutBtn">Sign Out</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,6 +273,18 @@
 
     <!-- Main Content -->
     <main class="main">
+        <!-- Paywall Banner (shown for free users) -->
+        <div class="paywall-banner hidden" id="paywallBanner">
+            <div class="banner-content">
+                <div class="banner-icon">🔒</div>
+                <div class="banner-text">
+                    <h3>Unlock Live Signals</h3>
+                    <p>Upgrade to Pro to see real-time BUY/SELL signals, full history, and get Telegram alerts.</p>
+                </div>
+                <button class="btn btn-primary" id="bannerUpgradeBtn">Upgrade to Pro — $29/mo</button>
+            </div>
+        </div>
+
         <!-- Session Status Bar -->
         <div class="session-bar" id="sessionBar">
             <div class="session-info">
@@ -80,8 +321,17 @@
                 <h2>Latest Signal</h2>
                 <div class="signal-badge" id="signalBadge">WAITING</div>
             </div>
-
             <div class="signal-body" id="signalBody">
+                <!-- Free user: blurred signal -->
+                <div class="signal-blur hidden" id="signalBlur">
+                    <div class="blur-overlay">
+                        <div class="blur-icon">🔒</div>
+                        <h3>Pro Signal Active</h3>
+                        <p>A signal has been generated. Upgrade to Pro to view entry, stop loss, and take profit.</p>
+                        <button class="btn btn-primary" id="blurUpgradeBtn">Unlock Now — $29/mo</button>
+                    </div>
+                </div>
+
                 <div class="signal-empty" id="signalEmpty">
                     <div class="empty-icon">
                         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -93,7 +343,7 @@
                     <span>Waiting for Opening Range breakout...</span>
                 </div>
 
-                <div class="signal-details" id="signalDetails" style="display: none;">
+                <div class="signal-details hidden" id="signalDetails">
                     <div class="detail-row">
                         <div class="detail-item">
                             <span class="detail-label">Entry</span>
@@ -179,15 +429,59 @@
                         </tr>
                     </tbody>
                 </table>
+                <!-- History blur overlay for free users -->
+                <div class="history-blur hidden" id="historyBlur">
+                    <div class="blur-overlay">
+                        <div class="blur-icon">📊</div>
+                        <h3>Signal History Locked</h3>
+                        <p>View your complete trading history and track performance. Upgrade to Pro.</p>
+                        <button class="btn btn-primary" id="historyUpgradeBtn">Unlock History</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Section (Pro only) -->
+        <div class="stats-section hidden" id="statsSection">
+            <div class="stats-header">
+                <h2>Performance Stats</h2>
+                <span class="stats-period">This Month</span>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-label">Total Signals</span>
+                    <span class="stat-value" id="statTotalSignals">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Win Rate</span>
+                    <span class="stat-value" id="statWinRate">--</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Avg Risk</span>
+                    <span class="stat-value" id="statAvgRisk">--</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Avg Reward</span>
+                    <span class="stat-value" id="statAvgReward">--</span>
+                </div>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>XAUUSD Signal System &middot; Opening Range Breakout Strategy &middot; M15</p>
+        <p>XAUUSD Signal System · Opening Range Breakout Strategy · M15</p>
+        <div class="footer-links">
+            <a href="#" id="footerPricing">Pricing</a>
+            <a href="#" id="footerTerms">Terms</a>
+            <a href="#" id="footerPrivacy">Privacy</a>
+            <a href="#" id="footerContact">Contact</a>
+        </div>
         <p class="footer-note">Auto-refreshes every 60 seconds</p>
     </footer>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toastContainer"></div>
 
     <script src="script.js"></script>
 </body>
