@@ -526,7 +526,7 @@ class SignalEngine:
         else:
             logger.warning("Quote API returned no data")
 
-        # Fallback: use latest candle close price
+        # Fallback: use latest candle close price (if candles provided)
         if candles and len(candles) > 0:
             try:
                 latest = parse_candle(candles[0])
@@ -735,8 +735,8 @@ class SignalEngine:
             self.state.save()
             return
 
-        # Fetch current price for dashboard
-        current_price = self.fetch_current_price(candles)
+        # Fetch current price for dashboard (quote API only, no candles yet)
+        current_price = self.fetch_current_price()
         if current_price:
             logger.info(f"Current Gold Price: {current_price:.2f}")
 
@@ -793,6 +793,16 @@ class SignalEngine:
         if not candles:
             logger.error("Failed to fetch candles. Will retry next cycle.")
             return
+
+        # Update current price using latest candle (more accurate than quote)
+        if candles and len(candles) > 0:
+            try:
+                latest = parse_candle(candles[0])
+                price = latest["close"]
+                logger.info(f"Updated current price from latest candle: {price:.2f}")
+                self.state.set("current_gold_price", price)
+            except Exception as e:
+                logger.warning(f"Failed to update price from candles: {e}")
 
         # Find opening range candle
         or_candle = find_opening_range_candle(candles, self.session)
