@@ -1,33 +1,13 @@
 {
-  "latest_signal": {
-    "direction": "BUY",
-    "entry": 4014.22,
-    "stop_loss": 4007.86,
-    "take_profit": 4026.95,
-    "date": "20 Jul 2026",
-    "time": "03:58 PM WAT",
-    "status": "ACTIVE",
-    "opening_range_high": 4012.2,
-    "opening_range_low": 4007.86
-  },
+  "latest_signal": null,
   "signal_history": [],
   "opening_range": {
-    "high": 4012.2,
-    "low": 4007.86,
-    "date": "20 Jul 2026"
+    "high": null,
+    "low": null,
+    "date": null
   },
-  "active_trade": {
-    "direction": "BUY",
-    "entry": 4014.22,
-    "stop_loss": 4007.86,
-    "take_profit": 4026.95,
-    "date": "20 Jul 2026",
-    "time": "03:58 PM WAT",
-    "status": "ACTIVE",
-    "opening_range_high": 4012.2,
-    "opening_range_low": 4007.86
-  },
-  "session_status": "ACTIVE_TRADE",
-  "last_updated": "2026-07-20T16:18:05.177834+01:00",
+  "active_trade": null,
+  "session_status": "WAITING",
+  "last_updated": null,
   "current_gold_price": null
 }

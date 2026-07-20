@@ -261,48 +261,6 @@
     els.historyBody.innerHTML = rows;
   }
 
-  async function fetchSignalData() {
-    try {
-      const response = await fetch(`${API_BASE}/api/signal`);
-      if (!response.ok) throw new Error('Failed to fetch');
-
-      const result = await response.json();
-      if (!result.success) throw new Error(result.error);
-
-      const data = result.data;
-
-      // Update signal card
-      updateSignalCard(data.latest_signal);
-
-      // Update market info
-      els.currentPrice.textContent = formatPrice(data.current_gold_price);
-      els.sessionStatus.textContent = getSessionStatusText(data.session_status);
-      els.lastUpdated.textContent = formatDateTime(data.last_updated);
-
-      // Update OR levels
-      if (data.opening_range) {
-        els.orHigh.textContent = formatPrice(data.opening_range.high);
-        els.orLow.textContent = formatPrice(data.opening_range.low);
-      }
-
-      // Update status indicator
-      const statusClass = getStatusClass(data.session_status);
-      els.statusDot.className = `status-dot ${statusClass}`;
-      els.statusText.textContent = getSessionStatusText(data.session_status);
-
-      // Update history
-      updateHistory(data.signal_history);
-
-      // Calculate time remaining
-      updateTimeRemaining(data.session_status);
-
-    } catch (error) {
-      console.error('Error fetching signal data:', error);
-      els.statusText.textContent = 'Connection Error';
-      els.statusDot.className = 'status-dot ended';
-    }
-  }
-
   function updateTimeRemaining(sessionStatus) {
     // WAT is UTC+1
     const now = new Date();

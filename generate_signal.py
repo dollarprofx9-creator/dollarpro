@@ -505,16 +505,38 @@ class SignalEngine:
 
         return candles
 
-    def fetch_current_price(self) -> Optional[float]:
-        """Fetch current gold price."""
+    def fetch_current_price(self, candles: Optional[List[Dict]] = None) -> Optional[float]:
+        """Fetch current gold price. Tries quote endpoint first, falls back to latest candle."""
+        # Try quote endpoint first
         quote = self.client.get_quote(config.SYMBOL)
-        if quote and "price" in quote:
+        if quote:
+            logger.info(f"Quote API response: {quote}")
+            # Try multiple possible price fields
+            price_fields = ["price", "close", "bid", "ask", "last"]
+            for field in price_fields:
+                if field in quote:
+                    try:
+                        price = float(quote[field])
+                        logger.info(f"Current price from '{field}': {price:.2f}")
+                        self.state.set("current_gold_price", price)
+                        return price
+                    except (ValueError, TypeError):
+                        continue
+            logger.warning(f"Quote response missing price fields. Response: {quote}")
+        else:
+            logger.warning("Quote API returned no data")
+
+        # Fallback: use latest candle close price
+        if candles and len(candles) > 0:
             try:
-                price = float(quote["price"])
+                latest = parse_candle(candles[0])
+                price = latest["close"]
+                logger.info(f"Current price from latest candle: {price:.2f}")
                 self.state.set("current_gold_price", price)
                 return price
-            except (ValueError, TypeError):
-                pass
+            except Exception as e:
+                logger.warning(f"Failed to get price from candles: {e}")
+
         return None
 
     def calculate_take_profit(self, entry: float, sl: float, direction: str) -> float:
@@ -714,7 +736,7 @@ class SignalEngine:
             return
 
         # Fetch current price for dashboard
-        current_price = self.fetch_current_price()
+        current_price = self.fetch_current_price(candles)
         if current_price:
             logger.info(f"Current Gold Price: {current_price:.2f}")
 
