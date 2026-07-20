@@ -42,31 +42,17 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python generate_signal.py
 
-      - name: Configure Git
-        run: |
-          git config user.name "DollarProFx Bot"
-          git config user.email "bot@dollarprofx.com"
-
-      - name: Stash, pull, and apply changes
-        run: |
-          git stash push -m "signal changes"
-          git pull origin main --rebase
-          git stash pop || true
-
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git add signal.json logs/
-          if git diff --cached --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changed == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git commit -m "Update signals - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push origin main
+          git config user.name "DollarProFx Bot"
+          git config user.email "bot@dollarprofx.com"
+          git add signal.json logs/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update signals - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git pull origin main --rebase || true
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
