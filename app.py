@@ -1,96 +1,97 @@
+#!/usr/bin/env python3
 """
 DollarProFx Flask Application
-Serves the frontend and provides API endpoints.
+Serves the frontend, provides API endpoints, and handles verification.
 """
 
 import os
+import sys
 import json
 import logging
-import re
 from datetime import datetime
-from pathlib import Path
+from functools import wraps
 
-from flask import Flask, request, jsonify, send_from_directory
-from flask_cors import CORS
+from flask import Flask, render_template, jsonify, request, send_from_directory
+import config
 
-from config import (
-    SIGNAL_FILE,
-    USERS_FILE,
-    TELEGRAM_CHANNEL_LINK,
-    EXNESS_PARTNER_LINK,
-    TRADING_SESSION_START,
-    TRADING_SESSION_END,
-    TIMEZONE,
-    LOGS_DIR
+# ── Logging Setup ───────────────────────────────────────────────────
+LOG_DIR = config.LOG_DIR
+os.makedirs(LOG_DIR, exist_ok=True)
+
+log_formatter = logging.Formatter(
+    "%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-# =============================================================================
-# FLASK APP SETUP
-# =============================================================================
-
-app = Flask(__name__, static_folder=".", template_folder=".")
-app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", "dollarprofx-secret-key-2026")
-CORS(app)
-
-# Logging setup
-os.makedirs(LOGS_DIR, exist_ok=True)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(os.path.join(LOGS_DIR, "flask_app.log")),
-        logging.StreamHandler()
-    ]
+file_handler = logging.FileHandler(
+    os.path.join(LOG_DIR, f"flask_{datetime.now().strftime('%Y%m%d')}.log"),
+    encoding="utf-8"
 )
-logger = logging.getLogger(__name__)
+file_handler.setFormatter(log_formatter)
 
-# =============================================================================
-# FILE OPERATIONS
-# =============================================================================
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setFormatter(log_formatter)
 
-def load_json(filepath):
-    """Load JSON data from file with error handling."""
+logger = logging.getLogger("DollarProFx_Flask")
+logger.setLevel(logging.INFO)
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+# ── Flask App ───────────────────────────────────────────────────────
+app = Flask(__name__, static_folder=".", static_url_path="")
+app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", "dollarprofx-dev-key-change-in-prod")
+
+# ── Security Headers ──────────────────────────────────────────────
+@app.after_request
+def add_security_headers(response):
+    """Add security headers to all responses."""
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["X-XSS-Protection"] = "1; mode=block"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    response.headers["Content-Security-Policy"] = (
+        "default-src 'self'; "
+        "script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; "
+        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; "
+        "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; "
+        "img-src 'self' data: https:; "
+        "connect-src 'self';"
+    )
+    return response
+
+
+# ── Helper Functions ───────────────────────────────────────────────
+def load_json_file(filepath: str, default=None) -> dict:
+    """Safely load a JSON file."""
     try:
-        with open(filepath, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        logger.error(f"File not found: {filepath}")
-        return {}
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON in {filepath}: {e}")
-        return {}
+        if os.path.exists(filepath):
+            with open(filepath, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        logger.error(f"Error loading {filepath}: {e}")
+    return default if default is not None else {}
 
 
-def save_json(filepath, data):
-    """Save JSON data to file."""
-    try:
-        with open(filepath, "w") as f:
-            json.dump(data, f, indent=2)
-        return True
-    except Exception as e:
-        logger.error(f"Failed to save {filepath}: {e}")
+def validate_email(email: str) -> bool:
+    """Basic email validation."""
+    if not email or not isinstance(email, str):
         return False
+    email = email.strip().lower()
+    if len(email) > 254:
+        return False
+    if "@" not in email or "." not in email:
+        return False
+    if email.count("@") != 1:
+        return False
+    local, domain = email.rsplit("@", 1)
+    if not local or not domain:
+        return False
+    if ".." in domain or domain.startswith(".") or domain.endswith("."):
+        return False
+    return True
 
 
-# =============================================================================
-# SECURITY HELPERS
-# =============================================================================
-
-def is_valid_email(email):
-    """Validate email address format."""
-    pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-    return bool(re.match(pattern, email))
-
-
-def sanitize_email(email):
-    """Sanitize email input."""
-    return email.strip().lower()
-
-
-# =============================================================================
-# ROUTES - STATIC PAGES
-# =============================================================================
-
+# ── Routes ─────────────────────────────────────────────────────────
 @app.route("/")
 def index():
     """Serve the homepage."""
@@ -109,172 +110,132 @@ def live_signals():
     return send_from_directory(".", "index.html")
 
 
-# =============================================================================
-# ROUTES - STATIC ASSETS
-# =============================================================================
-
-@app.route("/style.css")
-def serve_css():
-    """Serve CSS file."""
-    return send_from_directory(".", "style.css")
-
-
-@app.route("/script.js")
-def serve_js():
-    """Serve JavaScript file."""
-    return send_from_directory(".", "script.js")
-
-
-@app.route("/verification.css")
-def serve_verification_css():
-    """Serve verification CSS file."""
-    return send_from_directory(".", "verification.css")
-
-
-@app.route("/verification.js")
-def serve_verification_js():
-    """Serve verification JavaScript file."""
-    return send_from_directory(".", "verification.js")
-
-
-# =============================================================================
-# API ENDPOINTS
-# =============================================================================
-
+# ── API Endpoints ──────────────────────────────────────────────────
 @app.route("/api/signal", methods=["GET"])
 def get_signal():
-    """
-    Get the latest signal data.
-    Returns signal information without exposing sensitive data.
-    """
-    signal_data = load_json(SIGNAL_FILE)
-
-    if not signal_data:
-        return jsonify({
-            "direction": "WAITING",
-            "entry": None,
-            "stop_loss": None,
-            "take_profit": None,
-            "date": None,
-            "time": None,
-            "status": "WAITING",
-            "opening_range_high": None,
-            "opening_range_low": None,
-            "session_start": TRADING_SESSION_START,
-            "session_end": TRADING_SESSION_END,
-            "current_price": None,
-            "signal_history": []
+    """Return the latest signal data for the dashboard."""
+    try:
+        signal_data = load_json_file(config.SIGNAL_FILE, {
+            "latest_signal": None,
+            "signal_history": [],
+            "opening_range": {"high": None, "low": None, "date": None},
+            "active_trade": None,
+            "session_status": "WAITING",
+            "last_updated": None,
+            "current_gold_price": None
         })
 
-    latest = signal_data.get("latest_signal", {})
-    history = signal_data.get("signal_history", [])
-
-    # Sanitize response - never expose internal state
-    response = {
-        "direction": latest.get("direction", "WAITING"),
-        "entry": latest.get("entry"),
-        "stop_loss": latest.get("stop_loss"),
-        "take_profit": latest.get("take_profit"),
-        "date": latest.get("date"),
-        "time": latest.get("time"),
-        "status": latest.get("status", "WAITING"),
-        "opening_range_high": latest.get("opening_range_high"),
-        "opening_range_low": latest.get("opening_range_low"),
-        "session_start": TRADING_SESSION_START,
-        "session_end": TRADING_SESSION_END,
-        "current_price": latest.get("current_price"),
-        "signal_history": history[:10]  # Return last 10 signals
-    }
-
-    return jsonify(response)
+        return jsonify({
+            "success": True,
+            "data": signal_data
+        })
+    except Exception as e:
+        logger.error(f"Error in /api/signal: {e}")
+        return jsonify({
+            "success": False,
+            "error": "Failed to load signal data"
+        }), 500
 
 
 @app.route("/api/verify", methods=["POST"])
 def verify_account():
     """
-    Verify an EXNESS email address against the approved users list.
-    Returns verification result without exposing the full users list.
+    Verify EXNESS email against users.json.
+    Returns success if email exists in the approved users list.
     """
     try:
         data = request.get_json()
-
         if not data:
-            logger.warning("Verification attempt with no data")
-            return jsonify({"verified": False, "message": "No data provided"}), 400
+            return jsonify({"success": False, "error": "Invalid request"}), 400
 
-        email = data.get("email", "").strip()
+        email = data.get("email", "").strip().lower()
 
-        if not email:
-            logger.warning("Verification attempt with empty email")
-            return jsonify({"verified": False, "message": "Email is required"}), 400
+        # Validate email format
+        if not validate_email(email):
+            logger.warning(f"Invalid email format attempted: {email[:50] if email else 'empty'}")
+            return jsonify({
+                "success": False,
+                "error": "Invalid email address format"
+            }), 400
 
-        if not is_valid_email(email):
-            logger.warning(f"Invalid email format attempted: {email}")
-            return jsonify({"verified": False, "message": "Invalid email format"}), 400
+        # Load users.json
+        users_data = load_json_file(config.USERS_FILE, {"users": []})
+        approved_emails = [u.get("email", "").strip().lower() for u in users_data.get("users", [])]
 
-        email = sanitize_email(email)
-
-        # Load approved users
-        users_data = load_json(USERS_FILE)
-        approved_emails = [user.get("email", "").strip().lower() for user in users_data.get("users", [])]
-
+        # Check if email is approved
         if email in approved_emails:
             logger.info(f"Account verified: {email}")
             return jsonify({
-                "verified": True,
+                "success": True,
                 "message": "Account verified successfully"
             })
         else:
             logger.warning(f"Verification failed for: {email}")
             return jsonify({
-                "verified": False,
-                "message": "Account not found in approved list"
+                "success": False,
+                "error": "Account not found in approved list"
             })
 
     except Exception as e:
-        logger.error(f"Verification error: {e}")
-        return jsonify({"verified": False, "message": "Server error occurred"}), 500
+        logger.error(f"Error in /api/verify: {e}")
+        return jsonify({
+            "success": False,
+            "error": "Verification service temporarily unavailable"
+        }), 500
 
 
 @app.route("/api/config", methods=["GET"])
-def get_config():
-    """
-    Get public configuration values for the frontend.
-    Only returns non-sensitive configuration.
-    """
+def get_public_config():
+    """Return public configuration values for the frontend."""
     return jsonify({
-        "telegram_channel_link": TELEGRAM_CHANNEL_LINK,
-        "exness_partner_link": EXNESS_PARTNER_LINK,
-        "trading_session_start": TRADING_SESSION_START,
-        "trading_session_end": TRADING_SESSION_END,
-        "timezone": TIMEZONE,
-        "symbol": "XAU/USD",
-        "timeframe": "M15"
+        "success": True,
+        "data": {
+            "telegram_link": config.TELEGRAM_CHANNEL_LINK,
+            "partner_link": config.EXNESS_PARTNER_LINK,
+            "session_start": "2:30 PM WAT",
+            "session_end": "8:45 PM WAT",
+            "symbol": config.SYMBOL,
+            "timeframe": "M15"
+        }
     })
 
 
-# =============================================================================
-# ERROR HANDLERS
-# =============================================================================
+@app.route("/api/health", methods=["GET"])
+def health_check():
+    """Health check endpoint."""
+    return jsonify({
+        "status": "healthy",
+        "timestamp": datetime.now().isoformat()
+    })
 
+
+# ── Error Handlers ─────────────────────────────────────────────────
 @app.errorhandler(404)
 def not_found(error):
-    """Handle 404 errors."""
-    return jsonify({"error": "Not found"}), 404
+    return jsonify({"success": False, "error": "Not found"}), 404
 
 
 @app.errorhandler(500)
 def internal_error(error):
-    """Handle 500 errors."""
     logger.error(f"Internal server error: {error}")
-    return jsonify({"error": "Internal server error"}), 500
+    return jsonify({"success": False, "error": "Internal server error"}), 500
 
 
-# =============================================================================
-# MAIN
-# =============================================================================
+# ── Security: Block direct access to sensitive files ─────────────
+@app.route("/users.json")
+def block_users_json():
+    """Prevent direct access to users.json."""
+    return jsonify({"success": False, "error": "Access denied"}), 403
 
+
+@app.route("/signal.json")
+def block_signal_json():
+    """Prevent direct access to signal.json."""
+    return jsonify({"success": False, "error": "Access denied"}), 403
+
+
+# ── Main ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    debug = os.environ.get("FLASK_DEBUG", "False").lower() == "true"
+    debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
     app.run(host="0.0.0.0", port=port, debug=debug)

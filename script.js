@@ -1,401 +1,362 @@
 /**
- * DollarProFx Frontend JavaScript
- * Handles navigation, signal fetching, session countdown, FAQ, and mobile menu
+ * DollarProFx - Main JavaScript
+ * Handles navigation, scroll animations, FAQ accordion, and live dashboard updates
  */
 
-// =============================================================================
-// CONFIGURATION
-// =============================================================================
+(function() {
+  'use strict';
 
-const CONFIG = {
-    API_BASE_URL: window.location.origin,
-    REFRESH_INTERVAL: 60000, // 1 minute
-    SESSION_START_HOUR: 14,
-    SESSION_START_MINUTE: 30,
-    SESSION_END_HOUR: 20,
-    SESSION_END_MINUTE: 45,
-    TIMEZONE_OFFSET: 1 // WAT is UTC+1
-};
+  // ── DOM Elements ────────────────────────────────────────────────
+  const navbar = document.getElementById('navbar');
+  const mobileToggle = document.getElementById('mobileToggle');
+  const navLinks = document.getElementById('navLinks');
+  const revealElements = document.querySelectorAll('.reveal');
+  const faqItems = document.querySelectorAll('.faq-item');
 
-// =============================================================================
-// DOM ELEMENTS
-// =============================================================================
-
-const navbar = document.getElementById('navbar');
-const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-const navLinks = document.getElementById('navLinks');
-const tickerContent = document.getElementById('tickerContent');
-const statusDot = document.getElementById('statusDot');
-const statusText = document.getElementById('statusText');
-const countdownValue = document.getElementById('countdownValue');
-const heroGoldPrice = document.getElementById('heroGoldPrice');
-
-// =============================================================================
-// NAVIGATION
-// =============================================================================
-
-function initNavigation() {
-    // Navbar scroll effect
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    });
-
-    // Mobile menu toggle
-    if (mobileMenuBtn) {
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenuBtn.classList.toggle('active');
-            navLinks.classList.toggle('active');
-            document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
-        });
+  // ── Navigation Scroll Effect ────────────────────────────────────
+  function handleNavScroll() {
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
     }
+  }
 
-    // Close mobile menu on link click
-    document.querySelectorAll('.nav-link').forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenuBtn.classList.remove('active');
-            navLinks.classList.remove('active');
-            document.body.style.overflow = '';
-        });
+  window.addEventListener('scroll', handleNavScroll, { passive: true });
+
+  // ── Mobile Menu Toggle ──────────────────────────────────────────
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', function() {
+      this.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
     });
+  }
 
-    // Active nav link highlighting
-    const currentPath = window.location.pathname;
-    document.querySelectorAll('.nav-link').forEach(link => {
-        const href = link.getAttribute('href');
-        if (href === currentPath || (currentPath === '/' && href === '/')) {
+  // Close mobile menu when clicking a link
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileToggle.classList.remove('active');
+      navLinks.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // ── Active Navigation Link ──────────────────────────────────────
+  function updateActiveNav() {
+    const sections = document.querySelectorAll('section[id]');
+    const scrollPos = window.scrollY + 100;
+
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      const id = section.getAttribute('id');
+
+      if (scrollPos >= top && scrollPos < top + height) {
+        document.querySelectorAll('.nav-links a').forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === '#' + id) {
             link.classList.add('active');
-        } else {
-            link.classList.remove('active');
-        }
+          }
+        });
+      }
     });
-}
+  }
 
-// =============================================================================
-// SIGNAL FETCHING
-// =============================================================================
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
 
-async function fetchSignal() {
-    try {
-        const response = await fetch(`${CONFIG.API_BASE_URL}/api/signal`);
-        if (!response.ok) throw new Error('Failed to fetch signal');
-        return await response.json();
-    } catch (error) {
-        console.error('Error fetching signal:', error);
-        return null;
+  // ── Scroll Reveal Animation ─────────────────────────────────────
+  function revealOnScroll() {
+    revealElements.forEach(el => {
+      const elementTop = el.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      const revealPoint = 100;
+
+      if (elementTop < windowHeight - revealPoint) {
+        el.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll, { passive: true });
+  // Trigger once on load
+  revealOnScroll();
+
+  // ── FAQ Accordion ───────────────────────────────────────────────
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    if (question) {
+      question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+
+        // Close all other items
+        faqItems.forEach(other => {
+          if (other !== item) {
+            other.classList.remove('active');
+          }
+        });
+
+        // Toggle current item
+        item.classList.toggle('active', !isActive);
+      });
     }
-}
+  });
 
-function formatPrice(price) {
+  // ── Smooth Scroll for Anchor Links ──────────────────────────────
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href === '#') return;
+
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const offset = 80; // Account for fixed navbar
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // ── Live Dashboard ──────────────────────────────────────────────
+  const API_BASE = window.location.origin;
+  let refreshInterval = null;
+
+  // Dashboard elements
+  const els = {
+    signalCard: document.getElementById('signalCard'),
+    signalDirection: document.getElementById('signalDirection'),
+    signalStatusText: document.getElementById('signalStatusText'),
+    entryPrice: document.getElementById('entryPrice'),
+    stopLoss: document.getElementById('stopLoss'),
+    takeProfit: document.getElementById('takeProfit'),
+    signalTime: document.getElementById('signalTime'),
+    signalDate: document.getElementById('signalDate'),
+    currentPrice: document.getElementById('currentPrice'),
+    sessionStatus: document.getElementById('sessionStatus'),
+    timeRemaining: document.getElementById('timeRemaining'),
+    lastUpdated: document.getElementById('lastUpdated'),
+    orHigh: document.getElementById('orHigh'),
+    orLow: document.getElementById('orLow'),
+    statusDot: document.getElementById('statusDot'),
+    statusText: document.getElementById('statusText'),
+    historyBody: document.getElementById('historyBody')
+  };
+
+  function formatPrice(price) {
     if (price === null || price === undefined) return '--';
     return price.toFixed(2);
-}
+  }
 
-function updateTicker(signal) {
-    if (!tickerContent) return;
-
-    if (!signal || signal.direction === 'WAITING') {
-        tickerContent.innerHTML = `
-            <span class="ticker-signal">
-                <span class="ticker-direction waiting">WAITING</span>
-                <span>Monitoring for confirmed breakout...</span>
-            </span>
-        `;
-        return;
+  function formatDateTime(isoString) {
+    if (!isoString) return '--';
+    try {
+      const date = new Date(isoString);
+      return date.toLocaleTimeString('en-US', { 
+        hour: '2-digit', 
+        minute: '2-digit',
+        hour12: true 
+      }) + ' WAT';
+    } catch {
+      return '--';
     }
+  }
 
-    const isBuy = signal.direction === 'BUY';
-    const directionClass = isBuy ? 'buy' : 'sell';
-    const directionEmoji = isBuy ? '🟢' : '🔴';
-
-    tickerContent.innerHTML = `
-        <span class="ticker-signal">
-            <span class="ticker-direction ${directionClass}">${directionEmoji} ${signal.direction}</span>
-            <span>Entry: ${formatPrice(signal.entry)}</span>
-            <span>SL: ${formatPrice(signal.stop_loss)}</span>
-            <span>TP: ${formatPrice(signal.take_profit)}</span>
-            <span>${signal.time || ''}</span>
-        </span>
-    `;
-}
-
-function updateHeroPrice(signal) {
-    if (!heroGoldPrice) return;
-    if (signal && signal.current_price) {
-        heroGoldPrice.textContent = formatPrice(signal.current_price);
-    }
-}
-
-async function refreshSignal() {
-    const signal = await fetchSignal();
-    updateTicker(signal);
-    updateHeroPrice(signal);
-}
-
-// =============================================================================
-// SESSION COUNTDOWN
-// =============================================================================
-
-function getWATDate() {
-    const now = new Date();
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    return new Date(utc + (CONFIG.TIMEZONE_OFFSET * 3600000));
-}
-
-function isWeekend() {
-    const wat = getWATDate();
-    const day = wat.getDay();
-    return day === 0 || day === 6; // Sunday = 0, Saturday = 6
-}
-
-function isSessionActive() {
-    if (isWeekend()) return false;
-
-    const wat = getWATDate();
-    const hour = wat.getHours();
-    const minute = wat.getMinutes();
-    const currentTime = hour * 60 + minute;
-    const startTime = CONFIG.SESSION_START_HOUR * 60 + CONFIG.SESSION_START_MINUTE;
-    const endTime = CONFIG.SESSION_END_HOUR * 60 + CONFIG.SESSION_END_MINUTE;
-
-    return currentTime >= startTime && currentTime <= endTime;
-}
-
-function getTimeUntilSessionEnd() {
-    const wat = getWATDate();
-    const hour = wat.getHours();
-    const minute = wat.getMinutes();
-    const second = wat.getSeconds();
-
-    const currentTime = hour * 3600 + minute * 60 + second;
-    const endTime = CONFIG.SESSION_END_HOUR * 3600 + CONFIG.SESSION_END_MINUTE * 60;
-
-    return Math.max(0, endTime - currentTime);
-}
-
-function getTimeUntilSessionStart() {
-    const wat = getWATDate();
-    const hour = wat.getHours();
-    const minute = wat.getMinutes();
-    const second = wat.getSeconds();
-
-    const currentTime = hour * 3600 + minute * 60 + second;
-    const startTime = CONFIG.SESSION_START_HOUR * 3600 + CONFIG.SESSION_START_MINUTE * 60;
-
-    if (currentTime < startTime) {
-        return startTime - currentTime;
-    }
-    return 0;
-}
-
-function formatCountdown(seconds) {
-    const h = Math.floor(seconds / 3600);
-    const m = Math.floor((seconds % 3600) / 60);
-    const s = seconds % 60;
-    return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
-}
-
-function updateSessionStatus() {
-    if (!statusDot || !statusText || !countdownValue) return;
-
-    if (isWeekend()) {
-        statusDot.className = 'status-dot inactive';
-        statusText.textContent = 'Market Closed (Weekend)';
-        countdownValue.textContent = '--:--:--';
-        return;
-    }
-
-    if (isSessionActive()) {
-        statusDot.className = 'status-dot active';
-        statusText.textContent = 'Session Active';
-        const remaining = getTimeUntilSessionEnd();
-        countdownValue.textContent = formatCountdown(remaining);
-    } else {
-        statusDot.className = 'status-dot inactive';
-        statusText.textContent = 'Session Inactive';
-        const untilStart = getTimeUntilSessionStart();
-        if (untilStart > 0) {
-            countdownValue.textContent = `Starts in ${formatCountdown(untilStart)}`;
-        } else {
-            countdownValue.textContent = 'Next session tomorrow';
-        }
-    }
-}
-
-// =============================================================================
-// FAQ ACCORDION
-// =============================================================================
-
-function initFAQ() {
-    const faqItems = document.querySelectorAll('.faq-item');
-
-    faqItems.forEach(item => {
-        const question = item.querySelector('.faq-question');
-        if (question) {
-            question.addEventListener('click', () => {
-                const isActive = item.classList.contains('active');
-
-                // Close all other items
-                faqItems.forEach(otherItem => {
-                    otherItem.classList.remove('active');
-                });
-
-                // Toggle current item
-                if (!isActive) {
-                    item.classList.add('active');
-                }
-            });
-        }
-    });
-}
-
-// =============================================================================
-// SCROLL ANIMATIONS
-// =============================================================================
-
-function initScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+  function getSessionStatusText(status) {
+    const statusMap = {
+      'WAITING': 'Waiting for Session',
+      'BEFORE_SESSION': 'Before Session',
+      'OPENING_RANGE': 'Opening Range Active',
+      'MONITORING': 'Monitoring Breakouts',
+      'ACTIVE_TRADE': 'Active Trade',
+      'SESSION_ENDED': 'Session Ended',
+      'WEEKEND': 'Weekend - No Trading'
     };
+    return statusMap[status] || status;
+  }
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in-up');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, observerOptions);
+  function getStatusClass(status) {
+    const classMap = {
+      'ACTIVE_TRADE': 'active',
+      'MONITORING': 'waiting',
+      'WAITING': 'waiting',
+      'BEFORE_SESSION': 'waiting',
+      'OPENING_RANGE': 'waiting',
+      'SESSION_ENDED': 'ended',
+      'WEEKEND': 'weekend'
+    };
+    return classMap[status] || 'waiting';
+  }
 
-    // Observe cards and sections
-    document.querySelectorAll('.glass-card, .step-card, .faq-item').forEach(el => {
-        el.style.opacity = '0';
-        observer.observe(el);
-    });
-}
-
-// =============================================================================
-// SMOOTH SCROLL FOR ANCHOR LINKS
-// =============================================================================
-
-function initSmoothScroll() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                const offset = 80; // Navbar height
-                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-}
-
-// =============================================================================
-// LIVE SIGNALS DASHBOARD (if on live-signals page)
-// =============================================================================
-
-function initDashboard() {
-    const dashboardContainer = document.getElementById('dashboardContainer');
-    if (!dashboardContainer) return;
-
-    // Dashboard-specific elements
-    const signalDirection = document.getElementById('signalDirection');
-    const signalEntry = document.getElementById('signalEntry');
-    const signalSL = document.getElementById('signalSL');
-    const signalTP = document.getElementById('signalTP');
-    const signalDate = document.getElementById('signalDate');
-    const signalTime = document.getElementById('signalTime');
-    const signalStatus = document.getElementById('signalStatus');
-    const orHigh = document.getElementById('orHigh');
-    const orLow = document.getElementById('orLow');
-    const currentPrice = document.getElementById('currentPrice');
-    const signalHistory = document.getElementById('signalHistory');
-    const liveStatus = document.getElementById('liveStatus');
-
-    async function updateDashboard() {
-        const signal = await fetchSignal();
-        if (!signal) return;
-
-        // Update main signal card
-        if (signalDirection) {
-            signalDirection.textContent = signal.direction || 'WAITING';
-            signalDirection.className = `signal-direction ${signal.direction?.toLowerCase() || 'waiting'}`;
-        }
-        if (signalEntry) signalEntry.textContent = formatPrice(signal.entry);
-        if (signalSL) signalSL.textContent = formatPrice(signal.stop_loss);
-        if (signalTP) signalTP.textContent = formatPrice(signal.take_profit);
-        if (signalDate) signalDate.textContent = signal.date || '--';
-        if (signalTime) signalTime.textContent = signal.time || '--';
-        if (signalStatus) {
-            signalStatus.textContent = signal.status || 'WAITING';
-            signalStatus.className = `status-badge ${(signal.status || 'waiting').toLowerCase()}`;
-        }
-        if (orHigh) orHigh.textContent = formatPrice(signal.opening_range_high);
-        if (orLow) orLow.textContent = formatPrice(signal.opening_range_low);
-        if (currentPrice) currentPrice.textContent = formatPrice(signal.current_price);
-
-        // Update live status
-        if (liveStatus) {
-            if (isSessionActive()) {
-                liveStatus.innerHTML = '<span class="pulse-dot"></span> Live';
-            } else {
-                liveStatus.innerHTML = '<span class="status-dot inactive"></span> Offline';
-            }
-        }
-
-        // Update history
-        if (signalHistory && signal.signal_history) {
-            signalHistory.innerHTML = signal.signal_history.map(hist => `
-                <div class="history-item">
-                    <span class="history-direction ${hist.direction?.toLowerCase()}">${hist.direction}</span>
-                    <span class="history-entry">${formatPrice(hist.entry)}</span>
-                    <span class="history-status ${(hist.status || '').toLowerCase()}">${hist.status}</span>
-                    <span class="history-date">${hist.date || ''}</span>
-                </div>
-            `).join('');
-        }
+  function updateSignalCard(signal) {
+    if (!signal) {
+      els.signalCard.className = 'signal-card waiting';
+      els.signalDirection.textContent = 'WAITING';
+      els.signalDirection.className = 'signal-direction waiting';
+      els.signalStatusText.textContent = 'Waiting for confirmed breakout...';
+      els.entryPrice.textContent = '--';
+      els.stopLoss.textContent = '--';
+      els.takeProfit.textContent = '--';
+      els.signalTime.textContent = '--';
+      els.signalDate.textContent = '--';
+      return;
     }
 
-    updateDashboard();
-    setInterval(updateDashboard, CONFIG.REFRESH_INTERVAL);
-}
+    const direction = signal.direction;
+    els.signalCard.className = `signal-card ${direction.toLowerCase()}`;
+    els.signalDirection.textContent = direction;
+    els.signalDirection.className = `signal-direction ${direction.toLowerCase()}`;
 
-// =============================================================================
-// INITIALIZATION
-// =============================================================================
+    const statusText = signal.status === 'ACTIVE' ? 'Active Trade' : signal.status;
+    els.signalStatusText.textContent = statusText;
 
-document.addEventListener('DOMContentLoaded', () => {
-    initNavigation();
-    initFAQ();
-    initSmoothScroll();
-    initScrollAnimations();
-    initDashboard();
+    els.entryPrice.textContent = formatPrice(signal.entry);
+    els.stopLoss.textContent = formatPrice(signal.stop_loss);
+    els.takeProfit.textContent = formatPrice(signal.take_profit);
+    els.signalTime.textContent = signal.time || '--';
+    els.signalDate.textContent = signal.date || '--';
+  }
 
-    // Initial signal fetch
-    refreshSignal();
-
-    // Periodic updates
-    setInterval(refreshSignal, CONFIG.REFRESH_INTERVAL);
-    setInterval(updateSessionStatus, 1000);
-
-    // Initial session status
-    updateSessionStatus();
-});
-
-// Handle window resize
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-        navLinks.classList.remove('active');
-        mobileMenuBtn.classList.remove('active');
-        document.body.style.overflow = '';
+  function updateHistory(history) {
+    if (!history || history.length === 0) {
+      els.historyBody.innerHTML = `
+        <tr>
+          <td colspan="7" style="text-align: center; color: var(--text-muted);">No trade history available</td>
+        </tr>
+      `;
+      return;
     }
-});
+
+    const rows = history.slice(0, 10).map(trade => {
+      const directionClass = trade.direction === 'BUY' ? 'badge-buy' : 'badge-sell';
+      let resultBadge = '';
+
+      if (trade.status === 'TP_HIT') {
+        resultBadge = '<span class="badge badge-tp">TP Hit</span>';
+      } else if (trade.status === 'SL_HIT') {
+        resultBadge = '<span class="badge badge-sl">SL Hit</span>';
+      } else if (trade.status === 'SESSION_CLOSED') {
+        resultBadge = '<span class="badge" style="background: rgba(160,160,176,0.15); color: var(--text-muted);">Closed</span>';
+      } else {
+        resultBadge = '<span class="badge" style="background: rgba(74,144,217,0.15); color: var(--accent-blue);">Active</span>';
+      }
+
+      return `
+        <tr>
+          <td><span class="badge ${directionClass}">${trade.direction}</span></td>
+          <td>${formatPrice(trade.entry)}</td>
+          <td>${formatPrice(trade.stop_loss)}</td>
+          <td>${formatPrice(trade.take_profit)}</td>
+          <td>${trade.date || '--'}</td>
+          <td>${trade.time || '--'}</td>
+          <td>${resultBadge}</td>
+        </tr>
+      `;
+    }).join('');
+
+    els.historyBody.innerHTML = rows;
+  }
+
+  async function fetchSignalData() {
+    try {
+      const response = await fetch(`${API_BASE}/api/signal`);
+      if (!response.ok) throw new Error('Failed to fetch');
+
+      const result = await response.json();
+      if (!result.success) throw new Error(result.error);
+
+      const data = result.data;
+
+      // Update signal card
+      updateSignalCard(data.latest_signal);
+
+      // Update market info
+      els.currentPrice.textContent = formatPrice(data.current_gold_price);
+      els.sessionStatus.textContent = getSessionStatusText(data.session_status);
+      els.lastUpdated.textContent = formatDateTime(data.last_updated);
+
+      // Update OR levels
+      if (data.opening_range) {
+        els.orHigh.textContent = formatPrice(data.opening_range.high);
+        els.orLow.textContent = formatPrice(data.opening_range.low);
+      }
+
+      // Update status indicator
+      const statusClass = getStatusClass(data.session_status);
+      els.statusDot.className = `status-dot ${statusClass}`;
+      els.statusText.textContent = getSessionStatusText(data.session_status);
+
+      // Update history
+      updateHistory(data.signal_history);
+
+      // Calculate time remaining
+      updateTimeRemaining(data.session_status);
+
+    } catch (error) {
+      console.error('Error fetching signal data:', error);
+      els.statusText.textContent = 'Connection Error';
+      els.statusDot.className = 'status-dot ended';
+    }
+  }
+
+  function updateTimeRemaining(sessionStatus) {
+    // WAT is UTC+1
+    const now = new Date();
+    const watOffset = 60; // minutes
+    const watNow = new Date(now.getTime() + watOffset * 60000);
+
+    const sessionEnd = new Date(watNow);
+    sessionEnd.setHours(20, 45, 0, 0); // 8:45 PM WAT
+
+    const sessionStart = new Date(watNow);
+    sessionStart.setHours(14, 30, 0, 0); // 2:30 PM WAT
+
+    const day = watNow.getDay();
+
+    if (day === 0 || day === 6) {
+      els.timeRemaining.textContent = 'Weekend';
+      return;
+    }
+
+    if (sessionStatus === 'SESSION_ENDED') {
+      els.timeRemaining.textContent = 'Session Ended';
+      return;
+    }
+
+    if (watNow < sessionStart) {
+      const diff = sessionStart - watNow;
+      const hours = Math.floor(diff / 3600000);
+      const minutes = Math.floor((diff % 3600000) / 60000);
+      els.timeRemaining.textContent = `Starts in ${hours}h ${minutes}m`;
+      return;
+    }
+
+    if (watNow > sessionEnd) {
+      els.timeRemaining.textContent = 'Session Ended';
+      return;
+    }
+
+    const diff = sessionEnd - watNow;
+    const hours = Math.floor(diff / 3600000);
+    const minutes = Math.floor((diff % 3600000) / 60000);
+    els.timeRemaining.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+  }
+
+  // Initialize dashboard if elements exist
+  if (els.signalDirection) {
+    fetchSignalData();
+    refreshInterval = setInterval(fetchSignalData, 60000); // Refresh every minute
+  }
+
+  // Cleanup on page unload
+  window.addEventListener('beforeunload', () => {
+    if (refreshInterval) {
+      clearInterval(refreshInterval);
+    }
+  });
+
+})();

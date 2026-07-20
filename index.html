@@ -1,443 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DollarProFx | Free XAUUSD Trading Signals</title>
-    <meta name="description" content="Free XAUUSD trading signals with clear Entry, Stop Loss, and Take Profit levels. Automated ORBS breakout strategy.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DollarProFx - Free XAUUSD Trading Signals with professional breakout analysis. Get clear Entry, Stop Loss, and Take Profit levels delivered to your Telegram.">
+  <meta name="keywords" content="XAUUSD, gold trading, trading signals, forex signals, breakout strategy, free signals">
+  <meta name="author" content="DollarProFx">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <title>DollarProFx | Free XAUUSD Trading Signals</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="/" class="logo">
-                <span class="logo-icon">$</span>
-                <span class="logo-text">DollarProFx</span>
-            </a>
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="/" class="nav-link active">Home</a></li>
-                <li><a href="/live-signals" class="nav-link">Live Signals</a></li>
-                <li><a href="/verification" class="nav-link">Account Verification</a></li>
-                <li><a href="#faq" class="nav-link">FAQ</a></li>
-                <li><a href="https://t.me/your_channel_name" target="_blank" class="nav-link telegram-nav">Join Telegram</a></li>
-            </ul>
-        </div>
-    </nav>
+  <!-- Background Effects -->
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-bg">
-            <div class="hero-particle hero-particle-1"></div>
-            <div class="hero-particle hero-particle-2"></div>
-            <div class="hero-particle hero-particle-3"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-badge">
-                <span class="pulse-dot"></span>
-                Live Trading Signals
-            </div>
-            <h1 class="hero-title">
-                Free <span class="gold-text">XAUUSD</span> Trading Signals
-            </h1>
-            <p class="hero-subtitle">
-                Receive high-quality XAUUSD breakout signals with clear Entry, Stop Loss, and Take Profit levels delivered automatically during the trading session.
-            </p>
-            <div class="hero-buttons">
-                <a href="/live-signals" class="btn btn-primary">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-                    View Live Signals
-                </a>
-                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
-                    Join Our Free Telegram Channel
-                </a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number" id="heroGoldPrice">--</span>
-                    <span class="stat-label">Gold Price (USD)</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">M15</span>
-                    <span class="stat-label">Timeframe</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number">2:30 - 8:45 PM</span>
-                    <span class="stat-label">WAT Session</span>
-                </div>
-            </div>
-        </div>
-        <div class="hero-scroll">
-            <div class="scroll-indicator">
-                <span></span>
-            </div>
-        </div>
-    </section>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">$</div>
+        <span>DollarProFx</span>
+      </a>
 
-    <!-- Live Signal Ticker -->
-    <section class="ticker-section">
-        <div class="ticker-container">
-            <div class="ticker-label">
-                <span class="pulse-dot"></span>
-                Latest Signal
-            </div>
-            <div class="ticker-content" id="tickerContent">
-                <span class="ticker-status">Loading signals...</span>
-            </div>
-        </div>
-    </section>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#live-signals">Live Signals</a></li>
+        <li><a href="verification.html">Account Verification</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="https://t.me/dollarproforex" target="_blank" class="nav-cta"><i class="fab fa-telegram"></i> Join Telegram</a></li>
+      </ul>
 
-    <!-- About Section -->
-    <section class="about-section" id="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">About Us</span>
-                <h2 class="section-title">About <span class="gold-text">DollarProFx</span></h2>
-                <p class="section-desc">DollarProFx provides automated XAUUSD trading signals using disciplined breakout analysis based on the Opening Range Breakout Strategy (ORBS).</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-card glass-card">
-                    <div class="about-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
-                    </div>
-                    <h3>Automated Strategy</h3>
-                    <p>Our system automatically identifies the Opening Range and monitors every M15 candle for confirmed breakouts — no manual intervention needed.</p>
-                </div>
-                <div class="about-card glass-card">
-                    <div class="about-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                    </div>
-                    <h3>Real-Time Delivery</h3>
-                    <p>Signals are delivered instantly via Telegram with precise Entry, Stop Loss, and Take Profit levels calculated using a 1:2 risk-reward ratio.</p>
-                </div>
-                <div class="about-card glass-card">
-                    <div class="about-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                    </div>
-                    <h3>Risk Management</h3>
-                    <p>Every signal includes professionally calculated Stop Loss and Take Profit levels to protect your capital and maximize returns.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="mobile-toggle" id="mobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
 
-    <!-- How It Works Section -->
-    <section class="how-it-works" id="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Process</span>
-                <h2 class="section-title">How It <span class="gold-text">Works</span></h2>
-            </div>
-            <div class="steps-container">
-                <div class="step-card">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>Opening Range Identification</h3>
-                        <p>Every trading day at <strong>2:15 PM WAT</strong>, the system identifies the M15 candle that opens and closes at <strong>2:30 PM WAT</strong>. The High and Low of this candle become the Opening Range.</p>
-                    </div>
-                </div>
-                <div class="step-connector"></div>
-                <div class="step-card">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>Breakout Monitoring</h3>
-                        <p>After 2:30 PM WAT, the system monitors every completed M15 candle. A <strong>BUY</strong> signal generates when a candle closes above the Opening Range High. A <strong>SELL</strong> signal generates when a candle closes below the Opening Range Low.</p>
-                    </div>
-                </div>
-                <div class="step-connector"></div>
-                <div class="step-card">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Signal Delivery</h3>
-                        <p>Once a confirmed breakout is detected, the signal is instantly sent to our Telegram channel with Entry, Stop Loss, and Take Profit levels. The system continues monitoring for TP/SL hits throughout the session.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cta-center">
-                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-large">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
-                    Join Our Free Telegram Channel
-                </a>
-            </div>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse"></span>
+        <span>Live Trading Signals Available</span>
+      </div>
 
-    <!-- Why Choose Us Section -->
-    <section class="why-section" id="why">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Benefits</span>
-                <h2 class="section-title">Why Choose <span class="gold-text">DollarProFx</span></h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card glass-card">
-                    <div class="feature-icon green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                    </div>
-                    <h3>Free Signals</h3>
-                    <p>All trading signals are completely free. No subscriptions, no hidden fees, no premium tiers.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon blue">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                    </div>
-                    <h3>Professional Risk Management</h3>
-                    <p>Every signal includes a calculated Stop Loss and Take Profit using a disciplined 1:2 risk-reward ratio.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon gold">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-                    </div>
-                    <h3>Clear Entry Levels</h3>
-                    <p>Precise entry prices based on confirmed M15 candle closes — never wick breakouts or repainting signals.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon red">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
-                    </div>
-                    <h3>Clear Stop Loss</h3>
-                    <p>Stop Loss is always set at the opposite side of the Opening Range — providing logical and consistent risk parameters.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    </div>
-                    <h3>Clear Take Profit</h3>
-                    <p>Take Profit is automatically calculated at a 1:2 risk-reward ratio, giving you a clear profit target on every trade.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon purple">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-                    </div>
-                    <h3>Mobile Friendly</h3>
-                    <p>Access signals on any device. Our dashboard and Telegram notifications work seamlessly on mobile, tablet, and desktop.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon cyan">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"></path></svg>
-                    </div>
-                    <h3>Automatic Updates</h3>
-                    <p>The system runs automatically every minute during the trading session. No manual setup required after joining.</p>
-                </div>
-                <div class="feature-card glass-card">
-                    <div class="feature-icon orange">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
-                    </div>
-                    <h3>Fast Signal Delivery</h3>
-                    <p>Signals are delivered instantly via Telegram the moment a confirmed breakout is detected on the M15 timeframe.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <h1 class="hero-title">
+        Free <span class="gradient-text">XAUUSD</span><br>Trading Signals
+      </h1>
 
-    <!-- Trading Session Section -->
-    <section class="session-section" id="session">
-        <div class="container">
-            <div class="session-card glass-card">
-                <div class="session-header">
-                    <span class="section-tag">Schedule</span>
-                    <h2 class="section-title">Trading <span class="gold-text">Session</span></h2>
-                </div>
-                <div class="session-timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>2:15 PM WAT</h4>
-                            <p>Opening Range candle opens. The system begins tracking the M15 candle that will define the day's range.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot active"></div>
-                        <div class="timeline-content">
-                            <h4>2:30 PM WAT</h4>
-                            <p>Opening Range candle closes. The High and Low are recorded and remain fixed for the entire session.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>2:30 PM - 8:45 PM WAT</h4>
-                            <p>Trading session active. The system monitors every completed M15 candle for confirmed breakouts above the High or below the Low.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot end"></div>
-                        <div class="timeline-content">
-                            <h4>8:45 PM WAT</h4>
-                            <p>Trading session ends. All signals, Opening Range values, and trade states are reset for the next trading day.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="session-status" id="sessionStatus">
-                    <div class="status-indicator">
-                        <span class="status-dot" id="statusDot"></span>
-                        <span class="status-text" id="statusText">Checking session...</span>
-                    </div>
-                    <div class="countdown" id="countdown">
-                        <span class="countdown-label">Time remaining:</span>
-                        <span class="countdown-value" id="countdownValue">--:--:--</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <p class="hero-subtitle">
+        Receive high-quality XAUUSD breakout signals with clear Entry, Stop Loss, and Take Profit levels delivered automatically during the trading session.
+      </p>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-card glass-card">
-                <h2>Ready to Start Trading?</h2>
-                <p>Join thousands of traders receiving free, high-quality XAUUSD signals delivered straight to their Telegram.</p>
-                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-large">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
-                    Join Our Free Telegram Channel
-                </a>
-            </div>
-        </div>
-    </section>
+      <div class="hero-buttons">
+        <a href="#live-signals" class="btn btn-primary btn-large">
+          <i class="fas fa-chart-line"></i> View Live Signals
+        </a>
+        <a href="https://t.me/dollarproforex" target="_blank" class="btn btn-telegram btn-large">
+          <i class="fab fa-telegram"></i> Join Our Free Telegram Channel
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <!-- FAQ Section -->
-    <section class="faq-section" id="faq">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">FAQ</span>
-                <h2 class="section-title">Frequently Asked <span class="gold-text">Questions</span></h2>
-            </div>
-            <div class="faq-list">
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>What is the Opening Range Breakout Strategy (ORBS)?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>The Opening Range Breakout Strategy identifies a specific M15 candle at the start of the trading session (2:15 PM - 2:30 PM WAT). The High and Low of this candle create a range. When a subsequent M15 candle closes above the High, a BUY signal is generated. When a candle closes below the Low, a SELL signal is generated. Only confirmed candle closes trigger signals — wick breakouts are ignored.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>Are the signals really free?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, all XAUUSD trading signals are completely free. There are no subscription plans, no premium tiers, and no hidden fees. Simply join our Telegram channel to receive signals automatically during the trading session.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>What time zone are the signals based on?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>All signals use West Africa Time (WAT), which is UTC+1. The trading session runs from 2:30 PM WAT to 8:45 PM WAT. The Opening Range candle is identified from 2:15 PM WAT to 2:30 PM WAT.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>How are Stop Loss and Take Profit calculated?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>For BUY signals, the Stop Loss is set at the Opening Range Low. For SELL signals, the Stop Loss is set at the Opening Range High. Take Profit is automatically calculated using a fixed 1:2 risk-reward ratio. For example, if the risk (distance from Entry to Stop Loss) is 10 pips, the Take Profit will be 20 pips from the Entry.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>Can I get duplicate signals?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>No. The system has built-in duplicate prevention. Once a BUY or SELL signal is generated, no additional signal in the same direction will be sent until a confirmed breakout occurs in the opposite direction. This prevents over-trading and ensures disciplined signal generation.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>What happens when Stop Loss or Take Profit is hit?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>When Stop Loss or Take Profit is reached, the system sends an immediate Telegram update. The trade is marked as closed, and the system continues monitoring for the next confirmed breakout in the opposite direction. The system does not immediately reverse the trade — it waits for a proper breakout confirmation.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>Do you trade on weekends?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>No. The system automatically detects weekends (Saturday and Sunday) and does not generate signals during those days. Trading resumes on the next weekday at the start of the session.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        <span>How do I verify my account?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Account verification is required for certain features. Visit the <a href="/verification">Account Verification</a> page, enter your EXNESS email address, and follow the partner change instructions provided. Once EXNESS confirms the partner change, your account will be verified.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Live Signals Dashboard -->
+  <section class="section section-alt" id="live-signals">
+    <div class="section-header">
+      <span class="section-label">Live Dashboard</span>
+      <h2 class="section-title">Current Market Signals</h2>
+      <p class="section-desc">Real-time XAUUSD signal updates with automatic refresh every minute</p>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="/" class="logo">
-                        <span class="logo-icon">$</span>
-                        <span class="logo-text">DollarProFx</span>
-                    </a>
-                    <p>Free XAUUSD trading signals powered by the Opening Range Breakout Strategy. Trade with discipline, manage risk, and grow your account.</p>
-                    <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-small">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
-                        Join Telegram
-                    </a>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigation</h4>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/live-signals">Live Signals</a></li>
-                        <li><a href="/verification">Account Verification</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Risk Disclaimer</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="mailto:contact@dollarprofx.com">contact@dollarprofx.com</a></li>
-                        <li><a href="https://t.me/your_channel_name" target="_blank">Telegram Channel</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 DollarProFx. All rights reserved.</p>
-                <p class="disclaimer">Trading involves risk. Past performance is not indicative of future results. Always trade responsibly.</p>
-            </div>
-        </div>
-    </footer>
+    <div class="dashboard-grid">
+      <!-- Main Signal Card -->
+      <div class="signal-card waiting" id="signalCard">
+        <div class="signal-label">Signal Direction</div>
+        <div class="signal-direction waiting" id="signalDirection">WAITING</div>
+        <div style="color: var(--text-secondary); margin-bottom: 1.5rem;" id="signalStatusText">Waiting for confirmed breakout...</div>
 
-    <script src="script.js"></script>
+        <div class="signal-row">
+          <span class="signal-label">Entry Price</span>
+          <span class="signal-value" id="entryPrice">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Stop Loss</span>
+          <span class="signal-value" id="stopLoss">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Take Profit</span>
+          <span class="signal-value" id="takeProfit">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Signal Time</span>
+          <span class="signal-value" id="signalTime">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Date</span>
+          <span class="signal-value" id="signalDate">--</span>
+        </div>
+      </div>
+
+      <!-- Market Info Card -->
+      <div class="signal-card">
+        <div class="signal-label">Market Overview</div>
+        <div style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">XAU/USD M15</div>
+
+        <div class="signal-row">
+          <span class="signal-label">Current Gold Price</span>
+          <span class="signal-value" id="currentPrice">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Session Status</span>
+          <span class="signal-value" id="sessionStatus">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Time Remaining</span>
+          <span class="signal-value" id="timeRemaining">--</span>
+        </div>
+        <div class="signal-row">
+          <span class="signal-label">Last Updated</span>
+          <span class="signal-value" id="lastUpdated">--</span>
+        </div>
+
+        <div class="or-display">
+          <div class="or-box">
+            <div class="or-box-label">Opening Range High</div>
+            <div class="or-box-value" id="orHigh">--</div>
+          </div>
+          <div class="or-box">
+            <div class="or-box-label">Opening Range Low</div>
+            <div class="or-box-value" id="orLow">--</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signal History -->
+      <div class="signal-card" style="grid-column: 1 / -1;">
+        <div class="signal-label">Signal History</div>
+        <div style="font-size: 1.3rem; font-weight: 600; margin-bottom: 1rem;">Recent Trades</div>
+        <div style="overflow-x: auto;">
+          <table class="history-table" id="historyTable">
+            <thead>
+              <tr>
+                <th>Direction</th>
+                <th>Entry</th>
+                <th>SL</th>
+                <th>TP</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody id="historyBody">
+              <tr>
+                <td colspan="7" style="text-align: center; color: var(--text-muted);">No trade history available</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <div class="status-indicator" id="statusIndicator">
+        <span class="status-dot waiting" id="statusDot"></span>
+        <span class="status-text" id="statusText">Monitoring Market...</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="section-header">
+      <span class="section-label">About Us</span>
+      <h2 class="section-title">About DollarProFx</h2>
+      <p class="section-desc">Professional automated trading signals powered by disciplined breakout analysis</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+        <h3 class="card-title">Our Mission</h3>
+        <p class="card-text">DollarProFx provides automated XAUUSD trading signals using disciplined Opening Range Breakout Strategy (ORBS) analysis. We deliver precise entry and exit points to help traders make informed decisions.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-robot"></i></div>
+        <h3 class="card-title">Automated Analysis</h3>
+        <p class="card-text">Our system automatically monitors M15 candles, identifies the opening range, and generates signals only on confirmed candle closes — never on wick breakouts. Pure algorithmic precision.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3 class="card-title">Risk Management</h3>
+        <p class="card-text">Every signal includes predefined Stop Loss and Take Profit levels with a fixed 1:2 risk-to-reward ratio. Professional risk management built into every trade recommendation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section section-alt" id="how-it-works">
+    <div class="section-header">
+      <span class="section-label">Process</span>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-desc">Simple, transparent, and automated signal generation</p>
+    </div>
+
+    <div class="steps-container">
+      <div class="step reveal">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Opening Range Detection</h3>
+          <p>Every trading day at 2:15 PM WAT, our system identifies the M15 candle that closes at 2:30 PM WAT. This candle establishes the Opening Range High and Low — the key levels for the entire session.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Confirmed Breakout Monitoring</h3>
+          <p>After 2:30 PM WAT, we monitor every completed M15 candle. A BUY signal is generated only when a candle closes above the Opening Range High. A SELL signal is generated only when a candle closes below the Opening Range Low.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Automatic Signal Delivery</h3>
+          <p>When a confirmed breakout occurs, the signal is instantly sent to our Telegram channel with Entry, Stop Loss, and Take Profit levels. The system continues monitoring for SL/TP hits and updates you automatically.</p>
+        </div>
+      </div>
+
+      <div class="step reveal">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3>Trade Management</h3>
+          <p>If Stop Loss is hit, we notify you and wait for the next opposite breakout. If Take Profit is reached, we celebrate the win and monitor for the next opportunity. No reversal trading — only confirmed breakouts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section" id="why-us">
+    <div class="section-header">
+      <span class="section-label">Features</span>
+      <h2 class="section-title">Why Choose DollarProFx</h2>
+      <p class="section-desc">Everything you need for professional gold trading signals</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-gift"></i></div>
+        <h3 class="card-title">Free Signals</h3>
+        <p class="card-text">All trading signals are completely free. No subscriptions, no hidden fees, no premium tiers. Quality signals for everyone.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+        <h3 class="card-title">Professional Risk Management</h3>
+        <p class="card-text">Every trade comes with predefined Stop Loss and Take Profit levels using a strict 1:2 risk-to-reward ratio for optimal capital preservation.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-crosshairs"></i></div>
+        <h3 class="card-title">Clear Entry Levels</h3>
+        <p class="card-text">Precise entry prices based on confirmed M15 candle closes. No guesswork, no ambiguity — just clear, actionable signals.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3 class="card-title">Mobile Friendly</h3>
+        <p class="card-text">Access signals on any device. Our platform is fully responsive and optimized for desktop, tablet, and mobile screens.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-sync-alt"></i></div>
+        <h3 class="card-title">Automatic Updates</h3>
+        <p class="card-text">The dashboard refreshes automatically every minute. Get real-time updates on active trades, SL/TP hits, and new signals.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-paper-plane"></i></div>
+        <h3 class="card-title">Fast Signal Delivery</h3>
+        <p class="card-text">Signals are sent instantly via Telegram the moment a confirmed breakout is detected. Never miss a trading opportunity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trading Session Info -->
+  <section class="section section-alt" id="session-info">
+    <div class="section-header">
+      <span class="section-label">Schedule</span>
+      <h2 class="section-title">Trading Session</h2>
+      <p class="section-desc">Our signals are active during specific market hours</p>
+    </div>
+
+    <div class="card-grid" style="max-width: 800px;">
+      <div class="card reveal" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 1.5rem;"><i class="fas fa-clock"></i></div>
+        <h3 class="card-title">Session Hours</h3>
+        <p class="card-text" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><strong>2:30 PM WAT</strong> — Session Start</p>
+        <p class="card-text" style="font-size: 1.1rem;"><strong>8:45 PM WAT</strong> — Session End</p>
+        <p class="card-text" style="margin-top: 1rem; color: var(--text-muted);">Monday through Friday only</p>
+      </div>
+
+      <div class="card reveal" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 1.5rem;"><i class="fas fa-bullseye"></i></div>
+        <h3 class="card-title">Opening Range</h3>
+        <p class="card-text" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><strong>2:15 PM WAT</strong> — Candle Opens</p>
+        <p class="card-text" style="font-size: 1.1rem;"><strong>2:30 PM WAT</strong> — Candle Closes</p>
+        <p class="card-text" style="margin-top: 1rem; color: var(--text-muted);">High and Low are fixed for the session</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section 1 -->
+  <section class="cta-section">
+    <h2 class="cta-title reveal">Ready to Start Trading?</h2>
+    <p class="cta-desc reveal">Join thousands of traders receiving free XAUUSD signals on Telegram</p>
+    <div class="reveal">
+      <a href="https://t.me/dollarproforex" target="_blank" class="btn btn-telegram btn-large">
+        <i class="fab fa-telegram"></i> Join Our Free Telegram Channel
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-alt" id="faq">
+    <div class="section-header">
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-desc">Everything you need to know about DollarProFx signals</p>
+    </div>
+
+    <div class="faq-container">
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          Are the signals really free?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes, all XAUUSD trading signals from DollarProFx are completely free. There are no subscription plans, no premium tiers, and no hidden fees. Simply join our Telegram channel to receive signals.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          What is the Opening Range Breakout Strategy?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>The Opening Range Breakout Strategy (ORBS) identifies a specific M15 candle (2:15 PM - 2:30 PM WAT) to establish High and Low levels. We then monitor for confirmed candle closes beyond these levels to generate BUY or SELL signals. Only completed candles trigger signals — wick breakouts are ignored.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          What time zone are the signals in?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>All signals are in WAT (West Africa Time, UTC+1). The trading session runs from 2:30 PM WAT to 8:45 PM WAT, Monday through Friday. The Opening Range candle is from 2:15 PM to 2:30 PM WAT.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          How are Stop Loss and Take Profit calculated?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>For BUY signals, Stop Loss is set at the Opening Range Low. For SELL signals, Stop Loss is set at the Opening Range High. Take Profit is automatically calculated using a fixed 1:2 risk-to-reward ratio based on the distance between Entry and Stop Loss.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          What happens if Stop Loss is hit?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>If Stop Loss is reached, you will receive a Telegram update informing you that the trade closed at SL. We do NOT immediately reverse the trade. The system continues monitoring for a confirmed breakout in the opposite direction before generating a new signal.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          Can I trade on weekends?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>No, DollarProFx signals are only active Monday through Friday. The forex market is closed on weekends, so no signals are generated during that time. The system automatically resets for the next trading day.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          Do I need to verify my account?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>Account verification is available for users who want to link their EXNESS account under the DollarProFx partnership. This is optional and does not affect your access to free signals. Verification simply links your existing EXNESS account to our partner program.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question">
+          How do I receive the signals?
+          <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-answer">
+          <p>Signals are delivered instantly via our Telegram channel. Join <a href="https://t.me/dollarproforex" target="_blank">@dollarproforex</a> to receive real-time BUY/SELL signals, Stop Loss updates, and Take Profit notifications. You can also view live signals on this website dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section 2 -->
+  <section class="cta-section">
+    <h2 class="cta-title reveal">Don't Miss the Next Signal</h2>
+    <p class="cta-desc reveal">Join our Telegram channel and get XAUUSD signals delivered straight to your phone</p>
+    <div class="reveal">
+      <a href="https://t.me/dollarproforex" target="_blank" class="btn btn-telegram btn-large">
+        <i class="fab fa-telegram"></i> Join Our Free Telegram Channel
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="nav-logo-icon">$</div>
+          <span>DollarProFx</span>
+        </div>
+        <p>Professional XAUUSD trading signals powered by disciplined breakout analysis. Free, automated, and delivered in real-time.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#live-signals">Live Signals</a></li>
+          <li><a href="verification.html">Account Verification</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#session-info">Trading Session</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="https://t.me/dollarproforex" target="_blank">Telegram Channel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" onclick="alert('Privacy Policy coming soon'); return false;">Privacy Policy</a></li>
+          <li><a href="#" onclick="alert('Terms of Service coming soon'); return false;">Terms of Service</a></li>
+          <li><a href="#" onclick="alert('Contact: dollarprofx@gmail.com'); return false;">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 DollarProFx. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://t.me/dollarproforex" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>

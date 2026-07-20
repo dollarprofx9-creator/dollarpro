@@ -1,6 +1,16 @@
+#!/usr/bin/env python3
 """
-DollarProFx Signal Generation Engine
-Generates XAUUSD ORBS (Opening Range Breakout Strategy) signals.
+DollarProFx Signal Engine
+Core trading logic for XAUUSD ORBS (Opening Range Breakout Strategy).
+
+This script:
+1. Fetches M15 candle data from Twelve Data
+2. Identifies the Opening Range (2:15 PM - 2:30 PM WAT)
+3. Monitors confirmed candle closes for breakouts
+4. Generates BUY/SELL signals with proper risk management
+5. Detects Stop Loss and Take Profit hits
+6. Sends Telegram notifications
+7. Updates signal.json
 """
 
 import os
@@ -9,670 +19,846 @@ import json
 import time
 import logging
 import requests
-from datetime import datetime, timedelta
-from pathlib import Path
+from datetime import datetime, timedelta, time as dt_time
+from typing import Optional, Dict, Any, List, Tuple
+import pytz
 
-# Add current directory to path for imports
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import config
 
-from config import (
-    TWELVEDATA_API_KEY,
-    TELEGRAM_BOT_TOKEN,
-    TELEGRAM_CHAT_ID,
-    SYMBOL,
-    TIMEFRAME,
-    TIMEZONE,
-    TRADING_SESSION_START,
-    TRADING_SESSION_END,
-    OPENING_RANGE_OPEN,
-    OPENING_RANGE_CLOSE,
-    RISK_REWARD_RATIO,
-    SIGNAL_FILE,
-    USERS_FILE,
-    LOGS_DIR,
-    TELEGRAM_BUY_TEMPLATE,
-    TELEGRAM_SELL_TEMPLATE,
-    TELEGRAM_SL_TEMPLATE,
-    TELEGRAM_TP_TEMPLATE,
+# ── Logging Setup ───────────────────────────────────────────────────
+LOG_DIR = config.LOG_DIR
+os.makedirs(LOG_DIR, exist_ok=True)
+
+log_formatter = logging.Formatter(
+    "%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-# =============================================================================
-# LOGGING SETUP
-# =============================================================================
+# File handler
+file_handler = logging.FileHandler(
+    os.path.join(LOG_DIR, f"signal_engine_{datetime.now().strftime('%Y%m%d')}.log"),
+    encoding="utf-8"
+)
+file_handler.setFormatter(log_formatter)
 
-def setup_logging():
-    """Configure logging for the signal engine."""
-    os.makedirs(LOGS_DIR, exist_ok=True)
-    log_file = os.path.join(LOGS_DIR, f"signal_engine_{datetime.now().strftime('%Y%m%d')}.log")
+# Console handler
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setFormatter(log_formatter)
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        handlers=[
-            logging.FileHandler(log_file),
-            logging.StreamHandler(sys.stdout)
-        ]
-    )
-    return logging.getLogger(__name__)
+logger = logging.getLogger("DollarProFx")
+logger.setLevel(logging.INFO)
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
 
-logger = setup_logging()
-
-# =============================================================================
-# FILE OPERATIONS
-# =============================================================================
-
-def load_json(filepath):
-    """Load JSON data from file with error handling."""
-    try:
-        with open(filepath, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        logger.error(f"File not found: {filepath}")
-        return {}
-    except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON in {filepath}: {e}")
-        return {}
+# ── Timezone Handling ───────────────────────────────────────────────
+WAT = pytz.timezone(config.WAT_TIMEZONE)
+UTC = pytz.utc
 
 
-def save_json(filepath, data):
-    """Save JSON data to file atomically."""
-    try:
-        temp_file = filepath + ".tmp"
-        with open(temp_file, "w") as f:
-            json.dump(data, f, indent=2)
-        os.replace(temp_file, filepath)
-        logger.info(f"Saved data to {filepath}")
-        return True
-    except Exception as e:
-        logger.error(f"Failed to save {filepath}: {e}")
-        return False
+def get_wat_now() -> datetime:
+    """Get current time in WAT timezone."""
+    return datetime.now(WAT)
 
 
-# =============================================================================
-# TWELVE DATA API
-# =============================================================================
+def get_wat_date(dt: datetime) -> datetime:
+    """Convert datetime to WAT timezone."""
+    if dt.tzinfo is None:
+        dt = UTC.localize(dt)
+    return dt.astimezone(WAT)
 
-def fetch_m15_candles(symbol="XAU/USD", interval="15min", outputsize=100):
-    """
-    Fetch M15 candle data from Twelve Data API.
-    Retries on failure with exponential backoff.
-    """
-    if not TWELVEDATA_API_KEY:
-        logger.error("TWELVEDATA_API_KEY not set")
-        return None
 
-    url = "https://api.twelvedata.com/time_series"
-    params = {
-        "symbol": symbol,
-        "interval": interval,
-        "outputsize": outputsize,
-        "apikey": TWELVEDATA_API_KEY,
-        "timezone": TIMEZONE,
-    }
+# ── Twelve Data API ────────────────────────────────────────────────
+class TwelveDataClient:
+    """Client for Twelve Data API with retry logic."""
 
-    max_retries = 3
-    for attempt in range(max_retries):
-        try:
-            response = requests.get(url, params=params, timeout=30)
+    BASE_URL = "https://api.twelvedata.com"
 
-            if response.status_code == 429:
-                logger.warning(f"Rate limit hit. Retrying in {2 ** attempt}s...")
-                time.sleep(2 ** attempt)
-                continue
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        if not api_key:
+            logger.error("TWELVEDATA_API_KEY is not set!")
 
-            response.raise_for_status()
-            data = response.json()
+    def _make_request(self, endpoint: str, params: Dict[str, Any]) -> Optional[Dict]:
+        """Make API request with retry logic."""
+        params["apikey"] = self.api_key
+        url = f"{self.BASE_URL}/{endpoint}"
 
-            if "values" not in data:
-                if "message" in data:
-                    logger.error(f"Twelve Data API error: {data['message']}")
-                else:
-                    logger.error(f"Unexpected Twelve Data response: {data}")
+        for attempt in range(config.API_RETRY_ATTEMPTS):
+            try:
+                response = requests.get(url, params=params, timeout=30)
+
+                if response.status_code == 429:
+                    logger.warning(f"Rate limited. Waiting {config.API_RETRY_DELAY * (attempt + 1)}s...")
+                    time.sleep(config.API_RETRY_DELAY * (attempt + 1))
+                    continue
+
+                response.raise_for_status()
+                data = response.json()
+
+                if "code" in data and data.get("code") != 200:
+                    logger.error(f"API error: {data}")
+                    return None
+
+                return data
+
+            except requests.exceptions.Timeout:
+                logger.warning(f"Request timeout (attempt {attempt + 1})")
+            except requests.exceptions.ConnectionError:
+                logger.warning(f"Connection error (attempt {attempt + 1})")
+            except requests.exceptions.HTTPError as e:
+                logger.error(f"HTTP error: {e}")
+                return None
+            except Exception as e:
+                logger.error(f"Unexpected error: {e}")
                 return None
 
-            logger.info(f"Successfully fetched {len(data['values'])} candles")
+            time.sleep(config.API_RETRY_DELAY)
+
+        logger.error("All retry attempts failed")
+        return None
+
+    def get_time_series(self, symbol: str, interval: str, 
+                        start_date: str, end_date: str) -> Optional[List[Dict]]:
+        """Fetch historical candle data."""
+        params = {
+            "symbol": symbol,
+            "interval": interval,
+            "start_date": start_date,
+            "end_date": end_date,
+            "format": "JSON",
+            "timezone": "UTC"
+        }
+
+        data = self._make_request("time_series", params)
+        if data and "values" in data:
             return data["values"]
+        return None
 
-        except requests.exceptions.RequestException as e:
-            logger.error(f"API request failed (attempt {attempt + 1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
-
-    logger.error("All API request attempts failed")
-    return None
+    def get_quote(self, symbol: str) -> Optional[Dict]:
+        """Get latest quote/price."""
+        params = {"symbol": symbol}
+        return self._make_request("quote", params)
 
 
-# =============================================================================
-# TELEGRAM BOT
-# =============================================================================
+# ── Telegram Bot ───────────────────────────────────────────────────
+class TelegramNotifier:
+    """Telegram bot for sending trade signals and updates."""
 
-def send_telegram_message(message):
-    """
-    Send a message via Telegram Bot API.
-    Retries on failure with exponential backoff.
-    """
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        logger.error("Telegram credentials not configured")
+    BASE_URL = "https://api.telegram.org/bot{token}"
+
+    def __init__(self, bot_token: str, chat_id: str):
+        self.bot_token = bot_token
+        self.chat_id = chat_id
+        self.base_url = self.BASE_URL.format(token=bot_token)
+
+        if not bot_token or not chat_id:
+            logger.error("Telegram credentials not set!")
+
+    def send_message(self, message: str, parse_mode: str = "HTML") -> bool:
+        """Send message to Telegram with retry logic."""
+        if not self.bot_token or not self.chat_id:
+            logger.error("Cannot send Telegram message: credentials missing")
+            return False
+
+        url = f"{self.base_url}/sendMessage"
+        payload = {
+            "chat_id": self.chat_id,
+            "text": message,
+            "parse_mode": parse_mode,
+            "disable_web_page_preview": True
+        }
+
+        for attempt in range(config.API_RETRY_ATTEMPTS):
+            try:
+                response = requests.post(url, json=payload, timeout=30)
+                response.raise_for_status()
+                result = response.json()
+
+                if result.get("ok"):
+                    logger.info("Telegram message sent successfully")
+                    return True
+                else:
+                    logger.error(f"Telegram API error: {result}")
+                    return False
+
+            except requests.exceptions.RequestException as e:
+                logger.warning(f"Telegram send failed (attempt {attempt + 1}): {e}")
+                time.sleep(config.API_RETRY_DELAY)
+
+        logger.error("Failed to send Telegram message after all retries")
         return False
 
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": TELEGRAM_CHAT_ID,
-        "text": message,
-        "parse_mode": "HTML",
+    def format_buy_signal(self, entry: float, sl: float, tp: float, 
+                          date_str: str, time_str: str) -> str:
+        """Format BUY signal message."""
+        return f"""📊 <b>XAUUSD SIGNAL</b>
+
+🟢 <b>BUY</b>
+
+Entry: {entry:.2f}
+Stop Loss: {sl:.2f}
+Take Profit: {tp:.2f}
+
+Timeframe: M15
+Date: {date_str}
+Signal Time: {time_str}
+Session: 2:30 PM – 8:45 PM WAT"""
+
+    def format_sell_signal(self, entry: float, sl: float, tp: float,
+                           date_str: str, time_str: str) -> str:
+        """Format SELL signal message."""
+        return f"""📊 <b>XAUUSD SIGNAL</b>
+
+🔴 <b>SELL</b>
+
+Entry: {entry:.2f}
+Stop Loss: {sl:.2f}
+Take Profit: {tp:.2f}
+
+Timeframe: M15
+Date: {date_str}
+Signal Time: {time_str}
+Session: 2:30 PM – 8:45 PM WAT"""
+
+    def format_sl_update(self, direction: str, date_str: str, time_str: str) -> str:
+        """Format Stop Loss hit message."""
+        return f"""⚠️ <b>XAUUSD TRADE UPDATE</b>
+
+The previous {direction} trade has been closed at Stop Loss.
+
+Date: {date_str}
+Time: {time_str}
+
+We are now monitoring the market for the next confirmed breakout.
+
+No new trade is active at this time."""
+
+    def format_tp_update(self, direction: str, date_str: str, time_str: str) -> str:
+        """Format Take Profit hit message."""
+        return f"""🎯 <b>XAUUSD TRADE UPDATE</b>
+
+The previous {direction} trade has reached Take Profit.
+
+Trade closed successfully.
+
+Date: {date_str}
+Time: {time_str}
+
+We are now monitoring the market for the next confirmed breakout."""
+
+
+# ── Signal State Management ────────────────────────────────────────
+class SignalState:
+    """Manages signal state persistence in signal.json."""
+
+    def __init__(self, filepath: str = config.SIGNAL_FILE):
+        self.filepath = filepath
+        self._data = self._load()
+
+    def _load(self) -> Dict:
+        """Load state from file."""
+        try:
+            if os.path.exists(self.filepath):
+                with open(self.filepath, "r", encoding="utf-8") as f:
+                    return json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            logger.error(f"Error loading signal.json: {e}")
+
+        return self._default_state()
+
+    def _default_state(self) -> Dict:
+        """Return default state structure."""
+        return {
+            "latest_signal": None,
+            "signal_history": [],
+            "opening_range": {
+                "high": None,
+                "low": None,
+                "date": None
+            },
+            "active_trade": None,
+            "session_status": "WAITING",
+            "last_updated": None,
+            "current_gold_price": None
+        }
+
+    def save(self) -> bool:
+        """Save state to file."""
+        try:
+            self._data["last_updated"] = get_wat_now().isoformat()
+            with open(self.filepath, "w", encoding="utf-8") as f:
+                json.dump(self._data, f, indent=2, ensure_ascii=False)
+            return True
+        except IOError as e:
+            logger.error(f"Error saving signal.json: {e}")
+            return False
+
+    def get(self, key: str, default=None):
+        return self._data.get(key, default)
+
+    def set(self, key: str, value: Any):
+        self._data[key] = value
+
+    def add_to_history(self, signal: Dict):
+        """Add signal to history, keeping last 50 entries."""
+        history = self._data.get("signal_history", [])
+        history.insert(0, signal)
+        self._data["signal_history"] = history[:50]
+
+    def reset_for_new_day(self):
+        """Reset state for a new trading day."""
+        self._data["opening_range"] = {"high": None, "low": None, "date": None}
+        self._data["active_trade"] = None
+        self._data["session_status"] = "WAITING"
+        logger.info("State reset for new trading day")
+
+
+# ── Trading Session Logic ──────────────────────────────────────────
+class TradingSession:
+    """Manages trading session timing and state."""
+
+    def __init__(self):
+        self.wat_now = get_wat_now()
+
+    def is_trading_day(self) -> bool:
+        """Check if today is a trading day (Mon-Fri)."""
+        return self.wat_now.weekday() < 5  # 0=Mon, 4=Fri
+
+    def is_session_active(self) -> bool:
+        """Check if we're within the trading session."""
+        if not self.is_trading_day():
+            return False
+
+        current_time = self.wat_now.time()
+        start = config.SESSION_START_TIME
+        end = config.SESSION_END_TIME
+
+        return start <= current_time <= end
+
+    def is_before_session(self) -> bool:
+        """Check if we're before the session starts."""
+        if not self.is_trading_day():
+            return False
+        current_time = self.wat_now.time()
+        return current_time < config.SESSION_START_TIME
+
+    def is_after_session(self) -> bool:
+        """Check if session has ended for the day."""
+        if not self.is_trading_day():
+            return True
+        current_time = self.wat_now.time()
+        return current_time > config.SESSION_END_TIME
+
+    def is_opening_range_time(self) -> bool:
+        """Check if we're in the opening range period."""
+        if not self.is_trading_day():
+            return False
+        current_time = self.wat_now.time()
+        return config.OPENING_RANGE_START <= current_time <= config.OPENING_RANGE_END
+
+    def is_after_opening_range(self) -> bool:
+        """Check if opening range candle has closed."""
+        if not self.is_trading_day():
+            return False
+        current_time = self.wat_now.time()
+        return current_time > config.OPENING_RANGE_END
+
+    def get_session_countdown(self) -> str:
+        """Get countdown until session ends."""
+        if self.is_after_session():
+            return "Session Ended"
+
+        end_dt = datetime.combine(self.wat_now.date(), config.SESSION_END_TIME)
+        end_dt = WAT.localize(end_dt)
+
+        if end_dt < self.wat_now:
+            return "Session Ended"
+
+        diff = end_dt - self.wat_now
+        hours, remainder = divmod(int(diff.total_seconds()), 3600)
+        minutes, _ = divmod(remainder, 60)
+        return f"{hours:02d}:{minutes:02d}"
+
+    def get_date_str(self) -> str:
+        """Get formatted date string."""
+        return self.wat_now.strftime("%d %b %Y")
+
+    def get_time_str(self) -> str:
+        """Get formatted time string."""
+        return self.wat_now.strftime("%I:%M %p WAT")
+
+
+# ── Candle Data Processing ─────────────────────────────────────────
+def parse_candle(candle: Dict) -> Dict:
+    """Parse a candle from Twelve Data format."""
+    return {
+        "datetime": candle.get("datetime"),
+        "open": float(candle.get("open", 0)),
+        "high": float(candle.get("high", 0)),
+        "low": float(candle.get("low", 0)),
+        "close": float(candle.get("close", 0)),
+        "volume": int(candle.get("volume", 0))
     }
 
-    max_retries = 3
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(url, json=payload, timeout=30)
-            response.raise_for_status()
-            result = response.json()
 
-            if result.get("ok"):
-                logger.info("Telegram message sent successfully")
-                return True
-            else:
-                logger.error(f"Telegram API error: {result}")
-                return False
-
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Telegram request failed (attempt {attempt + 1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
-
-    logger.error("All Telegram send attempts failed")
-    return False
-
-
-# =============================================================================
-# TIME UTILITIES
-# =============================================================================
-
-def get_wat_now():
-    """Get current time in WAT (Africa/Lagos)."""
-    import pytz
-    wat = pytz.timezone(TIMEZONE)
-    return datetime.now(wat)
-
-
-def parse_time_str(time_str):
-    """Parse a time string in HH:MM format."""
-    return datetime.strptime(time_str, "%H:%M").time()
-
-
-def is_trading_session_active():
-    """Check if current time is within the trading session."""
-    now = get_wat_now()
-    current_time = now.time()
-    start_time = parse_time_str(TRADING_SESSION_START)
-    end_time = parse_time_str(TRADING_SESSION_END)
-
-    # Check if it's a weekend (Saturday=5, Sunday=6)
-    if now.weekday() >= 5:
-        return False
-
-    return start_time <= current_time <= end_time
-
-
-def is_opening_range_period():
-    """Check if current time is during the opening range candle period."""
-    now = get_wat_now()
-    current_time = now.time()
-    or_open = parse_time_str(OPENING_RANGE_OPEN)
-    or_close = parse_time_str(OPENING_RANGE_CLOSE)
-
-    return or_open <= current_time <= or_close
-
-
-def get_opening_range_candle_time():
-    """Get the datetime for the opening range candle close time today."""
-    now = get_wat_now()
-    or_close_time = parse_time_str(OPENING_RANGE_CLOSE)
-    return datetime.combine(now.date(), or_close_time).replace(tzinfo=now.tzinfo)
-
-
-def format_date(dt):
-    """Format datetime as 'DD MMM YYYY'."""
-    return dt.strftime("%d %b %Y")
-
-
-def format_time(dt):
-    """Format datetime as 'HH:MM AM/PM WAT'."""
-    return dt.strftime("%I:%M %p WAT")
-
-
-# =============================================================================
-# SIGNAL ENGINE
-# =============================================================================
-
-def find_opening_range_candle(candles, target_date):
+def find_opening_range_candle(candles: List[Dict], session: TradingSession) -> Optional[Dict]:
     """
     Find the M15 candle that opens at 2:15 PM WAT and closes at 2:30 PM WAT.
-    Returns the candle with high and low values.
+    The candle datetime from Twelve Data is in UTC, so we convert to WAT.
     """
-    or_open_time = parse_time_str(OPENING_RANGE_OPEN)
-    or_close_time = parse_time_str(OPENING_RANGE_CLOSE)
+    target_date = session.wat_now.date()
+
+    # Opening range: 2:15 PM - 2:30 PM WAT = 1:15 PM - 1:30 PM UTC
+    or_start_utc = datetime.combine(target_date, dt_time(13, 15))
+    or_end_utc = datetime.combine(target_date, dt_time(13, 30))
 
     for candle in candles:
         try:
+            # Parse candle datetime (UTC from Twelve Data)
             candle_dt = datetime.strptime(candle["datetime"], "%Y-%m-%d %H:%M:%S")
-            candle_time = candle_dt.time()
-            candle_date = candle_dt.date()
+            candle_dt = UTC.localize(candle_dt)
 
-            # Match the candle that opens at 14:15 and closes at 14:30
-            if candle_date == target_date and candle_time == or_close_time:
-                # This candle represents the 14:15-14:30 period
-                return {
-                    "high": float(candle["high"]),
-                    "low": float(candle["low"]),
-                    "open": float(candle["open"]),
-                    "close": float(candle["close"]),
-                    "datetime": candle["datetime"]
-                }
-        except (KeyError, ValueError) as e:
-            logger.warning(f"Skipping invalid candle: {e}")
+            # Check if this candle falls within our opening range window
+            if or_start_utc <= candle_dt < or_end_utc:
+                parsed = parse_candle(candle)
+                parsed["datetime"] = candle_dt
+                logger.info(f"Found Opening Range candle: High={parsed['high']}, Low={parsed['low']}")
+                return parsed
+
+        except (ValueError, KeyError) as e:
+            logger.warning(f"Error parsing candle datetime: {e}")
             continue
 
     return None
 
 
-def find_completed_candles_after(candles, target_date, after_time):
+def get_post_or_candles(candles: List[Dict], session: TradingSession) -> List[Dict]:
     """
-    Find all completed M15 candles after the specified time on the target date.
-    Only returns candles that are fully closed (not the current forming candle).
+    Get all M15 candles that closed AFTER the opening range (after 2:30 PM WAT).
+    Only include COMPLETED candles (not the one currently forming).
     """
-    completed = []
-    now = get_wat_now()
+    target_date = session.wat_now.date()
+    or_end_utc = datetime.combine(target_date, dt_time(13, 30))
+    or_end_utc = UTC.localize(or_end_utc)
+
+    post_candles = []
 
     for candle in candles:
         try:
             candle_dt = datetime.strptime(candle["datetime"], "%Y-%m-%d %H:%M:%S")
-            candle_time = candle_dt.time()
-            candle_date = candle_dt.date()
+            candle_dt = UTC.localize(candle_dt)
 
-            # Only consider candles from target date, after opening range close
-            if candle_date == target_date and candle_time > after_time:
-                # Only include candles that have fully closed (not current candle)
-                # A candle is completed if its close time is at least 15 minutes ago
-                candle_close_time = candle_dt
-                if (now - candle_close_time).total_seconds() >= 900:  # 15 minutes
-                    completed.append({
-                        "high": float(candle["high"]),
-                        "low": float(candle["low"]),
-                        "open": float(candle["open"]),
-                        "close": float(candle["close"]),
-                        "datetime": candle["datetime"]
-                    })
-        except (KeyError, ValueError) as e:
-            logger.warning(f"Skipping invalid candle: {e}")
+            # Only include candles that closed after 2:30 PM WAT (1:30 PM UTC)
+            if candle_dt >= or_end_utc:
+                parsed = parse_candle(candle)
+                parsed["datetime"] = candle_dt
+                post_candles.append(parsed)
+
+        except (ValueError, KeyError) as e:
             continue
 
     # Sort by datetime ascending
-    completed.sort(key=lambda x: x["datetime"])
-    return completed
+    post_candles.sort(key=lambda x: x["datetime"])
+
+    # Remove the last candle if it's still forming (incomplete)
+    # A candle is complete if its close time is in the past
+    now_utc = datetime.now(UTC)
+    complete_candles = []
+    for c in post_candles:
+        # M15 candle: if datetime is 13:30, it closes at 13:45
+        candle_close_time = c["datetime"] + timedelta(minutes=15)
+        if candle_close_time <= now_utc:
+            complete_candles.append(c)
+
+    return complete_candles
 
 
-def calculate_tp(direction, entry, stop_loss):
-    """Calculate Take Profit based on 1:2 Risk-Reward ratio."""
-    risk = abs(entry - stop_loss)
-    reward = risk * RISK_REWARD_RATIO
+# ── Signal Generation Logic ────────────────────────────────────────
+class SignalEngine:
+    """Core signal generation engine implementing ORBS strategy."""
 
-    if direction == "BUY":
-        return entry + reward
-    else:  # SELL
-        return entry - reward
+    def __init__(self):
+        self.client = TwelveDataClient(config.TWELVEDATA_API_KEY)
+        self.telegram = TelegramNotifier(config.TELEGRAM_BOT_TOKEN, config.TELEGRAM_CHAT_ID)
+        self.state = SignalState()
+        self.session = TradingSession()
 
+    def fetch_candles(self) -> Optional[List[Dict]]:
+        """Fetch M15 candles for today."""
+        today = self.session.wat_now.date()
+        start_date = today.strftime("%Y-%m-%d")
+        end_date = (today + timedelta(days=1)).strftime("%Y-%m-%d")
 
-def generate_signal(direction, entry, stop_loss, take_profit, candle_datetime):
-    """Generate a signal dictionary."""
-    dt = datetime.strptime(candle_datetime, "%Y-%m-%d %H:%M:%S")
+        logger.info(f"Fetching M15 candles from {start_date} to {end_date}")
 
-    return {
-        "direction": direction,
-        "entry": round(entry, 2),
-        "stop_loss": round(stop_loss, 2),
-        "take_profit": round(take_profit, 2),
-        "date": format_date(dt),
-        "time": dt.strftime("%I:%M %p") + " WAT",
-        "status": "ACTIVE",
-        "raw_datetime": candle_datetime
-    }
-
-
-def check_tp_sl_hit(current_price, signal):
-    """Check if Take Profit or Stop Loss has been hit."""
-    direction = signal["direction"]
-    tp = signal["take_profit"]
-    sl = signal["stop_loss"]
-
-    if direction == "BUY":
-        if current_price >= tp:
-            return "TP_HIT"
-        elif current_price <= sl:
-            return "SL_HIT"
-    else:  # SELL
-        if current_price <= tp:
-            return "TP_HIT"
-        elif current_price >= sl:
-            return "SL_HIT"
-
-    return "ACTIVE"
-
-
-def send_signal_telegram(signal):
-    """Send a new signal notification to Telegram."""
-    if signal["direction"] == "BUY":
-        message = TELEGRAM_BUY_TEMPLATE.format(
-            entry=signal["entry"],
-            stop_loss=signal["stop_loss"],
-            take_profit=signal["take_profit"],
-            date=signal["date"],
-            time=signal["time"]
-        )
-    else:
-        message = TELEGRAM_SELL_TEMPLATE.format(
-            entry=signal["entry"],
-            stop_loss=signal["stop_loss"],
-            take_profit=signal["take_profit"],
-            date=signal["date"],
-            time=signal["time"]
+        candles = self.client.get_time_series(
+            symbol=config.SYMBOL,
+            interval=config.TIMEFRAME,
+            start_date=start_date,
+            end_date=end_date
         )
 
-    return send_telegram_message(message)
+        if candles:
+            logger.info(f"Fetched {len(candles)} candles")
+        else:
+            logger.warning("No candles returned from API")
 
+        return candles
 
-def send_tp_telegram(signal):
-    """Send a Take Profit update to Telegram."""
-    message = TELEGRAM_TP_TEMPLATE.format(
-        direction=signal["direction"],
-        date=signal["date"],
-        time=signal["time"]
-    )
-    return send_telegram_message(message)
+    def fetch_current_price(self) -> Optional[float]:
+        """Fetch current gold price."""
+        quote = self.client.get_quote(config.SYMBOL)
+        if quote and "price" in quote:
+            try:
+                price = float(quote["price"])
+                self.state.set("current_gold_price", price)
+                return price
+            except (ValueError, TypeError):
+                pass
+        return None
 
+    def calculate_take_profit(self, entry: float, sl: float, direction: str) -> float:
+        """Calculate Take Profit using 1:2 risk-reward ratio."""
+        risk = abs(entry - sl)
+        if direction == "BUY":
+            return entry + (risk * config.RISK_REWARD_RATIO)
+        else:  # SELL
+            return entry - (risk * config.RISK_REWARD_RATIO)
 
-def send_sl_telegram(signal):
-    """Send a Stop Loss update to Telegram."""
-    message = TELEGRAM_SL_TEMPLATE.format(
-        direction=signal["direction"],
-        date=signal["date"],
-        time=signal["time"]
-    )
-    return send_telegram_message(message)
+    def check_trade_status(self, current_price: float) -> Optional[str]:
+        """
+        Check if active trade has hit SL or TP.
+        Returns: "SL_HIT", "TP_HIT", or None
+        """
+        active = self.state.get("active_trade")
+        if not active:
+            return None
 
+        direction = active["direction"]
+        sl = active["stop_loss"]
+        tp = active["take_profit"]
 
-# =============================================================================
-# MAIN SIGNAL ENGINE
-# =============================================================================
+        if direction == "BUY":
+            if current_price <= sl:
+                return "SL_HIT"
+            if current_price >= tp:
+                return "TP_HIT"
+        else:  # SELL
+            if current_price >= sl:
+                return "SL_HIT"
+            if current_price <= tp:
+                return "TP_HIT"
 
-def run_signal_engine():
-    """
-    Main signal engine logic.
-    This function runs every minute via GitHub Actions.
-    """
-    logger.info("=" * 60)
-    logger.info("DollarProFx Signal Engine - Starting Run")
-    logger.info("=" * 60)
+        return None
 
-    now = get_wat_now()
-    today = now.date()
+    def handle_sl_hit(self):
+        """Handle Stop Loss hit."""
+        active = self.state.get("active_trade")
+        if not active:
+            return
 
-    # Load signal data
-    signal_data = load_json(SIGNAL_FILE)
-    if not signal_data:
-        signal_data = {
-            "latest_signal": {
-                "direction": "WAITING",
-                "entry": None,
-                "stop_loss": None,
-                "take_profit": None,
-                "date": None,
-                "time": None,
-                "status": "WAITING",
-                "opening_range_high": None,
-                "opening_range_low": None,
-                "session_start": TRADING_SESSION_START,
-                "session_end": TRADING_SESSION_END
-            },
-            "signal_history": [],
-            "session_state": {
-                "date": None,
-                "opening_range_high": None,
-                "opening_range_low": None,
-                "active_trade": None,
-                "last_signal_direction": None
-            }
+        direction = active["direction"]
+        date_str = self.session.get_date_str()
+        time_str = self.session.get_time_str()
+
+        # Update active trade status
+        active["status"] = "SL_HIT"
+        active["close_time"] = time_str
+        active["close_date"] = date_str
+
+        # Add to history
+        self.state.add_to_history(active.copy())
+
+        # Clear active trade
+        self.state.set("active_trade", None)
+        self.state.set("latest_signal", None)
+        self.state.set("session_status", "MONITORING")
+
+        # Send Telegram update
+        message = self.telegram.format_sl_update(direction, date_str, time_str)
+        self.telegram.send_message(message)
+
+        logger.info(f"SL HIT on {direction} trade. Trade closed.")
+        self.state.save()
+
+    def handle_tp_hit(self):
+        """Handle Take Profit hit."""
+        active = self.state.get("active_trade")
+        if not active:
+            return
+
+        direction = active["direction"]
+        date_str = self.session.get_date_str()
+        time_str = self.session.get_time_str()
+
+        # Update active trade status
+        active["status"] = "TP_HIT"
+        active["close_time"] = time_str
+        active["close_date"] = date_str
+
+        # Add to history
+        self.state.add_to_history(active.copy())
+
+        # Clear active trade
+        self.state.set("active_trade", None)
+        self.state.set("latest_signal", None)
+        self.state.set("session_status", "MONITORING")
+
+        # Send Telegram update
+        message = self.telegram.format_tp_update(direction, date_str, time_str)
+        self.telegram.send_message(message)
+
+        logger.info(f"TP HIT on {direction} trade. Trade closed successfully.")
+        self.state.save()
+
+    def generate_buy_signal(self, entry: float, or_low: float, or_high: float) -> Dict:
+        """Generate a BUY signal."""
+        sl = or_low  # Stop Loss = Opening Range Low
+        tp = self.calculate_take_profit(entry, sl, "BUY")
+
+        date_str = self.session.get_date_str()
+        time_str = self.session.get_time_str()
+
+        signal = {
+            "direction": "BUY",
+            "entry": round(entry, 2),
+            "stop_loss": round(sl, 2),
+            "take_profit": round(tp, 2),
+            "date": date_str,
+            "time": time_str,
+            "status": "ACTIVE",
+            "opening_range_high": round(or_high, 2),
+            "opening_range_low": round(or_low, 2)
         }
 
-    session_state = signal_data.get("session_state", {})
+        return signal
 
-    # Check if it's a new trading day - reset session state
-    stored_date_str = session_state.get("date")
-    if stored_date_str:
-        stored_date = datetime.strptime(stored_date_str, "%Y-%m-%d").date()
-        if stored_date != today:
-            logger.info(f"New trading day detected. Resetting session state.")
-            session_state = {
-                "date": today.strftime("%Y-%m-%d"),
-                "opening_range_high": None,
-                "opening_range_low": None,
-                "active_trade": None,
-                "last_signal_direction": None
-            }
-            signal_data["session_state"] = session_state
+    def generate_sell_signal(self, entry: float, or_low: float, or_high: float) -> Dict:
+        """Generate a SELL signal."""
+        sl = or_high  # Stop Loss = Opening Range High
+        tp = self.calculate_take_profit(entry, sl, "SELL")
 
-            # Reset latest signal to WAITING
-            signal_data["latest_signal"] = {
-                "direction": "WAITING",
-                "entry": None,
-                "stop_loss": None,
-                "take_profit": None,
-                "date": None,
-                "time": None,
-                "status": "WAITING",
-                "opening_range_high": None,
-                "opening_range_low": None,
-                "session_start": TRADING_SESSION_START,
-                "session_end": TRADING_SESSION_END
-            }
-    else:
-        # First run - initialize
-        session_state["date"] = today.strftime("%Y-%m-%d")
-        signal_data["session_state"] = session_state
+        date_str = self.session.get_date_str()
+        time_str = self.session.get_time_str()
 
-    # Check if we're in the trading session
-    if not is_trading_session_active():
-        logger.info("Outside trading session. No action needed.")
-        save_json(SIGNAL_FILE, signal_data)
-        return
+        signal = {
+            "direction": "SELL",
+            "entry": round(entry, 2),
+            "stop_loss": round(sl, 2),
+            "take_profit": round(tp, 2),
+            "date": date_str,
+            "time": time_str,
+            "status": "ACTIVE",
+            "opening_range_high": round(or_high, 2),
+            "opening_range_low": round(or_low, 2)
+        }
 
-    # Fetch M15 candles
-    candles = fetch_m15_candles()
-    if not candles:
-        logger.error("Failed to fetch candle data. Exiting.")
-        save_json(SIGNAL_FILE, signal_data)
-        return
+        return signal
 
-    # Get current gold price from the most recent candle
-    try:
-        latest_candle = candles[0]
-        current_price = float(latest_candle["close"])
-    except (IndexError, KeyError, ValueError) as e:
-        logger.error(f"Failed to get current price: {e}")
-        save_json(SIGNAL_FILE, signal_data)
-        return
+    def send_new_signal(self, signal: Dict):
+        """Send new signal via Telegram."""
+        date_str = signal["date"]
+        time_str = signal["time"]
 
-    # Update current price in signal data
-    signal_data["latest_signal"]["current_price"] = current_price
-
-    # Step 1: Identify Opening Range if not already done
-    or_high = session_state.get("opening_range_high")
-    or_low = session_state.get("opening_range_low")
-
-    if or_high is None or or_low is None:
-        logger.info("Opening Range not yet identified. Searching...")
-        or_candle = find_opening_range_candle(candles, today)
-
-        if or_candle:
-            or_high = or_candle["high"]
-            or_low = or_candle["low"]
-            session_state["opening_range_high"] = or_high
-            session_state["opening_range_low"] = or_low
-            signal_data["session_state"] = session_state
-
-            signal_data["latest_signal"]["opening_range_high"] = or_high
-            signal_data["latest_signal"]["opening_range_low"] = or_low
-
-            logger.info(f"Opening Range identified: High={or_high}, Low={or_low}")
+        if signal["direction"] == "BUY":
+            message = self.telegram.format_buy_signal(
+                signal["entry"], signal["stop_loss"], signal["take_profit"],
+                date_str, time_str
+            )
         else:
-            logger.info("Opening Range candle not yet available. Waiting...")
-            save_json(SIGNAL_FILE, signal_data)
+            message = self.telegram.format_sell_signal(
+                signal["entry"], signal["stop_loss"], signal["take_profit"],
+                date_str, time_str
+            )
+
+        self.telegram.send_message(message)
+
+    def run(self):
+        """Main execution loop."""
+        logger.info("=" * 60)
+        logger.info("DollarProFx Signal Engine Started")
+        logger.info(f"Current WAT Time: {self.session.wat_now.strftime('%Y-%m-%d %H:%M:%S')}")
+        logger.info("=" * 60)
+
+        # Check if it's a trading day
+        if not self.session.is_trading_day():
+            logger.info("Weekend - no trading. Exiting.")
+            self.state.set("session_status", "WEEKEND")
+            self.state.save()
             return
 
-    # Step 2: Check if there's an active trade and monitor TP/SL
-    active_trade = session_state.get("active_trade")
+        # Check if session has ended
+        if self.session.is_after_session():
+            logger.info("Trading session has ended for today.")
+            self.state.set("session_status", "SESSION_ENDED")
 
-    if active_trade:
-        logger.info(f"Active trade: {active_trade['direction']} @ {active_trade['entry']}")
+            # If there's still an active trade, close it at current price
+            active = self.state.get("active_trade")
+            if active:
+                active["status"] = "SESSION_CLOSED"
+                active["close_time"] = self.session.get_time_str()
+                active["close_date"] = self.session.get_date_str()
+                self.state.add_to_history(active.copy())
+                self.state.set("active_trade", None)
+                self.state.set("latest_signal", None)
 
-        # Check TP/SL
-        result = check_tp_sl_hit(current_price, active_trade)
-
-        if result == "TP_HIT":
-            logger.info(f"Take Profit HIT for {active_trade['direction']} trade!")
-
-            # Update signal status
-            active_trade["status"] = "TP_HIT"
-            signal_data["latest_signal"]["status"] = "TP_HIT"
-            signal_data["latest_signal"]["result"] = "Take Profit Reached"
-
-            # Move to history
-            signal_data["signal_history"].insert(0, active_trade.copy())
-
-            # Clear active trade
-            session_state["active_trade"] = None
-            signal_data["session_state"] = session_state
-
-            # Send Telegram notification
-            send_tp_telegram(active_trade)
-
-            save_json(SIGNAL_FILE, signal_data)
+            self.state.save()
             return
 
-        elif result == "SL_HIT":
-            logger.info(f"Stop Loss HIT for {active_trade['direction']} trade!")
+        # Fetch current price for dashboard
+        current_price = self.fetch_current_price()
+        if current_price:
+            logger.info(f"Current Gold Price: {current_price:.2f}")
 
-            # Update signal status
-            active_trade["status"] = "SL_HIT"
-            signal_data["latest_signal"]["status"] = "SL_HIT"
-            signal_data["latest_signal"]["result"] = "Stop Loss Hit"
+        # Check if there's an active trade - monitor SL/TP
+        active_trade = self.state.get("active_trade")
+        if active_trade and current_price:
+            trade_status = self.check_trade_status(current_price)
 
-            # Move to history
-            signal_data["signal_history"].insert(0, active_trade.copy())
+            if trade_status == "SL_HIT":
+                self.handle_sl_hit()
+                return  # Don't check for new signals after SL
+            elif trade_status == "TP_HIT":
+                self.handle_tp_hit()
+                return  # Don't check for new signals after TP
+            else:
+                logger.info(f"Active {active_trade['direction']} trade monitoring... "
+                           f"Current: {current_price:.2f}, SL: {active_trade['stop_loss']:.2f}, "
+                           f"TP: {active_trade['take_profit']:.2f}")
+                self.state.save()
+                return
 
-            # Clear active trade
-            session_state["active_trade"] = None
-            signal_data["session_state"] = session_state
-
-            # Send Telegram notification
-            send_sl_telegram(active_trade)
-
-            save_json(SIGNAL_FILE, signal_data)
+        # Before session starts
+        if self.session.is_before_session():
+            logger.info("Before trading session. Waiting for 2:30 PM WAT.")
+            self.state.set("session_status", "BEFORE_SESSION")
+            self.state.save()
             return
 
+        # During opening range period
+        if self.session.is_opening_range_time():
+            logger.info("In opening range period (2:15-2:30 PM WAT). Waiting for candle to close.")
+            self.state.set("session_status", "OPENING_RANGE")
+            self.state.save()
+            return
+
+        # Fetch candles
+        candles = self.fetch_candles()
+        if not candles:
+            logger.error("Failed to fetch candles. Will retry next cycle.")
+            return
+
+        # Find opening range candle
+        or_candle = find_opening_range_candle(candles, self.session)
+
+        if not or_candle:
+            logger.warning("Opening Range candle not found yet. Waiting...")
+            self.state.set("session_status", "WAITING_OR")
+            self.state.save()
+            return
+
+        # Store opening range
+        or_high = or_candle["high"]
+        or_low = or_candle["low"]
+        stored_or = self.state.get("opening_range")
+
+        if not stored_or or stored_or.get("date") != self.session.get_date_str():
+            self.state.set("opening_range", {
+                "high": round(or_high, 2),
+                "low": round(or_low, 2),
+                "date": self.session.get_date_str()
+            })
+            logger.info(f"Opening Range set: High={or_high:.2f}, Low={or_low:.2f}")
         else:
-            logger.info(f"Trade still ACTIVE. Current price: {current_price}")
-            save_json(SIGNAL_FILE, signal_data)
+            or_high = stored_or["high"]
+            or_low = stored_or["low"]
+
+        # Get completed candles after opening range
+        post_candles = get_post_or_candles(candles, self.session)
+
+        if not post_candles:
+            logger.info("No completed candles after opening range yet.")
+            self.state.set("session_status", "MONITORING")
+            self.state.save()
             return
 
-    # Step 3: Monitor for new breakout signals
-    # Only if no active trade exists
-    or_close_time = parse_time_str(OPENING_RANGE_CLOSE)
-    completed_candles = find_completed_candles_after(candles, today, or_close_time)
+        logger.info(f"Monitoring {len(post_candles)} completed post-OR candles")
 
-    if not completed_candles:
-        logger.info("No completed candles after Opening Range yet. Waiting...")
-        save_json(SIGNAL_FILE, signal_data)
-        return
+        # Check for breakouts on completed candles only
+        # We process candles in order to find the FIRST valid breakout
+        last_signal_direction = None
+        if self.state.get("latest_signal"):
+            last_signal_direction = self.state.get("latest_signal").get("direction")
 
-    # Check the most recent completed candle for breakout
-    last_completed = completed_candles[-1]
-    last_direction = session_state.get("last_signal_direction")
+        # Also check if we had a previous trade that closed
+        # After SL/TP, we need an opposite breakout
+        previous_trade = None
+        if self.state.get("signal_history"):
+            recent = self.state.get("signal_history")[0] if self.state.get("signal_history") else None
+            if recent and recent.get("status") in ["SL_HIT", "TP_HIT", "SESSION_CLOSED"]:
+                previous_trade = recent
 
-    candle_close = last_completed["close"]
-    candle_high = last_completed["high"]
-    candle_low = last_completed["low"]
-    candle_datetime = last_completed["datetime"]
+        for candle in post_candles:
+            close_price = candle["close"]
+            candle_time = candle["datetime"]
 
-    logger.info(f"Last completed candle: Close={candle_close}, High={candle_high}, Low={candle_low}")
+            # BUY signal: candle closes ABOVE Opening Range High
+            if close_price > or_high:
+                # Prevent duplicate BUY signals
+                if last_signal_direction == "BUY":
+                    logger.info(f"BUY breakout detected at {close_price:.2f} but duplicate prevention active")
+                    continue
 
-    # Check for BUY signal - candle must CLOSE above Opening Range High
-    if candle_close > or_high:
-        if last_direction != "BUY":
-            logger.info(f"BUY SIGNAL DETECTED! Close {candle_close} > OR High {or_high}")
+                # After a SELL trade, we need a BUY breakout (opposite direction)
+                if previous_trade and previous_trade.get("direction") == "BUY":
+                    logger.info("Previous BUY trade closed. Need SELL breakout next.")
+                    continue
 
-            entry = candle_close
-            stop_loss = or_low
-            take_profit = calculate_tp("BUY", entry, stop_loss)
+                logger.info(f"🟢 BUY SIGNAL CONFIRMED! Close={close_price:.2f} > OR High={or_high:.2f}")
 
-            signal = generate_signal("BUY", entry, stop_loss, take_profit, candle_datetime)
+                signal = self.generate_buy_signal(close_price, or_low, or_high)
+                self.state.set("latest_signal", signal)
+                self.state.set("active_trade", signal)
+                self.state.set("session_status", "ACTIVE_TRADE")
 
-            # Update session state
-            session_state["active_trade"] = signal
-            session_state["last_signal_direction"] = "BUY"
-            signal_data["session_state"] = session_state
+                self.send_new_signal(signal)
+                self.state.save()
+                return
 
-            # Update latest signal
-            signal_data["latest_signal"] = signal
-            signal_data["latest_signal"]["opening_range_high"] = or_high
-            signal_data["latest_signal"]["opening_range_low"] = or_low
-            signal_data["latest_signal"]["current_price"] = current_price
+            # SELL signal: candle closes BELOW Opening Range Low
+            elif close_price < or_low:
+                # Prevent duplicate SELL signals
+                if last_signal_direction == "SELL":
+                    logger.info(f"SELL breakout detected at {close_price:.2f} but duplicate prevention active")
+                    continue
 
-            # Send Telegram
-            send_signal_telegram(signal)
+                # After a BUY trade, we need a SELL breakout (opposite direction)
+                if previous_trade and previous_trade.get("direction") == "SELL":
+                    logger.info("Previous SELL trade closed. Need BUY breakout next.")
+                    continue
 
-            save_json(SIGNAL_FILE, signal_data)
-            return
-        else:
-            logger.info("BUY breakout detected but duplicate prevention active.")
+                logger.info(f"🔴 SELL SIGNAL CONFIRMED! Close={close_price:.2f} < OR Low={or_low:.2f}")
 
-    # Check for SELL signal - candle must CLOSE below Opening Range Low
-    elif candle_close < or_low:
-        if last_direction != "SELL":
-            logger.info(f"SELL SIGNAL DETECTED! Close {candle_close} < OR Low {or_low}")
+                signal = self.generate_sell_signal(close_price, or_low, or_high)
+                self.state.set("latest_signal", signal)
+                self.state.set("active_trade", signal)
+                self.state.set("session_status", "ACTIVE_TRADE")
 
-            entry = candle_close
-            stop_loss = or_high
-            take_profit = calculate_tp("SELL", entry, stop_loss)
+                self.send_new_signal(signal)
+                self.state.save()
+                return
 
-            signal = generate_signal("SELL", entry, stop_loss, take_profit, candle_datetime)
+        # No breakout detected
+        logger.info(f"No confirmed breakout. OR High={or_high:.2f}, OR Low={or_low:.2f}")
+        self.state.set("session_status", "MONITORING")
+        self.state.save()
 
-            # Update session state
-            session_state["active_trade"] = signal
-            session_state["last_signal_direction"] = "SELL"
-            signal_data["session_state"] = session_state
 
-            # Update latest signal
-            signal_data["latest_signal"] = signal
-            signal_data["latest_signal"]["opening_range_high"] = or_high
-            signal_data["latest_signal"]["opening_range_low"] = or_low
-            signal_data["latest_signal"]["current_price"] = current_price
-
-            # Send Telegram
-            send_signal_telegram(signal)
-
-            save_json(SIGNAL_FILE, signal_data)
-            return
-        else:
-            logger.info("SELL breakout detected but duplicate prevention active.")
-
-    else:
-        logger.info(f"No breakout. Candle close {candle_close} within OR range [{or_low}, {or_high}]")
-
-    save_json(SIGNAL_FILE, signal_data)
-    logger.info("Signal engine run complete.")
+def main():
+    """Entry point."""
+    engine = SignalEngine()
+    engine.run()
 
 
 if __name__ == "__main__":
-    run_signal_engine()
+    main()

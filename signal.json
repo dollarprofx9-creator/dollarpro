@@ -1,23 +1,13 @@
 {
-  "latest_signal": {
-    "direction": "WAITING",
-    "entry": null,
-    "stop_loss": null,
-    "take_profit": null,
-    "date": null,
-    "time": null,
-    "status": "WAITING",
-    "opening_range_high": null,
-    "opening_range_low": null,
-    "session_start": "14:30",
-    "session_end": "20:45"
-  },
+  "latest_signal": null,
   "signal_history": [],
-  "session_state": {
-    "date": null,
-    "opening_range_high": null,
-    "opening_range_low": null,
-    "active_trade": null,
-    "last_signal_direction": null
-  }
+  "opening_range": {
+    "high": null,
+    "low": null,
+    "date": null
+  },
+  "active_trade": null,
+  "session_status": "WAITING",
+  "last_updated": null,
+  "current_gold_price": null
 }
