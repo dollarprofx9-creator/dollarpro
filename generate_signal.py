@@ -797,6 +797,11 @@ class SignalEngine:
             recent = self.state.get("signal_history")[0] if self.state.get("signal_history") else None
             if recent and recent.get("status") in ["SL_HIT", "TP_HIT", "SESSION_CLOSED"]:
                 previous_trade = recent
+                logger.info(f"Previous closed trade detected: {recent.get('direction')} - {recent.get('status')}")
+
+        logger.info(f"Breakout check: last_signal={last_signal_direction}, "
+                   f"previous_trade={previous_trade.get('direction') if previous_trade else None}, "
+                   f"OR_High={or_high:.2f}, OR_Low={or_low:.2f}")
 
         for candle in post_candles:
             close_price = candle["close"]
@@ -809,9 +814,9 @@ class SignalEngine:
                     logger.info(f"BUY breakout detected at {close_price:.2f} but duplicate prevention active")
                     continue
 
-                # After a SELL trade, we need a BUY breakout (opposite direction)
+                # After a BUY trade closed (SL/TP), we need a SELL breakout next (opposite)
                 if previous_trade and previous_trade.get("direction") == "BUY":
-                    logger.info("Previous BUY trade closed. Need SELL breakout next.")
+                    logger.info("Previous BUY trade closed. Waiting for SELL breakout.")
                     continue
 
                 logger.info(f"🟢 BUY SIGNAL CONFIRMED! Close={close_price:.2f} > OR High={or_high:.2f}")
@@ -832,9 +837,9 @@ class SignalEngine:
                     logger.info(f"SELL breakout detected at {close_price:.2f} but duplicate prevention active")
                     continue
 
-                # After a BUY trade, we need a SELL breakout (opposite direction)
+                # After a SELL trade closed (SL/TP), we need a BUY breakout next (opposite)
                 if previous_trade and previous_trade.get("direction") == "SELL":
-                    logger.info("Previous SELL trade closed. Need BUY breakout next.")
+                    logger.info("Previous SELL trade closed. Waiting for BUY breakout.")
                     continue
 
                 logger.info(f"🔴 SELL SIGNAL CONFIRMED! Close={close_price:.2f} < OR Low={or_low:.2f}")

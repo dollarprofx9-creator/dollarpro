@@ -395,7 +395,7 @@
 
     try {
       // Try to fetch signal.json directly from the repository
-      const response = await fetch('signal.json');
+      const response = await fetch('signal.json?t=' + Date.now());
 
       if (!response.ok) {
         // signal.json not accessible or not found - show demo data
