@@ -248,7 +248,8 @@ def verify_account():
             logger.warning(f"Verification failed for: {email}")
             return jsonify({
                 "success": False,
-                "error": "Account not found in approved list"
+                "error": "Account not found in approved list",
+                "debug_info": f"Submitted: '{email}', Approved: {approved_emails}"
             })
 
     except Exception as e:

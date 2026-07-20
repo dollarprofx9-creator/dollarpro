@@ -369,67 +369,41 @@
       return false;
     }
 
-    // Validate token with server
-    try {
-      const response = await fetch(`${API_BASE}/api/verify-token`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token: token })
-      });
-
-      const result = await response.json();
-
-      if (result.success && result.valid) {
-        // Token valid - show dashboard, hide gate
-        if (verifyGate) verifyGate.style.display = 'none';
-        if (dashboardContent) dashboardContent.style.display = 'block';
-        return true;
-      } else {
-        // Token invalid/expired - show gate, clear storage
-        if (verifyGate) verifyGate.style.display = 'block';
-        if (dashboardContent) dashboardContent.style.display = 'none';
-        try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
-        return false;
-      }
-    } catch (error) {
-      console.error('Token validation error:', error);
-      // On error, show gate to be safe
-      if (verifyGate) verifyGate.style.display = 'block';
-      if (dashboardContent) dashboardContent.style.display = 'none';
-      return false;
+    // Client-side token check - works on GitHub Pages without backend
+    if (token.startsWith('client_')) {
+      if (verifyGate) verifyGate.style.display = 'none';
+      if (dashboardContent) dashboardContent.style.display = 'block';
+      return true;
     }
+
+    // If token exists but is not client token, clear it
+    if (verifyGate) verifyGate.style.display = 'block';
+    if (dashboardContent) dashboardContent.style.display = 'none';
+    try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+    return false;
   }
 
-  // ── Modified fetchSignalData with token ─────────────────────────
+  // ── Fetch Signal Data ───────────────────────────────────────────
+  // For GitHub Pages: reads signal.json directly from the repo
+  // For Flask backend: would call the API endpoint
   async function fetchSignalData() {
     const token = getToken();
     if (!token) return; // Don't fetch if not verified
 
-    try {
-      const response = await fetch(`${API_BASE}/api/signal`, {
-        headers: {
-          'X-Verify-Token': token
-        }
-      });
+    // Only fetch if verified with client token
+    if (!token.startsWith('client_')) return;
 
-      if (response.status === 403) {
-        // Token rejected by server
-        if (verifyGate) verifyGate.style.display = 'block';
-        if (dashboardContent) dashboardContent.style.display = 'none';
-        try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
-        if (refreshInterval) {
-          clearInterval(refreshInterval);
-          refreshInterval = null;
-        }
+    try {
+      // Try to fetch signal.json directly from the repository
+      const response = await fetch('signal.json');
+
+      if (!response.ok) {
+        // signal.json not accessible or not found - show demo data
+        showDemoData();
         return;
       }
 
-      if (!response.ok) throw new Error('Failed to fetch');
-
-      const result = await response.json();
-      if (!result.success) throw new Error(result.error);
-
-      const data = result.data;
+      const data = await response.json();
 
       // Update signal card
       updateSignalCard(data.latest_signal);
@@ -458,9 +432,20 @@
 
     } catch (error) {
       console.error('Error fetching signal data:', error);
-      els.statusText.textContent = 'Connection Error';
-      els.statusDot.className = 'status-dot ended';
+      showDemoData();
     }
+  }
+
+  // ── Demo Data (fallback when signal.json unavailable) ───────────
+  function showDemoData() {
+    els.currentPrice.textContent = "--";
+    els.sessionStatus.textContent = "WAITING";
+    els.lastUpdated.textContent = new Date().toLocaleTimeString();
+    els.orHigh.textContent = "--";
+    els.orLow.textContent = "--";
+    els.statusDot.className = 'status-dot waiting';
+    els.statusText.textContent = 'Monitoring Market...';
+    updateTimeRemaining('WAITING');
   }
 
   // ── Initialize ──────────────────────────────────────────────────

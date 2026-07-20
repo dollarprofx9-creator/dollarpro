@@ -201,30 +201,30 @@
     });
   }
 
-  // ── API Verification ────────────────────────────────────────────
+  // ── Approved Emails List ────────────────────────────────────────
+  // This list controls who can access the dashboard.
+  // Only the administrator should modify this list.
+  const APPROVED_EMAILS = [
+    "dollarprofx@gmail.com",
+    "odunzephilemon0@gmail.com"
+  ];
+
+  // ── Verification ────────────────────────────────────────────────
+  // Pure JavaScript verification - works on GitHub Pages without any backend.
+  // The email is checked against the APPROVED_EMAILS list above.
   async function verifyAccount(email) {
-    try {
-      const response = await fetch(`${API_BASE}/api/verify`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({ email: email })
-      });
+    const normalizedEmail = email.trim().toLowerCase();
 
-      const result = await response.json();
+    console.log("Verifying email:", normalizedEmail);
+    console.log("Approved list:", APPROVED_EMAILS);
 
-      if (result.success && result.token) {
-        // Save token for dashboard access
-        saveToken(result.token);
-        showStep(stepSuccess);
-      } else {
-        showStep(stepFailure);
-      }
-
-    } catch (error) {
-      console.error('Verification error:', error);
+    if (APPROVED_EMAILS.includes(normalizedEmail)) {
+      console.log("✅ Email approved:", normalizedEmail);
+      const clientToken = 'client_' + btoa(normalizedEmail + '_' + Date.now());
+      saveToken(clientToken);
+      showStep(stepSuccess);
+    } else {
+      console.error("❌ Email not approved:", normalizedEmail);
       showStep(stepFailure);
     }
   }
