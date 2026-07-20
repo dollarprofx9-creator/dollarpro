@@ -49,10 +49,6 @@ jobs:
           git config user.name "DollarProFx Bot"
           git config user.email "bot@dollarprofx.com"
           git add signal.json logs/
-          if ! git diff --cached --quiet; then
-            git commit -m "Update signals - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-            git pull origin main --rebase || true
-            git push origin main
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "Update signals - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || true
+          git pull origin main --rebase || true
+          git push origin main || true
