@@ -1,102 +1,52 @@
-name: XAUUSD Signal Generator
-
-# =============================================================================
-# DESCRIPTION
-# =============================================================================
-# This workflow runs every minute during trading hours to:
-# 1. Fetch latest XAUUSD M15 candle data from Twelve Data API
-# 2. Detect the Opening Range (2:30-2:45 PM WAT)
-# 3. Monitor for confirmed breakout signals (candle close beyond OR)
-# 4. Calculate Stop Loss and Take Profit (1:2 R:R)
-# 5. Send Telegram alerts for new signals
-# 6. Update signal.json for the dashboard
-# 7. Commit changes back to the repository
-#
-# Schedule: Every minute (subject to GitHub Actions scheduling granularity)
-# =============================================================================
+name: DollarProFx Signal Engine
 
 on:
   schedule:
-    # Run every minute
-    - cron: '*/1 * * * *'
+    - cron: '*/1 * * * *'  # Run every minute
+  workflow_dispatch:       # Allow manual trigger
 
-  # Allow manual trigger for testing
-  workflow_dispatch:
-
-# Prevent concurrent runs to avoid race conditions
-concurrency:
-  group: signal-generator
-  cancel-in-progress: false
+permissions:
+  contents: write
 
 jobs:
   generate-signal:
-    name: Generate Trading Signal
     runs-on: ubuntu-latest
 
-    # Set timezone to WAT (Africa/Lagos, UTC+1)
-    env:
-      TZ: Africa/Lagos
-
     steps:
-      # -----------------------------------------------------------------------
-      # Step 1: Checkout repository
-      # -----------------------------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          # Fetch full history for proper git operations
-          fetch-depth: 0
-          # Use a token with write permissions for committing back
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # -----------------------------------------------------------------------
-      # Step 2: Set up Python
-      # -----------------------------------------------------------------------
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
-      # -----------------------------------------------------------------------
-      # Step 3: Install dependencies
-      # -----------------------------------------------------------------------
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # -----------------------------------------------------------------------
-      # Step 4: Run signal generator
-      # -----------------------------------------------------------------------
-      - name: Generate trading signal
+      - name: Run signal generation
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          echo "Starting signal generation at $(date '+%Y-%m-%d %H:%M:%S WAT')"
-          python generate_signal.py
-          echo "Signal generation completed at $(date '+%Y-%m-%d %H:%M:%S WAT')"
+        run: python generate_signal.py
 
-      # -----------------------------------------------------------------------
-      # Step 5: Commit and push updated signal.json
-      # Only commits if signal.json has actually changed
-      # -----------------------------------------------------------------------
-      - name: Commit updated signal data
+      - name: Check for changes
+        id: check_changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-
-          # Check if signal.json has changes
-          if git diff --quiet signal.json; then
-            echo "No changes to signal.json. Skipping commit."
-            exit 0
+          git add signal.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-          echo "Changes detected in signal.json. Committing..."
-          git add signal.json
-          git commit -m "Update signal data - $(date '+%Y-%m-%d %H:%M:%S WAT')"
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update signal data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
