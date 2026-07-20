@@ -22,6 +22,7 @@ import requests
 from datetime import datetime, timedelta, time as dt_time
 from typing import Optional, Dict, Any, List, Tuple
 import pytz
+import traceback
 
 import config
 
@@ -709,6 +710,19 @@ class SignalEngine:
         logger.info("DollarProFx Signal Engine Started")
         logger.info(f"Current WAT Time: {self.session.wat_now.strftime('%Y-%m-%d %H:%M:%S')}")
         logger.info("=" * 60)
+
+        try:
+            self._run_internal()
+        except Exception as e:
+            logger.error(f"CRITICAL ERROR in signal engine: {e}")
+            logger.error(traceback.format_exc())
+        finally:
+            # Always save state, even on error
+            logger.info("Saving state to signal.json...")
+            self.state.save()
+            logger.info("State saved.")
+
+    def _run_internal(self):
 
         # Check if it's a trading day
         if not self.session.is_trading_day():
