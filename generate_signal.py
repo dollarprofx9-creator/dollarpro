@@ -413,6 +413,12 @@ def find_opening_range_candle(candles: List[Dict], session: TradingSession) -> O
     or_start_utc = UTC.localize(datetime.combine(target_date, dt_time(13, 15)))
     or_end_utc = UTC.localize(datetime.combine(target_date, dt_time(13, 30)))
 
+    logger.info(f"Searching for OR candle between {or_start_utc} and {or_end_utc}")
+    logger.info(f"Total candles fetched: {len(candles)}")
+
+    for i, candle in enumerate(candles[:10]):  # Log first 10 candles
+        logger.info(f"Candle {i}: datetime={candle.get('datetime')}, open={candle.get('open')}, high={candle.get('high')}, low={candle.get('low')}, close={candle.get('close')}")
+
     for candle in candles:
         try:
             # Parse candle datetime (UTC from Twelve Data)
@@ -420,6 +426,7 @@ def find_opening_range_candle(candles: List[Dict], session: TradingSession) -> O
             candle_dt = UTC.localize(candle_dt)
 
             # Check if this candle falls within our opening range window
+            logger.debug(f"Checking candle at {candle_dt} against OR window {or_start_utc} - {or_end_utc}")
             if or_start_utc <= candle_dt < or_end_utc:
                 parsed = parse_candle(candle)
                 parsed["datetime"] = candle_dt
@@ -442,6 +449,7 @@ def get_post_or_candles(candles: List[Dict], session: TradingSession) -> List[Di
     or_end_utc = datetime.combine(target_date, dt_time(13, 30))
     or_end_utc = UTC.localize(or_end_utc)
 
+    logger.info(f"Looking for post-OR candles after {or_end_utc}")
     post_candles = []
 
     for candle in candles:
