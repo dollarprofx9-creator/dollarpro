@@ -2,11 +2,14 @@ name: DollarProFx Signal Engine
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Run every minute
-  workflow_dispatch:       # Allow manual trigger
-
-permissions:
-  contents: write
+    # Run every minute during trading hours (2:00 PM - 9:00 PM WAT = 13:00 - 20:00 UTC)
+    # WAT is UTC+1, so 2:00 PM WAT = 13:00 UTC, 9:00 PM WAT = 20:00 UTC
+    - cron: "0-59 13-19 * * 1-5"
+    # Also run at exactly 2:30 PM WAT (13:30 UTC) for opening range detection
+    - cron: "30 13 * * 1-5"
+    # Run at session end 8:45 PM WAT (19:45 UTC)
+    - cron: "45 19 * * 1-5"
+  workflow_dispatch:
 
 jobs:
   generate-signal:
@@ -15,18 +18,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run signal generation
+      - name: Run Signal Engine
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -36,7 +41,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git add signal.json
+          git add signal.json logs/
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -46,7 +51,7 @@ jobs:
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update signal data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git config user.name "DollarProFx Bot"
+          git config user.email "bot@dollarprofx.com"
+          git commit -m "Update signals - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
