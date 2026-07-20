@@ -538,17 +538,25 @@ class SignalEngine:
         sl = active["stop_loss"]
         tp = active["take_profit"]
 
+        logger.info(f"SL/TP Check: direction={direction}, current={current_price:.2f}, "
+                   f"sl={sl:.2f}, tp={tp:.2f}")
+
         if direction == "BUY":
             if current_price <= sl:
+                logger.info(f"BUY SL HIT: {current_price:.2f} <= {sl:.2f}")
                 return "SL_HIT"
             if current_price >= tp:
+                logger.info(f"BUY TP HIT: {current_price:.2f} >= {tp:.2f}")
                 return "TP_HIT"
         else:  # SELL
             if current_price >= sl:
+                logger.info(f"SELL SL HIT: {current_price:.2f} >= {sl:.2f}")
                 return "SL_HIT"
             if current_price <= tp:
+                logger.info(f"SELL TP HIT: {current_price:.2f} <= {tp:.2f}")
                 return "TP_HIT"
 
+        logger.info(f"No SL/TP hit. Price {current_price:.2f} within range.")
         return None
 
     def handle_sl_hit(self):
@@ -712,21 +720,37 @@ class SignalEngine:
 
         # Check if there's an active trade - monitor SL/TP
         active_trade = self.state.get("active_trade")
-        if active_trade and current_price:
+        if active_trade:
+            if not current_price:
+                logger.warning("Active trade exists but current price unavailable. Cannot check SL/TP.")
+                self.state.save()
+                return
+
+            logger.info(f"Checking SL/TP for active {active_trade['direction']} trade: "
+                       f"Entry={active_trade['entry']:.2f}, "
+                       f"SL={active_trade['stop_loss']:.2f}, "
+                       f"TP={active_trade['take_profit']:.2f}, "
+                       f"Current={current_price:.2f}")
+
             trade_status = self.check_trade_status(current_price)
+            logger.info(f"Trade status check result: {trade_status}")
 
             if trade_status == "SL_HIT":
+                logger.info("STOP LOSS DETECTED! Handling SL hit...")
                 self.handle_sl_hit()
                 return  # Don't check for new signals after SL
             elif trade_status == "TP_HIT":
+                logger.info("TAKE PROFIT DETECTED! Handling TP hit...")
                 self.handle_tp_hit()
                 return  # Don't check for new signals after TP
             else:
-                logger.info(f"Active {active_trade['direction']} trade monitoring... "
+                logger.info(f"Active {active_trade['direction']} trade still running... "
                            f"Current: {current_price:.2f}, SL: {active_trade['stop_loss']:.2f}, "
                            f"TP: {active_trade['take_profit']:.2f}")
                 self.state.save()
                 return
+        else:
+            logger.info("No active trade. Checking for new breakouts...")
 
         # Before session starts
         if self.session.is_before_session():
