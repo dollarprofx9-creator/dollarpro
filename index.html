@@ -3,485 +3,440 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XAUUSD Signal Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>DollarProFx | Free XAUUSD Trading Signals</title>
+    <meta name="description" content="Free XAUUSD trading signals with clear Entry, Stop Loss, and Take Profit levels. Automated ORBS breakout strategy.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Background Effects -->
-    <div class="bg-grid"></div>
-    <div class="bg-glow"></div>
-
-    <!-- Auth Modal (Paywall) -->
-    <div class="modal-overlay" id="authModal">
-        <div class="modal auth-modal">
-            <div class="modal-header">
-                <div class="logo">
-                    <div class="logo-icon">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                            <path d="M2 17l10 5 10-5"/>
-                            <path d="M2 12l10 5 10-5"/>
-                        </svg>
-                    </div>
-                    <div class="logo-text">
-                        <h1>XAUUSD Signal</h1>
-                        <span>Professional Trading Signals</span>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="auth-tabs">
-                    <button class="auth-tab active" data-tab="login">Sign In</button>
-                    <button class="auth-tab" data-tab="register">Create Account</button>
-                </div>
-
-                <!-- Login Form -->
-                <form class="auth-form" id="loginForm">
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" id="loginEmail" placeholder="your@email.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" id="loginPassword" placeholder="••••••••" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">Sign In</button>
-                    <p class="form-error" id="loginError"></p>
-                </form>
-
-                <!-- Register Form -->
-                <form class="auth-form hidden" id="registerForm">
-                    <div class="form-group">
-                        <label>Full Name</label>
-                        <input type="text" id="regName" placeholder="John Doe" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" id="regEmail" placeholder="your@email.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" id="regPassword" placeholder="Min 8 characters" required minlength="8">
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">Create Free Account</button>
-                    <p class="form-error" id="registerError"></p>
-                </form>
-
-                <div class="auth-divider">
-                    <span>or</span>
-                </div>
-
-                <button class="btn btn-outline btn-full" id="guestBtn">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-                        <circle cx="12" cy="12" r="3"/>
-                    </svg>
-                    Continue as Guest (Limited Preview)
-                </button>
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">$</span>
+                <span class="logo-text">DollarProFx</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/" class="nav-link active">Home</a></li>
+                <li><a href="/live-signals" class="nav-link">Live Signals</a></li>
+                <li><a href="/verification" class="nav-link">Account Verification</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="https://t.me/your_channel_name" target="_blank" class="nav-link telegram-nav">Join Telegram</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <!-- Upgrade Modal -->
-    <div class="modal-overlay hidden" id="upgradeModal">
-        <div class="modal upgrade-modal">
-            <button class="modal-close" id="closeUpgrade">&times;</button>
-            <div class="modal-header center">
-                <h2>Upgrade Your Plan</h2>
-                <p>Choose the plan that fits your trading style</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-particle hero-particle-1"></div>
+            <div class="hero-particle hero-particle-2"></div>
+            <div class="hero-particle hero-particle-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                Live Trading Signals
             </div>
-            <div class="modal-body">
-                <div class="pricing-grid">
-                    <!-- Free Tier -->
-                    <div class="pricing-card">
-                        <div class="pricing-badge">Free</div>
-                        <h3>Starter</h3>
-                        <div class="pricing-price">$0<span>/month</span></div>
-                        <ul class="pricing-features">
-                            <li class="included">Dashboard access</li>
-                            <li class="included">Current price display</li>
-                            <li class="included">Session countdown</li>
-                            <li class="excluded">Live signals</li>
-                            <li class="excluded">Signal history</li>
-                            <li class="excluded">Telegram alerts</li>
-                            <li class="excluded">Email alerts</li>
-                            <li class="excluded">Priority support</li>
-                        </ul>
-                        <button class="btn btn-outline btn-full" disabled>Current Plan</button>
-                    </div>
-
-                    <!-- Pro Tier -->
-                    <div class="pricing-card popular">
-                        <div class="pricing-badge popular-badge">Most Popular</div>
-                        <h3>Pro Trader</h3>
-                        <div class="pricing-price">$29<span>/month</span></div>
-                        <ul class="pricing-features">
-                            <li class="included">Everything in Starter</li>
-                            <li class="included">Real-time BUY/SELL signals</li>
-                            <li class="included">Full signal history</li>
-                            <li class="included">Telegram alerts</li>
-                            <li class="included">Email alerts</li>
-                            <li class="included">Opening Range visualization</li>
-                            <li class="excluded">Priority support</li>
-                        </ul>
-                        <button class="btn btn-primary btn-full" id="upgradeProBtn" data-plan="pro">Upgrade to Pro</button>
-                    </div>
-
-                    <!-- Elite Tier -->
-                    <div class="pricing-card">
-                        <div class="pricing-badge elite-badge">Best Value</div>
-                        <h3>Elite</h3>
-                        <div class="pricing-price">$79<span>/month</span></div>
-                        <ul class="pricing-features">
-                            <li class="included">Everything in Pro</li>
-                            <li class="included">Priority 24/7 support</li>
-                            <li class="included">Strategy customization</li>
-                            <li class="included">API access</li>
-                            <li class="included">White-label option</li>
-                            <li class="included">Multi-timeframe analysis</li>
-                            <li class="included">Personal onboarding call</li>
-                        </ul>
-                        <button class="btn btn-gold btn-full" id="upgradeEliteBtn" data-plan="elite">Go Elite</button>
-                    </div>
+            <h1 class="hero-title">
+                Free <span class="gold-text">XAUUSD</span> Trading Signals
+            </h1>
+            <p class="hero-subtitle">
+                Receive high-quality XAUUSD breakout signals with clear Entry, Stop Loss, and Take Profit levels delivered automatically during the trading session.
+            </p>
+            <div class="hero-buttons">
+                <a href="/live-signals" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    View Live Signals
+                </a>
+                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
+                    Join Our Free Telegram Channel
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="heroGoldPrice">--</span>
+                    <span class="stat-label">Gold Price (USD)</span>
                 </div>
-
-                <div class="payment-section hidden" id="paymentSection">
-                    <div class="payment-divider">
-                        <span>Secure Payment</span>
-                    </div>
-                    <div class="payment-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>Card Number</label>
-                                <input type="text" id="cardNumber" placeholder="4242 4242 4242 4242" maxlength="19">
-                            </div>
-                        </div>
-                        <div class="form-row two-col">
-                            <div class="form-group">
-                                <label>Expiry</label>
-                                <input type="text" id="cardExpiry" placeholder="MM/YY" maxlength="5">
-                            </div>
-                            <div class="form-group">
-                                <label>CVC</label>
-                                <input type="text" id="cardCvc" placeholder="123" maxlength="4">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Name on Card</label>
-                            <input type="text" id="cardName" placeholder="John Doe">
-                        </div>
-                        <button class="btn btn-primary btn-full" id="payBtn">
-                            <span id="payBtnText">Pay $29.00</span>
-                            <span class="spinner hidden" id="paySpinner"></span>
-                        </button>
-                        <p class="payment-note">🔒 Secured by Stripe. We never store your card details.</p>
-                        <p class="form-error" id="paymentError"></p>
-                    </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">M15</span>
+                    <span class="stat-label">Timeframe</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">2:30 - 8:45 PM</span>
+                    <span class="stat-label">WAT Session</span>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Account Modal -->
-    <div class="modal-overlay hidden" id="accountModal">
-        <div class="modal account-modal">
-            <button class="modal-close" id="closeAccount">&times;</button>
-            <div class="modal-header">
-                <h2>My Account</h2>
-            </div>
-            <div class="modal-body">
-                <div class="account-info">
-                    <div class="account-avatar" id="accountAvatar">JD</div>
-                    <div class="account-details">
-                        <h3 id="accountName">John Doe</h3>
-                        <p id="accountEmail">john@example.com</p>
-                        <span class="account-plan-badge" id="accountPlanBadge">Free</span>
-                    </div>
-                </div>
-                <div class="account-section">
-                    <h4>Subscription</h4>
-                    <div class="subscription-card" id="subscriptionCard">
-                        <div class="sub-plan">
-                            <span class="sub-name" id="subName">Starter</span>
-                            <span class="sub-status active" id="subStatus">Active</span>
-                        </div>
-                        <div class="sub-details">
-                            <p id="subPrice">$0/month</p>
-                            <p id="subRenewal">No renewal date</p>
-                        </div>
-                        <button class="btn btn-primary" id="accountUpgradeBtn">Upgrade</button>
-                    </div>
-                </div>
-                <div class="account-section">
-                    <h4>Settings</h4>
-                    <div class="setting-row">
-                        <span>Telegram Notifications</span>
-                        <label class="toggle">
-                            <input type="checkbox" id="telegramToggle" checked>
-                            <span class="toggle-slider"></span>
-                        </label>
-                    </div>
-                    <div class="setting-row">
-                        <span>Email Notifications</span>
-                        <label class="toggle">
-                            <input type="checkbox" id="emailToggle">
-                            <span class="toggle-slider"></span>
-                        </label>
-                    </div>
-                </div>
-                <button class="btn btn-danger btn-full" id="logoutBtn">Sign Out</button>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <span></span>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <div class="logo">
-                <div class="logo-icon">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                        <path d="M2 17l10 5 10-5"/>
-                        <path d="M2 12l10 5 10-5"/>
-                    </svg>
-                </div>
-                <div class="logo-text">
-                    <h1>XAUUSD Signal</h1>
-                    <span>Opening Range Breakout</span>
-                </div>
+    <!-- Live Signal Ticker -->
+    <section class="ticker-section">
+        <div class="ticker-container">
+            <div class="ticker-label">
+                <span class="pulse-dot"></span>
+                Latest Signal
             </div>
-            <div class="header-meta">
-                <div class="live-indicator">
-                    <span class="live-dot"></span>
-                    <span class="live-text">Live</span>
-                </div>
-                <div class="last-updated" id="lastUpdated">Updated: --</div>
-                <button class="btn btn-outline btn-sm hidden" id="upgradeHeaderBtn">Upgrade</button>
-                <div class="user-menu hidden" id="userMenu">
-                    <button class="user-avatar" id="userAvatarBtn">JD</button>
-                    <div class="user-dropdown hidden" id="userDropdown">
-                        <button id="accountBtn">My Account</button>
-                        <button id="headerLogoutBtn">Sign Out</button>
+            <div class="ticker-content" id="tickerContent">
+                <span class="ticker-status">Loading signals...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">About <span class="gold-text">DollarProFx</span></h2>
+                <p class="section-desc">DollarProFx provides automated XAUUSD trading signals using disciplined breakout analysis based on the Opening Range Breakout Strategy (ORBS).</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
                     </div>
+                    <h3>Automated Strategy</h3>
+                    <p>Our system automatically identifies the Opening Range and monitors every M15 candle for confirmed breakouts — no manual intervention needed.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    </div>
+                    <h3>Real-Time Delivery</h3>
+                    <p>Signals are delivered instantly via Telegram with precise Entry, Stop Loss, and Take Profit levels calculated using a 1:2 risk-reward ratio.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>Risk Management</h3>
+                    <p>Every signal includes professionally calculated Stop Loss and Take Profit levels to protect your capital and maximize returns.</p>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <!-- Main Content -->
-    <main class="main">
-        <!-- Paywall Banner (shown for free users) -->
-        <div class="paywall-banner hidden" id="paywallBanner">
-            <div class="banner-content">
-                <div class="banner-icon">🔒</div>
-                <div class="banner-text">
-                    <h3>Unlock Live Signals</h3>
-                    <p>Upgrade to Pro to see real-time BUY/SELL signals, full history, and get Telegram alerts.</p>
-                </div>
-                <button class="btn btn-primary" id="bannerUpgradeBtn">Upgrade to Pro — $29/mo</button>
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Process</span>
+                <h2 class="section-title">How It <span class="gold-text">Works</span></h2>
             </div>
-        </div>
-
-        <!-- Session Status Bar -->
-        <div class="session-bar" id="sessionBar">
-            <div class="session-info">
-                <span class="session-label">Trading Session</span>
-                <span class="session-time">2:30 PM - 8:45 PM WAT</span>
-            </div>
-            <div class="session-status" id="sessionStatus">
-                <span class="status-badge" id="statusBadge">Checking...</span>
-                <span class="countdown" id="countdown">--</span>
-            </div>
-        </div>
-
-        <!-- Price Ticker -->
-        <div class="price-ticker">
-            <div class="ticker-item">
-                <span class="ticker-label">XAU/USD</span>
-                <span class="ticker-value" id="currentPrice">--</span>
-            </div>
-            <div class="ticker-divider"></div>
-            <div class="ticker-item">
-                <span class="ticker-label">Timeframe</span>
-                <span class="ticker-value">M15</span>
-            </div>
-            <div class="ticker-divider"></div>
-            <div class="ticker-item">
-                <span class="ticker-label">Timezone</span>
-                <span class="ticker-value">WAT (UTC+1)</span>
-            </div>
-        </div>
-
-        <!-- Signal Card -->
-        <div class="signal-card" id="signalCard">
-            <div class="signal-header">
-                <h2>Latest Signal</h2>
-                <div class="signal-badge" id="signalBadge">WAITING</div>
-            </div>
-            <div class="signal-body" id="signalBody">
-                <!-- Free user: blurred signal -->
-                <div class="signal-blur hidden" id="signalBlur">
-                    <div class="blur-overlay">
-                        <div class="blur-icon">🔒</div>
-                        <h3>Pro Signal Active</h3>
-                        <p>A signal has been generated. Upgrade to Pro to view entry, stop loss, and take profit.</p>
-                        <button class="btn btn-primary" id="blurUpgradeBtn">Unlock Now — $29/mo</button>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Opening Range Identification</h3>
+                        <p>Every trading day at <strong>2:15 PM WAT</strong>, the system identifies the M15 candle that opens and closes at <strong>2:30 PM WAT</strong>. The High and Low of this candle become the Opening Range.</p>
                     </div>
                 </div>
-
-                <div class="signal-empty" id="signalEmpty">
-                    <div class="empty-icon">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"/>
-                            <path d="M12 6v6l4 2"/>
-                        </svg>
+                <div class="step-connector"></div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Breakout Monitoring</h3>
+                        <p>After 2:30 PM WAT, the system monitors every completed M15 candle. A <strong>BUY</strong> signal generates when a candle closes above the Opening Range High. A <strong>SELL</strong> signal generates when a candle closes below the Opening Range Low.</p>
                     </div>
-                    <p>No active signal</p>
-                    <span>Waiting for Opening Range breakout...</span>
                 </div>
+                <div class="step-connector"></div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Signal Delivery</h3>
+                        <p>Once a confirmed breakout is detected, the signal is instantly sent to our Telegram channel with Entry, Stop Loss, and Take Profit levels. The system continues monitoring for TP/SL hits throughout the session.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-large">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
+                    Join Our Free Telegram Channel
+                </a>
+            </div>
+        </div>
+    </section>
 
-                <div class="signal-details hidden" id="signalDetails">
-                    <div class="detail-row">
-                        <div class="detail-item">
-                            <span class="detail-label">Entry</span>
-                            <span class="detail-value" id="detailEntry">--</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Stop Loss</span>
-                            <span class="detail-value sl" id="detailSL">--</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Take Profit</span>
-                            <span class="detail-value tp" id="detailTP">--</span>
+    <!-- Why Choose Us Section -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Benefits</span>
+                <h2 class="section-title">Why Choose <span class="gold-text">DollarProFx</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="feature-icon green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    </div>
+                    <h3>Free Signals</h3>
+                    <p>All trading signals are completely free. No subscriptions, no hidden fees, no premium tiers.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>Professional Risk Management</h3>
+                    <p>Every signal includes a calculated Stop Loss and Take Profit using a disciplined 1:2 risk-reward ratio.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon gold">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <h3>Clear Entry Levels</h3>
+                    <p>Precise entry prices based on confirmed M15 candle closes — never wick breakouts or repainting signals.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon red">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                    </div>
+                    <h3>Clear Stop Loss</h3>
+                    <p>Stop Loss is always set at the opposite side of the Opening Range — providing logical and consistent risk parameters.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <h3>Clear Take Profit</h3>
+                    <p>Take Profit is automatically calculated at a 1:2 risk-reward ratio, giving you a clear profit target on every trade.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access signals on any device. Our dashboard and Telegram notifications work seamlessly on mobile, tablet, and desktop.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon cyan">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"></path></svg>
+                    </div>
+                    <h3>Automatic Updates</h3>
+                    <p>The system runs automatically every minute during the trading session. No manual setup required after joining.</p>
+                </div>
+                <div class="feature-card glass-card">
+                    <div class="feature-icon orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                    </div>
+                    <h3>Fast Signal Delivery</h3>
+                    <p>Signals are delivered instantly via Telegram the moment a confirmed breakout is detected on the M15 timeframe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trading Session Section -->
+    <section class="session-section" id="session">
+        <div class="container">
+            <div class="session-card glass-card">
+                <div class="session-header">
+                    <span class="section-tag">Schedule</span>
+                    <h2 class="section-title">Trading <span class="gold-text">Session</span></h2>
+                </div>
+                <div class="session-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2:15 PM WAT</h4>
+                            <p>Opening Range candle opens. The system begins tracking the M15 candle that will define the day's range.</p>
                         </div>
                     </div>
-                    <div class="detail-row secondary">
-                        <div class="detail-item">
-                            <span class="detail-label">Signal Date</span>
-                            <span class="detail-value" id="detailDate">--</span>
+                    <div class="timeline-item">
+                        <div class="timeline-dot active"></div>
+                        <div class="timeline-content">
+                            <h4>2:30 PM WAT</h4>
+                            <p>Opening Range candle closes. The High and Low are recorded and remain fixed for the entire session.</p>
                         </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Signal Time</span>
-                            <span class="detail-value" id="detailTime">--</span>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2:30 PM - 8:45 PM WAT</h4>
+                            <p>Trading session active. The system monitors every completed M15 candle for confirmed breakouts above the High or below the Low.</p>
                         </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Risk:Reward</span>
-                            <span class="detail-value">1:2</span>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot end"></div>
+                        <div class="timeline-content">
+                            <h4>8:45 PM WAT</h4>
+                            <p>Trading session ends. All signals, Opening Range values, and trade states are reset for the next trading day.</p>
                         </div>
+                    </div>
+                </div>
+                <div class="session-status" id="sessionStatus">
+                    <div class="status-indicator">
+                        <span class="status-dot" id="statusDot"></span>
+                        <span class="status-text" id="statusText">Checking session...</span>
+                    </div>
+                    <div class="countdown" id="countdown">
+                        <span class="countdown-label">Time remaining:</span>
+                        <span class="countdown-value" id="countdownValue">--:--:--</span>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Opening Range Card -->
-        <div class="or-card" id="orCard">
-            <div class="or-header">
-                <h3>Opening Range</h3>
-                <span class="or-time">2:30 - 2:45 PM WAT</span>
-            </div>
-            <div class="or-body">
-                <div class="or-item">
-                    <span class="or-label">High</span>
-                    <span class="or-value" id="orHigh">--</span>
-                </div>
-                <div class="or-visual">
-                    <div class="or-bar">
-                        <div class="or-bar-fill" id="orBarFill"></div>
-                        <div class="or-marker current" id="orMarkerCurrent"></div>
-                    </div>
-                    <div class="or-bar-labels">
-                        <span id="orLabelLow">--</span>
-                        <span id="orLabelHigh">--</span>
-                    </div>
-                </div>
-                <div class="or-item">
-                    <span class="or-label">Low</span>
-                    <span class="or-value" id="orLow">--</span>
-                </div>
-            </div>
-            <div class="or-status" id="orStatus">Waiting for session to begin...</div>
-        </div>
-
-        <!-- Signal History -->
-        <div class="history-section">
-            <div class="history-header">
-                <h2>Signal History</h2>
-                <span class="history-count" id="historyCount">0 signals</span>
-            </div>
-            <div class="history-table-wrapper">
-                <table class="history-table" id="historyTable">
-                    <thead>
-                        <tr>
-                            <th>Type</th>
-                            <th>Entry</th>
-                            <th>Stop Loss</th>
-                            <th>Take Profit</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody id="historyBody">
-                        <tr class="empty-row">
-                            <td colspan="6">No signals generated yet</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!-- History blur overlay for free users -->
-                <div class="history-blur hidden" id="historyBlur">
-                    <div class="blur-overlay">
-                        <div class="blur-icon">📊</div>
-                        <h3>Signal History Locked</h3>
-                        <p>View your complete trading history and track performance. Upgrade to Pro.</p>
-                        <button class="btn btn-primary" id="historyUpgradeBtn">Unlock History</button>
-                    </div>
-                </div>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card glass-card">
+                <h2>Ready to Start Trading?</h2>
+                <p>Join thousands of traders receiving free, high-quality XAUUSD signals delivered straight to their Telegram.</p>
+                <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-large">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
+                    Join Our Free Telegram Channel
+                </a>
             </div>
         </div>
+    </section>
 
-        <!-- Stats Section (Pro only) -->
-        <div class="stats-section hidden" id="statsSection">
-            <div class="stats-header">
-                <h2>Performance Stats</h2>
-                <span class="stats-period">This Month</span>
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">Frequently Asked <span class="gold-text">Questions</span></h2>
             </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <span class="stat-label">Total Signals</span>
-                    <span class="stat-value" id="statTotalSignals">0</span>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is the Opening Range Breakout Strategy (ORBS)?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Opening Range Breakout Strategy identifies a specific M15 candle at the start of the trading session (2:15 PM - 2:30 PM WAT). The High and Low of this candle create a range. When a subsequent M15 candle closes above the High, a BUY signal is generated. When a candle closes below the Low, a SELL signal is generated. Only confirmed candle closes trigger signals — wick breakouts are ignored.</p>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-label">Win Rate</span>
-                    <span class="stat-value" id="statWinRate">--</span>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Are the signals really free?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, all XAUUSD trading signals are completely free. There are no subscription plans, no premium tiers, and no hidden fees. Simply join our Telegram channel to receive signals automatically during the trading session.</p>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-label">Avg Risk</span>
-                    <span class="stat-value" id="statAvgRisk">--</span>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What time zone are the signals based on?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All signals use West Africa Time (WAT), which is UTC+1. The trading session runs from 2:30 PM WAT to 8:45 PM WAT. The Opening Range candle is identified from 2:15 PM WAT to 2:30 PM WAT.</p>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-label">Avg Reward</span>
-                    <span class="stat-value" id="statAvgReward">--</span>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How are Stop Loss and Take Profit calculated?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>For BUY signals, the Stop Loss is set at the Opening Range Low. For SELL signals, the Stop Loss is set at the Opening Range High. Take Profit is automatically calculated using a fixed 1:2 risk-reward ratio. For example, if the risk (distance from Entry to Stop Loss) is 10 pips, the Take Profit will be 20 pips from the Entry.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I get duplicate signals?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. The system has built-in duplicate prevention. Once a BUY or SELL signal is generated, no additional signal in the same direction will be sent until a confirmed breakout occurs in the opposite direction. This prevents over-trading and ensures disciplined signal generation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What happens when Stop Loss or Take Profit is hit?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>When Stop Loss or Take Profit is reached, the system sends an immediate Telegram update. The trade is marked as closed, and the system continues monitoring for the next confirmed breakout in the opposite direction. The system does not immediately reverse the trade — it waits for a proper breakout confirmation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you trade on weekends?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. The system automatically detects weekends (Saturday and Sunday) and does not generate signals during those days. Trading resumes on the next weekday at the start of the session.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I verify my account?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Account verification is required for certain features. Visit the <a href="/verification">Account Verification</a> page, enter your EXNESS email address, and follow the partner change instructions provided. Once EXNESS confirms the partner change, your account will be verified.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>XAUUSD Signal System · Opening Range Breakout Strategy · M15</p>
-        <div class="footer-links">
-            <a href="#" id="footerPricing">Pricing</a>
-            <a href="#" id="footerTerms">Terms</a>
-            <a href="#" id="footerPrivacy">Privacy</a>
-            <a href="#" id="footerContact">Contact</a>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">$</span>
+                        <span class="logo-text">DollarProFx</span>
+                    </a>
+                    <p>Free XAUUSD trading signals powered by the Opening Range Breakout Strategy. Trade with discipline, manage risk, and grow your account.</p>
+                    <a href="https://t.me/your_channel_name" target="_blank" class="btn btn-telegram btn-small">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 6.6a2.25 2.25 0 0 0-.105 4.072l3.9 1.56v5.647a2.25 2.25 0 0 0 3.6 1.8l2.1-1.68 3.3 2.475a2.25 2.25 0 0 0 3.6-1.8V9.353l3.9-1.56a2.25 2.25 0 0 0-.105-4.072l-16.5-6.6a2.242 2.242 0 0 0-.668-.288z"></path></svg>
+                        Join Telegram
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/live-signals">Live Signals</a></li>
+                        <li><a href="/verification">Account Verification</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Risk Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@dollarprofx.com">contact@dollarprofx.com</a></li>
+                        <li><a href="https://t.me/your_channel_name" target="_blank">Telegram Channel</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DollarProFx. All rights reserved.</p>
+                <p class="disclaimer">Trading involves risk. Past performance is not indicative of future results. Always trade responsibly.</p>
+            </div>
         </div>
-        <p class="footer-note">Auto-refreshes every 60 seconds</p>
     </footer>
-
-    <!-- Toast Notifications -->
-    <div class="toast-container" id="toastContainer"></div>
 
     <script src="script.js"></script>
 </body>

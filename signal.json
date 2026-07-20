@@ -1,35 +1,23 @@
 {
-  "latest_signal": null,
-  "signal_history": [],
-  "opening_range": {
-    "high": null,
-    "low": null,
-    "date": null,
-    "formed": false
-  },
-  "current_state": {
-    "active_signal": null,
-    "position": null,
+  "latest_signal": {
+    "direction": "WAITING",
     "entry": null,
     "stop_loss": null,
     "take_profit": null,
-    "signal_time": null,
-    "signal_date": null,
-    "status": "waiting",
-    "tp_hit": false,
-    "sl_hit": false,
-    "exit_price": null,
-    "exit_time": null
-  },
-  "market_data": {
-    "current_price": null,
-    "last_updated": null
-  },
-  "session_info": {
+    "date": null,
+    "time": null,
+    "status": "WAITING",
+    "opening_range_high": null,
+    "opening_range_low": null,
     "session_start": "14:30",
-    "session_end": "20:45",
-    "timezone": "Africa/Lagos",
-    "is_active": false,
-    "countdown": ""
+    "session_end": "20:45"
+  },
+  "signal_history": [],
+  "session_state": {
+    "date": null,
+    "opening_range_high": null,
+    "opening_range_low": null,
+    "active_trade": null,
+    "last_signal_direction": null
   }
 }

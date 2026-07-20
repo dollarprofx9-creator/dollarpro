@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Verification | DollarProFx</title>
+    <meta name="description" content="Verify your EXNESS account under the DollarProFx partnership.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="verification.css">
+</head>
+<body class="verification-page">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">$</span>
+                <span class="logo-text">DollarProFx</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/live-signals" class="nav-link">Live Signals</a></li>
+                <li><a href="/verification" class="nav-link active">Account Verification</a></li>
+                <li><a href="/#faq" class="nav-link">FAQ</a></li>
+                <li><a href="https://t.me/your_channel_name" target="_blank" class="nav-link telegram-nav">Join Telegram</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Verification Container -->
+    <main class="verification-main">
+        <div class="verification-bg">
+            <div class="bg-particle bg-particle-1"></div>
+            <div class="bg-particle bg-particle-2"></div>
+            <div class="bg-particle bg-particle-3"></div>
+        </div>
+
+        <div class="verification-container">
+            <!-- Logo Header -->
+            <div class="verification-header">
+                <a href="/" class="logo">
+                    <span class="logo-icon">$</span>
+                    <span class="logo-text">DollarProFx</span>
+                </a>
+                <h1>Account Verification</h1>
+                <p>Link your EXNESS account under the DollarProFx Partnership</p>
+            </div>
+
+            <!-- Step 1: Email Input -->
+            <div class="verification-step" id="step1">
+                <div class="step-card glass-card">
+                    <div class="step-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <h2>Enter Your EXNESS Email</h2>
+                    <p>Please provide the email address associated with your EXNESS trading account.</p>
+
+                    <form class="verification-form" id="verificationForm" onsubmit="return false;">
+                        <div class="form-group">
+                            <label for="emailInput">EXNESS Email Address</label>
+                            <input 
+                                type="email" 
+                                id="emailInput" 
+                                name="email"
+                                placeholder="yourname@example.com" 
+                                required
+                                autocomplete="email"
+                            >
+                            <span class="input-hint">This must be the email registered with your EXNESS account</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="verifyBtn">
+                            <span class="btn-text">Verify Account</span>
+                            <span class="btn-loader" style="display:none;">
+                                <svg class="spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" stroke-dasharray="60" stroke-dashoffset="20"></circle></svg>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Step 2: Instructions -->
+            <div class="verification-step hidden" id="step2">
+                <div class="step-card glass-card">
+                    <div class="step-icon link-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    </div>
+                    <h2>Link Your Existing EXNESS Account</h2>
+                    <p>Follow these steps carefully to link your account under the DollarProFx Partnership.</p>
+
+                    <div class="instructions-list">
+                        <div class="instruction-item">
+                            <div class="instruction-number">1</div>
+                            <div class="instruction-content">
+                                <h4>Log in to your EXNESS Personal Area</h4>
+                                <p>Visit <a href="https://exness.com" target="_blank" rel="noopener">exness.com</a> and sign in to your account.</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">2</div>
+                            <div class="instruction-content">
+                                <h4>Open Live Chat</h4>
+                                <p>Click on the Live Chat button in your Personal Area to speak with an EXNESS support agent.</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">3</div>
+                            <div class="instruction-content">
+                                <h4>Type "Partner Change"</h4>
+                                <p>Tell the support agent you want to change your partner. Type exactly: <code>Partner Change</code></p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">4</div>
+                            <div class="instruction-content">
+                                <h4>Complete the Form</h4>
+                                <p>The agent will provide a form. Fill it out with your details.</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-number">5</div>
+                            <div class="instruction-content">
+                                <h4>Paste the Partner Link</h4>
+                                <p>When asked for the partner link, paste this link:</p>
+                                <div class="partner-link-box">
+                                    <code id="partnerLink">https://one.exnessonelink.com/a/c_9x6wufu5w3</code>
+                                    <button class="copy-btn" id="copyLinkBtn" title="Copy link">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="verification-note">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        <p>After EXNESS confirms the partner change, send your verification email to <a href="mailto:dollarprofx@gmail.com">dollarprofx@gmail.com</a> so you can be added to the approved list.</p>
+                    </div>
+
+                    <button class="btn btn-primary btn-full" id="finishedBtn">
+                        <span class="btn-text">I've Finished</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 3: Processing -->
+            <div class="verification-step hidden" id="step3">
+                <div class="step-card glass-card processing-card">
+                    <div class="processing-spinner">
+                        <svg class="spinner-large" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" stroke-dasharray="60" stroke-dashoffset="20"></circle>
+                        </svg>
+                    </div>
+                    <h2>Verifying your account...</h2>
+                    <p>Please wait while we verify your account under the DollarProFx Partnership.</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Success -->
+            <div class="verification-step hidden" id="step4">
+                <div class="step-card glass-card success-card">
+                    <div class="success-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h2>Account Verified</h2>
+                    <p>Your account has been successfully verified under the DollarProFx Partnership.</p>
+                    <p class="success-subtext">You may now continue with the next instructions provided by DollarProFx.</p>
+                    <a href="/" class="btn btn-primary btn-full">Return to Home</a>
+                </div>
+            </div>
+
+            <!-- Step 5: Failure -->
+            <div class="verification-step hidden" id="step5">
+                <div class="step-card glass-card failure-card">
+                    <div class="failure-icon">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                    </div>
+                    <h2>Verification Failed</h2>
+                    <p>We couldn't verify your account under the DollarProFx Partnership.</p>
+                    <p class="failure-subtext">Please contact DollarProFx if you believe this is an error.</p>
+                    <a href="mailto:dollarprofx@gmail.com" class="btn btn-telegram btn-full">Contact DollarProFx</a>
+                    <button class="btn btn-outline btn-full" id="tryAgainBtn" style="margin-top:12px;">Try Again</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer verification-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 DollarProFx. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="verification.js"></script>
+</body>
+</html>
