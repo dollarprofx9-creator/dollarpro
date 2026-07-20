@@ -135,10 +135,19 @@ class TwelveDataClient:
             return data["values"]
         return None
 
-    def get_quote(self, symbol: str) -> Optional[Dict]:
-        """Get latest quote/price."""
-        params = {"symbol": symbol}
-        return self._make_request("quote", params)
+    def get_latest_candles(self, symbol: str, interval: str, outputsize: int = 2) -> Optional[List[Dict]]:
+        """Fetch the latest N candles from time_series endpoint."""
+        params = {
+            "symbol": symbol,
+            "interval": interval,
+            "outputsize": outputsize,
+            "format": "JSON",
+            "timezone": "UTC"
+        }
+        data = self._make_request("time_series", params)
+        if data and "values" in data:
+            return data["values"]
+        return None
 
 
 # ── Telegram Bot ───────────────────────────────────────────────────
@@ -250,48 +259,64 @@ We are now monitoring the market for the next confirmed breakout."""
 
 # ── Signal State Management ────────────────────────────────────────
 class SignalState:
-    """Manages signal state persistence in signal.json."""
+    """
+    Manages signal state persistence in signal.json.
+
+    APPROACH: Fresh start each run.
+    - Loads ONLY signal_history from existing file (preserves trade record)
+    - Everything else resets to current run values
+    - Prevents stale state from blocking new signals
+    """
 
     def __init__(self, filepath: str = config.SIGNAL_FILE):
         self.filepath = filepath
-        self._data = self._load()
+        self._data = self._fresh_start()
 
-    def _load(self) -> Dict:
-        """Load state from file."""
+    def _fresh_start(self) -> Dict:
+        """
+        Start fresh each run. Only preserve signal_history from old file.
+        All other fields get current run values (not stale data).
+        """
+        preserved_history = []
+
+        # Try to load ONLY the history from existing file
         try:
             if os.path.exists(self.filepath):
                 with open(self.filepath, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                    old_data = json.load(f)
+                    preserved_history = old_data.get("signal_history", [])
+                    logger.info(f"Loaded {len(preserved_history)} historical trades from signal.json")
         except (json.JSONDecodeError, IOError) as e:
-            logger.error(f"Error loading signal.json: {e}")
+            logger.warning(f"Could not load old signal.json: {e}. Starting with empty history.")
 
-        return self._default_state()
-
-    def _default_state(self) -> Dict:
-        """Return default state structure."""
-        return {
-            "latest_signal": None,
-            "signal_history": [],
+        # Build fresh state with preserved history only
+        fresh_state = {
+            "latest_signal": None,           # Reset - no stale signal
+            "signal_history": preserved_history,  # Keep trade record
             "opening_range": {
                 "high": None,
                 "low": None,
                 "date": None
             },
-            "active_trade": None,
-            "session_status": "WAITING",
+            "active_trade": None,            # Reset - no stale trade
+            "session_status": "WAITING",     # Reset - fresh status
             "last_updated": None,
-            "current_gold_price": None
+            "current_gold_price": None       # Will be updated this run
         }
 
+        logger.info(f"Fresh state initialized. History preserved: {len(preserved_history)} trades")
+        return fresh_state
+
     def save(self) -> bool:
-        """Save state to file."""
+        """Save current state to file (overwrites old content completely)."""
         try:
             self._data["last_updated"] = get_wat_now().isoformat()
             with open(self.filepath, "w", encoding="utf-8") as f:
                 json.dump(self._data, f, indent=2, ensure_ascii=False)
+            logger.info(f"✅ signal.json saved successfully: {self.filepath}")
             return True
         except IOError as e:
-            logger.error(f"Error saving signal.json: {e}")
+            logger.error(f"❌ Error saving signal.json: {e}")
             return False
 
     def get(self, key: str, default=None):
@@ -305,6 +330,7 @@ class SignalState:
         history = self._data.get("signal_history", [])
         history.insert(0, signal)
         self._data["signal_history"] = history[:50]
+        logger.info(f"Trade added to history. Total history: {len(history)} trades")
 
     def reset_for_new_day(self):
         """Reset state for a new trading day."""
@@ -514,39 +540,46 @@ class SignalEngine:
 
         return candles
 
-    def fetch_current_price(self, candles: Optional[List[Dict]] = None) -> Optional[float]:
-        """Fetch current gold price. Tries quote endpoint first, falls back to latest candle."""
-        # Try quote endpoint first
-        quote = self.client.get_quote(config.SYMBOL)
-        if quote:
-            logger.info(f"Quote API response: {quote}")
-            # Try multiple possible price fields
-            price_fields = ["price", "close", "bid", "ask", "last"]
-            for field in price_fields:
-                if field in quote:
-                    try:
-                        price = float(quote[field])
-                        logger.info(f"Current price from '{field}': {price:.2f}")
-                        self.state.set("current_gold_price", price)
-                        return price
-                    except (ValueError, TypeError):
-                        continue
-            logger.warning(f"Quote response missing price fields. Response: {quote}")
-        else:
-            logger.warning("Quote API returned no data")
+    def fetch_current_price(self) -> Optional[Dict]:
+        """
+        Fetch latest 2 M15 candles from Twelve Data time_series endpoint.
+        Returns the latest candle dict with OHLC values.
+        Uses latest["close"] as current_gold_price.
+        """
+        logger.info("=" * 50)
+        logger.info("Fetching latest candles from Twelve Data")
+        logger.info(f"URL: https://api.twelvedata.com/time_series")
+        logger.info(f"Params: symbol={config.SYMBOL}, interval={config.TIMEFRAME}, outputsize=2")
 
-        # Fallback: use latest candle close price (if candles provided)
-        if candles and len(candles) > 0:
-            try:
-                latest = parse_candle(candles[0])
-                price = latest["close"]
-                logger.info(f"Current price from latest candle: {price:.2f}")
-                self.state.set("current_gold_price", price)
-                return price
-            except Exception as e:
-                logger.warning(f"Failed to get price from candles: {e}")
+        candles = self.client.get_latest_candles(
+            symbol=config.SYMBOL,
+            interval=config.TIMEFRAME,
+            outputsize=2
+        )
 
-        return None
+        if not candles or len(candles) < 2:
+            logger.error("Failed to fetch latest candles from time_series endpoint")
+            return None
+
+        logger.info(f"Raw API response candles count: {len(candles)}")
+
+        # Parse candles exactly like the dashboard
+        latest = parse_candle(candles[0])
+        previous = parse_candle(candles[1])
+
+        logger.info(f"Latest candle: datetime={latest['datetime']}, open={latest['open']:.2f}, high={latest['high']:.2f}, low={latest['low']:.2f}, close={latest['close']:.2f}")
+        logger.info(f"Previous candle: datetime={previous['datetime']}, open={previous['open']:.2f}, high={previous['high']:.2f}, low={previous['low']:.2f}, close={previous['close']:.2f}")
+
+        # Use latest close as current market price (same as dashboard)
+        current_price = latest["close"]
+        logger.info(f"Current market price (latest close): {current_price:.2f}")
+
+        # Save to signal.json
+        self.state.set("current_gold_price", round(current_price, 2))
+        logger.info(f"Saved current_gold_price={round(current_price, 2)} to signal.json")
+
+        # Return the full latest candle for SL/TP detection
+        return latest
 
     def calculate_take_profit(self, entry: float, sl: float, direction: str) -> float:
         """Calculate Take Profit using 1:2 risk-reward ratio."""
@@ -556,9 +589,19 @@ class SignalEngine:
         else:  # SELL
             return entry - (risk * config.RISK_REWARD_RATIO)
 
-    def check_trade_status(self, current_price: float) -> Optional[str]:
+    def check_trade_status(self, latest_candle: Dict) -> Optional[str]:
         """
-        Check if active trade has hit SL or TP.
+        Check if active trade has hit SL or TP using the latest completed candle's High and Low.
+        This detects if price touched SL or TP at ANY point during the candle.
+
+        BUY trades:
+            - SL_HIT if latest.low <= stop_loss (price dropped to SL)
+            - TP_HIT if latest.high >= take_profit (price rose to TP)
+
+        SELL trades:
+            - SL_HIT if latest.high >= stop_loss (price rose to SL)
+            - TP_HIT if latest.low <= take_profit (price dropped to TP)
+
         Returns: "SL_HIT", "TP_HIT", or None
         """
         active = self.state.get("active_trade")
@@ -569,25 +612,37 @@ class SignalEngine:
         sl = active["stop_loss"]
         tp = active["take_profit"]
 
-        logger.info(f"SL/TP Check: direction={direction}, current={current_price:.2f}, "
-                   f"sl={sl:.2f}, tp={tp:.2f}")
+        candle_high = latest_candle["high"]
+        candle_low = latest_candle["low"]
+        candle_close = latest_candle["close"]
+
+        logger.info("=" * 50)
+        logger.info("SL/TP DETECTION USING CANDLE HIGH/LOW")
+        logger.info(f"Trade: {direction}, Entry={active['entry']:.2f}, SL={sl:.2f}, TP={tp:.2f}")
+        logger.info(f"Latest candle: High={candle_high:.2f}, Low={candle_low:.2f}, Close={candle_close:.2f}")
 
         if direction == "BUY":
-            if current_price <= sl:
-                logger.info(f"BUY SL HIT: {current_price:.2f} <= {sl:.2f}")
+            logger.info(f"BUY check: low({candle_low:.2f}) <= sl({sl:.2f})? {candle_low <= sl}")
+            logger.info(f"BUY check: high({candle_high:.2f}) >= tp({tp:.2f})? {candle_high >= tp}")
+
+            if candle_low <= sl:
+                logger.info(f"🚨 BUY SL HIT: Candle low {candle_low:.2f} touched Stop Loss {sl:.2f}")
                 return "SL_HIT"
-            if current_price >= tp:
-                logger.info(f"BUY TP HIT: {current_price:.2f} >= {tp:.2f}")
+            if candle_high >= tp:
+                logger.info(f"🎯 BUY TP HIT: Candle high {candle_high:.2f} touched Take Profit {tp:.2f}")
                 return "TP_HIT"
         else:  # SELL
-            if current_price >= sl:
-                logger.info(f"SELL SL HIT: {current_price:.2f} >= {sl:.2f}")
+            logger.info(f"SELL check: high({candle_high:.2f}) >= sl({sl:.2f})? {candle_high >= sl}")
+            logger.info(f"SELL check: low({candle_low:.2f}) <= tp({tp:.2f})? {candle_low <= tp}")
+
+            if candle_high >= sl:
+                logger.info(f"🚨 SELL SL HIT: Candle high {candle_high:.2f} touched Stop Loss {sl:.2f}")
                 return "SL_HIT"
-            if current_price <= tp:
-                logger.info(f"SELL TP HIT: {current_price:.2f} <= {tp:.2f}")
+            if candle_low <= tp:
+                logger.info(f"🎯 SELL TP HIT: Candle low {candle_low:.2f} touched Take Profit {tp:.2f}")
                 return "TP_HIT"
 
-        logger.info(f"No SL/TP hit. Price {current_price:.2f} within range.")
+        logger.info(f"✅ No SL/TP hit. Candle range {candle_low:.2f}-{candle_high:.2f} within safe zone.")
         return None
 
     def handle_sl_hit(self):
@@ -619,6 +674,7 @@ class SignalEngine:
 
         logger.info(f"SL HIT on {direction} trade. Trade closed.")
         self.state.save()
+        logger.info("✅ signal.json updated successfully (SL_HIT recorded)")
 
     def handle_tp_hit(self):
         """Handle Take Profit hit."""
@@ -649,6 +705,7 @@ class SignalEngine:
 
         logger.info(f"TP HIT on {direction} trade. Trade closed successfully.")
         self.state.save()
+        logger.info("✅ signal.json updated successfully (TP_HIT recorded)")
 
     def generate_buy_signal(self, entry: float, or_low: float, or_high: float) -> Dict:
         """Generate a BUY signal."""
@@ -757,26 +814,25 @@ class SignalEngine:
             self.state.save()
             return
 
-        # Fetch current price for dashboard (quote API only, no candles yet)
-        current_price = self.fetch_current_price()
-        if current_price:
-            logger.info(f"Current Gold Price: {current_price:.2f}")
+        # Fetch latest 2 M15 candles from Twelve Data time_series
+        latest_candle = self.fetch_current_price()
+        if latest_candle:
+            logger.info(f"Current Gold Price (latest close): {latest_candle['close']:.2f}")
 
-        # Check if there's an active trade - monitor SL/TP
+        # Check if there's an active trade - monitor SL/TP using latest candle High/Low
         active_trade = self.state.get("active_trade")
         if active_trade:
-            if not current_price:
-                logger.warning("Active trade exists but current price unavailable. Cannot check SL/TP.")
+            if not latest_candle:
+                logger.warning("Active trade exists but latest candle unavailable. Cannot check SL/TP.")
                 self.state.save()
                 return
 
             logger.info(f"Checking SL/TP for active {active_trade['direction']} trade: "
                        f"Entry={active_trade['entry']:.2f}, "
                        f"SL={active_trade['stop_loss']:.2f}, "
-                       f"TP={active_trade['take_profit']:.2f}, "
-                       f"Current={current_price:.2f}")
+                       f"TP={active_trade['take_profit']:.2f}")
 
-            trade_status = self.check_trade_status(current_price)
+            trade_status = self.check_trade_status(latest_candle)
             logger.info(f"Trade status check result: {trade_status}")
 
             if trade_status == "SL_HIT":
@@ -789,7 +845,7 @@ class SignalEngine:
                 return  # Don't check for new signals after TP
             else:
                 logger.info(f"Active {active_trade['direction']} trade still running... "
-                           f"Current: {current_price:.2f}, SL: {active_trade['stop_loss']:.2f}, "
+                           f"SL: {active_trade['stop_loss']:.2f}, "
                            f"TP: {active_trade['take_profit']:.2f}")
                 self.state.save()
                 return
@@ -935,6 +991,7 @@ class SignalEngine:
         logger.info(f"No confirmed breakout. OR High={or_high:.2f}, OR Low={or_low:.2f}")
         self.state.set("session_status", "MONITORING")
         self.state.save()
+        logger.info("✅ signal.json updated successfully (MONITORING status)")
 
 
 def main():
