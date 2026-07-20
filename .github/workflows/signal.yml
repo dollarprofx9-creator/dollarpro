@@ -11,6 +11,9 @@ on:
     - cron: "45 19 * * 1-5"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate-signal:
     runs-on: ubuntu-latest
@@ -19,7 +22,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -50,6 +54,8 @@ jobs:
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config user.name "DollarProFx Bot"
           git config user.email "bot@dollarprofx.com"
