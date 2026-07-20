@@ -1,6 +1,6 @@
 /**
  * DollarProFx - Verification Page JavaScript
- * Handles the multi-step verification flow
+ * Handles the multi-step verification flow with token storage
  */
 
 (function() {
@@ -25,6 +25,32 @@
 
   let storedEmail = '';
   const API_BASE = window.location.origin;
+  const TOKEN_KEY = 'dollarprofx_verify_token';
+
+  // ── Token Helpers ─────────────────────────────────────────────
+  function saveToken(token) {
+    try {
+      localStorage.setItem(TOKEN_KEY, token);
+    } catch (e) {
+      console.warn('Could not save token to localStorage');
+    }
+  }
+
+  function getToken() {
+    try {
+      return localStorage.getItem(TOKEN_KEY) || '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function clearToken() {
+    try {
+      localStorage.removeItem(TOKEN_KEY);
+    } catch (e) {
+      // Ignore
+    }
+  }
 
   // ── Navigation Scroll Effect ────────────────────────────────────
   function handleNavScroll() {
@@ -104,7 +130,6 @@
 
     stepElement.style.display = 'block';
 
-    // Scroll to top of card smoothly
     const card = document.getElementById('verificationCard');
     if (card) {
       setTimeout(() => {
@@ -170,7 +195,6 @@
     finishedBtn.addEventListener('click', function() {
       showStep(stepLoading);
 
-      // Call verification API after brief delay for UX
       setTimeout(() => {
         verifyAccount(storedEmail);
       }, 1500);
@@ -191,7 +215,9 @@
 
       const result = await response.json();
 
-      if (result.success) {
+      if (result.success && result.token) {
+        // Save token for dashboard access
+        saveToken(result.token);
         showStep(stepSuccess);
       } else {
         showStep(stepFailure);
@@ -207,6 +233,7 @@
   if (tryAgainBtn) {
     tryAgainBtn.addEventListener('click', function() {
       storedEmail = '';
+      clearToken();
       if (exnessEmail) {
         exnessEmail.value = '';
         exnessEmail.style.borderColor = '';
@@ -216,7 +243,6 @@
   }
 
   // ── Initialize ──────────────────────────────────────────────────
-  // Ensure only step 1 is visible on load
   showStep(stepEmail);
 
 })();

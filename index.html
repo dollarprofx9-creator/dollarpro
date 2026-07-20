@@ -85,6 +85,32 @@
       <p class="section-desc">Real-time XAUUSD signal updates with automatic refresh every minute</p>
     </div>
 
+    <!-- Verification Gate -->
+    <div id="verifyGate" class="verify-gate">
+      <div class="verify-gate-content">
+        <div class="verify-gate-icon"><i class="fas fa-lock"></i></div>
+        <h3 class="verify-gate-title">Dashboard Access Restricted</h3>
+        <p class="verify-gate-text">
+          The live signal dashboard is exclusively available to verified DollarProFx partners. 
+          Verify your EXNESS account to unlock real-time signals, trade history, and market monitoring.
+        </p>
+        <div class="verify-gate-benefits">
+          <div class="verify-gate-benefit"><i class="fas fa-check"></i> Live XAUUSD signals</div>
+          <div class="verify-gate-benefit"><i class="fas fa-check"></i> Real-time SL/TP tracking</div>
+          <div class="verify-gate-benefit"><i class="fas fa-check"></i> Complete trade history</div>
+          <div class="verify-gate-benefit"><i class="fas fa-check"></i> Opening Range levels</div>
+        </div>
+        <a href="verification.html" class="btn btn-primary btn-large">
+          <i class="fas fa-shield-alt"></i> Verify Account to Access
+        </a>
+        <p class="verify-gate-note">
+          <i class="fas fa-info-circle"></i> Verification is free and only links your existing EXNESS account.
+        </p>
+      </div>
+    </div>
+
+    <!-- Actual Dashboard (hidden until verified) -->
+    <div id="dashboardContent" class="dashboard-content" style="display: none;">
     <div class="dashboard-grid">
       <!-- Main Signal Card -->
       <div class="signal-card waiting" id="signalCard">
@@ -181,6 +207,7 @@
         <span class="status-text" id="statusText">Monitoring Market...</span>
       </div>
     </div>
+    </div><!-- /dashboardContent -->
   </section>
 
   <!-- About Section -->

@@ -364,3 +364,155 @@
     padding: 0.875rem;
   }
 }
+
+
+/* ── Verification Benefits (Step 1) ────────────────────────────── */
+.verify-benefits {
+  margin: 1.5rem 0 2rem;
+  text-align: left;
+}
+
+.verify-benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  margin-bottom: 0.75rem;
+  transition: all var(--transition-fast);
+}
+
+.verify-benefit-item:hover {
+  border-color: rgba(212, 175, 55, 0.2);
+  background: rgba(212, 175, 55, 0.03);
+}
+
+.verify-benefit-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.05));
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-primary);
+  font-size: 1rem;
+}
+
+.verify-benefit-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.verify-benefit-text strong {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.verify-benefit-text span {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.verify-note {
+  margin-top: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.verify-note i {
+  color: var(--gold-primary);
+  margin-right: 0.25rem;
+}
+
+/* ── Success Benefits (Step 4) ────────────────────────────────── */
+.success-benefits {
+  text-align: left;
+  margin: 0 0 2rem;
+  padding: 1.5rem;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+}
+
+.success-benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-glass);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.success-benefit:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.success-benefit:first-child {
+  padding-top: 0;
+}
+
+.success-benefit i {
+  color: var(--gold-primary);
+  margin-top: 0.15rem;
+  width: 20px;
+  text-align: center;
+}
+
+.success-benefit a {
+  color: var(--gold-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.success-benefit a:hover {
+  color: var(--gold-light);
+}
+
+/* ── Success Actions ───────────────────────────────────────────── */
+.success-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.success-actions .btn {
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* ── Failure Actions ───────────────────────────────────────────── */
+#stepFailure .success-actions {
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+#stepFailure .success-actions .btn {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  #stepFailure .success-actions {
+    flex-direction: column;
+  }
+
+  .verify-benefit-item {
+    padding: 0.875rem;
+  }
+
+  .success-benefits {
+    padding: 1rem;
+  }
+}

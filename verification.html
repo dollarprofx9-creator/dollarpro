@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="DollarProFx Account Verification - Link your EXNESS account under the DollarProFx partnership.">
+  <meta name="description" content="DollarProFx Account Verification - Link your EXNESS account under the DollarProFx partnership and unlock exclusive trading benefits.">
   <meta name="theme-color" content="#0a0a0f">
 
   <title>Account Verification | DollarProFx</title>
@@ -52,11 +52,44 @@
   <!-- Verification Page -->
   <main class="verification-page">
     <div class="verification-card" id="verificationCard">
+
       <!-- Step 1: Email Input -->
       <div id="stepEmail">
         <div class="verification-logo">$</div>
         <h1 class="verification-title">Account Verification</h1>
         <p class="verification-subtitle">Link your EXNESS account under the DollarProFx Partnership</p>
+
+        <!-- Benefits Section -->
+        <div class="verify-benefits">
+          <div class="verify-benefit-item">
+            <div class="verify-benefit-icon"><i class="fas fa-gift"></i></div>
+            <div class="verify-benefit-text">
+              <strong>Free Trading Signals</strong>
+              <span>Get all XAUUSD signals delivered instantly to your Telegram</span>
+            </div>
+          </div>
+          <div class="verify-benefit-item">
+            <div class="verify-benefit-icon"><i class="fas fa-handshake"></i></div>
+            <div class="verify-benefit-text">
+              <strong>Partnership Access</strong>
+              <span>Your account is linked under the DollarProFx EXNESS partnership</span>
+            </div>
+          </div>
+          <div class="verify-benefit-item">
+            <div class="verify-benefit-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="verify-benefit-text">
+              <strong>Priority Updates</strong>
+              <span>Receive early access to new strategies and market insights</span>
+            </div>
+          </div>
+          <div class="verify-benefit-item">
+            <div class="verify-benefit-icon"><i class="fas fa-users"></i></div>
+            <div class="verify-benefit-text">
+              <strong>Community Access</strong>
+              <span>Join the verified traders community for support and discussions</span>
+            </div>
+          </div>
+        </div>
 
         <form id="verificationForm">
           <div class="form-group">
@@ -76,42 +109,42 @@
           </button>
         </form>
 
-        <p style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.85rem;">
-          <i class="fas fa-info-circle"></i> No payment required. This only links your existing EXNESS account.
+        <p class="verify-note">
+          <i class="fas fa-info-circle"></i> No payment required. This only links your existing EXNESS account. All signals remain free.
         </p>
       </div>
 
       <!-- Step 2: Instructions -->
       <div id="stepInstructions" style="display: none;">
         <div class="verification-logo">🔗</div>
-        <h1 class="verification-title">Link Your Existing EXNESS Account</h1>
-        <p class="verification-subtitle">Follow these steps carefully</p>
+        <h1 class="verification-title">Link Your EXNESS Account</h1>
+        <p class="verification-subtitle">Follow these steps carefully to complete verification</p>
 
         <div class="steps-display">
           <div class="step-item">
             <div class="step-item-number">1</div>
-            <div class="step-item-text">Log in to your <strong>EXNESS Personal Area</strong>.</div>
+            <div class="step-item-text">Log in to your <strong>EXNESS Personal Area</strong> using the email you entered.</div>
           </div>
 
           <div class="step-item">
             <div class="step-item-number">2</div>
-            <div class="step-item-text">Open <strong>Live Chat</strong>.</div>
+            <div class="step-item-text">Open <strong>Live Chat</strong> from the support menu.</div>
           </div>
 
           <div class="step-item">
             <div class="step-item-number">3</div>
-            <div class="step-item-text">Type: <strong>Partner Change</strong></div>
+            <div class="step-item-text">Type exactly: <strong>Partner Change</strong></div>
           </div>
 
           <div class="step-item">
             <div class="step-item-number">4</div>
-            <div class="step-item-text">Complete the form they provide.</div>
+            <div class="step-item-text">Complete the form they provide with your details.</div>
           </div>
 
           <div class="step-item">
             <div class="step-item-number">5</div>
             <div class="step-item-text">
-              When asked for the partner link, paste:<br>
+              When asked for the partner link, paste this link:<br>
               <div class="partner-link-box" id="partnerLinkBox" title="Click to copy">
                 https://one.exnessonelink.com/a/c_9x6wufu5w3
               </div>
@@ -133,7 +166,7 @@
         <div class="spinner"></div>
         <p class="loading-text">Verifying your account...</p>
         <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem;">
-          This may take a few moments
+          Checking partnership status
         </p>
       </div>
 
@@ -144,12 +177,37 @@
         </div>
         <h1 class="result-title">Account Verified</h1>
         <p class="result-message">
-          Your account has been successfully verified under the DollarProFx Partnership.<br><br>
-          You may now continue with the next instructions provided by DollarProFx.
+          Your EXNESS account has been successfully verified under the DollarProFx Partnership.<br><br>
+          <strong>What happens next:</strong>
         </p>
-        <a href="index.html" class="btn btn-primary">
-          <i class="fas fa-home"></i> Back to Home
-        </a>
+
+        <div class="success-benefits">
+          <div class="success-benefit">
+            <i class="fas fa-paper-plane"></i>
+            <span>Trading signals will be sent to <a href="https://t.me/dollarproforex" target="_blank">@dollarproforex</a></span>
+          </div>
+          <div class="success-benefit">
+            <i class="fas fa-globe"></i>
+            <span>Monitor live signals on the <a href="index.html#live-signals">DollarProFx Dashboard</a></span>
+          </div>
+          <div class="success-benefit">
+            <i class="fas fa-bell"></i>
+            <span>You'll receive instant alerts for new signals, SL, and TP updates</span>
+          </div>
+          <div class="success-benefit">
+            <i class="fas fa-headset"></i>
+            <span>Contact <a href="mailto:dollarprofx@gmail.com">dollarprofx@gmail.com</a> for support</span>
+          </div>
+        </div>
+
+        <div class="success-actions">
+          <a href="https://t.me/dollarproforex" target="_blank" class="btn btn-telegram">
+            <i class="fab fa-telegram"></i> Join Telegram Channel
+          </a>
+          <a href="index.html#live-signals" class="btn btn-secondary">
+            <i class="fas fa-chart-line"></i> View Live Dashboard
+          </a>
+        </div>
       </div>
 
       <!-- Step 5: Failure -->
@@ -160,12 +218,19 @@
         <h1 class="result-title">Verification Failed</h1>
         <p class="result-message">
           We couldn't verify your account under the DollarProFx Partnership.<br><br>
-          Please contact DollarProFx if you believe this is an error.
+          This usually means the email was not found in our approved list, or the partner change has not been processed yet.<br><br>
+          <strong>What to do:</strong> Make sure you completed the partner change in your EXNESS Personal Area, then try again. If the issue persists, contact us.
         </p>
-        <button class="btn btn-secondary" id="tryAgainBtn" style="width: 100%;">
-          <i class="fas fa-redo"></i> Try Again
-        </button>
+        <div class="success-actions">
+          <button class="btn btn-primary" id="tryAgainBtn">
+            <i class="fas fa-redo"></i> Try Again
+          </button>
+          <a href="mailto:dollarprofx@gmail.com" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i> Contact Support
+          </a>
+        </div>
       </div>
+
     </div>
   </main>
 

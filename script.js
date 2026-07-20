@@ -346,11 +346,132 @@
     els.timeRemaining.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
   }
 
-  // Initialize dashboard if elements exist
-  if (els.signalDirection) {
-    fetchSignalData();
-    refreshInterval = setInterval(fetchSignalData, 60000); // Refresh every minute
+  // ── Verification Gate ───────────────────────────────────────────
+  const TOKEN_KEY = 'dollarprofx_verify_token';
+  const verifyGate = document.getElementById('verifyGate');
+  const dashboardContent = document.getElementById('dashboardContent');
+
+  function getToken() {
+    try {
+      return localStorage.getItem(TOKEN_KEY) || '';
+    } catch (e) {
+      return '';
+    }
   }
+
+  async function checkVerification() {
+    const token = getToken();
+
+    if (!token) {
+      // No token - show gate, hide dashboard
+      if (verifyGate) verifyGate.style.display = 'block';
+      if (dashboardContent) dashboardContent.style.display = 'none';
+      return false;
+    }
+
+    // Validate token with server
+    try {
+      const response = await fetch(`${API_BASE}/api/verify-token`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: token })
+      });
+
+      const result = await response.json();
+
+      if (result.success && result.valid) {
+        // Token valid - show dashboard, hide gate
+        if (verifyGate) verifyGate.style.display = 'none';
+        if (dashboardContent) dashboardContent.style.display = 'block';
+        return true;
+      } else {
+        // Token invalid/expired - show gate, clear storage
+        if (verifyGate) verifyGate.style.display = 'block';
+        if (dashboardContent) dashboardContent.style.display = 'none';
+        try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+        return false;
+      }
+    } catch (error) {
+      console.error('Token validation error:', error);
+      // On error, show gate to be safe
+      if (verifyGate) verifyGate.style.display = 'block';
+      if (dashboardContent) dashboardContent.style.display = 'none';
+      return false;
+    }
+  }
+
+  // ── Modified fetchSignalData with token ─────────────────────────
+  async function fetchSignalData() {
+    const token = getToken();
+    if (!token) return; // Don't fetch if not verified
+
+    try {
+      const response = await fetch(`${API_BASE}/api/signal`, {
+        headers: {
+          'X-Verify-Token': token
+        }
+      });
+
+      if (response.status === 403) {
+        // Token rejected by server
+        if (verifyGate) verifyGate.style.display = 'block';
+        if (dashboardContent) dashboardContent.style.display = 'none';
+        try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+        if (refreshInterval) {
+          clearInterval(refreshInterval);
+          refreshInterval = null;
+        }
+        return;
+      }
+
+      if (!response.ok) throw new Error('Failed to fetch');
+
+      const result = await response.json();
+      if (!result.success) throw new Error(result.error);
+
+      const data = result.data;
+
+      // Update signal card
+      updateSignalCard(data.latest_signal);
+
+      // Update market info
+      els.currentPrice.textContent = formatPrice(data.current_gold_price);
+      els.sessionStatus.textContent = getSessionStatusText(data.session_status);
+      els.lastUpdated.textContent = formatDateTime(data.last_updated);
+
+      // Update OR levels
+      if (data.opening_range) {
+        els.orHigh.textContent = formatPrice(data.opening_range.high);
+        els.orLow.textContent = formatPrice(data.opening_range.low);
+      }
+
+      // Update status indicator
+      const statusClass = getStatusClass(data.session_status);
+      els.statusDot.className = `status-dot ${statusClass}`;
+      els.statusText.textContent = getSessionStatusText(data.session_status);
+
+      // Update history
+      updateHistory(data.signal_history);
+
+      // Calculate time remaining
+      updateTimeRemaining(data.session_status);
+
+    } catch (error) {
+      console.error('Error fetching signal data:', error);
+      els.statusText.textContent = 'Connection Error';
+      els.statusDot.className = 'status-dot ended';
+    }
+  }
+
+  // ── Initialize ──────────────────────────────────────────────────
+  (async function init() {
+    const isVerified = await checkVerification();
+
+    if (isVerified && els.signalDirection) {
+      fetchSignalData();
+      refreshInterval = setInterval(fetchSignalData, 60000);
+    }
+  })();
 
   // Cleanup on page unload
   window.addEventListener('beforeunload', () => {

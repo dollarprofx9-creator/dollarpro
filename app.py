@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """
 DollarProFx Flask Application
-Serves the frontend, provides API endpoints, and handles verification.
+Serves the frontend, provides API endpoints, and handles verification with token-based access control.
 """
 
 import os
 import sys
 import json
 import logging
-from datetime import datetime
+import secrets
+import hashlib
+import hmac
+from datetime import datetime, timedelta
 from functools import wraps
 
 from flask import Flask, render_template, jsonify, request, send_from_directory
@@ -39,7 +42,80 @@ logger.addHandler(console_handler)
 
 # ── Flask App ───────────────────────────────────────────────────────
 app = Flask(__name__, static_folder=".", static_url_path="")
-app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", "dollarprofx-dev-key-change-in-prod")
+app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", secrets.token_hex(32))
+
+# ── Token Management ────────────────────────────────────────────────
+# In-memory token store (email -> {token, expires})
+# In production with multiple workers, use Redis or database
+_verified_tokens = {}
+TOKEN_SECRET = app.config["SECRET_KEY"]
+TOKEN_EXPIRY_HOURS = 24 * 7  # 7 days
+
+
+def generate_verification_token(email: str) -> str:
+    """Generate a secure verification token for an email."""
+    timestamp = str(int(datetime.utcnow().timestamp()))
+    data = f"{email}:{timestamp}"
+    signature = hmac.new(
+        TOKEN_SECRET.encode(),
+        data.encode(),
+        hashlib.sha256
+    ).hexdigest()[:32]
+    token = f"{signature}.{timestamp}"
+
+    _verified_tokens[token] = {
+        "email": email,
+        "created": datetime.utcnow(),
+        "expires": datetime.utcnow() + timedelta(hours=TOKEN_EXPIRY_HOURS)
+    }
+
+    logger.info(f"Verification token generated for: {email}")
+    return token
+
+
+def validate_token(token: str) -> bool:
+    """Validate a verification token."""
+    if not token or token not in _verified_tokens:
+        return False
+
+    record = _verified_tokens[token]
+    if datetime.utcnow() > record["expires"]:
+        # Clean up expired token
+        del _verified_tokens[token]
+        return False
+
+    return True
+
+
+def get_token_email(token: str) -> str:
+    """Get email associated with a valid token."""
+    if token in _verified_tokens:
+        return _verified_tokens[token]["email"]
+    return ""
+
+
+# ── Decorators ──────────────────────────────────────────────────────
+def require_verification(f):
+    """Decorator to require a valid verification token."""
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = request.headers.get("X-Verify-Token", "")
+
+        if not token:
+            # Also check query param for flexibility
+            token = request.args.get("token", "")
+
+        if not validate_token(token):
+            logger.warning(f"Unauthorized dashboard access attempt from: {request.remote_addr}")
+            return jsonify({
+                "success": False,
+                "error": "Verification required",
+                "message": "Please verify your account to access the dashboard."
+            }), 403
+
+        return f(*args, **kwargs)
+    return decorated
+
 
 # ── Security Headers ──────────────────────────────────────────────
 @app.after_request
@@ -104,16 +180,11 @@ def verification():
     return send_from_directory(".", "verification.html")
 
 
-@app.route("/live-signals")
-def live_signals():
-    """Serve the live signals dashboard page."""
-    return send_from_directory(".", "index.html")
-
-
 # ── API Endpoints ──────────────────────────────────────────────────
 @app.route("/api/signal", methods=["GET"])
+@require_verification
 def get_signal():
-    """Return the latest signal data for the dashboard."""
+    """Return the latest signal data for the dashboard. PROTECTED."""
     try:
         signal_data = load_json_file(config.SIGNAL_FILE, {
             "latest_signal": None,
@@ -141,7 +212,7 @@ def get_signal():
 def verify_account():
     """
     Verify EXNESS email against users.json.
-    Returns success if email exists in the approved users list.
+    Returns success + token if email exists in the approved users list.
     """
     try:
         data = request.get_json()
@@ -164,10 +235,14 @@ def verify_account():
 
         # Check if email is approved
         if email in approved_emails:
-            logger.info(f"Account verified: {email}")
+            # Generate verification token
+            token = generate_verification_token(email)
+            logger.info(f"Account verified and token issued for: {email}")
             return jsonify({
                 "success": True,
-                "message": "Account verified successfully"
+                "message": "Account verified successfully",
+                "token": token,
+                "expires_in": TOKEN_EXPIRY_HOURS * 3600  # seconds
             })
         else:
             logger.warning(f"Verification failed for: {email}")
@@ -182,6 +257,31 @@ def verify_account():
             "success": False,
             "error": "Verification service temporarily unavailable"
         }), 500
+
+
+@app.route("/api/verify-token", methods=["POST"])
+def verify_token():
+    """Check if a token is still valid."""
+    try:
+        data = request.get_json() or {}
+        token = data.get("token", "")
+
+        if validate_token(token):
+            email = get_token_email(token)
+            return jsonify({
+                "success": True,
+                "valid": True,
+                "email": email
+            })
+        else:
+            return jsonify({
+                "success": True,
+                "valid": False,
+                "email": ""
+            })
+    except Exception as e:
+        logger.error(f"Error in /api/verify-token: {e}")
+        return jsonify({"success": False, "error": "Token check failed"}), 500
 
 
 @app.route("/api/config", methods=["GET"])
