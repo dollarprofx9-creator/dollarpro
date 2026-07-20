@@ -7,7 +7,7 @@
     "date": null
   },
   "active_trade": null,
-  "session_status": "WAITING",
-  "last_updated": null,
+  "session_status": "SESSION_ENDED",
+  "last_updated": "2026-07-20T21:31:18.989243+01:00",
   "current_gold_price": null
 }
