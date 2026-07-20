@@ -409,8 +409,8 @@ def find_opening_range_candle(candles: List[Dict], session: TradingSession) -> O
     target_date = session.wat_now.date()
 
     # Opening range: 2:15 PM - 2:30 PM WAT = 1:15 PM - 1:30 PM UTC
-    or_start_utc = datetime.combine(target_date, dt_time(13, 15))
-    or_end_utc = datetime.combine(target_date, dt_time(13, 30))
+    or_start_utc = UTC.localize(datetime.combine(target_date, dt_time(13, 15)))
+    or_end_utc = UTC.localize(datetime.combine(target_date, dt_time(13, 30)))
 
     for candle in candles:
         try:
