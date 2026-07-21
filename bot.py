@@ -1,33 +1,40 @@
 import os
 import requests
 import pandas as pd
+from datetime import datetime, timedelta
 
+# Environment Variables
 API_KEY = os.getenv("TWELVEDATA_API_KEY")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
+# Twelve Data API Endpoint
 url = "https://api.twelvedata.com/time_series"
 
 params = {
     "symbol": "XAU/USD",
-    "interval": "15min",   # Changed from 1h to 15min
+    "interval": "15min",
     "outputsize": 100,
     "apikey": API_KEY
 }
 
+# Get Market Data
 response = requests.get(url, params=params)
 data = response.json()["values"]
 
+# Create DataFrame
 df = pd.DataFrame(data)
-df = df.iloc[::-1]
+df = df.iloc[::-1].reset_index(drop=True)
 
-for c in ["open", "high", "low", "close"]:
-    df[c] = df[c].astype(float)
+# Convert Columns to Float
+for col in ["open", "high", "low", "close"]:
+    df[col] = df[col].astype(float)
 
 high = df["high"]
 low = df["low"]
 close = df["close"]
 
+# ATR(14) Calculation
 prev_close = close.shift()
 
 tr = pd.concat([
@@ -38,46 +45,56 @@ tr = pd.concat([
 
 atr = tr.rolling(14).mean().iloc[-1]
 
+# Latest Candle
 last = df.iloc[-1]
 
 entry = last["close"]
 
-direction = "BUY" if last["close"] > last["open"] else "SELL"
+# Calculate Buy Levels
+buy_sl_distance = atr * 1.5
+buy_tp_distance = buy_sl_distance * 2
 
-sl_distance = atr * 1.5
-tp_distance = sl_distance * 2
+buy_sl = entry - buy_sl_distance
+buy_tp = entry + buy_tp_distance
 
-if direction == "BUY":
-    sl = entry - sl_distance
-    tp = entry + tp_distance
-else:
-    sl = entry + sl_distance
-    tp = entry - tp_distance
+# Calculate Sell Levels
+sell_sl = entry + buy_sl_distance
+sell_tp = entry - buy_tp_distance
 
-message = f"""
-📊 M15 XAUUSD SIGNAL
+# Nigeria Time (WAT)
+wat_time = datetime.utcnow() + timedelta(hours=1)
 
-Direction: {direction}
+signal_date = wat_time.strftime("%d %b %Y")
+signal_time = wat_time.strftime("%I:%M %p")
+# Telegram Message Format
+message = f"""📊 XAUUSD SIGNAL
+
+🟢 BUY
 
 Entry: {entry:.2f}
-
-Stop Loss: {sl:.2f}
-
-Take Profit: {tp:.2f}
-
-ATR(14): {atr:.2f}
-
-Risk Reward: 1:2
+Stop Loss: {buy_sl:.2f}
+Take Profit: {buy_tp:.2f}
 
 Timeframe: M15
+Date: {signal_date}
+Signal Time: {signal_time} WAT
 
-🤖 Generated Automatically
+🔴 SELL
 
-Apply risk management ⚠️
+Entry: {entry:.2f}
+Stop Loss: {sell_sl:.2f}
+Take Profit: {sell_tp:.2f}
+
+Timeframe: M15
+Date: {signal_date}
+Signal Time: {signal_time} WAT
 """
 
+# Send to Telegram
+telegram_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+
 requests.post(
-    f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+    telegram_url,
     data={
         "chat_id": CHAT_ID,
         "text": message
