@@ -121,8 +121,6 @@ Entry: {entry:.2f}
 Stop Loss: {stop_loss:.2f}
 Take Profit: {take_profit:.2f}
 
-ATR(14): {atr:.2f}
-
 Timeframe: M15
 Date: {signal_date}
 Signal Time: {signal_time} WAT
