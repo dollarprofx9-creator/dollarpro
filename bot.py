@@ -133,19 +133,20 @@ else:
 # ==========================
 # Telegram Message
 # ==========================
-message = f"""📊 XAUUSD SIGNAL {signal}
+message = f"""📊 XAUUSD SIGNAL
+
+{signal}
 
 Entry: {entry:.2f}
 Stop Loss: {stop_loss:.2f}
 Take Profit: {take_profit:.2f}
 
-⏱ Timeframe: M15
-📅 Date: {signal_date}
-🕕 Signal Time: {signal_time} WAT
-⏳ Signal Exit Time: {exit_time_formatted} WAT
+Timeframe: M15
+Date: {signal_date}
+Signal Time: {signal_time} WAT
+Signal Exit Time: {exit_time_formatted} WAT
 
-⚠️ Close the trade at the stated exit time if TP or SL has not been reached. Manage your risk accordingly.
-"""
+⚠️ Close the trade at the stated exit time if TP or SL has not been reached. Manage your risk accordingly."""
 
 # ==========================
 # Send Telegram Message
