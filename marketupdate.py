@@ -2,20 +2,22 @@ import os
 import json
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone
 
 
-# ==========================
-# Environment Variables
-# ==========================
+# ============================================================
+# ENVIRONMENT VARIABLES
+# ============================================================
+
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-TWELVE_DATA_API_KEY = os.getenv("TWELVE_DATA_API_KEY")
+TWELVEDATA_API_KEY = os.getenv("TWELVEDATA_API_KEY")
 
 
-# ==========================
-# Market Symbols
-# ==========================
+# ============================================================
+# SYMBOLS
+# ============================================================
+
 SYMBOLS = {
     "EURUSD": "EUR/USD",
     "BTCUSD": "BTC/USD",
@@ -27,94 +29,135 @@ SYMBOLS = {
 }
 
 
-# ==========================
-# API Request
-# ==========================
-def api_request(url, params):
+# ============================================================
+# TWELVE DATA REQUEST
+# ============================================================
+
+def api_request(endpoint, params):
 
     query = urllib.parse.urlencode(params)
 
-    full_url = f"{url}?{query}"
+    url = f"https://api.twelvedata.com/{endpoint}?{query}"
 
     request = urllib.request.Request(
-        full_url,
+        url,
         headers={
             "User-Agent": "Mozilla/5.0"
         }
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=30
+    ) as response:
 
         data = response.read().decode("utf-8")
 
         return json.loads(data)
 
 
-# ==========================
-# Get Current Quote
-# ==========================
+# ============================================================
+# GET CURRENT QUOTE
+# ============================================================
+
 def get_quote(symbol):
 
-    url = "https://api.twelvedata.com/quote"
-
-    params = {
-        "symbol": symbol,
-        "apikey": TWELVE_DATA_API_KEY
-    }
-
-    data = api_request(url, params)
+    data = api_request(
+        "quote",
+        {
+            "symbol": symbol,
+            "apikey": TWELVEDATA_API_KEY
+        }
+    )
 
     if "code" in data:
+
         raise Exception(
-            data.get("message", "Unknown API error")
+            data.get(
+                "message",
+                "Unknown Twelve Data error"
+            )
         )
 
     return data
 
 
-# ==========================
-# Get Daily History
-# ==========================
+# ============================================================
+# GET DAILY DATA
+# ============================================================
+
 def get_daily_history(symbol):
 
-    url = "https://api.twelvedata.com/time_series"
-
-    params = {
-        "symbol": symbol,
-        "interval": "1day",
-        "outputsize": 10,
-        "apikey": TWELVE_DATA_API_KEY
-    }
-
-    data = api_request(url, params)
+    data = api_request(
+        "time_series",
+        {
+            "symbol": symbol,
+            "interval": "1day",
+            "outputsize": 10,
+            "apikey": TWELVEDATA_API_KEY
+        }
+    )
 
     if "code" in data:
+
         raise Exception(
-            data.get("message", "Unknown API error")
+            data.get(
+                "message",
+                "Unknown Twelve Data error"
+            )
         )
 
     return data.get("values", [])
 
 
-# ==========================
-# Calculate Weekly Change
-# ==========================
-def calculate_weekly_change(symbol, current_price):
+# ============================================================
+# CALCULATE DAILY CHANGE
+# ============================================================
 
-    history = get_daily_history(symbol)
+def calculate_daily_change(
+    current_price,
+    previous_close
+):
 
-    if len(history) < 5:
+    if previous_close is None:
         return None
+
+    previous_close = float(previous_close)
+
+    if previous_close == 0:
+        return None
+
+    return (
+        (current_price - previous_close)
+        / previous_close
+    ) * 100
+
+
+# ============================================================
+# CALCULATE WEEKLY CHANGE
+# ============================================================
+
+def calculate_weekly_change(
+    symbol,
+    current_price
+):
 
     try:
 
-        # Find the oldest daily close available
-        # within the recent trading week.
-        today = datetime.utcnow().date()
+        history = get_daily_history(symbol)
 
-        current_week = today.isocalendar().week
+        if not history:
+            return None
 
-        week_data = []
+        today = datetime.now(
+            timezone.utc
+        ).date()
+
+        current_year, current_week, _ = (
+            today.isocalendar()
+        )
+
+        week_candles = []
 
         for candle in history:
 
@@ -123,249 +166,34 @@ def calculate_weekly_change(symbol, current_price):
                 "%Y-%m-%d"
             ).date()
 
-            if candle_date.isocalendar().week == current_week:
+            candle_year, candle_week, _ = (
+                candle_date.isocalendar()
+            )
 
-                week_data.append(candle)
+            if (
+                candle_year == current_year
+                and candle_week == current_week
+            ):
 
-        if len(week_data) < 2:
+                week_candles.append(candle)
+
+        if not week_candles:
             return None
 
-        # Oldest candle of current week
-        week_open = float(week_data[-1]["open"])
+        # Twelve Data normally returns newest
+        # candle first, so the last candle is
+        # the oldest available candle of the week.
+
+        oldest_candle = week_candles[-1]
+
+        week_open = float(
+            oldest_candle["open"]
+        )
 
         if week_open == 0:
             return None
 
-        change = (
+        return (
             (current_price - week_open)
             / week_open
-        ) * 100
-
-        return change
-
-    except Exception:
-
-        return None
-
-
-# ==========================
-# Format Price
-# ==========================
-def format_price(value, symbol):
-
-    if value is None:
-        return "N/A"
-
-    value = float(value)
-
-    if symbol == "BTCUSD":
-        return f"${value:,.2f}"
-
-    if symbol == "XAUUSD":
-        return f"${value:,.2f}"
-
-    if symbol == "USDJPY":
-        return f"{value:.3f}"
-
-    return f"{value:.4f}"
-
-
-# ==========================
-# Format Percentage
-# ==========================
-def format_percentage(value):
-
-    if value is None:
-        return "N/A"
-
-    value = float(value)
-
-    if value > 0:
-        return f"+{value:.2f}%"
-
-    return f"{value:.2f}%"
-
-
-# ==========================
-# Direction Emoji
-# ==========================
-def direction_emoji(value):
-
-    if value is None:
-        return "⚪"
-
-    value = float(value)
-
-    if value > 0:
-        return "🟢"
-
-    if value < 0:
-        return "🔴"
-
-    return "⚪"
-
-
-# ==========================
-# Build Market Update
-# ==========================
-def build_market_update():
-
-    today = datetime.utcnow().strftime("%d %B %Y")
-
-    message = f"""📊 DAILY MARKET UPDATE
-📅 {today}
-
-"""
-
-    for display_name, api_symbol in SYMBOLS.items():
-
-        try:
-
-            quote = get_quote(api_symbol)
-
-            current_price = float(
-                quote["close"]
-            )
-
-            high = float(
-                quote["high"]
-            )
-
-            low = float(
-                quote["low"]
-            )
-
-            previous_close = quote.get(
-                "previous_close"
-            )
-
-            if previous_close:
-
-                previous_close = float(
-                    previous_close
-                )
-
-                daily_change = (
-                    (current_price - previous_close)
-                    / previous_close
-                ) * 100
-
-            else:
-
-                daily_change = None
-
-            weekly_change = calculate_weekly_change(
-                api_symbol,
-                current_price
-            )
-
-            emoji = direction_emoji(
-                daily_change
-            )
-
-            message += (
-                f"{emoji} {display_name}\n"
-                f"💰 Price: "
-                f"{format_price(current_price, display_name)}\n"
-                f"📈 Day High: "
-                f"{format_price(high, display_name)}\n"
-                f"📉 Day Low: "
-                f"{format_price(low, display_name)}\n"
-                f"🔒 Previous Close: "
-                f"{format_price(previous_close, display_name)}\n"
-                f"📊 Daily Change: "
-                f"{format_percentage(daily_change)}\n"
-                f"📅 Weekly Change: "
-                f"{format_percentage(weekly_change)}\n\n"
-            )
-
-        except Exception as error:
-
-            print(
-                f"Error retrieving {display_name}: "
-                f"{error}"
-            )
-
-            message += (
-                f"⚠️ {display_name}\n"
-                f"Unable to retrieve market data.\n\n"
-            )
-
-    message += (
-        "━━━━━━━━━━━━━━━━━━\n"
-        "⚠️ Market data is for informational purposes only."
-    )
-
-    return message
-
-
-# ==========================
-# Send Telegram Message
-# ==========================
-def send_message(message):
-
-    if not BOT_TOKEN:
-        raise ValueError(
-            "TELEGRAM_BOT_TOKEN is not set"
-        )
-
-    if not CHAT_ID:
-        raise ValueError(
-            "TELEGRAM_CHAT_ID is not set"
-        )
-
-    url = (
-        f"https://api.telegram.org/"
-        f"bot{BOT_TOKEN}/sendMessage"
-    )
-
-    data = urllib.parse.urlencode({
-        "chat_id": CHAT_ID,
-        "text": message
-    }).encode("utf-8")
-
-    request = urllib.request.Request(
-        url,
-        data=data,
-        method="POST"
-    )
-
-    with urllib.request.urlopen(
-        request,
-        timeout=30
-    ) as response:
-
-        result = json.loads(
-            response.read().decode("utf-8")
-        )
-
-        if not result.get("ok"):
-            raise Exception(
-                result.get(
-                    "description",
-                    "Telegram API error"
-                )
-            )
-
-
-# ==========================
-# Main
-# ==========================
-if __name__ == "__main__":
-
-    if not TWELVE_DATA_API_KEY:
-        raise ValueError(
-            "TWELVE_DATA_API_KEY is not set"
-        )
-
-    print("Generating market update...")
-
-    message = build_market_update()
-
-    print(message)
-
-    send_message(message)
-
-    print(
-        "Daily market update sent successfully!"
-)
+        ) * 
