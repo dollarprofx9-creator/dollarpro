@@ -2,12 +2,14 @@ name: Daily Market Update
 
 on:
   schedule:
-    # 1:00 PM Nigeria time (WAT)
+    # 1:00 PM Nigeria time (WAT / UTC+1)
+    # GitHub Actions uses UTC.
     - cron: "0 8 * * 1-5"
 
   workflow_dispatch:
 
 jobs:
+
   market-update:
 
     runs-on: ubuntu-latest
@@ -26,6 +28,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
         run: |
           python marketupdate.py
