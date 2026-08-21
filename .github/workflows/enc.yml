@@ -3,7 +3,7 @@ name: Weekly Telegram Message
 on:
   schedule:
     # 04:00 Nigeria time (WAT / UTC+1)
-    - cron: "0 3 * * 1"
+    - cron: "0 5 * * 1"
 
   # Allows you to manually run the job from GitHub
   workflow_dispatch:
