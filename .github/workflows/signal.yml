@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs once per day at 07:00 UTC (08:00 WAT)
     # Monday-Friday only (1=Mon, 5=Fri)
-    - cron: "0 5 * * 1-5"
+    - cron: "0 6 * * 1-5"
 
   workflow_dispatch:
 
