@@ -2,14 +2,11 @@ name: Daily Market Update
 
 on:
   schedule:
-    # 1:00 PM Nigeria time (WAT / UTC+1)
-    # GitHub Actions uses UTC.
     - cron: "0 8 * * 1-5"
 
   workflow_dispatch:
 
 jobs:
-
   market-update:
 
     runs-on: ubuntu-latest
