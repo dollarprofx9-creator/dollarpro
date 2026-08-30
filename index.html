@@ -3,422 +3,646 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIME SCALE — Explore the Universe of Time</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Magic Trading Time Picker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000000;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 20px rgba(0, 150, 255, 0.6), 0 0 40px rgba(0, 100, 255, 0.3);
+        }
+
+        .subtitle {
+            font-size: 0.85rem;
+            color: #8899aa;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .clock-panel {
+            background: linear-gradient(145deg, #0a0a1a 0%, #0d0d1f 50%, #080818 100%);
+            border: 1px solid rgba(0, 150, 255, 0.2);
+            border-radius: 24px;
+            padding: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 40px rgba(0, 100, 255, 0.08), inset 0 0 60px rgba(0, 50, 150, 0.05);
+            position: relative;
+        }
+
+        .clock-panel::before {
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            right: -1px;
+            bottom: -1px;
+            border-radius: 24px;
+            background: linear-gradient(135deg, rgba(0, 150, 255, 0.3), transparent 40%, transparent 60%, rgba(0, 150, 255, 0.3));
+            z-index: -1;
+        }
+
+        .clock-wrapper {
+            position: relative;
+            width: 280px;
+            height: 280px;
+            margin: 10px auto;
+        }
+
+        @media (min-width: 480px) {
+            .clock-wrapper {
+                width: 340px;
+                height: 340px;
+            }
+        }
+
+        .clock-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: radial-gradient(circle at center, #0f0f2a 0%, #080818 70%, #050510 100%);
+            border: 2px solid rgba(0, 150, 255, 0.25);
+            box-shadow: 0 0 30px rgba(0, 100, 255, 0.1), inset 0 0 50px rgba(0, 50, 150, 0.08);
+        }
+
+        .clock-face::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 14px;
+            height: 14px;
+            background: #00aaff;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(0, 170, 255, 0.8), 0 0 30px rgba(0, 170, 255, 0.4);
+            z-index: 10;
+        }
+
+        .clock-number {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #8899aa;
+            border-radius: 50%;
+            transition: all 0.15s ease;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            left: 50%;
+            top: 50%;
+            margin-left: -20px;
+            margin-top: -20px;
+        }
+
+        .clock-number.active {
+            color: #ffffff;
+            text-shadow: 0 0 15px rgba(0, 200, 255, 1), 0 0 30px rgba(0, 150, 255, 0.8);
+            transform: scale(1.3);
+            z-index: 5;
+        }
+
+        .clock-number.selected {
+            color: #ffffff;
+            text-shadow: 0 0 20px rgba(0, 200, 255, 1), 0 0 40px rgba(0, 150, 255, 0.9), 0 0 60px rgba(0, 100, 255, 0.6);
+            transform: scale(1.4);
+            z-index: 5;
+        }
+
+        .pointer {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 4px;
+            height: 110px;
+            background: linear-gradient(to top, transparent 0%, transparent 20%, #00aaff 20%, #00ddff 100%);
+            transform-origin: bottom center;
+            transform: translate(-50%, -100%) rotate(-90deg);
+            border-radius: 2px;
+            transition: transform 0.12s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            z-index: 8;
+            box-shadow: 0 0 10px rgba(0, 170, 255, 0.6);
+        }
+
+        @media (min-width: 480px) {
+            .pointer {
+                height: 135px;
+            }
+        }
+
+        .pointer::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 14px solid #00ddff;
+            filter: drop-shadow(0 0 6px rgba(0, 200, 255, 0.8));
+        }
+
+        .pointer.spinning {
+            transition: transform 0.08s linear;
+        }
+
+        .am-pm-selector {
+            display: flex;
+            gap: 12px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .am-pm-btn {
+            padding: 10px 28px;
+            border: 1px solid rgba(0, 150, 255, 0.3);
+            background: rgba(0, 20, 60, 0.4);
+            color: #8899aa;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .am-pm-btn:hover {
+            border-color: rgba(0, 150, 255, 0.6);
+            color: #aaccff;
+            background: rgba(0, 30, 80, 0.5);
+        }
+
+        .am-pm-btn.active {
+            background: linear-gradient(135deg, #0066cc 0%, #0088ff 100%);
+            color: #ffffff;
+            border-color: #00aaff;
+            box-shadow: 0 0 20px rgba(0, 136, 255, 0.4), 0 0 40px rgba(0, 100, 255, 0.2);
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .controls {
+            display: flex;
+            gap: 14px;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 14px 36px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 130px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-start {
+            background: linear-gradient(135deg, #0066cc 0%, #0088ff 50%, #00aaff 100%);
+            color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 136, 255, 0.3), 0 4px 15px rgba(0, 100, 255, 0.2);
+        }
+
+        .btn-start:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(0, 170, 255, 0.5), 0 6px 20px rgba(0, 100, 255, 0.3);
+        }
+
+        .btn-start:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-pause {
+            background: linear-gradient(135deg, #004488 0%, #0066cc 100%);
+            color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 100, 200, 0.3);
+        }
+
+        .btn-pause:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(0, 136, 255, 0.5);
+        }
+
+        .btn-pause:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .btn-reset {
+            background: linear-gradient(135deg, #1a1a2e 0%, #252540 100%);
+            color: #aaccff;
+            border: 1px solid rgba(0, 150, 255, 0.25);
+            box-shadow: 0 0 15px rgba(0, 100, 255, 0.1);
+        }
+
+        .btn-reset:hover {
+            transform: translateY(-2px);
+            border-color: rgba(0, 150, 255, 0.5);
+            box-shadow: 0 0 25px rgba(0, 136, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .result-panel {
+            background: linear-gradient(145deg, #0a0a1a 0%, #0d0d1f 100%);
+            border: 1px solid rgba(0, 150, 255, 0.2);
+            border-radius: 20px;
+            padding: 28px;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(20px) scale(0.95);
+            transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 0 40px rgba(0, 100, 255, 0.08);
+        }
+
+        .result-panel.show {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        .result-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: block;
+            animation: bounceIn 0.6s ease;
+        }
+
+        .result-label {
+            font-size: 0.85rem;
+            color: #8899aa;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+
+        .result-time {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-shadow: 0 0 20px rgba(0, 200, 255, 0.8), 0 0 40px rgba(0, 150, 255, 0.5), 0 0 80px rgba(0, 100, 255, 0.3);
+            letter-spacing: 2px;
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+
+        .result-note {
+            font-size: 0.8rem;
+            color: #667788;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+
+        .ring-markers {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .ring-marker {
+            position: absolute;
+            width: 3px;
+            height: 8px;
+            background: rgba(0, 150, 255, 0.2);
+            border-radius: 2px;
+            left: 50%;
+            top: 8px;
+            transform-origin: center 132px;
+            margin-left: -1.5px;
+        }
+
+        @media (min-width: 480px) {
+            .ring-marker {
+                transform-origin: center 162px;
+            }
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                text-shadow: 0 0 20px rgba(0, 200, 255, 0.8), 0 0 40px rgba(0, 150, 255, 0.5), 0 0 80px rgba(0, 100, 255, 0.3);
+            }
+            50% {
+                text-shadow: 0 0 30px rgba(0, 220, 255, 1), 0 0 60px rgba(0, 170, 255, 0.7), 0 0 100px rgba(0, 120, 255, 0.5);
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .status-text {
+            font-size: 0.75rem;
+            color: #556677;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 5px;
+            min-height: 18px;
+        }
+
+        .status-text.spinning {
+            color: #00aaff;
+            text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+            animation: blink 0.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes blink {
+            from { opacity: 0.5; }
+            to { opacity: 1; }
+        }
+
+        .outer-glow {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 150, 255, 0.08);
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- Particle Background Canvas -->
-    <canvas id="particleCanvas"></canvas>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">
-                <span class="logo-icon">◈</span>
-                <span class="logo-text">TIME SCALE</span>
-            </a>
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#explore" class="nav-link">Explore Time</a></li>
-                <li><a href="#randomizer" class="nav-link">Randomizer</a></li>
-                <li><a href="#calendar" class="nav-link">Calendar</a></li>
-                <li><a href="#converter" class="nav-link">Converter</a></li>
-                <li><a href="#blog" class="nav-link">Blog</a></li>
-                <li><a href="#shop" class="nav-link">Shop</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-            </ul>
+    <div class="container">
+        <div>
+            <div class="title">Magic Trading Time Picker</div>
+            <div class="subtitle">Random Hour Selector</div>
         </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-badge">◈ UNIVERSAL TIME EXPLORATION</div>
-            <h1 class="hero-title">EXPLORE TIME</h1>
-            <p class="hero-subtitle">From milliseconds to millennia, discover, measure, convert, and randomly explore the scale of time.</p>
-            <div class="hero-buttons">
-                <a href="#explore" class="btn btn-primary">
-                    <span>EXPLORE TIME</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </a>
-                <a href="#randomizer" class="btn btn-secondary">
-                    <span>RANDOMIZE TIME</span>
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-9-9c2.52 0 4.93 1 6.74 2.74L21 12z"/></svg>
-                </a>
+        <div class="clock-panel">
+            <div class="am-pm-selector">
+                <button class="am-pm-btn active" id="btnAM" onclick="setPeriod('AM')">AM</button>
+                <button class="am-pm-btn" id="btnPM" onclick="setPeriod('PM')">PM</button>
             </div>
+
+            <div class="clock-wrapper" id="clockWrapper">
+                <div class="outer-glow"></div>
+                <div class="clock-face">
+                    <div class="ring-markers" id="ringMarkers"></div>
+                    <div id="numbersContainer"></div>
+                </div>
+                <div class="pointer" id="pointer"></div>
+            </div>
+
+            <div class="status-text" id="statusText">Ready to spin</div>
         </div>
-        <div class="hero-scroll-indicator">
-            <div class="scroll-line"></div>
+
+        <div class="controls">
+            <button class="btn btn-start" id="startBtn" onclick="startSpin()">Start</button>
+            <button class="btn btn-pause" id="pauseBtn" onclick="pauseSpin()" disabled>Pause</button>
+            <button class="btn btn-reset" id="resetBtn" onclick="resetAll()">Reset</button>
         </div>
-    </section>
 
-    <!-- Time Scale Section -->
-    <section id="explore" class="section time-scale-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">TIME HIERARCHY</span>
-                <h2 class="section-title">The Scale of Time</h2>
-                <p class="section-desc">Navigate through the vast spectrum of time, from the cosmic span of millennia to the fleeting instant of a millisecond.</p>
-            </div>
-            
-            <div class="time-scale-container">
-                <div class="time-scale-visual" id="timeScaleVisual">
-                    <!-- Generated by JS -->
-                </div>
-                <div class="time-scale-details" id="timeScaleDetails">
-                    <div class="detail-card glass">
-                        <div class="detail-icon" id="detailIcon">◈</div>
-                        <h3 class="detail-title" id="detailTitle">Select a Time Unit</h3>
-                        <div class="detail-value" id="detailValue">—</div>
-                        <p class="detail-desc" id="detailDesc">Click on any time unit above to explore its relationships and conversions.</p>
-                        <div classdetail-conversions" id="detailConversions"></div>
-                    </div>
-                </div>
-            </div>
+        <div class="result-panel" id="resultPanel">
+            <span class="result-icon">🎯</span>
+            <div class="result-label">Your Selected Time</div>
+            <div class="result-time" id="resultTime">--:--</div>
+            <div class="result-note">Trading Time Chosen Randomly</div>
         </div>
-    </section>
+    </div>
 
-    <!-- Live Time Section -->
-    <section class="section live-time-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">LIVE</span>
-                <h2 class="section-title">Current Moment</h2>
-            </div>
-            <div class="live-time-grid">
-                <div class="live-card glass large">
-                    <div class="live-label">Local Time</div>
-                    <div class="live-time" id="liveTime">00:00:00</div>
-                    <div class="live-date" id="liveDate">Loading...</div>
-                </div>
-                <div class="live-card glass">
-                    <div class="live-label">Day of Week</div>
-                    <div class="live-value" id="liveDay">—</div>
-                </div>
-                <div class="live-card glass">
-                    <div class="live-label">Week Number</div>
-                    <div class="live-value" id="liveWeek">—</div>
-                </div>
-                <div class="live-card glass">
-                    <div class="live-label">Month</div>
-                    <div class="live-value" id="liveMonth">—</div>
-                </div>
-                <div class="live-card glass">
-                    <div class="live-label">Year</div>
-                    <div class="live-value" id="liveYear">—</div>
-                </div>
-                <div class="live-card glass">
-                    <div class="live-label">Century</div>
-                    <div class="live-value" id="liveCentury">—</div>
-                </div>
-                <div class="live-card glass wide">
-                    <div class="live-label">Unix Timestamp</div>
-                    <div class="live-value mono" id="liveUnix">—</div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <script>
+        let currentPeriod = 'AM';
+        let isSpinning = false;
+        let spinInterval = null;
+        let currentHour = 12;
+        let selectedHour = null;
 
-    <!-- Randomizer Section -->
-    <section id="randomizer" class="section randomizer-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">RANDOM TIME PICKER</span>
-                <h2 class="section-title">Randomize Time</h2>
-                <p class="section-desc">Let chance decide. Cycle through time units, dates, and moments across the entire spectrum.</p>
-            </div>
+        const numbersContainer = document.getElementById('numbersContainer');
+        const pointer = document.getElementById('pointer');
+        const ringMarkers = document.getElementById('ringMarkers');
+        const startBtn = document.getElementById('startBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const resultPanel = document.getElementById('resultPanel');
+        const resultTime = document.getElementById('resultTime');
+        const statusText = document.getElementById('statusText');
+        const btnAM = document.getElementById('btnAM');
+        const btnPM = document.getElementById('btnPM');
 
-            <div class="randomizer-layout">
-                <div class="randomizer-modes">
-                    <button class="mode-btn active" data-mode="moment">Random Moment</button>
-                    <button class="mode-btn" data-mode="year">Random Year</button>
-                    <button class="mode-btn" data-mode="date">Random Date</button>
-                    <button class="mode-btn" data-mode="hour">Random Hour</button>
-                    <button class="mode-btn" data-mode="minute">Random Minute</button>
-                    <button class="mode-btn" data-mode="second">Random Second</button>
-                    <button class="mode-btn" data-mode="scale">Random Time Scale</button>
-                </div>
+        function initClock() {
+            // Create ring markers
+            for (let i = 0; i < 60; i++) {
+                const marker = document.createElement('div');
+                marker.className = 'ring-marker';
+                marker.style.transform = `rotate(${i * 6}deg)`;
+                if (i % 5 === 0) {
+                    marker.style.height = '12px';
+                    marker.style.background = 'rgba(0, 150, 255, 0.35)';
+                    marker.style.width = '4px';
+                    marker.style.marginLeft = '-2px';
+                }
+                ringMarkers.appendChild(marker);
+            }
 
-                <div class="randomizer-display glass" id="randomizerDisplay">
-                    <div class="randomizer-status" id="randomizerStatus">READY</div>
-                    <div class="randomizer-result" id="randomizerResult">
-                        <div class="result-placeholder">Press START to begin randomizing</div>
-                    </div>
-                    <div class="randomizer-controls">
-                        <button class="btn btn-primary btn-large" id="startRandomBtn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                            START
-                        </button>
-                        <button class="btn btn-secondary btn-large" id="pauseRandomBtn" disabled>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
-                            PAUSE
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            // Create numbers 1-12
+            for (let h = 1; h <= 12; h++) {
+                const numEl = document.createElement('div');
+                numEl.className = 'clock-number';
+                numEl.id = `num-${h}`;
+                numEl.textContent = h;
 
-    <!-- Calendar Section -->
-    <section id="calendar" class="section calendar-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">CALENDAR</span>
-                <h2 class="section-title">Time Calendar</h2>
-                <p class="section-desc">Navigate through months and years. Select any date to reveal its hidden temporal properties.</p>
-            </div>
+                const angle = (h * 30) - 90;
+                const radius = 105;
+                const rad = angle * Math.PI / 180;
+                const x = Math.cos(rad) * radius;
+                const y = Math.sin(rad) * radius;
 
-            <div class="calendar-layout">
-                <div class="calendar-main glass">
-                    <div class="calendar-header">
-                        <button class="cal-nav-btn" id="prevMonth">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-                        </button>
-                        <div class="calendar-title" id="calendarTitle">Month Year</div>
-                        <button class="cal-nav-btn" id="nextMonth">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-                        </button>
-                    </div>
-                    <div class="calendar-weekdays">
-                        <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
-                    </div>
-                    <div class="calendar-days" id="calendarDays"></div>
-                </div>
+                numEl.style.transform = `translate(${x}px, ${y}px)`;
+                numbersContainer.appendChild(numEl);
+            }
 
-                <div class="calendar-details glass" id="calendarDetails">
-                    <div class="cal-detail-placeholder">Select a date to view details</div>
-                </div>
-            </div>
-        </div>
-    </section>
+            // Set initial pointer to 12
+            updatePointer(12);
+            highlightNumber(12);
+        }
 
-    <!-- Converter Section -->
-    <section id="converter" class="section converter-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">CONVERTER</span>
-                <h2 class="section-title">Time Converter</h2>
-                <p class="section-desc">Convert seamlessly between any time units. Discover the hidden equivalences within each span of time.</p>
-            </div>
+        function updatePointer(hour) {
+            const angle = (hour * 30) - 90;
+            pointer.style.transform = `translate(-50%, -100%) rotate(${angle}deg)`;
+        }
 
-            <div class="converter-layout">
-                <div class="converter-input glass">
-                    <div class="input-group">
-                        <label>Enter Value</label>
-                        <input type="number" id="convValue" value="1" min="0" step="any">
-                    </div>
-                    <div class="input-group">
-                        <label>From Unit</label>
-                        <select id="convFrom">
-                            <option value="millennium">Millennium</option>
-                            <option value="century">Century</option>
-                            <option value="decade">Decade</option>
-                            <option value="year">Year</option>
-                            <option value="month">Month</option>
-                            <option value="week">Week</option>
-                            <option value="day">Day</option>
-                            <option value="hour">Hour</option>
-                            <option value="minute" selected>Minute</option>
-                            <option value="second">Second</option>
-                            <option value="millisecond">Millisecond</option>
-                        </select>
-                    </div>
-                    <div class="converter-swap" id="converterSwap">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 16V4M7 4L3 8M7 4l4 4M17 8v12m0-12l4 4m-4-4l-4 4"/></svg>
-                    </div>
-                    <div class="input-group">
-                        <label>To Unit</label>
-                        <select id="convTo">
-                            <option value="millennium">Millennium</option>
-                            <option value="century">Century</option>
-                            <option value="decade">Decade</option>
-                            <option value="year">Year</option>
-                            <option value="month">Month</option>
-                            <option value="week">Week</option>
-                            <option value="day">Day</option>
-                            <option value="hour" selected>Hour</option>
-                            <option value="minute">Minute</option>
-                            <option value="second">Second</option>
-                            <option value="millisecond">Millisecond</option>
-                        </select>
-                    </div>
-                </div>
+        function highlightNumber(hour) {
+            document.querySelectorAll('.clock-number').forEach(el => {
+                el.classList.remove('active', 'selected');
+            });
+            const activeNum = document.getElementById(`num-${hour}`);
+            if (activeNum) {
+                if (isSpinning) {
+                    activeNum.classList.add('active');
+                } else if (selectedHour !== null) {
+                    activeNum.classList.add('selected');
+                }
+            }
+        }
 
-                <div class="converter-results glass" id="converterResults">
-                    <!-- Generated by JS -->
-                </div>
-            </div>
-        </div>
-    </section>
+        function setPeriod(period) {
+            if (isSpinning) return;
+            currentPeriod = period;
+            if (period === 'AM') {
+                btnAM.classList.add('active');
+                btnPM.classList.remove('active');
+            } else {
+                btnPM.classList.add('active');
+                btnAM.classList.remove('active');
+            }
+        }
 
-    <!-- Blog Section -->
-    <section id="blog" class="section blog-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">BLOG</span>
-                <h2 class="section-title">TIME SCALE Blog</h2>
-                <p class="section-desc">A place for articles, ideas, discoveries, history, science, productivity, and interesting facts about time.</p>
-            </div>
-            <div class="blog-grid">
-                <article class="blog-card glass">
-                    <div class="blog-image">
-                        <div class="blog-img-placeholder">⏳</div>
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-category">History</span>
-                        <h3>The Invention of the Mechanical Clock</h3>
-                        <p>How medieval monks created the first mechanical clocks and forever changed humanity's relationship with time.</p>
-                        <span class="blog-date">Coming Soon</span>
-                    </div>
-                </article>
-                <article class="blog-card glass">
-                    <div class="blog-image">
-                        <div class="blog-img-placeholder">🌌</div>
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-category">Astronomy</span>
-                        <h3>Cosmic Time: The Age of the Universe</h3>
-                        <p>Exploring the 13.8 billion year timeline from the Big Bang to the present moment.</p>
-                        <span class="blog-date">Coming Soon</span>
-                    </div>
-                </article>
-                <article class="blog-card glass">
-                    <div class="blog-image">
-                        <div class="blog-img-placeholder">🧠</div>
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-category">Science</span>
-                        <h3>Why Time Feels Faster as You Age</h3>
-                        <p>The psychological and neurological explanations behind our changing perception of time.</p>
-                        <span class="blog-date">Coming Soon</span>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
+        function getRandomHour() {
+            return Math.floor(Math.random() * 12) + 1;
+        }
 
-    <!-- Shop Section -->
-    <section id="shop" class="section shop-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">SHOP</span>
-                <h2 class="section-title">TIME SCALE Shop</h2>
-                <p class="section-desc">A future place for products related to the TIME SCALE brand. Premium time-inspired goods.</p>
-            </div>
-            <div class="shop-grid">
-                <div class="shop-card glass">
-                    <div class="shop-image">
-                        <div class="shop-img-placeholder">⌚</div>
-                    </div>
-                    <div class="shop-content">
-                        <h3>Chronos Watch</h3>
-                        <p class="shop-desc">Premium minimalist timepiece with TIME SCALE branding.</p>
-                        <span class="shop-price">$299.00</span>
-                        <button class="btn btn-secondary btn-small">Coming Soon</button>
-                    </div>
-                </div>
-                <div class="shop-card glass">
-                    <div class="shop-image">
-                        <div class="shop-img-placeholder">📓</div>
-                    </div>
-                    <div class="shop-content">
-                        <h3>Temporal Journal</h3>
-                        <p class="shop-desc">A year-long guided journal for tracking your perception of time.</p>
-                        <span class="shop-price">$45.00</span>
-                        <button class="btn btn-secondary btn-small">Coming Soon</button>
-                    </div>
-                </div>
-                <div class="shop-card glass">
-                    <div class="shop-image">
-                        <div class="shop-img-placeholder">🎨</div>
-                    </div>
-                    <div class="shop-content">
-                        <h3>Time Scale Poster</h3>
-                        <p class="shop-desc">Limited edition art print of the complete time hierarchy.</p>
-                        <span class="shop-price">$89.00</span>
-                        <button class="btn btn-secondary btn-small">Coming Soon</button>
-                    </div>
-                </div>
-                <div class="shop-card glass">
-                    <div class="shop-image">
-                        <div class="shop-img-placeholder">☕</div>
-                    </div>
-                    <div class="shop-content">
-                        <h3>Quantum Mug</h3>
-                        <p class="shop-desc">Ceramic mug with heat-reactive time scale visualization.</p>
-                        <span class="shop-price">$32.00</span>
-                        <button class="btn btn-secondary btn-small">Coming Soon</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        function startSpin() {
+            if (isSpinning) return;
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <div class="about-content glass">
-                <div class="section-header">
-                    <span class="section-tag">ABOUT</span>
-                    <h2 class="section-title">About TIME SCALE</h2>
-                </div>
-                <div class="about-text">
-                    <p>TIME SCALE is a universal interactive exploration of time. We believe that understanding time — from the cosmic sweep of millennia to the quantum flicker of a millisecond — deepens our appreciation of existence itself.</p>
-                    <p>This project was born from a fascination with how humans measure, perceive, and interact with the fourth dimension. Whether you're a scientist, philosopher, artist, or simply curious, TIME SCALE offers a new way to visualize and explore the scale of time.</p>
-                    <p>No financial data. No trading algorithms. Just pure time, beautifully presented.</p>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-value">11</div>
-                        <div class="stat-label">Time Units</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-value">∞</div>
-                        <div class="stat-label">Possibilities</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-value">1</div>
-                        <div class="stat-label">Universe</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            isSpinning = true;
+            selectedHour = null;
+            resultPanel.classList.remove('show');
+            pointer.classList.add('spinning');
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <span class="logo-icon">◈</span>
-                    <span class="logo-text">TIME SCALE</span>
-                    <p>Exploring the universe of time.</p>
-                </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#explore">Explore</a>
-                    <a href="#randomizer">Randomizer</a>
-                    <a href="#calendar">Calendar</a>
-                    <a href="#converter">Converter</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#shop">Shop</a>
-                    <a href="#about">About</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p> TIME SCALE. All rights reserved. Built for the curious.</p>
-            </div>
-        </div>
-    </footer>
+            startBtn.disabled = true;
+            pauseBtn.disabled = false;
+            btnAM.disabled = true;
+            btnPM.disabled = true;
+            btnAM.style.opacity = '0.5';
+            btnPM.style.opacity = '0.5';
+            statusText.textContent = 'Selecting random hour...';
+            statusText.classList.add('spinning');
 
-    <script src="script.js"></script>
+            // Clear any selected state
+            document.querySelectorAll('.clock-number').forEach(el => {
+                el.classList.remove('selected');
+            });
+
+            let speed = 80;
+            let lastHour = currentHour;
+
+            spinInterval = setInterval(() => {
+                let newHour;
+                do {
+                    newHour = getRandomHour();
+                } while (newHour === lastHour);
+
+                lastHour = newHour;
+                currentHour = newHour;
+                updatePointer(currentHour);
+                highlightNumber(currentHour);
+            }, speed);
+        }
+
+        function pauseSpin() {
+            if (!isSpinning) return;
+
+            clearInterval(spinInterval);
+            isSpinning = false;
+            pointer.classList.remove('spinning');
+
+            selectedHour = currentHour;
+
+            startBtn.disabled = false;
+            pauseBtn.disabled = true;
+            btnAM.disabled = false;
+            btnPM.disabled = false;
+            btnAM.style.opacity = '1';
+            btnPM.style.opacity = '1';
+            statusText.textContent = 'Time selected!';
+            statusText.classList.remove('spinning');
+
+            highlightNumber(selectedHour);
+
+            // Display result
+            const displayHour = selectedHour;
+            const timeString = `${displayHour}:00 ${currentPeriod}`;
+            resultTime.textContent = timeString;
+            resultPanel.classList.add('show');
+        }
+
+        function resetAll() {
+            clearInterval(spinInterval);
+            isSpinning = false;
+            pointer.classList.remove('spinning');
+
+            selectedHour = null;
+            currentHour = 12;
+
+            startBtn.disabled = false;
+            pauseBtn.disabled = true;
+            btnAM.disabled = false;
+            btnPM.disabled = false;
+            btnAM.style.opacity = '1';
+            btnPM.style.opacity = '1';
+
+            statusText.textContent = 'Ready to spin';
+            statusText.classList.remove('spinning');
+
+            resultPanel.classList.remove('show');
+
+            updatePointer(12);
+            document.querySelectorAll('.clock-number').forEach(el => {
+                el.classList.remove('active', 'selected');
+            });
+        }
+
+        // Initialize on load
+        initClock();
+    </script>
 </body>
 </html>
