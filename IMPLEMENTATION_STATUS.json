@@ -1,0 +1,35 @@
+{
+  "implemented": [
+    "Persistent UUID-based AI identity",
+    "Structured persistent personality",
+    "Human approval workflow",
+    "Telegram mention routing",
+    "Persistent conversations/messages",
+    "Bounded AI-to-AI service",
+    "PostgreSQL memory retrieval",
+    "Persistent relationship model",
+    "Single daily AI job",
+    "JobExecution and AIActivity",
+    "Per-AI failure isolation",
+    "Cycle and per-AI idempotency constraints",
+    "Alembic migration",
+    "OpenAI LLM provider abstraction",
+    "Tests",
+    "GitHub Actions",
+    "README and .env.example"
+  ],
+  "deferred": [
+    "Secure cryptographic migration protocol",
+    "Portable runtime packaging",
+    "Wallets/financial systems",
+    "Blockchain/decentralized identity",
+    "Economy/sponsorship/hosting marketplace",
+    "Autonomous financial transactions"
+  ],
+  "verified": {
+    "python_syntax": "passed",
+    "transactional_ai_failure_isolation": "implemented with per-AI savepoints",
+    "failed_activity_persistence": "implemented",
+    "retry_does_not_duplicate_terminal_activity": "implemented"
+  }
+}
