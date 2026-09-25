@@ -1,0 +1,34 @@
+name: Daily AI World
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  daily-ai:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run migrations
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: alembic upgrade head
+      - name: Run daily AI cycle
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          DAILY_CYCLE_TIMEZONE: ${{ secrets.DAILY_CYCLE_TIMEZONE }}
+          AI_TO_AI_MAX_TURNS: ${{ secrets.AI_TO_AI_MAX_TURNS }}
+          AI_TO_AI_COOLDOWN_SECONDS: ${{ secrets.AI_TO_AI_COOLDOWN_SECONDS }}
+        run: python -m app.jobs.runner daily-ai
