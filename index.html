@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff"><meta name="description" content="DailyPulse — latest news, stories and updates.">
+<title>DailyPulse — Latest News</title>
+<style>
+:root{--blue:#087cf0;--blue-dark:#075ed1;--ink:#10284e;--muted:#667c99;--line:#dceafa;--pale:#eaf4ff;--card:#fff;--bg:#f8fbff;--shadow:0 8px 28px rgba(24,83,143,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit}header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.header-inner{max-width:1240px;margin:auto;padding:14px 26px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-size:1.7rem;font-weight:850;letter-spacing:-.06em;white-space:nowrap}.brand-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(135deg,#0796ff,#1455ed);box-shadow:0 4px 10px #087cf033}.brand-icon svg{width:31px;height:31px}.brand-name{color:var(--ink)}.brand-name span{color:var(--blue)}.nav{display:flex;align-items:center;gap:30px}.nav a{font-size:.94rem;font-weight:650;text-decoration:none;color:#203858;padding:8px 0;border-bottom:2px solid transparent}.nav a.active,.nav a:hover{color:var(--blue);border-color:var(--blue)}.header-actions{display:flex;align-items:center;gap:10px}button{font:inherit;cursor:pointer}.refresh{border:1px solid #cfe3fb;background:white;color:var(--blue-dark);font-weight:700;padding:9px 15px;border-radius:10px}.refresh:hover{background:var(--pale)}.menu-toggle{display:none;border:0;background:transparent;color:var(--ink);font-size:1.7rem;padding:3px 8px}
+main{max-width:1240px;margin:0 auto;padding:24px 26px 48px}.hero{position:relative;overflow:hidden;isolation:isolate;min-height:225px;padding:34px 40px;border-radius:18px;border:1px solid #d6e9ff;background:linear-gradient(105deg,#edf6ff 0%,#d9ebff 57%,#9bcaff 100%);display:flex;align-items:center;margin-bottom:28px}.hero:before,.hero:after{content:"";position:absolute;z-index:-1;bottom:-2px;right:-2%;width:60%;height:72%;background:linear-gradient(135deg,#ffffff00,#4b98e64d);clip-path:polygon(0 100%,18% 60%,27% 75%,48% 20%,57% 42%,72% 0,100% 100%)}.hero:after{right:0;width:45%;height:54%;opacity:.65;clip-path:polygon(0 100%,24% 45%,36% 65%,60% 12%,73% 39%,100% 0,100% 100%)}.hero-copy{max-width:720px}.eyebrow{display:inline-flex;padding:5px 14px;border-radius:999px;background:#c6e2ff;color:#076bd8;font-weight:750;font-size:.82rem;margin-bottom:12px}.hero h1{font-size:clamp(2rem,4vw,3.1rem);line-height:1.12;letter-spacing:-.045em;margin:0 0 12px;font-weight:850}.hero p{max-width:650px;margin:0;color:#456b99;font-size:1.08rem}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:0 0 14px}.section-heading h2{font-size:clamp(1.55rem,3vw,2rem);line-height:1.2;letter-spacing:-.035em;margin:0}.section-heading p{color:var(--muted);font-size:.88rem;margin:0}.categories{display:flex;gap:9px;overflow-x:auto;padding:4px 1px 16px;scrollbar-width:thin}.category{flex:0 0 auto;border:1px solid #d5e7fb;background:#fff;color:#486482;border-radius:999px;padding:8px 15px;font-weight:650;font-size:.88rem;white-space:nowrap}.category[aria-pressed="true"]{background:var(--blue);color:white;border-color:var(--blue);box-shadow:0 4px 10px #087cf02b}.category:hover{border-color:var(--blue);color:var(--blue)}.category[aria-pressed="true"]:hover{color:white}#status{min-height:24px;color:var(--muted);font-size:.86rem;margin:0 0 12px}#news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.story{min-width:0;display:grid;grid-template-columns:minmax(150px,38%) minmax(0,1fr);align-items:stretch;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 2px 7px #173b6205;transition:transform .18s ease,box-shadow .18s ease}.story:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.story .photo{display:block;width:100%;height:100%;min-height:205px;object-fit:cover;background:#e6f0fb}.story .text{padding:20px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}.story h2{font-size:1.08rem;line-height:1.35;letter-spacing:-.02em;margin:0 0 10px}.story h2 a{text-decoration:none}.story h2 a:hover{color:var(--blue)}.meta{color:var(--muted);font-size:.78rem;line-height:1.5}.description{margin:12px 0 0;color:#58708f;font-size:.9rem;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.read-more{display:inline-flex;align-items:center;gap:8px;margin-top:auto;padding-top:14px;text-decoration:none;color:var(--blue-dark);font-weight:750;font-size:.9rem}.read-more:hover{gap:12px}.story:not(:has(.photo)){grid-template-columns:1fr}.error{grid-column:1/-1;background:white;border:1px solid var(--line);border-radius:14px;padding:18px;color:var(--muted);overflow-wrap:anywhere}footer{border-top:1px solid var(--line);background:#fff;color:var(--muted);font-size:.84rem;padding:24px;text-align:center}footer strong{color:var(--ink)}
+@media(min-width:1000px){#news{grid-template-columns:1fr 1fr}.story{min-height:220px}}
+@media(max-width:760px){.header-inner{padding:11px 16px;gap:10px}.brand{font-size:1.35rem;gap:8px}.brand-icon{width:36px;height:36px}.brand-icon svg{width:27px;height:27px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:12px 18px 18px;border-bottom:1px solid var(--line);box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:2px}.nav.open{display:flex}.nav a{padding:10px 8px;border-bottom:0;border-radius:8px}.nav a.active,.nav a:hover{background:var(--pale)}.refresh{padding:8px 11px;font-size:.84rem}main{padding:16px 14px 32px}.hero{min-height:190px;padding:23px 20px;border-radius:15px;margin-bottom:23px}.hero h1{font-size:2rem}.hero p{font-size:.94rem;max-width:92%}.hero:before{width:75%;height:55%;opacity:.8}.section-heading{margin-bottom:12px}#news{grid-template-columns:1fr;gap:12px}.story{display:flex;flex-direction:column;border-radius:14px}.story .photo{width:100%;height:auto;aspect-ratio:16/9;min-height:0}.story .text{padding:15px 16px 17px}.story h2{font-size:1.04rem;margin-bottom:8px}.description{font-size:.9rem;-webkit-line-clamp:3;margin-top:9px}.read-more{padding-top:11px}.categories{gap:7px;padding-bottom:12px}.category{padding:7px 12px;font-size:.83rem}#status{font-size:.82rem}.story:not(:has(.photo)){display:block}}
+@media(max-width:380px){.brand{font-size:1.2rem}.brand-icon{width:32px;height:32px}.refresh{font-size:.78rem;padding:7px 8px}.hero h1{font-size:1.75rem}.hero{padding:20px 16px}}
+</style></head>
+<body>
+<header><div class="header-inner">
+<a class="brand" href="#top" aria-label="DailyPulse home"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M3 25h9l5-11 8 22 7-18 4 7h9" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="brand-name">Daily<span>Pulse</span></span></a>
+<nav class="nav" id="main-nav" aria-label="Main navigation"><a class="active" href="#top">Home</a><a href="#latest">Latest News</a><a href="#categories">Categories</a><a href="#about">About</a></nav>
+<div class="header-actions"><button id="refresh" class="refresh" type="button">↻ Refresh</button><button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+</div></header>
+<main id="top">
+<section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><span class="eyebrow">Your daily briefing</span><h1 id="hero-title">Stay informed.<br class="mobile-break"> Stay ahead.</h1><p>The stories shaping Nigeria and the world — from breaking news and technology to sports, science and culture.</p></div></section>
+<section id="latest" aria-labelledby="latest-title"><div class="section-heading"><h2 id="latest-title">Latest News</h2><p>Fresh stories, updated throughout the day</p></div>
+<nav class="categories" id="categories" aria-label="News categories">
+<button class="category" data-category="top" aria-pressed="true">Top stories</button><button class="category" data-category="nigeria" aria-pressed="false">Nigeria</button><button class="category" data-category="world" aria-pressed="false">World</button><button class="category" data-category="entertainment" aria-pressed="false">Entertainment</button><button class="category" data-category="sports" aria-pressed="false">Sports</button><button class="category" data-category="technology" aria-pressed="false">Technology</button><button class="category" data-category="science" aria-pressed="false">Science</button>
+</nav><div id="status" role="status" aria-live="polite">Loading news…</div><section id="news" aria-label="News headlines"></section></section>
+</main><footer id="about"><strong>DailyPulse</strong> · News that keeps you in the know. <br>Headlines and photos link to their original publishers.</footer>
+  <script>
+    /*
+      Feeds are downloaded every ~15 minutes by a GitHub Action
+      (.github/workflows/news.yml) and saved in the /feeds folder,
+      so the page reads them from the same site (no CORS problem).
+    */
+    const newsEl = document.getElementById("news");
+    const statusEl = document.getElementById("status");
+    const refreshBtn = document.getElementById("refresh");
+    const categoryButtons = [...document.querySelectorAll("[data-category]")];
+    let selectedCategory = "top";
+    let loading = false;
+
+    function textOf(node, selector) {
+      return node.querySelector(selector)?.textContent?.trim() || "";
+    }
+
+    function safeHttpUrl(value) {
+      try {
+        const url = new URL(value);
+        return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
+    }
+
+    function findImage(item) {
+      for (const name of ["content", "thumbnail"]) {
+        for (const el of Array.from(item.getElementsByTagNameNS("*", name))) {
+          const url = safeHttpUrl(el.getAttribute("url") || "");
+          if (url) return url;
+        }
+      }
+      for (const el of Array.from(item.getElementsByTagName("enclosure"))) {
+        const url = safeHttpUrl(el.getAttribute("url") || "");
+        if (url && (el.getAttribute("type") || "image").startsWith("image")) return url;
+      }
+      for (const el of Array.from(item.getElementsByTagName("*"))) {
+        if (["encoded", "description"].includes(el.localName)) {
+          const m = (el.textContent || "").match(/<img[^>]+src=["']([^"']+)["']/i);
+          if (m) {
+            const url = safeHttpUrl(m[1].replace(/&amp;/g, "&"));
+            if (url) return url;
+          }
+        }
+      }
+      return "";
+    }
+
+    function makeStory(item) {
+      const title = textOf(item, "title") || "Untitled story";
+      const link = safeHttpUrl(textOf(item, "link"));
+      if (!link) return null;
+
+      const sourceNode = Array.from(item.children || []).find(el => el.localName === "source");
+      const source = sourceNode?.textContent?.trim() || new URL(link).hostname.replace(/^www\./, "");
+      const dateText = textOf(item, "pubDate");
+      const date = dateText ? new Date(dateText) : null;
+      const formattedDate = date && !Number.isNaN(date.getTime())
+        ? date.toLocaleString()
+        : "";
+
+      const article = document.createElement("article");
+      article.className = "story";
+
+      const imageUrl = findImage(item);
+      // Also filter older/already-generated XML feeds in the browser.
+      if (!imageUrl) return null;
+      {
+        const img = document.createElement("img");
+        img.className = "photo";
+        img.src = imageUrl;
+        img.alt = "";
+        img.loading = "lazy";
+        img.referrerPolicy = "no-referrer";
+        img.onerror = () => article.remove();
+        article.appendChild(img);
+      }
+
+      const text = document.createElement("div");
+      text.className = "text";
+
+      const heading = document.createElement("h2");
+      const anchor = document.createElement("a");
+      anchor.href = link;
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.textContent = title;
+      heading.appendChild(anchor);
+
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      meta.textContent = source + (formattedDate ? " · " + formattedDate : "");
+
+      const descriptionText = textOf(item, "description");
+      if (descriptionText) {
+        const description = document.createElement("p");
+        description.className = "description";
+        description.textContent = descriptionText.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+        text.appendChild(heading);
+        text.appendChild(meta);
+        text.appendChild(description);
+      } else {
+        text.append(heading, meta);
+      }
+      const readMore = document.createElement("a");
+      readMore.className = "read-more";
+      readMore.href = link;
+      readMore.target = "_blank";
+      readMore.rel = "noopener noreferrer";
+      readMore.textContent = "Read full story →";
+      text.appendChild(readMore);
+      article.appendChild(text);
+      return article;
+    }
+
+    async function loadNews() {
+      if (loading) return;
+      loading = true;
+      refreshBtn.disabled = true;
+      statusEl.textContent = "Loading news…";
+
+      try {
+        const response = await fetch("feeds/" + selectedCategory + ".xml?t=" + Date.now(), { cache: "no-store" });
+
+        if (!response.ok) throw new Error("Feed file returned HTTP " + response.status);
+
+        const xmlText = await response.text();
+        if (!xmlText.trim()) throw new Error("The feed file is empty. Run the GitHub Actions news workflow again.");
+        const xml = new DOMParser().parseFromString(xmlText, "application/xml");
+
+        if (xml.querySelector("parsererror")) {
+          throw new Error("The response was not valid RSS XML.");
+        }
+
+        const items = Array.from(xml.querySelectorAll("item"));
+        if (!items.length) throw new Error("No stories were found in the feed.");
+
+        const fragment = document.createDocumentFragment();
+        let count = 0;
+        items.slice(0, 25).forEach(item => {
+          const story = makeStory(item);
+          if (story) {
+            fragment.appendChild(story);
+            count++;
+          }
+        });
+
+        if (!count) throw new Error("No valid story links were found.");
+
+        newsEl.replaceChildren(fragment);
+        statusEl.textContent = `${count} headlines · Updated ${new Date().toLocaleTimeString()}`;
+      } catch (error) {
+        console.error("RSS loading failed:", error);
+        statusEl.textContent = "News could not be loaded. (v4)";
+        const message = document.createElement("div");
+        message.className = "error";
+        message.textContent =
+          "v4 error: " + error.message + " | Tried: " + new URL("feeds/" + selectedCategory + ".xml", location.href).href;
+        newsEl.replaceChildren(message);
+      } finally {
+        loading = false;
+        refreshBtn.disabled = false;
+      }
+    }
+
+    categoryButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        selectedCategory = button.dataset.category;
+        categoryButtons.forEach(item =>
+          item.setAttribute("aria-pressed", String(item === button))
+        );
+        loadNews();
+      });
+    });
+
+    refreshBtn.addEventListener("click", loadNews);
+    loadNews();
+    setInterval(loadNews, 5 * 60 * 1000);
+  </script>
+<script>
+const menuToggle=document.getElementById('menu-toggle');const mainNav=document.getElementById('main-nav');
+menuToggle.addEventListener('click',()=>{const open=mainNav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');menuToggle.textContent=open?'×':'☰'});
+mainNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mainNav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='☰'}));
+</script></body></html>

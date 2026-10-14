@@ -1,0 +1,310 @@
+{
+  "sources": [
+    {
+      "name": "Vanguard Nigeria",
+      "url": "https://www.vanguardngr.com/feed/",
+      "category": "nigeria",
+      "enabled": true
+    },
+    {
+      "name": "Channels Television",
+      "url": "https://www.channelstv.com/feed/",
+      "category": "nigeria",
+      "enabled": true
+    },
+    {
+      "name": "Premium Times Nigeria",
+      "url": "https://www.premiumtimesng.com/feed",
+      "category": "nigeria",
+      "enabled": true
+    },
+    {
+      "name": "Daily Trust",
+      "url": "https://dailytrust.com/feed/",
+      "category": "nigeria",
+      "enabled": true
+    },
+    {
+      "name": "BusinessDay Nigeria",
+      "url": "https://businessday.ng/feed/",
+      "category": "nigeria",
+      "enabled": true
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "France 24",
+      "url": "https://www.france24.com/en/rss",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "NPR News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "CNBC Top News",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Football",
+      "url": "https://www.skysports.com/rss/12040",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "NASA Breaking News",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "Nature News",
+      "url": "https://www.nature.com/nature.rss",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "BellaNaija",
+      "url": "https://www.bellanaija.com/feed/",
+      "category": "entertainment",
+      "enabled": true
+    },
+    {
+      "name": "Sky News Home",
+      "url": "https://feeds.skynews.com/feeds/rss/home.xml",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "Sky News World",
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "Associated Press Top News",
+      "url": "https://apnews.com/hub/ap-top-news?output=rss",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "ABC News Top Stories",
+      "url": "https://abcnews.go.com/abcnews/topstories",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "CBS News Latest",
+      "url": "https://www.cbsnews.com/latest/rss/main",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "CNN World",
+      "url": "http://rss.cnn.com/rss/edition_world.rss",
+      "category": "world",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Premier League",
+      "url": "https://www.skysports.com/rss/11661",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Formula 1",
+      "url": "https://www.skysports.com/rss/12433",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Cricket",
+      "url": "https://www.skysports.com/rss/12123",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Tennis",
+      "url": "https://www.skysports.com/rss/12110",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Sky Sports Boxing",
+      "url": "https://www.skysports.com/rss/12183",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Sky News Sports",
+      "url": "https://feeds.skynews.com/feeds/rss/sports.xml",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "The Athletic Sports",
+      "url": "https://theathletic.com/rss-feed/",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Formula 1 Official News",
+      "url": "https://www.formula1.com/en/latest/all.xml",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/rss/",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "Science.org News",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/feed/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "Phys.org Science News",
+      "url": "https://phys.org/rss-feed/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/feed/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "NASA Image of the Day",
+      "url": "https://www.nasa.gov/feeds/iotd-feed/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "ESA Space News",
+      "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "Space.com",
+      "url": "https://www.space.com/feeds/all",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "Scientific American",
+      "url": "https://www.scientificamerican.com/platform/syndication/rss/",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "New York Times Science",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+      "category": "science",
+      "enabled": true
+    },
+    {
+      "name": "The Guardian Technology",
+      "url": "https://www.theguardian.com/uk/technology/rss",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Engadget",
+      "url": "https://www.engadget.com/rss.xml",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "ZDNET",
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "The Register",
+      "url": "https://www.theregister.com/headlines.atom",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "CNBC Business",
+      "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/latest.rss",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Variety",
+      "url": "https://variety.com/feed/",
+      "category": "entertainment",
+      "enabled": true
+    },
+    {
+      "name": "The Hollywood Reporter",
+      "url": "https://www.hollywoodreporter.com/feed/",
+      "category": "entertainment",
+      "enabled": true
+    },
+    {
+      "name": "Polygon",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "category": "gaming",
+      "enabled": true
+    }
+  ]
+}
