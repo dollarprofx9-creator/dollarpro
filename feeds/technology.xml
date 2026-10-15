@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>McKinsey is making job applicants spar with a fake AI client</title>
+<link>https://www.theverge.com/news/1011654/mckinsey-ai-client-interview</link>
+<guid isPermaLink="false">e10522981d38e793152787797cd4fb6749a807f08d0b72e0c28761faa63e8ecb</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 22:53:31 +0000</pubDate>
+<description>Consulting firm McKinsey &amp; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation "aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work," the […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>The best feature of Apple’s HomeView might be its simplicity</title>
+<link>https://www.theverge.com/tech/1011431/apple-homeview-smart-display-best-feature</link>
+<guid isPermaLink="false">162541f59fe12beba958e8319d2df617d86b67481cacccb3943e7fee89747fc2</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 22:00:02 +0000</pubDate>
+<description>I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use. Is Apple's first smart display my dream smart home dashboard? No. But is it the right product for Apple Home at […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/LR6B6079.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/LR6B6079.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
 <title>Eight states accuse OpenAI of coaching children to harm themselves in lawsuit</title>
 <link>https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit</link>
 <guid isPermaLink="false">bf0f4509cf75a915e54c6ec41aced0d20ebaf710b37c40d069cf62ec33bc5fa7</guid>
@@ -13,6 +35,28 @@
 <description>US states sue ChatGPT maker and seek to force the company to change how its products work for young users Eight US states sued OpenAI Wednesday, alleging the ChatGPT maker is harming children en masse. Kansas, Arizona, Montana, Iowa and four others allege the company’s products carried out “willful, dangerous, reckless and unlawful conduct” by coaxing children into harming themselves. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7d3eaa4c326873e72c11da40614d5650" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7d3eaa4c326873e72c11da40614d5650" medium="image"/>
+</item>
+<item>
+<title>Cisco make-me-root email bug exploited as a 0-day by unknown crims</title>
+<link>https://www.theregister.com/security/2026/10/14/cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-crims/5303168</link>
+<guid isPermaLink="false">af2466d5df82a4b7dda14445a0e89a5cde86128d31c9b5e405590803af521696</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 21:40:29 +0000</pubDate>
+<description>Both Switchzilla and CISA sound the alarm</description>
+<enclosure url="https://image.theregister.com/?imageId=4094206&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=4094206&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Fridge hack costing millions and sparking fires stemmed from poor security</title>
+<link>https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security</link>
+<guid isPermaLink="false">4e9e0f30a6ed5468c045025cd269d7424106bb3274e367505038466753e572bd</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 21:35:09 +0000</pubDate>
+<description>Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-1024x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-1024x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Iowa, Nebraska and six other states are suing OpenAI for endangering children</title>
@@ -26,6 +70,17 @@
 <media:content url="https://www.engadget.com/img/gallery/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/l-intro-1792012940.jpg" medium="image"/>
 </item>
 <item>
+<title>Epic says its new vibe-coded Epic Games Launcher is faster than Steam</title>
+<link>https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app</link>
+<guid isPermaLink="false">7581d8c596d581b57a659008bf4987e9e59085f6d61a72871fc816b7597fcc7b</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 21:15:56 +0000</pubDate>
+<description>But the new "Preview" app "will have some bugs," Epic warns.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-1152x648.png" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-1152x648.png" medium="image"/>
+</item>
+<item>
 <title>Eight states sue OpenAI, saying ChatGPT isn&amp;#8217;t safe for kids</title>
 <link>https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety</link>
 <guid isPermaLink="false">9194e801adbca278e9a4cefb7f24dfcf69046491264aaa4ed64bdd8938062634</guid>
@@ -37,6 +92,17 @@
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25462005/STK155_OPEN_AI_CVirginia_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
+<title>NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping</title>
+<link>https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping</link>
+<guid isPermaLink="false">56ade80e4b8673b8a9408756b7ff3f368b6ef8fec4f1d74cb252dfef1a76460e</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 21:03:11 +0000</pubDate>
+<description>Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Black-Sea-sailors-rescued-by-Bulgaria-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Black-Sea-sailors-rescued-by-Bulgaria-1152x648.jpg" medium="image"/>
+</item>
+<item>
 <title>Trump Aides Admit the House Is a Lost Cause</title>
 <link>https://www.wired.com/story/trump-aides-admit-the-house-is-a-lost-cause</link>
 <guid isPermaLink="false">ac84f3a49707d06ed1efd7387f35fc30ef5a1e1cae1cc3ac226b603946bbc888</guid>
@@ -46,6 +112,17 @@
 <description>With the midterm elections just a few weeks away, the White House knows it has to go all in on Senate races—while virtually forfeiting the House.</description>
 <enclosure url="https://media.wired.com/photos/6ace7cf375ef8eec0d5b4a47/master/pass/politics_white_house_midterms_trump.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ace7cf375ef8eec0d5b4a47/master/pass/politics_white_house_midterms_trump.jpg" medium="image"/>
+</item>
+<item>
+<title>Chaos ensues when AI interviewer meets AI interviewee</title>
+<link>https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144</link>
+<guid isPermaLink="false">c9bf18a8b7e4575cdcef505d7bbed9bd2c8ab0d56cfdb7cb495c376cb9a5f291</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 20:53:37 +0000</pubDate>
+<description>Things got weird, but there's a lesson to be learned: Don't trust a bot to negotiate for you</description>
+<enclosure url="https://image.theregister.com/?imageId=5303153&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5303153&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Things are finally looking up for NASA's first missions to Venus in a generation</title>
@@ -209,8 +286,8 @@
 <category>technology</category>
 <pubDate>Wed, 14 Oct 2026 19:06:03 +0000</pubDate>
 <description>Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK255_Google_Gemini_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK255_Google_Gemini_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2296206566.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2296206566.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story</title>
@@ -312,17 +389,6 @@
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-HomeView-welcome-home-roundup.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
-<title>Sprout Pi adds Bluetooth, streaming, and USB-C to your aging iPod</title>
-<link>https://www.theverge.com/gadgets/1011266/sprout-pi-adds-bluetooth-streaming-and-usb-c-to-your-aging-ipod</link>
-<guid isPermaLink="false">d5ad1f3536af54db3532deea5e44826eed7f708917a65f4c6ae1213dc8f4a317</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 17:19:11 +0000</pubDate>
-<description>There's an entire cottage industry of iPod mods out there, but Sprout Pi and Sprout Pico are two of the few full motherboard replacements that combine many of the most popular mods into a single upgrade. Both versions add Bluetooth, Wi-Fi, USB-C, a microSD card slot, FLAC playback, and more. And while cracking open an […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/0f3990d2-e51e-4687-9d87-785c5c71246c_gallery-lg.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/0f3990d2-e51e-4687-9d87-785c5c71246c_gallery-lg.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Xbox has a teeny new gamepad</title>
 <link>https://www.engadget.com/2286791/xbox-has-a-teeny-new-gamepad</link>
 <guid isPermaLink="false">6332e53038826bcaaadabca116b9b5c6f48103eeb7cfb42782a91f31469ee474</guid>
@@ -343,17 +409,6 @@
 <description>Vendor promises fix for separate privilege-escalation flaw in the coming weeks</description>
 <enclosure url="https://image.theregister.com/?imageId=232983&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=232983&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Anbernic’s next dual-screen handheld could replace your aging Nintendo 3DS</title>
-<link>https://www.theverge.com/tech/1011200/anbernic-rg-dds-dual-screen-handheld-emulator-nintendo-3ds</link>
-<guid isPermaLink="false">254114c8f099046d941843906a2cc4fd03944997b31f0993fcb23586b0e95432</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 17:13:27 +0000</pubDate>
-<description>Anbernic shared a new video of its upcoming dual-screen handheld it announced last week showing the device playing 3DS, Xbox, and PS3 games through emulation. While competitors like Ayaneo have been making dual-screen handhelds for a few years, Anbernic only recently introduced its own dual-screen devices including the RG DS and RG DS Plus. Those […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/dds1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/dds1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>Researchers use AI to design proteins that cut up other proteins</title>
@@ -1060,17 +1115,6 @@
 <media:content url="https://media.wired.com/photos/66ea077283cd4f2fbb17d478/master/pass/WIRED-Coupons-2.jpg" medium="image"/>
 </item>
 <item>
-<title>Castlery Promo Codes: 15% Off for October 2026</title>
-<link>https://www.wired.com/story/castlery-promo-code</link>
-<guid isPermaLink="false">f4d2aeef20f25418e792a8534cd4ae1f4f149c12625d6eb0772585156d7618ac</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-<description>Refresh your living space for less with these verified Castlery coupons, including free shipping offers and furniture set discounts.</description>
-<enclosure url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" medium="image"/>
-</item>
-<item>
 <title>Dyson Promo Codes: 25% Off in October 2026</title>
 <link>https://www.wired.com/story/dyson-cordless-vacuum-promo-code</link>
 <guid isPermaLink="false">541a8b807b45fd0657ab58134dbe7c01c675234ea730a5025381c524458fd6bd</guid>
@@ -1091,6 +1135,17 @@
 <description>Save 30% on best-selling mattresses with our top Tuft &amp; Needle coupon codes.</description>
 <enclosure url="https://media.wired.com/photos/67b63b93a01a8e23b64ce24a/master/pass/WIRED-Coupons-R2_4.png" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/67b63b93a01a8e23b64ce24a/master/pass/WIRED-Coupons-R2_4.png" medium="image"/>
+</item>
+<item>
+<title>Castlery Promo Codes: 15% Off for October 2026</title>
+<link>https://www.wired.com/story/castlery-promo-code</link>
+<guid isPermaLink="false">f4d2aeef20f25418e792a8534cd4ae1f4f149c12625d6eb0772585156d7618ac</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
+<description>Refresh your living space for less with these verified Castlery coupons, including free shipping offers and furniture set discounts.</description>
+<enclosure url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" medium="image"/>
 </item>
 <item>
 <title>Walgreens Photo Coupons: Up to 70% Off This October</title>
@@ -1291,28 +1346,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1167281066-1024x648.jpg" medium="image"/>
 </item>
 <item>
-<title>Skydance’s Discovery+ prices increase by up to 20 percent</title>
-<link>https://arstechnica.com/gadgets/2026/10/skydances-discovery-prices-increase-by-up-to-20-percent</link>
-<guid isPermaLink="false">aa09acc322ffec68596de1dc25074f434f014b9e9370a1d5a33395d2ad000d05</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 18:06:06 +0000</pubDate>
-<description>The higher prices are said to be unrelated to the Skydance merger.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1238343880-1024x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1238343880-1024x648.jpg" medium="image"/>
-</item>
-<item>
-<title>The Paris Auto Show is full of interesting cars Americans can’t have</title>
-<link>https://arstechnica.com/cars/2026/10/europe-shows-a-better-alternative-to-big-suvs-at-the-paris-auto-show</link>
-<guid isPermaLink="false">e0945cabc7345471dd490f6a1a85d98bef73e583aab02bcf79dd07489ec76eb6</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 17:33:20 +0000</pubDate>
-<description>Small EVs and efficient people carriers update familiar names for the modern age.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/c2v-french-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/c2v-french-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>Linus Torvalds is using AI to develop Linux kernel code now</title>
 <link>https://www.zdnet.com/innovation/linus-torvalds-uses-ai-to-write-linux-kernel-patch</link>
 <guid isPermaLink="false">8ec84a1cd9eaeeabd9d7fb2ee36384d803ec1711630d59755f433a86dc32959a</guid>
@@ -1333,17 +1366,6 @@
 <description>Anthropic took more than two months to alert cops</description>
 <enclosure url="https://image.theregister.com/?imageId=229902&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=229902&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Google wants to host your personal vibe-coded apps in the Play Store</title>
-<link>https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store</link>
-<guid isPermaLink="false">c49df01b10d488b69559affaf9c50b1183a15aed543b40132459241591e51e37</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 17:00:39 +0000</pubDate>
-<description>Google plans to help turn those personal AI-generated apps into wide releases.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Google lets you make personal Android apps for free now – with just prompts</title>
@@ -1962,17 +1984,6 @@
 <media:content url="https://image.theregister.com/?imageId=207208&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Imagine there's no Shiny Hunters – AI could make human hacking crews obsolete</title>
-<link>https://www.theregister.com/security/2026/10/12/imagine-theres-no-shiny-hunters-ai-could-make-human-hacking-crews-obsolete/5302430</link>
-<guid isPermaLink="false">4417ab6088d5b1fba1a109f6b7e46fdd871fbe5002a0ae3330b6dc706058369b</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Mon, 12 Oct 2026 10:27:00 +0000</pubDate>
-<description>This week on The Kettle, we discuss some arrests and how Mythos' mathematical expertise has led to a second exploited bug that no human would have found</description>
-<enclosure url="https://image.theregister.com/?imageId=5295418&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5295418&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>‘I’ve become significantly more cautious’: six parents on limiting their kids’ social media and AI use</title>
 <link>https://www.theguardian.com/us-news/2026/oct/12/parents-limiting-social-media-ai-use</link>
 <guid isPermaLink="false">909e29f58c7f99230d4179013ff020e76a18683022d1aa525990af1395c326f8</guid>
@@ -1982,17 +1993,6 @@
 <description>Quite a few parents aren’t convinced social media and AI are safe, and have been adapting accordingly When it comes to their kids, many parents don’t trust tech companies any more. Social media companies have spent the better part of the last decade arguing that their platforms are safe for teens, but quite a few parents aren’t convinced. They, along with a growing number of regulators, have increasingly accused companies like Meta of designing products that are addictive to younger users. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/2a5f71fa41895820957bba576349ebc2da450ec3/205_0_5123_4099/master/5123.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f643840df5380017f555f2eda13b751f" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/2a5f71fa41895820957bba576349ebc2da450ec3/205_0_5123_4099/master/5123.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f643840df5380017f555f2eda13b751f" medium="image"/>
-</item>
-<item>
-<title>When you just need to build a tiny desktop app: TinyJS</title>
-<link>https://www.theregister.com/devops/2026/10/12/when-you-just-need-to-build-a-tiny-desktop-app-tinyjs/5302502</link>
-<guid isPermaLink="false">9839ed2f20d37caf7c3c1842189a854c22b1640dc9ea9d20d62a054b7e84de34</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Mon, 12 Oct 2026 09:43:00 +0000</pubDate>
-<description>How a micro JavaScript runtime uses native OS webviews to shrink the desktop footprint.</description>
-<enclosure url="https://image.theregister.com/?imageId=1682081&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=1682081&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>iPhone 18 Pro Max review: Apple’s biggest, heaviest and longest-lasting superphone</title>

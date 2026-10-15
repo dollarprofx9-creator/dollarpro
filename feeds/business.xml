@@ -4,17 +4,6 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>The First AI Advantage Was About Productivity. The Next One May Give Entrepreneurs a Bigger Edge.</title>
-<link>https://www.entrepreneur.com/business-news/tech/the-first-ai-advantage-was-about-productivity-the-next-one-may-give-entrepreneurs-a-bigger-edge</link>
-<guid isPermaLink="false">e022c2d934ea6e5599fca71cf0920a198d17697ec049090f03eefc119e1ddd6a</guid>
-<source>Entrepreneur</source>
-<category>business</category>
-<pubDate>Wed, 14 Oct 2026 19:00:00 +0000</pubDate>
-<description>The next AI advantage for entrepreneurs isn't about more content or productivity. It's moving from idea to execution faster.</description>
-<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/ai-entrepreneur-edge-1026-g-2296368448.jpg" type="image/jpeg"/>
-<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/ai-entrepreneur-edge-1026-g-2296368448.jpg" medium="image"/>
-</item>
-<item>
 <title>AI Is Changing Your Company Culture Whether You Planned for It or Not. Here’s How to Shape What Happens Next.</title>
 <link>https://www.entrepreneur.com/business-news/tech/ai-is-changing-your-company-culture-whether-you-planned-for-it-or-not-heres-how-to-shape-what-happens-next</link>
 <guid isPermaLink="false">877816d77a4aa90ff21eb49c4f50fd0137f979e6d72e8ae91e8ed1819fa38fcb</guid>
@@ -101,5 +90,16 @@
 <description>The chain has eight openings in one day, deals across Europe and no sign of slowing down.</description>
 <enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/daves-hot-chicken-1026-g-2217834688.jpg" type="image/jpeg"/>
 <media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/daves-hot-chicken-1026-g-2217834688.jpg" medium="image"/>
+</item>
+<item>
+<title>A Masked Gang Stole 30,000 Bottles of Wine Worth $5.8 Million From an Italian Winery. It’s Being Called the Biggest Vino Heist in Italy’s History.</title>
+<link>https://www.entrepreneur.com/business-news/a-masked-gang-stole-30000-bottles-of-wine-worth-5-8-million-from-an-italian-winery</link>
+<guid isPermaLink="false">af463e6bca221f37493509f4af5e8b64aab7e9a513bf06d3da8d353c18834b14</guid>
+<source>Entrepreneur</source>
+<category>business</category>
+<pubDate>Wed, 14 Oct 2026 13:10:00 +0000</pubDate>
+<description>The vino villians disabled the cameras, used the company’s own forklifts and drove off with two truckloads of prized Tuscan reds.</description>
+<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/italy-wine-heist-1026_g937406412.jpg" type="image/jpeg"/>
+<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/italy-wine-heist-1026_g937406412.jpg" medium="image"/>
 </item>
 </channel></rss>
