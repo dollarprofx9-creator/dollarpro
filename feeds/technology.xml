@@ -4,6 +4,61 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>A Tesla Flying Car? I Don’t Know, Man</title>
+<link>https://www.wired.com/story/tesla-flying-car-faa</link>
+<guid isPermaLink="false">aa4cba8a64873f5ac4c04bea0355e5fed9f1e25a689c40213442f02a7e10cdf0</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 03:18:30 +0000</pubDate>
+<description>The Federal Aviation Administration will likely have thoughts about the Tesla Roadster 2’s ability to leave the ground.</description>
+<enclosure url="https://media.wired.com/photos/6ad1968199a5946045809beb/master/pass/Flying-Tesla-Gear.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ad1968199a5946045809beb/master/pass/Flying-Tesla-Gear.jpg" medium="image"/>
+</item>
+<item>
+<title>Relive Tesla's ridiculous(ly fun) Roadster stunt show</title>
+<link>https://www.engadget.com/2288448/relive-tesla-ridiculously-fun-roadster-stunt-show</link>
+<guid isPermaLink="false">8e0fd2935980d06bdd2336dada43a816951d26ed45a058e4d4d37ae177ef81ce</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 02:24:52 +0000</pubDate>
+<description>Tesla's Roadster event was pretty exciting, to say the least.</description>
+<enclosure url="https://www.engadget.com/img/gallery/relive-teslas-ridiculously-fun-roadster-stunt-show/l-intro-1792117283.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/relive-teslas-ridiculously-fun-roadster-stunt-show/l-intro-1792117283.jpg" medium="image"/>
+</item>
+<item>
+<title>Tesla's redesigned Roadster has a cold-gas thruster option, but you'll need $250,000 just to reserve it</title>
+<link>https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation</link>
+<guid isPermaLink="false">2e52dbb169fb54370c21fc49bae4a700c5f7eadad1b3260a0746e04f2ca57d1a</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 01:48:05 +0000</pubDate>
+<description>Tesla has finally unveiled the next-generation Roadster.</description>
+<enclosure url="https://www.engadget.com/img/gallery/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/l-intro-1792115458.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/l-intro-1792115458.jpg" medium="image"/>
+</item>
+<item>
+<title>The Tesla Roadster flew, drove upside down, and hit 60mph in under a second</title>
+<link>https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk</link>
+<guid isPermaLink="false">11d4fc51a8b79e9c1c9bf2196cf6bb388f9042ec0b09d79507eb511d88edb501</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 01:28:27 +0000</pubDate>
+<description>Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Roadster_94.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Roadster_94.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>The Tesla Roadster 2 Is Here—and It Flies</title>
+<link>https://www.wired.com/story/tesla-roadster-2-launch</link>
+<guid isPermaLink="false">1da7da4298bf77277549bcf4eb32f68ccf26c16fd066432ac6fb7bb45bf78ac0</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 01:22:51 +0000</pubDate>
+<description>The automaker unveiled its next luxury sports car at an event in Texas. It has thrusters on it that can send it airborne.</description>
+<enclosure url="https://media.wired.com/photos/6ad17aff2217e219989feddb/master/pass/TeslaScreenshot.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ad17aff2217e219989feddb/master/pass/TeslaScreenshot.jpg" medium="image"/>
+</item>
+<item>
 <title>Steam can now show game achievements in separate ‘sets’</title>
 <link>https://www.theverge.com/games/1012541/valve-steam-achievement-sets</link>
 <guid isPermaLink="false">b4e6b604d0b97688d38057613ff2ccd7dbfff0504a7ef592b0e7ea498ca8548e</guid>
@@ -46,6 +101,17 @@
 <description>Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its […]</description>
 <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ca.com_news_thumbnailshogun2complete.png.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ca.com_news_thumbnailshogun2complete.png.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell</title>
+<link>https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell</link>
+<guid isPermaLink="false">0ec3496a44512a926988917b0e22872c493fa91a80e74280644cd7c2baf994ed</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Thu, 15 Oct 2026 22:21:06 +0000</pubDate>
+<description>KDE celebrates 30 years with a new Plasma release, a farewell to X11, and a movie.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/KDE_Birthday_30th_Laptop-1070x648.png" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/KDE_Birthday_30th_Laptop-1070x648.png" medium="image"/>
 </item>
 <item>
 <title>The tech backlash is now in theaters</title>
@@ -356,17 +422,6 @@
 <media:content url="https://www.engadget.com/img/gallery/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies/l-intro-1792086397.jpg" medium="image"/>
 </item>
 <item>
-<title>Volvo will use Nvidia’s tech for hands-free, point-to-point driving</title>
-<link>https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban</link>
-<guid isPermaLink="false">308c58ea57762ef3b778c2c5a83a899dc12fef68712538d9ce5d299c940383b7</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 17:30:00 +0000</pubDate>
-<description>Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia's autonomous driving stack to power a new partially automated driving system similar to Tesla's Full Self-Driving (Supervised). Volvo says the new point-to-point system will be Level 2++, meaning it can […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Volvo-EX60-Oculus-7.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Volvo-EX60-Oculus-7.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>YouTuber built 30-frame-per-second grayscale Game Boy, then open sourced it for all e-paper displays</title>
 <link>https://www.theregister.com/offbeat/2026/10/15/youtuber-built-30-frame-per-second-grayscale-game-boy-then-open-sourced-it-for-all-e-paper-displays/5303394</link>
 <guid isPermaLink="false">544b10f06dbf2e17cda9242f7855fe76f255fa8dcdfaa39d6200e4a3c099ddb9</guid>
@@ -594,8 +649,8 @@
 <category>technology</category>
 <pubDate>Thu, 15 Oct 2026 14:01:51 +0000</pubDate>
 <description>Elon Musk has been saying the demo might be a literal "banger."</description>
-<enclosure url="https://www.engadget.com/img/gallery/tesla-roadster-launch-live-blog/l-intro-1792072946.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/tesla-roadster-launch-live-blog/l-intro-1792072946.jpg" medium="image"/>
+<enclosure url="https://www.engadget.com/img/gallery/tesla-roadster-launch-live-blog/l-intro-1792116843.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/tesla-roadster-launch-live-blog/l-intro-1792116843.jpg" medium="image"/>
 </item>
 <item>
 <title>LinkedIn is adding new tools to help people with their side hustles</title>
@@ -728,28 +783,6 @@
 <description>The Eclipse and Frontier are cheap and colorful, but you'll need a Pro subscription to make the most of them.</description>
 <enclosure url="https://www.engadget.com/img/gallery/bee-frontier-bee-eclipse-bee-pro-launch/l-intro-1792042377.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/bee-frontier-bee-eclipse-bee-pro-launch/l-intro-1792042377.jpg" medium="image"/>
-</item>
-<item>
-<title>United will now let you check if your flight has Starlink Wi-Fi</title>
-<link>https://www.engadget.com/2287350/united-offers-starlink-wi-fi-flight-tracker</link>
-<guid isPermaLink="false">b4665b53149dfb8a12125ab7c67df83f1da58e30850bbb967400dea268fb5dc9</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>United has launched a tracker that you can use to check if your flight has Starlink Wi-Fi.</description>
-<enclosure url="https://www.engadget.com/img/gallery/united-offers-starlink-wi-fi-flight-tracker/l-intro-1792079058.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/united-offers-starlink-wi-fi-flight-tracker/l-intro-1792079058.jpg" medium="image"/>
-</item>
-<item>
-<title>Adobe rebuilt Photoshop and Premiere for NVIDIA's RTX Spark platform</title>
-<link>https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark</link>
-<guid isPermaLink="false">6c4093ea09b5c03502da83e3fb850764218b7dac8970d45ac4d1e99a138ba0d6</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>Adobe has 'rearchitected' Photoshop, Premiere and Substance 3D to work faster on computers powered by NVIDIA's RTX Spark AI superchip.</description>
-<enclosure url="https://www.engadget.com/img/gallery/adobe-rebuilt-photoshop-and-premiere-for-nvidias-rtx-spark-platform/l-intro-1792065422.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/adobe-rebuilt-photoshop-and-premiere-for-nvidias-rtx-spark-platform/l-intro-1792065422.jpg" medium="image"/>
 </item>
 <item>
 <title>OpenAI claims 100-plus secret files followed ex-employee back to Apple</title>
@@ -1225,17 +1258,6 @@
 <media:content url="https://image.theregister.com/?imageId=232983&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Researchers use AI to design proteins that cut up other proteins</title>
-<link>https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins</link>
-<guid isPermaLink="false">4036f92f054c1062d41c4082d7605863a057923b661ca60673fd068c68840461</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 17:10:15 +0000</pubDate>
-<description>AI design tools make proteins that break bonds that are stable for hundreds of years.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster</title>
 <link>https://www.theguardian.com/technology/2026/oct/14/smart-glasses-ai-technology-reform-senedd-westminster-ban</link>
 <guid isPermaLink="false">d0c43ffec7019b09f5bec4b5e9c158cebb1f13ebf8cf6455e329c5dd32b32999</guid>
@@ -1511,17 +1533,6 @@
 <media:content url="https://i.guim.co.uk/img/media/39ad56bf99c1f8e26f0f088ecc640f415267bd2f/581_0_2917_2334/master/2917.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ee8486be52c269ca99f3ea4a4d22ab50" medium="image"/>
 </item>
 <item>
-<title>cool kids are writing in all lowercase now. does that make you mad?</title>
-<link>https://www.wired.com/story/the-case-for-lowercase</link>
-<guid isPermaLink="false">414bd040737017f247f4a5bbb37b94629751b2e667dececb948bb49d560d99cb</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 10:00:00 +0000</pubDate>
-<description>a certain kind of person writes in all lowercase now. why?</description>
-<enclosure url="https://media.wired.com/photos/6ace518c0cd03eee45eddd24/master/pass/lowercase_internet_style_sm.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ace518c0cd03eee45eddd24/master/pass/lowercase_internet_style_sm.jpg" medium="image"/>
-</item>
-<item>
 <title>Nothing Headphone (1) Pro Review: Studio Quality</title>
 <link>https://www.wired.com/review/nothing-headphone-1-pro</link>
 <guid isPermaLink="false">56e49739865e48aaabaa0ea89d5276ef3eeae8b8b9d4f2b584183a950300e3df</guid>
@@ -1531,6 +1542,17 @@
 <description>Nothing’s best headphones yet double down on design, comfort, sound quality, and highly adjustable EQ settings.</description>
 <enclosure url="https://media.wired.com/photos/6ace413d24c9f1116aeab823/master/pass/Nothing%20Headphone%20(1)%20Pro%20102026%20top%20art%20SOURCE%20Amazon.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ace413d24c9f1116aeab823/master/pass/Nothing%20Headphone%20(1)%20Pro%20102026%20top%20art%20SOURCE%20Amazon.jpg" medium="image"/>
+</item>
+<item>
+<title>cool kids are writing in all lowercase now. does that make you mad?</title>
+<link>https://www.wired.com/story/the-case-for-lowercase</link>
+<guid isPermaLink="false">414bd040737017f247f4a5bbb37b94629751b2e667dececb948bb49d560d99cb</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 10:00:00 +0000</pubDate>
+<description>a certain kind of person writes in all lowercase now. why?</description>
+<enclosure url="https://media.wired.com/photos/6ace518c0cd03eee45eddd24/master/pass/lowercase_internet_style_sm.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ace518c0cd03eee45eddd24/master/pass/lowercase_internet_style_sm.jpg" medium="image"/>
 </item>
 <item>
 <title>OpenAI engineer charged after boardroom bug found wrapped in toilet paper</title>
@@ -1632,6 +1654,17 @@
 <media:content url="https://image.theregister.com/?imageId=5301785&amp;width=800" medium="image"/>
 </item>
 <item>
+<title>Peacock Promo Codes: 40% Off October 2026</title>
+<link>https://www.wired.com/story/peacock-promo-code</link>
+<guid isPermaLink="false">84f38d2175ae15bb5645da2d18cd78202d3b88bd2a6dc5deb48aca1e7ca07648</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
+<description>Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.</description>
+<enclosure url="https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg" medium="image"/>
+</item>
+<item>
 <title>Expedia Coupons: 40% Off</title>
 <link>https://www.wired.com/story/expedia-coupon</link>
 <guid isPermaLink="false">05eec51210a6e120d1a88dc197213715e91bbe20738fc82f355c5e304ba9c74f</guid>
@@ -1654,15 +1687,26 @@
 <media:content url="https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png" medium="image"/>
 </item>
 <item>
-<title>Peacock Promo Codes: 40% Off October 2026</title>
-<link>https://www.wired.com/story/peacock-promo-code</link>
-<guid isPermaLink="false">84f38d2175ae15bb5645da2d18cd78202d3b88bd2a6dc5deb48aca1e7ca07648</guid>
+<title>Dell Coupon Codes: 20% Off for October 2026</title>
+<link>https://www.wired.com/story/dell-coupon-code</link>
+<guid isPermaLink="false">c5ceb6b2160aebf24ca4d5396573cf0bdb0f091ea6647692b42d49168cbc4886</guid>
 <source>Wired</source>
 <category>technology</category>
 <pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-<description>Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.</description>
-<enclosure url="https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg" medium="image"/>
+<description>Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.</description>
+<enclosure url="https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg" medium="image"/>
+</item>
+<item>
+<title>Corsair Discount Code: Up to 50% Off for October 2026</title>
+<link>https://www.wired.com/story/corsair-coupon</link>
+<guid isPermaLink="false">e67208ab31041caec3b79a4607e1ab1d87b105c922a79cac010a3a6074fdef6e</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
+<description>Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.</description>
+<enclosure url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" medium="image"/>
 </item>
 <item>
 <title>HBO Max Promo Code: 50% Off | October 2026</title>
@@ -1685,28 +1729,6 @@
 <description>Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.</description>
 <enclosure url="https://media.wired.com/photos/66ea077283cd4f2fbb17d478/master/pass/WIRED-Coupons-2.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/66ea077283cd4f2fbb17d478/master/pass/WIRED-Coupons-2.jpg" medium="image"/>
-</item>
-<item>
-<title>Dell Coupon Codes: 20% Off for October 2026</title>
-<link>https://www.wired.com/story/dell-coupon-code</link>
-<guid isPermaLink="false">c5ceb6b2160aebf24ca4d5396573cf0bdb0f091ea6647692b42d49168cbc4886</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-<description>Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.</description>
-<enclosure url="https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg" medium="image"/>
-</item>
-<item>
-<title>Corsair Discount Code: Up to 50% Off for October 2026</title>
-<link>https://www.wired.com/story/corsair-coupon</link>
-<guid isPermaLink="false">e67208ab31041caec3b79a4607e1ab1d87b105c922a79cac010a3a6074fdef6e</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-<description>Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.</description>
-<enclosure url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" medium="image"/>
 </item>
 <item>
 <title>Castlery Promo Codes: 15% Off for October 2026</title>
@@ -1830,17 +1852,6 @@
 <media:content url="https://image.theregister.com/?imageId=5302917&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>OpenAI and Anthropic Tell British Lawmakers: Regulate Us</title>
-<link>https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us</link>
-<guid isPermaLink="false">bb575fe9ad4e4a983b92eaf2f82faa1ed6bbfd8fca2f9b9a4b7aad432d510d77</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 19:35:29 +0000</pubDate>
-<description>AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons.</description>
-<enclosure url="https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg" medium="image"/>
-</item>
-<item>
 <title>Apple unleashes a swarm of Mac Minions to share GPU resources for large AI tasks</title>
 <link>https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891</link>
 <guid isPermaLink="false">7598a9abb7f16d57b0a5bb25f11c0cb2431fe3383c5e9fd674ad367d1b788e21</guid>
@@ -1850,17 +1861,6 @@
 <description>The company unites resources from disparate macOS devices</description>
 <enclosure url="https://image.theregister.com/?imageId=5302903&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5302903&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>The 9 Best Movies to Stream This Month (October 2026)</title>
-<link>https://www.wired.com/story/the-8-best-movies-to-stream-right-now</link>
-<guid isPermaLink="false">7287c6bb1d91a2af4be345f0560e467a88ecbdb71e4ce543975972009fa6f390</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 18:49:55 +0000</pubDate>
-<description>Barbarian, The Fly, and Altered States are among the films deserving of your eyeballs this month.</description>
-<enclosure url="https://media.wired.com/photos/6acd8e6610b2347a13b0dc66/master/pass/Movie-Guide-Barbarian-Culture-MCDBARB_H3002.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6acd8e6610b2347a13b0dc66/master/pass/Movie-Guide-Barbarian-Culture-MCDBARB_H3002.jpg" medium="image"/>
 </item>
 <item>
 <title>Linus Torvalds is using AI to develop Linux kernel code now</title>
