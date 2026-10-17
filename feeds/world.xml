@@ -4,15 +4,59 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Bend, Oregon, shooting: Suspect ID'd, previously attended elem. school, police say</title>
+<title>WATCH: Authorities: Fatal alligator attack in Winter Garden, Florida</title>
+<link>https://abcnews.com/video/137338151</link>
+<guid isPermaLink="false">1f4389da6463ad96bcefc0072a14ed7aa09e2dfe2d1f8f8c09c4bffca6057b85</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 17 Oct 2026 00:24:30 +0000</pubDate>
+<description>Police say the man was fishing along the shoreline at a park when he was attacked and killed by an alligator.</description>
+<enclosure url="https://s.abcnews.com/images/WNT/261016_wn_alligator_attack1_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/WNT/261016_wn_alligator_attack1_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Bend, Oregon, shooting: Suspect ID'd, had attended elementary school, police say</title>
 <link>https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119</link>
 <guid isPermaLink="false">6c1e4fd08cb1044e54f75f41a866f53de9651d1dab6cd26987f80250e848dedf</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Fri, 16 Oct 2026 21:45:25 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 00:22:11 +0000</pubDate>
 <description>Three children and one teacher are dead after a shooter forced his way into a Bend, Oregon, elementary school and opened fire, authorities said.</description>
 <enclosure url="https://s.abcnews.com/images/US/bend-14-ap-gmh-261016_1792165253418_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/US/bend-14-ap-gmh-261016_1792165253418_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Bipartisan group of senators want answers on Starlink disruptions in Ukraine</title>
+<link>https://abcnews.com/Politics/bipartisan-group-senators-answers-starlink-disruptions-us-support/story?id=137330556</link>
+<guid isPermaLink="false">6309eb46cd71211161a70da716601a4dd67f707cc76bb133581d316fd4491633</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 17 Oct 2026 00:00:24 +0000</pubDate>
+<description>The lawmakers say American personnel were endangered in attacks on Ukraine.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Georgia's Senate and governor races test Trump's political influence</title>
+<link>https://abcnews.com/Politics/georgias-senate-governor-races-test-trumps-political-influence/story?id=137319836</link>
+<guid isPermaLink="false">f7cffb8a2bf0b324331d38c9162213e778b7ee5fb6e24ee522e52b58c718e7fa</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Fri, 16 Oct 2026 23:26:23 +0000</pubDate>
+<description>Trump plays a significant role in Georgia's races, with Democrats working to tie their GOP opponents to Trump’s unpopular policies on the economy and war with Iran.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/donald-trump-ap-jef-261016_1792162048040_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/donald-trump-ap-jef-261016_1792162048040_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>WATCH: Hero who stopped Oregon elementary school shooting suspect identified</title>
+<link>https://abcnews.com/video/137332472</link>
+<guid isPermaLink="false">d93fad010058058a07168d33b1a2aff95de4409c7b7d8625c59ce27ef70df87e</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Fri, 16 Oct 2026 22:18:23 +0000</pubDate>
+<description>ABC News contributor Don Mihalek discusses the bystander credited with stopping the suspected gunman and ongoing investigations.</description>
+<enclosure url="https://s.abcnews.com/images/US/261016_abcnl_3p_mihalek_shooting_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/261016_abcnl_3p_mihalek_shooting_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>LIVE: ABC News Live</title>
@@ -37,7 +81,7 @@
 <media:content url="https://s.abcnews.com/images/GMA/Busfield-gty-er-261016_1792183674171_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Family 'broken and lost' after five-year-old boy killed in Oregon school shooting</title>
+<title>Family 'broken and lost' after five-year-old boy killed in school shooting</title>
 <link>https://news.sky.com/story/family-broken-and-lost-after-five-year-old-boy-killed-in-oregon-school-shooting-13600075</link>
 <guid isPermaLink="false">3ed7a4733e15d0e4746220acb345c12ec9c257c517426438254eafa18450d1e5</guid>
 <source>Sky News Home</source>
@@ -156,17 +200,6 @@
 <description>National Geographic shares a closer look at elephants, including how they can eat up to 18 hours a day and even use their trunks to "hug." "Secrets of the Elephants" is streaming now.</description>
 <enclosure url="https://s.abcnews.com/images/GMA/261016_gma3_nat_geo_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/GMA/261016_gma3_nat_geo_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Georgia's Senate and governor races test Trump's political influence</title>
-<link>https://abcnews.com/Politics/georgias-senate-governor-races-test-trumps-political-influence/story?id=137319836</link>
-<guid isPermaLink="false">f7cffb8a2bf0b324331d38c9162213e778b7ee5fb6e24ee522e52b58c718e7fa</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Fri, 16 Oct 2026 17:53:11 +0000</pubDate>
-<description>Trump plays a significant role in Georgia's races, with Democrats working to tie their GOP opponents to Trump’s unpopular policies on the economy and war with Iran.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/donald-trump-ap-jef-261016_1792162048040_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/donald-trump-ap-jef-261016_1792162048040_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment</title>
@@ -356,17 +389,6 @@
 <media:content url="https://s.france24.com/media/display/03083cb6-c96d-11f1-8513-4dd8ac2cf3bf/w:1024/p:16x9/000-D3GA69H.jpg" medium="image"/>
 </item>
 <item>
-<title>WATCH: How inflation could impact the midterm elections</title>
-<link>https://abcnews.com/video/137318878</link>
-<guid isPermaLink="false">d5bf0c75bec0cf7f9f7250380a4363aa76af4ae842b48c23ec8435c0b5145090</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Fri, 16 Oct 2026 14:56:42 +0000</pubDate>
-<description>ABC News' Elizabeth Schulze shares what voters are saying about the rising cost of living and how this issue could be a liability for Republican candidates in November.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/261016_abcnl_8a_schulze_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/261016_abcnl_8a_schulze_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Ibrahim Mahama's abundant artistic harvest</title>
 <link>https://www.france24.com/en/tv-shows/arts24/20261016-ibrahim-mahama-s-abundant-artistic-harvest</link>
 <guid isPermaLink="false">91fcfe18759baf27b45449bf6c577e2df5af336a562acf1657b986eafc11c0d3</guid>
@@ -543,17 +565,6 @@
 <media:content url="https://s.abcnews.com/images/Politics/cdc-gty-er-261015_1792095608895_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>How much money has Musk given to Republican groups since July? The quiz knows</title>
-<link>https://www.npr.org/2026/10/16/g-s1-148041/pope-leo-musk-mamdani-trump-guilfoyle-news-quiz</link>
-<guid isPermaLink="false">f4dd214e68149e8dd02070d9625e75b31c64bd6b159fad6ef262cce2893c6c68</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
-<description>Plus, this week saw comings and goings at the White House, the revenge of a child (reality) star, and Elon Musk doing Elon Musk things.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5654x3182+0+0/resize/5654x3182!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F99%2Ffe4c45a64f3095adf8986f5ed7c2%2Fkim-selma-collin.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5654x3182+0+0/resize/5654x3182!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F99%2Ffe4c45a64f3095adf8986f5ed7c2%2Fkim-selma-collin.jpg" medium="image"/>
-</item>
-<item>
 <title>Nicolas Maduro and wife deny new torture charges as 'false accusations'</title>
 <link>https://news.sky.com/story/venezuelas-nicolas-maduro-and-wife-deny-new-torture-charges-as-false-accusations-13599870</link>
 <guid isPermaLink="false">b1ce6b553b9dc49e6a70bf32cbd06b3d532c02d68b8152458bc0f92bcdee357e</guid>
@@ -706,28 +717,6 @@
 <description>ABC News’ Elizabeth Schulze reports on what to know about the latest inflation report and prices this coming holiday season.</description>
 <enclosure url="https://s.abcnews.com/images/GMA/261014_gma_schulze_inflation_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/GMA/261014_gma_schulze_inflation_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>WATCH: ‘Dancing With the Stars’ sends couple home on ‘Super Bowl Night’</title>
-<link>https://abcnews.com/video/137253298</link>
-<guid isPermaLink="false">f0eba039bbde24e88854be092148cc2a82afb23c217004168a71376cb17bf935</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Wed, 14 Oct 2026 16:01:56 +0000</pubDate>
-<description>ABC News’ Ginger Zee was behind the scenes as stars and their pro partners danced to songs performed during Super Bowl halftime shows through the years.</description>
-<enclosure url="https://s.abcnews.com/images/GMA/261014_gma_dwts2_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/GMA/261014_gma_dwts2_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>WATCH: Viral museum worker gets unexpected honor</title>
-<link>https://abcnews.com/video/137250014</link>
-<guid isPermaLink="false">23acff2e5b69d627f7b072109695300a8544826774a12c833c9548f825fad3b8</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Wed, 14 Oct 2026 08:27:57 +0000</pubDate>
-<description>Alison Luchs has been working at the National Gallery of Art for almost 50 years, and almost a year into making art history videos with Gen-Z terminology, she was honored on the Time100 Art list.</description>
-<enclosure url="https://s.abcnews.com/images/US/261014_gmafl_museum_honor_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/261014_gmafl_museum_honor_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Man and woman arrested after two adults and two children killed in house fire</title>

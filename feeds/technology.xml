@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>All the news about the iPhone Duo</title>
+<link>https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements</link>
+<guid isPermaLink="false">d56d7345469111cea7224f27acc3347c26d4f484c8c6bf708bb8ff31d64b6f08</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 23:36:26 +0000</pubDate>
+<description>Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Apple&amp;#8217;s updated App Store rules go after &amp;#8216;nudify&amp;#8217; AI apps</title>
+<link>https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment</link>
+<guid isPermaLink="false">67d3c07f032253c01ad3a59484e57be7287886c933893b1cb12364162d34c560</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 22:51:22 +0000</pubDate>
+<description>Apple's App Store rules now more explicitly ban so-called "nudify" apps that generate intimate images of people without their consent using AI tools. The rule changes follow significant criticism toward Apple after X users used Grok earlier this year to make nonconsensual, sexualized deepfakes, including minors. Apple didn't pull X or Grok from the App […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_B.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
 <title>The Leap Second Is No More</title>
 <link>https://www.wired.com/story/leap-second-is-abolished-bipm-says</link>
 <guid isPermaLink="false">950a31c28c2bdf42385386ec09b98ed10a0f5157897ac82bb15be69280fb14dc</guid>
@@ -13,6 +35,17 @@
 <description>The metric might not mean much to laypeople, but leap seconds have been a source of contention in the timekeeping community for years. Now, they’re dead.</description>
 <enclosure url="https://media.wired.com/photos/6ad26223a56495c621c70456/master/pass/Science_PourOneOutfortheLeapSecond-ezgif.com-video-to-gif-converter.gif" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad26223a56495c621c70456/master/pass/Science_PourOneOutfortheLeapSecond-ezgif.com-video-to-gif-converter.gif" medium="image"/>
+</item>
+<item>
+<title>OpenAI models hacked a crypto wallet and breached more websites</title>
+<link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites</link>
+<guid isPermaLink="false">5b95b356b53e30b5501bac49982795662e15c275a4b35b342562adc414ddc378</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+<description>The actions could have resulted in criminal charges had humans been behind the keyboard.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>A 'flying' Tesla Roadster sounds impossible, until you see what Lockheed Martin built decades ago</title>
@@ -356,17 +389,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/polymarket-1024x648.jpg" medium="image"/>
 </item>
 <item>
-<title>The incredible flying Tesla Roadster is just for show</title>
-<link>https://www.theverge.com/transportation/1012783/tesla-roadster-flying-stunt-production-reality-musk</link>
-<guid isPermaLink="false">8753c3420820c4882715952203a27c5ecb81d0dcb9b209e2bcdb53dd40a848ab</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 16 Oct 2026 14:15:29 +0000</pubDate>
-<description>Last night, Elon Musk gave the people what they want: a car driving vertically up a multistory ramp, launching off the edge, executing a midair "kickflip" over a lineup of Teslas, and landing via cold-gas thrusters. That's what the people want, right? "We were promised flying cars," sure, but isn't the operative word in that […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/HUuw-rwXoAAQf9r.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/HUuw-rwXoAAQf9r.jpeg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>MapQuest will now show you where Flock cameras are in your neighborhood</title>
 <link>https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood</link>
 <guid isPermaLink="false">27bc1f81debed88b4e88d669b4b0eca99a6ec20f32fbb4642562ed5c5c0a586e</guid>
@@ -387,17 +409,6 @@
 <description>If you want to make a car spin in the air, compressed gas is a good way to do it.</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Roadster_87-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Meta’s new terms may allow it to train AI on news sites for free</title>
-<link>https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers</link>
-<guid isPermaLink="false">ca580b1475b7847a1b70cd0acc279b029b315ee708cea4f4be2fa3cae1b4ac52</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 16 Oct 2026 14:02:40 +0000</pubDate>
-<description>Meta's new terms appear to give it permission to crawl and scrape websites "associated" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to "develop, improve, research," and "train" […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>Super Scam Me documentary shows what it takes to catch a romance scammer</title>
@@ -1069,17 +1080,6 @@
 <description>E Ink's new display tech offers improved color reproduction and refresh rates.</description>
 <enclosure url="https://www.engadget.com/img/gallery/e-inks-new-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/l-intro-1792089646.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/e-inks-new-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/l-intro-1792089646.jpg" medium="image"/>
-</item>
-<item>
-<title>Microplastics in water aren’t inert and make damaging chemicals on their own</title>
-<link>https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own</link>
-<guid isPermaLink="false">3963c640e2ced6de61c3b565b7284124794dc191aca10783f7fe1081c875fe2b</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 18:39:17 +0000</pubDate>
-<description>Its effect on people remains an ongoing question.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1922961716-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1922961716-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Riot will sunset League of Legends Classic in January 2027</title>
@@ -1874,17 +1874,6 @@
 <media:content url="https://media.wired.com/photos/6ace56e6d9cd42daf5a15def/master/pass/Review%20Breville%20Eye%20Q%20Toaster%20102026%20top%20art%20SOURCE%20Breville.jpg" medium="image"/>
 </item>
 <item>
-<title>The Politics of Solar Energy Are Getting Weird, Mean, and a Little MAGA</title>
-<link>https://www.wired.com/story/the-politics-of-solar-energy-are-getting-weird-mean-and-a-little-maga</link>
-<guid isPermaLink="false">b7759926fe52d087ebd12bce3319829839b4d9f38547f86e59a69a4c4a48f231</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 10:30:00 +0000</pubDate>
-<description>A mysterious super PAC that doubles as a pro-solar-energy outfit is funding some of the most knives-out attack ads of the midterms season.</description>
-<enclosure url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" medium="image"/>
-</item>
-<item>
 <title>JackRabbit MG Cargo Bike Review (2026): Compact and Powerful</title>
 <link>https://www.wired.com/review/jackrabbit-mg-cargo-electric-bicycle</link>
 <guid isPermaLink="false">4e1ee63fe6bb37e6b4af7e95c60a5321f56c58fd354be58f70933035e7c94890</guid>
@@ -1894,6 +1883,17 @@
 <description>This compact, plucky ride is the cargo ebike for people who don’t want a cargo ebike. It’s even fun to ride.</description>
 <enclosure url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" medium="image"/>
+</item>
+<item>
+<title>The Politics of Solar Energy Are Getting Weird, Mean, and a Little MAGA</title>
+<link>https://www.wired.com/story/the-politics-of-solar-energy-are-getting-weird-mean-and-a-little-maga</link>
+<guid isPermaLink="false">b7759926fe52d087ebd12bce3319829839b4d9f38547f86e59a69a4c4a48f231</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 10:30:00 +0000</pubDate>
+<description>A mysterious super PAC that doubles as a pro-solar-energy outfit is funding some of the most knives-out attack ads of the midterms season.</description>
+<enclosure url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" medium="image"/>
 </item>
 <item>
 <title>Nvidia, worth $5.5tn, donates $250m to UK for AI safety research</title>

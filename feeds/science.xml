@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>RFK Jr. Pledged to Advance Anti-Vaccine Group’s Goals. Here’s What He’s Doing.</title>
+<link>https://www.nytimes.com/2026/10/16/us/politics/rfk-jr-vaccines.html</link>
+<guid isPermaLink="false">dd5c7215f1faaf966ec0573fbcc537ad2a60f9e07d9e042b1c640f08589e5ba7</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Fri, 16 Oct 2026 23:45:43 +0000</pubDate>
+<description>The health secretary is quietly taking steps that public health experts fear will reduce immunization rates further.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/16/multimedia/16dc-kennedy-vaccines-hvcq/16dc-kennedy-vaccines-hvcq-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/16/multimedia/16dc-kennedy-vaccines-hvcq/16dc-kennedy-vaccines-hvcq-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>'It really does change you': SpaceX Crew-12 commander wishes we could all see our fragile Earth from space</title>
 <link>https://www.space.com/space-exploration/international-space-station/it-really-does-change-you-spacex-crew-12-commander-wishes-we-could-all-see-our-fragile-earth-from-space</link>
 <guid isPermaLink="false">756cdf63dc0b45e135b10118f8706a3915825b9e4168ca35865fb081f933afc8</guid>
@@ -13,17 +24,6 @@
 <description>The astronauts of SpaceX's Crew-12 mission wish that we could all see Earth as they just did —as a beautiful but fragile outpost of life in a vast void.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/Fhi6eoM386cSBKgzMe6k9G-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/Fhi6eoM386cSBKgzMe6k9G-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>RFK Jr. Pledged to Advance Anti-Vaccine Group’s Goals. Here’s What He’s Doing.</title>
-<link>https://www.nytimes.com/2026/10/16/us/politics/rfk-jr-vaccines.html</link>
-<guid isPermaLink="false">dd5c7215f1faaf966ec0573fbcc537ad2a60f9e07d9e042b1c640f08589e5ba7</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Fri, 16 Oct 2026 20:51:25 +0000</pubDate>
-<description>The health secretary is quietly taking steps that public health experts fear will reduce immunization rates further.</description>
-<enclosure url="https://static01.nyt.com/images/2026/10/16/multimedia/16dc-kennedy-vaccines-hvcq/16dc-kennedy-vaccines-hvcq-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/10/16/multimedia/16dc-kennedy-vaccines-hvcq/16dc-kennedy-vaccines-hvcq-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Terry Tao Is on the Front Lines of the Debate Over AI and the Future of Math</title>
@@ -169,17 +169,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048" medium="image"/>
 </item>
 <item>
-<title>'Mission: 60s' event promises passport back to the Space Age</title>
-<link>https://www.space.com/space-exploration/apollo/rocket-back-to-the-space-age-with-mission-60s-event-in-nyc-next-weekend</link>
-<guid isPermaLink="false">e7847647bbe94a17222791fe1deec51b61e36bda0c80a4dc599f75049cb72e36</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
-<description>Your invitation to revisit the Space Age has arrived.Whether you miss the days when people got dressed up to fly or wish your other ride was a rocket, Mission: 60s has a *space* reserved for you.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/QzLMmdSDXdfYVfceuu7zc4-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/QzLMmdSDXdfYVfceuu7zc4-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>Why can you see the moon during the day? This week is the perfect time to find out</title>
 <link>https://www.space.com/stargazing/why-can-you-see-the-moon-during-the-day-this-week-is-the-perfect-time-to-find-out</link>
 <guid isPermaLink="false">9b996cec65ddfdb31b53efd38acfde563b6daea0e09165aa8a147f9f45e33751</guid>
@@ -189,6 +178,17 @@
 <description>You don't have to wait until dark to see the moon. Here's why it appears in broad daylight — and why this week is a particularly good time to spot it.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/UM36X6VM7ixx87wB7tQEFR-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/UM36X6VM7ixx87wB7tQEFR-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>'Mission: 60s' event promises passport back to the Space Age</title>
+<link>https://www.space.com/space-exploration/apollo/rocket-back-to-the-space-age-with-mission-60s-event-in-nyc-next-weekend</link>
+<guid isPermaLink="false">e7847647bbe94a17222791fe1deec51b61e36bda0c80a4dc599f75049cb72e36</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+<description>Your invitation to revisit the Space Age has arrived.Whether you miss the days when people got dressed up to fly or wish your other ride was a rocket, Mission: 60s has a *space* reserved for you.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/QzLMmdSDXdfYVfceuu7zc4-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/QzLMmdSDXdfYVfceuu7zc4-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>7 best places to see the northern lights, according to an aurora chaser</title>
@@ -719,17 +719,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/HysbXdLLrhsSef2Qzd4BJW-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier</title>
-<link>https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier</link>
-<guid isPermaLink="false">8be52f47ad1dde3f515eaeb1f90bc019eae36378fb760f2080fdea83ea3fcd69</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
-<description>The sophomore season of "Star Trek: Starfleet Academy" will warp back to the small screen in March 2027 when the limited series returns for its final season on Paramount+.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>See the original Galileo shuttle from 'Star Trek' in its new home at the Original Series Set Tour in New York</title>
 <link>https://www.space.com/entertainment/star-treks-galileo-shuttle-warps-into-new-york-as-part-of-the-original-series-set-tour</link>
 <guid isPermaLink="false">9a981d84eee97c663d4aef61ec059cf7e0a5a457e2160c4c1aaf673a53963eb3</guid>
@@ -739,6 +728,17 @@
 <description>This iconic spaceship will now live long and prosper in its brand-new Star Trek Tour home.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier</title>
+<link>https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier</link>
+<guid isPermaLink="false">8be52f47ad1dde3f515eaeb1f90bc019eae36378fb760f2080fdea83ea3fcd69</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
+<description>The sophomore season of "Star Trek: Starfleet Academy" will warp back to the small screen in March 2027 when the limited series returns for its final season on Paramount+.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>NASA’s Perseverance Rover Sets a Mars Driving Record</title>
