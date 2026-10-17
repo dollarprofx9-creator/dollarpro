@@ -4,12 +4,23 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Noise-cancelling headphones prevent vomiting after surgery</title>
+<link>https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery</link>
+<guid isPermaLink="false">ac6f8c1ae50b8bebac53ec01cd9be11f4bb5b7b8ba1818a8c7897b8bbbb11f7e</guid>
+<source>New Scientist</source>
+<category>science</category>
+<pubDate>Sat, 17 Oct 2026 18:30:00 +0000</pubDate>
+<description>Nausea and vomiting are common after surgery, which may be partly related to the noises patients are exposed to, even under general anaesthetic. Wearing noise-cancelling headphones while on the operating table reduces the risk</description>
+<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316882731.jpg" type="image/jpeg"/>
+<media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316882731.jpg" medium="image"/>
+</item>
+<item>
 <title>A Reporter Who Saw Covid Coming Has Died</title>
 <link>https://www.nytimes.com/2026/10/17/health/helen-branswell-dead.html</link>
 <guid isPermaLink="false">c5320c4fe76b4eb578fe597bc71b367fda9932e885047f5b630a87ce01caa3da</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Sat, 17 Oct 2026 17:04:19 +0000</pubDate>
+<pubDate>Sat, 17 Oct 2026 17:17:00 +0000</pubDate>
 <description>Helen Branswell recognized the threat of the pandemic ahead of the vast majority of journalists and even medical experts. She was 69.</description>
 <enclosure url="https://static01.nyt.com/images/2026/10/16/multimedia/16obit-branswell-lkhw/16obit-branswell-lkhw-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/10/16/multimedia/16obit-branswell-lkhw/16obit-branswell-lkhw-mediumSquareAt3X.jpg" medium="image"/>
@@ -244,17 +255,6 @@
 <description>Drought driven by El Niño is causing hunger and disease in Sudan that has already killed hundreds of children</description>
 <enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316890923.jpg" type="image/jpeg"/>
 <media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316890923.jpg" medium="image"/>
-</item>
-<item>
-<title>Artemis II Heat Shield After Splashdown</title>
-<link>https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown</link>
-<guid isPermaLink="false">5357de9353ef4cacb37b6e1a9913005f0f26b4206cb8243b8b16bcc846ff5e2f</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Fri, 16 Oct 2026 16:28:01 +0000</pubDate>
-<description>Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere. This rigorous analysis confirmed that the […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260411-navy01-0045orig-rotated.jpg?w=2048" medium="image"/>
 </item>
 <item>
 <title>'Mission: 60s' event promises passport back to the Space Age</title>
@@ -528,19 +528,8 @@
 <category>science</category>
 <pubDate>Thu, 15 Oct 2026 17:30:00 +0000</pubDate>
 <description>From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research investigations that improve life on Earth and prepare humans for deep space exploration. Over the past five years, NASA augmented the station’s […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/iss065e116476-fe448b.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/iss065e116476-fe448b.jpg" medium="image"/>
-</item>
-<item>
-<title>Probiotic cuts risk of respiratory infections in formula-fed babies</title>
-<link>https://www.newscientist.com/article/2594148-probiotic-cuts-risk-of-respiratory-infections-in-formula-fed-babies</link>
-<guid isPermaLink="false">0642cd7d9949f3350eb985802511fbe784c8412ea5d98f4e92ef093aa8049f59</guid>
-<source>New Scientist</source>
-<category>science</category>
-<pubDate>Thu, 15 Oct 2026 17:00:00 +0000</pubDate>
-<description>Babies who are formula fed are more prone to infections, but the addition of a probiotic supplement containing sugars from breast milk slashed the risk of such infants catching respiratory viruses</description>
-<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316597746.jpg" type="image/jpeg"/>
-<media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_316597746.jpg" medium="image"/>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20210520-ph-spx01-0001orig.jpg?w=1920" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20210520-ph-spx01-0001orig.jpg?w=1920" medium="image"/>
 </item>
 <item>
 <title>NASA's SkyFall helicopters will 'show us parts of Mars we've never seen before', scientists say</title>
@@ -1060,17 +1049,6 @@
 <media:content url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/earth_from_space_namibia_s_biggest_salt_pan/27564541-1-eng-GB/Earth_from_Space_Namibia_s_biggest_salt_pan_card_full.jpg" medium="image"/>
 </item>
 <item>
-<title>Crew-12 Returns to Earth</title>
-<link>https://www.nasa.gov/image-detail/nasas-spacex-crew-12-splashdown-2</link>
-<guid isPermaLink="false">c79d542c7c7391869593bec89004ddafe4f5a8d981ea0e2fefded1f3d28f9d4f</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Thu, 08 Oct 2026 18:53:00 +0000</pubDate>
-<description>The SpaceX Crew Dragon Freedom spacecraft is seen as it lands with NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev aboard in the Pacific Ocean off the coast of Los Angeles, Calif., Thursday, Oct. 8, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55577377940-a59482db3e-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55577377940-a59482db3e-o.jpg" medium="image"/>
-</item>
-<item>
 <title>Splashdown confirmed for Sophie Adenot</title>
 <link>https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot</link>
 <guid isPermaLink="false">64cffae630331b267ad586bce8a15e8264bf9081d13d0e6ac8c50a5830ddddfb</guid>
@@ -1082,28 +1060,6 @@
 <media:content url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/crew-12_returning_back_to_earth/27565951-1-eng-GB/Crew-12_returning_back_to_Earth_card_full.jpg" medium="image"/>
 </item>
 <item>
-<title>Artemis II Crew Moon Photo Annotations</title>
-<link>https://www.nasa.gov/image-detail/fd07_impact-flashes</link>
-<guid isPermaLink="false">aca9374dc368026f5a67eed2b725e5ae423457f3699ddc7ef6f63711a8f42c0c</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Wed, 07 Oct 2026 15:46:00 +0000</pubDate>
-<description>A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member's tablet.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg" medium="image"/>
-</item>
-<item>
-<title>Astronomers Solve Cosmic Cold Case with NASA Hubble Data</title>
-<link>https://www.nasa.gov/image-detail/stsci-01m3cbk3t6srkp4q7wv9cgfgw9</link>
-<guid isPermaLink="false">e7acee45febf783e11665c7d291d8b2a40f8aba5f5607b9b460e19e507ca7a75</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 06 Oct 2026 16:17:00 +0000</pubDate>
-<description>This artist’s concept depicts a possible explanation for the unusual chemical abundances NASA’s Hubble Space Telescope detected in the HS 0209+0832 system: a second-generation planet orbiting the white dwarf star.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/stsci-01m3cbk3t6srkp4q7wv9cgfgw9.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/stsci-01m3cbk3t6srkp4q7wv9cgfgw9.jpg" medium="image"/>
-</item>
-<item>
 <title>NASA Astronaut Christina Koch at Eagles vs. Rams</title>
 <link>https://www.nasa.gov/image-detail/nasas-inspiration-tour-at-lincoln-financial-field</link>
 <guid isPermaLink="false">578734c1fe8df2e9efa4b83a532b1ddf9a63a7e7b36defe815c606d85de22c40</guid>
@@ -1113,39 +1069,6 @@
 <description>NASA astronaut and mission specialist of the agency's Artemis II mission, Christina Koch, led the fans in singing the Eagles Fight Song from the field at an NFL game between the Philadelphia Eagles and the Los Angeles Rams at Lincoln Financial Field on Sunday, Oct. 4, 2026, in Philadelphia.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/nhq202610040010orig.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/nhq202610040010orig.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA’s SpaceX Crew-13 Launches</title>
-<link>https://www.nasa.gov/image-detail/nasas-spacex-crew-13-launch-3</link>
-<guid isPermaLink="false">07f5c690e45e94633737ffc40a00e6a269a635b19c6024bf14b670f62bc26804</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Thu, 01 Oct 2026 18:07:00 +0000</pubDate>
-<description>A SpaceX Falcon 9 rocket carrying the company's Dragon spacecraft is launched on NASA’s SpaceX Crew-13 mission to the International Space Station with NASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov aboard, Thursday, Oct. 1, 2026, from Cape Canaveral Space Force Station in Florida.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55563235995-2bae0fafbc-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55563235995-2bae0fafbc-o.jpg" medium="image"/>
-</item>
-<item>
-<title>Star Trails</title>
-<link>https://www.nasa.gov/image-detail/iss075e0144232</link>
-<guid isPermaLink="false">2f9c821724c6cf311138939fbf5d114d76dd53bcf1741a4ef170f481e93f4cad</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Wed, 30 Sep 2026 17:51:00 +0000</pubDate>
-<description>This long-duration image shows star trails above Earth and the blue lights of fishing boats and the yellow lights of Indonesian cities stretching below the International Space Station as it orbited 258 miles above the Banda Sea.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/iss075e0144232orig.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/iss075e0144232orig.jpg" medium="image"/>
-</item>
-<item>
-<title>Crew-13 Rocket and Spacecraft at Launch Pad</title>
-<link>https://www.nasa.gov/image-detail/afs-8-101-1312</link>
-<guid isPermaLink="false">47cd5f055f779d2d1de59b29bc2e3358cc9091b0da2f013985ec259eda8dc622</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 29 Sep 2026 15:33:00 +0000</pubDate>
-<description>Ahead of launch of NASA’s SpaceX Crew-13 mission, a SpaceX Falcon 9 rocket, with the Dragon spacecraft atop, is vertical at the launch pad of Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida on Sunday, Sept. 27, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/55555912182-5c7a52ae0f-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/55555912182-5c7a52ae0f-o.jpg" medium="image"/>
 </item>
 <item>
 <title>NASA's Hubble Telescope Reaches Milestone, Looks for Elusive Supernova</title>
@@ -1291,17 +1214,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/08/jsc2026e407303.jpg" medium="image"/>
 </item>
 <item>
-<title>Colorful Collage of Tarantula Nebula</title>
-<link>https://www.nasa.gov/image-detail/30dor-crop</link>
-<guid isPermaLink="false">c66fa1686b72e2606534bad91ba33deb29d79cade921ec43b2632131268cf3dd</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Mon, 17 Aug 2026 16:03:00 +0000</pubDate>
-<description>Like a collage made of layered sheets of colored cellophane, a vibrant new image layers observations of a famous star-forming nebula from NASA space telescopes. The resulting cosmic “craft” reveals new details about the star formation region known as 30 Doradus, or the Tarantula Nebula.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/08/30dor-crop.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/08/30dor-crop.jpg" medium="image"/>
-</item>
-<item>
 <title>Perseids Meteor Shower</title>
 <link>https://www.nasa.gov/image-detail/perseidsorion-2</link>
 <guid isPermaLink="false">796e22218cfd29be9db55317e7fb1b94fe245cca06bf425698882b75441051a9</guid>
@@ -1311,17 +1223,6 @@
 <description>The constellation Orion is framed by two Perseid meteors on Aug. 12, 2018, in Cedar Breaks National Monument, Utah.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/08/perseidsorion.webp" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/08/perseidsorion.webp" medium="image"/>
-</item>
-<item>
-<title>2026 Total Solar Eclipse in Spain</title>
-<link>https://www.nasa.gov/image-detail/2026-total-solar-eclipse-2</link>
-<guid isPermaLink="false">88facde88034cedc4ee8f0a4003b54cd7fdcd2931f77b522038da11ed4e20ede</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Wed, 12 Aug 2026 20:17:00 +0000</pubDate>
-<description>A total solar eclipse is seen from San Millán de los Caballeros, Spain, Wednesday, Aug. 12, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/08/55459753868-458217b2c9-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/08/55459753868-458217b2c9-o.jpg" medium="image"/>
 </item>
 <item>
 <title>Taking Flight to Prepare for Space</title>

@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Tim Burton's 77-Minute Stop-Motion Masterpiece Is Officially Back on Streaming</title>
+<link>https://www.polygon.com/forget-wildwood-tim-burton-corpse-bride</link>
+<guid isPermaLink="false">39f688bb344307d5b5f9ae1719f9ee89161e9465fad111f6864b10368af2fbf5</guid>
+<source>Polygon</source>
+<category>gaming</category>
+<pubDate>Sat, 17 Oct 2026 19:00:18 +0000</pubDate>
+<description>Wildwood is great, but if you're after something even better to watch, check out Tim Burton and Laika's 2005 animated masterpiece.</description>
+<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/2-7.jpg" type="image/jpeg"/>
+<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/2-7.jpg" medium="image"/>
+</item>
+<item>
 <title>The 8 Best Castlevania Games, Ranked</title>
 <link>https://www.polygon.com/best-castlevania-games-ranked</link>
 <guid isPermaLink="false">04c28f250e011725a8fd68fea50ebb0ed75438e689687ae7f7f748ecbd1beb14</guid>
@@ -79,16 +90,5 @@
 <description>Developers big and small have made 2026 one of the best years for shooting games in recent memory.</description>
 <enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/wardogs-interview-respect-time.jpg" type="image/jpeg"/>
 <media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/wardogs-interview-respect-time.jpg" medium="image"/>
-</item>
-<item>
-<title>The Best Transformers Movie That No One Watched Finds New Life on Streaming</title>
-<link>https://www.polygon.com/best-transformers-movie-now-streaming-netflix</link>
-<guid isPermaLink="false">83f52ebe133d2f8b4a3df916f39bee91a217183fb9b3fa4723ffe11fa4b53ef7</guid>
-<source>Polygon</source>
-<category>gaming</category>
-<pubDate>Sat, 17 Oct 2026 13:35:18 +0000</pubDate>
-<description>Transformers One is now on Netflix and in the streaming services top 10 charts, a well-deserved return for the underrated origin story.</description>
-<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/25406662/Transformers_One___Optimus_Prime.jpg" type="image/jpeg"/>
-<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/25406662/Transformers_One___Optimus_Prime.jpg" medium="image"/>
 </item>
 </channel></rss>
