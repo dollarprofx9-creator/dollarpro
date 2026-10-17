@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Not cool: who hacked France’s supermarket fridges?</title>
+<link>https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges</link>
+<guid isPermaLink="false">a7c07b667e14a1ee3c52c21dba84a1a701efc80380a64e1174efa8e8964de4f1</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Sat, 17 Oct 2026 04:00:20 +0000</pubDate>
+<description>Whether it was youngsters proving their skills or state sabotage, Europe’s most hacked country was left with a mountain of waste after food began cooking in freezers Shortly before midnight last Sunday, the digital thermostats controlling hundreds of supermarket cold aisles across France began to flicker and rise. In a “bizarre and unprecedented” cyber-attack, hackers had remotely overridden the temperature settings on thousands of freezers, fridges and chiller cabinets pushing them from as low as -27C (-16.6F) to well over 50C (122F). Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/446c1773fea046f80e07ca9533f82b2eaa90e1e6/494_0_3540_2832/master/3540.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=50589c00d5ae0083805d86c580d1f711" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/446c1773fea046f80e07ca9533f82b2eaa90e1e6/494_0_3540_2832/master/3540.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=50589c00d5ae0083805d86c580d1f711" medium="image"/>
+</item>
+<item>
+<title>The Tesla Roadster should go into production in 2028, but don't get your hopes up</title>
+<link>https://www.engadget.com/2289475/tesla-roadster-2028-production-dont-get-hopes-up</link>
+<guid isPermaLink="false">651350e3d23b714f7fd37bf767b5d9c1173d91ede6eed25ef8a3867f51c748b8</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Sat, 17 Oct 2026 01:50:50 +0000</pubDate>
+<description>I drive upside down on the boulevard of broken dreams.</description>
+<enclosure url="https://www.engadget.com/img/gallery/the-tesla-roadster-should-go-into-production-in-2028-but-dont-get-your-hopes-up/l-intro-1792201617.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/the-tesla-roadster-should-go-into-production-in-2028-but-dont-get-your-hopes-up/l-intro-1792201617.jpg" medium="image"/>
+</item>
+<item>
 <title>All the news about the iPhone Duo</title>
 <link>https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements</link>
 <guid isPermaLink="false">d56d7345469111cea7224f27acc3347c26d4f484c8c6bf708bb8ff31d64b6f08</guid>
@@ -13,6 +35,17 @@
 <description>Apple has finally announced its long-rumored foldable: the iPhone Duo. The new phone has a 5.4-inch outer display and a 7.6-inch inner display, a “nano‑texture” finish on the inner screen, and barely any visible crease. Instead of Face ID, it uses Touch ID on the power button. It has two cameras, a main lens and […]</description>
 <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0017.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Open-weight models win hearts, minds, and wallets</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/17/open-weight-models-win-hearts-minds-and-wallets/5303704</link>
+<guid isPermaLink="false">2893dc3e76cb6d3f8677e26a33cfc575003ca31242b6a330f9b473ec7c23345c</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 23:07:04 +0000</pubDate>
+<description>They handle 71.5% of Vercel gateway tokens and nearly a quarter of estimated spending</description>
+<enclosure url="https://image.theregister.com/?imageId=5303708&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5303708&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Apple&amp;#8217;s updated App Store rules go after &amp;#8216;nudify&amp;#8217; AI apps</title>
@@ -81,6 +114,17 @@
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-16-at-4.42.00-PM.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
+<title>Benchmarked: Nvidia's RTX Spark notebook delivers serious local AI compute, at a price</title>
+<link>https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621</link>
+<guid isPermaLink="false">ccf0ebaea93fd66c2a366f22fb9cc5837da632359636ffa46d9f88928f957ef7</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 20:31:00 +0000</pubDate>
+<description>El Reg digs its claws into HP's N1X-powered OmniBook Ultra 16</description>
+<enclosure url="https://image.theregister.com/?imageId=5303643&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5303643&amp;width=800" medium="image"/>
+</item>
+<item>
 <title>“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops</title>
 <link>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops</link>
 <guid isPermaLink="false">b3c5710f804248e2fa76c2ccbef135b72e7b8786e7017f8c3f9b470aaa99a385</guid>
@@ -92,6 +136,17 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg" medium="image"/>
 </item>
 <item>
+<title>Node.js creator ditches Deno to work on open source Cloudflare Workers</title>
+<link>https://www.theregister.com/devops/2026/10/16/nodejs-creator-ditches-deno-to-work-on-open-source-cloudflare-workers/5303662</link>
+<guid isPermaLink="false">dcac5316db4289091a4a2d988262b475c8bc809c78326c61753041a9831e8709</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 20:20:05 +0000</pubDate>
+<description>You're building servers 'wrong,' says Ryan Dahl as Cloudflare gobbles his Deno startup</description>
+<enclosure url="https://image.theregister.com/?imageId=5303681&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5303681&amp;width=800" medium="image"/>
+</item>
+<item>
 <title>Katie Zacharia Was Linked to an AI Rare-Earths Startup. It’s Even Weirder Than It Sounds</title>
 <link>https://www.wired.com/story/katie-zacharia-was-linked-to-an-ai-rare-earths-startup-its-even-weirder-than-it-sounds</link>
 <guid isPermaLink="false">5977245b1390cd96f5b29ec2d1fa1ce4868a90ddb7f3cb4443a4429237f4cb4d</guid>
@@ -101,6 +156,17 @@
 <description>The short-lived White House press secretary was listed as an adviser to a Kristi Noem–linked company that aims to use AI for mining. Both the company and she say she never worked there.</description>
 <enclosure url="https://media.wired.com/photos/6ad24f19ed303ecbe8441980/master/pass/GettyImages-2299989251.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad24f19ed303ecbe8441980/master/pass/GettyImages-2299989251.jpg" medium="image"/>
+</item>
+<item>
+<title>Meta grants itself right to scrape content from business customers for model training</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/16/meta-grants-itself-right-to-scrape-content-from-business-customers-for-model-training/5303658</link>
+<guid isPermaLink="false">d233a0fb1de8c0a2e5250bd083b55fc8a618821a1ada375cd18210ddebd17f8a</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 20:00:42 +0000</pubDate>
+<description>The future is private, the present is plunder</description>
+<enclosure url="https://image.theregister.com/?imageId=5303666&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5303666&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>US Rep proposes bill to give video game buyers "ownership," not "a license"</title>
@@ -785,17 +851,6 @@
 <media:content url="https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg" medium="image"/>
 </item>
 <item>
-<title>Total Wireless Promo Codes &amp; Deals: 50% Off Select Plans</title>
-<link>https://www.wired.com/story/total-wireless-promo-code</link>
-<guid isPermaLink="false">b6650a5bc0b1fd7bbfb22c69c30bf17d51a804af993e9ff4fe65df76943a69c3</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Fri, 16 Oct 2026 05:00:00 +0000</pubDate>
-<description>Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.</description>
-<enclosure url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" medium="image"/>
-</item>
-<item>
 <title>Skechers Coupon Codes 20% Off</title>
 <link>https://www.wired.com/story/skechers-coupon-codes</link>
 <guid isPermaLink="false">a6e009ecefdbae423044503e6a838ddb0b56e47bec165e66263fa7c5f45dd3a8</guid>
@@ -805,6 +860,17 @@
 <description>Learn how to find, compare, and apply the best Skechers online discounts to save on comfortable sneakers, athletic apparel, and accessories.</description>
 <enclosure url="https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png" medium="image"/>
+</item>
+<item>
+<title>Total Wireless Promo Codes &amp; Deals: 50% Off Select Plans</title>
+<link>https://www.wired.com/story/total-wireless-promo-code</link>
+<guid isPermaLink="false">b6650a5bc0b1fd7bbfb22c69c30bf17d51a804af993e9ff4fe65df76943a69c3</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 16 Oct 2026 05:00:00 +0000</pubDate>
+<description>Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.</description>
+<enclosure url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" medium="image"/>
 </item>
 <item>
 <title>HP Coupon Codes and Deals October 2026</title>
@@ -1104,17 +1170,6 @@
 <media:content url="https://www.engadget.com/img/gallery/alexa-tablet-12-pro-review-amazons-premium-tablet-gets-almost-everything-right/l-intro-1792087746.jpg" medium="image"/>
 </item>
 <item>
-<title>Trump ballroom's biggest donors were overwelmingly tech and telecom companies</title>
-<link>https://www.engadget.com/2287913/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies</link>
-<guid isPermaLink="false">dc2fc141eccb970868c47a9c2549ed134f89f88788e4abef78b5ef8e4e6927a0</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 17:48:17 +0000</pubDate>
-<description>Not that anyone's terribly surprised.</description>
-<enclosure url="https://www.engadget.com/img/gallery/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies/l-intro-1792086397.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/trump-ballrooms-biggest-donors-were-overwelmingly-tech-and-telecom-companies/l-intro-1792086397.jpg" medium="image"/>
-</item>
-<item>
 <title>YouTuber built 30-frame-per-second grayscale Game Boy, then open sourced it for all e-paper displays</title>
 <link>https://www.theregister.com/offbeat/2026/10/15/youtuber-built-30-frame-per-second-grayscale-game-boy-then-open-sourced-it-for-all-e-paper-displays/5303394</link>
 <guid isPermaLink="false">544b10f06dbf2e17cda9242f7855fe76f255fa8dcdfaa39d6200e4a3c099ddb9</guid>
@@ -1201,17 +1256,6 @@
 <description>CEO eyes usage-based billing as automation pushes HR software vendor beyond traditional IT spending</description>
 <enclosure url="https://image.theregister.com/?imageId=5245073&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5245073&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>From a VR gay sauna to the gothic pile that inspired Cluedo – Fierce festival storms back</title>
-<link>https://www.theguardian.com/stage/2026/oct/15/gay-sauna-gothic-pile-cluedo-fierce-festival-birmingham</link>
-<guid isPermaLink="false">53f27ad7618562535bc45a3ef1804cdaf58f24e27d4edc93d237f9d893ccaced</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Thu, 15 Oct 2026 15:54:25 +0000</pubDate>
-<description>Venues across Birmingham As Britain’s longest-running live art festival returns, get ready for late-night artist dinners, a show in a swimming pool and Faye Driscoll’s incredible rotating disintegration The phrase “two things can be true” is a frequent refrain in popular psychology and it’s also a frequent response, I find, to witnessing the farther reaches of live art. Hmm, is this performance confusingly self-indulgent or utterly profound? Sometimes it can be both. In fact, it’s not just two things that can be true, it’s as many things as there are people in the audience, since this is all about the live subjective experience, in the moment; presence and connection. Launched in 1998, Fierce is Britain’s longest-running live art festival. For one week it takes over Birmingham’s conventional theatres alongside unconventional spaces, especially in ex-industrial Digbeth, which is fast becoming a creative hub. Also on the bill this year: late-night artist dinners, a show in a swimming poo</description>
-<enclosure url="https://i.guim.co.uk/img/media/361c42508947a8fe10781e08e4d6258ecbec99f2/0_0_3750_3000/master/3750.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5b7bc818f0dc08fe32c1310601a9847d" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/361c42508947a8fe10781e08e4d6258ecbec99f2/0_0_3750_3000/master/3750.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=5b7bc818f0dc08fe32c1310601a9847d" medium="image"/>
 </item>
 <item>
 <title>TinyLittleOffice, where the link is the document</title>
@@ -1742,17 +1786,6 @@
 <media:content url="https://image.theregister.com/?imageId=5296381&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Tiny11 puts Windows 11 on a diet without the PowerShell workout</title>
-<link>https://www.theregister.com/os-platforms/2026/10/14/tiny11-puts-windows-11-on-a-diet-without-the-powershell-workout/5303034</link>
-<guid isPermaLink="false">90af0e021e5bf3a77b2545aeb956d2d6b7959aef19b513777a36a63b16d54632</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 14:15:00 +0000</pubDate>
-<description>New desktop app simplifies stripping out bundled software, with heavier cuts carrying security and support risks</description>
-<enclosure url="https://image.theregister.com/?imageId=256812&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=256812&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>Ready player one? Why the games arcade is having a rebirth</title>
 <link>https://www.theguardian.com/games/2026/oct/14/ready-player-one-why-the-games-arcade-is-having-a-rebirth</link>
 <guid isPermaLink="false">0c4edad28763e441946895728b6d1bd914aee7752c7700207336c9acf5636140</guid>
@@ -1797,17 +1830,6 @@
 <media:content url="https://media.wired.com/photos/6acd53c53982e9e93e8e9175/master/pass/Dune-Writer-Comic-Book-Culture-1242062718.jpg" medium="image"/>
 </item>
 <item>
-<title>Cisco, Nvidia team up to build fatter, faster pluggable</title>
-<link>https://www.theregister.com/networks/2026/10/14/cisco-nvidia-team-up-to-build-fatter-faster-pluggable/5302970</link>
-<guid isPermaLink="false">156c8819b9c4cc721df282c6206279b6c78a3af14267216ef9d20e38e158359e</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 13:30:00 +0000</pubDate>
-<description>If you thought 1.6 Tbps was fast, just wait, Cisco's USFP targets 12.8 Tbps in a single optical pluggable</description>
-<enclosure url="https://image.theregister.com/?imageId=5263102&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5263102&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>The Legend of Zelda: Ocarina of Time preview – Link faces his scariest challenge yet: the 4K era</title>
 <link>https://www.theguardian.com/games/2026/oct/14/the-legend-of-zelda-ocarina-of-time-preview-4k-era-switch-2-remake</link>
 <guid isPermaLink="false">66012765c3220b8d2939caf6a693a4c3301c0829c98ca4a6d05f76b24251639f</guid>
@@ -1828,28 +1850,6 @@
 <description>The Form Studio 1 is a $699 desktop-sized printer that fits on a desk and only stinks a little bit.</description>
 <enclosure url="https://media.wired.com/photos/6ace946f5ba8ef37cd443e51/master/pass/Formlabs-3D-Printer-Gear-Form-Studio-1%E2%80%93media-kit-003.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ace946f5ba8ef37cd443e51/master/pass/Formlabs-3D-Printer-Gear-Form-Studio-1%E2%80%93media-kit-003.jpg" medium="image"/>
-</item>
-<item>
-<title>US tech giants warn Europe that ditching US tech giants could cost €115B</title>
-<link>https://www.theregister.com/paas-and-iaas/2026/10/14/us-tech-giants-warn-europe-that-ditching-us-tech-giants-could-cost-115b/5303031</link>
-<guid isPermaLink="false">e89b56d2e8b25be6637d4f71bce6b0a99a80b74753d8a15aa2460d27cdd9d61d</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 12:45:00 +0000</pubDate>
-<description>Amazon, Google, Meta among members of lobby group funding dire warnings over cloud sovereignty plans</description>
-<enclosure url="https://image.theregister.com/?imageId=5240668&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5240668&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Python 3.15 goes global with UTF-8 support</title>
-<link>https://www.theregister.com/devops/2026/10/14/python-315-goes-global-with-utf-8-support/5302966</link>
-<guid isPermaLink="false">65ee02c350e30524ab20c8da0578203e96c0b35d2cfacda10423260752328944</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-<description>Decades of cross-platform character corruption finally comes to an end for Windows coders</description>
-<enclosure url="https://image.theregister.com/?imageId=1683378&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=1683378&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>My Friend Has No Soul</title>
@@ -1874,17 +1874,6 @@
 <media:content url="https://media.wired.com/photos/6ace56e6d9cd42daf5a15def/master/pass/Review%20Breville%20Eye%20Q%20Toaster%20102026%20top%20art%20SOURCE%20Breville.jpg" medium="image"/>
 </item>
 <item>
-<title>JackRabbit MG Cargo Bike Review (2026): Compact and Powerful</title>
-<link>https://www.wired.com/review/jackrabbit-mg-cargo-electric-bicycle</link>
-<guid isPermaLink="false">4e1ee63fe6bb37e6b4af7e95c60a5321f56c58fd354be58f70933035e7c94890</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 10:30:00 +0000</pubDate>
-<description>This compact, plucky ride is the cargo ebike for people who don’t want a cargo ebike. It’s even fun to ride.</description>
-<enclosure url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" medium="image"/>
-</item>
-<item>
 <title>The Politics of Solar Energy Are Getting Weird, Mean, and a Little MAGA</title>
 <link>https://www.wired.com/story/the-politics-of-solar-energy-are-getting-weird-mean-and-a-little-maga</link>
 <guid isPermaLink="false">b7759926fe52d087ebd12bce3319829839b4d9f38547f86e59a69a4c4a48f231</guid>
@@ -1894,6 +1883,17 @@
 <description>A mysterious super PAC that doubles as a pro-solar-energy outfit is funding some of the most knives-out attack ads of the midterms season.</description>
 <enclosure url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6acef92248e0f30c1c04574c/master/pass/Business_The%20Green%20Movement%20Goes%20Knives%20Out%20for%20the%20Midterms_v1.jpg" medium="image"/>
+</item>
+<item>
+<title>JackRabbit MG Cargo Bike Review (2026): Compact and Powerful</title>
+<link>https://www.wired.com/review/jackrabbit-mg-cargo-electric-bicycle</link>
+<guid isPermaLink="false">4e1ee63fe6bb37e6b4af7e95c60a5321f56c58fd354be58f70933035e7c94890</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 14 Oct 2026 10:30:00 +0000</pubDate>
+<description>This compact, plucky ride is the cargo ebike for people who don’t want a cargo ebike. It’s even fun to ride.</description>
+<enclosure url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ace50eeb4ce7b4026cc7e3c/master/pass/Review%20JackRabbit%20MG%20Cargo%20Review%20102026%20top%20art%20SOURCE%20Jackrabbit.jpg" medium="image"/>
 </item>
 <item>
 <title>Nvidia, worth $5.5tn, donates $250m to UK for AI safety research</title>
