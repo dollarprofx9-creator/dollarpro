@@ -4,6 +4,39 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>A Reporter Who Saw Covid Coming Has Died</title>
+<link>https://www.nytimes.com/2026/10/17/health/helen-branswell-dead.html</link>
+<guid isPermaLink="false">c5320c4fe76b4eb578fe597bc71b367fda9932e885047f5b630a87ce01caa3da</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sat, 17 Oct 2026 17:04:19 +0000</pubDate>
+<description>Helen Branswell recognized the threat of the pandemic ahead of the vast majority of journalists and even medical experts. She was 69.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/16/multimedia/16obit-branswell-lkhw/16obit-branswell-lkhw-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/16/multimedia/16obit-branswell-lkhw/16obit-branswell-lkhw-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>On this day in space! Oct. 17, 2016: Private Antares rocket returns to flight after catastrophic launch explosion</title>
+<link>https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026</link>
+<guid isPermaLink="false">b3a539dfea1c3499e4721c3db70b74922c3696d471c8ef599e6108d5f276c373</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Sat, 17 Oct 2026 14:49:01 +0000</pubDate>
+<description>On Oct. 17, 2016, the Antares rocket now built by Northrop Grumman Space Systems returned to flight to come back from a catastrophic explosion. Here's why it mattered.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/FDbTCyYXMwim6Gu7m9fRiF-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/FDbTCyYXMwim6Gu7m9fRiF-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>This Week In Space podcast: Episode 232 — The Lunar Dump</title>
+<link>https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump</link>
+<guid isPermaLink="false">816ecb09c00680efea54240b6188e822d54adeaf88bec02307673aac3bc6b986</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Sat, 17 Oct 2026 14:17:38 +0000</pubDate>
+<description>On Episode 232 of This Week In Space, Rod Pyle and Tariq Malik are joined by Chelsea Gohd to talk about the recent large data dump from the Artemis II mission.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/nrZpxNdBSVXYVpdJLm4XfN-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/nrZpxNdBSVXYVpdJLm4XfN-1920-80.jpg" medium="image"/>
+</item>
+<item>
 <title>6 scientifically accurate star projectors to turn any room into a home planetarium</title>
 <link>https://www.space.com/stargazing/skywatching-kit/six-scientifically-accurate-star-projectors-to-turn-any-room-into-a-home-planetarium</link>
 <guid isPermaLink="false">b0305c34c3d58fcca5710dcac19803642a91902dffa51bc70bd3a4068259cee2</guid>
@@ -92,12 +125,23 @@
 <media:content url="https://static01.nyt.com/images/2026/10/14/us/dc-tao/dc-tao-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
+<title>NASA Names Stephen Cash Marshall Space Flight Center Director</title>
+<link>https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director</link>
+<guid isPermaLink="false">29660a1a941a2683cf54e451081220973ece14ffe4141a0e3cd55cde46f294c3</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Fri, 16 Oct 2026 20:14:39 +0000</pubDate>
+<description>NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago. “Marshall contributions to NASA’s missions are historic and it’s […]</description>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/steve-cash-photo.jpg?w=1638" medium="image"/>
+</item>
+<item>
 <title>The Leap Second Has Been Canceled</title>
 <link>https://www.nytimes.com/2026/10/16/science/leap-second-abolished-vote.html</link>
 <guid isPermaLink="false">d2092dd1e7b8496647c30e77cfd31f5dba990871b4e8f74909c37d8f2ff38704</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Fri, 16 Oct 2026 20:13:01 +0000</pubDate>
+<pubDate>Fri, 16 Oct 2026 20:13:02 +0000</pubDate>
 <description>Earth’s rotation subtly changes the length of the day. Now our clocks won’t change with it — at least not for a very long time.</description>
 <enclosure url="https://static01.nyt.com/images/2026/10/16/16SCI-LEAP-SECOND-42587-cover/16SCI-LEAP-SECOND-42587-cover-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/10/16/16SCI-LEAP-SECOND-42587-cover/16SCI-LEAP-SECOND-42587-cover-mediumSquareAt3X.jpg" medium="image"/>
@@ -264,8 +308,8 @@
 <category>science</category>
 <pubDate>Fri, 16 Oct 2026 14:24:29 +0000</pubDate>
 <description>As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0009.jpg?w=1366" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0009.jpg?w=1366" medium="image"/>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg?w=1025" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261013-ph-ajn01-0029.jpg?w=1025" medium="image"/>
 </item>
 <item>
 <title>Supermassive black hole blasts out a neon 'treble clef' | Space photo of the day for Oct. 16, 2026</title>
@@ -752,17 +796,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/HysbXdLLrhsSef2Qzd4BJW-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>See the original Galileo shuttle from 'Star Trek' in its new home at the Original Series Set Tour in New York</title>
-<link>https://www.space.com/entertainment/star-treks-galileo-shuttle-warps-into-new-york-as-part-of-the-original-series-set-tour</link>
-<guid isPermaLink="false">9a981d84eee97c663d4aef61ec059cf7e0a5a457e2160c4c1aaf673a53963eb3</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
-<description>This iconic spaceship will now live long and prosper in its brand-new Star Trek Tour home.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier</title>
 <link>https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier</link>
 <guid isPermaLink="false">8be52f47ad1dde3f515eaeb1f90bc019eae36378fb760f2080fdea83ea3fcd69</guid>
@@ -772,6 +805,17 @@
 <description>The sophomore season of "Star Trek: Starfleet Academy" will warp back to the small screen in March 2027 when the limited series returns for its final season on Paramount+.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>See the original Galileo shuttle from 'Star Trek' in its new home at the Original Series Set Tour in New York</title>
+<link>https://www.space.com/entertainment/star-treks-galileo-shuttle-warps-into-new-york-as-part-of-the-original-series-set-tour</link>
+<guid isPermaLink="false">9a981d84eee97c663d4aef61ec059cf7e0a5a457e2160c4c1aaf673a53963eb3</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
+<description>This iconic spaceship will now live long and prosper in its brand-new Star Trek Tour home.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>NASA’s Perseverance Rover Sets a Mars Driving Record</title>
@@ -882,28 +926,6 @@
 <description>Week in images: 12-16 October 2026 Discover our week through the lens</description>
 <enclosure url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/drilling_down_for_the_moon/27577973-1-eng-GB/Drilling_down_for_the_Moon_card_full.jpg" type="image/jpeg"/>
 <media:content url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/drilling_down_for_the_moon/27577973-1-eng-GB/Drilling_down_for_the_Moon_card_full.jpg" medium="image"/>
-</item>
-<item>
-<title>The great Halley's Comet disappointment of 1986 — and the discoveries that changed astronomy forever</title>
-<link>https://www.space.com/stargazing/the-great-halleys-comet-disappointment-of-1986-and-the-discoveries-that-changed-astronomy-forever</link>
-<guid isPermaLink="false">34ee3d81cdeb24b4b5bdf965c359ff7b721c3d2d5a4b69b709c7fce2138c8722</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
-<description>What disappointed skywatchers in 1986 became a scientific triumph, as an international fleet of spacecraft revealed the secrets of the world's most famous comet.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/XXQVvzsFn7qUEbVhWDLUoG-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/XXQVvzsFn7qUEbVhWDLUoG-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>A faint glow from the early universe could help solve the mystery of dark energy</title>
-<link>https://www.space.com/astronomy/dark-universe/a-faint-glow-from-the-early-universe-could-help-solve-the-mystery-of-dark-energy</link>
-<guid isPermaLink="false">a561f7a7fb0e95775558613e25b3f85dab70083a04e619208d4475307e760abf</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 13 Oct 2026 10:00:00 +0000</pubDate>
-<description>Hydrogen may be the most common element in the cosmos, but scientists could use it to do something unique: uncover the nature of dark energy.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/V9rJrWc5PPB2YJUYRjJWD9-1920-80.png" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/V9rJrWc5PPB2YJUYRjJWD9-1920-80.png" medium="image"/>
 </item>
 <item>
 <title>How a Logging Industry Downturn Fuels Wildfires</title>
@@ -1135,6 +1157,17 @@
 <description>An image from NASA's Hubble Space Telescope of galaxy cluster MACS J0417 is part of repeated observations to monitor for the reappearance of supernova Athena, which can help astronomers measure the expansion rate of the universe.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/stsci-h-p26023a-m-2000x1207-1.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/stsci-h-p26023a-m-2000x1207-1.jpg" medium="image"/>
+</item>
+<item>
+<title>COSI Telescope Comes Together</title>
+<link>https://www.nasa.gov/image-detail/cosi-2026july-01</link>
+<guid isPermaLink="false">39bb98da64415a1cb91f491c728ba0e6148bff3c25fb06bce87abe66040713a5</guid>
+<source>NASA Image of the Day</source>
+<category>science</category>
+<pubDate>Fri, 18 Sep 2026 15:46:00 +0000</pubDate>
+<description>UC Berkeley engineers and managers watch as the COSI (Compton Spectrometer and Imager) detector assembly is slowly raised from a table in this July 8, 2026, image.</description>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/cosi-2026july-01.jpg" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/cosi-2026july-01.jpg" medium="image"/>
 </item>
 <item>
 <title>Artemis III Crew Visits NASA Kennedy's Vehicle Assembly Building</title>
