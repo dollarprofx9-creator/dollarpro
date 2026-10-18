@@ -4,7 +4,7 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Returning samples from a Mars moon: Inside the science of Japan's bold MMX mission</title>
+<title>Returning the first samples from a Martian moon: Inside the science of Japan's bold MMX mission to Mars</title>
 <link>https://www.space.com/space-exploration/missions/returning-samples-from-a-mars-moon-inside-the-science-of-japans-bold-mmx-mission</link>
 <guid isPermaLink="false">ad47bc6cebd342115d2a20c177c4abe919fdfc4d6753993959002e6d24b12b05</guid>
 <source>Space.com</source>
@@ -851,17 +851,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/HysbXdLLrhsSef2Qzd4BJW-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier</title>
-<link>https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier</link>
-<guid isPermaLink="false">8be52f47ad1dde3f515eaeb1f90bc019eae36378fb760f2080fdea83ea3fcd69</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
-<description>The sophomore season of "Star Trek: Starfleet Academy" will warp back to the small screen in March 2027 when the limited series returns for its final season on Paramount+.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>See the original Galileo shuttle from 'Star Trek' in its new home at the Original Series Set Tour in New York</title>
 <link>https://www.space.com/entertainment/star-treks-galileo-shuttle-warps-into-new-york-as-part-of-the-original-series-set-tour</link>
 <guid isPermaLink="false">9a981d84eee97c663d4aef61ec059cf7e0a5a457e2160c4c1aaf673a53963eb3</guid>
@@ -871,6 +860,17 @@
 <description>This iconic spaceship will now live long and prosper in its brand-new Star Trek Tour home.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/uASj4gtGhAVC4axVFBoJdB-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>'We basically did Top Gun in space': 'Star Trek Starfleet Academy' warps back into action in March 2027 for sophomore year in the final frontier</title>
+<link>https://www.space.com/entertainment/space-movies-shows/we-basically-did-top-gun-in-space-star-trek-starfleet-academy-warps-back-into-action-in-march-2027-for-sophomore-year-in-the-final-frontier</link>
+<guid isPermaLink="false">8be52f47ad1dde3f515eaeb1f90bc019eae36378fb760f2080fdea83ea3fcd69</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
+<description>The sophomore season of "Star Trek: Starfleet Academy" will warp back to the small screen in March 2027 when the limited series returns for its final season on Paramount+.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/NAZYusmisB9G4RE3CTnRj5-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>NASA’s Perseverance Rover Sets a Mars Driving Record</title>
