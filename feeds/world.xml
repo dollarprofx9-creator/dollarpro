@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Truck drives into soccer game, 2 dead, multiple people injured: Police</title>
+<link>https://abcnews.com/US/2-dead-after-truck-drives-soccer-game-wichita/story?id=137352588</link>
+<guid isPermaLink="false">3c3a7d731206c39ac29a548785d8cbe324e685265ac7a5b8fe6b25489d387b12</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 17 Oct 2026 23:52:09 +0000</pubDate>
+<description>A child and an adult were killed after a vehicle drove through a soccer game in Wichita, Kansas Saturday afternoon, police said.</description>
+<enclosure url="https://s.abcnews.com/images/US/wichita-1_1792274206340_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/wichita-1_1792274206340_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>Looters seize on massive French protests to raid and vandalise shops</title>
 <link>https://www.france24.com/en/france/20261017-looters-seize-massive-french-protests-raid-vandalise-shops-france</link>
 <guid isPermaLink="false">258861db12d462601bb362ac92e6f75919ba6dfdcb8154e7ec09f0530bbfc928</guid>
@@ -219,7 +230,7 @@
 <source>Sky News Home</source>
 <category>world</category>
 <pubDate>Sat, 17 Oct 2026 13:52:00 +0000</pubDate>
-<description>A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford that killed four members of the same family.</description>
+<description>A man and a woman have been charged with assault and criminal damage after a fatal house fire in Waterford, Ireland, that killed four members of the same family.</description>
 <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-waterford-fire_7377650.jpg?20261015153331" medium="image"/>
 </item>
@@ -244,17 +255,6 @@
 <description>Daniel Dubois has retained his WBO world title after beating Fabio Wardley in their rematch at the O2 Arena.</description>
 <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-daniel-dubois-boxing_7379510.jpg?20261017230241" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-daniel-dubois-boxing_7379510.jpg?20261017230241" medium="image"/>
-</item>
-<item>
-<title>Bend, Oregon, shooting: Suspect ID'd, had attended elementary school, police say</title>
-<link>https://abcnews.com/US/multiple-people-injured-shooting-oregon-elementary-school-suspect/story?id=137303119</link>
-<guid isPermaLink="false">6c1e4fd08cb1044e54f75f41a866f53de9651d1dab6cd26987f80250e848dedf</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 17 Oct 2026 12:59:55 +0000</pubDate>
-<description>Three children and one teacher are dead after a shooter forced his way into a Bend, Oregon, elementary school and opened fire, authorities said.</description>
-<enclosure url="https://s.abcnews.com/images/US/bend-14-ap-gmh-261016_1792165253418_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/bend-14-ap-gmh-261016_1792165253418_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Katie Zacharia 'transitioning out' of press secretary role, sources tell ABC News</title>
@@ -508,6 +508,17 @@
 <description>24/7 coverage of breaking news and live events</description>
 <enclosure url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Teacher fought with Oregon gunman before parent shot suspect</title>
+<link>https://news.sky.com/story/heroic-teacher-fought-with-gunman-before-parent-shot-suspect-who-killed-four-at-oregon-school-13600075</link>
+<guid isPermaLink="false">ba1e52c51519ec2cba09137bff4509f7fa976429a1165840af35310c93bea1c3</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Fri, 16 Oct 2026 20:58:00 +0000</pubDate>
+<description>A teacher threw her phone at the teenage gunman who killed four people in a school shooting in Oregon before tackling and fighting with him, police have said.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-bend-oregon-school_7377941.jpg?20261016001653" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-bend-oregon-school_7377941.jpg?20261016001653" medium="image"/>
 </item>
 <item>
 <title>How Elon Musk is bankrolling GOP’s hopes in Texas Senate race</title>
