@@ -4,17 +4,6 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Billionaire Vinod Khosla Is Hiring for This In-Demand Job, Which Typically Pays $175,000 Per Year</title>
-<link>https://www.entrepreneur.com/business-news/billionaire-vinod-khosla-is-hiring-for-this-in-demand-job-which-typically-pays-175000-per-year</link>
-<guid isPermaLink="false">abad55f5581506a1fd971ac5063b70c2f553e10af65543f695c2948408847782</guid>
-<source>Entrepreneur</source>
-<category>business</category>
-<pubDate>Mon, 19 Oct 2026 18:23:10 +0000</pubDate>
-<description>Here’s what to know about the position, which requires 12-hour days and “around-the-clock availability.”</description>
-<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/Vinod-Khosla-GettyImages-2299999977.jpg" type="image/jpeg"/>
-<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/Vinod-Khosla-GettyImages-2299999977.jpg" medium="image"/>
-</item>
-<item>
 <title>The Leadership Blind Spot That Makes a Plan Look Stronger Than It Really Is</title>
 <link>https://www.entrepreneur.com/building-a-business/the-leadership-blind-spot-that-makes-a-plan-look-stronger-than-it-really-is</link>
 <guid isPermaLink="false">792f93c97ed2b094b321c90758f51bb4e344f380da1f39748f4bd0b85bffaf06</guid>
@@ -112,5 +101,16 @@
 <description>As AI reshapes the franchising landscape, successful integration depends on balancing human experience, brand voice and operational automation.</description>
 <enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/franchise-artificial-intelligence-1026_g2273946613.jpg" type="image/jpeg"/>
 <media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/franchise-artificial-intelligence-1026_g2273946613.jpg" medium="image"/>
+</item>
+<item>
+<title>Your Payments Got Faster. So Why Didn’t Your Finance Team?</title>
+<link>https://www.entrepreneur.com/building-a-business/your-payments-got-faster-so-why-didnt-your-finance-team</link>
+<guid isPermaLink="false">c1c4bf6a293e47ffa505a31be930b4f19e02f2b0b656c0d5ba7949e841cde45f</guid>
+<source>Entrepreneur</source>
+<category>business</category>
+<pubDate>Sun, 18 Oct 2026 19:00:00 +0000</pubDate>
+<description>Faster payments and reconciliation are separate operating problems. Faster settlement does not automatically improve payment reconciliation.</description>
+<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/stressed-finance-team-1026-g-2283108496.jpg" type="image/jpeg"/>
+<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/10/stressed-finance-team-1026-g-2283108496.jpg" medium="image"/>
 </item>
 </channel></rss>
