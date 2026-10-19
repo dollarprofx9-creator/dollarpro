@@ -4,6 +4,61 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>The one change that worked: I deleted Instagram – and embraced the joys of a truly private life</title>
+<link>https://www.theguardian.com/lifeandstyle/2026/oct/19/the-one-change-that-worked-i-deleted-instagram-and-embraced-the-joys-of-a-truly-private-life</link>
+<guid isPermaLink="false">914345fdfa465d7f06562ee2bdf6a379f5b40b6211f62a16e1c5b9306896a8a5</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Mon, 19 Oct 2026 05:55:20 +0000</pubDate>
+<description>I’d become obsessed with appealing to my invisible audience. But since I ditched the app a year ago, my quieter moments have taken on brilliant new meaning I first downloaded Instagram when I was 17 and became hooked on it the way most people fall in love: slowly, and then all at once. For a long time, I never considered myself a social media addict. I self-righteously refused to download TikTok, declared Snapchat to be for “children”, and posted less regularly on Instagram than half of the people I followed. As I went through my university years, however, certain changes crept up on me. I began to swap reading – or essay-writing – for hours spent curating new posts. On my way home from lectures (or later, from my work as a journalist), I would spend ages trying to take the artsiest, most perfect picture of that evening’s sunset for my story – as if the people who followed me were eagerly awaiting yet another photo of one of the Earth’s rotations. What usually followed was a night of r</description>
+<enclosure url="https://i.guim.co.uk/img/media/ceaa99b015890b7a619a0a8076ba9b1b00872b42/0_519_1200_960/master/1200.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ec174b13a2d89d344115d0ecc7345de5" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/ceaa99b015890b7a619a0a8076ba9b1b00872b42/0_519_1200_960/master/1200.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ec174b13a2d89d344115d0ecc7345de5" medium="image"/>
+</item>
+<item>
+<title>Engineer was so sick of office pranks, he 'wiped' his antagonist's disk</title>
+<link>https://www.theregister.com/software/2026/10/19/engineer-was-so-sick-of-office-pranks-he-wiped-his-antagonists-disk/5302162</link>
+<guid isPermaLink="false">52f6d9dea6be3b90494854856e2481a87520c9e268d043f8b0239bf499f5abaa</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 19 Oct 2026 05:30:00 +0000</pubDate>
+<description>Revenge is a dish best served by autoexec.bat</description>
+<enclosure url="https://image.theregister.com/?imageId=5302167&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5302167&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>ConnectWise turns off its SaaS-y backup, security, and management services to probe security SNAFU</title>
+<link>https://www.theregister.com/security/2026/10/19/connectwise-turns-off-its-saas-y-backup-security-and-management-services-to-probe-security-snafu/5303758</link>
+<guid isPermaLink="false">d58db4c190cfd0a981565e66eae868e2877785924d1fc163a4e733ca7626cfe2</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 19 Oct 2026 04:31:00 +0000</pubDate>
+<description>Huntress alleges takeover of M365 accounts</description>
+<enclosure url="https://image.theregister.com/?imageId=262396&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=262396&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>ICANN vows to work faster, improve transparency</title>
+<link>https://www.theregister.com/networks/2026/10/19/icann-vows-to-work-faster-improve-transparency/5303751</link>
+<guid isPermaLink="false">76e460cef547e4388cca5635a016d43eb1879e8bc75d04b99ceb896497083c83</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 19 Oct 2026 03:28:34 +0000</pubDate>
+<description>Leaders expect AI and geopolitics will throw up more governance challenges and threats</description>
+<enclosure url="https://image.theregister.com/?imageId=252831&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=252831&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Linux KVM guest-host escape rated critical, may represent a new way to attack penguin-powered networking</title>
+<link>https://www.theregister.com/virtualization/2026/10/19/linux-kvm-guest-host-escape-rated-critical-may-represent-a-new-way-to-attack-penguin-powered-networking/5303744</link>
+<guid isPermaLink="false">ed4b3571e48cd626e49e311f80915a0650e9c61b639c3d2862223a1b722bb31b</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 19 Oct 2026 00:33:00 +0000</pubDate>
+<description>Party like it’s CVE-2026-99999 – a 9.3-rated nasty called PwnEscape</description>
+<enclosure url="https://image.theregister.com/?imageId=5265166&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5265166&amp;width=800" medium="image"/>
+</item>
+<item>
 <title>What do all the lights on your Netgear router mean, and which ones actually matter?</title>
 <link>https://www.engadget.com/2287059/netgear-router-lights-what-they-mean</link>
 <guid isPermaLink="false">2bdd0f9eb61d3cf6e9e88e5481f7e5f2f0de7a379176ad94d90af93110bbd879</guid>
@@ -444,6 +499,17 @@
 <media:content url="https://media.wired.com/photos/6ad29ddafd63dd03d89fa465/master/pass/Review%20Valerion%20VisionMaster%20Max%204K%20Projector%20102026%20top%20art%20SOURCE%20Valerion.jpg" medium="image"/>
 </item>
 <item>
+<title>Climate Change Has It In for the World’s Best Surfing</title>
+<link>https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing</link>
+<guid isPermaLink="false">8c53bca09a49f3aa302dc02528a3d8d7f8b7ff05411516d1a0f59f62e912c676</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Sun, 18 Oct 2026 09:00:00 +0000</pubDate>
+<description>As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them.</description>
+<enclosure url="https://media.wired.com/photos/6ad1f583d142c5fc200c01f2/master/pass/GettyImages-200028593-001.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ad1f583d142c5fc200c01f2/master/pass/GettyImages-200028593-001.jpg" medium="image"/>
+</item>
+<item>
 <title>Magnesium May Not Reach Your Brain, Despite Supplement Label Promises</title>
 <link>https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises</link>
 <guid isPermaLink="false">4c0911cabb05184072e7fde7ca064413f1d7b7142ca03e6703a83d605181167c</guid>
@@ -464,17 +530,6 @@
 <description>These accessories add personality to your Apple headphones case, make them easy to find, and offer some protection, too.</description>
 <enclosure url="https://media.wired.com/photos/6ad29851414b688b51c43c42/master/pass/Best%20AirPods%20Cases%20102026%20top%20art%20SOURCE%20Bandolier.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad29851414b688b51c43c42/master/pass/Best%20AirPods%20Cases%20102026%20top%20art%20SOURCE%20Bandolier.jpg" medium="image"/>
-</item>
-<item>
-<title>Climate Change Has It In for the World’s Best Surfing</title>
-<link>https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing</link>
-<guid isPermaLink="false">8c53bca09a49f3aa302dc02528a3d8d7f8b7ff05411516d1a0f59f62e912c676</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Sun, 18 Oct 2026 09:00:00 +0000</pubDate>
-<description>As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them.</description>
-<enclosure url="https://media.wired.com/photos/6ad1f583d142c5fc200c01f2/master/pass/GettyImages-200028593-001.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad1f583d142c5fc200c01f2/master/pass/GettyImages-200028593-001.jpg" medium="image"/>
 </item>
 <item>
 <title>Oh no, what happened to my OOHPod? Windows command prompt puts in a surprise appearance</title>
@@ -1036,17 +1091,6 @@
 <description>Legal eagles still plodding along with some operations, but paper and e-notices delayed until further notice</description>
 <enclosure url="https://image.theregister.com/?imageId=257239&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=257239&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>The ultra-rich are spending one million dollars a day fighting California’s proposed billionaire tax</title>
-<link>https://www.theguardian.com/news/ng-interactive/2026/oct/16/billionaires-fight-california-prop-40</link>
-<guid isPermaLink="false">855bfca886c1597debabc2e9baadd8a8822629770c9199f7db5a885187bc4ebf</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Fri, 16 Oct 2026 13:00:11 +0000</pubDate>
-<description>Tech billionaires have raised more than $340m to defeat Prop 40, a one-time 5% wealth tax that will fund healthcare and education Tech billionaires have been dumping hundreds of millions of dollars into the fight against a wealth tax in California. They’ve raised more than $340m, and the campaign they’re funding is spending more than $1m a day to defeat the measure, according to state financial disclosures. With the election less than a month away, those funds are being spent at a stepped-up pace. During the first 19 days of September, according to the most recent campaign filings, the opposition campaign plowed through at least $21.2m to fight the billionaire tax – surpassing $1m per day. Voters are being inundated with robotexts, mailers and advertisements that warn a tax on billionaires would “expose all Californians to higher taxes”, as one ad reads. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/278e5483c063fe17b8fe2273a6c7632a5f987ec9/0_0_3000_2400/master/3000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=52c1a2c9294926474c1323fc7b65e088" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/278e5483c063fe17b8fe2273a6c7632a5f987ec9/0_0_3000_2400/master/3000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=52c1a2c9294926474c1323fc7b65e088" medium="image"/>
 </item>
 <item>
 <title>Microsoft Surface Laptop Ultra Review: The First Real AI PC</title>
@@ -1872,50 +1916,6 @@
 <description>US states sue ChatGPT maker and seek to force the company to change how its products work for young users Eight US states sued OpenAI Wednesday, alleging the ChatGPT maker is harming children en masse. Kansas, Arizona, Montana, Iowa and four others allege the company’s products carried out “willful, dangerous, reckless and unlawful conduct” by coaxing children into harming themselves. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7d3eaa4c326873e72c11da40614d5650" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/8f1d52dd128124b20d65f31b5f7791fd3dc1e307/560_0_5600_4480/master/5600.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7d3eaa4c326873e72c11da40614d5650" medium="image"/>
-</item>
-<item>
-<title>Cisco make-me-root email bug exploited as a 0-day by unknown crims</title>
-<link>https://www.theregister.com/security/2026/10/14/cisco-make-me-root-email-bug-exploited-as-a-0-day-by-unknown-crims/5303168</link>
-<guid isPermaLink="false">af2466d5df82a4b7dda14445a0e89a5cde86128d31c9b5e405590803af521696</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 21:40:29 +0000</pubDate>
-<description>Both Switchzilla and CISA sound the alarm</description>
-<enclosure url="https://image.theregister.com/?imageId=4094206&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=4094206&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Chaos ensues when AI interviewer meets AI interviewee</title>
-<link>https://www.theregister.com/offbeat/2026/10/14/chaos-ensues-when-ai-interviewer-meets-ai-interviewee/5303144</link>
-<guid isPermaLink="false">c9bf18a8b7e4575cdcef505d7bbed9bd2c8ab0d56cfdb7cb495c376cb9a5f291</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 20:53:37 +0000</pubDate>
-<description>Things got weird, but there's a lesson to be learned: Don't trust a bot to negotiate for you</description>
-<enclosure url="https://image.theregister.com/?imageId=5303153&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5303153&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Linux kernel devs drop obligatory confession of AI tool usage</title>
-<link>https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140</link>
-<guid isPermaLink="false">e00be9a464299d974ed6de433c7532c5ddf764978658481bd9f5b07377dd7464</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 20:16:31 +0000</pubDate>
-<description>Torvalds says contributors must understand their code, whatever tools they use</description>
-<enclosure url="https://image.theregister.com/?imageId=2918386&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=2918386&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Security researchers spent 6 days doing their Chromework, built 1B user exploit</title>
-<link>https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134</link>
-<guid isPermaLink="false">278db98f10a2798db57d9ae9d38b8b0d24c605292d8583263da27add69e03722</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 19:12:33 +0000</pubDate>
-<description>Xbow earned a $250K bug bounty and all the AI model got was a lousy t-shirt</description>
-<enclosure url="https://image.theregister.com/?imageId=5299685&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5299685&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Ready player one? Why the games arcade is having a rebirth</title>
