@@ -4,6 +4,50 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>On this day in space! Oct. 20, 1970: The Soviet Union launches last-ever Zond moon mission</title>
+<link>https://www.space.com/space-exploration/on-this-day-in-space-october-20-2026</link>
+<guid isPermaLink="false">91ee4344685cb54eec9515bfa38ae67e91b22cfe3ce4808188dacd0e26c9270e</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 20 Oct 2026 20:59:48 +0000</pubDate>
+<description>On Oct. 20, 1970, the Soviet Union launched the Zond 8 spacecraft on a mission to the moon. Here's why it mattered.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/jCa3PH9LDuQSYgKeP4U3ME-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/jCa3PH9LDuQSYgKeP4U3ME-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>SpaceX Swings to a Profit, Even as A.I. Spending Soars</title>
+<link>https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html</link>
+<guid isPermaLink="false">331ac372348211db734fc99fb2b86d04eb15c32ae3312fd14f395cb3888e5001</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Tue, 20 Oct 2026 20:32:32 +0000</pubDate>
+<description>Elon Musk’s rocket company also said its revenue had more than doubled, driven by its Starlink internet satellite service and artificial intelligence products.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/20/multimedia/20biz-spacex-earnings-khqm/20biz-spacex-earnings-khqm-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/20/multimedia/20biz-spacex-earnings-khqm/20biz-spacex-earnings-khqm-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>NASA to Conduct Low-Altitude Flights Over Texas Farmland</title>
+<link>https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland</link>
+<guid isPermaLink="false">05694927c60ab3949de24d686a12b4ca7496415c5ad5d0dda9d70d2ecf23e600</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Tue, 20 Oct 2026 20:21:36 +0000</pubDate>
+<description>Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from […]</description>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg?w=960" medium="image"/>
+</item>
+<item>
+<title>Can’t make it to the Lucas Museum of Narrative Art for the 'Star Wars' display? This is the companion book set you’re looking for!</title>
+<link>https://www.space.com/entertainment/space-books/cant-make-it-to-the-lucas-museum-of-narrative-art-for-the-star-wars-display-this-is-the-companion-book-set-youre-looking-for</link>
+<guid isPermaLink="false">0fdd33009bbad9e421c28ba51b94c23aa8f1047171e612eedea9f720903759dc</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 20 Oct 2026 20:00:00 +0000</pubDate>
+<description>Prepare for a lightspeed tour of Lucas's lifetime collection ofpaintings, posters, comics, concept art, and illustrations</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/KPkNFDYQLrena9wtMDRGie-1920-80.png" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/KPkNFDYQLrena9wtMDRGie-1920-80.png" medium="image"/>
+</item>
+<item>
 <title>NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module</title>
 <link>https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module</link>
 <guid isPermaLink="false">2f953910c20328395f4138f7994cac2ea19ca0dd271ea98270acacea508cd068</guid>
@@ -37,7 +81,7 @@
 <media:content url="https://static01.nyt.com/images/2026/09/14/science/14SCI-KETAMINE-FDA/14SCI-KETAMINE-FDA-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
-<title>A supercomputer is about to launch to the moon for the 1st time, aboard a rover named FLIP</title>
+<title>A supercomputer is about to launch to the moon aboard a rover named FLIP</title>
 <link>https://www.space.com/space-exploration/a-supercomputer-is-about-to-launch-to-the-moon-for-the-1st-time-aboard-a-rover-named-flip</link>
 <guid isPermaLink="false">b0551bbbfc758863d2249a0809f694cf241fecf834ddc14d61773feaa4b2eab5</guid>
 <source>Space.com</source>
@@ -332,17 +376,6 @@
 <description>One new study shows how much the moon has diminished over time.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/6FgJftCLQSeJfevpuXDnxJ-1920-80.png" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/6FgJftCLQSeJfevpuXDnxJ-1920-80.png" medium="image"/>
-</item>
-<item>
-<title>Software</title>
-<link>https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software</link>
-<guid isPermaLink="false">8ec43f8608b1e6967437a78f9b5bdecc029210695e3da9bfcab5d6fbc564fbb2</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Mon, 19 Oct 2026 18:11:40 +0000</pubDate>
-<description>Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems. Copies of our software can be requested from NASA’s Software Catalog. JeNo Development of jet noise prediction codes is multifaceted. […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2023/01/GRC-2019-C-03368-1.jpg?w=1536" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2023/01/GRC-2019-C-03368-1.jpg?w=1536" medium="image"/>
 </item>
 <item>
 <title>Latest Climate Report Warns of Major Upheaval to California Way of Life</title>
@@ -981,28 +1014,6 @@
 <description>Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain. The post How Do Fungi Keep the Planet Healthy? first appeared on Quanta Magazine</description>
 <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E10-cr-Chanelle-Nibbelink-Default-NO-LOGO.webp" type="image/jpeg"/>
 <media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E10-cr-Chanelle-Nibbelink-Default-NO-LOGO.webp" medium="image"/>
-</item>
-<item>
-<title>Beat light pollution with these six portable telescopes</title>
-<link>https://www.space.com/stargazing/skywatching-kit/beat-light-pollution-with-these-six-portable-telescopes</link>
-<guid isPermaLink="false">2c5a94af85f57be77e783a3f1a90d36b99eee867241c7e6b1fcbfcd2d89a7aaa</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
-<description>Sick of skyglow spoiling your stargazing? These six telescopes are portable enough that you can easily pack them away and seek out darker skies.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/tagaccN2B423BVxCHJ2Qj6-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/tagaccN2B423BVxCHJ2Qj6-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Scientists discover 'chemical starter kit' for life in planetary birthplaces</title>
-<link>https://www.space.com/space-exploration/search-for-life/scientists-discover-chemical-starter-kit-for-life-in-planetary-birthplaces</link>
-<guid isPermaLink="false">a69f09c9894ffff82c3a07acda1b3799c15a4809595c525729e1563199c0964e</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>The discovery of surprising molecules of methanol and associated maser activity has expanded the inventory of the chemical starter kit that builds planets in young star systems.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/GS5DX5J9YLhHC7HSYZHFCD-1920-80.png" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/GS5DX5J9YLhHC7HSYZHFCD-1920-80.png" medium="image"/>
 </item>
 <item>
 <title>A New World of Lung Cancer Therapy Awaits Pope Leo</title>
