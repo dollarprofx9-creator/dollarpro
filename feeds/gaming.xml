@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>3 Video Games Where Your Choices Actually Make a Difference</title>
+<link>https://www.polygon.com/best-games-choices-impact</link>
+<guid isPermaLink="false">2d392fa54a625325feeba0a5b6983a67c43e177f783f911b4a7c54574bef25f9</guid>
+<source>Polygon</source>
+<category>gaming</category>
+<pubDate>Tue, 20 Oct 2026 00:34:42 +0000</pubDate>
+<description>Games where choices matter often narrow what matters to character death or branching endings. These narrative-driven games do it differently</description>
+<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/games-where-choices-matter.jpg" type="image/jpeg"/>
+<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/games-where-choices-matter.jpg" medium="image"/>
+</item>
+<item>
 <title>'Red Dead Redemption' 2 Mod Is 'Shadow of Mordor' Meets the Wild West</title>
 <link>https://www.polygon.com/red-dead-redemption-2-nemesis-system-mod-shadow-of-mordor</link>
 <guid isPermaLink="false">7aa1116c115b5e41f9723982954fedb79282fc83cb9726ea3f5ee374e3d84a21</guid>
@@ -101,16 +112,5 @@
 <description>ReVamp developer Digital Sun is limiting an upcoming playtest to combat AI cloning fears</description>
 <enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/revamp-key-art-dracula.png" type="image/jpeg"/>
 <media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/revamp-key-art-dracula.png" medium="image"/>
-</item>
-<item>
-<title>It's the End of An Era for Netflix Movies</title>
-<link>https://www.polygon.com/netflix-movies-tv-creative-overhaul-dan-lin-bela-bajaria-peter-rice</link>
-<guid isPermaLink="false">0cf343168b5f0512e513983141909794de5bd60b129eaf7ddd661b0191a9395a</guid>
-<source>Polygon</source>
-<category>gaming</category>
-<pubDate>Mon, 19 Oct 2026 18:40:30 +0000</pubDate>
-<description>Amid Netflix axing 1,000 jobs, Netflix head of film Dan Lin and chief creative officer Bela Bajaria are out at the streamer, with new blood coming in.</description>
-<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/wm_unit_11666_r.jpg" type="image/jpeg"/>
-<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/03/wm_unit_11666_r.jpg" medium="image"/>
 </item>
 </channel></rss>
