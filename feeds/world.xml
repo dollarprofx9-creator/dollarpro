@@ -4,15 +4,180 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Christina Applegate says she was misdiagnosed with MS</title>
-<link>https://abcnews.com/GMA/Culture/christina-applegate-misdiagnosed-ms/story?id=137407744</link>
-<guid isPermaLink="false">2142574600d618ffcea56efe201cc5ed61e3e2762e998fda68a3467eeae1c2d0</guid>
+<title>LIVE: ABC News Live</title>
+<link>https://abcnews.com/video/41463246</link>
+<guid isPermaLink="false">c4dde2f9d4430a48432ef223ef2dea7731f9a2b9448e21ee003bf7e7734a1e77</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Tue, 20 Oct 2026 15:01:27 +0000</pubDate>
-<description>Christina Applegate says she was misdiagnosed with the neurological and autoimmune disorder multiple sclerosis.</description>
-<enclosure url="https://s.abcnews.com/images/GMA/applegate-gty-jef-261020_1792498019373_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/GMA/applegate-gty-jef-261020_1792498019373_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Tue, 20 Oct 2026 19:12:05 +0000</pubDate>
+<description>24/7 coverage of breaking news and live events</description>
+<enclosure url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>WATCH: Trump says what Russia is doing to Ukraine is 'fine'</title>
+<link>https://abcnews.com/video/137418640</link>
+<guid isPermaLink="false">8eb48b13f6d4fa4b6f85bbf81b49bb4825b240762d615de5072e8bb7e2bfa1dc</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 18:44:12 +0000</pubDate>
+<description>Former U.S. Ambassador to Ukraine Bill Taylor reacts to the latest comments from President Donald Trump on Russia as questions grow over America's support of Ukraine.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/261020_abcnl_12p_taylor_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/261020_abcnl_12p_taylor_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Woman killed in shark attack in South Africa</title>
+<link>https://news.sky.com/story/woman-65-killed-in-shark-attack-in-south-africa-13601492</link>
+<guid isPermaLink="false">d297c7779e8f208ba9bbf53dfd3045747d0fad61c7557ee822dc1d65571159af</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 18:30:00 +0000</pubDate>
+<description>A 65-year-old woman was killed in a shark attack at a popular beach on South Africa's southeastern coast, local authorities said.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-south-africa-shark_7382062.jpg?20261020185414" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-south-africa-shark_7382062.jpg?20261020185414" medium="image"/>
+</item>
+<item>
+<title>Couple charged in fatal shooting of 17-year-old on her way to zoo</title>
+<link>https://abcnews.com/US/couple-charged-fatal-shooting-17-year-zoo/story?id=137415681</link>
+<guid isPermaLink="false">5ba0dbeef39b7b36d86c9f68df74c1efeb2625ae4b3d1e58a1fb6a8aa48c0e59</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 18:05:30 +0000</pubDate>
+<description>A husband and wife from Texas have been arrested and charged in the killing of a 17-year-old who was shot on Interstate 170 last week.</description>
+<enclosure url="https://s.abcnews.com/images/US/alyssa-wilson-ht-gmh-261020_1792509880612_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/alyssa-wilson-ht-gmh-261020_1792509880612_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Trump attacks Democratic challenger Hamilton at Kansas rally as Senate race tightens</title>
+<link>https://abcnews.com/Politics/trump-attacks-democratic-challenger-adam-hamilton-kansas-rally/story?id=137404084</link>
+<guid isPermaLink="false">c72a2b100dcede9ca8dc545bdde4a873fd5fdd55e334d7c246cc0d2089eb773c</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 17:59:50 +0000</pubDate>
+<description>President Donald Trump took the stage in Kansas on Monday night to campaign for Sen. Roger Marshall, a one-term incumbent facing a close race against Adam Hamilton.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/trump-kansas-rally_1792482283930_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/trump-kansas-rally_1792482283930_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Controversial Jackdaw gas field expected to be approved</title>
+<link>https://news.sky.com/story/controversial-jackdaw-gas-field-expected-to-be-approved-13601501</link>
+<guid isPermaLink="false">e48ab5f0bb91230b9c7b103e61f39cb3cdfaf58942d2921c558a4c56b2971851</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 17:56:00 +0000</pubDate>
+<description>The controversial Jackdaw gas field is expected to receive approval from energy secretary Miatta Fahnbulleh on Wednesday.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-jackdaw-jackdaw-gas-platform_7382009.jpg?20261020180913" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-jackdaw-jackdaw-gas-platform_7382009.jpg?20261020180913" medium="image"/>
+</item>
+<item>
+<title>US nearing deal with Russia to free multiple jailed Americans: Sources</title>
+<link>https://abcnews.com/Politics/us-nearing-deal-russia-free-multiple-jailed-americans/story?id=137415614</link>
+<guid isPermaLink="false">15f4569f5126546d9f9906e6d0f93b57e67ea54d4a0651c1fc212cc2a09d35b2</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 17:32:21 +0000</pubDate>
+<description>Sources say the talks have centered on freeing Stephen Hubbard.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/stephen-hubbard-01-ap-jt-261020_1792515206298_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/stephen-hubbard-01-ap-jt-261020_1792515206298_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>How French police are harnessing social media to identify looters</title>
+<link>https://www.france24.com/en/france/20261020-how-french-police-are-harnessing-social-media-to-identify-looters</link>
+<guid isPermaLink="false">1b37f14c5ccf07ad6579da15785f8a4f892e91ad65931d6af0c546da74b27d55</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 16:50:49 +0000</pubDate>
+<description>French police are turning to social media to identify and arrest suspects linked to last weekend’s looting and unrest. Investigators are scrutinising videos posted online alongside footage from thousands of security cameras to track suspects and gather evidence. The crackdown comes as the government vows to hold those responsible for the violence and damage to shops accountable.</description>
+<enclosure url="https://s.france24.com/media/display/33d21e38-cca2-11f1-b8ea-4dd8ac2cf3bf/w:1024/p:16x9/AP26290607552722.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/33d21e38-cca2-11f1-b8ea-4dd8ac2cf3bf/w:1024/p:16x9/AP26290607552722.jpg" medium="image"/>
+</item>
+<item>
+<title>Man arrested for alleged threats to shoot President Trump at Kansas rally</title>
+<link>https://abcnews.com/Politics/man-arrested-alleged-threats-shoot-president-trump-kansas/story?id=137412221</link>
+<guid isPermaLink="false">cb8841491777beea20c831872d24cd1a8aafbde57fdaf0e78d8a9e3c7b1291bb</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 16:38:57 +0000</pubDate>
+<description>Authorities allege the man posted several threatening messages on Facebook.</description>
+<enclosure url="https://s.abcnews.com/images/US/donald-trump-9-gty-gmh-261020_1792504384339_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/donald-trump-9-gty-gmh-261020_1792504384339_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Vanessa Kerry is the new WHO envoy for health resilience. What's on her to-do list?</title>
+<link>https://www.npr.org/2026/10/20/g-s1-147952/vanessa-kerry-resilience-world-health-organization</link>
+<guid isPermaLink="false">8a6eef0c3900d29e1bdb2c6c826aa6ef59f2734855a2c1660cc94f5a17308c6e</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 16:27:01 +0000</pubDate>
+<description>A respected figure in the world of global health, Dr. Kerry takes on a new responsibility. She says it's challenging but not "daunting."</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7488x4994+0+0/resize/7488x4994!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc0%2F90%2F4f665d9f4d81964f45a46a8541b5%2Fgettyimages-1258930506.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7488x4994+0+0/resize/7488x4994!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc0%2F90%2F4f665d9f4d81964f45a46a8541b5%2Fgettyimages-1258930506.jpg" medium="image"/>
+</item>
+<item>
+<title>More than 150 killed in Sudan drone strike on disputed Abyei border region</title>
+<link>https://www.france24.com/en/africa/20261020-more-than-150-killed-sudan-drone-strike-disputed-abyei-border-region</link>
+<guid isPermaLink="false">03bda77246f12928d9a3aa193895b933cadfe91b83afdd45f1c7fcd53ed7936e</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 16:24:47 +0000</pubDate>
+<description>At least 153 people have been killed in a drone strike on a market in the disputed Abyei region, where a fire at a nearby fuel depot continued to burn on Tuesday. Local officials blamed Sudan’s military for Monday’s attack, which also left dozens injured.</description>
+<enclosure url="https://s.france24.com/media/display/06f56856-cc9e-11f1-acba-638c1c1f5fd6/w:1024/p:16x9/AP071212050372.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/06f56856-cc9e-11f1-acba-638c1c1f5fd6/w:1024/p:16x9/AP071212050372.jpg" medium="image"/>
+</item>
+<item>
+<title>France: Local curfews imposed after protests</title>
+<link>https://www.france24.com/en/video/20261020-france-local-curfews-imposed-after-protests</link>
+<guid isPermaLink="false">2140d452bc71826ba663b16929950e8d12ad8a4eda88c2e12caeab83629dd2e5</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 16:09:44 +0000</pubDate>
+<description>French cities that imposed a curfew Monday saw a generally calm night, after October 17 protests devolved into violent riots this past weekend. Despite criticism from citizens, France's government said it is maintaining the measure where necessary on Tuesday night.</description>
+<enclosure url="https://s.france24.com/media/display/39de51f0-cc9f-11f1-bc4d-4dd8ac2cf3bf/w:1024/p:16x9/title-3-1.jpeg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/39de51f0-cc9f-11f1-bc4d-4dd8ac2cf3bf/w:1024/p:16x9/title-3-1.jpeg" medium="image"/>
+</item>
+<item>
+<title>DOJ charges 28 with unlawful voting, other election-related offenses in California</title>
+<link>https://abcnews.com/US/doj-charges-28-unlawful-voting-election-related-offenses/story?id=137384589</link>
+<guid isPermaLink="false">773682101be48f9f2d1bfdd90e426f5ee272b39a55313c6ba44628f27ef3c83b</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 15:54:17 +0000</pubDate>
+<description>The DOJ has charged 28 individuals in California with election-related offenses, and did not rule out prosecuting election workers who are "processing the ballots" there.</description>
+<enclosure url="https://s.abcnews.com/images/US/vote-4-gty-gmh-261019_1792414804974_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/vote-4-gty-gmh-261019_1792414804974_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>France's decades-long ties with Gulf states built on 'economic development, oil, defence agreements'</title>
+<link>https://www.france24.com/en/video/20261020-france-s-decades-long-ties-with-gulf-states-built-on-economic-development-oil-defense-agreements-1</link>
+<guid isPermaLink="false">429a4eb3fad2c3019a056a2079979037a82aeeeb8e8790b46c5cc9c6b5a7795a</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 15:52:47 +0000</pubDate>
+<description>Genie Godula is pleased to welcome François Gouyette, former French ambassador to the UAE and Saudi Arabia. Against a backdrop of violent unrest at home and escalating conflict in the Middle East, French President Emmanuel Macron's Gulf diplomacy underscores the increasingly blurred boundaries between domestic economic security and international strategic commitments. Ambassador Gouyette argues that the visit serves a dual purpose: alleviating France's energy pressures while reaffirming its longstanding defense partnerships with Gulf monarchies. Insisting that "France has to play its role as a key partner," Gouyette portrays French military assistance as an expression of strategic solidarity rather than direct participation in the war with Iran.</description>
+<enclosure url="https://s.france24.com/media/display/4d3474bc-cc97-11f1-b7a6-638c1c1f5fd6/w:1024/p:16x9/EN-20261020-140836-141726-CS.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/4d3474bc-cc97-11f1-b7a6-638c1c1f5fd6/w:1024/p:16x9/EN-20261020-140836-141726-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>US midterm elections: Trump approval rating falls to new low</title>
+<link>https://www.france24.com/en/video/20261020-us-midterm-elections-trump-approval-rating-falls-to-new-low</link>
+<guid isPermaLink="false">bc210483afa78b7f7c72dbf6dcbeca7fd936092431dfe7948af6d61e729ca06f</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 15:22:29 +0000</pubDate>
+<description>With US President Donald Trump’s approval rating falling to a record low of 31%, Republicans are facing mounting concerns ahead of November’s midterm elections. Republicans are at risk of losing control of the House of Representatives, but how big could the Democrats’ gains be? FRANCE 24’s International Affairs Editor Kethevane Gorjestani explains.</description>
+<enclosure url="https://s.france24.com/media/display/78964d88-cba7-11f1-83fd-638c1c1f5fd6/w:1024/p:16x9/2026-10-17T212609Z-1651462827-RC285OA65KAS-RTRMADP-3-USA-TRUMP-KENTUCKY.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/78964d88-cba7-11f1-83fd-638c1c1f5fd6/w:1024/p:16x9/2026-10-17T212609Z-1651462827-RC285OA65KAS-RTRMADP-3-USA-TRUMP-KENTUCKY.jpg" medium="image"/>
+</item>
+<item>
+<title>Two men re-arrested on suspicion of assisting Iran after RAF Fairford incident</title>
+<link>https://news.sky.com/story/two-men-re-arrested-in-raf-fairford-investigation-13596084</link>
+<guid isPermaLink="false">f8857414b2d36dd1562b36fde0b54c150bc97707b2cbae18811355869dd5475b</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 15:17:00 +0000</pubDate>
+<description>Two men have been re-arrested on suspicion of assisting Iran’s intelligence service over a suspected terror plot near RAF Fairford.</description>
+<enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-raf-fairford-gloucestershire_7363694.jpg?20260929031312" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/09/1920x1080/skynews-raf-fairford-gloucestershire_7363694.jpg?20260929031312" medium="image"/>
 </item>
 <item>
 <title>From fine wine to no alcohol: The changing world of French sommeliers</title>
@@ -37,17 +202,6 @@
 <media:content url="https://s.france24.com/media/display/6ff3a0ce-cc95-11f1-a599-4dd8ac2cf3bf/w:1024/p:16x9/EN-20261020-160252-160702-CS.jpg" medium="image"/>
 </item>
 <item>
-<title>Iran live updates: Trump says US is winning war, 'can leave right now'</title>
-<link>https://abcnews.com/International/live-updates/iran-live-updates?id=137370653</link>
-<guid isPermaLink="false">aea2f18822cdc0181cee20821c73b4767f93896f8e57783a988ade2d16bb0ccb</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 14:41:34 +0000</pubDate>
-<description>President Donald Trump announced "major combat operations" against Iran on Feb. 28.</description>
-<enclosure url="https://s.abcnews.com/images/US/donald-trump-9-gty-gmh-261020_1792504384339_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/donald-trump-9-gty-gmh-261020_1792504384339_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>October 17 riots in France: Who's responsible?</title>
 <link>https://www.france24.com/en/tv-shows/entre-nous/20261020-october-17-riots-in-france-who-s-responsible</link>
 <guid isPermaLink="false">1d9297641f888977550524da65afdd589a06a4498cd9817f4fa1804aa265436d</guid>
@@ -57,6 +211,17 @@
 <description>We take a look at who is responsible for the violence that broke out in France on October 17. We dive into who the casseurs, or lawbreakers, are and how a bill is proposing that they pay for the damage they caused. We also discuss the French government’s mea culpa and the ongoing political blame game, with a budding controversy over whether the vandals were "ultra-left" members or not.</description>
 <enclosure url="https://s.france24.com/media/display/467d7fa4-cc8a-11f1-9361-6313a763b466/w:1024/p:16x9/capture-53e82e25.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/467d7fa4-cc8a-11f1-9361-6313a763b466/w:1024/p:16x9/capture-53e82e25.jpg" medium="image"/>
+</item>
+<item>
+<title>Some older siblings left raising family members after parents' deportation: Advocates</title>
+<link>https://abcnews.com/US/older-siblings-left-raising-younger-family-members-after/story?id=137303121</link>
+<guid isPermaLink="false">62a9c9944a34673a700879ced910614cd4708ee63c14fe9d2a49d6333562383b</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 14:37:40 +0000</pubDate>
+<description>Some older siblings have been left to care for their younger family members following the deportation of their parents, advocacy groups say.</description>
+<enclosure url="https://s.abcnews.com/images/US/domingo-1-ht-er-261016_1792170775858_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/domingo-1-ht-er-261016_1792170775858_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>French Justice Minister promises 'extremely firm' punishment for rioters</title>
@@ -81,26 +246,15 @@
 <media:content url="https://s.france24.com/media/display/15e27694-cc8d-11f1-ae58-6313a763b466/w:1024/p:16x9/000-D3UU32L.jpg" medium="image"/>
 </item>
 <item>
-<title>Zelensky in Oslo for talks with US envoys as Ukraine claims missile holdup</title>
+<title>Ukraine ‘losing people and time’, Zelensky says after Oslo talks</title>
 <link>https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup</link>
 <guid isPermaLink="false">27a933f0849a7e2dd0ca287aa164a12e316bab3289b3a4a1c555c19e7da64310</guid>
 <source>France 24</source>
 <category>world</category>
 <pubDate>Tue, 20 Oct 2026 14:11:29 +0000</pubDate>
-<description>Ukrainian President Volodymyr Zelensky arrived in Norway Tuesday to meet with US envoys in order to put diplomacy back on a "more constructive path”, Oslo officials said. Relations between Kyiv and Washington have deteriorated since US President Donald Trump reached an agreement with Moscow last week to purchase Russian diesel and Zelensky accused the US of delaying the planned delivery of interceptor missiles.</description>
+<description>Ukrainian President Volodymyr Zelensky has wrapped up talks with US envoys in Norway Tuesday where he was determined to put diplomacy back on a "more constructive path”, Oslo officials said. Zelensky told a post-meeting press briefing that Ukraine was not losing the war but was “losing people and time” saying he was hopeful moving forward because “we have some clear ideas of how to get peace”.</description>
 <enclosure url="https://s.france24.com/media/display/44a485fe-cc87-11f1-aa77-6313a763b466/w:1024/p:16x9/2026-10-20T130240Z-522570672-RC207OAT5BB7-RTRMADP-3-UKRAINE-CRISIS.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/44a485fe-cc87-11f1-aa77-6313a763b466/w:1024/p:16x9/2026-10-20T130240Z-522570672-RC207OAT5BB7-RTRMADP-3-UKRAINE-CRISIS.jpg" medium="image"/>
-</item>
-<item>
-<title>Prince Harry says he would like to 'reconcile' with his family</title>
-<link>https://news.sky.com/story/prince-harry-says-he-would-like-to-reconcile-with-his-family-13601384</link>
-<guid isPermaLink="false">fd34957a573b8411f774bcc0c1e00a255bb8b093674585c694a481793576937b</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 14:04:00 +0000</pubDate>
-<description>Prince Harry has spoken of how he would like to "reconcile" with his family.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-prince-harry-princess-diana_7371675.jpg?20261009025622" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-prince-harry-princess-diana_7371675.jpg?20261009025622" medium="image"/>
 </item>
 <item>
 <title>Midterms: Trump seizes on unrest in France for political gain</title>
@@ -112,17 +266,6 @@
 <description>Donald #Trump seizes on unrest in #France to attack immigration and the #Democrats, using the issue as a campaign message ahead of the November 3 US #midterms.</description>
 <enclosure url="https://s.france24.com/media/display/5327729a-cc8b-11f1-b9df-4dd8ac2cf3bf/w:1024/p:16x9/trump-france-00-01-27-24-Still001.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/5327729a-cc8b-11f1-b9df-4dd8ac2cf3bf/w:1024/p:16x9/trump-france-00-01-27-24-Still001.jpg" medium="image"/>
-</item>
-<item>
-<title>WATCH: Jake Bauers speaks out before World Series with wife</title>
-<link>https://abcnews.com/video/137407470</link>
-<guid isPermaLink="false">1f3c0c40e154d8401646ec14b6c5b388779fd8fb99bfb033dc8a63fdc8cf9d39</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 13:53:14 +0000</pubDate>
-<description>ABC News exclusive: Brewers playoff hero Jake Bauers and his wife, Lauren, speak with Will Reeve about how he revived his career after nearly walking away from baseball.</description>
-<enclosure url="https://s.abcnews.com/images/GMA/261020_gma_reeve_bauers_745_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/GMA/261020_gma_reeve_bauers_745_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Alberta rejects move toward independence from Canada</title>
@@ -246,15 +389,26 @@
 <media:content url="https://s.france24.com/media/display/94bdba32-c96d-11f1-9e3e-6313a763b466/w:1024/p:16x9/skyline-Tel-Aviv.jpg" medium="image"/>
 </item>
 <item>
-<title>BBC announces details of cuts in bid to save £500m</title>
+<title>Channels to close as BBC announces details of cuts</title>
 <link>https://news.sky.com/story/bbc-announces-details-of-cuts-in-bid-to-save-500m-13601364</link>
 <guid isPermaLink="false">1b67616edd3b1eafe8da97e4151c40e06f57ec4d942ea940c823f42452ceacb1</guid>
 <source>Sky News Home</source>
 <category>world</category>
 <pubDate>Tue, 20 Oct 2026 12:55:00 +0000</pubDate>
-<description>The BBC has confirmed the closure of BBC Three, BBC Scotland and BBC Radio 4 Extra linear broadcast services in the spring of 2027.</description>
+<description>The BBC has confirmed it will close BBC Three, BBC Scotland and BBC Radio 4 Extra linear broadcast services in the spring of 2027.</description>
 <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-bbc-london_7381744.jpg?20261020144228" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-bbc-london_7381744.jpg?20261020144228" medium="image"/>
+</item>
+<item>
+<title>Neglect in hospital contributed to baby's meningitis death, jury rules</title>
+<link>https://news.sky.com/story/neglect-in-hospital-contributed-to-babys-meningitis-death-jury-rules-13601362</link>
+<guid isPermaLink="false">5355b77cfb892275e33aff7ed48dcbfaecbf019201f9d2b4e7b0e3bfe2cfadcf</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 12:41:00 +0000</pubDate>
+<description>Neglect contributed to the death of a five-month-old girl who died from meningitis after opportunities were missed in hospital to save or prolong her life, an inquest jury has found.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-esta-alina-high-lynsey-carr_7381975.jpg?20261020171545" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-esta-alina-high-lynsey-carr_7381975.jpg?20261020171545" medium="image"/>
 </item>
 <item>
 <title>Exiled critic of Rwandan President Kagame found beheaded in Uganda</title>
@@ -279,54 +433,10 @@
 <media:content url="https://s.france24.com/media/display/0dee99ea-cc7e-11f1-9a40-2d1c143cdef3/w:1024/p:16x9/capture-7a2f75c4.jpg" medium="image"/>
 </item>
 <item>
-<title>Kenyan cult leader found guilty of murder</title>
-<link>https://www.france24.com/en/tv-shows/eye-on-africa/20261020-kenyan-cult-leader-found-guilty-of-murder</link>
-<guid isPermaLink="false">a2020938a17e121ccf3398b25e988289d21c0aa88c8d4e221c75838cc068d9de</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 12:15:27 +0000</pubDate>
-<description>In tonight's programme: Kenyan cult leader Paul Mackenzie is convicted of 191 murders, 190 of which were of children. Also, a former Rwandan soldier and outspoken government critic, Robert Kabera, is found decapitated in Uganda. Plus we meet a young Ivorian music lover who travels around the country looking for old-school sounds that need a little TLC.</description>
-<enclosure url="https://s.france24.com/media/display/f871ee72-cc7e-11f1-bb25-d1d2c32ebb87/w:1024/p:16x9/capture-0ac0abc7.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/f871ee72-cc7e-11f1-bb25-d1d2c32ebb87/w:1024/p:16x9/capture-0ac0abc7.jpg" medium="image"/>
-</item>
-<item>
-<title>'Very poor communicators: Macron &amp; his govt fail to address 'genuine concerns of the French people'</title>
-<link>https://www.france24.com/en/very-poor-communicators-macron-his-govt-fail-to-address-genuine-concerns-of-the-french-people</link>
-<guid isPermaLink="false">3391abc3aa951bf8c86dca7ce451bc6eff61d6a1e8ad0938770db503f16edc41</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 11:49:16 +0000</pubDate>
-<description>Annette Young is pleased to welcome Dr Joseph Downing, Senior Lecturer International Relations and Politics at Aston University. French unrest raises questions about political accountability, police exhaustion and the increasingly confrontational relationship between citizens and the state. Downing argues that France must reassess how the state exercises authority and responds to both violent unrest and legitimate social movements. And he draws attention to France's centralised policing culture, its revolutionary traditions and the wider threat of Russian information warfare.</description>
-<enclosure url="https://s.france24.com/media/display/66fcfa2c-cc6f-11f1-9306-6313a763b466/w:1024/p:16x9/EN-20261019-151050-152231-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/66fcfa2c-cc6f-11f1-9306-6313a763b466/w:1024/p:16x9/EN-20261019-151050-152231-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>France imposes curfews after weekend violence, but is it too much or too little?</title>
-<link>https://www.france24.com/en/tv-shows/press-review/20261020-france-imposes-curfews-after-weekend-violence-but-is-it-too-much-or-too-little</link>
-<guid isPermaLink="false">0bfd4a8695f46c33c3a15b6d95b16afa81692b56dbad537b7cf5e0d53ebf6527</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 11:47:03 +0000</pubDate>
-<description>PRESS REVIEW – Tuesday, October 20: We look at reactions from the French press after President Emmanuel Macron's government announces a curfew in parts of the country. Is it too much or not enough? We also look at what the foreign press from Britain, Germany and the US are saying about the weekend's violence. Meanwhile, the Italian press react to violent looting and destruction of property in Italy as the government there mulls sending in 500 armed troops.</description>
-<enclosure url="https://s.france24.com/media/display/f16b8980-cc4c-11f1-b509-6313a763b466/w:1024/p:16x9/Anglais-2026-10-20T05-22-28-363Z.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/f16b8980-cc4c-11f1-b509-6313a763b466/w:1024/p:16x9/Anglais-2026-10-20T05-22-28-363Z.jpg" medium="image"/>
-</item>
-<item>
-<title>Midterm vote is about 'what's best for my family': Voters talk 2026 midterms</title>
-<link>https://abcnews.com/Politics/midterm-vote-whats-best-family-voters-talk-2026/story?id=137355210</link>
-<guid isPermaLink="false">405c855b6435d0d62948ef402f8acf63f36bd9e33c5d5ada72520dbfdf720756</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 11:38:48 +0000</pubDate>
-<description>ABC News spoke with voters in Alaska, Iowa, New Hampshire and Maine.</description>
-<enclosure url="https://s.abcnews.com/images/ThisWeek/Josh-York_1792289293266_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/ThisWeek/Josh-York_1792289293266_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Four soldiers from UN-backed force missing after gang attack in Haiti</title>
 <link>https://news.sky.com/story/four-soldiers-from-un-backed-force-missing-after-gang-attack-in-haiti-13601304</link>
 <guid isPermaLink="false">d3c63f4d5d247f2fb22f7beabe9735848426f604c8f88c6163ceff2bd2bd45fb</guid>
-<source>Sky News Home</source>
+<source>Sky News World</source>
 <category>world</category>
 <pubDate>Tue, 20 Oct 2026 10:59:00 +0000</pubDate>
 <description>Four soldiers from El Salvador are unaccounted for after being attacked by heavily-armed gangs in Haiti.</description>
@@ -345,6 +455,17 @@
 <media:content url="https://s.abcnews.com/images/US/vote-12gty-gmh-261019_1792414805435_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
+<title>Triumphal Arch final plans submitted to National Capital Planning Commission</title>
+<link>https://abcnews.com/Politics/triumphal-arch-final-plans-submitted-interior-department-national/story?id=137392598</link>
+<guid isPermaLink="false">26cdb33dc01d2b6a6ec54053a566208924c167a307e2fad6663d543c62c3a4b4</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 20 Oct 2026 10:38:11 +0000</pubDate>
+<description>The plans are scheduled to be reviewed at a Nov. 5 National Capital Planning Commission meeting.</description>
+<enclosure url="https://s.abcnews.com/images/US/arch-1-ht-gmh-261019_1792435449124_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/arch-1-ht-gmh-261019_1792435449124_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>What if an AI bubble bursts — and that accelerates AI job losses?</title>
 <link>https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses</link>
 <guid isPermaLink="false">93590db6a53c7325cb17ff90e32f4e744e921c2074e87c6927aef983733c529d</guid>
@@ -354,28 +475,6 @@
 <description>Research on past recessions suggests downturns can accelerate automation. That raises the specter of a double whammy for workers.</description>
 <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6007x3559+0+0/resize/6007x3559!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F73%2F30ccbe9b4d3c903bb381870a6cf5%2Fgettyimages-1466243146.jpg" type="image/jpeg"/>
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6007x3559+0+0/resize/6007x3559!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F73%2F30ccbe9b4d3c903bb381870a6cf5%2Fgettyimages-1466243146.jpg" medium="image"/>
-</item>
-<item>
-<title>Horror and disbelief after lawmaker attacked in rural Australia</title>
-<link>https://www.france24.com/en/video/20261020-horror-and-disbelief-after-lawmaker-attacked-in-rural-australia</link>
-<guid isPermaLink="false">4fb776cedfb3895b71e763a6a1b079f97ffeb86dfecbcb295c35f1646d4abbc6</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 10:26:39 +0000</pubDate>
-<description>A rural Australian town felt a mix of horror and disbelief on Tuesday after a highly respected lawmaker was gravely injured in what looked to be a targeted attack. Former nurse and midwife Helen Haines entered parliament in 2019, earning respect across the political divide for her efforts to stamp out corruption and bolster transparency. The 65-year-old was struck by a two-tonne SUV in Wangaratta on Monday afternoon.</description>
-<enclosure url="https://s.france24.com/media/display/0d02b4ba-cc67-11f1-8ab9-2d1c143cdef3/w:1024/p:16x9/EN-20261020-101953-102144-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/0d02b4ba-cc67-11f1-8ab9-2d1c143cdef3/w:1024/p:16x9/EN-20261020-101953-102144-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>Kenyan cult leader guilty on all charges over 191 starvation deaths</title>
-<link>https://www.france24.com/en/video/20261020-kenyan-cult-leader-guilty-on-all-charges-over-191-starvation-deaths</link>
-<guid isPermaLink="false">265bd7cb46813807e0d9f139ec977187a8d4f62398f3775bd7238d804d79b26b</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 10:25:08 +0000</pubDate>
-<description>A self-proclaimed Kenyan preacher and his associates were on Monday found guilty of murdering 190 children and one adult in an infamous starvation cult. Hundreds of bodies have been discovered since 2023 at the cult base inland from the Kenyan beach resort of Malindi, in what became known as the "Shakahola Forest Massacre".</description>
-<enclosure url="https://s.france24.com/media/display/7ed1356c-cc67-11f1-8345-638c1c1f5fd6/w:1024/p:16x9/EN-20261020-102213-102409-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/7ed1356c-cc67-11f1-8345-638c1c1f5fd6/w:1024/p:16x9/EN-20261020-102213-102409-CS.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Study shows Gulf oil spill's lasting damage</title>
@@ -389,17 +488,6 @@
 <media:content url="https://s.abcnews.com/images/US/261020_gmafl_oil_spill_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Man to stand trial over murder of woman in Scotland in 1994</title>
-<link>https://news.sky.com/story/shona-stevens-man-to-stand-trial-over-murder-in-scotland-in-1994-13601283</link>
-<guid isPermaLink="false">02bf97b4619f23f08b8c95f230c1cb64a3f3f48ae38e5195559e6e9898ff5841</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 10:06:00 +0000</pubDate>
-<description>A man is to stand trial over the murder of a woman in North Ayrshire more than 30 years ago.</description>
-<enclosure url="https://e3.365dm.com/25/07/1920x1080/skynews-candice-shona-stevens_6973411.jpg?20261020111117" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/25/07/1920x1080/skynews-candice-shona-stevens_6973411.jpg?20261020111117" medium="image"/>
-</item>
-<item>
 <title>Albanians set fire to government buildings and clash with riot police in latest protests</title>
 <link>https://news.sky.com/story/albanians-set-fire-to-government-buildings-and-clash-with-riot-police-in-latest-protests-13601275</link>
 <guid isPermaLink="false">849ac38161df778e5e4defcf0ea631dc9076ee3775ed12f3e9befeb1fb3a2f11</guid>
@@ -411,17 +499,6 @@
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-albania-tirana_7381536.jpg?20261020114743" medium="image"/>
 </item>
 <item>
-<title>Australian MP hit by vehicle has leg amputated - as suspect's father says she is family friend</title>
-<link>https://news.sky.com/story/man-charged-after-australian-mp-struck-by-vehicle-13601264</link>
-<guid isPermaLink="false">6e8a4fbea08004776cb9bdbdf2d869d3b15acb904efb7bf106d269333955880d</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 09:11:00 +0000</pubDate>
-<description>Police have charged a man after an Australian MP was hit by a vehicle, causing her to undergo a leg amputation.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-helen-haines-australia_7380471.jpg?20261019092518" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-helen-haines-australia_7380471.jpg?20261019092518" medium="image"/>
-</item>
-<item>
 <title>TikTok staff raised child safety alarms. Court records show executives failed to act</title>
 <link>https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering</link>
 <guid isPermaLink="false">720b42ad4da2fa015cfbc1e628c5b63104814dd8239daec7683fe7633f81c6fe</guid>
@@ -431,28 +508,6 @@
 <description>The warnings surfaced in a trove of unreported court records. "I have been fighting about fixing this for months with people who didn't think the harms are severe enough," wrote one executive.</description>
 <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4896x3264+0+0/resize/4896x3264!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F26%2Fe544d725449598514b51dd7221db%2Fgettyimages-2298297976.jpg" type="image/jpeg"/>
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4896x3264+0+0/resize/4896x3264!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F26%2Fe544d725449598514b51dd7221db%2Fgettyimages-2298297976.jpg" medium="image"/>
-</item>
-<item>
-<title>Britain's first storm of the season named</title>
-<link>https://news.sky.com/story/britains-first-storm-of-the-season-named-13601253</link>
-<guid isPermaLink="false">2266c8b30c2f6a16c6758bc417300eaed750a48b43ff7ff6c23d9463487ce2ff</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 08:39:00 +0000</pubDate>
-<description>Britain's first named storm of the season is due to hit large parts of the country later this week.</description>
-<enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-weather-london_7347830.jpg?20260911105906" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/09/1920x1080/skynews-weather-london_7347830.jpg?20260911105906" medium="image"/>
-</item>
-<item>
-<title>Rep. Adam Smith joins lawmakers who received letter with 'suspicious substance'</title>
-<link>https://abcnews.com/US/rep-adam-smith-joins-list-lawmakers-received-letter/story?id=137400114</link>
-<guid isPermaLink="false">a7e1ee0acf149b8303d07c695704c987238d4ef22fd202564ec1549d1e30d3f5</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 08:28:13 +0000</pubDate>
-<description>Washington State Democratic Congressman Adam Smith received a “suspicious letter containing a powdery substance” on Monday.</description>
-<enclosure url="https://s.abcnews.com/images/US/AP20057590400046_1792459347597_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/AP20057590400046_1792459347597_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Trump announces fuel relief for farmers</title>
@@ -543,39 +598,6 @@
 <media:content url="https://s.abcnews.com/images/WNT/261019_wn_ender_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Shawn Oliver pleads not guilty to OUI after suspending lieutenant governor campaign</title>
-<link>https://abcnews.com/International/wireStory/shawn-oliver-pleads-guilty-oui-charge-after-crash-137392161</link>
-<guid isPermaLink="false">e99eacbf9c2b84701ad6992a80009fd4f17284fd9a18414d6e71ec79d682e56b</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Tue, 20 Oct 2026 00:21:57 +0000</pubDate>
-<description>Shawn Oliver has pleaded not guilty to charges of operating under the influence and other related offenses after suspending his campaign for lieutenant governor of Massachusetts</description>
-<enclosure url="https://s.abcnews.com/images/International/wirestory_12d0cd82fc419703b661da807b1cfe3e_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/International/wirestory_12d0cd82fc419703b661da807b1cfe3e_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>DOJ charges 28 with unlawful voting, other election-related offenses in California</title>
-<link>https://abcnews.com/US/doj-charges-28-unlawful-voting-election-related-offenses/story?id=137384589</link>
-<guid isPermaLink="false">773682101be48f9f2d1bfdd90e426f5ee272b39a55313c6ba44628f27ef3c83b</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 19 Oct 2026 23:23:20 +0000</pubDate>
-<description>The DOJ has charged 28 individuals in California with election-related offenses, and did not rule out prosecuting election workers who are "processing the ballots" there.</description>
-<enclosure url="https://s.abcnews.com/images/US/vote-4-gty-gmh-261019_1792414804974_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/vote-4-gty-gmh-261019_1792414804974_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>DOJ official clashes with judge in DC golf course case after Trump attacks her</title>
-<link>https://abcnews.com/Politics/trump-attacks-judge-rejected-dojs-push-disqualify-dc/story?id=137376088</link>
-<guid isPermaLink="false">8139e79ba642a19a7b1bdc993c7451257285157ed483836e9fe9e8a84bc19e07</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 19 Oct 2026 22:38:26 +0000</pubDate>
-<description>The government's tree removal justification centers on a 2019 landscape report.</description>
-<enclosure url="https://s.abcnews.com/images/US/trees-3-ap-gmh-261012_1791835297342_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/trees-3-ap-gmh-261012_1791835297342_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>WATCH: Teen on how he turned 3D printing idea into a profitable business</title>
 <link>https://abcnews.com/video/137392601</link>
 <guid isPermaLink="false">17686bcac344abfa0dea09105cdfc9f1e2129cdf57e18ebf1ef4e6eafcbc0ae3</guid>
@@ -585,17 +607,6 @@
 <description>Just three months after graduating high school, Mike Satterlee began using his 3D printer to make hard-shell insulated drink koozies he calls "can coolers."</description>
 <enclosure url="https://s.abcnews.com/images/Business/261019_abcnl_4p_mikesatterlee_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/Business/261019_abcnl_4p_mikesatterlee_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>LIVE: ABC News Live</title>
-<link>https://abcnews.com/video/41463246</link>
-<guid isPermaLink="false">c4dde2f9d4430a48432ef223ef2dea7731f9a2b9448e21ee003bf7e7734a1e77</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 19 Oct 2026 20:07:46 +0000</pubDate>
-<description>24/7 coverage of breaking news and live events</description>
-<enclosure url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Japan launches mission to Mars to bring back samples from its moon</title>
@@ -642,17 +653,6 @@
 <media:content url="https://e3.365dm.com/26/08/1920x1080/skynews-trump-infantino_7318599.jpg?20260811033719" medium="image"/>
 </item>
 <item>
-<title>Could Dems, GOP get full control of government in these states?</title>
-<link>https://abcnews.com/Politics/democrats-republicans-seek-trifectas-2026-midterms/story?id=137293503</link>
-<guid isPermaLink="false">abb29cf7991b7e5906db198c75ba331f78f85c28bf59f27999bb1672fb00f1a1</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 19 Oct 2026 11:10:26 +0000</pubDate>
-<description>The balance of power in state governments is on the ballot in many states in the midterm elections.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/pennsylvania-gty-er-261016_1792187352093_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/pennsylvania-gty-er-261016_1792187352093_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Doomsday cult leader found guilty of murdering 190 children and one adult</title>
 <link>https://news.sky.com/story/cult-leader-found-guilty-of-ordered-followers-to-starve-their-children-to-death-13600891</link>
 <guid isPermaLink="false">fb8b767a00e639613253058986fc19ff0e6cb2d5e52089ebb415212a46d4ff4a</guid>
@@ -673,6 +673,17 @@
 <description>ABC News' Danny New interviews a blind college student in Virginia who's traveling with her guide dog Beasley as she continues her education in Scotland.</description>
 <enclosure url="https://s.abcnews.com/images/International/261019_gmafl_guide_dog_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/International/261019_gmafl_guide_dog_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Dems lead GOP in House vote choice as Trump's approval rating hits record low: Poll</title>
+<link>https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849</link>
+<guid isPermaLink="false">a1be150b013293ea08b5553279810411d6b970ecea03821824ff70552963da77</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sun, 18 Oct 2026 04:03:29 +0000</pubDate>
+<description>Half or more Americans call every household purchase category measured "unaffordable."</description>
+<enclosure url="https://s.abcnews.com/images/US/donald-trump-2-rt-gmh-261014_1791985962360_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/donald-trump-2-rt-gmh-261014_1791985962360_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: David's Bridal puppy collection</title>
