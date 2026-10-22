@@ -4,26 +4,367 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Apple’s Magic Keyboards for iPad are about half off, with a small catch</title>
-<link>https://www.theverge.com/gadgets/1016640/apple-magic-keyboards-ipad-air-pro-deal-sale</link>
-<guid isPermaLink="false">13c0bbc0efbd125acbe9a13b281fcc03efefaa5824e2a7aabafe0b368ad7f1af</guid>
+<title>Google tells Android users to update as parts of Canada adopt permanent daylight saving time</title>
+<link>https://www.theverge.com/tech/1016977/google-android-incorrect-time-daylight-saving-permanent-canada</link>
+<guid isPermaLink="false">5d9004c8fdabb16d921d4d81d118040c4f96f83359c6faf4284a5dd46d6f25d2</guid>
 <source>The Verge</source>
 <category>technology</category>
-<pubDate>Thu, 22 Oct 2026 15:14:20 +0000</pubDate>
-<description>You can outfit your iPad Air or iPad Pro with one of Apple’s slick Magic Keyboards for considerably less than the accessory usually costs at Woot. I won’t bury the catch I teased in the headline; These cases have a 90-day warranty via Woot, and aren’t eligible for AppleCare. That said, they are said to […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25446222/247111_iPad_Pro_2024_AKrales_0615.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25446222/247111_iPad_Pro_2024_AKrales_0615.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+<pubDate>Thu, 22 Oct 2026 19:13:42 +0000</pubDate>
+<description>As the US gets closer to permanently adopting daylight saving time following the House advancing the Sunshine Protection Act in July, there could be some unforeseen consequences to getting an extra hour of sun in the evening all year long. Following the Canadian provinces of British Columbia and Manitoba permanently switching to daylight saving this […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24642397/google_pixel_fold_hands_on_5.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24642397/google_pixel_fold_hands_on_5.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
-<title>PHP: The three little letters wreaking havoc across the web</title>
-<link>https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down</link>
-<guid isPermaLink="false">e204cfb0942528159ef6c0ae1365d304a633f617a9a52e015f5f3ec50cd43af9</guid>
+<title>Inside the Exclusive Nathan Fielder Interview</title>
+<link>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview</link>
+<guid isPermaLink="false">6cb0214afd64e0734356d31b2943962f117133a02bad5f2c62261542bba52661</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 19:06:37 +0000</pubDate>
+<description>This week on “Uncanny Valley,” we go behind the scenes of our Nathan Fielder cover story, unpack tech billionaires’ generous promises, and discuss the suspicious letters sent to US election offices.</description>
+<enclosure url="https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg" medium="image"/>
+</item>
+<item>
+<title>2027 BMW iX5 first drive: You'll love the range, but maybe not the look</title>
+<link>https://www.engadget.com/2291166/2027-bmw-ix5-first-drive</link>
+<guid isPermaLink="false">d981e283be68888fb0b5b737078e25556c511d8aac7ed1d917b9f363d9b82640</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 19:01:00 +0000</pubDate>
+<description>BMW's latest EV will do over 450 miles on a charge and even close its own doors.</description>
+<enclosure url="https://www.engadget.com/img/gallery/2027-bmw-ix5-first-drive-youll-love-the-range-but-maybe-not-the-look/l-intro-1792447915.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/2027-bmw-ix5-first-drive-youll-love-the-range-but-maybe-not-the-look/l-intro-1792447915.jpg" medium="image"/>
+</item>
+<item>
+<title>Daft Punk is getting an official Lego set</title>
+<link>https://www.engadget.com/2294668/daft-punk-is-getting-an-official-lego-set</link>
+<guid isPermaLink="false">7c08d94fe958a6df4075da18d807a543da037978a00f309dc98f3744e793ad0b</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:59:09 +0000</pubDate>
+<description>A fan-built model of the Alive tour pyramid got the green light to become a real product.</description>
+<enclosure url="https://www.engadget.com/img/gallery/daft-punk-is-getting-an-official-lego-set/l-intro-1792695430.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/daft-punk-is-getting-an-official-lego-set/l-intro-1792695430.jpg" medium="image"/>
+</item>
+<item>
+<title>Discord now formats Markdown previews right</title>
+<link>https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels</link>
+<guid isPermaLink="false">7fe7774a3ecb03f8ceb873e92648f0dd881922827043c37e8a02d2df2c278323</guid>
 <source>The Verge</source>
 <category>technology</category>
-<pubDate>Thu, 22 Oct 2026 15:12:27 +0000</pubDate>
-<description>Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/VRG_ILLO_STK001_carlo_cadenas_cybersecurity_virus.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/VRG_ILLO_STK001_carlo_cadenas_cybersecurity_virus.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+<pubDate>Thu, 22 Oct 2026 18:58:19 +0000</pubDate>
+<description>Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with "a bunch of symbols," according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpful for people sharing information about AI projects […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK062_03.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK062_03.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>The Browser Company is officially killing Arc on December 22</title>
+<link>https://www.engadget.com/2294643/the-browser-company-is-officially-killing-arc-on-december-22</link>
+<guid isPermaLink="false">f73d533bbed53f5d89a81bac134a020db8f29652652ed0cd6a43f48667fad2e2</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:52:43 +0000</pubDate>
+<description>The organization is prioritizing an AI browser called Dia.</description>
+<enclosure url="https://www.engadget.com/img/gallery/the-browser-company-is-officially-killing-arc-on-december-22/l-intro-1792695105.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/the-browser-company-is-officially-killing-arc-on-december-22/l-intro-1792695105.jpg" medium="image"/>
+</item>
+<item>
+<title>The new Fire TV Stick 4K is already half off</title>
+<link>https://www.theverge.com/gadgets/1016792/amazon-fire-tv-stick-4k-2026-deal-sale</link>
+<guid isPermaLink="false">b761ebc695890e325234b88bf8491ceea929256dd88aabcaeff3f456e023ea85</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:43:57 +0000</pubDate>
+<description>Despite being announced just a few weeks ago, both Amazon and Best Buy are now offering the latest Amazon Fire TV Stick 4K for 50 percent off, bringing the price down to an all-time low of $29.99. The most notable new feature is that the Fire TV Stick 4K no longer requires a separate power […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/fire-tv-stick-4k_ftv-remote_hero_1920x1080.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/fire-tv-stick-4k_ftv-remote_hero_1920x1080.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Refurbished PS5 consoles include second controller for an extra $18</title>
+<link>https://www.theverge.com/gadgets/1016959/refurbished-playstation-5-ps5-console-dualsense-deal-sale-bundle</link>
+<guid isPermaLink="false">be7b1ecf5be48b75186c826b72f45ece9f59ab7ff81ca82d73b8fb49b9910b69</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:38:50 +0000</pubDate>
+<description>A lot of people are snagging a PlayStation 5 ahead of Grand Theft Auto VI’s November 19th launch. You could pay full price at one of many retailers, but why do that when you can save $100 on a Sony-refurbished console that has the same one-year warranty? It’s a great time to consider one because […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072864/110923_new_Playstation_5_Slim_ADiBenedetto_0001.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072864/110923_new_Playstation_5_Slim_ADiBenedetto_0001.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Delta can turn the iPhone Duo into your favorite folding handheld</title>
+<link>https://www.theverge.com/games/1016524/delta-2-version-ios-duo-gaming-emulator-update</link>
+<guid isPermaLink="false">d03e6d6958d4a2a0c2a66a095190b1125a5b211df40616fb613b5df63c717163</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:30:00 +0000</pubDate>
+<description>The Delta gaming emulator has been upgraded with a plethora of new goodies and support updates, which includes optimizing it for Apple's iPhone Duo. Delta 2.0 also introduces Sega Genesis games, animated controller skins, custom Pokémon DLC experiences, and a new UI that was built around supporting Liquid Glass. Adding support for the iPhone Duo […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Delta-2.0-lineup-update.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Delta-2.0-lineup-update.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Bluesky adds iPad support in latest feature update</title>
+<link>https://www.engadget.com/2294583/bluesky-adds-ipad-support-in-latest-feature-update</link>
+<guid isPermaLink="false">f7abc57c178253c4d729604e84f41646eee75db977369ed17e1c384104d3cc3b</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:26:03 +0000</pubDate>
+<description>Profile links to third-party platforms have also arrived on the social network.</description>
+<enclosure url="https://www.engadget.com/img/gallery/bluesky-adds-ipad-support-in-latest-feature-update/l-intro-1792692851.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/bluesky-adds-ipad-support-in-latest-feature-update/l-intro-1792692851.jpg" medium="image"/>
+</item>
+<item>
+<title>In Meta’s version of the future, I’ll have my Muse call your Muse</title>
+<link>https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network</link>
+<guid isPermaLink="false">ee144e79e7d9cf2133686f073f2175b4fcc7f40e2571e6ff309769d8d9f2a4b2</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:15:00 +0000</pubDate>
+<description>Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Mass Effect 5 trailer leaks following BioWare shutdown</title>
+<link>https://www.theverge.com/games/1016932/mass-effect-5-universe-trailer-leak-bioware-ea</link>
+<guid isPermaLink="false">51ce4d3fe1167a7136eac8e4bc30b1ec47c7d135e413405788f4111bc2704fbc</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:14:24 +0000</pubDate>
+<description>Yesterday, EA shut down BioWare and canceled the studio's new Mass Effect game in development, but a trailer apparently representing the game was published on Reddit today. The trailer features "in-engine footage" and uses "pre-production assets," according to a message at the beginning of the video. The video focuses on an ex-soldier in a conversation […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-11.12.28-AM.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-11.12.28-AM.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Amazon rebrands Kindle Unlimited to Kindle+</title>
+<link>https://www.engadget.com/2294533/amazon-rebrands-kindle-unlimited-to-kindle</link>
+<guid isPermaLink="false">dd785a6330c18fcd3aa48bbfcb986c4b8c11ad60f2075886399490c9573b0043</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:10:00 +0000</pubDate>
+<description>The service still offers a library of books, magazines and comics, and now includes a larger selection of audiobooks.</description>
+<enclosure url="https://www.engadget.com/img/gallery/amazon-rebrands-kindle-unlimited-to-kindle/l-intro-1792692263.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/amazon-rebrands-kindle-unlimited-to-kindle/l-intro-1792692263.jpg" medium="image"/>
+</item>
+<item>
+<title>Tesla driver using Full Self-Driving struck and killed a man crossing I-80</title>
+<link>https://www.theverge.com/transportation/1016928/tesla-fsd-pedestrian-fatal-accident-california</link>
+<guid isPermaLink="false">7a4f9a43e6d92f95d5e80cf060da7c8a45f127c6c24725b5797e56828041e0aa</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:07:02 +0000</pubDate>
+<description>A 71-year-old man was fatally hit by a Tesla operating in Full Self-Driving (FSD) mode while crossing I-80 in Vallejo, CA around 2:30 AM on Thursday, reports the San Francisco Chronicle. The California Highway Patrol's statement to media outlets says it reviewed video of the accident from the Tesla's dashcam, which "showed the Tesla's brakes […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23986646/acastro_STK086_01.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23986646/acastro_STK086_01.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Anker Soundcore Space 2 Are Their Lowest Price Ever</title>
+<link>https://www.wired.com/story/anker-soundcore-space-2-deal-october-2026</link>
+<guid isPermaLink="false">0f018ffa493d2c2ad1ab1081133c02eeb062d10d13e3a0e71e0557e71f7b62b5</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:03:44 +0000</pubDate>
+<description>The Anker Soundcore Space 2 are a good deal even at full price. The fact they’re 18 percent off is just icing on the cake.</description>
+<enclosure url="https://media.wired.com/photos/6ada4bc4d53570f6403f714a/master/pass/Soundcore%20by%20Anker%20Space%202%20deal%20102026%20top%20art%20SOURCE%20Amazon.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ada4bc4d53570f6403f714a/master/pass/Soundcore%20by%20Anker%20Space%202%20deal%20102026%20top%20art%20SOURCE%20Amazon.jpg" medium="image"/>
+</item>
+<item>
+<title>Unauthorized AI agents are reportedly already accessing US bank accounts</title>
+<link>https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts</link>
+<guid isPermaLink="false">6c534d42ab318a9bd45fcf04f54a0d7c0386a9493a89dc62196b6615e7d7e076</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:02:04 +0000</pubDate>
+<description>Sources at several banks have indicated that they have been taking actions independent of user instructions.</description>
+<enclosure url="https://www.engadget.com/img/gallery/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/l-intro-1792692008.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/l-intro-1792692008.jpg" medium="image"/>
+</item>
+<item>
+<title>Microsoft says its AI tool is better than doctors at diagnosing conditions</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence</link>
+<guid isPermaLink="false">5ddee939d5fa55a3d6e1a3437f5edf79f45c6051ed0660f8b54ca9699c0c7609</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:00:00 +0000</pubDate>
+<description>For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now "it is finally here," Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2207866106.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2207866106.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels</title>
+<link>https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels</link>
+<guid isPermaLink="false">3a1e0b361388d63d0f696f3ce90c8776a42315c15b0640900a661ff0902675c8</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 18:00:00 +0000</pubDate>
+<description>Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course.</description>
+<enclosure url="https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ad93d4fded54679300f8db7/master/pass/GettyImages-53043931.jpg" medium="image"/>
+</item>
+<item>
+<title>Amazon renames Kindle Unlimited to Kindle Plus and expands access to audiobooks</title>
+<link>https://www.theverge.com/tech/1016789/amazon-kindle-unlimited-plus-subscription-ai-audiobooks</link>
+<guid isPermaLink="false">cae64401bde53f99d8e3ac5aeda056b2f051bc62ef3984db8a1ec875b3bab26a</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 17:46:40 +0000</pubDate>
+<description>The plus-ification of subscription services continues unabated with Amazon becoming the latest company to follow suit with a Kindle Unlimited rebrand. The subscription service is now known as Kindle Plus but will continue to offer unlimited access to a select collection of ebooks, comics, and magazines from the Kindle catalog for $11.99 per month. Thousands […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/kindleplus.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/kindleplus.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Meta shocked by $25B fine after N.M. refused to join multistate settlement</title>
+<link>https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine</link>
+<guid isPermaLink="false">fc6250d56eea8ce54b5c521486dfd7e35fbbf25b73befbdd75a4999c1f97d5eb</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 17:04:31 +0000</pubDate>
+<description>Meta will appeal a ruling imposing the largest fine Mark Zuckerberg has ever seen.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1968308632-1024x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1968308632-1024x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Disgraced Indian cert issuer leaves the cert issuing business</title>
+<link>https://www.theregister.com/security/2026/10/22/disgraced-indian-cert-issuer-leaves-the-cert-issuing-business/5304848</link>
+<guid isPermaLink="false">e711e4ad2d55a92aaa6245eb46b3cd397259975cef21727dd8f8932aad8709ce</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 16:58:25 +0000</pubDate>
+<description>We didn't want to issue SSL/TLS certs anyway, Indian firm suggests after one private key turns out to be the number 4</description>
+<enclosure url="https://image.theregister.com/?imageId=235298&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=235298&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Websites across world hit by millions of attempts to exploit PHP code flaw</title>
+<link>https://www.theguardian.com/technology/2026/oct/22/websites-across-world-hit-by-millions-of-attempts-to-exploit-php-code-flaw</link>
+<guid isPermaLink="false">bce76660b71358e269a10aeb8c0b196bf825b6c6278dff0f0dd71aca2b60b7e7</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 16:42:54 +0000</pubDate>
+<description>Problem in language that underpins 70% of sites has led governments and companies to pull sites offline to patch fault Tell us: have you been affected by the PHP code flaw? What is PHP, and how bad is the computer language flaw causing website shutdowns globally ? Websites around the world have been hit by millions of attempts to exploit a recently discovered vulnerability in their code, cybersecurity companies have said, as the US warned the flaw could allow attackers to take control of web servers, steal data and disrupt services. The problem in the PHP programming language, which underpins about 70% of the world’s websites, emerged on Wednesday causing governments and companies to pull their websites off the internet before they could be attacked and so they could patch the fault. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/e240560dbdb0dfbd8f0e19f35e6bf6650b057f87/0_0_3000_2400/master/3000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=67a90ac26778b7711317b9f8132f5f9a" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/e240560dbdb0dfbd8f0e19f35e6bf6650b057f87/0_0_3000_2400/master/3000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=67a90ac26778b7711317b9f8132f5f9a" medium="image"/>
+</item>
+<item>
+<title>US-backed vaccine trial on babies canceled after international outcry</title>
+<link>https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled</link>
+<guid isPermaLink="false">50f0f4562805c3e59e32c92310a664ad84491f2692e82b6de0dd602741ddd8d0</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 16:37:00 +0000</pubDate>
+<description>The decried trial was canceled last week before police seized vaccine doses.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-629400903-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-629400903-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Sundar Pichai (allegedly) draws the line at oceans</title>
+<link>https://www.engadget.com/2294319/sundar-pichai-allegedly-draws-the-line-at-oceans</link>
+<guid isPermaLink="false">ea9644e63b2bba7b15dca5d4c29d9b4c794b8ce2dcbd46fd19c62f60803bba60</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 16:22:50 +0000</pubDate>
+<description>President Trump claimed that the Google CEO refused to rename the Atlantic Ocean in Maps.</description>
+<enclosure url="https://www.engadget.com/img/gallery/sundar-pichai-allegedly-draws-the-line-at-oceans/l-intro-1792685934.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/sundar-pichai-allegedly-draws-the-line-at-oceans/l-intro-1792685934.jpg" medium="image"/>
+</item>
+<item>
+<title>PHP2Shell puts dozens of UK government services out of service</title>
+<link>https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840</link>
+<guid isPermaLink="false">397dafc42afe87a35886dd726d0a1447063954fa0db2f02fe51a5070e34c29fa</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 16:05:53 +0000</pubDate>
+<description>Ministers report 32 unavailable and four partly disrupted, but no confirmed compromise</description>
+<enclosure url="https://image.theregister.com/?imageId=229174&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=229174&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>This emulator reimagines Nintendo’s Virtual Boy with a full color display</title>
+<link>https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display</link>
+<guid isPermaLink="false">99e417736ee4de3110f83160061fc49edf4a73954018b1781e71805723babe9e</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:59:40 +0000</pubDate>
+<description>Tile-based color palettes go way beyond the four shades of red on original hardware.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor-500x378.png" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mtcolor-500x378.png" medium="image"/>
+</item>
+<item>
+<title>PC shipments are in the toilet, plunging over 20 percent from last year</title>
+<link>https://www.engadget.com/2294257/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year</link>
+<guid isPermaLink="false">e28a9437ea1c5be25a39d3533b2c03a135c46f1d8d45fa07ab21224b98184471</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:56:26 +0000</pubDate>
+<description>This could reach 27 percent throughout the end of 2026 as prices continue to rise.</description>
+<enclosure url="https://www.engadget.com/img/gallery/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year/l-intro-1792684457.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year/l-intro-1792684457.jpg" medium="image"/>
+</item>
+<item>
+<title>Amazon’s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks</title>
+<link>https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai</link>
+<guid isPermaLink="false">325f3964f211be47503197591edafc9a33b6e633f513e11ce6e1428785df3491</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:55:55 +0000</pubDate>
+<description>Unlike narrated audiobooks from Audible and other providers, the audiobooks created with Virtual Voice in Kindle+ will instead be narrated by AI.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/f81cca78-3254-44e3-870c-cbfa2d83af91.jpg" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/f81cca78-3254-44e3-870c-cbfa2d83af91.jpg" medium="image"/>
+</item>
+<item>
+<title>Meta strikes deal with Mark Zuckerberg to help him foot billionaire tax bill</title>
+<link>https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax</link>
+<guid isPermaLink="false">2a69001ff7979826d71c1e8effc3b1f31148eda9fc23607dcaa13341cc38298a</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:40:03 +0000</pubDate>
+<description>Chief executive agrees to remain in California for eight years even if state brings in one-off 5% wealth tax Meta has struck a deal with Mark Zuckerberg to help him foot a possible California wealth tax targeting billionaires. The social media company behind Facebook, Instagram and WhatsApp revealed on Wednesday night that the arrangement would keep its chief executive living in California, where Meta’s headquarters are located. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/2e6040371e8498c68a3ec60ae6efac595ffa4c7a/209_3_4321_3459/master/4321.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=26b37d20ddd6d18f8b0d77c726e4d291" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/2e6040371e8498c68a3ec60ae6efac595ffa4c7a/209_3_4321_3459/master/4321.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=26b37d20ddd6d18f8b0d77c726e4d291" medium="image"/>
+</item>
+<item>
+<title>Save $150 on the Apple Mac Mini M4, but There’s a Catch</title>
+<link>https://www.wired.com/story/mac-mini-m4-deal-october-2026</link>
+<guid isPermaLink="false">57481927d4f1e358dd945ebf6dadd2f575e4c31b44aadbe7c5060cf8bfb2f014</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:30:31 +0000</pubDate>
+<description>Apple’s Mac Mini M4 is one of the best mini computers you can buy, and it’s $150 off. While it’s a good deal on a new, older-generation model, it’s more expensive than it was at launch.</description>
+<enclosure url="https://media.wired.com/photos/6ada289019e924cf32885a66/master/pass/M4%20Mac%20Mini%20Deal%20102026%20top%20art%20SOURCE%20Best%20Buy.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ada289019e924cf32885a66/master/pass/M4%20Mac%20Mini%20Deal%20102026%20top%20art%20SOURCE%20Best%20Buy.jpg" medium="image"/>
+</item>
+<item>
+<title>Hackers got a four-day head start on epic PHP2Shell vulnerability</title>
+<link>https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability</link>
+<guid isPermaLink="false">4120829e1df6ee3e0518e30894d4e5fb0b7000962cabfdfb1a037e639aa05c49</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:25:02 +0000</pubDate>
+<description>Hackers were already probing the bug before defenders were told it existed.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg" medium="image"/>
+</item>
+<item>
+<title>The latest PowerToys gives your mouse 2 new tricks for free – how to use them</title>
+<link>https://www.zdnet.com/tech/powertoys-102-windows-mouse-control</link>
+<guid isPermaLink="false">d35aee4c6dccdb316f42e063b29b91cf7cc8325bb447037ca8e0f9f1e2450149</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:17:56 +0000</pubDate>
+<description>PowerToys is one of my favorite free Windows utilities. With more than 30 tools, it offers something for everyone from beginners to power users. Here’s what’s new for mousing.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/PowerToys-Mouse-Button-Lock-in-action.jpg" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/PowerToys-Mouse-Button-Lock-in-action.jpg" medium="image"/>
+</item>
+<item>
+<title>Fellow Aiden Precision Coffee Maker is $100 Off</title>
+<link>https://www.wired.com/story/fellow-aiden-precision-coffee-maker-deal-october-2026</link>
+<guid isPermaLink="false">fc4a6daa690eb4dd9a07d4d466c238f44e94e0e19aa0a9b26cce84410cd0f3b1</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 22 Oct 2026 15:14:37 +0000</pubDate>
+<description>The Fellow Aiden Precision Coffee Maker is a smart, high-end machine that offers pour-over quality. You can get it refurbished from the brand for 25 percent off.</description>
+<enclosure url="https://media.wired.com/photos/6ada246c62f24429e365a94f/master/pass/Fellow%20Aiden%20Coffee%20Maker%20Deals%20Post%20102026%20top%20art%20SOURCE%20Shop.com.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ada246c62f24429e365a94f/master/pass/Fellow%20Aiden%20Coffee%20Maker%20Deals%20Post%20102026%20top%20art%20SOURCE%20Shop.com.jpg" medium="image"/>
 </item>
 <item>
 <title>Apple App Store review process hits a traffic jam</title>
@@ -48,48 +389,26 @@
 <media:content url="https://image.theregister.com/?imageId=5303915&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>You could just get a refurbished Samsung phone on Amazon</title>
-<link>https://www.theverge.com/gadgets/1016626/samsung-galaxy-used-amazon</link>
-<guid isPermaLink="false">348150209e6764b1db84b0ffc5abc08d713c437392882ed197d3b5ae2bcad781</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 14:55:29 +0000</pubDate>
-<description>I recently bought a used Galaxy phone, and now Samsung is leaning into that market on Amazon after raising prices on its newest phones. Its certified renewed phones are available on Amazon for the first time, with a new battery and a one-year warranty. They currently start at $489 for the Galaxy S24 FE with […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25729868/DSC08724.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25729868/DSC08724.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Coolfly’s solar-powered Aura Smart Bird Feeder is nearly 50 percent off</title>
-<link>https://www.theverge.com/gadgets/1015984/aura-smart-bird-feeder-jbl-charge-6-speaker-deal-sale</link>
-<guid isPermaLink="false">0cbeef2a375210ebf86ec14b045dbba4a4c8f7cdf2e8fee05928341f4d74d717</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 14:41:02 +0000</pubDate>
-<description>I’m not sure when birdwatching became so popular, but it seems everybody’s getting into it these days. If you want to see what all the fuss is about without leaving your couch, both Coolfly and Birdfy are discounting their camera-equipped bird feeders for a limited time. Right now, you can buy Coolfy’s Aura Smart Bird […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Coofly-Aura-Smart-Bird-Feeder.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Coofly-Aura-Smart-Bird-Feeder.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances</title>
 <link>https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget</link>
 <guid isPermaLink="false">1db13b1120ad891aa484573ec8f7d3c314df39caca55390610d388bae0e89405</guid>
 <source>The Guardian Technology</source>
 <category>technology</category>
 <pubDate>Thu, 22 Oct 2026 14:39:29 +0000</pubDate>
-<description>Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Business live – latest updates Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...</description>
+<description>Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/42ebdcc562c64f3843def3a9641e7ab414a3974a/218_632_4806_3847/master/4806.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=977e9819872cba933f00e14121048a14" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/42ebdcc562c64f3843def3a9641e7ab414a3974a/218_632_4806_3847/master/4806.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=977e9819872cba933f00e14121048a14" medium="image"/>
 </item>
 <item>
-<title>Coolpad’s new $150 Android phone has a wider screen like the iPhone Duo, but doesn’t fold</title>
-<link>https://www.theverge.com/tech/1016544/coolpad-cool-x-wide-widescreen-android-16-smartphone-china</link>
-<guid isPermaLink="false">c04dc60f611d5bd8ea0ff576194e3ab9abc0c09b5ea3fb4c235a5ba7dc902da7</guid>
-<source>The Verge</source>
+<title>Sauron recruits his future Ringwraiths in Rings of Power S3 trailer</title>
+<link>https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer</link>
+<guid isPermaLink="false">91c9c74c0aa95457bec60c629b869e0db20e95c693673c1c7b326014ceaf6dea</guid>
+<source>Ars Technica</source>
 <category>technology</category>
-<pubDate>Thu, 22 Oct 2026 14:24:49 +0000</pubDate>
-<description>The design of widescreen folding phones like the Samsung Galaxy Z Fold 8, Huawei Pura X View, and now the iPhone Duo, is starting to influence traditional slab phones. Similar to the Huawei Pura X View that launched in China in August, the new Coolpad Cool X Wide has a much wider screen than what's […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/coolpad1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/coolpad1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+<pubDate>Thu, 22 Oct 2026 14:22:31 +0000</pubDate>
+<description>"I will take my place as the conqueror, a sorcerer, a king."</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/sauron-1152x648-1792610020.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/sauron-1152x648-1792610020.jpg" medium="image"/>
 </item>
 <item>
 <title>Singapore boffins weave a GUI into fabric, and it's machine washable too</title>
@@ -114,39 +433,6 @@
 <media:content url="https://www.engadget.com/img/gallery/follow-up-iphone-duo-prototypes-trial-faceid-instead-of-touchid/l-intro-1792677641.jpg" medium="image"/>
 </item>
 <item>
-<title>Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption</title>
-<link>https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation</link>
-<guid isPermaLink="false">f790f518b7407f12127e8aed9e591f0942fe22ffb01c18b1909285242a68d89a</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 14:00:00 +0000</pubDate>
-<description>Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bill_Gates_NQuamina-Woo_0007_a8ca1f.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268806_Bill_Gates_NQuamina-Woo_0007_a8ca1f.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Apple will label apps that are ‘Made for iPhone Duo’</title>
-<link>https://www.theverge.com/tech/1016526/apple-made-for-iphone-duo-badge-app-store</link>
-<guid isPermaLink="false">a81a95909a53b012c68cbcec01f915356b068524003dcdb3b5b2c3afe515c5f8</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 13:20:37 +0000</pubDate>
-<description>Apple is rolling out a new badge in the App Store to indicate whether an app is optimized for its new foldable. The new "Made for iPhone Duo" badge will appear across apps and games that work with the device's extra screen real estate. Though Apple doesn't include an image of what this badge might […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0239.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_0239.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>The Atari VCS saga will come to an end next year when its software store closes</title>
-<link>https://www.theverge.com/tech/1016481/atari-vcs-console-shutting-down-software-store-2027</link>
-<guid isPermaLink="false">8d50f69f0b6ae8a19b5de8224b8d0c3017977336d4541676c6b436a3c436f686</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 13:17:59 +0000</pubDate>
-<description>Following a decade long saga of delays, name changes, and Atari having to assure backers of a crowdfunding campaign that its retro console wasn't doomed, the Atari VCS platform is being retired early next year. On February 1st, 2027, the Atari VCS software store is shutting down, according to an announcement posted to the Atari […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/atarivcs.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/atarivcs.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Forget "Malaise 2.0," GM says it's still all-in on EVs and autonomy</title>
 <link>https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy</link>
 <guid isPermaLink="false">c63905372607874cebabb804cf967db86498356008fe15ce24d477ae6383b9a5</guid>
@@ -167,28 +453,6 @@
 <description>GPU chief doesn't want to hear about job losses or the end of human civilization</description>
 <enclosure url="https://image.theregister.com/?imageId=108613&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=108613&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Insta360 launches a cheaper version of its wireless mics with color screens</title>
-<link>https://www.theverge.com/tech/1015371/insta360-mic-wireless-microphone-color-e-ink-screen</link>
-<guid isPermaLink="false">a82e3bb770d1426a06df69906ba1597deb92ad8bc2201f62a8438ced2785eba0</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
-<description>Following the launch of its wireless Mic Pro system last May featuring built-in color E Ink screens for custom branding and an array of three microphones to emulate different pickup patterns, Insta360 has announced a cheaper alternative that skips a few features many content creators might not miss. The new Insta360 Mic sits between the […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/insta360_1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/insta360_1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Birdbuddy’s Nook is a compact smart bird feeder for small spaces and budgets</title>
-<link>https://www.theverge.com/tech/1015659/birdbuddy-smart-bird-feeder-2k-camera-home-nook-ai-identification</link>
-<guid isPermaLink="false">79d77f793f6ff163890b814ed1315a7f0611954c93a2144d98c1bd3599479f8e</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
-<description>Birdbuddy is finally launching the new smart bird feeders it originally announced at CES 2026 earlier this year, but with new names. The Birdbuddy 2 Mini is now called the Birdbuddy Nook, and it is designed to be a smaller and more affordable option the company describes as its "most accessible smart bird feeder yet." […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/birdbuddy1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/birdbuddy1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything</title>
@@ -224,15 +488,15 @@
 <media:content url="https://www.engadget.com/img/gallery/rokus-pro-series-lx-oled-tvs-are-now-available-on-amazon/l-intro-1792665032.jpg" medium="image"/>
 </item>
 <item>
-<title>1Password will let you hand your data security over to your preferred AI agent</title>
+<title>1Password will let Muse, Dots and Grok Bot sign in to sites for you without getting your credentials</title>
 <link>https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok</link>
 <guid isPermaLink="false">0cb04ebd1c330b12296e42ecab4f6bdeaa5dcd95c9c6670eb8f4568776633eb4</guid>
 <source>Engadget</source>
 <category>technology</category>
 <pubDate>Thu, 22 Oct 2026 13:00:00 +0000</pubDate>
 <description>If you're willing to let AI book or buy things on your behalf, 1Password just made that easier.</description>
-<enclosure url="https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792677756.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792677756.jpg" medium="image"/>
+<enclosure url="https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792691414.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/1password-opens-up-ai-agents-muse-dots-grok/l-intro-1792691414.jpg" medium="image"/>
 </item>
 <item>
 <title>Insta360 adds expandable storage to its new e-ink wireless mics</title>
@@ -378,17 +642,6 @@
 <media:content url="https://media.wired.com/photos/6ad17dc0a804ead0a674cfcd/master/pass/Election-Deniers-Politics.jpg" medium="image"/>
 </item>
 <item>
-<title>Meta strikes deal with Zuckerberg to help him foot billionaire tax bill</title>
-<link>https://www.theguardian.com/technology/2026/oct/22/meta-mark-zuckerberg-california-wealth-tax</link>
-<guid isPermaLink="false">2a69001ff7979826d71c1e8effc3b1f31148eda9fc23607dcaa13341cc38298a</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 10:10:03 +0000</pubDate>
-<description>Chief executive agrees to remain in California for eight years even if the state brings in a one-off wealth tax Business live – latest updates Meta has struck a deal with Mark Zuckerberg to help him foot a possible California wealth tax targeting billionaires. The social media company behind Facebook, Instagram and WhatsApp revealed on Wednesday night that the arrangement would keep its chief executive living in California, where Meta’s headquarters are located. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/2e6040371e8498c68a3ec60ae6efac595ffa4c7a/209_3_4321_3459/master/4321.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=26b37d20ddd6d18f8b0d77c726e4d291" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/2e6040371e8498c68a3ec60ae6efac595ffa4c7a/209_3_4321_3459/master/4321.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=26b37d20ddd6d18f8b0d77c726e4d291" medium="image"/>
-</item>
-<item>
 <title>Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant</title>
 <link>https://www.wired.com/story/greenlight-hub-voice-assistant-feature</link>
 <guid isPermaLink="false">d4597d9de56224cc49b3e37c6b915f0ac5366901863a64b186fa54af4b5cad7b</guid>
@@ -407,8 +660,8 @@
 <category>technology</category>
 <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
 <description>The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.</description>
-<enclosure url="https://media.wired.com/photos/6ad9279b7f825128a68bc73a/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter.gif" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad9279b7f825128a68bc73a/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter.gif" medium="image"/>
+<enclosure url="https://media.wired.com/photos/6ada5ebcd90d47bccee2186e/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter%20(1).gif" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ada5ebcd90d47bccee2186e/master/pass/Science_HuggingFacesPowerfulNewDNAModelIsSmallEnou-ezgif.com-video-to-gif-converter%20(1).gif" medium="image"/>
 </item>
 <item>
 <title>IT department and auditors at major pharmacy chain got into a rip-roaring fight about using 'password' on Cisco firewall</title>
@@ -587,24 +840,13 @@
 <media:content url="https://image.theregister.com/?imageId=5304630&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Flaw in PHP computer language leads to shutdown of websites around world</title>
-<link>https://www.theguardian.com/technology/2026/oct/21/flaw-in-php-computer-language-leads-to-shutdown-of-websites-around-world</link>
-<guid isPermaLink="false">1e187f3420416b14540726f5b8bf06184a8253b071ad1450610b9d9b0c01b582</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 00:39:15 +0000</pubDate>
-<description>Precautionary takedowns come as experts say bad actors could exploit vulnerability in language used by 70% of sites Websites around the globe have gone dark after a serious vulnerability was found in a computer language used to build much of the world wide web. Belgian, Dutch, Finnish, French and German sites were among those that governments took down temporarily as they scrambled to patch the critical weakness in PHP, a language used by almost 70% of websites . Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/7b2ac9acb1cb8d1678d58a8d278df37914456a10/461_0_5417_4335/master/5417.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=56ae4b17581afbb9c6d12f367ce28641" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/7b2ac9acb1cb8d1678d58a8d278df37914456a10/461_0_5417_4335/master/5417.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=56ae4b17581afbb9c6d12f367ce28641" medium="image"/>
-</item>
-<item>
 <title>Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case</title>
 <link>https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case</link>
 <guid isPermaLink="false">1272e8ea17e3e4139fd411162d0a04339cbf999b213b46f21ec3f92b57a4b6d5</guid>
 <source>The Guardian Technology</source>
 <category>technology</category>
 <pubDate>Wed, 21 Oct 2026 23:33:34 +0000</pubDate>
-<description>Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent A judge in New Mexico ordered Meta Platforms to pay $25bn on ⁠Wednesday after a jury found the company had misled consumers in a case arising from allegations that a political consulting firm involved in Donald Trump ’s 2016 presidential campaign obtained data from millions of Facebook users ⁠without their consent. “Facebook’s wrongdoing – ⁠over the course of ​years and systematically broadcast to the public – goes to the heart of Facebook’s core business practices,” Judge Francis Mathew wrote in his order following the verdict. Continue reading...</description>
+<description>Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent A judge in New Mexico ordered Meta Platforms to pay $25bn on ⁠Wednesday after a jury found the company had misled consumers in a case arising from allegations that a political consulting firm involved in Donald Trump ’s 2016 presidential campaign obtained data from millions of Facebook users ⁠without their consent. “Facebook’s wrongdoing – ⁠over the course of ​years and systematically broadcast to the public – goes to the heart of Facebook’s core business practices,” Judge Francis Mathew wrote in his order after the verdict. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/21d5e45e012af879a997b720907ee632f9052e63/294_0_3332_2666/master/3332.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=98b46d19f6b8668cd463dfad817c1dad" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/21d5e45e012af879a997b720907ee632f9052e63/294_0_3332_2666/master/3332.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=98b46d19f6b8668cd463dfad817c1dad" medium="image"/>
 </item>
@@ -763,17 +1005,6 @@
 <media:content url="https://www.engadget.com/img/gallery/government-websites-in-eu-and-canada-taken-offline-over-php-vulnerability/l-intro-1792616156.jpg" medium="image"/>
 </item>
 <item>
-<title>Meta ordered to cough up $25 billion in New Mexico privacy case</title>
-<link>https://www.engadget.com/2293597/new-mexico-court-order-meta-pay-25-billion-privacy-case</link>
-<guid isPermaLink="false">253c0a6de06aa2395502d886a693f0163ea96e1805cdec9b4b0bfd920de113d4</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 20:43:17 +0000</pubDate>
-<description>The case stemmed from the nearly decade-old Cambridge Analytica scandal.</description>
-<enclosure url="https://www.engadget.com/img/gallery/meta-ordered-to-cough-up-25-billion-in-new-mexico-privacy-case/l-intro-1792615292.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/meta-ordered-to-cough-up-25-billion-in-new-mexico-privacy-case/l-intro-1792615292.jpg" medium="image"/>
-</item>
-<item>
 <title>OpenClaw creator says he spent $10 million in tokens last month</title>
 <link>https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573</link>
 <guid isPermaLink="false">c8277939750b1461f724bc7d56141b11f44b0da728c9cd6738e939a16f22ccd2</guid>
@@ -816,17 +1047,6 @@
 <description>Nothing will ruin your faith in humanity like an AI that operates your smartphone slowly, struggles with basic tasks, and can charge you for it</description>
 <enclosure url="https://image.theregister.com/?imageId=5293471&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5293471&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Xbox is previewing paid cloud gaming for players without Game Pass</title>
-<link>https://www.engadget.com/2293519/xbox-is-previewing-paid-cloud-gaming-for-players-without-game-pass</link>
-<guid isPermaLink="false">67825a85a4c858e7c55fa1462ea8c49dbeb548bf1f93d56394adfe407e0ec1e8</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 19:52:50 +0000</pubDate>
-<description>Here come new rate limits.</description>
-<enclosure url="https://www.engadget.com/img/gallery/xbox-is-previewing-paid-cloud-gaming-for-players-without-game-pass/l-intro-1792612307.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/xbox-is-previewing-paid-cloud-gaming-for-players-without-game-pass/l-intro-1792612307.jpg" medium="image"/>
 </item>
 <item>
 <title>The new human-crafted Apple Music brand matters in an AI world</title>
@@ -895,17 +1115,6 @@
 <media:content url="https://media.wired.com/photos/6ad7f51365ca68303fb85227/master/pass/New%20Ruggable%20October%20Hosting%20Sale%20Post%20102026%20top%20art%20SOURCE%20Ruggable.jpg" medium="image"/>
 </item>
 <item>
-<title>EA is shutting down BioWare and cutting around 400 jobs</title>
-<link>https://www.engadget.com/2293402/ea-is-shutting-down-bioware-and-cutting-around-400-jobs</link>
-<guid isPermaLink="false">17ce855687813bc000b2e7ba82b96d8110d9ffa771519612b97df5d59bff6fa6</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 18:42:41 +0000</pubDate>
-<description>Skate studio Full Circle will be be reduced to "a more focused, smaller team," while a Sims project has been paused.</description>
-<enclosure url="https://www.engadget.com/img/gallery/ea-is-shutting-down-bioware-and-cutting-around-400-jobs/l-intro-1792608097.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/ea-is-shutting-down-bioware-and-cutting-around-400-jobs/l-intro-1792608097.jpg" medium="image"/>
-</item>
-<item>
 <title>Hold onto your old HomePod – an upgrade is on the way</title>
 <link>https://www.zdnet.com/home-and-office/keep-old-apple-homepod-upgrades</link>
 <guid isPermaLink="false">896fb924494efd6406b628739ef589afd93ca96c20ef225e15578597ffabf2e8</guid>
@@ -972,17 +1181,6 @@
 <media:content url="https://media.wired.com/photos/6ad86a30ddab9d722491775f/master/pass/2027%20Cadillac%20Escalade%20IQ.jpg" medium="image"/>
 </item>
 <item>
-<title>There's a new Apple Music logo and it looks like ripples in water</title>
-<link>https://www.engadget.com/2293262/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water</link>
-<guid isPermaLink="false">f057d99dff91740e064b2e61bd64ee135efe34170cfc55d9089178a1fd2c3da9</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 17:35:47 +0000</pubDate>
-<description>Maybe they should use it as the app logo instead.</description>
-<enclosure url="https://www.engadget.com/img/gallery/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/l-intro-1792604071.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/theres-a-new-apple-music-logo-and-it-looks-like-ripples-in-water/l-intro-1792604071.jpg" medium="image"/>
-</item>
-<item>
 <title>AI will eat a fifth of tech budgets in 2027, but don't expect it to pay for itself</title>
 <link>https://www.theregister.com/ai-and-ml/2026/10/21/ai-will-eat-a-fifth-of-tech-budgets-in-2027-but-dont-expect-it-to-pay-for-itself/5304466</link>
 <guid isPermaLink="false">145aad8079be1c17be98f1d0185d42207d80ff629efd8baa0416edc72115e5cd</guid>
@@ -1038,17 +1236,6 @@
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Chrome-Enhance-protection-in-Safe-Browsing-mode.jpg" medium="image"/>
 </item>
 <item>
-<title>Sony's PlayStation Pulse headset arrives on November 19 for $100</title>
-<link>https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100</link>
-<guid isPermaLink="false">f743aa5268256cdea0d60696e23e13a3aa5e60c5a24ec73a58955cc415f43592</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 16:09:48 +0000</pubDate>
-<description>Pre-orders open on October 29.</description>
-<enclosure url="https://www.engadget.com/img/gallery/sonys-playstation-pulse-headset-arrives-on-november-19-for-100/l-intro-1792598917.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/sonys-playstation-pulse-headset-arrives-on-november-19-for-100/l-intro-1792598917.jpg" medium="image"/>
-</item>
-<item>
 <title>This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good</title>
 <link>https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good</link>
 <guid isPermaLink="false">af1c60c7334e07f334d296d9b8dd57c35f5366edfdafd6f18e2531e1d30b5f4b</guid>
@@ -1058,17 +1245,6 @@
 <description>Recursive makes the case that the benefits of using AI to build AI outweigh the risks.</description>
 <enclosure url="https://media.wired.com/photos/6ad8079d19d8dd7213438cc0/master/pass/business_ai_lab_recursive_improvement.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad8079d19d8dd7213438cc0/master/pass/business_ai_lab_recursive_improvement.jpg" medium="image"/>
-</item>
-<item>
-<title>Supernatural's VR exercise app has relaunched on Meta VR headsets</title>
-<link>https://www.engadget.com/2293056/supernaturals-vr-exercise-app-has-relaunched-on-meta-vr-headsets</link>
-<guid isPermaLink="false">509d9a734029c15e434c64c790f6954b37fcc90a6438c0fae85250d1bd9a0217</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 16:00:00 +0000</pubDate>
-<description>It's in early access and subscriptions cost $20 per month or $200 each year.</description>
-<enclosure url="https://www.engadget.com/img/gallery/supernaturals-vr-exercise-app-has-relaunched-on-meta-vr-headsets/l-intro-1792598064.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/supernaturals-vr-exercise-app-has-relaunched-on-meta-vr-headsets/l-intro-1792598064.jpg" medium="image"/>
 </item>
 <item>
 <title>OpenBSD 8.0 beefs up virtual machines and gets a taste of Wine</title>
@@ -1135,28 +1311,6 @@
 <description>Avoid phone FOMO with our favorite smartphones that aren’t officially sold stateside but are available in markets like the UK and Europe.</description>
 <enclosure url="https://media.wired.com/photos/6ad7820d0f45928d2d3fc88c/master/pass/Best%20Non%20US%20Phones%20Update%201%20(cropped)%20SOURCE%20Simon%20Hill.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad7820d0f45928d2d3fc88c/master/pass/Best%20Non%20US%20Phones%20Update%201%20(cropped)%20SOURCE%20Simon%20Hill.jpg" medium="image"/>
-</item>
-<item>
-<title>Oppo Find X10 Pro Max hands-on: Triple 200-megapixel cameras but few surprises</title>
-<link>https://www.engadget.com/2291445/oppo-find-x10-pro-max-hands-on</link>
-<guid isPermaLink="false">65b2e15abef843c2fab950f4f98bf72015c0aab8bfd43c0a63fde15baa255cb5</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 15:00:00 +0000</pubDate>
-<description>Trying to fill a OnePlus-shaped hole, Oppo plays it a little safe.</description>
-<enclosure url="https://www.engadget.com/img/gallery/oppo-find-x10-pro-max-hands-on-triple-200-megapixel-cameras-but-few-surprises/l-intro-1792496281.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/oppo-find-x10-pro-max-hands-on-triple-200-megapixel-cameras-but-few-surprises/l-intro-1792496281.jpg" medium="image"/>
-</item>
-<item>
-<title>Now you can chat with Gemini while using Google Maps through CarPlay</title>
-<link>https://www.engadget.com/2292912/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay</link>
-<guid isPermaLink="false">302458ec5f6a187e508447f5bc7b4c8e39da2bddc3616d362d0ff112b0067125</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 15:00:00 +0000</pubDate>
-<description>Just tap the new Gemini icon to get started.</description>
-<enclosure url="https://www.engadget.com/img/gallery/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/l-intro-1792593259.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/now-you-can-chat-with-gemini-while-using-google-maps-through-carplay/l-intro-1792593259.jpg" medium="image"/>
 </item>
 <item>
 <title>Jensen Huang sends in the robot ducks to sell Nvidia's AI-everywhere vision</title>
@@ -1346,17 +1500,6 @@
 <media:content url="https://image.theregister.com/?imageId=240698&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Review: Carrie is a triumphant remix with one major flaw</title>
-<link>https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw</link>
-<guid isPermaLink="false">5ceb1e1a39b889a947c8ac2f601dcb1719b3d18583c5e216cdae1587afd3df1f</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 11:19:12 +0000</pubDate>
-<description>Mike Flanagan's re-imagining of Stephen King's classic is well worth watching.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/carrieTOP-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>EU wants Booking.com to check out of its scam problem</title>
 <link>https://www.theregister.com/security/2026/10/21/eu-wants-bookingcom-to-check-out-of-its-scam-problem/5304413</link>
 <guid isPermaLink="false">332b289c9774deb833e9844878477b1b087f7f2a7916d65ba0f2a6d9272c186e</guid>
@@ -1377,17 +1520,6 @@
 <description>From a calendar that keeps my family organized to a frame that rescues photos from my camera roll, these favorites make thoughtful gifts.</description>
 <enclosure url="https://media.wired.com/photos/6ad7b8e9fc73d5bd28140b67/master/pass/The%20Gifts%20Moms%20Actually%20Want%20Found%20by%20Moms%20(Update)%20102026%20top%20art%20SOURCE%20Weddell%20Water-Mina%20Baie-Kobo-The%20Zero%20Proof.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ad7b8e9fc73d5bd28140b67/master/pass/The%20Gifts%20Moms%20Actually%20Want%20Found%20by%20Moms%20(Update)%20102026%20top%20art%20SOURCE%20Weddell%20Water-Mina%20Baie-Kobo-The%20Zero%20Proof.jpg" medium="image"/>
-</item>
-<item>
-<title>The past, present, and future share a show floor at Pinball Expo 2026</title>
-<link>https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026</link>
-<guid isPermaLink="false">3fb0d18a909cf399b48c97fc8e1c69a296799d30fcb45c0497117bbaecf9f860</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 11:00:04 +0000</pubDate>
-<description>Flipping through the highlights in and around Pinball Expo 2026.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_184926781-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/PXL_20261016_184926781-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Gaming Can’t Afford More Games the Size of ‘Grand Theft Auto VI’</title>
@@ -1588,17 +1720,6 @@
 <media:content url="https://image.theregister.com/?imageId=261129&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>PHP warns it plans to release 2 emergency patches imminently</title>
-<link>https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches</link>
-<guid isPermaLink="false">837182b6a8aaa4eed69e441e7b16938f23978097a78c3dcac4edac7c7b757203</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 02:12:18 +0000</pubDate>
-<description>Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" medium="image"/>
-</item>
-<item>
 <title>Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’</title>
 <link>https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312</link>
 <guid isPermaLink="false">f109f7a4e9a00f3280e1d0930c040cef8d84017a646b0bfa8d64844641cc541d</guid>
@@ -1610,17 +1731,6 @@
 <media:content url="https://image.theregister.com/?imageId=5304329&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Merging SpaceX and Tesla would be a "good idea," Musk says</title>
-<link>https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says</link>
-<guid isPermaLink="false">268c445ff6a64a04f14dd2a0fe7dd3f32d6fe7136c2660b731dcffe634aeeec3</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 22:04:54 +0000</pubDate>
-<description>"I do think there's a lot of merit to combining the companies."</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/tesla-in-space-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>Auto tech startup claims it traced hack attempt back to rival's IP address</title>
 <link>https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281</link>
 <guid isPermaLink="false">79ed5d102336112432b1a0b843ffb0efedebfb401bb45e06b85a6b29119f628a</guid>
@@ -1630,17 +1740,6 @@
 <description>IQ.Lvbs implies that rival Comma.ai isn't playing fair</description>
 <enclosure url="https://image.theregister.com/?imageId=5304292&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5304292&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies</title>
-<link>https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies</link>
-<guid isPermaLink="false">30ae9a280ededb52cf8b283ee27271b521af22e55ec076b4108bd3c9292dff0a</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 21:44:34 +0000</pubDate>
-<description>Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1234276092-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>A New Rocco Smart Fridge Just Dropped. So Did the Prices (2026)</title>
@@ -1852,39 +1951,6 @@
 <media:content url="https://i.guim.co.uk/img/media/1ec14522bb2e09e892ab197b6436169a94f4fac9/0_0_2836_2269/master/2836.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3907a51e0c4a361f2e43d90f60510b8a" medium="image"/>
 </item>
 <item>
-<title>Bullhorn sees red after cyberattack knocks recruitment platform offline</title>
-<link>https://www.theregister.com/security/2026/10/20/bullhorn-sees-red-after-cyberattack-knocks-recruitment-platform-offline/5304114</link>
-<guid isPermaLink="false">d714d2d1a2a7a1f98ca70ba94eaefb65d6e6b383713e84ab99303c217c0bc7f7</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 12:15:00 +0000</pubDate>
-<description>Staffing software giant calls in CrowdStrike as customers face login headaches and questions remain over possible data theft</description>
-<enclosure url="https://image.theregister.com/?imageId=5265729&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5265729&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Microsoft admits that Always On VPN problems were not fixed in the October Security Update</title>
-<link>https://www.theregister.com/os-platforms/2026/10/20/microsoft-admits-that-always-on-vpn-problems-were-not-fixed-in-the-october-security-update/5304063</link>
-<guid isPermaLink="false">39a5bfdd03b2ac5752f7a4dfe04272469ef6b3351e74f09aed07b0f78368b92d</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 11:30:00 +0000</pubDate>
-<description>Let they who are without sin throw a stone and miss the greenhouse entirely</description>
-<enclosure url="https://image.theregister.com/?imageId=5304073&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5304073&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Sony Party Speaker Deal: Save $100 Off the ULT Tower 7</title>
-<link>https://www.wired.com/story/sony-party-speaker-deals-october-2026</link>
-<guid isPermaLink="false">054d85233fa0776d45539fc1b3775d7169b0a97622278da8742028296fb1cb39</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 11:00:00 +0000</pubDate>
-<description>The Sony ULT Tower 7 is one of our top party speaker picks and is at its lowest-ever price. Grab this or one of its sibling models before your next fete.</description>
-<enclosure url="https://media.wired.com/photos/6ad67b40b1e2ce8d04a898c4/master/pass/Sony%20ULT%20Tower%207%20Speaker%20Deal%20102026%20top%20art%20SOURCE%20Sony.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad67b40b1e2ce8d04a898c4/master/pass/Sony%20ULT%20Tower%207%20Speaker%20Deal%20102026%20top%20art%20SOURCE%20Sony.jpg" medium="image"/>
-</item>
-<item>
 <title>TechPulse puts ZDNET and 4 other tech sites in one feed – for free</title>
 <link>https://www.zdnet.com/tech/techpulse-free-tech-news-app-zdnet</link>
 <guid isPermaLink="false">0c7f7e8cd45dc616b9d343a76be47aa362b720008e664d2dde0c56bb41903b44</guid>
@@ -1894,50 +1960,6 @@
 <description>Choose which CNET Group publications appear in your feed, then catch up on news, reviews, and videos – without an algorithm deciding what you see.</description>
 <enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/TechPulse-app.jpg" type="image/jpeg"/>
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/TechPulse-app.jpg" medium="image"/>
-</item>
-<item>
-<title>The Physics Behind Tesla’s Flying Roadster</title>
-<link>https://www.wired.com/story/physics-behind-tesla-flying-roadster</link>
-<guid isPermaLink="false">2810b34aae399c8738e1ab1b80c95039d2142a2380b40ddfc6459d45e5f23f8b</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 10:45:00 +0000</pubDate>
-<description>To understand how Elon’s new car hops, glides, and sticks upside down, we need to talk about friction and force.</description>
-<enclosure url="https://media.wired.com/photos/6ad667a256bcd06aa1190eb2/master/pass/Roadster_56.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad667a256bcd06aa1190eb2/master/pass/Roadster_56.jpg" medium="image"/>
-</item>
-<item>
-<title>Sexual Assault Is a Free Speech Issue</title>
-<link>https://www.wired.com/story/the-big-interview-mary-anne-franks</link>
-<guid isPermaLink="false">86705af573f3d61567c16b5bed923eae186def100c229022b27f4b1e177bb76f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 10:30:00 +0000</pubDate>
-<description>Mary Anne Franks has spent years fighting against online abuse. When people are abused with impunity, she says, the message becomes “We do not care about women’s voices.”</description>
-<enclosure url="https://media.wired.com/photos/6ad69d9c3c0e878853bf6a56/master/pass/Big-Interview-mary-anne-franks.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad69d9c3c0e878853bf6a56/master/pass/Big-Interview-mary-anne-franks.jpg" medium="image"/>
-</item>
-<item>
-<title>How ‘Final Fantasy VII Revelation’ Strikes the Balance Between Old and New</title>
-<link>https://www.wired.com/story/final-fantasy-vii-revelation</link>
-<guid isPermaLink="false">d51cb860fdd1c4521554fd727c2be6a291a1571d366442d77a15bf00e8aadbef</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 10:30:00 +0000</pubDate>
-<description>Game director Naoki Hamaguchi talks about scale and expectations for one of gaming’s most ambitious remakes.</description>
-<enclosure url="https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad5cb8405cc7ba4721d495c/master/pass/01_Cloud_re_FIX%20(1).png" medium="image"/>
-</item>
-<item>
-<title>Organic Mattress Sale: 20 Percent Off Essentia Beds</title>
-<link>https://www.wired.com/story/essentia-sale-october-2026</link>
-<guid isPermaLink="false">c859209ee5ad4f4bc11e7269890a2f9276e5a03f15531d30c62297abdc0c157e</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Tue, 20 Oct 2026 10:30:00 +0000</pubDate>
-<description>Sleep healthier this winter with an organic mattress—now on heavy discount through November 2.</description>
-<enclosure url="https://media.wired.com/photos/6ad674bb43f8fc6e5c00cffe/master/pass/My%20Favorite%20Organic%20Mattress%20Is%20Discounted%20Right%20Now%20102026%20top%20art%20SOURCE%20Essentia.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad674bb43f8fc6e5c00cffe/master/pass/My%20Favorite%20Organic%20Mattress%20Is%20Discounted%20Right%20Now%20102026%20top%20art%20SOURCE%20Essentia.jpg" medium="image"/>
 </item>
 <item>
 <title>Googlebook review: Google’s new laptops are woefully underbaked</title>
@@ -2083,17 +2105,6 @@
 <media:content url="https://i.guim.co.uk/img/media/462c25d94e20d6ab8bd20b2b675fa9c6bcdb57db/986_594_1957_1566/master/1957.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e7b702d5ddadb069eb727131b63040dd" medium="image"/>
 </item>
 <item>
-<title>Windows update patches a whopping 1,400 security bugs – including 2 zero days</title>
-<link>https://www.zdnet.com/tech/windows-october-update-patches-file-explorer-bluetooth</link>
-<guid isPermaLink="false">2e8465e692b9bdd8f08511edc642929e579d0e2b8b980e62686cab413aecdbab</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Wed, 14 Oct 2026 13:59:59 +0000</pubDate>
-<description>This month’s update also marks the first official one for Windows 11 26H2 and the end of support for Windows 11 24H2 Home and Pro.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-October-2026-Patch-Tuesday-update.jpg" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-October-2026-Patch-Tuesday-update.jpg" medium="image"/>
-</item>
-<item>
 <title>Companies rushed in on AI. Now some are pulling back</title>
 <link>https://www.theguardian.com/technology/2026/oct/13/ai-companies-rushed-workers-fallout</link>
 <guid isPermaLink="false">4328153f38a5297e5003017cfe45fd884ec636a626fb17145ca3b43539f20c0d</guid>
@@ -2103,17 +2114,6 @@
 <description>Rapid AI adoption left workers cleaning up a flood of errors and low-quality work Employers around the globe are grappling with the fallout from rushing to adopt fast-changing artificial intelligence tools. Meta has scaled back plans to axe staff and use more AI agents after the company found employees were spending more and more time cleaning up technical and security errors, Reuters reported . And after thinning its workforce, especially middle managers , in a 2023 efficiency push, the company is expanding its managerial ranks again, LinkedIn posts from workers show. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/11db79cfa93a229b7abb801fe12ea8aa6f6e2f32/1_0_2701_2160/master/2701.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e4702dd21f68caf7c17d94e345e8c131" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/11db79cfa93a229b7abb801fe12ea8aa6f6e2f32/1_0_2701_2160/master/2701.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e4702dd21f68caf7c17d94e345e8c131" medium="image"/>
-</item>
-<item>
-<title>‘So perfect, they are literally identical’ – Your AI-polished resumes are recruiters’ new top stressor</title>
-<link>https://www.zdnet.com/education/employ-report-ai-hr-hiring</link>
-<guid isPermaLink="false">69fd65008d51845958b2d621f86e76564ce0404dc1c70a8f60ae6e664f19cd7c</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate>
-<description>Exclusive: A new Employ report shows how AI is both helping and hurting the hiring industry.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2224818947.jpg" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2224818947.jpg" medium="image"/>
 </item>
 <item>
 <title>Apple AirPods 5 review: the best open-fit earbuds yet</title>
