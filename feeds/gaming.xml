@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Anya Taylor-Joy’s breakout movie gave horror a different kind of female lead</title>
+<link>https://www.polygon.com/anya-taylor-joy-the-witch-free-streaming-october-2026</link>
+<guid isPermaLink="false">d89fbf532180d94ea5aad7ed8c41e5bc4229b0cc417471edd35d64e2f37ad251</guid>
+<source>Polygon</source>
+<category>gaming</category>
+<pubDate>Fri, 23 Oct 2026 07:26:19 +0000</pubDate>
+<description>And it's free to streaming online</description>
+<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22800006/last_night_in_soho_edgar_wright_anya_taylor_joy_.jpg" type="image/jpeg"/>
+<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22800006/last_night_in_soho_edgar_wright_anya_taylor_joy_.jpg" medium="image"/>
+</item>
+<item>
 <title>'Mass Effect Universe' Leak Promised What Fans Have Waited Decades For</title>
 <link>https://www.polygon.com/mass-effect-universe-new-characters-male-quarian-asari-krogan-aliens</link>
 <guid isPermaLink="false">1e8a1bd117fb304047b138d4edf4f7258593eda80043945ee6fd09e19c2caacb</guid>
@@ -90,16 +101,5 @@
 <description>EA shut down BioWare and laid off its remaining employees, ending the Mass Effect studio's three-decade run as the premiere RPG developer.</description>
 <enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24468118/mass_effect6.jpg" type="image/jpeg"/>
 <media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24468118/mass_effect6.jpg" medium="image"/>
-</item>
-<item>
-<title>Jenna Ortega's New Sci-Fi Movie Turns Compelling AI Drama Into One Big Joke</title>
-<link>https://www.polygon.com/klara-and-the-sun-review</link>
-<guid isPermaLink="false">d350208d4db3bc839a501356fd3feed979108b7eb7fe273216c20bb7c17fdc00</guid>
-<source>Polygon</source>
-<category>gaming</category>
-<pubDate>Thu, 22 Oct 2026 19:00:19 +0000</pubDate>
-<description>Klara and the Sun is based on Kazuo Ishiguro's novel. Director Taika Waititi strips away its compelling ideas with jokes.</description>
-<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/klara-and-the-sun.jpg" type="image/jpeg"/>
-<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/klara-and-the-sun.jpg" medium="image"/>
 </item>
 </channel></rss>

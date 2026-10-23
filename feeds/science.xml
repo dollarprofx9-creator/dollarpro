@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>APOD: 2026 October 23 – Andromeda in Southern Spring</title>
+<link>https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring</link>
+<guid isPermaLink="false">156b7e3d250b5d780ec44bfe4246556586e5889ace6ec75d74a049842d628dce</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Fri, 23 Oct 2026 04:05:00 +0000</pubDate>
+<description>APOD Science APOD APOD: 2026 October 23 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Andromeda in Southern […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/APOD_Lucy.jpg?w=2048&amp;h=1368&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/APOD_Lucy.jpg?w=2048&amp;h=1368&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
+</item>
+<item>
+<title>El Niño Then and Now</title>
+<link>https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now</link>
+<guid isPermaLink="false">af1f23177d7a6f21cfafcd9a25d27e08f632f15b7b331d8f0416d3adf7627b13</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+<description>A 35-year satellite altimetry record lets scientists hold this year’s El Niño up against its strongest predecessors.</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/about/NASA-EO-Logo-mediumBlue2016-stacked-mark.png?w=585&amp;h=425&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/about/NASA-EO-Logo-mediumBlue2016-stacked-mark.png?w=585&amp;h=425&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
+</item>
+<item>
 <title>Key Trump Health Adviser Resigns Ahead of Midterm Elections</title>
 <link>https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html</link>
 <guid isPermaLink="false">0e9f5eee1478b4420da8787467239d46e5917725b2fa0a8e0683a8ef86064966</guid>
@@ -20,7 +42,7 @@
 <guid isPermaLink="false">ec83c07495e86186690fc9a66c306c819b5cfc2e2e532053f1aaeb2c477e0dbc</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Thu, 22 Oct 2026 23:01:05 +0000</pubDate>
+<pubDate>Thu, 22 Oct 2026 23:01:06 +0000</pubDate>
 <description>This summer’s heat was the continent’s deadliest by far this century, according to new peer-reviewed estimates.</description>
 <enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/22cli-europe-heat-deaths-gfbw/22cli-europe-heat-deaths-gfbw-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/22cli-europe-heat-deaths-gfbw/22cli-europe-heat-deaths-gfbw-mediumSquareAt3X.jpg" medium="image"/>
@@ -464,28 +486,6 @@
 <description>This week's cartoon from Twisteddoodles</description>
 <enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_317342907.jpg" type="image/jpeg"/>
 <media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_317342907.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama</title>
-<link>https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama</link>
-<guid isPermaLink="false">1cc4bf2f6b258bdc10ff9ccc52a237284a14153066dba1810942ffb1b4caacb0</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Wed, 21 Oct 2026 16:31:11 +0000</pubDate>
-<description>As part of the agency’s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&amp;M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24. NASA Administrator Jared Isaacman will pilot one of three F-5 fighter jets during the flyover, highlighting NASA’s contributions to aeronautics and the agency’s continued commitment to […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg?w=1920" medium="image"/>
-</item>
-<item>
-<title>Tracks Along the Longest Drive on Another World</title>
-<link>https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world</link>
-<guid isPermaLink="false">bd459563b48b3a9aa855fe198ec31c4b2561cdd3b74fcbfd47a9cad987deae6e</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Wed, 21 Oct 2026 15:50:44 +0000</pubDate>
-<description>Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026), its odometer reached 45.22 kilometers (28.10 miles), setting a new record for the farthest distance driven on another celestial […]</description>
-<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&amp;h=968&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg?w=1288&amp;h=968&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
 </item>
 <item>
 <title>Science on the Space Station with NASA Astronaut Jessica Watkins</title>
