@@ -4,6 +4,138 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Xbox’s first chief operating officer is out after just a few months</title>
+<link>https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure</link>
+<guid isPermaLink="false">7bee3a3c9519ed80c31b9418872d619bd2bee3abe868a9e4d8b7805750e50690</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 21:39:26 +0000</pubDate>
+<description>Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge. Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485116/STK048_XBOX2__B.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485116/STK048_XBOX2__B.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>OpenAI now trains its frontier AI models with no internet access</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet</link>
+<guid isPermaLink="false">a6d2d5fdb7657f8a34ec9e61c18ba20954ad15d40397e484d28db50009013dd5</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 21:11:07 +0000</pubDate>
+<description>OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content "without risk of affecting external systems." OpenAI paused training its frontier […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Hegseth warns prediction market bets warp military judgment, endanger troops</title>
+<link>https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk</link>
+<guid isPermaLink="false">d51890a8336ffb826202576aff7d4be1e5893bcf4a5e35e73a4f5b57d5218d1b</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 20:28:43 +0000</pubDate>
+<description>Pentagon memo: Insider trading gives US enemies key intel on military operations.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Updated Google privacy policy says your Gmail might be used for advertising</title>
+<link>https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising</link>
+<guid isPermaLink="false">1224eab7439ee9c5433ca4a1e76b9a9fe45f03c3104998047776105b3a5f1ec8</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 20:19:55 +0000</pubDate>
+<description>Turning on Personal Intelligence gives the company more data for ad targeting.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>There's a third PHP2Shell bug, but it won't get an emergency fix</title>
+<link>https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208</link>
+<guid isPermaLink="false">77a47a3ac8f4b339cbe80687af420278d26afce3c9cabd378186180d39b8fbcd</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 20:04:40 +0000</pubDate>
+<description>Bad things (and software bugs?) come in threes</description>
+<enclosure url="https://image.theregister.com/?imageId=5305212&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5305212&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Abandoned Popcorn Time apps had to be disabled to prevent a zombie army</title>
+<link>https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided</link>
+<guid isPermaLink="false">3be5f2059474b551ba4ba9b8d30b2c160592dffcaaeb5a52313fa43eeda35e51</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 19:35:15 +0000</pubDate>
+<description>Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has been abandoned for years, but the "Netflix of Piracy" software is still installed on millions of devices that are just waiting to join a bot […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15706750/CE_tJ_AUIAA9JV-.0.0.1456496896.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15706750/CE_tJ_AUIAA9JV-.0.0.1456496896.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Inside the Pentagon, the pressure is on to find a home for a new spaceport</title>
+<link>https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030</link>
+<guid isPermaLink="false">263663fe4afd661a8b90c8788fd180973e47f48e1ae80732a381f18d924f77c7</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 19:33:58 +0000</pubDate>
+<description>Space Force considering options: public-private, federal installation, state land.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/gallery-gallery_ng-2-ascent-2-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/gallery-gallery_ng-2-ascent-2-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech</link>
+<guid isPermaLink="false">60b56cc3037dbda3a95126cc73210c100159f84d6a27e0e5e8c902267bb5813b</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 19:32:39 +0000</pubDate>
+<description>Jack Dorsey's Block announced an AI model called Dessa that's trained "from scratch on nothing but human conversation," and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Spotify ramps up policy enforcement on family plans</title>
+<link>https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans</link>
+<guid isPermaLink="false">dd86620ec489c7dfd430ed038e2636f71f3de422c012866b2952e46c705db3cf</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 19:20:27 +0000</pubDate>
+<description>If you share Spotify sub with family, you may need to scan QR code to prove it.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2016/07/spotify-1152x648.png" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2016/07/spotify-1152x648.png" medium="image"/>
+</item>
+<item>
+<title>Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200</link>
+<guid isPermaLink="false">372c83abd639006de805154d3f689df7f59a3072dca27006c5fa31e62f6f46ef</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 19:14:57 +0000</pubDate>
+<description>Monitoring was only partial and was easily bypassed</description>
+<enclosure url="https://image.theregister.com/?imageId=5305204&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5305204&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Soundcore’s latest noise-crushing headphones are on sale for a new low price</title>
+<link>https://www.theverge.com/gadgets/1017667/anker-soundcore-space-2-noise-canceling-headphones-deal-sale</link>
+<guid isPermaLink="false">75c55b9c071dc270e1d0b4b8b950789e8712514a675e813e1566c75e3d672ce1</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 18:43:30 +0000</pubDate>
+<description>My colleague John Higgins considered Soundcore’s Space One some of the best budget noise-canceling headphones you could buy when they launched in 2023 — and their successor has only improved upon their winning formula, albeit with a $30 price increase. Thankfully, the Soundcore Space 2 are currently on sale at Amazon, Best Buy, and Walmart […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268498_Soundcore_Space_2_AKrales_0084.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/268498_Soundcore_Space_2_AKrales_0084.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday</title>
+<link>https://www.wired.com/story/revival-rugs-birthday-sale-october-2026</link>
+<guid isPermaLink="false">255ec36bd301875d76548b1314c4949bdd0bb7b2d6f8d40e81acef54517509f4</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 18:27:32 +0000</pubDate>
+<description>The brand’s lovely selection of hand-knotted and handwoven wool rugs at reasonable prices make it a WIRED-staff favorite.</description>
+<enclosure url="https://media.wired.com/photos/6adba57525db5ec905073c5e/master/pass/New%20Revival%20Birthday%20Sale%20102026%20top%20art%20SOURCE%20Revival.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6adba57525db5ec905073c5e/master/pass/New%20Revival%20Birthday%20Sale%20102026%20top%20art%20SOURCE%20Revival.jpg" medium="image"/>
+</item>
+<item>
 <title>Fi’s GPS-equipped dog trackers are on sale for 30 percent off</title>
 <link>https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale</link>
 <guid isPermaLink="false">af25e18e067870e7ec4a160acc9e1fd64c1be31bf816df687b57238ecc86ec28</guid>
@@ -176,8 +308,8 @@
 <category>technology</category>
 <pubDate>Fri, 23 Oct 2026 16:09:39 +0000</pubDate>
 <description>The new restrictions are a test which is explicitly not supposed to impact these entities.</description>
-<enclosure url="https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/l-intro-1792771543.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/l-intro-1792771543.jpg" medium="image"/>
+<enclosure url="https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/l-intro-1792783602.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/meta-is-charging-government-and-nonprofit-pages-to-post-links-on-facebook/l-intro-1792783602.jpg" medium="image"/>
 </item>
 <item>
 <title>Apple Music has a fun Easter egg for the iPod's 25th anniversary</title>
@@ -202,17 +334,6 @@
 <media:content url="https://image.theregister.com/?imageId=5305120&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Feds want robotaxis to signal ‘I’m driving’ with cyan-colored lights</title>
-<link>https://www.theverge.com/transportation/1017435/nhtsa-autonomous-vehicle-cyan-lighting-fmvss</link>
-<guid isPermaLink="false">24257eb08dcdecc952fc49bde84c8965bd8e13d8168f1e0cb4b6fad1768e7d01</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 15:24:45 +0000</pubDate>
-<description>After years of debating how driverless cars should tell the world no one is at the wheel - flashing text, audio alerts, custom lights - the feds just stepped in with a single answer: cyan. The National Highway Traffic Safety Administration released proposed changes to Federal Motor Vehicle Safety Standard (FMVSS) No. 108, specifically rewriting […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24390349/22C0157_053.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24390349/22C0157_053.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Arc browser on its way out as makers suggest an alternative</title>
 <link>https://www.theregister.com/software/2026/10/23/arc-browser-on-its-way-out-as-makers-suggest-an-alternative/5305114</link>
 <guid isPermaLink="false">e40768936abedaffee5bfc5e438fc65e090cc941f90eb47ce663de2817c8c095</guid>
@@ -222,17 +343,6 @@
 <description>No new accounts from now, and the end will come in December</description>
 <enclosure url="https://image.theregister.com/?imageId=258531&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=258531&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>SpaceX’s mobile carrier push reportedly involves tapping into 80,000 cell sites</title>
-<link>https://www.theverge.com/science/1017477/spacex-cell-sites-major-us-carrier</link>
-<guid isPermaLink="false">49ed1c1053b02f84e0cf65f8181ad4d11d6264edaf5cedbe667df27430e2083e</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 15:16:24 +0000</pubDate>
-<description>SpaceX plans to access at least 80,000 cell sites as part of efforts to compete directly with Verizon, T-Mobile, and AT&amp;T, according to a report from Bloomberg. Sources tell the publication that SpaceX is in talks with Crown Castle Inc., one of the nation's largest cell tower owners. The move would give SpaceX access to […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1187777086.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1187777086.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>How Many Billions Would It Take to Hold Meta Accountable?</title>
@@ -246,17 +356,6 @@
 <media:content url="https://media.wired.com/photos/6ada8957133035a6bb08c0f2/master/pass/Business_How%20Many%20Billions%20Would%20It%20Take%20to%20Hold%20Meta%20Accountable_v1.jpg" medium="image"/>
 </item>
 <item>
-<title>Meta delays new business terms after publisher pushback on AI scraping</title>
-<link>https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping</link>
-<guid isPermaLink="false">7aa6acbd35f79e1aa638a6466c227c10d8921c3684b08de9cbfa308709c7ccea</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 14:47:41 +0000</pubDate>
-<description>Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th "to allow […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>A farewell to BioWare, maker of some of the best games of the 21st century | Lucy James</title>
 <link>https://www.theguardian.com/games/2026/oct/23/bioware-rpg-games-ea-closure-mass-effect</link>
 <guid isPermaLink="false">70bf9d8d1e50c13920dc56548c33e72440890ed3a5048ad3d4be242aed693858</guid>
@@ -266,17 +365,6 @@
 <description>The closure of the studio responsible for some of the best games of the 21st century leaves the world of RPGs feeling smaller without the hope of another instalment of the much-loved sci-fi series Earlier this week, EA announced the closure of BioWare, a game studio with a 30-year history of compelling role-playing games, complex characters and bold, choice-driven narratives. Its forthcoming game in the Mass Effect sci-fi series has been cancelled, and more than 400 people are losing their jobs. As someone who has worked in the video games industry for 15 years and spent almost 20 as a BioWare fan, I am among millions of mourners today. It’s not terribly hard to see why BioWare got the chop. Its parent company has been saddled with $20bn of debt thanks to a recent leveraged buyout involving Jared Kushner and the Saudi wealth fund. EA was looking for weight to cut loose, and despite its hardcore fanbase and reputation for genre-defining RPGs such as Star Wars: Knights of the Old Republi</description>
 <enclosure url="https://i.guim.co.uk/img/media/db0a48ae4a8bab736e867ed6a0033af706ae7f1e/831_0_1713_1372/master/1713.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=1e1f0cfe6f9ebc48849d00a0a8b0c87c" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/db0a48ae4a8bab736e867ed6a0033af706ae7f1e/831_0_1713_1372/master/1713.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=1e1f0cfe6f9ebc48849d00a0a8b0c87c" medium="image"/>
-</item>
-<item>
-<title>The Sigma FP2 brings significant upgrades to the ‘world’s smallest’ full-frame camera</title>
-<link>https://www.theverge.com/tech/1017410/sigma-fp2-mirrorless-full-frame-modular-camera-upgrade</link>
-<guid isPermaLink="false">374a21eda7a60ae88fd54fdab39f13ee651325dfeae152738b91a6224e59def5</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 14:42:46 +0000</pubDate>
-<description>Seven years after Sigma claimed its original fp was the world's smallest and lightest full-frame mirrorless camera, the company has announced a similarly compact follow-up with several welcome upgrades, including an improved sensor, an articulating LCD display, and longer battery life. But this time around, Sigma is only claiming its new FP2 is the "world's […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/sigmafp2_1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/sigmafp2_1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>SparkyOS: Lightweight general-purpose Arch, on a pendrive</title>
@@ -299,17 +387,6 @@
 <description>Anthropic claims AI will shift how work gets done and labor demand – but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report Anthropic published on Thursday, the company said it was hiring fewer junior technical workers and that human attention has become the new “bottleneck” as it increasingly relies on its Claude AI agents. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/7f1d891b55886b1bfb45b0cdd3e7df3e842cbdce/0_31_3364_2691/master/3364.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=38c8ce15c5e2970094652a1c3132b9bd" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/7f1d891b55886b1bfb45b0cdd3e7df3e842cbdce/0_31_3364_2691/master/3364.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=38c8ce15c5e2970094652a1c3132b9bd" medium="image"/>
-</item>
-<item>
-<title>Our best tips for using the iPhone Duo</title>
-<link>https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe</link>
-<guid isPermaLink="false">9841a6fd366727bf2ec9585fe58654b65e8ff94ac8c31512f7796eec1a48edbb</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 14:00:00 +0000</pubDate>
-<description>The Duo is an entirely new kind of iPhone, so it comes with a bit of a learning curve. That's a wild thing to imagine, since the iPhone has had very few fundamental changes since its inception. But the Duo is built different. If you won the preorder lottery and managed to get your hands […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1057.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1057.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>The reactor meant to showcase nuclear’s comeback keeps hitting problems</title>
@@ -895,28 +972,6 @@
 <media:content url="https://media.wired.com/photos/6ad948eb213049c1e3561565/master/pass/business-Uncanny-Valley-Nathan-Fielder.jpg" medium="image"/>
 </item>
 <item>
-<title>"Disillusioned" MAHA leader quits as Trump admin's food agenda spoils: Report</title>
-<link>https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report</link>
-<guid isPermaLink="false">4220fa75a0eb32f20df9b1132bf83bb4b2ebe296c35c29ef6d67efc629e2efec</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 19:04:06 +0000</pubDate>
-<description>The departure comes amid turmoil in Kennedy's Make America Healthy Again movement.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2210915866-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2210915866-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Electric or gas? BMW goes both ways with new 2027 X5 and iX5.</title>
-<link>https://arstechnica.com/cars/2026/10/electric-or-gas-bmw-goes-both-ways-with-new-2027-x5-and-ix5</link>
-<guid isPermaLink="false">c316d15920213ecd30a6552df10e394f81eff6380c1e5c1e64b6e71f793a0877</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 19:01:23 +0000</pubDate>
-<description>460 kW charging and 450 miles of range are among the reasons the EV is the one to get.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Tanzanite-Blue_43-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/BMW-iX5-60-xDrive-Tanzanite-Blue_43-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>2027 BMW iX5 first drive: You'll love the range, but maybe not the look</title>
 <link>https://www.engadget.com/2291166/2027-bmw-ix5-first-drive</link>
 <guid isPermaLink="false">d981e283be68888fb0b5b737078e25556c511d8aac7ed1d917b9f363d9b82640</guid>
@@ -948,28 +1003,6 @@
 <description>The organization is prioritizing an AI browser called Dia.</description>
 <enclosure url="https://www.engadget.com/img/gallery/the-browser-company-is-officially-killing-arc-on-december-22/l-intro-1792695105.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/the-browser-company-is-officially-killing-arc-on-december-22/l-intro-1792695105.jpg" medium="image"/>
-</item>
-<item>
-<title>Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales</title>
-<link>https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales</link>
-<guid isPermaLink="false">cf0e22c580e9cb5a6c2b062275fe48f386f8ebc6bad9198e9ac9a6a6e0e0f71f</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 18:49:14 +0000</pubDate>
-<description>Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>US official: Russia's stalker satellite sure looks like an orbital weapon</title>
-<link>https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character</link>
-<guid isPermaLink="false">b1ac05b0b36fd2c937fce47b5a1928fb9c3967c1a30ac735dc2b8328cdf12106</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 18:29:39 +0000</pubDate>
-<description>The Russian official who called commercial satellites "legitimate targets" now says concerns are "unfounded."</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vorontsov-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Bluesky adds iPad support in latest feature update</title>
@@ -1874,17 +1907,6 @@
 <media:content url="https://media.wired.com/photos/6ad7df7552635a2423fcfe8e/master/pass/GettyImages-2297134397.jpg" medium="image"/>
 </item>
 <item>
-<title>Apple iPhone Duo Review: Is It Worth It?</title>
-<link>https://www.wired.com/review/apple-iphone-duo</link>
-<guid isPermaLink="false">56808565f6f462947121e569a5f01b57fff5cdd997f3bf3a7532d2f9fd1b1e7f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<description>Apple made an astonishingly good first foldable. Now iOS and third-party apps need time to catch up.</description>
-<enclosure url="https://media.wired.com/photos/6ad7940031b157a7a885ace4/master/pass/DSC_9923.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ad7940031b157a7a885ace4/master/pass/DSC_9923.jpg" medium="image"/>
-</item>
-<item>
 <title>AI has 'potential' to turn script kiddies into sophisticated infrastructure attackers</title>
 <link>https://www.theregister.com/security/2026/10/21/ai-has-potential-to-turn-script-kiddies-into-sophisticated-infrastructure-attackers/5304297</link>
 <guid isPermaLink="false">b868aa60a7ef60de689fdb4636c60e78107f595e501d5de1123179c392b67500</guid>
@@ -1927,28 +1949,6 @@
 <description>GPUzilla boasts modular bit barns could speed up deployments from six months to just two weeks</description>
 <enclosure url="https://image.theregister.com/?imageId=240698&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=240698&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>EU wants Booking.com to check out of its scam problem</title>
-<link>https://www.theregister.com/security/2026/10/21/eu-wants-bookingcom-to-check-out-of-its-scam-problem/5304413</link>
-<guid isPermaLink="false">332b289c9774deb833e9844878477b1b087f7f2a7916d65ba0f2a6d9272c186e</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 11:10:55 +0000</pubDate>
-<description>Commission opens DSA probe into fake listings and phishing on the platform, says its fraud defenses 'absolutely substandard'</description>
-<enclosure url="https://image.theregister.com/?imageId=5304420&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5304420&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Java crashes the departure board at Tyne and Wear Metro</title>
-<link>https://www.theregister.com/offbeat/2026/10/21/java-crashes-the-departure-board-at-tyne-and-wear-metro/5304106</link>
-<guid isPermaLink="false">dacfb3ac5889a362b0c725b97ddce598e25d61b53f1b6bdbde374dbefe9c405e</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 10:43:00 +0000</pubDate>
-<description>Train times remain on show as an elderly Windows dialog demands attention</description>
-<enclosure url="https://image.theregister.com/?imageId=5304110&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5304110&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Gemini on Android Auto can access my photos, emails, and calendar now – why I’m OK with that (mostly)</title>
