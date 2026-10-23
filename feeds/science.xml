@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Key Trump Health Adviser Resigns Ahead of Midterm Elections</title>
+<link>https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html</link>
+<guid isPermaLink="false">0e9f5eee1478b4420da8787467239d46e5917725b2fa0a8e0683a8ef86064966</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Thu, 22 Oct 2026 23:33:19 +0000</pubDate>
+<description>Calley Means, who helped unite Robert F. Kennedy Jr. and President Trump, pushed food reforms but grew frustrated with stalled progress on the MAHA agenda.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/22dc-means-mkpj/22dc-means-mkpj-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/22dc-means-mkpj/22dc-means-mkpj-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>Heat Waves Killed an Estimated 50,000 in European Cities, a Likely Record</title>
+<link>https://www.nytimes.com/2026/10/22/climate/europe-summer-heat-deaths.html</link>
+<guid isPermaLink="false">ec83c07495e86186690fc9a66c306c819b5cfc2e2e532053f1aaeb2c477e0dbc</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Thu, 22 Oct 2026 23:01:05 +0000</pubDate>
+<description>This summer’s heat was the continent’s deadliest by far this century, according to new peer-reviewed estimates.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/22cli-europe-heat-deaths-gfbw/22cli-europe-heat-deaths-gfbw-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/22cli-europe-heat-deaths-gfbw/22cli-europe-heat-deaths-gfbw-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>Europe's Space Rider vehicle comes crashing down during drop test</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/europes-space-rider-vehicle-comes-crashing-down-during-drop-test</link>
 <guid isPermaLink="false">514ba1f283f0871d7b7390578459edd8688a1c47e4ee907e19f8f448fef1a39d</guid>
@@ -35,17 +57,6 @@
 <description>On Oct. 22, 1992, the space shuttle Columbia launched into space with the ashes of Gene Roddenberry, the creator of "Star Trek." Here's why it mattered.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/JDnT5gidkxtFmwCnuxnt5Z-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/JDnT5gidkxtFmwCnuxnt5Z-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Key Trump Health Adviser Resigns Ahead of Midterm Elections</title>
-<link>https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html</link>
-<guid isPermaLink="false">0e9f5eee1478b4420da8787467239d46e5917725b2fa0a8e0683a8ef86064966</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Thu, 22 Oct 2026 20:45:27 +0000</pubDate>
-<description>Calley Means, who helped unite Robert F. Kennedy Jr. and President Trump, pushed food reforms but grew frustrated with stalled progress on the MAHA agenda.</description>
-<enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/22dc-means-mkpj/22dc-means-mkpj-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/22dc-means-mkpj/22dc-means-mkpj-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>After Starshield interruption, Ukraine wants to build its own satellite communication network with ICEYE and Nokia</title>
