@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>NASA updates lander plans for Moon landings, finally solves long-festering Orion issue</title>
+<link>https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue</link>
+<guid isPermaLink="false">07eaab2d81851c7fb3d14799d090b5c94acf2038fcc5ca83b5d4d28937429edb</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 22:48:25 +0000</pubDate>
+<description>"We have the mandate, we have the resources, and the support from our stakeholders."</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/centaur-1002x648.jpg" medium="image"/>
+</item>
+<item>
+<title>OpenAI says it's cutting off internet access for frontier model training</title>
+<link>https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training</link>
+<guid isPermaLink="false">1fbeabc811c2d4d9129a8893343803b9e386b35f2ce50429e17bf311c56ba088</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 22:37:02 +0000</pubDate>
+<description>OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.</description>
+<enclosure url="https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg" medium="image"/>
+</item>
+<item>
 <title>Xbox’s first chief operating officer is out after just a few months</title>
 <link>https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure</link>
 <guid isPermaLink="false">7bee3a3c9519ed80c31b9418872d619bd2bee3abe868a9e4d8b7805750e50690</guid>
@@ -112,6 +134,17 @@
 <description>Monitoring was only partial and was easily bypassed</description>
 <enclosure url="https://image.theregister.com/?imageId=5305204&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5305204&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking</title>
+<link>https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability</link>
+<guid isPermaLink="false">c501a531f3bdbbc423c10bc7c936b6226b2c3169ad6c1eef69077a254b26cb95</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 18:48:48 +0000</pubDate>
+<description>After discovery of severe bug in the PHP programming language, executives warn of ‘vulnerability tsunami’ Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week. They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to come. “I no longer think we’re going to be able to patch all bugs,” said Sam Altman on Thursday evening, joining the chorus of executives. In the midst of what’s being called “Black October”, for which researchers used AI to help identify critical flaws in a coding language that is used across millions of websites and may have been unpatched for years, tech executives are warning about the ways AI will be used both to identify and exploit security vulnerabilities at an unprecedented scale and pace. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f0fcf915eff60a2543bdf4861c42d972" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/cb4c18c4ae3df1d687b8488dfb57058ade00d1a7/731_0_3659_2927/master/3659.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=f0fcf915eff60a2543bdf4861c42d972" medium="image"/>
 </item>
 <item>
 <title>Soundcore’s latest noise-crushing headphones are on sale for a new low price</title>
@@ -950,17 +983,6 @@
 <media:content url="https://www.engadget.com/img/gallery/the-trailer-for-mass-effect-5-has-leaked-and-unfortunately-it-looks-good/l-intro-1792698450.jpg" medium="image"/>
 </item>
 <item>
-<title>Ink droplets in motion snag top prize in Nikon Small World contest</title>
-<link>https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest</link>
-<guid isPermaLink="false">1d34bb44eb1bab4b97e90fc3c0cbdbc33747becd001bf240b21183e0fa0b689f</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 19:34:40 +0000</pubDate>
-<description>Ole Bielfeldt of Germany captured a microscopic view of an inkjet printer depositing ink onto paper.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikonTOP-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikonTOP-1152x648.jpg" medium="image"/>
-</item>
-<item>
 <title>Inside the Exclusive Nathan Fielder Interview</title>
 <link>https://www.wired.com/story/uncanny-valley-podcast-inside-the-secret-nathan-fielder-interview</link>
 <guid isPermaLink="false">6cb0214afd64e0734356d31b2943962f117133a02bad5f2c62261542bba52661</guid>
@@ -1113,17 +1135,6 @@
 <description>Ministers report 32 unavailable and four partly disrupted, but no confirmed compromise</description>
 <enclosure url="https://image.theregister.com/?imageId=229174&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=229174&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>PC shipments are in the toilet, plunging over 20 percent from last year</title>
-<link>https://www.engadget.com/2294257/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year</link>
-<guid isPermaLink="false">e28a9437ea1c5be25a39d3533b2c03a135c46f1d8d45fa07ab21224b98184471</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 15:56:26 +0000</pubDate>
-<description>This could reach 27 percent throughout the end of 2026 as prices continue to rise.</description>
-<enclosure url="https://www.engadget.com/img/gallery/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year/l-intro-1792684457.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/pc-shipments-are-in-the-toilet-plunging-over-20-percent-from-last-year/l-intro-1792684457.jpg" medium="image"/>
 </item>
 <item>
 <title>Amazon’s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks</title>
@@ -1498,17 +1509,6 @@
 <description>If spreadsheets are your thing, but Microsoft Office isn’t, you might want to give the open-source clone, GridCraft, a try.</description>
 <enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/gridcrafthero.jpg" type="image/jpeg"/>
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/gridcrafthero.jpg" medium="image"/>
-</item>
-<item>
-<title>Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI</title>
-<link>https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai</link>
-<guid isPermaLink="false">d32270d19deaab9d8cbb412b8e3e62728e172748b2d3f291971c72475f199fce</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 01:13:01 +0000</pubDate>
-<description>Author withdrawn from France’s Prix Goncourt last month has repeatedly denied using artificial intelligence to write novel The publisher of top-selling Haitian Canadian writer Thélyson Orélien, who was removed from France’s most prestigious literary prize list last month, has confirmed the author used artificial intelligence to help write his novel C’était ça ou mourir (It Was Either That or Die). Orélien has denied allegations that he used AI on his breakthrough novel and, last week, Canadian publisher Les Éditions du Boréal said it was standing by the 38-year-old writer. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/593ae3d39388056aa07d530e1309848d610c3078/1027_0_6240_4994/master/6240.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=29162b08f8db4f8fb65e9a3d1b32b0c3" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/593ae3d39388056aa07d530e1309848d610c3078/1027_0_6240_4994/master/6240.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=29162b08f8db4f8fb65e9a3d1b32b0c3" medium="image"/>
 </item>
 <item>
 <title>Not impressed with Google Maps? Make Waze your default on Pixel – here’s how</title>
