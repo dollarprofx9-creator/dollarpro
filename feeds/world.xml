@@ -4,15 +4,59 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Archdiocese of New York agrees to $800 million settlement over sexual abuse claims</title>
+<link>https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement</link>
+<guid isPermaLink="false">1f6258bca171e5fea12a3f249c94ef3f722da670f8f2351e82949b08e7e07890</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 22:47:58 +0000</pubDate>
+<description>The 1,300 survivors of sexual abuse by clergy members and lay workers have all agreed to the settlement, according to an attorney for some of the plaintiffs.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8133x5425+0+0/resize/8133x5425!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F15%2Fae6c610d4cbdbb57cd01626acc9b%2Fap25111612404369.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8133x5425+0+0/resize/8133x5425!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F15%2Fae6c610d4cbdbb57cd01626acc9b%2Fap25111612404369.jpg" medium="image"/>
+</item>
+<item>
 <title>Six Flags announces new safety measures for Goliath coaster following rider death</title>
 <link>https://abcnews.com/US/flags-announces-new-safety-measures-goliath-coaster-rider/story?id=137539590</link>
 <guid isPermaLink="false">cfb99a3a93a7368d7c5bc68398029b812ed0636c5e3216ae3a51126f0bd1e38d</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Sat, 24 Oct 2026 19:09:03 +0000</pubDate>
+<pubDate>Sat, 24 Oct 2026 22:06:33 +0000</pubDate>
 <description>Six Flags administrators announced Saturday that they will institute new safety measures for its Goliath coaster, nearly two weeks after a rider was killed.</description>
 <enclosure url="https://s.abcnews.com/images/US/goliath-gty-jt-261024_1792858805754_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/US/goliath-gty-jt-261024_1792858805754_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Ukraine says Starlink satellite access is fully back after weeklong disruption</title>
+<link>https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401</link>
+<guid isPermaLink="false">fffa3936b1dcdd834ce2a645f5cb0dbcfd348c6a2b1fb3673e0d8fbac87d0a62</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 22:03:13 +0000</pubDate>
+<description>Ukrainian officials said speed restrictions on Starlink and Starshield that hampered military operations have been lifted.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Early voting begins in New York: What to know and the key races to watch</title>
+<link>https://abcnews.com/US/early-voting-begins-new-york-key-races-watch/story?id=137518680</link>
+<guid isPermaLink="false">d75448043ffe17f8cb6b9d697dece21f4c8e324ab1a43de4bc08307d248e1e08</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 21:42:45 +0000</pubDate>
+<description>Saturday is the first day of early voting in New York and Empire State voters could help decide which party will control the House over the next two years.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/USA-ELECTION-NEW-YORK_1792804953002_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/USA-ELECTION-NEW-YORK_1792804953002_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>'The marches went well' – French government on demonstrations a week after looting and violence</title>
+<link>https://www.france24.com/en/france/20261024-the-marches-went-well-%E2%80%93-french-government-on-demonstrations-a-week-after-looting-and-violence</link>
+<guid isPermaLink="false">49f1f5595d28e54f1b3f63eb08a4ee8d00d668612d4c3ae9de19278e25498e16</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 21:01:56 +0000</pubDate>
+<description>Hundreds of thousands marched across France Saturday protesting the rising cost of living. While demonstrations in Paris started peacefully, they ended with a heavy government security response following escalation. Other cities saw clashes that also contributed to the near-1,000 arrested across the country, meanwhile other countries in Europe rallied over issues with some overlap. "The marches went well" said Interior Minister Laurent Nuñez.</description>
+<enclosure url="https://s.france24.com/media/display/9b2132ac-cfe7-11f1-b4e6-4b25c96ec90e/w:1024/p:16x9/AP26297483587746.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/9b2132ac-cfe7-11f1-b4e6-4b25c96ec90e/w:1024/p:16x9/AP26297483587746.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Obama, Trump hit the campaign trail ahead of critical midterm elections</title>
@@ -79,17 +123,6 @@
 <description>🇫🇷 The Ministry of the Interior estimates at least 410,000 people rallied across France for Saturday’s protests against the high cost of living, including 110,000 in Paris. Meanwhile, reported nearly 800,000 demonstrators and 250,000 in the capital. The situation in Paris remained largely "calm" during the day, while clashes broke out in other cities following attempts to enter unauthorised areas.</description>
 <enclosure url="https://s.france24.com/media/display/ad139170-cfd4-11f1-892a-bdb9616e85cf/w:1024/p:16x9/Clashes-1.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/ad139170-cfd4-11f1-892a-bdb9616e85cf/w:1024/p:16x9/Clashes-1.jpg" medium="image"/>
-</item>
-<item>
-<title>Ukraine says Starlink satellite access is fully back after weeklong disruption</title>
-<link>https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401</link>
-<guid isPermaLink="false">fffa3936b1dcdd834ce2a645f5cb0dbcfd348c6a2b1fb3673e0d8fbac87d0a62</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 17:48:01 +0000</pubDate>
-<description>Ukrainian officials said speed restrictions on Starlink and Starshield that hampered military operations have been lifted.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Man charged with murder after body found in wheelie bin</title>
@@ -169,17 +202,6 @@
 <media:content url="https://s.abcnews.com/images/GMA/261024_gma_play_witch4_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Early voting begins in New York: What to know and the key races to watch</title>
-<link>https://abcnews.com/US/early-voting-begins-new-york-key-races-watch/story?id=137518680</link>
-<guid isPermaLink="false">d75448043ffe17f8cb6b9d697dece21f4c8e324ab1a43de4bc08307d248e1e08</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 14:47:31 +0000</pubDate>
-<description>Saturday is the first day of early voting in New York and Empire State voters could help decide which party will control the House over the next two years.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/USA-ELECTION-NEW-YORK_1792804953002_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/USA-ELECTION-NEW-YORK_1792804953002_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>NFL's Paris Premier: Saints RB Alvin Kamara on global reach, sport as catalyst for youth opportunity</title>
 <link>https://www.france24.com/en/tv-shows/spotlight/20261024-nfl-s-paris-premier-saints-rb-alvin-kamara-on-global-reach-sport-as-catalyst-for-youth-opportunity</link>
 <guid isPermaLink="false">8a1b562ca8681e30d50080c4f50bbd55e55873b67b28f499b0c70a4d51f3f7ff</guid>
@@ -189,6 +211,17 @@
 <description>François Picard and Selina Sykes are pleased to welcome New Orleans Saints running back Alvin Kamara. As the National Football League expands its international ambitions to Paris, FRANCE, Kamara offers a unique perspective that reaches well beyond the spectacle of American football's arrival in the French capital. Just days before the Saints' anticipated encounter with the Pittsburgh Steelers, Kamara describes the occasion as "an opportunity unlike any other," while reflecting on his remarkable career, his interest in representing his country in flag football at the Los Angeles 2028 Olympics, and his ambitions to develop sporting opportunities in Liberia, his parents' country of birth.</description>
 <enclosure url="https://s.france24.com/media/display/077be5d6-cfb2-11f1-9ded-bdb9616e85cf/w:1024/p:16x9/EN-20261020-183652-184335-CS.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/077be5d6-cfb2-11f1-9ded-bdb9616e85cf/w:1024/p:16x9/EN-20261020-183652-184335-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>British and French paratroopers take part in major wargame in Germany</title>
+<link>https://news.sky.com/story/british-and-french-paratroopers-take-part-in-major-wargame-in-germany-13603116</link>
+<guid isPermaLink="false">0be1750d3a6673633a9f5c95a4ccf6aa19730429cf806a8588e7ca8969237f45</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 14:07:00 +0000</pubDate>
+<description>Over 2,500 British and French troops have taken part in a wargame in Germany designed to show how NATO territory could be defended against an attack.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-uk-france-parachute_7385672.jpg?20261024152148" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-uk-france-parachute_7385672.jpg?20261024152148" medium="image"/>
 </item>
 <item>
 <title>Israeli forces displace 2,000 Palestinians in Hebron after deadly attack on soldiers</title>
@@ -334,17 +367,6 @@
 <media:content url="https://s.france24.com/media/display/ece984b6-cf9e-11f1-b402-bdb9616e85cf/w:1024/p:16x9/EN-20261024-130956-131944-CS.jpg" medium="image"/>
 </item>
 <item>
-<title>Trump administration sues to block possible Democratic win in Alaska Senate race</title>
-<link>https://www.france24.com/en/americas/20261024-trump-administration-sues-to-block-possible-democratic-win-in-alaska-senate-race</link>
-<guid isPermaLink="false">2cdc4eae1c838fbdafbc41dbe010e2366c439ae57995f27dea0d64fb8fda3537</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 11:40:50 +0000</pubDate>
-<description>US President Donald Trump said Friday that he had instructed his administration to file a lawsuit to block the certification of the US Senate race in Alaska if Republican Senator Dan Sullivan loses, arguing that voters would be confused because two Republicans on the ballot have similar names. The legal battle is ramping up questions over whether Trump will accept a potential midterms defeat.</description>
-<enclosure url="https://s.france24.com/media/display/daf057b4-cf9c-11f1-9be0-4d317af013fd/w:1024/p:16x9/AP26294747292303.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/daf057b4-cf9c-11f1-9be0-4d317af013fd/w:1024/p:16x9/AP26294747292303.jpg" medium="image"/>
-</item>
-<item>
 <title>Is your Medicare Advantage plan ending next year? Here's what to know</title>
 <link>https://www.npr.org/2026/10/24/nx-s1-6014612/medicare-advantage-open-enrollment-cancelled-plan</link>
 <guid isPermaLink="false">aa2c3b3a25bd9a23025b6ad16bdb4208be7e82cacb2e50bcfa6f090c804c24a0</guid>
@@ -422,28 +444,6 @@
 <media:content url="https://s.abcnews.com/images/US/fbi-seal-abc-jt-241105_1730859247426_hpMain_5_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat</title>
-<link>https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938</link>
-<guid isPermaLink="false">a6a66a15bcada94349ef33ea873cfa3dab48a619855f891f3b3cfce55063473a</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 04:15:00 +0000</pubDate>
-<description>Police have detained a suspect after a fire erupted at a historic Nazi mountain retreat known as "Eagle's Nest" in Germany.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-fire-nazi_7385230.png?20261024055752" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-fire-nazi_7385230.png?20261024055752" medium="image"/>
-</item>
-<item>
-<title>UK pledges £600m to defend against AI health and security threats</title>
-<link>https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935</link>
-<guid isPermaLink="false">41a62801bb11ea96fbf81aa57259e2449eba05a7a4896a628080355b6541c800</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 02:49:00 +0000</pubDate>
-<description>The UK has pledged to spend £600m to defend the public against threats to health and security from artificial intelligence.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917" medium="image"/>
-</item>
-<item>
 <title>Britt McHenry resigns from State Department after basketball game altercation</title>
 <link>https://abcnews.com/Politics/britt-mchenry-resigns-state-department-job-after-basketball/story?id=137526303</link>
 <guid isPermaLink="false">5502e8c38d58f28a51fce4fb908877de8c83caacde80430b95061181768b8b9b</guid>
@@ -488,17 +488,6 @@
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-kaylub-giamanco-oregon_7385210.jpg?20261024031944" medium="image"/>
 </item>
 <item>
-<title>Flooding in Four Corners region displaces residents, as storms move southeast</title>
-<link>https://www.npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners</link>
-<guid isPermaLink="false">286ae822823c45e3e587aa9840127de984dfbce650bc294278a82b1a733b4721</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 00:40:42 +0000</pubDate>
-<description>Intense rainfall slammed the Four Corners region late this week. As rivers flooded, towns declared evacuations and emergencies and made rescues.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F71%2F38ed8e994c1d975d5a0e3aac6dfe%2Fimg-4686.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F71%2F38ed8e994c1d975d5a0e3aac6dfe%2Fimg-4686.jpg" medium="image"/>
-</item>
-<item>
 <title>In tight race for Ga. gov, Keisha Lance Bottoms has been outspent but still confident</title>
 <link>https://abcnews.com/Politics/tight-race-georgia-governor-keisha-lance-bottoms-massively/story?id=137522688</link>
 <guid isPermaLink="false">ffd897b5578b369665d8367ec11bc1cfbf44c5eb999550a5bd65f531d5667f54</guid>
@@ -530,28 +519,6 @@
 <description>National Geographic’s Wonderlab Snorkel Cam, created by Explorer Anand Varma, captures striking 360-degree views of ocean creatures, including a barnacle-covered mussel and a sea urchin.</description>
 <enclosure url="https://s.abcnews.com/images/GMA/261023_gma3_nat_geo_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/GMA/261023_gma3_nat_geo_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Russia steps up election influence efforts in final stretch of midterms</title>
-<link>https://www.npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence</link>
-<guid isPermaLink="false">68d5cc45d56fca083f6d029bdfff43b2b7d20d55964a80e4c414d5464a4dc06d</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Fri, 23 Oct 2026 21:40:02 +0000</pubDate>
-<description>Researchers who track online influence operations say Kremlin-backed groups are renewing tactics they've used to sow distrust and discord in previous elections in the U.S. and around the world.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6086x4057+0+0/resize/6086x4057!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F55%2F95%2Fc8c639814cf4b3a58c5fb29284e1%2Fgettyimages-2298571725.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6086x4057+0+0/resize/6086x4057!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F55%2F95%2Fc8c639814cf4b3a58c5fb29284e1%2Fgettyimages-2298571725.jpg" medium="image"/>
-</item>
-<item>
-<title>Israeli PM pledges massive military operation after West Bank checkpoint attack</title>
-<link>https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack</link>
-<guid isPermaLink="false">6ee70c1e6c697b8576fb0f2fa1ac9250710c4f4ac1457173fa29d0675f36fd8e</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Fri, 23 Oct 2026 21:38:54 +0000</pubDate>
-<description>Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6806x4537+0+0/resize/6806x4537!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F3e%2Fadd87d174164a90e9b83a984eef3%2Fap26296451762148.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6806x4537+0+0/resize/6806x4537!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F3e%2Fadd87d174164a90e9b83a984eef3%2Fap26296451762148.jpg" medium="image"/>
 </item>
 <item>
 <title>Trump doubles down on Amy Acton criticism as Ramaswamy ad controversy swirls</title>
@@ -629,17 +596,6 @@
 <description>Former Olympic and world marathon champion Peres Jepchirchir has been provisionally suspended after testing positive for the banned substance EPO, officials have said.</description>
 <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-tokyo-2020-olympics_7384677.jpg?20261023144251" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-tokyo-2020-olympics_7384677.jpg?20261023144251" medium="image"/>
-</item>
-<item>
-<title>Seven dead and 34 injured after shooting at church in Jordan</title>
-<link>https://news.sky.com/story/at-least-seven-dead-after-shooting-at-church-in-jordan-reports-13602679</link>
-<guid isPermaLink="false">f1bc0ad7efcf604d5a68a97ec2aa38099f6a8bc6a5ffe0c08d036bd45efb2295</guid>
-<source>Sky News World</source>
-<category>world</category>
-<pubDate>Fri, 23 Oct 2026 12:57:00 +0000</pubDate>
-<description>Seven people have died and 34 have been injured after gunmen opened fire on a funeral at a church in Jordan.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-jordan-church-karak_7384704.jpg?20261023151136" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-jordan-church-karak_7384704.jpg?20261023151136" medium="image"/>
 </item>
 <item>
 <title>WATCH: Woman makes history swimming the entire California coast</title>
@@ -750,17 +706,6 @@
 <description>ABC News' Danny New talks to Jordan Sunshine, a boy in California who found therapy for his anxiety by performing on the streets of Los Angeles.</description>
 <enclosure url="https://s.abcnews.com/images/US/261022_gmafl_street_singer_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/US/261022_gmafl_street_singer_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Met Police told of allegations about Meghan's father, but did not share with other forces</title>
-<link>https://news.sky.com/story/met-police-received-thomas-markle-allegations-letter-but-did-not-tell-other-forces-13597502</link>
-<guid isPermaLink="false">bb2b23a007cf942b325b340f620531df5477c3068dced6a8a2993a29fa3dba1c</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sat, 10 Oct 2026 16:53:00 +0000</pubDate>
-<description>The Metropolitan Police has confirmed it received a letter in early 2019 containing allegations about the Duchess of Sussex's father, Thomas Markle.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-thomas-markle-tv_7384464.jpg?20261023105220" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-thomas-markle-tv_7384464.jpg?20261023105220" medium="image"/>
 </item>
 <item>
 <title>Government backs bid for 'Northern Games' in 2040s</title>
