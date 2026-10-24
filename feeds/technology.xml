@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>John Healey pledges to use budget to harness power of AI to bolster Britain’s security</title>
+<link>https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security</link>
+<guid isPermaLink="false">900659a2b19d688ec547dcb69b741f552ee28df7f12055b78402cd35830b3a0a</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Sat, 24 Oct 2026 05:00:24 +0000</pubDate>
+<description>Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and prosperity against the risks in the accelerating global technology arms race. As he prepares for his debut budget, the chancellor said that Andy Burnham’s government would commit hundreds of millions of pounds to develop a “distinctively British” approach to AI that would capitalise on the benefits of the frontier technology. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c004b334715d02253fcbc6e0164f1b3a" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c004b334715d02253fcbc6e0164f1b3a" medium="image"/>
+</item>
+<item>
 <title>NASA updates lander plans for Moon landings, finally solves long-festering Orion issue</title>
 <link>https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue</link>
 <guid isPermaLink="false">07eaab2d81851c7fb3d14799d090b5c94acf2038fcc5ca83b5d4d28937429edb</guid>
@@ -24,6 +35,17 @@
 <description>OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.</description>
 <enclosure url="https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/openai-says-its-cutting-off-internet-access-for-frontier-model-training/l-intro-1792794862.jpg" medium="image"/>
+</item>
+<item>
+<title>OpenAI disables internet access during model training while Anthropic issues another mea culpa</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238</link>
+<guid isPermaLink="false">4cd9fa711dad90297a3db04aba91d13e82fd22eed814adc11a0ee9d7af381132</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 23 Oct 2026 22:36:11 +0000</pubDate>
+<description>We've totally got things under control</description>
+<enclosure url="https://image.theregister.com/?imageId=5305242&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5305242&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Xbox’s first chief operating officer is out after just a few months</title>
@@ -1214,17 +1236,6 @@
 <media:content url="https://image.theregister.com/?imageId=5303915&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances</title>
-<link>https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget</link>
-<guid isPermaLink="false">1db13b1120ad891aa484573ec8f7d3c314df39caca55390610d388bae0e89405</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 14:39:29 +0000</pubDate>
-<description>Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Barclays is cutting 5,000 jobs as part of wider cost-saving plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000 workers since the start of the year. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/42ebdcc562c64f3843def3a9641e7ab414a3974a/218_632_4806_3847/master/4806.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=977e9819872cba933f00e14121048a14" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/42ebdcc562c64f3843def3a9641e7ab414a3974a/218_632_4806_3847/master/4806.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=977e9819872cba933f00e14121048a14" medium="image"/>
-</item>
-<item>
 <title>Singapore boffins weave a GUI into fabric, and it's machine washable too</title>
 <link>https://www.theregister.com/offbeat/2026/10/22/singapore-boffins-weave-a-gui-into-fabric-and-its-machine-washable-too/5304785</link>
 <guid isPermaLink="false">aca750bb7b5b3411acf361a6fdb92019172711379477e7db62aa68b7c4589db6</guid>
@@ -1938,17 +1949,6 @@
 <description>Give your agents freedom to do useful work by locking them down</description>
 <enclosure url="https://image.theregister.com/?imageId=249195&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=249195&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Nvidia's grand plan for speeding up datacenter deployments: AI trailer parks</title>
-<link>https://www.theregister.com/on-prem/2026/10/21/nvidias-grand-plan-for-speeding-up-datacenter-deployments-ai-trailer-parks/5304303</link>
-<guid isPermaLink="false">885c3b095a6bf098031cd802d528bb5f5fe8162177ace581ef252e08a2ee8afa</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 21 Oct 2026 11:30:00 +0000</pubDate>
-<description>GPUzilla boasts modular bit barns could speed up deployments from six months to just two weeks</description>
-<enclosure url="https://image.theregister.com/?imageId=240698&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=240698&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Gemini on Android Auto can access my photos, emails, and calendar now – why I’m OK with that (mostly)</title>

@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>APOD: 2026 October 24 – Rosetta’s Selfie</title>
+<link>https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie</link>
+<guid isPermaLink="false">e1fabf65e2f56c085b060f71bcde47c63de907725aad421485e4e9a97df5a39a</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Sat, 24 Oct 2026 04:05:00 +0000</pubDate>
+<description>APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta’s Selfie Explanation: […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png?w=1024&amp;h=1024&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png?w=1024&amp;h=1024&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
+</item>
+<item>
 <title>SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (photos)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly</link>
 <guid isPermaLink="false">c893cdb5e36c871051f0da982f7f7a51307b3972d5b996b96f01274f58f060d1</guid>
@@ -453,17 +464,6 @@
 <description>We now have a clearer picture of what happened in the decades following the asteroid impact that led to the extinction of almost all dinosaurs</description>
 <enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_317718094.jpg" type="image/jpeg"/>
 <media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_317718094.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA’s Hubble Charts Path for Roman with Gravitational Lenses</title>
-<link>https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses</link>
-<guid isPermaLink="false">3841d8db6ad6852244d0a517bf2ba603c4b3b58053559580d17bc606141195fa</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Thu, 22 Oct 2026 16:20:37 +0000</pubDate>
-<description>This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.</description>
-<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_Gravitational-Lens_DES%20J194.5345+03.5358_callout.jpg?w=2048&amp;h=1583&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/gravitational-lens/Hubble_Gravitational-Lens_DES%20J194.5345+03.5358_callout.jpg?w=2048&amp;h=1583&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
 </item>
 <item>
 <title>'Cabin leak suspected': Artemis II astronaut reveals how a warning nearly derailed NASA's epic moon mission</title>
