@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>'Avatar: Seven Havens' Fans Need to Watch Disney’s Overlooked Apocalyptic Fantasy Adventure</title>
+<link>https://www.polygon.com/raya-and-the-last-dragon-perfect-disney-movie-for-avatar-seven-havens-fans</link>
+<guid isPermaLink="false">aa61b913fe80397b7fb9cb3de4657bac33e0a00b77b35250b8b1c761fd1a18b9</guid>
+<source>Polygon</source>
+<category>gaming</category>
+<pubDate>Sun, 25 Oct 2026 17:00:18 +0000</pubDate>
+<description>Raya and the Last Dragon has similar settings, characters, and dynamics as Avatar: Seven Havens, so it's a must-watch for fans.</description>
+<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22369238/RAYA_ONLINE_USE_First_Look_CG_Final_RGB.jpg" type="image/jpeg"/>
+<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22369238/RAYA_ONLINE_USE_First_Look_CG_Final_RGB.jpg" medium="image"/>
+</item>
+<item>
 <title>Clayface Gives Skydance Its Second Box Office Weekend Win In A Row</title>
 <link>https://www.polygon.com/clayface-opening-weekend-box-office</link>
 <guid isPermaLink="false">0c9f47b5bf795845d9727fd29b58f988f0b06e956da8ac0de838fbd6114b8911</guid>
@@ -101,16 +112,5 @@
 <description>Nintendo designer Shigeru Miyamoto pinpoints the NES game's most notable invention, which remains unique 41 years after the original Super Mario Bros.</description>
 <enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/mario-artwork-from-the-original-super-mario-bros-nes-box-art.jpg" type="image/jpeg"/>
 <media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/mario-artwork-from-the-original-super-mario-bros-nes-box-art.jpg" medium="image"/>
-</item>
-<item>
-<title>BioWare's Closure Is Just the Tip of the Iceberg</title>
-<link>https://www.polygon.com/patch-notes-bioware-closure</link>
-<guid isPermaLink="false">b510c75a8a4724ab46a0161b4e9b60439c08010e1ccd1086618487f330e7f2d2</guid>
-<source>Polygon</source>
-<category>gaming</category>
-<pubDate>Sun, 25 Oct 2026 12:00:18 +0000</pubDate>
-<description>The Mass Effect and Dragon Age studio being shuttered by EA is a sign of a slow-motion industry crash that hasn't peaked</description>
-<enclosure url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/morrigan-from-dragon-age-origins.png" type="image/jpeg"/>
-<media:content url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/morrigan-from-dragon-age-origins.png" medium="image"/>
 </item>
 </channel></rss>
