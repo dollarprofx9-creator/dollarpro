@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Explosion and fire erupt at Quaker Oats plant in Cedar Rapids, Iowa; no injuries</title>
+<link>https://abcnews.com/Business/wireStory/fire-breaks-quaker-oats-plant-cedar-rapids-iowa-137544207</link>
+<guid isPermaLink="false">404e1e73d1d21d482194c716b21636598d032bf8e0913766e787addf4fc7884e</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sun, 25 Oct 2026 00:19:19 +0000</pubDate>
+<description>The fire evidently began with an explosion, the fire department said.</description>
+<enclosure url="https://s.abcnews.com/images/US/wirestory_205913f0edeac764a19bb2daabf3d911_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/wirestory_205913f0edeac764a19bb2daabf3d911_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Starlink access in Ukraine fully back after disruption: Officials</title>
+<link>https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401</link>
+<guid isPermaLink="false">fffa3936b1dcdd834ce2a645f5cb0dbcfd348c6a2b1fb3673e0d8fbac87d0a62</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 23:53:13 +0000</pubDate>
+<description>Ukrainian officials said speed restrictions on Starlink and Starshield that hampered military operations have been lifted.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>Archdiocese of New York agrees to $800 million settlement over sexual abuse claims</title>
 <link>https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement</link>
 <guid isPermaLink="false">1f6258bca171e5fea12a3f249c94ef3f722da670f8f2351e82949b08e7e07890</guid>
@@ -26,17 +48,6 @@
 <media:content url="https://s.abcnews.com/images/US/goliath-gty-jt-261024_1792858805754_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Ukraine says Starlink satellite access is fully back after weeklong disruption</title>
-<link>https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401</link>
-<guid isPermaLink="false">fffa3936b1dcdd834ce2a645f5cb0dbcfd348c6a2b1fb3673e0d8fbac87d0a62</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 22:03:13 +0000</pubDate>
-<description>Ukrainian officials said speed restrictions on Starlink and Starshield that hampered military operations have been lifted.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/starlink-ukraine-rt-jt-261016_1792179710209_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Early voting begins in New York: What to know and the key races to watch</title>
 <link>https://abcnews.com/US/early-voting-begins-new-york-key-races-watch/story?id=137518680</link>
 <guid isPermaLink="false">d75448043ffe17f8cb6b9d697dece21f4c8e324ab1a43de4bc08307d248e1e08</guid>
@@ -57,6 +68,17 @@
 <description>Hundreds of thousands marched across France Saturday protesting the rising cost of living. While demonstrations in Paris started peacefully, they ended with a heavy government security response following escalation. Other cities saw clashes that also contributed to the near-1,000 arrested across the country, meanwhile other countries in Europe rallied over issues with some overlap. "The marches went well" said Interior Minister Laurent Nuñez.</description>
 <enclosure url="https://s.france24.com/media/display/9b2132ac-cfe7-11f1-b4e6-4b25c96ec90e/w:1024/p:16x9/AP26297483587746.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/9b2132ac-cfe7-11f1-b4e6-4b25c96ec90e/w:1024/p:16x9/AP26297483587746.jpg" medium="image"/>
+</item>
+<item>
+<title>Police to trial ignoring some minor breaches of tag conditions, Sky News understands</title>
+<link>https://news.sky.com/story/police-to-reduce-enforcement-of-minor-tag-breaches-sky-news-understands-13603365</link>
+<guid isPermaLink="false">511c1de1f8fe81e8d509f0a3b7c68e1f76406f27422cc29af23caec49020a551</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Sat, 24 Oct 2026 19:21:00 +0000</pubDate>
+<description>The Metropolitan Police is reducing enforcement of offenders who breach their tag conditions amid resourcing pressures and following early prisoner release, Sky News understands.</description>
+<enclosure url="https://e3.365dm.com/26/05/1920x1080/skynews-metropolitan-police_7236956.jpg?20260502144512" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/05/1920x1080/skynews-metropolitan-police_7236956.jpg?20260502144512" medium="image"/>
 </item>
 <item>
 <title>WATCH: Obama, Trump hit the campaign trail ahead of critical midterm elections</title>
@@ -392,7 +414,7 @@
 <title>Bahamas police investigate after British woman dies trying to rescue sons</title>
 <link>https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998</link>
 <guid isPermaLink="false">410f0eeac6f422b1c0d74f2c727dd1c0d530664cafbd8b7891bfe12e65b24836</guid>
-<source>Sky News Home</source>
+<source>Sky News World</source>
 <category>world</category>
 <pubDate>Sat, 24 Oct 2026 09:25:00 +0000</pubDate>
 <description>Police are investigating after a British woman died while trying to rescue her two sons off the Bahamas coast.</description>
@@ -433,17 +455,6 @@
 <media:content url="https://e3.365dm.com/24/04/1920x1080/skynews-treasury-spending_6530389.jpg?20240423071047" medium="image"/>
 </item>
 <item>
-<title>German teen arrested on suspicion of murder in connection with US girl's death</title>
-<link>https://abcnews.com/US/german-teen-arrested-suspicion-murder-connection-us-girls/story?id=137525700</link>
-<guid isPermaLink="false">7c7a60c59708eb03af5b1bfd9969de3f1bb499a97207ba6fcd889e29a70409e2</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 05:01:49 +0000</pubDate>
-<description>The 18-year-old is accused of manipulating an Indiana teen over a social platform, according to prosecutors in Germany.</description>
-<enclosure url="https://s.abcnews.com/images/US/fbi-seal-abc-jt-241105_1730859247426_hpMain_5_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/fbi-seal-abc-jt-241105_1730859247426_hpMain_5_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Britt McHenry resigns from State Department after basketball game altercation</title>
 <link>https://abcnews.com/Politics/britt-mchenry-resigns-state-department-job-after-basketball/story?id=137526303</link>
 <guid isPermaLink="false">5502e8c38d58f28a51fce4fb908877de8c83caacde80430b95061181768b8b9b</guid>
@@ -475,17 +486,6 @@
 <description>Dramatic video shows the rescue of two people stranded in the ocean after their boat sunk off the coast of Fort Myers, Florida. Both boaters are doing OK.</description>
 <enclosure url="https://s.abcnews.com/images/WNT/261023_wn_sinking_boat2_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/WNT/261023_wn_sinking_boat2_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>'I heard children pleading': Father reveals how he stopped Oregon school shooter</title>
-<link>https://news.sky.com/story/father-who-stopped-oregon-school-shooting-describes-how-he-killed-gunman-and-his-guilt-over-those-who-died-13602933</link>
-<guid isPermaLink="false">406a24d0a98740c58971b44c284d4a1dafba881dbc6d30b7804ecc534e423c8e</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sat, 24 Oct 2026 01:50:00 +0000</pubDate>
-<description>A father has described how he shot the gunman who killed four people at his daughter's school in Oregon and the guilt he feels about the "ones that I didn't save".</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-kaylub-giamanco-oregon_7385210.jpg?20261024031944" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-kaylub-giamanco-oregon_7385210.jpg?20261024031944" medium="image"/>
 </item>
 <item>
 <title>In tight race for Ga. gov, Keisha Lance Bottoms has been outspent but still confident</title>
@@ -585,17 +585,6 @@
 <description>High gas prices continue to weigh on wallets as voters list affordability as a top concern ahead of early November's midterm elections.</description>
 <enclosure url="https://s.abcnews.com/images/Business/gas-pump-gty-jef-261022_1792688489643_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/Business/gas-pump-gty-jef-261022_1792688489643_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Former Olympic marathon champion suspended after failed drugs test</title>
-<link>https://news.sky.com/story/kenyan-former-olympic-marathon-champion-suspended-after-failed-drugs-test-13602695</link>
-<guid isPermaLink="false">98e3e7da9dd20aa2695df07d92ea0e1a8c3935b6f1fee7af1e931ff65d4be096</guid>
-<source>Sky News World</source>
-<category>world</category>
-<pubDate>Fri, 23 Oct 2026 13:42:00 +0000</pubDate>
-<description>Former Olympic and world marathon champion Peres Jepchirchir has been provisionally suspended after testing positive for the banned substance EPO, officials have said.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-tokyo-2020-olympics_7384677.jpg?20261023144251" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-tokyo-2020-olympics_7384677.jpg?20261023144251" medium="image"/>
 </item>
 <item>
 <title>WATCH: Woman makes history swimming the entire California coast</title>
