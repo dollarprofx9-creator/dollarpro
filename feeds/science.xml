@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>NASA’s Perseverance Views Dust at Neretva Vallis</title>
+<link>https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis</link>
+<guid isPermaLink="false">903612d439ffca9784c74584c3448653b9f750a9b7e9c0b284a6cac4bf1f9491</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Mon, 26 Oct 2026 22:48:12 +0000</pubDate>
+<description>Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&amp;h=405&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg?w=1536&amp;h=405&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
+</item>
+<item>
 <title>NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust</title>
 <link>https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust</link>
 <guid isPermaLink="false">6d879a7a5c5c91f84d3d7e7ef2cdf548ec7d3834b5ab35edc4d328d66fa0fbe9</guid>
@@ -354,17 +365,6 @@
 <description>The October full moon rises on Oct. 25. Here's how to see it, why it's called the "Hunter's Moon" and everything else you need to know about the lunar milestone.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/PMKUo2LQYCS5236iUvhYWn-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/PMKUo2LQYCS5236iUvhYWn-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>APOD: 2026 October 25 – Dark Matter in a Simulated Universe</title>
-<link>https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe</link>
-<guid isPermaLink="false">da556d91f2dc9c94a2003cbf2a37a9cc9fb113364380958a4d78cc7b447e4076</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Sun, 25 Oct 2026 08:19:48 +0000</pubDate>
-<description>APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter […]</description>
-<enclosure url="https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&amp;h=900&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2021/october/DarkMatter_KipacAmnh_1200.jpg?w=1200&amp;h=900&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
 </item>
 <item>
 <title>This Week In Space podcast: Episode 233 — The Artemis Generation</title>
