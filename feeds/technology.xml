@@ -4,6 +4,50 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Elvis rightsholders sue Anthropic for stealing songs and leaving them in Heartbreak Hotel</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/27/elvis-rightsholders-sue-anthropic-for-stealing-songs-and-leaving-them-in-heartbreak-hotel/5305625</link>
+<guid isPermaLink="false">fe43b9d5ff9f3eef567544c991800c4438d38bdaba1a31ba899e51417553c9d2</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Tue, 27 Oct 2026 05:39:18 +0000</pubDate>
+<description>They want a little less chatbot conversation, and a whole lot more royalty action</description>
+<enclosure url="https://image.theregister.com/?imageId=232704&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=232704&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Chinese markets lose trillions as race for AI supremacy with US takes its toll</title>
+<link>https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing</link>
+<guid isPermaLink="false">e6d594ea2a28ff43dd71002346f8549f72120a0891851f70fa830d18f1b6990a</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Tue, 27 Oct 2026 04:42:50 +0000</pubDate>
+<description>Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against the United States for dominance in the sector. The STAR 50 Index, which tracks technology and innovation companies on the Shanghai stock exchange, has plunged 40% since June. Other indexes of major companies dropped by about 20% over the same time period. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/3e7e3e603f728fb5136070ae808843aae4d175c6/504_0_3780_3024/master/3780.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=79d3fb689ee56217a92222d27db1cd37" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/3e7e3e603f728fb5136070ae808843aae4d175c6/504_0_3780_3024/master/3780.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=79d3fb689ee56217a92222d27db1cd37" medium="image"/>
+</item>
+<item>
+<title>IBM admits mainframes need to be modernized and will use AI to do the job</title>
+<link>https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618</link>
+<guid isPermaLink="false">fa2a93391279685ec9aa900a81190982bcde9db4c69a99446aa53365b218b862</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Tue, 27 Oct 2026 04:07:15 +0000</pubDate>
+<description>Promises to build ‘IBM Z Atlas’ tool that will tidy up messy big iron and enable AIOps</description>
+<enclosure url="https://image.theregister.com/?imageId=142108&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=142108&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Japanese virtual desktop cloud hacked so hard it asks to be banned</title>
+<link>https://www.theregister.com/security/2026/10/27/japanese-virtual-desktop-cloud-hacked-so-hard-it-asks-to-be-banned/5305610</link>
+<guid isPermaLink="false">81d61f037c51df000033fa012f43318590a7d21bbc8dfae5d4add4ec5d6a0c69</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Tue, 27 Oct 2026 01:06:22 +0000</pubDate>
+<description>CEO admits service used for foreign exchange trading had holes company was slow to fix</description>
+<enclosure url="https://image.theregister.com/?imageId=255850&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=255850&amp;width=800" medium="image"/>
+</item>
+<item>
 <title>iPhone Lockdown Mode: The pros and cons of enabling Apple's security feature</title>
 <link>https://www.engadget.com/2295333/iphone-lockdown-mode-pros-cons</link>
 <guid isPermaLink="false">557a73c1f1a2f856ae982b9756f344fd0dfa8a26690e693e6a248ad5862b7a65</guid>
@@ -13,6 +57,17 @@
 <description>Lockdown Mode enables extreme protections for those most at risk, but it's overkill for most people.</description>
 <enclosure url="https://www.engadget.com/img/gallery/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-feature/l-intro-1792766868.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/iphone-lockdown-mode-the-pros-and-cons-of-enabling-apples-security-feature/l-intro-1792766868.jpg" medium="image"/>
+</item>
+<item>
+<title>Humanity can't afford not to spend $800B on AI, Anthropic insists</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580</link>
+<guid isPermaLink="false">53ab7add3a7669586f63a3ad448948b22e65b765440a7b55ac9d533e6e881124</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 26 Oct 2026 23:39:49 +0000</pubDate>
+<description>It's more important than chips, 'leccy and the net, after all</description>
+<enclosure url="https://image.theregister.com/?imageId=5305597&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5305597&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>OpenAI announces three big science discoveries and a new way to work with academics</title>
@@ -26,6 +81,17 @@
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
+<title>Meta plans $95bn stock offering to help cover AI expansion</title>
+<link>https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion</link>
+<guid isPermaLink="false">4078d5f4a79024d9efe8ca9aba5644682fb357a9ede09a57746b8bb811d5e84b</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Mon, 26 Oct 2026 23:33:19 +0000</pubDate>
+<description>Tech firm announces two-part fundraising after Elon Musk warns hundreds of AI startups face collapse Mark Zuckerberg’s Meta has announced plans for $95bn (£71bn) of fundraising to cover its AI expenditure, even as Elon Musk warned that funding for smaller players in the sector was drying up. The owner of Facebook, Instagram and WhatsApp is a leading investor in AI and is ploughing multibillion-dollar sums into datacentres, the central nervous systems of the technology. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/394e1b524aec75d1c94ccec789f158228ed79c10/364_0_3333_2667/master/3333.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=15606505d6e5f6c6e6b94dca7c05eaea" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/394e1b524aec75d1c94ccec789f158228ed79c10/364_0_3333_2667/master/3333.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=15606505d6e5f6c6e6b94dca7c05eaea" medium="image"/>
+</item>
+<item>
 <title>The most popular streaming platforms in the US might not be what you think</title>
 <link>https://www.engadget.com/2295216/most-popular-streaming-platforms-united-states-not-what-you-think</link>
 <guid isPermaLink="false">43ed7aaaed4d00e1a68c2d358bcd3c55d1874c8081ecebaf944164014e61034d</guid>
@@ -35,6 +101,17 @@
 <description>You might be surprised at the rankings of some streaming services when it comes to what Americans watch on their TVs.</description>
 <enclosure url="https://www.engadget.com/img/gallery/the-most-popular-streaming-platforms-in-the-us-might-not-be-what-you-think/l-intro-1792763480.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/the-most-popular-streaming-platforms-in-the-us-might-not-be-what-you-think/l-intro-1792763480.jpg" medium="image"/>
+</item>
+<item>
+<title>OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra</title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/26/openai-rolls-out-budget-priced-mid-tier-gpt-61-terra/5305574</link>
+<guid isPermaLink="false">32da62b79081a52cc32d58bb62a1f5fbdcfddd64f04b4b44ca0f1711041a72da</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 26 Oct 2026 23:08:59 +0000</pubDate>
+<description>Not a bombshell, but it rivals pricier models on some tasks at a tenth of Astra's API price</description>
+<enclosure url="https://image.theregister.com/?imageId=5305594&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5305594&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>6+ ways you can use your PlayStation 5's USB ports</title>
@@ -79,6 +156,17 @@
 <description>Employees in the US, Canada, India, and the UK may receive offers to leave MS today.</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/microsoft-1152x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2021/02/microsoft-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Worm armed 42 GitHub repos by hiding a payload too big to fail</title>
+<link>https://www.theregister.com/security/2026/10/26/worm-armed-42-github-repos-by-hiding-a-payload-too-big-to-fail/5305570</link>
+<guid isPermaLink="false">7e3495a073f22bed7d0176b9c409e524dc1f58758e6123e44d21fbc73b58cb75</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 26 Oct 2026 22:29:01 +0000</pubDate>
+<description>Payload blobs measuring 12.9 to 13.7 MB were large enough to evade GitHub code search</description>
+<enclosure url="https://image.theregister.com/?imageId=5242669&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5242669&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>The mistake iPhone Duo buyers can easily avoid</title>
@@ -1566,17 +1654,6 @@
 <media:content url="https://image.theregister.com/?imageId=5305105&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Experts cast doubt on Anthropic report detailing how AI has altered work at the company</title>
-<link>https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts</link>
-<guid isPermaLink="false">f2d8023b87443249cbc4e39833242c9c151ddb1e708fc09232b514005d1ce323</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 14:00:28 +0000</pubDate>
-<description>Anthropic claims AI will shift how work gets done and labor demand – but some experts are skeptical of the vision Last year, the Anthropic CEO, Dario Amodei, warned that artificial intelligence could eliminate half of entry-level white-collar jobs and that in six months it would be writing 90% of code . Neither of those predictions came to pass. Now, in a report Anthropic published on Thursday, the company said it was hiring fewer junior technical workers and that human attention has become the new “bottleneck” as it increasingly relies on its Claude AI agents. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/7f1d891b55886b1bfb45b0cdd3e7df3e842cbdce/0_31_3364_2691/master/3364.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=38c8ce15c5e2970094652a1c3132b9bd" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/7f1d891b55886b1bfb45b0cdd3e7df3e842cbdce/0_31_3364_2691/master/3364.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=38c8ce15c5e2970094652a1c3132b9bd" medium="image"/>
-</item>
-<item>
 <title>PubKeep picks up where Microsoft Publisher signs off</title>
 <link>https://www.theregister.com/applications/2026/10/23/pubkeep-picks-up-where-microsoft-publisher-signs-off/5304978</link>
 <guid isPermaLink="false">3824ba177da79fbd1fbf6c20ea90133da175e314c09a7174701523b895d84416</guid>
@@ -1608,17 +1685,6 @@
 <description>Kernel maintainers stop asking who used AI, as long as the code is good</description>
 <enclosure url="https://image.theregister.com/?imageId=5226908&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5226908&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>The young Americans choosing Y2K cars over shiny new SUVs: ‘I get so much crap from people’</title>
-<link>https://www.theguardian.com/us-news/2026/oct/23/y2k-used-cars-gen-z</link>
-<guid isPermaLink="false">2b62f0b988efa07980d7ce621b64fbb8a55908e43e20216ee29684a8098246a7</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Fri, 23 Oct 2026 11:30:24 +0000</pubDate>
-<description>People under 35 are hunting for no-frills rides they can pay for in cash and fix themselves – defying expectations to take on steep loans Jack Price joined the marines in fall 2021 knowing he would need a car to get around base and that he couldn’t afford a new one. A joyless, month-long search through dealer classifieds and Facebook Marketplace listings ended when his mother spotted a 2010 Volkswagen Jetta posted on her office listserv by a co-worker moving abroad. With just 60,000 miles (96,560km) on the meter, the car (a manual!) was mechanically sound, and the air conditioning, sunroof and Bluetooth radio worked too. At $6,000, it was a steal. Price paid in cash. Five years on, the Jetta, which he called the Pewter Pebble, is still carting him from A to B in unassuming style. “I’ve completely driven it into the ground,” says the 30-year-old, who lives in Los Angeles. “All over bases, cross-country a couple times, not really lovingly. I get so much crap from people, but not people m</description>
-<enclosure url="https://i.guim.co.uk/img/media/8e4516adf299dc7cff29a4bd96731525cf367f24/0_0_5000_4000/master/5000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=80e6350d6694ab28d16be03caa3b23e8" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/8e4516adf299dc7cff29a4bd96731525cf367f24/0_0_5000_4000/master/5000.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=80e6350d6694ab28d16be03caa3b23e8" medium="image"/>
 </item>
 <item>
 <title>Samsung Galaxy Z Flip8 Review: The Littlest Smartphone That Could</title>
@@ -1819,50 +1885,6 @@
 <media:content url="https://image.theregister.com/?imageId=178701&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Backdoored robot tries its hand at finger chopping and cat cooking</title>
-<link>https://www.theregister.com/ai-and-ml/2026/10/22/backdoored-robot-tries-its-hand-at-finger-chopping-and-cat-cooking/5304870</link>
-<guid isPermaLink="false">65754e6105cbe81dcfb2c7591323fb725c4025399e194c57ab47f5da3f0df06e</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 19:57:59 +0000</pubDate>
-<description>No actual digits or cats were harmed beyond the number crunching that went into this LLM poisoning experiment</description>
-<enclosure url="https://image.theregister.com/?imageId=5304880&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5304880&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Max-severity GitLab bug allows remote code execution over 12 years of releases</title>
-<link>https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854</link>
-<guid isPermaLink="false">e5ee44e22867c0cc21586f2bee327dde466fcfbac0f943e922daabf88c10f0be</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 17:36:30 +0000</pubDate>
-<description>Vendor 'strongly recommends' upgrading to a fixed version 'as soon as possible'</description>
-<enclosure url="https://image.theregister.com/?imageId=1683365&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=1683365&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Disgraced Indian cert issuer leaves the cert issuing business</title>
-<link>https://www.theregister.com/security/2026/10/22/disgraced-indian-cert-issuer-leaves-the-cert-issuing-business/5304848</link>
-<guid isPermaLink="false">e711e4ad2d55a92aaa6245eb46b3cd397259975cef21727dd8f8932aad8709ce</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 16:58:25 +0000</pubDate>
-<description>We didn't want to issue SSL/TLS certs anyway, eMudhra suggests after one private key turns out to be the number 4</description>
-<enclosure url="https://image.theregister.com/?imageId=235298&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=235298&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>PHP2Shell puts dozens of UK government services out of service</title>
-<link>https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840</link>
-<guid isPermaLink="false">397dafc42afe87a35886dd726d0a1447063954fa0db2f02fe51a5070e34c29fa</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 16:05:53 +0000</pubDate>
-<description>Ministers report 32 unavailable and four partly disrupted, but no confirmed compromise</description>
-<enclosure url="https://image.theregister.com/?imageId=229174&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=229174&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>Amazon’s Kindle Unlimited is now Kindle+, and the 2 big changes include AI audiobooks</title>
 <link>https://www.zdnet.com/tech/kindle-unlimited-kindle-plus-audiobooks-ai</link>
 <guid isPermaLink="false">325f3964f211be47503197591edafc9a33b6e633f513e11ce6e1428785df3491</guid>
@@ -1883,28 +1905,6 @@
 <description>PowerToys is one of my favorite free Windows utilities. With more than 30 tools, it offers something for everyone from beginners to power users. Here’s what’s new for mousing.</description>
 <enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/PowerToys-Mouse-Button-Lock-in-action.jpg" type="image/jpeg"/>
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/PowerToys-Mouse-Button-Lock-in-action.jpg" medium="image"/>
-</item>
-<item>
-<title>Apple App Store review process hits a traffic jam</title>
-<link>https://www.theregister.com/applications/2026/10/22/apple-app-store-review-process-hits-a-traffic-jam/5304802</link>
-<guid isPermaLink="false">0c0e275b3298d382bf1928cea3ad3c23060e8380d3a62d2ba47e84980dc95e11</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 15:02:00 +0000</pubDate>
-<description>Apple log jam? Apple fast lane pie-lup? We're here all week, on stage... sweeping it</description>
-<enclosure url="https://image.theregister.com/?imageId=261768&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=261768&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>When the attacker becomes the user: Rethinking account takeover</title>
-<link>https://www.theregister.com/security/2026/10/22/sponsored-when-the-attacker-becomes-the-user-rethinking-account-takeover/5303913</link>
-<guid isPermaLink="false">d187b4f8468a50516cfdd3e7ab556527d14799c26c9f77b52a6bbdb53298ada2</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 22 Oct 2026 15:00:00 +0000</pubDate>
-<description>SPONSORED FEATURE: AI makes phishing easier than ever</description>
-<enclosure url="https://image.theregister.com/?imageId=5303915&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5303915&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Nintendo Switch Sports Resort review – Wii Sports lives on in this effortlessly appealing collection of games</title>
