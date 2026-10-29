@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Anduril now says its BlueChip laptop will meet Buy American standards at launch</title>
+<link>https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american</link>
+<guid isPermaLink="false">cfd5e9071be8aa35edf3d59bd0ad331d2ebce652a0f844eb12b2243f4412ba82</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Thu, 29 Oct 2026 02:22:46 +0000</pubDate>
+<description>On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a "long-term goal" of pushing the computer industry to create "a fully domestic supply chain." Even a single Made-in-USA laptop would be a surprise, because no […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/2026-BlueChip-InField-5-Web.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/2026-BlueChip-InField-5-Web.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
 <title>FCC chair wants to let prisons jam illegal cellphones</title>
 <link>https://www.engadget.com/2300569/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones</link>
 <guid isPermaLink="false">adde31576ce33f9ba68c38e1dddf45ac0bb08a6630287d297db23f7a9039ed9b</guid>
@@ -32,9 +43,42 @@
 <source>Wired</source>
 <category>technology</category>
 <pubDate>Wed, 28 Oct 2026 22:54:16 +0000</pubDate>
-<description>The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here's why it's unlike anything else you can currently buy.</description>
+<description>The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.</description>
 <enclosure url="https://media.wired.com/photos/6ae27b1cbef604c6ee2089e7/master/pass/APPLE_OLED.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ae27b1cbef604c6ee2089e7/master/pass/APPLE_OLED.jpg" medium="image"/>
+</item>
+<item>
+<title>ULA's Vulcan rocket is set to return to flight on Friday the 13th</title>
+<link>https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th</link>
+<guid isPermaLink="false">046096613a73da1b4b6a76998cf23ca384be6b3940510d4d2a9ec5709788ae24</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 28 Oct 2026 22:51:15 +0000</pubDate>
+<description>This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg" medium="image"/>
+</item>
+<item>
+<title>As US ties fray, Europe plans first undersea cable link to Greenland</title>
+<link>https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland</link>
+<guid isPermaLink="false">52cf4d98c3bcf391c8d94c2924f26a86f2ecd2645732120e4976e366d433fb0f</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 28 Oct 2026 22:35:50 +0000</pubDate>
+<description>Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA</title>
+<link>https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda</link>
+<guid isPermaLink="false">5dce05c1d0be7bbf727fdb179ad56c7f41972e92e87a7a3f5f56ccd15224a36e</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Wed, 28 Oct 2026 22:17:15 +0000</pubDate>
+<description>Six unproven peptides popular with MAHA now under "enforcement discretion policy."</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg" medium="image"/>
 </item>
 <item>
 <title>A hacker stole more than 40,000 DHS employee records</title>
@@ -244,17 +288,6 @@
 <description>It has been nearly a year since any space tourism flights occurred.</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Hands-on with the new OLED iPad Mini</title>
-<link>https://www.theverge.com/tech/1017932/hands-on-ipad-mini-8th-generation-pro-and-tell</link>
-<guid isPermaLink="false">e29e73f58cfb754684abd68b13e2692406b8d4ea9d0203afd8b09adb37b199f3</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 19:18:58 +0000</pubDate>
-<description>Apple announced a new iPad Mini with a larger OLED display this week, and we've just gotten to try it out at Apple's "Pro and tell" event. It's an iPad for sure, but the new OLED on the Mini looks exceptional, and the optional nano-texture matte finish is awesome. The "Pro and tell" event venue […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_iPad_Mini_OLED_handson_ADiBenedetto_0008.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_iPad_Mini_OLED_handson_ADiBenedetto_0008.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>OpenAI now lets you text your Dot agent</title>
@@ -1005,17 +1038,6 @@
 <media:content url="https://i.guim.co.uk/img/media/b3e44fb72cc705d89a54b8eb9719b50630ca675c/549_0_5485_4388/master/5485.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=06d08423d6d026bb6ae8371bbaee1e67" medium="image"/>
 </item>
 <item>
-<title>LG Promo Codes and Coupons for October 2026</title>
-<link>https://www.wired.com/story/lg-promo-code</link>
-<guid isPermaLink="false">c979b8c67b1b0e03b4d9de2f273d51087a61a12ebcae1dcff25c47b48def773e</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 05:00:00 +0000</pubDate>
-<description>Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.</description>
-<enclosure url="https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png" medium="image"/>
-</item>
-<item>
 <title>Google Workspace Promo Codes: 14% Off for October 2026</title>
 <link>https://www.wired.com/story/google-workspace-promo-code</link>
 <guid isPermaLink="false">881a132c21a910474f4ed4f3d0be689d6f447216f17f014e8266b1336ef41397</guid>
@@ -1080,6 +1102,17 @@
 <description>Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.</description>
 <enclosure url="https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg" medium="image"/>
+</item>
+<item>
+<title>LG Promo Codes and Coupons for October 2026</title>
+<link>https://www.wired.com/story/lg-promo-code</link>
+<guid isPermaLink="false">c979b8c67b1b0e03b4d9de2f273d51087a61a12ebcae1dcff25c47b48def773e</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Wed, 28 Oct 2026 05:00:00 +0000</pubDate>
+<description>Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.</description>
+<enclosure url="https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png" medium="image"/>
 </item>
 <item>
 <title>30% VistaPrint Coupon &amp; Promo Codes | October 2026</title>
@@ -1214,17 +1247,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg" medium="image"/>
 </item>
 <item>
-<title>Code-execution flaw in UEFI firmware affects most servers on planet Earth</title>
-<link>https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth</link>
-<guid isPermaLink="false">7111ef88cef63a435929f84a977a691b093e738a488b46a1c2c667c59471a49e</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 20:25:55 +0000</pubDate>
-<description>Critical flaw in EDK2 allows attackers to execute code early in the boot process.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg" medium="image"/>
-</item>
-<item>
 <title>Big Red gets cozy with Google to offer TPUs to AI customers</title>
 <link>https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846</link>
 <guid isPermaLink="false">1037573297b5a9dbb326ad7503afa9ee42aa112fd6402a9aeadddca9a1897ea3</guid>
@@ -1245,17 +1267,6 @@
 <description>In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.</description>
 <enclosure url="https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg" medium="image"/>
-</item>
-<item>
-<title>Google begins certifying Registered App Stores for Android, but not in the US</title>
-<link>https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open</link>
-<guid isPermaLink="false">3b51b179c05070f41b19f0dad8b57d5329bff85fab11a569009c1c8f3cabc02f</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 19:32:07 +0000</pubDate>
-<description>Easier app installs are coming to third-party stores, pending Google's stamp of approval.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-floating-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-floating-1152x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Anthropic now lets Claude users jump out of plane without parachute</title>
@@ -1300,17 +1311,6 @@
 <description>The Everblog HomeCal delivers a similar experience, including a digital photo frame and meal planning at no extra cost.</description>
 <enclosure url="https://media.wired.com/photos/6a35a476fb39402b67c3b903/master/pass/Are-Digital-Wall-Calendars-Worth-It-.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6a35a476fb39402b67c3b903/master/pass/Are-Digital-Wall-Calendars-Worth-It-.jpg" medium="image"/>
-</item>
-<item>
-<title>Vibe genes? Natural(ish) language comes to protein, genome design software</title>
-<link>https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software</link>
-<guid isPermaLink="false">c725efb1b2c45b80891c2913150ee3e3ef3e8a20b799d115e8ecb2e0a5d53ba2</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 18:49:08 +0000</pubDate>
-<description>You can apparently now tell AI tools what sort of protein you want them to make.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Motorola Deal: Get a Free Smartwatch and Earbuds When You Buy a Razr</title>

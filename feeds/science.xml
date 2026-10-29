@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>After Flying Past the Moon, an Artemis II Astronaut Lands in California</title>
+<link>https://www.nytimes.com/2026/10/28/science/space/reid-wiseman-artemis-ii-astronaut.html</link>
+<guid isPermaLink="false">4135d28082ae878f68799b17af2caf8340013fbfe9b148a3a58490ba17a2222c</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Thu, 29 Oct 2026 01:13:27 +0000</pubDate>
+<description>Reid Wiseman, now a retired emeritus astronaut, will become deputy director of the Jet Propulsion Laboratory, NASA’s premier center for deep-space robotic missions.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/28/multimedia/28sci-nasa-wiseman-kfhp/28sci-nasa-wiseman-kfhp-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/28/multimedia/28sci-nasa-wiseman-kfhp/28sci-nasa-wiseman-kfhp-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>On this day in space! Oct. 28, 1971: Britain launches its 1st satellite Prospero into space on a Black Arrow rocket</title>
 <link>https://www.space.com/space-exploration/on-this-day-in-space-october-28-2026</link>
 <guid isPermaLink="false">b452e1b98abbcc5cc6c02e7b8ab45fe34ae14c548f573e0ac5533a9e6b0ab53c</guid>
@@ -207,7 +218,7 @@
 <guid isPermaLink="false">021c1741d987607136cac56e958fcd6eb9e22e4297108baa86fa8b7dc0fc3641</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Wed, 28 Oct 2026 17:38:31 +0000</pubDate>
+<pubDate>Wed, 28 Oct 2026 17:38:32 +0000</pubDate>
 <description>The move will block shipments from BGI, a major Chinese firm that U.S. officials allege is associated with forced labor and the abuse of minority groups.</description>
 <enclosure url="https://static01.nyt.com/images/2026/10/28/multimedia/28biz-biotech-china-mzjw/28biz-biotech-china-mzjw-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/10/28/multimedia/28biz-biotech-china-mzjw/28biz-biotech-china-mzjw-mediumSquareAt3X.jpg" medium="image"/>
@@ -444,17 +455,6 @@
 <media:content url="https://static01.nyt.com/images/2026/10/27/multimedia/27xp-jodi/27xp-jodi-mediumSquareAt3X-v2.jpg" medium="image"/>
 </item>
 <item>
-<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
-<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
-<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
-<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>November full moon 2026: When, where and how to see the Beaver Moon</title>
 <link>https://www.space.com/stargazing/november-full-moon-2026-when-where-and-how-to-see-the-beaver-moon</link>
 <guid isPermaLink="false">50365fa0e0d6551e7c2fae903ff4fb0c117ba767fab4f0dbf388b0a0db6215a7</guid>
@@ -464,6 +464,17 @@
 <description>Your guide to November's full Beaver Moon, from peak times to skywatching highlights.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
+<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
+<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
+<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>NASA’s Neo Surveyor Sunshade</title>
@@ -1102,17 +1113,6 @@
 <description>The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.</description>
 <enclosure url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/11/europe_seen_by_ers_satellite/16486928-1-eng-GB/Europe_seen_by_ERS_satellite_card_full.jpg" type="image/jpeg"/>
 <media:content url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/11/europe_seen_by_ers_satellite/16486928-1-eng-GB/Europe_seen_by_ERS_satellite_card_full.jpg" medium="image"/>
-</item>
-<item>
-<title>Australian Zoo Plays Matchmaker for Giant Birds, and Big Green Eggs Are Proof</title>
-<link>https://www.nytimes.com/2026/10/21/world/australia/green-egg-cassowary-zoo-australia.html</link>
-<guid isPermaLink="false">7d0ba943ea7f1c165a34cbfdc06542d18534584da67eab58dbf4b428549ee63a</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Thu, 22 Oct 2026 07:30:31 +0000</pubDate>
-<description>A southern cassowary at the Adelaide Zoo has laid eggs there for the first time in 34 years, after a carefully managed breeding process.</description>
-<enclosure url="https://static01.nyt.com/images/2026/10/21/multimedia/21xp-egg-04/21xp-egg-04-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/10/21/multimedia/21xp-egg-04/21xp-egg-04-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Science on the Space Station with NASA Astronaut Jessica Watkins</title>
