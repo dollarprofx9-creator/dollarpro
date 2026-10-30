@@ -4,6 +4,259 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices</title>
+<link>https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems</link>
+<guid isPermaLink="false">53bf7239327f33eb8436b8ef4a6d8ebd29738c5e3564238036f1c0c197511b92</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 20:38:46 +0000</pubDate>
+<description>Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.</description>
+<enclosure url="https://media.wired.com/photos/6ae4bfbc8b1b5cec21132f41/master/pass/103026-HACK_.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ae4bfbc8b1b5cec21132f41/master/pass/103026-HACK_.jpg" medium="image"/>
+</item>
+<item>
+<title>The biggest names in AI are backing a new way to opt out of scraping</title>
+<link>https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out</link>
+<guid isPermaLink="false">7a24eca35f77e86d873fde1b3133eb6c2782f99772d9581abac82b6be52a155a</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 20:26:10 +0000</pubDate>
+<description>OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared "policy token" signal […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Meta settles another social media addiction case just before trial</title>
+<link>https://www.engadget.com/2302956/meta-settles-another-social-media-addiction-case-just-before-trial</link>
+<guid isPermaLink="false">a3d201069ae57d583283c1f5eebe70fde24134ea16219ccc7db2656b3962269e</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 20:21:28 +0000</pubDate>
+<description>Snap is now the only defendant in the case.</description>
+<enclosure url="https://www.engadget.com/img/gallery/meta-settles-another-social-media-addiction-case-just-before-trial/l-intro-1793391515.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/meta-settles-another-social-media-addiction-case-just-before-trial/l-intro-1793391515.jpg" medium="image"/>
+</item>
+<item>
+<title>Bluesky now has a dedicated 'moderation inbox'</title>
+<link>https://www.engadget.com/2302932/bluesky-now-has-a-dedicated-moderation-inbox</link>
+<guid isPermaLink="false">d7844361176bb09489e0a4af35d5c28c539fcccfe884fe8e97a028b7b36c6d71</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 20:07:00 +0000</pubDate>
+<description>The beta feature makes it easier to stay on top of reports and account strikes.</description>
+<enclosure url="https://www.engadget.com/img/gallery/bluesky-now-has-a-dedicated-moderation-inbox/l-intro-1793390683.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/bluesky-now-has-a-dedicated-moderation-inbox/l-intro-1793390683.jpg" medium="image"/>
+</item>
+<item>
+<title>Everything you need to know about Googlebooks</title>
+<link>https://www.engadget.com/2302681/everything-you-need-to-know-about-googlebooks</link>
+<guid isPermaLink="false">2a5279909cfde7c85c109063c992abd85f2d3a6234546dc456ecdf9194bdd80a</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 19:00:00 +0000</pubDate>
+<description>Despite good initial hardware, the Googlebook OS still needs a lot of work.</description>
+<enclosure url="https://www.engadget.com/img/gallery/despite-good-initial-hardware-the-googlebook-os-is-holding-the-platform-back/l-intro-1793383802.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/despite-good-initial-hardware-the-googlebook-os-is-holding-the-platform-back/l-intro-1793383802.jpg" medium="image"/>
+</item>
+<item>
+<title>Google&amp;#8217;s satellite AI server transmits its first response to Earth</title>
+<link>https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission</link>
+<guid isPermaLink="false">b9ee8bb30716fa37b159432c17457de6c675d196a614236a5622c85e7238dfdd</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 18:21:38 +0000</pubDate>
+<description>Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Android 17 adoption hits a staggering 1% – why you really should update now</title>
+<link>https://www.zdnet.com/tech/android-17-os-adoption-numbers-october-2026</link>
+<guid isPermaLink="false">d12f92c207cbae1ffc67f664d1ebf660541d0d7c000c54694c7463a945fee225</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 18:18:24 +0000</pubDate>
+<description>Only a quarter of Android phones have even made it to Android 16.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/a17hero_14a4bb.jpg" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/a17hero_14a4bb.jpg" medium="image"/>
+</item>
+<item>
+<title>Rare meteorite from Mars gives us a view into its ancient crust</title>
+<link>https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust</link>
+<guid isPermaLink="false">0b770eef39da304ff9f1098b106aba3f25c31f4451d0193254171074aaa2ce22</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 18:13:42 +0000</pubDate>
+<description>A meteorite found in the Sahara is a rare piece of Mars' ancient crust.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-3-1152x648.jpeg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-3-1152x648.jpeg" medium="image"/>
+</item>
+<item>
+<title>Fujifilm to boost tape production 5x as AI fuels archiving demand</title>
+<link>https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand</link>
+<guid isPermaLink="false">9c79addb856a9fb17d996b566a03afc479f4eeef8935988cbc25c0ac5e4e2bcb</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:38:19 +0000</pubDate>
+<description>Low costs and offline security mean magnetic tape still has a job.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru</link>
+<guid isPermaLink="false">8789b25f4f928a029c45ca212a1b04923d18f26eb94d10f419ceea9ec95d2c4f</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:38:04 +0000</pubDate>
+<description>Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore "experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless," as spotted earlier by More […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Samsung adds better sleep tracking to Galaxy Watches – here’s what to expect</title>
+<link>https://www.zdnet.com/health/advanced-sleep-apnea-tracking-galaxy-watches</link>
+<guid isPermaLink="false">17ae841ebf69dd70b8fc3d2dcb5a24ce704c8263c5d89421164a963847a21875</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:29:50 +0000</pubDate>
+<description>The FDA-approved sleep apnea tracking feature will first come to the Galaxy Watch Ultra 2, Watch 9, and Ring.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/dsc00152.jpg" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/dsc00152.jpg" medium="image"/>
+</item>
+<item>
+<title>The delightfully messy state of Apple gadgets</title>
+<link>https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets</link>
+<guid isPermaLink="false">99249c1bb5cfdaa3e016f41c82d82511fb1d0cdd64495e5ed318d17c5dda1c0f</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:25:20 +0000</pubDate>
+<description>The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentation, and while the final results aren't always perfect, it's fun to watch the most successful product maker try some new things again. Even […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_1030_SiteB.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_1030_SiteB.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>I’m finally ready for a smart calendar – why the Echo Show 16 stands out</title>
+<link>https://www.zdnet.com/home-and-office/im-finally-ready-for-a-smart-calendar-why-the-echo-show-16-stands-out</link>
+<guid isPermaLink="false">b4024f885823ca6436888442367483292b859d025a1d650efd53a4047a083490</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:23:50 +0000</pubDate>
+<description>I’m finally ready to upgrade to a smart calendar – and Amazon’s newest Echo device looks like an organizational solution for my family and I.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/Echo-Show-16-Features-Alexa-Home-1920x1080-1.png" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Echo-Show-16-Features-Alexa-Home-1920x1080-1.png" medium="image"/>
+</item>
+<item>
+<title>Rivian’s autonomy gamble faces its first real test</title>
+<link>https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026</link>
+<guid isPermaLink="false">256174e04f2a657aa0f8a469f133ed9d3e150bd030afd21b60129a141f3110d9</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:16:09 +0000</pubDate>
+<description>During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2277183149.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2277183149.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Vizio’s discounted Mini LED TV lets you skip the sign-ups and smarts</title>
+<link>https://www.theverge.com/gadgets/1022794/vizio-mini-led-quantum-tv-65-inch-walmart-deal-sale</link>
+<guid isPermaLink="false">56f001a8cf9734e5b9cb4947d1579f293a4499f60a67e9724aed499fdb6b624f</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 17:01:07 +0000</pubDate>
+<description>Modern smart TVs let you skip the streaming device, which is convenient, but they also come with their own issues, including privacy concerns and frequent updates. The Vizio Mini LED Quantum TV lets you cut out the rigamarole and just get straight to the HDMI ports. And right now, it’s discounted at Walmart, with the […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268611_Vizio_Mini_LED_Quantum_TV_JHiggins_0009.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268611_Vizio_Mini_LED_Quantum_TV_JHiggins_0009.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Thousands of “ghost students” use AI to steal millions in student loans, DOJ says</title>
+<link>https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans</link>
+<guid isPermaLink="false">4da51a8d3c864c8d2325e29e0068e50fece9b1576f53e2dd11763547888feb24</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:53:49 +0000</pubDate>
+<description>Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>GM cracks the petty cash box for multistate driver tracking settlement</title>
+<link>https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721</link>
+<guid isPermaLink="false">6e0c4e9b76226b4cab5dbb8fcba0d3efeb5b95314a6499c948c4755e7e89c02f</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:48:37 +0000</pubDate>
+<description>$220 million? For all of you? Yeah, we can probably dig that up ...</description>
+<enclosure url="https://image.theregister.com/?imageId=229334&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=229334&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’</title>
+<link>https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack</link>
+<guid isPermaLink="false">06dd76803e8b9715c50769198cafda26957670070c68552e392ea691a9228b03</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:35:44 +0000</pubDate>
+<description>Binance exchange says it will cover customer losses as it scrambles to freeze affected assets, with about $3bn located so far Q&amp;A: How big a deal is the $6.3bn crypto heist? Tell us: have you been affected by the Binance hack? Business live – latest updates The world’s largest cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in history, with experts identifying North Korea as the likely culprit. Binance said it would cover all customer losses as it froze $3bn of the affected assets. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/4824d0b9ac9b676f0f7a9915bd1edd46731ae136/366_0_3924_3139/master/3924.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d10684981f75a65a1a43380031ec4e21" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/4824d0b9ac9b676f0f7a9915bd1edd46731ae136/366_0_3924_3139/master/3924.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=d10684981f75a65a1a43380031ec4e21" medium="image"/>
+</item>
+<item>
+<title>Anthropic: That Claude Code extension compromise… couldn't be us</title>
+<link>https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682</link>
+<guid isPermaLink="false">84be936fd5b7ceaeedcf783678ddb7cadc429db0d1ec4f44a020b841285b8fd5</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:27:00 +0000</pubDate>
+<description>Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor</description>
+<enclosure url="https://image.theregister.com/?imageId=5254625&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5254625&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>New tvOS 27.2 features to try for an upgraded Apple TV experience</title>
+<link>https://www.engadget.com/2302449/tvos-27-2-features-try-upgraded-apple-tv-experience</link>
+<guid isPermaLink="false">6c2c12375ebde64ecdbe054eedd09a66da4699a251ae6aafa15f9d55c305a101</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:22:49 +0000</pubDate>
+<description>Apple's tvOS 27.2 update isn't a particularly transformative one, but it still introduces a handful of new features that are worth checking out.</description>
+<enclosure url="https://www.engadget.com/img/gallery/new-tvos-27-2-features-to-try-for-an-upgraded-apple-tv-experience/l-intro-1793349181.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/new-tvos-27-2-features-to-try-for-an-upgraded-apple-tv-experience/l-intro-1793349181.jpg" medium="image"/>
+</item>
+<item>
+<title>Google’s latest Home updates just fixed my biggest annoyances with its speakers and cameras</title>
+<link>https://www.zdnet.com/home-and-office/google-home-gemini-updates-42-fixes</link>
+<guid isPermaLink="false">0b0261f33bdc8b7ac3a8dd84a7a6f46884b4bb39c42c6045f264359e89a7c505</guid>
+<source>ZDNET</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:14:11 +0000</pubDate>
+<description>Google details 42 fixes to its Home app and the devices compatible with it.</description>
+<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/1_341369.jpg" type="image/jpeg"/>
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/1_341369.jpg" medium="image"/>
+</item>
+<item>
+<title>Analysts find looming launch crisis is "more severe" than anticipated</title>
+<link>https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated</link>
+<guid isPermaLink="false">cbdd060ae07933fa04eabcde66dc26a7d13a7dda5f0d1b087752700e72a9a1c9</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 16:12:59 +0000</pubDate>
+<description>There's no evidence that Starship will launch traditional satellites, either.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon-9-1152x648.jpeg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/falcon-9-1152x648.jpeg" medium="image"/>
+</item>
+<item>
+<title>People Are Creating ‘Survival Guides’ to Cope With the ‘AO3 Apocalypse’</title>
+<link>https://www.wired.com/story/people-are-creating-survival-guides-to-cope-with-the-ao3-apocalypse</link>
+<guid isPermaLink="false">f8db68571a280c792ccfd375a56921fafc8733f744294ebef59529adfd635204</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 15:57:35 +0000</pubDate>
+<description>The fanfic site could be down for weeks due to a “security incident.” Users are not taking it well.</description>
+<enclosure url="https://media.wired.com/photos/6ae3d487c091c8b8d1ebfb9c/master/pass/culture_ao3_crash_fanfic_meltdown.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ae3d487c091c8b8d1ebfb9c/master/pass/culture_ao3_crash_fanfic_meltdown.jpg" medium="image"/>
+</item>
+<item>
 <title>The Wikimedia Foundation weighs in on the NYT's case against OpenAI</title>
 <link>https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai</link>
 <guid isPermaLink="false">8ada096505f97960e75487556ba1597c86fb2adcd16ea763c9f1d768cdf03b7d</guid>
@@ -48,15 +301,15 @@
 <media:content url="https://www.engadget.com/img/gallery/the-death-stranding-animes-first-teaser-trailer-arrives-ahead-of-its-disney-debut/l-intro-1793372769.jpg" medium="image"/>
 </item>
 <item>
-<title>Stearns and Foster Promo Codes: $300 Off in November 2026</title>
-<link>https://www.wired.com/story/stearns-and-foster-promo-code</link>
-<guid isPermaLink="false">065772a060b211475fcaaf827f805da47608f3bdb2ac6ee0268fa478192bb98d</guid>
-<source>Wired</source>
+<title>Billionaire tax: how a union leader’s ‘crazy’ idea became the defining issue of California’s midterms</title>
+<link>https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/california-billionaire-tax</link>
+<guid isPermaLink="false">a37ddbc5d2224ef67390cee2bc6d7de3425586362e3d6bfe7c6d933c9b96af90</guid>
+<source>The Guardian Technology</source>
 <category>technology</category>
-<pubDate>Fri, 30 Oct 2026 15:00:38 +0000</pubDate>
-<description>Discover the best Stearns and Foster promo codes, discounts, and deals to elevate your sleep experience with premium comfort and quality.</description>
-<enclosure url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" medium="image"/>
+<pubDate>Fri, 30 Oct 2026 15:00:19 +0000</pubDate>
+<description>It was an ambitious notion – now Californians will vote on a one-time 5% billionaire tax, and state’s super rich have pulled out all the stops in opposition One year ago, the idea of a billionaire tax in California was still in its infancy. It wasn’t yet one of the most contentious ballot measure fights in state history – pitting Democrats against Democrats, drawing national attention from political heavyweights, and netting hundreds of millions of Silicon Valley dollars to fight it. Back then, it was a bold and desperate answer to Donald Trump’s healthcare cuts. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/f84e43fdfd782096ab7cda1b19640357b6b43cb3/299_52_2305_1844/master/2305.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=86a39525c1a39711c43b85cf5c83e58d" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/f84e43fdfd782096ab7cda1b19640357b6b43cb3/299_52_2305_1844/master/2305.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=86a39525c1a39711c43b85cf5c83e58d" medium="image"/>
 </item>
 <item>
 <title>Buy a wind-up radio – and don’t forget the chocolate: survival experts on how to prepare for an emergency</title>
@@ -125,6 +378,17 @@
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/arrowspace1.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
+<title>Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case</title>
+<link>https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case</link>
+<guid isPermaLink="false">6faa1355c3981bf5587d8092e2b9a750981af375579b7ce5536863d2005f1e1a</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Fri, 30 Oct 2026 14:00:18 +0000</pubDate>
+<description>Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email , free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach, Coalition senators and the recording industry have warned, as they raise new fears it could open Australia to massive legal action and compensation claims from rights holders worldwide. The attorney general’s department admitted it was “extremely alive” to the issue, and Australia’s leading constitutional expert, Anne Twomey, agreed there was “potentially” a concern – depending how legislation was drafted – that granting AI companies permission to scrape copyrighted material from the internet could amount to an acquisition of property by the government. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/3e7a0fdd3ee1b88bfd479f84f93eb5b6dec2668e/703_0_4478_3583/master/4478.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0c5804494ee39814afa76d92268200f5" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/3e7a0fdd3ee1b88bfd479f84f93eb5b6dec2668e/703_0_4478_3583/master/4478.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0c5804494ee39814afa76d92268200f5" medium="image"/>
+</item>
+<item>
 <title>NASA ponders a Hubble servicing mission or a controlled deorbit</title>
 <link>https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622</link>
 <guid isPermaLink="false">7db7362d9832372a3234831799d8639ac29a9acdfd98882835da17b0d589c251</guid>
@@ -153,7 +417,7 @@
 <source>The Verge</source>
 <category>technology</category>
 <pubDate>Fri, 30 Oct 2026 13:52:14 +0000</pubDate>
-<description>Waymo announced today that when it launches a robotaxi service in Tokyo in 2027, it will use Toyota bZ4X electric vehicles that are assembled in Japan. The news builds on the strategic partnership between Waymo and Toyota which was first announced in April 2025. The robotaxis will be built entirely under one roof at Toyota's […]</description>
+<description>Waymo announced today that it will use Toyota bZ4X electric vehicles that are assembled in Japan for a robotaxi service in Tokyo. The news builds on the strategic partnership between Waymo and Toyota which was first announced in April 2025. The robotaxis will be built entirely under one roof at Toyota's Takaoka plant in Toyota […]</description>
 <enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/unnamed-1.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
 <media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/unnamed-1.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
@@ -191,17 +455,6 @@
 <media:content url="https://image.theregister.com/?imageId=5306604&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Silicon Valley wants you to invest in miracles</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles</link>
-<guid isPermaLink="false">57bd8cae501a4c7803bcdea65bff5258df6940e4c6836b6573eb0e88f1b387dc</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 13:11:05 +0000</pubDate>
-<description>Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, "pose catastrophic or existential risks to humanity," or best case, "bring forth an age of miracles"? To some extent, […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Harley-Davidson's electric motorbike brand has 'substantial doubt' about its future</title>
 <link>https://www.engadget.com/2302065/harley-davidsons-electric-motorbike-brand-has-substantial-doubt-about-its-future</link>
 <guid isPermaLink="false">4e86ec332b8d84e59ea4963389c461124affbc060ba4a4176c8c9717e5e8a8e3</guid>
@@ -211,50 +464,6 @@
 <description>LiveWire's warns that it may not survive its current financial difficulties.</description>
 <enclosure url="https://www.engadget.com/img/gallery/harley-davidsons-electric-motorbike-brand-has-substantial-doubt-about-its-future/l-intro-1793365250.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/harley-davidsons-electric-motorbike-brand-has-substantial-doubt-about-its-future/l-intro-1793365250.jpg" medium="image"/>
-</item>
-<item>
-<title>Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview</link>
-<guid isPermaLink="false">1c953c6f303dffb252a480a889db46f1c094b8286ebd259939b02c786fab2893</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 13:01:14 +0000</pubDate>
-<description>After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. "I think, on net, […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>The HomeView and Echo Show 16 could be the family computers I’ve been asking for</title>
-<link>https://www.theverge.com/tech/1022592/apple-homeview-amazon-echo-show-16-smart-display-family-computer</link>
-<guid isPermaLink="false">ceac93c5f2da00ea797ee2df050f3a2ffa55d06f32da05715a216e12ceec1054</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 13:00:00 +0000</pubDate>
-<description>Three years ago, I wrote an obituary for the smart display. The category - smart speakers with touchscreens attached - was stuck with a few underpowered gadgets from Google and Amazon that tried to do too much and did too little well. Back then, I also laid out what they needed to do to improve. […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268837_HomeView_and_Show_16_smart_display_report_CVirginia2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268837_HomeView_and_Show_16_smart_display_report_CVirginia2.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>North Korean group blamed for $6.3bn Binance hack in biggest ever crypto heist</title>
-<link>https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack</link>
-<guid isPermaLink="false">06dd76803e8b9715c50769198cafda26957670070c68552e392ea691a9228b03</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 12:48:40 +0000</pubDate>
-<description>Cryptocurrency exchange scrambles to freeze affected assets, with about $3bn located so far, and says it will cover losses Q&amp;A: How big a deal is the $6.3bn crypto heist? Tell us: have you been affected by the Binance hack? Business live – latest updates The world’s largest cryptocurrency exchange has been hit by an industry-record $6.3bn (£4.7bn) hack, with experts identifying North Korea as the likely culprit. Binance has scrambled to freeze the affected assets, with about $3bn located so far. The company gave no update on the other $3.3bn as Binance’s co-founder Yi He said the company would cover “all hacking losses”. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/a0e5af33d483d9aab5e06bd85fc2dc72c9948b20/333_0_3333_2667/master/3333.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=842ec8088e52df8bd83ba9aee4bff656" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/a0e5af33d483d9aab5e06bd85fc2dc72c9948b20/333_0_3333_2667/master/3333.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=842ec8088e52df8bd83ba9aee4bff656" medium="image"/>
-</item>
-<item>
-<title>The Apple Pencil turned the Duo into my new favorite notebook</title>
-<link>https://www.theverge.com/tech/1022894/iphone-duo-apple-pencil-hands-on</link>
-<guid isPermaLink="false">7167f26dad4219f57e93d8747ff79b354633c14ca8e9406c688ee530f06b7a5e</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 12:30:00 +0000</pubDate>
-<description>Apple's $2,000 folding phone is a surprisingly good stand-in for a $20 notebook. Believe me; nothing gets me going quite like a new notebook. This one will be different, I think. This time, I really will take it everywhere. Inspiration can strike at any moment, and you have to be ready, says David Sedaris in […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04364_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04364_processed.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>NHS quango warns of risk to GP patient data after website vendor collapse</title>
@@ -290,17 +499,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/2027-Nissan-Rogue-Hybrid_34-1152x648.jpg" medium="image"/>
 </item>
 <item>
-<title>The touchscreen MacBook Pro is just a MacBook Pro with a touchscreen</title>
-<link>https://www.theverge.com/tech/1022628/apple-macbook-pro-proled-xdr-touchscreen-oled-impressions-totally-normal</link>
-<guid isPermaLink="false">98d19a5ea846ff44f902db2538c78c249845fd40a4c8626af70883672db0bfb2</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-<description>Apple's long-awaited touchscreen MacBook Pro is finally here. I got to try this MacBook that, according to the last two Apple CEOs, shouldn't exist. The most surprising thing is how normal it is. The MacBook Pro with PROLED XDR Display (what a name) has one of the nicest screens I've seen on a laptop. The […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_MacBook_Pro_touchscreen_OLED_handson_ADiBenedetto_0043.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_MacBook_Pro_touchscreen_OLED_handson_ADiBenedetto_0043.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Lenovo Googlebook 15 review: Your Android phone's new best friend</title>
 <link>https://www.engadget.com/2301498/lenovo-googlebook-15-review</link>
 <guid isPermaLink="false">570dc12cb2fe46b82532753f5afd9d19e294acdcc9aca33838422c13f661372b</guid>
@@ -321,17 +519,6 @@
 <description>Other agency errors included an unchecked software bug that led to Terrorism Act detentions</description>
 <enclosure url="https://image.theregister.com/?imageId=197715&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=197715&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Binance hackers stole $6.3 billion in record-breaking crypto heist</title>
-<link>https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist</link>
-<guid isPermaLink="false">87d27a9f8a0972f50737729b865ab580f1bcb162d9885ea9fa08e86b75154f0a</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Fri, 30 Oct 2026 11:44:53 +0000</pubDate>
-<description>Binance has disclosed that $6.3 billion worth of crypto funds have been stolen from the platform, in what's believed to be the biggest cryptocurrency hack on record. In a series of updates posted to X, the crypto exchange said that user funds are safe, and that around $3 billion of the impacted assets have been […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK428_CRYPTO_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK428_CRYPTO_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes</title>
@@ -495,8 +682,8 @@
 <category>technology</category>
 <pubDate>Fri, 30 Oct 2026 10:00:00 +0000</pubDate>
 <description>European countries are leading the way harvesting heat that would otherwise be wasted as green death practices become more common.</description>
-<enclosure url="https://media.wired.com/photos/6ae429d4d21d2596b6fe3ef9/master/pass/Crematoriams.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ae429d4d21d2596b6fe3ef9/master/pass/Crematoriams.jpg" medium="image"/>
+<enclosure url="https://media.wired.com/photos/6ae4b5c0d55a0e2bc0a8d62b/master/pass/GettyImages-567391969.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ae4b5c0d55a0e2bc0a8d62b/master/pass/GettyImages-567391969.jpg" medium="image"/>
 </item>
 <item>
 <title>Gift Ideas for Friends (2026): Wellness Tech, Kitchen Essentials</title>
@@ -715,8 +902,8 @@
 <category>technology</category>
 <pubDate>Thu, 29 Oct 2026 21:18:22 +0000</pubDate>
 <description>The site's data is reportedly intact, but the cause of the outage is still unknown.</description>
-<enclosure url="https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793308521.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793308521.jpg" medium="image"/>
+<enclosure url="https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793388818.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793388818.jpg" medium="image"/>
 </item>
 <item>
 <title>What to Know About China’s Top-Secret Spaceplane</title>
@@ -829,17 +1016,6 @@
 <media:content url="https://media.wired.com/photos/6ae36f07feb0012f49429412/master/pass/Nothing%20Headphone%20Deals%20October%20102026%20top%20art%20SOURCE%20Shop.com.jpg" medium="image"/>
 </item>
 <item>
-<title>Popcorn bucket innovation is at an all-time low and the Dune: Part Three 'Double Sandworm' is proof</title>
-<link>https://www.engadget.com/2301587/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof</link>
-<guid isPermaLink="false">80caded14a1b27f655ba65c9313d1ad0d52e61aa85dee32399b8e65865b1be34</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 29 Oct 2026 19:40:27 +0000</pubDate>
-<description>Just what the Sandworm bucket needed: a second hole.</description>
-<enclosure url="https://www.engadget.com/img/gallery/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/l-intro-1793302293.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/popcorn-bucket-innovation-is-at-an-all-time-low-and-the-dune-part-three-double-sandworm-is-proof/l-intro-1793302293.jpg" medium="image"/>
-</item>
-<item>
 <title>Topcoat enables Rust to render server-side web apps</title>
 <link>https://www.theregister.com/devops/2026/10/29/topcoat-enables-rust-to-render-server-side-web-apps/5306470</link>
 <guid isPermaLink="false">9d7118cdf3f370d9dee8a8250bd3814c35e9a77bc107c2b2f70bd9ace805b03d</guid>
@@ -871,28 +1047,6 @@
 <description>Snoops 'likely still' have access to US government-affiliated network</description>
 <enclosure url="https://image.theregister.com/?imageId=5304691&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5304691&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Netflix is making a live-action PUBG show written and directed by Donald Glover</title>
-<link>https://www.engadget.com/2301458/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover</link>
-<guid isPermaLink="false">2e86e393d7f055660f6aa792517cc356d1bf49bcba0b8b1b069814d5f27dbfff</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 29 Oct 2026 18:45:00 +0000</pubDate>
-<description>The streamer also has an Assassin's Creed series in the works, along with a Gears of War feature film.</description>
-<enclosure url="https://www.engadget.com/img/gallery/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/l-intro-1793299226.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/netflix-is-making-a-live-action-pubg-show-written-and-directed-by-donald-glover/l-intro-1793299226.jpg" medium="image"/>
-</item>
-<item>
-<title>Don't expect more Assassin's Creed remakes anytime soon</title>
-<link>https://www.engadget.com/2301452/dont-expect-more-assassins-creed-remakes-anytime-soon</link>
-<guid isPermaLink="false">2a43fcdf8095b4ad67265011a19dd9584d55d154231800e91c5fc2d1aa21bb30</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Thu, 29 Oct 2026 18:40:00 +0000</pubDate>
-<description>Ubisoft shared some updates on the franchise, including confirmation of a New Game+ option for Assassin's Creed Valhalla.</description>
-<enclosure url="https://www.engadget.com/img/gallery/dont-expect-more-assassins-creed-remakes-anytime-soon/l-intro-1793298942.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/dont-expect-more-assassins-creed-remakes-anytime-soon/l-intro-1793298942.jpg" medium="image"/>
 </item>
 <item>
 <title>A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System</title>
@@ -1324,15 +1478,15 @@
 <media:content url="https://image.theregister.com/?imageId=5278204&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>A new wave of electric ferries is here in the US. Some even fly</title>
-<link>https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries</link>
-<guid isPermaLink="false">06a2c703111142070fa596019f0abb2b4ebf221ea4cf99f9ade6bba31d2666fc</guid>
-<source>The Guardian Technology</source>
+<title>Reencle Essential Review: Same Scraps, Lower Price</title>
+<link>https://www.wired.com/review/reencle-essential-electric-composter</link>
+<guid isPermaLink="false">50e7c6620ce69b892ea7090add776789bb3df6f00dcefb04b54a9ae8f5033f5d</guid>
+<source>Wired</source>
 <category>technology</category>
-<pubDate>Thu, 29 Oct 2026 10:00:31 +0000</pubDate>
-<description>Replacing diesel-powered ferries with electric vessels could reduce emissions and improve air quality Cutting through New York Harbor in the shadow of the Statue of Liberty, the small white boat we were riding on caught the attention of passengers aboard a nearby sightseeing ferry. “It’s quite a curiosity at the moment,” Eric Laakmann, the chief executive and co-founder of Vessev, said. Climate Central is an independent group of scientists and communicators who research and report the facts about our changing climate and how it affects people’s lives. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/ae28ea8755028f99a2f7893c18cb6170afa4e5f5/483_0_2415_1932/master/2415.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8ddbb6945638923fe018d21eee1e02dd" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/ae28ea8755028f99a2f7893c18cb6170afa4e5f5/483_0_2415_1932/master/2415.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8ddbb6945638923fe018d21eee1e02dd" medium="image"/>
+<pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+<description>Reencle has made your favorite kitchen composter cheaper—with a few compromises.</description>
+<enclosure url="https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg" medium="image"/>
 </item>
 <item>
 <title>I Gave My Blood to the AI Death Clock</title>
@@ -1344,17 +1498,6 @@
 <description>Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.</description>
 <enclosure url="https://media.wired.com/photos/6adbec3437abe86dfce58fe9/master/pass/WIRED-Ghost-Stories-Death-Clock.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6adbec3437abe86dfce58fe9/master/pass/WIRED-Ghost-Stories-Death-Clock.jpg" medium="image"/>
-</item>
-<item>
-<title>Reencle Essential Review: Same Scraps, Lower Price</title>
-<link>https://www.wired.com/review/reencle-essential-electric-composter</link>
-<guid isPermaLink="false">50e7c6620ce69b892ea7090add776789bb3df6f00dcefb04b54a9ae8f5033f5d</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
-<description>Reencle has made your favorite kitchen composter cheaper—with a few compromises.</description>
-<enclosure url="https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ae254611851ee1df8759d45/master/pass/Review%20Reencle%20Essential%20Electric%20Composter%20102026%20top%20art%20SOURCE%20Amazon.jpg" medium="image"/>
 </item>
 <item>
 <title>Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization</title>
@@ -1467,17 +1610,6 @@
 <media:content url="https://media.wired.com/photos/67b63b972c751893c256c1e6/master/pass/WIRED-Coupons-R2_16.png" medium="image"/>
 </item>
 <item>
-<title>NZXT Discount Codes: 50% Off in November 2026</title>
-<link>https://www.wired.com/story/nzxt-discount-code</link>
-<guid isPermaLink="false">f0a94366aa8ab77c2d7153a3bd77c8f0d4368f4d371a439d635e0aff6604b875</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
-<description>Save 50%, plus up to $250 with NZXT promo codes and discounts.</description>
-<enclosure url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" medium="image"/>
-</item>
-<item>
 <title>Loop Earplugs Discount Codes: 40% Off</title>
 <link>https://www.wired.com/story/loop-earplugs-discount-code</link>
 <guid isPermaLink="false">172cc4b1f71ff1ca2f8e4744390e9c49bef20b17ecb6a8b83c5f9f85efd42949</guid>
@@ -1485,6 +1617,17 @@
 <category>technology</category>
 <pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
 <description>Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.</description>
+<enclosure url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" medium="image"/>
+</item>
+<item>
+<title>NZXT Discount Codes: 50% Off in November 2026</title>
+<link>https://www.wired.com/story/nzxt-discount-code</link>
+<guid isPermaLink="false">f0a94366aa8ab77c2d7153a3bd77c8f0d4368f4d371a439d635e0aff6604b875</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
+<description>Save 50%, plus up to $250 with NZXT promo codes and discounts.</description>
 <enclosure url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/67b63b995a505b018b67ed92/master/pass/WIRED-Coupons-R2_10.png" medium="image"/>
 </item>
@@ -1621,28 +1764,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg" medium="image"/>
 </item>
 <item>
-<title>As US ties fray, Europe plans first undersea cable link to Greenland</title>
-<link>https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland</link>
-<guid isPermaLink="false">52cf4d98c3bcf391c8d94c2924f26a86f2ecd2645732120e4976e366d433fb0f</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 22:35:50 +0000</pubDate>
-<description>Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA</title>
-<link>https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda</link>
-<guid isPermaLink="false">5dce05c1d0be7bbf727fdb179ad56c7f41972e92e87a7a3f5f56ccd15224a36e</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 22:17:15 +0000</pubDate>
-<description>Six unproven peptides popular with MAHA now under "enforcement discretion policy."</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2154524764-1024x648.jpg" medium="image"/>
-</item>
-<item>
 <title>This Is What the GOP’s Final Midterms Push Looks Like</title>
 <link>https://www.wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like</link>
 <guid isPermaLink="false">5fdcfde15e7984c1c64c79ebb46bf1da23924d637cf6e70d321d089d388992fe</guid>
@@ -1709,28 +1830,6 @@
 <media:content url="https://image.theregister.com/?imageId=5306136&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>The last, best hope for space tourism just rolled onto a runway in Arizona</title>
-<link>https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona</link>
-<guid isPermaLink="false">ca9d651545e8c4f2bacecfe1a24c8823de69430a5e81cb33d058632e6e662c94</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 19:20:36 +0000</pubDate>
-<description>It has been nearly a year since any space tourism flights occurred.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/VIRGIN-GALACTIC_CORDWELL_10232026_APEIRON_STILLS-SELECT-1653-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Touchscreen MacBook Pro hands-on: OLED looks great on a Mac</title>
-<link>https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac</link>
-<guid isPermaLink="false">79b03aa9fa8771e1fec5f886988d35bc81a1d9f7a7ba27f55dc63f6d02459afd</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 19:10:29 +0000</pubDate>
-<description>It's not as different from the previous model as you might have expected.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/16-inch-MacBook-Pro-lid-closed-1152x648-1793212511.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/16-inch-MacBook-Pro-lid-closed-1152x648-1793212511.jpg" medium="image"/>
-</item>
-<item>
 <title>Apple’s new touchscreen MacBook Pros may be late, but they have one big advantage</title>
 <link>https://www.zdnet.com/tech/apples-new-touchscreen-macbook-pros-may-be-late-but-they-have-one-big-advantage</link>
 <guid isPermaLink="false">3653461c6fa192d21267d7a4bfea9d7bcd982d38095501a71ffa1b06184abf19</guid>
@@ -1773,17 +1872,6 @@
 <description>You can ask Amazon’s voice assistant to show you your favorite photos.</description>
 <enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/Amazon-Alexa-Photo-Frame.jpg" type="image/jpeg"/>
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Amazon-Alexa-Photo-Frame.jpg" medium="image"/>
-</item>
-<item>
-<title>I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet</title>
-<link>https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team</link>
-<guid isPermaLink="false">8965c562f4d21fcca2b0b57ad81d53ea2bc01e32e298a50bc183e9dc44e813a8</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 18:30:00 +0000</pubDate>
-<description>To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.</description>
-<enclosure url="https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg" medium="image"/>
 </item>
 <item>
 <title>These Claude Enterprise features let you track AI ROI – what’s new</title>
@@ -1940,28 +2028,6 @@
 <media:content url="https://image.theregister.com/?imageId=4094139&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Intel gets tax breaks while local authorities lose revenue, claims policy org</title>
-<link>https://www.theregister.com/systems/2026/10/28/intel-gets-tax-breaks-while-local-authorities-lose-revenue-claims-policy-org/5305902</link>
-<guid isPermaLink="false">bd16466dc003c90136dc88b9e17a1375b4367519a27594be61f1e97ca933646c</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 12:45:00 +0000</pubDate>
-<description>Report accuses corp of getting subsidies for its fabs from Oregon and New Mexico that deprive those states of vital funds</description>
-<enclosure url="https://image.theregister.com/?imageId=262320&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=262320&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Cisco open sources tool for detecting AI agents on hacking sprees</title>
-<link>https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867</link>
-<guid isPermaLink="false">de821c9b5058d5665ff7ab8593358a09851f8870f34c1efddb6475f4ff9f81e5</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-<description>Project Quarry aims to provide a 'shared language' for evaluating agent behavior</description>
-<enclosure url="https://image.theregister.com/?imageId=5259466&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5259466&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of care laws</title>
 <link>https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics</link>
 <guid isPermaLink="false">f53c7c72ecdfd9549fc202864317624b49b23eca45b6ef6a67471201cb75c090</guid>
@@ -1971,17 +2037,6 @@
 <description>Labor government under pressure to create social media watchdog as new online safety standards bill passes lower house Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast The federal government wants to ban AI chatbots which seek to create “emotional intimacy” after prime minister Anthony Albanese raised the alarm in a heartfelt speech about children treating these agents as their “best friend”. But Labor is coming under increasing pressure to empower the telecommunications ombudsman to become a watchdog for social media and AI to give Australians an external complaints mechanism and allow the “naming and shaming” of big tech. Sign up for Guardian Australia’s Politics, really newsletter here Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/b3e44fb72cc705d89a54b8eb9719b50630ca675c/549_0_5485_4388/master/5485.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=06d08423d6d026bb6ae8371bbaee1e67" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/b3e44fb72cc705d89a54b8eb9719b50630ca675c/549_0_5485_4388/master/5485.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=06d08423d6d026bb6ae8371bbaee1e67" medium="image"/>
-</item>
-<item>
-<title>AI bots flooded 2023 UK government consultation on disposable vapes ban</title>
-<link>https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban</link>
-<guid isPermaLink="false">a85581efeb426366fd98b73e6a7f516e5fba7e6d20264d32b835d9919de0b00c</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 22:30:45 +0000</pubDate>
-<description>Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed attempt to stop the UK’s ban on disposable vapes. Three-quarters of all the responses to the 2023 consultation on the tobacco and vapes bill were machine-generated, in what is thought to be the first coordinated attempt to use AI to derail health policymaking in the UK. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/aaba9471514c493b64cda0d52e0de7fe61c3d279/124_0_3703_2963/master/3703.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8c99cb2ea26dd7e7e77074116ae50c9f" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/aaba9471514c493b64cda0d52e0de7fe61c3d279/124_0_3703_2963/master/3703.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8c99cb2ea26dd7e7e77074116ae50c9f" medium="image"/>
 </item>
 <item>
 <title>Why this new Fitbit feature takes us one step closer to non-invasive glucose tracking</title>
@@ -2028,39 +2083,6 @@
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/7927f8ce-894f-4820-b2d0-c121c0412952.jpg" medium="image"/>
 </item>
 <item>
-<title>Apple’s M6 iMac has arrived – here’s what’s changed since the M4</title>
-<link>https://www.zdnet.com/tech/apple-imac-m6-vs-m4-whats-new</link>
-<guid isPermaLink="false">d1bfa59ad0f020c364bd37c712bff94ee4625f7163463f08cbf072039ff99334</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 15:42:32 +0000</pubDate>
-<description>Apple’s colorful all-in-one gets its first refresh in two years. Here’s what you get for the $1,499 starting price.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/5e73698c-368c-4c5b-96ac-005b32edc3ef.jpg" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/5e73698c-368c-4c5b-96ac-005b32edc3ef.jpg" medium="image"/>
-</item>
-<item>
-<title>A fake TikTok shop is Surfshark’s most-blocked phishing scam – how to steer clear</title>
-<link>https://www.zdnet.com/tech/fake-tiktok-shop-phishing-scam-surfshark</link>
-<guid isPermaLink="false">365f77fd85dcca258cf8643dd36153c3e28595b563592bc40424bedd6468d53d</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 15:30:38 +0000</pubDate>
-<description>Blocked phishing attempts rose 83% in six months, according to Surfshark, largely due to one TikTok shop. Here’s how to spot the red flags.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/TikTok-Use.jpg" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/TikTok-Use.jpg" medium="image"/>
-</item>
-<item>
-<title>I tried Windows 11’s customizable right-click menu – and it’s a much-needed change</title>
-<link>https://www.zdnet.com/tech/windows-11-customizable-right-click-menu</link>
-<guid isPermaLink="false">147c9e37689ea89b7604c160640bb3e1574baa032a07e570db5c9e3067910b9b</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Tue, 27 Oct 2026 12:17:55 +0000</pubDate>
-<description>The latest Windows Insider build lets you add, remove, and manage commands in the right-click menu so it’s less crowded and confusing.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-right-click-menu.jpg" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-right-click-menu.jpg" medium="image"/>
-</item>
-<item>
 <title>Eight great new indie horror games for Halloween</title>
 <link>https://www.theguardian.com/games/2026/oct/27/new-indie-horror-games-halloween</link>
 <guid isPermaLink="false">11f9ec36be3515226fa817a9a569ba33d943c9e1c8c56c0c116e2e0f2a8c8d7b</guid>
@@ -2070,17 +2092,6 @@
 <description>Whether you favour spooky fairtales, satanic card games or infernal hijinks at the chip shop there are all manner of fresh top scarers at large this witching season Tis almost All Hallows’ Eve and naturally, the thoughts of all good video game players are turning to horror. 2026 has already been a bloody good year for the genre with Resident Evil Requiem and Silent Hill: Townfall leading the rabble. But this autumn sees a festering surge of indie horror releases, featuring everything from cursed card games to Nazi-hunting penguins. Here are eight terrifying titles we think you should sample while jack-o-lanterns burn and spirits walk the moonlit streets. Allogloom (PC) Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/5c7f05da40cd83d5eeb4462753f4b75e00b57b1d/349_0_1350_1080/master/1350.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ab28c6ee210d78a0f7c89e0a0bcb020c" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/5c7f05da40cd83d5eeb4462753f4b75e00b57b1d/349_0_1350_1080/master/1350.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=ab28c6ee210d78a0f7c89e0a0bcb020c" medium="image"/>
-</item>
-<item>
-<title>Github competitor Entire is live now – how the agent-first platform works</title>
-<link>https://www.zdnet.com/innovation/enitre-github-competitor-trail-git-forge</link>
-<guid isPermaLink="false">2af20c824aa95b467a5d94694d2e4960f97a65d0685b280da95d9e4ed581251d</guid>
-<source>ZDNET</source>
-<category>technology</category>
-<pubDate>Mon, 26 Oct 2026 17:00:04 +0000</pubDate>
-<description>Now that agents are writing so much code, Entire is trying to reinvent the coding platform itself.</description>
-<enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/trails-2.png" type="image/jpeg"/>
-<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/trails-2.png" medium="image"/>
 </item>
 <item>
 <title>Lara Croft is 30! We look at the video game icon’s biggest blunders</title>
