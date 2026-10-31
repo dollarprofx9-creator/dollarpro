@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks</title>
+<link>https://www.nytimes.com/2026/10/31/science/ukraine-soldiers-infection-treatment.html</link>
+<guid isPermaLink="false">c88b448a7c1d180ca214704f58196da8fa0cdc629aded4d16b48662295ea6a75</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sat, 31 Oct 2026 18:34:45 +0000</pubDate>
+<description>As many as 40 percent of injured soldiers face severe infections that can lead to amputations and death. One initiative is trying to fix that.</description>
+<enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/00sci-Ukraine-infections-04-bfqh/00sci-Ukraine-infections-04-bfqh-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/00sci-Ukraine-infections-04-bfqh/00sci-Ukraine-infections-04-bfqh-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>COP17 Biodiversity Talks in Yerevan, Armenia</title>
 <link>https://www.nytimes.com/2026/10/31/climate/cop17-biodiversity-yerevan-conclusion.html</link>
 <guid isPermaLink="false">3009be915916e5a04be52ef445b67c6fdff0cea2c058a8818e58636457afc5f6</guid>
@@ -13,17 +24,6 @@
 <description>Countries renewed their promises to protect wildlife at U.N. talks in Armenia, but how to cover the costs remains a question.</description>
 <enclosure url="https://static01.nyt.com/images/2026/10/31/multimedia/31cli-biodiversity-tzwm/31cli-biodiversity-tzwm-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/10/31/multimedia/31cli-biodiversity-tzwm/31cli-biodiversity-tzwm-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
-<title>Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks</title>
-<link>https://www.nytimes.com/2026/10/31/science/ukraine-soldiers-infection-treatment.html</link>
-<guid isPermaLink="false">c88b448a7c1d180ca214704f58196da8fa0cdc629aded4d16b48662295ea6a75</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sat, 31 Oct 2026 17:38:21 +0000</pubDate>
-<description>As many as 40 percent of injured soldiers face severe infections that can lead to amputations and death. One initiative is trying to fix that.</description>
-<enclosure url="https://static01.nyt.com/images/2026/10/22/multimedia/00sci-Ukraine-infections-04-bfqh/00sci-Ukraine-infections-04-bfqh-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/10/22/multimedia/00sci-Ukraine-infections-04-bfqh/00sci-Ukraine-infections-04-bfqh-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>How Trump Is Dismantling America’s Scientific Research Machine</title>
@@ -983,17 +983,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" medium="image"/>
 </item>
 <item>
-<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
-<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
-<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
-<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>November full moon 2026: When, where and how to see the Beaver Moon</title>
 <link>https://www.space.com/stargazing/november-full-moon-2026-when-where-and-how-to-see-the-beaver-moon</link>
 <guid isPermaLink="false">50365fa0e0d6551e7c2fae903ff4fb0c117ba767fab4f0dbf388b0a0db6215a7</guid>
@@ -1003,6 +992,17 @@
 <description>Your guide to November's full Beaver Moon, from peak times to skywatching highlights.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
+<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
+<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
+<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>'Dungeon Crawler Carl' is getting a killer new comic book series</title>
