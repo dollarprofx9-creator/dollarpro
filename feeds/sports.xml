@@ -4,92 +4,543 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Florida vs. Georgia score, live updates: Bulldogs in control vs. Gators in fourth quarter</title>
-<link>https://www.nytimes.com/athletic/live-blogs/florida-vs-georgia-live-updates-college-football-score-result/EaReDJFmX50U</link>
-<guid isPermaLink="false">b5d9f9ec4dcff043350d98bedb696b6cc0da523ffad5ba00bf5588e984923602</guid>
+<title>Dream vs. Valkyries score, live updates: Golden State pulling away in fourth quarter of WNBA Finals Game 7</title>
+<link>https://www.nytimes.com/athletic/live-blogs/dream-vs-valkyries-live-score-updates-wnba-finals-game-7-result/9MzDkCrG5Jdo</link>
+<guid isPermaLink="false">14512717a136dc5b67546507686b93f25e48d5c25b6caaf505b994b693ce6fd7</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:25:09 +0000</pubDate>
-<description>Follow our live coverage of today's matchup between the Florida Gators and Georgia Bulldogs in Atlanta.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/EaReDJFmX50U_2XPr1oWCJS6A_1440x962.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/EaReDJFmX50U_2XPr1oWCJS6A_1440x962.jpg" medium="image"/>
+<pubDate>Sun, 01 Nov 2026 02:10:56 +0000</pubDate>
+<description>Follow our live coverage of the deciding game in the WNBA Finals between Atlanta and Golden State.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/9MzDkCrG5Jdo_T33j5vkSWeda_1440x960.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/9MzDkCrG5Jdo_T33j5vkSWeda_1440x960.jpg" medium="image"/>
 </item>
 <item>
-<title>Premier League reaction: Aston Villa and Fulham draw after Tottenham ease past Crystal Palace</title>
-<link>https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce</link>
-<guid isPermaLink="false">225afa6ce8d5ca291d285bb75cfd3fcd5a0cb4242a2745afdddc050f2682ad8a</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:24:19 +0000</pubDate>
-<description>Recap the action from the eight Premier League games across England today.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/waBPQKuZUQce_Rf4Z0uFPSjCR_1440x960.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/waBPQKuZUQce_Rf4Z0uFPSjCR_1440x960.jpg" medium="image"/>
-</item>
-<item>
-<title>LIVE! UFC Vegas 123 Results: Moicano vs. Nolan</title>
-<link>https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html</link>
-<guid isPermaLink="false">2ef5778b037af941c397deabffb20964250fd8147efd3c6d11a4a7e99067cdd8</guid>
+<title>Oregon football rallies past Northwestern after chaotic week</title>
+<link>https://sports.yahoo.com/articles/oregon-football-rallies-past-northwestern-020517257.html</link>
+<guid isPermaLink="false">a4f4a221d69fdf4073e3da9e521dfff4e838b0d4dcac4328787f2b120c45953b</guid>
 <source>Yahoo Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:22:37 +0000</pubDate>
-<description>Renato Moicano, Tom Nolan clash in UFC Vegas 123 main event</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/175878c2397b681d7fecdf1ec237cf70.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/175878c2397b681d7fecdf1ec237cf70.jpg" medium="image"/>
+<pubDate>Sun, 01 Nov 2026 02:05:17 +0000</pubDate>
+<description>After a week of turmoil and coaching changes, Oregon rallied from a two-touchdown deficit to beat Northwestern.</description>
+<enclosure url="https://media.zenfs.com/en/the-register-guard/a6a26f7817955ef5784f16a97288e23c.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-register-guard/a6a26f7817955ef5784f16a97288e23c.jpg" medium="image"/>
 </item>
 <item>
-<title>Canelo vs. Mbilli live updates: Latest from the main event plus all of today’s results</title>
-<link>https://www.nytimes.com/athletic/live-blogs/canelo-vs-mbilli-live-updates-fight-card-time-results/7IwORGWa2bAA</link>
-<guid isPermaLink="false">962074f0c2b3abdcb39b16e31e26d580ab57fe25b681b2612b5a06a646d11edb</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:22:03 +0000</pubDate>
-<description>Follow live as Canelo looks to reclaim the WBC super middleweight title he lost to Terence Crawford last year.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/7IwORGWa2bAA_n3oLroIjYzmF_1440x960.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/7IwORGWa2bAA_n3oLroIjYzmF_1440x960.jpg" medium="image"/>
-</item>
-<item>
-<title>Canelo Alvarez vs. Christian Mbilli LIVE round-by-round updates</title>
-<link>https://sports.yahoo.com/articles/canelo-alvarez-vs-christian-mbilli-043000117.html</link>
-<guid isPermaLink="false">2223cfbecb7cf30f7b9ac8e83bd226383ac7dfbbb6a1c3c014a40f83fe22f5d7</guid>
+<title>Boston College Men’s Hockey Falls to Northeastern 4-3</title>
+<link>https://sports.yahoo.com/articles/boston-college-men-hockey-falls-020500889.html</link>
+<guid isPermaLink="false">1278b66b664aa78dde8ecc5a6214ffc98a00111c2e51aa0bb9825dba9874ce9c</guid>
 <source>Yahoo Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:21:58 +0000</pubDate>
-<description>Canelo Alvarez, Christian Mbilli clash for WBC super middleweight title</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/c5beaf5a743de80724078c2c3c153797.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/c5beaf5a743de80724078c2c3c153797.jpg" medium="image"/>
+<pubDate>Sun, 01 Nov 2026 02:05:00 +0000</pubDate>
+<description>The Boston College men’s hockey team dropped the second game of their weekend series with Northeastern on Saturday night, falling to their conference rivals by a 4-3 score. After taking Friday night’s game in overtime, the Eagles lost this one in the exact same fashion, as the Huskies found the game winning goal just two […]</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/64bdd92d46d585803a9d54dc8cb69585.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/64bdd92d46d585803a9d54dc8cb69585.jpg" medium="image"/>
 </item>
 <item>
-<title>Benvenuto Cellini salvages Breeders' Cup turf races for Europeans</title>
-<link>https://sports.yahoo.com/articles/benvenuto-cellini-salvages-breeders-cup-222153831.html</link>
-<guid isPermaLink="false">11afa48445c2a217bf6d8f1b8a72855a05b5fe1ffa69022efeb4f8ac42ccdca3</guid>
+<title>LIVE UPDATES: Atlanta Dream, Golden State battle back-and-forth in 4th quarter</title>
+<link>https://sports.yahoo.com/articles/live-updates-atlanta-dream-golden-004522989.html</link>
+<guid isPermaLink="false">6c6113eaff8c3cb7dbae66a4113ae64a4b0a849cc8d6c1b5a454a36320bfd38b</guid>
 <source>Yahoo Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:21:53 +0000</pubDate>
-<description>Just as it seemed Europeans would be shut out of Saturday's Breeders' Cup turf races, along came Benvenuto Cellini to capture the $5 million Turf.</description>
-<enclosure url="https://media.zenfs.com/en/united_press_international_articles_356/dd9f0406876b53efccfd17c8f5941734.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/united_press_international_articles_356/dd9f0406876b53efccfd17c8f5941734.jpg" medium="image"/>
+<pubDate>Sun, 01 Nov 2026 02:04:55 +0000</pubDate>
+<description>The Atlanta Dream and Golden State Valkyries are making history with the first Game 7 in WNBA Finals history. Both are also chasing their first-ever title. Follow along for live updates from Chase C</description>
+<enclosure url="https://media.zenfs.com/en/wsb_cox_articles_232/168a47cc336408d1884b633f1ced03b7.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/wsb_cox_articles_232/168a47cc336408d1884b633f1ced03b7.jpg" medium="image"/>
 </item>
 <item>
-<title>NBA season live updates: Latest news as Saturday's games tip off</title>
+<title>How SW Indiana teams, athletes fared at IHSAA cross country state finals</title>
+<link>https://sports.yahoo.com/articles/sw-indiana-teams-athletes-fared-020113055.html</link>
+<guid isPermaLink="false">bbb4bae48d7f47b01090d066ad54b3172e7c24a4336e00bca6350548197bc264</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:01:13 +0000</pubDate>
+<description>Signature School's Jack Wilbourne had an excellent showing at the IHSAA cross country state finals Saturday.</description>
+<enclosure url="https://media.zenfs.com/en/the-courier-press/61904b1814ca9040c617ac80d1349733.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-courier-press/61904b1814ca9040c617ac80d1349733.jpg" medium="image"/>
+</item>
+<item>
+<title>Houston Rockets jersey history No. 35 - Kenneth Faried (2019)</title>
+<link>https://sports.yahoo.com/articles/houston-rockets-jersey-history-no-020032868.html</link>
+<guid isPermaLink="false">de16cdf1cee5dd42b3884cb1fc1c7e81f2838460dc187ed86be44f881a0244da</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:00:32 +0000</pubDate>
+<description>During his time suiting up for the Rockets, Faried wore only jersey No. 35 and put up 12.9 points and 8.2 rebounds per game.</description>
+<enclosure url="https://media.zenfs.com/en/rockets_wire_usa_today_sports_articles_849/9309b1b520856d9cb03a861faa53e0c8.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/rockets_wire_usa_today_sports_articles_849/9309b1b520856d9cb03a861faa53e0c8.jpg" medium="image"/>
+</item>
+<item>
+<title>Sports media world absolutely baffled by Curt Cignetti’s timeout strategy</title>
+<link>https://sports.yahoo.com/articles/sports-media-world-absolutely-baffled-020025366.html</link>
+<guid isPermaLink="false">bcb76da0dbffe3d67db82246c9f59d8d8db17aa303c76966bc1b6a766ed0cde1</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:00:25 +0000</pubDate>
+<description>No. 4 Indiana escaped their matchup on Saturday against Minnesota with the win, but in true Halloween fashion, it came with quite a big scare. The game was tied 13–13 in the final minute of play with the Golden Gophers driving around midfield. After getting stopped on third down, Minnesota faced a decision to either…</description>
+<enclosure url="https://media.zenfs.com/en/awful_announcing_173/17b13e227916236a52a7162fec277be3.png" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/awful_announcing_173/17b13e227916236a52a7162fec277be3.png" medium="image"/>
+</item>
+<item>
+<title>UFC Vegas 123 live results, highlights, play-by-play</title>
+<link>https://sports.yahoo.com/articles/ufc-vegas-123-live-results-201500234.html</link>
+<guid isPermaLink="false">709258d694924be05b8d72d6b15644850069de97468483bfdba218fe1a1e874a</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:00:24 +0000</pubDate>
+<description>UFC Vegas 123 results, highlights, live discussion and instant play-by-play, reactions and analysis.</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/3d8539b45f711b6a444377d36b56168b.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/3d8539b45f711b6a444377d36b56168b.jpg" medium="image"/>
+</item>
+<item>
+<title>France's Aymoz wins Skate Canada men's crown</title>
+<link>https://sports.yahoo.com/articles/frances-aymoz-wins-skate-canada-020006405.html</link>
+<guid isPermaLink="false">2c862b47d97cf51202cb4b5944cc4ba65fb825983dbbd42c0fb91b526ef7fa70</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:00:06 +0000</pubDate>
+<description>French veteran Kevin Aymoz won the Skate Canada men's title on Saturday, capturing his second grand prix title as short program leader Rio Nakata faltered.Nakata, the two-time defending world junior champion, had led after the short program as he vied to capture gold on his senior grand prix debut.</description>
+<enclosure url="https://media.zenfs.com/en/afp.com/0414ba1e0228cf7bc7ae282bfdd92f48.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/afp.com/0414ba1e0228cf7bc7ae282bfdd92f48.jpg" medium="image"/>
+</item>
+<item>
+<title>Purple Row After Dark: Which Rockies would survive a horror movie?</title>
+<link>https://sports.yahoo.com/articles/purple-row-dark-rockies-survive-020000570.html</link>
+<guid isPermaLink="false">3e48cc4f9cfe10fbf005f25d8a092d99ffc9c623adb0a6eda57360cf32fdc121</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 02:00:00 +0000</pubDate>
+<description>Who makes it to the end credits might depend as much on the villain as the Rockie.</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/6f953c636f88263846706be26fe73b72.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/6f953c636f88263846706be26fe73b72.jpg" medium="image"/>
+</item>
+<item>
+<title>MHSAA football playoffs: See the Greater Lansing second round pairings</title>
+<link>https://sports.yahoo.com/articles/mhsaa-football-playoffs-see-greater-015934101.html</link>
+<guid isPermaLink="false">146c9416a82cb873c02e1bdbff46f4e9ca79746ace0de956a76a09d2378f8d6f</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:59:34 +0000</pubDate>
+<description>See the matchups in the Lansing area following the completion of the opening round of the Michigan high school football playoffs.</description>
+<enclosure url="https://media.zenfs.com/en/lansing-state-journal/d18089a53fe0fecff6d20cb8377157bf.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/lansing-state-journal/d18089a53fe0fecff6d20cb8377157bf.jpg" medium="image"/>
+</item>
+<item>
+<title>Columbus Blue Jackets GM Don Waddell says Rick Bowness will tone it down</title>
+<link>https://sports.yahoo.com/articles/columbus-blue-jackets-gm-don-015840092.html</link>
+<guid isPermaLink="false">5ff147130d604babaf256fa79bef21500a660ebee92b9a138b636991220f9b81</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:58:40 +0000</pubDate>
+<description>Columbus Blue Jackets GM Don Waddell says coach Rick Bowness has been asked to keep his most pointed player critiques private.</description>
+<enclosure url="https://media.zenfs.com/en/the-columbus-dispatch/793db3b1f900822c1c3c30cf9fee32c4.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-columbus-dispatch/793db3b1f900822c1c3c30cf9fee32c4.jpg" medium="image"/>
+</item>
+<item>
+<title>Liam Lawson disqualified from Mexico City Grand Prix qualifying</title>
+<link>https://sports.yahoo.com/articles/liam-lawson-disqualified-mexico-city-015744088.html</link>
+<guid isPermaLink="false">1cd66cd02177d316ec1e6345ed1f81c208f91275fa08e472a491efcc4d54edd4</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:57:44 +0000</pubDate>
+<description>VCARB driver Liam Lawson has been disqualified from qualifying at the Mexico City Grand Prix</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/2dbbe0ef1b4f6edb5a11c42da9a91883.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/2dbbe0ef1b4f6edb5a11c42da9a91883.jpg" medium="image"/>
+</item>
+<item>
+<title>Texas football: Bloody hand doesn't stop Arch Manning on scoring drive vs Mississippi State</title>
+<link>https://sports.yahoo.com/articles/texas-football-bloody-hand-doesnt-015742013.html</link>
+<guid isPermaLink="false">4117bb1f63f0a94238c94329ee4af7d0b3bf5ada79a58cbc39915115a0f38690</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:57:42 +0000</pubDate>
+<description>Arch Manning led Texas on a scoring drive against Mississippi State despite taking two big hits while running the football.</description>
+<enclosure url="https://media.zenfs.com/en/austin_american_statesman_hearst_articles_361/6752d8e5ebabbe6d58a767fb4cdc1b8a.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/austin_american_statesman_hearst_articles_361/6752d8e5ebabbe6d58a767fb4cdc1b8a.jpg" medium="image"/>
+</item>
+<item>
+<title>3 halftime observations from Ohio State vs. USC</title>
+<link>https://sports.yahoo.com/articles/3-halftime-observations-ohio-state-015614414.html</link>
+<guid isPermaLink="false">baa8f0ef97b14d08ed37c32fb3f74f1e573dcc0e66718df1f7caac13a7b8c60f</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:56:14 +0000</pubDate>
+<description>Ohio State has struggled so far at USC. Here are our observations as both teams headed into the locker room.</description>
+<enclosure url="https://media.zenfs.com/en/buckeyes_wire_usa_today_articles_592/bb86655fa3a3ef0ff6a14e383179727f.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/buckeyes_wire_usa_today_articles_592/bb86655fa3a3ef0ff6a14e383179727f.jpg" medium="image"/>
+</item>
+<item>
+<title>Maple Leafs Defeat Canucks In Competitive Halloween Showdown</title>
+<link>https://sports.yahoo.com/articles/maple-leafs-defeat-canucks-competitive-015559652.html</link>
+<guid isPermaLink="false">a8e3dab4c22103054c6b76cf165991299542c03fca461e267dd33680d2eb2e93</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:55:59 +0000</pubDate>
+<description>It was a Halloween night affair at Rogers Arena as the Toronto Maple Leafs came to town against the Vancouver […]</description>
+<enclosure url="https://media.zenfs.com/en/sportsnaut_articles_397/a08d90ec8a8e9c462d19ea62a29ca942.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sportsnaut_articles_397/a08d90ec8a8e9c462d19ea62a29ca942.jpg" medium="image"/>
+</item>
+<item>
+<title>Eagles vs Commanders Player Props for Dallas Goedert, Jayden Daniels, Antonio Williams</title>
+<link>https://sports.yahoo.com/articles/eagles-vs-commanders-player-props-015515100.html</link>
+<guid isPermaLink="false">085989cc3a8a35b76659b6f4b0a5a80ceddea321235bcbf533891d1858e87e6d</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:55:15 +0000</pubDate>
+<description>If you want more Action Network content, be sure to add us as a preferred source on Google. Week 8 of the NFL season will feature a Sunday Night Football</description>
+<enclosure url="https://media.zenfs.com/en/action_network_147/9d2f4a15c0cf7a39f4f3b422980e0bbe.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/action_network_147/9d2f4a15c0cf7a39f4f3b422980e0bbe.jpg" medium="image"/>
+</item>
+<item>
+<title>Comparing UC Bearcats loss to No. 6 Utah to previous wipeouts</title>
+<link>https://sports.yahoo.com/articles/comparing-uc-bearcats-loss-no-015405550.html</link>
+<guid isPermaLink="false">dbd42425782fb847a8a62df37334f857649cfc9ada57df0d52ac11d103d4c8c8</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:54:05 +0000</pubDate>
+<description>Down 42-6 at halftime, the UC Bearcats lost to No. 6 Utah 49-25. Here's how the defeat compares to past one-sided games.</description>
+<enclosure url="https://media.zenfs.com/en/the_enquirer_natl_articles_358/053798ca1bd16435f9d0277e4b0de338.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the_enquirer_natl_articles_358/053798ca1bd16435f9d0277e4b0de338.jpg" medium="image"/>
+</item>
+<item>
+<title>Liam Lawson disqualified from F1 qualifying in Mexico – here's why</title>
+<link>https://sports.yahoo.com/articles/liam-lawson-disqualified-f1-qualifying-015402050.html</link>
+<guid isPermaLink="false">49ea71c9c3789c635cea3913958f7220a850fe908b95797d7b6cc3ab53369f24</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:54:02 +0000</pubDate>
+<description>Lawson has been excluded from the qualifying results due to a technical infringement. It concerns the MGU-K rampdown rate after he completed his fastest lap in Q2</description>
+<enclosure url="https://media.zenfs.com/en/motorsport_articles_445/7213a72cb5ef471baa3351796c39adf7.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/motorsport_articles_445/7213a72cb5ef471baa3351796c39adf7.jpg" medium="image"/>
+</item>
+<item>
+<title>HUSKERS Halftime Check-In: Blackshirts Look Good, Sloppy on the O-Side: NEBRASKA 7 Washington 3</title>
+<link>https://sports.yahoo.com/articles/huskers-halftime-check-blackshirts-look-015338745.html</link>
+<guid isPermaLink="false">1a7db1eac94e1bf5f75f6dbc093dfc066e4ca1df5782304678b85e4b8cc7eb65</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:53:38 +0000</pubDate>
+<description>The Huskers hold the lead but need to allow no more mistakes.</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/0c0b5ba53b44d69b383a8b177d4f9260.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/0c0b5ba53b44d69b383a8b177d4f9260.jpg" medium="image"/>
+</item>
+<item>
+<title>Canadiens Highlights: Five Straight Wins For Exciting Habs</title>
+<link>https://sports.yahoo.com/articles/canadiens-highlights-five-straight-wins-015114926.html</link>
+<guid isPermaLink="false">982d0eb4e1e7a1047a2ac875b30bdeab15c56591e7183e1e6a08679f302b128c</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:51:14 +0000</pubDate>
+<description>The Montreal Canadiens hosted the Pittsburgh Penguins on Saturday night, looking to extend their wining streak without captain Nick Suzuki […]</description>
+<enclosure url="https://media.zenfs.com/en/sportsnaut_articles_397/301670f88fcd2dbe9eab528e0ca05e48.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sportsnaut_articles_397/301670f88fcd2dbe9eab528e0ca05e48.jpg" medium="image"/>
+</item>
+<item>
+<title>Jaylen Brown, Grayson Allen mix it up during 76ers-Hornets NBA clash</title>
+<link>https://sports.yahoo.com/articles/jaylen-brown-grayson-allen-mix-015018830.html</link>
+<guid isPermaLink="false">cc84ce8ed0cc8fc7ef2ba5f9c5c54f90b433e400c22e510122e349fdea9ef349</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:50:18 +0000</pubDate>
+<description>The Philadelphia 76ers played the Charlotte Hornets at Spectrum Center earlier on Saturday in what turned out to be a close 109-104 victory for Nick Nurse’s team. With both LeBron James and Joel Embiid sitting out, Jaylen Brown found himself involved in a scuffle with Charlotte’s Grayson Allen midway to the fourth quarter. Both the players […] The post Jaylen Brown, Grayson Allen mix it up during 76ers-Hornets NBA clash appeared first on ClutchPoints.</description>
+<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/a048908ed9fa11702ab9a3ffd618dae1.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/a048908ed9fa11702ab9a3ffd618dae1.jpg" medium="image"/>
+</item>
+<item>
+<title>NFC North standings update: Where do Detroit Lions stand?</title>
+<link>https://sports.yahoo.com/articles/nfc-north-standings-where-detroit-015013295.html</link>
+<guid isPermaLink="false">06b935ec0c223fa19e9e5245471df85e2151c32610e73073985c2b68a804d044</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:50:13 +0000</pubDate>
+<description>As the Detroit Lions enter Week 8 of the 2026-27 NFL season, how do things stand in the NFC North?</description>
+<enclosure url="https://media.zenfs.com/en/detroit_lines_wire_usa_today_sports_articles_856/5c0c082066781462d7ef0c0e9f73ae33.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/detroit_lines_wire_usa_today_sports_articles_856/5c0c082066781462d7ef0c0e9f73ae33.jpg" medium="image"/>
+</item>
+<item>
+<title>Penn State reverses course in must-have victory vs. Purdue in State College</title>
+<link>https://sports.yahoo.com/articles/penn-state-reverses-course-must-014949380.html</link>
+<guid isPermaLink="false">cdc4c594b45da20a5ceaaf62d3252114edaa8b954c0ce57d8399f212f1650ca3</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:49:49 +0000</pubDate>
+<description>The Penn State Nittany Lions finally found themselves on the right side of a home win Saturday. An argument could be made that it's the Halloween gift they needed with a month ti go in the regular season.</description>
+<enclosure url="https://media.zenfs.com/en/the_sporting_news_articles_584/d869003d1df7978774d0a897417c2154" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the_sporting_news_articles_584/d869003d1df7978774d0a897417c2154" medium="image"/>
+</item>
+<item>
+<title>Dream’s Jordin Canada sets WNBA Finals career-high in scoring vs. Valkyries</title>
+<link>https://sports.yahoo.com/articles/dream-jordin-canada-sets-wnba-014854311.html</link>
+<guid isPermaLink="false">74462f989acffdca7b9ae24e9f2768cb3f3495fa890d165fd7ed21957399395b</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:48:54 +0000</pubDate>
+<description>The Atlanta Dream forced a decisive Game 7 in the WNBA Finals against the Golden State Valkyries after a dominant Game 6 win. As she has all series, though, Jordin Canada was unable to have much of an impact on offense as she struggled with her shot. She finished with just 10 points on 4-of-13 shooting. However, Canada has come up big with the […] The post Dream’s Jordin Canada sets WNBA Finals career-high in scoring vs. Valkyries appeared first on ClutchPoints.</description>
+<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/215a95f8de59b99df599c243cb811b04.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/215a95f8de59b99df599c243cb811b04.jpg" medium="image"/>
+</item>
+<item>
+<title>Kevin Aymoz rallies to win Skate Canada, second-oldest men's Grand Prix winner</title>
+<link>https://sports.yahoo.com/articles/kevin-aymoz-rallies-win-skate-014522937.html</link>
+<guid isPermaLink="false">58f2dbae126c626d3868373c5244756e2568fff8e665579b00110b695c7ddda5</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:45:22 +0000</pubDate>
+<description>Skate Canada finishes Sunday, live on Peacock and NBCSN.</description>
+<enclosure url="https://media.zenfs.com/en/nbcsports.com/1f5c6a29f02cdf4b14ca225a9fee6f23.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/nbcsports.com/1f5c6a29f02cdf4b14ca225a9fee6f23.jpg" medium="image"/>
+</item>
+<item>
+<title>LIVE UFC Fight Night: Moicano vs. Nolan Results &amp; Highlights</title>
+<link>https://sports.yahoo.com/articles/live-ufc-fight-night-moicano-140000012.html</link>
+<guid isPermaLink="false">312e4b2553fcedd9a57ad8a9605bcea4e8ac92061f9a08b5ffe76aaf0fcf8872</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:45:11 +0000</pubDate>
+<description>On Saturday the leading MMA promotion returns to the Meta APEX in Las Vegas, Nevada. UFC Fight Night will be […]</description>
+<enclosure url="https://media.zenfs.com/en/sportsnaut_articles_397/89e156a7670c958ac47a76f266e3d96c.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sportsnaut_articles_397/89e156a7670c958ac47a76f266e3d96c.jpg" medium="image"/>
+</item>
+<item>
+<title>Elliotte Friedman Drops Significant Dylan Larkin Trade Update</title>
+<link>https://sports.yahoo.com/articles/elliotte-friedman-drops-significant-dylan-014407791.html</link>
+<guid isPermaLink="false">37483bceebac48fdc8e62ba0b8edb38720c4717de150a02df1b60246f47c8001</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:44:07 +0000</pubDate>
+<description>NHL insider Elliotte Friedman reports Dylan Larkin could change his 10-team trade list within 24–48 hours, with three destinations considered unlikely.</description>
+<enclosure url="https://media.zenfs.com/en/detroit_sports_nation_articles_492/2a32fc0dbb683cddbb2813aef5396272.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/detroit_sports_nation_articles_492/2a32fc0dbb683cddbb2813aef5396272.jpg" medium="image"/>
+</item>
+<item>
+<title>NBA season live updates: Maxey, Sixers rally for win on Halloween night</title>
 <link>https://www.nytimes.com/athletic/live-blogs/nba-cup-scores-season-games-schedule/8uid2umpFT0Q</link>
 <guid isPermaLink="false">b2e185c5c3261105d1e3b6687d7add8e53a052b0eb95be554b968f9a44876b85</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:21:15 +0000</pubDate>
+<pubDate>Sun, 01 Nov 2026 01:43:23 +0000</pubDate>
 <description>Follow along for all the latest as the 2026-27 NBA season stretches into its second week.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/8uid2umpFT0Q_KJqgiVOrkjJV_1440x995.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/8uid2umpFT0Q_KJqgiVOrkjJV_1440x995.jpg" medium="image"/>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/8uid2umpFT0Q_RPTbE62iV7kw_1440x960.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/8uid2umpFT0Q_RPTbE62iV7kw_1440x960.jpg" medium="image"/>
 </item>
 <item>
-<title>Canelo vs. Mbilli Highlights, Streaming Updates TODAY!</title>
-<link>https://sports.yahoo.com/articles/canelo-vs-mbilli-highlights-streaming-133000634.html</link>
-<guid isPermaLink="false">e0cccc122883d85087adb5e71dd274c4103648559d3ff0cb22f00ac9be26da10</guid>
+<title>Is Kamario Taylor Out For The Season? Why Mississippi State QB Isn’t Playing</title>
+<link>https://sports.yahoo.com/articles/kamario-taylor-season-why-mississippi-014319481.html</link>
+<guid isPermaLink="false">e8e6b9babb18a713864379c73145c4749cb159b89ada6f8ffba7875605f23e15</guid>
 <source>Yahoo Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:20:50 +0000</pubDate>
-<description>Canelo Alvarez will make his long-waited return to the ring later TODAY (Sat., Oct. 31, 2026) in an attempt to win another world title, taking on current WBC interim Super Middleweight champion, Christian Mbilli, from inside Kingdom Arena in Riyadh, Saudi Arabia, on DAZN PPV. Canelo has not competed since losing to Terence Crawford last […]</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/28df67bf1a12feef8fbf69ee2c952f1e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/28df67bf1a12feef8fbf69ee2c952f1e.jpg" medium="image"/>
+<pubDate>Sun, 01 Nov 2026 01:43:19 +0000</pubDate>
+<description>The Mississippi State Bulldogs had a breakout star at quarterback this season. Kamario Taylor began the season quite impressively, doing so in such a way that had college football fans wondering what the ceiling could be for this Mississippi State team, along with what Taylor’s future might hold in the heaviest QB movement era in […] The post Is Kamario Taylor Out For The Season? Why Mississippi State QB Isn’t Playing appeared first on HEAVY.</description>
+<enclosure url="https://media.zenfs.com/en/heavy_214/3d15ce19feea6704c1c91ced1cc60049.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/heavy_214/3d15ce19feea6704c1c91ced1cc60049.jpg" medium="image"/>
+</item>
+<item>
+<title>Stillwater girls' soccer defeats Lake George for 3rd straight Class C sectional title</title>
+<link>https://sports.yahoo.com/articles/stillwater-girls-soccer-defeats-lake-014258284.html</link>
+<guid isPermaLink="false">2db164db278fd31bb0cd93019cde8e62ea3188eb9184b678770362315d8f6e40</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:42:58 +0000</pubDate>
+<description>For the third straight season, the Stillwater girls' soccer team defeated Lake George to win the Section 2 Class C championship.</description>
+<enclosure url="https://media.zenfs.com/en/albany_times_union_471/6cf95de3a2c7abe22cfad81342efb1ba.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/albany_times_union_471/6cf95de3a2c7abe22cfad81342efb1ba.jpg" medium="image"/>
+</item>
+<item>
+<title>Neenah wins third consecutive state girls cross-country title</title>
+<link>https://sports.yahoo.com/articles/neenah-wins-third-consecutive-state-014203934.html</link>
+<guid isPermaLink="false">7739ac9269ad00c1413e68ddf29a9ed4292ce4db6435f4c857df6c2019e62783</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:42:03 +0000</pubDate>
+<description>Depth, late kick help Neenah win third consecutive WIAA Division 1 state championship in girls cross-country.</description>
+<enclosure url="https://media.zenfs.com/en/the-post-crescent/38a02c3f2dd8d2aa14a80ca1f1e6cbeb.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-post-crescent/38a02c3f2dd8d2aa14a80ca1f1e6cbeb.jpg" medium="image"/>
+</item>
+<item>
+<title>Indiana wins after trading field goals with Minnesota to force overtime</title>
+<link>https://sports.yahoo.com/articles/indiana-wins-trading-field-goals-014121617.html</link>
+<guid isPermaLink="false">4b7871a0eaf12c8a103660c291f92885085531dc133dac370f5e46c1672788eb</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:41:21 +0000</pubDate>
+<description>Indiana football will go into the new week with another ugly win that questions its credibility as a national title contender, but most importantly, the defending champions are still in prime Playoff position. Although the Hoosiers may never fix their offensive issues enough to make another deep run, three consecutive seasons with a double-digit […] The post Indiana wins after trading field goals with Minnesota to force overtime appeared first on ClutchPoints.</description>
+<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/d58c717532ba6086fb3802be70046e10.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/d58c717532ba6086fb3802be70046e10.jpg" medium="image"/>
+</item>
+<item>
+<title>Oregon State vs Fresno State Prediction, Time, Picks, Odds — 10/31</title>
+<link>https://sports.yahoo.com/articles/oregon-state-vs-fresno-state-105719705.html</link>
+<guid isPermaLink="false">92c3120cf43ce99aeb9af91c17ab73d7d8ca9a5642bfede18b4e2f0ac2b67328</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:40:19 +0000</pubDate>
+<description>Read Oregon State Beavers vs. Fresno State Bullodgs predictions, picks and odds in our NCAAF preview for Saturday, Oct. 31.</description>
+<enclosure url="https://media.zenfs.com/en/action_network_147/3e53e934b6e405753f6ee04db9218eba.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/action_network_147/3e53e934b6e405753f6ee04db9218eba.jpg" medium="image"/>
+</item>
+<item>
+<title>Padres decline Nick Pivetta's $14 million club option, making him a free agent</title>
+<link>https://www.nytimes.com/athletic/7742694/2026/10/31/padres-nick-pivetta-14-million-option-declined</link>
+<guid isPermaLink="false">d16a22d84328b95c50ce68c08fe868edddcdb12a5ce6e6a794117140c328bc3e</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:18:01 +0000</pubDate>
+<description>Pivetta returned to the Padres in December after spending 147 days on the IL with an elbow flexor strain.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31204643/2026-10-07T030726Z_1009167742_MT1USATODAY30016974_RTRMADP_3_MLB-NLDS-MILWAUKEE-BREWERS-AT-SAN-DIEGO-PADRES-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31204643/2026-10-07T030726Z_1009167742_MT1USATODAY30016974_RTRMADP_3_MLB-NLDS-MILWAUKEE-BREWERS-AT-SAN-DIEGO-PADRES-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Clemson offensive lineman taken to hospital after head-to-head collision</title>
+<link>https://www.nytimes.com/athletic/7742691/2026/10/31/clemson-football-elyjah-thurmon-injury</link>
+<guid isPermaLink="false">7080c4ceb08ef39956642a9e1f3bc42126ad73cd6c7e78f9d5e25c517efbf00e</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 01:03:53 +0000</pubDate>
+<description>Elyjah Thurmon was carted off the field after an incident in the second quarter against Florida State on Saturday.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31205114/AP24281670153821-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31205114/AP24281670153821-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Ocon denies 'physical violence' after being dropped by Haas</title>
+<link>https://www.skysports.com/f1/news/12433/13606551/esteban-ocon-haas-driver-denies-physical-violence-after-being-dropped-by-team-for-mexico-city-grand-prix</link>
+<guid isPermaLink="false">d3b36c64dba89e8a24686634b26575354c5ffb199508a1662e58392e8c5c86d0</guid>
+<source>Sky Sports Formula 1</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:50:00 +0000</pubDate>
+<description>Esteban Ocon has denied reports that a physical altercation occurred between himself and Haas team boss Ayao Komatsu before the French driver was dropped for this weekend's Mexico City Grand Prix.</description>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-esteban-ocon-haas-f1_7393583.jpg?20261101003036" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-esteban-ocon-haas-f1_7393583.jpg?20261101003036" medium="image"/>
+</item>
+<item>
+<title>Antonelli feeling 'tense' amid effort to seal F1 title</title>
+<link>https://www.skysports.com/f1/news/12040/13606017/kimi-antonelli-mercedes-driver-admits-to-feeling-tense-amid-effort-to-seal-f1-title-at-mexico-city-grand-prix</link>
+<guid isPermaLink="false">f4bff5e55ffa501f953e01aa837292ec9613f4328329e610d0cc726d38a45f5a</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:45:00 +0000</pubDate>
+<description>Kimi Antonelli has admitted to feeling "more tense than usual" ahead of attempting to seal the Formula 1 world championship at Sunday's Mexico City Grand Prix.</description>
+<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-f1-kimi-antonelli_7393584.jpg?20261101003807" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-f1-kimi-antonelli_7393584.jpg?20261101003807" medium="image"/>
+</item>
+<item>
+<title>Hamilton: A 'dream' to emulate Schumacher with first Ferrari pole</title>
+<link>https://www.skysports.com/f1/news/12040/13606018/lewis-hamilton-says-its-a-dream-to-emulate-michael-schumacher-after-claiming-his-first-ferrari-pole-at-the-mexico-city-gp</link>
+<guid isPermaLink="false">16c29abba5eec110b2d6276d6be0677b4723d57eada33bd1c8d09815c3b437ba</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:40:00 +0000</pubDate>
+<description>Lewis Hamilton said he had achieved his "dream" of emulating Michael Schumacher after claiming his first pole position for Ferrari at the Mexico City Grand Prix.</description>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-lewis-hamilton_7393573.jpg?20261031235759" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-lewis-hamilton_7393573.jpg?20261031235759" medium="image"/>
+</item>
+<item>
+<title>Canelo Alvarez reclaims super middleweight title with unanimous decision over Christian M'Billi</title>
+<link>https://www.nytimes.com/athletic/7742383/2026/10/31/canelo-alvarez-decision-victory-christian-mbili-super-middleweight-championship</link>
+<guid isPermaLink="false">c5bebdbdc604458707a227d29e7f82f96a6325f4745ea851c74c26c00c4f6a60</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:32:27 +0000</pubDate>
+<description>Coming off a 13-month layoff, the 36-year-old Mexican great proved he is still a fighter — and a champion — to be reckoned with.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31201502/GettyImages-2302434118-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31201502/GettyImages-2302434118-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Isack Hadjar responds to warning over fan push in Mexico F1 paddock: 'It's not a reality show'</title>
+<link>https://www.nytimes.com/athletic/7742603/2026/10/31/f1-isack-hadjar-mexican-gp-fan-push</link>
+<guid isPermaLink="false">eec01efe1437f34d6af97560c6502d7ec88f8a41c5ee66acaa1b5fc2545a938a</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:18:59 +0000</pubDate>
+<description>Isack Hadjar has responded after getting a formal warning for pushing a fan repeatedly attempting to take a selfie in the Mexico F1 paddock.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31201338/GettyImages-2302737667-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31201338/GettyImages-2302737667-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Tristan Jarry perfect again, Isaac Howard injured as Oilers frustrate Islanders: Observations</title>
+<link>https://www.nytimes.com/athletic/7742095/2026/10/31/oilers-jarry-islanders-howard-injury-observations</link>
+<guid isPermaLink="false">46b32731d388e2acf0041bc162c874e5c3d62ba181f43a59fcc35b3cee109a8b</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:15:23 +0000</pubDate>
+<description>Jarry, one of the league's shakiest netminders in 2025-26, has posted back-to-back shutouts.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31200454/GettyImages-2302898400-scaled-e1793491530883.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31200454/GettyImages-2302898400-scaled-e1793491530883.jpg" medium="image"/>
+</item>
+<item>
+<title>How Georgia's defense suffocated Florida in SEC rivalry game</title>
+<link>https://www.nytimes.com/athletic/live-blogs/florida-vs-georgia-live-updates-college-football-score-result/EaReDJFmX50U</link>
+<guid isPermaLink="false">b5d9f9ec4dcff043350d98bedb696b6cc0da523ffad5ba00bf5588e984923602</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:05:35 +0000</pubDate>
+<description>Georgia forced four turnovers and scored a defensive touchdown in its rout of the Florida Gators.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/EaReDJFmX50U_P1pF6AmFTsWg_1440x960.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/EaReDJFmX50U_P1pF6AmFTsWg_1440x960.jpg" medium="image"/>
+</item>
+<item>
+<title>Hamilton joins Karun at SkyPad to analyse first Ferrari pole lap!</title>
+<link>https://www.skysports.com/watch/video/13606552/mexico-city-gp-lewis-hamilton-joins-karun-chandhok-at-skypad-to-analyse-first-ferrari-pole-lap</link>
+<guid isPermaLink="false">dc16b7eb289372352b15551b7ba25ff53c19a593d42008bbd2f492bb8f4faefe</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sun, 01 Nov 2026 00:02:00 +0000</pubDate>
+<description>Lewis Hamilton joins Sky Sports F1's Karun Chandhok to look back on his first pole-setting lap for Ferrari at the Mexico City GP.</description>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-lewis-hamilton_7393579.jpg?20261101000805" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-lewis-hamilton_7393579.jpg?20261101000805" medium="image"/>
+</item>
+<item>
+<title>Johns Hopkins wins on an obscure play that was out of college football for 76 years</title>
+<link>https://www.nytimes.com/athletic/7742394/2026/10/31/johns-hopkins-osbcure-rule-fair-catch-free-kick</link>
+<guid isPermaLink="false">b9310ba32a3be240f511af0a26869ffeaf9d4c85226244eb37a1a3f9b0234e71</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:55:39 +0000</pubDate>
+<description>The fair catch free kick was added back to college football this season for the first time since 1950.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31192907/IMG_3878-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31192907/IMG_3878-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Esteban Ocon denies violent altercation with Haas team boss behind Mexico F1 benching</title>
+<link>https://www.nytimes.com/athletic/7742551/2026/10/31/f1-esteban-ocon-haas-mexico</link>
+<guid isPermaLink="false">5c15f7c40baa26bd8afa28a88757efc2cb6c0008dcb9c0d9be115af0c2e4b9a6</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:48:43 +0000</pubDate>
+<description>Esteban Ocon has made his first public statement since being dropped by Haas for the 2026 Mexico City Grand Prix.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31194257/GettyImages-2302256944-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31194257/GettyImages-2302256944-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>How to watch the women's Galaxy Holding Group Guangzhou Open: Streaming options for the Final</title>
+<link>https://www.nytimes.com/athletic/7742570/2026/10/31/womens-galaxy-holding-group-guangzhou-open-stream-how-to-watch-november-1</link>
+<guid isPermaLink="false">025a4ff5331698b34141d1d8197a1c125f6ef35b6c203cce1a23c74b1b1b0209</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:45:53 +0000</pubDate>
+<description>Find out how to watch the women's Galaxy Holding Group Guangzhou Open, with time, TV channel and streaming information.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31214617/rdeLP10.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31214617/rdeLP10.jpg" medium="image"/>
+</item>
+<item>
+<title>Anton Frondell shows just how much better he could be for the Blackhawks</title>
+<link>https://www.nytimes.com/athletic/7741957/2026/10/31/blackhawks-anton-frondell-best-game-bruins</link>
+<guid isPermaLink="false">4bc4b4510d93d2ca140239f553c962085fb3093075a9994c86069efabc530c73</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:45:52 +0000</pubDate>
+<description>Frondell played arguably his best NHL game to date in the Blackhawks' 5-4 overtime loss to the Bruins</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31174237/2026-10-31T194916Z_1982340086_MT1USATODAY30237424_RTRMADP_3_NHL-CHICAGO-BLACKHAWKS-AT-BOSTON-BRUINS-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31174237/2026-10-31T194916Z_1982340086_MT1USATODAY30237424_RTRMADP_3_NHL-CHICAGO-BLACKHAWKS-AT-BOSTON-BRUINS-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Indiana, with backup QB, rallies to beat Minnesota in OT after teams trade 60-yard field goals</title>
+<link>https://www.nytimes.com/athletic/7742305/2026/10/31/indiana-minnesota-josh-hoover-benched</link>
+<guid isPermaLink="false">013b8b811afc4e46273e797e3629b36764bf81a257350446a08adb845591e534</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:38:50 +0000</pubDate>
+<description>Indiana is still in good shape to reach the College Football Playoff after winning in overtime for the second consecutive week.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184423/2026-10-31T213839Z_1288427168_MT1USATODAY30238842_RTRMADP_3_INDIANA-S-JPSH-HOOVER-10-SLIDES-DURING-THE-INDIANA-VERSUS.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184423/2026-10-31T213839Z_1288427168_MT1USATODAY30238842_RTRMADP_3_INDIANA-S-JPSH-HOOVER-10-SLIDES-DURING-THE-INDIANA-VERSUS.jpg" medium="image"/>
 </item>
 <item>
 <title>F1 Mexico GP live updates: Latest as Ferrari's Lewis Hamilton gets pole position in qualifying, Kimi Antonelli fifth</title>
@@ -97,10 +548,175 @@
 <guid isPermaLink="false">86ebbe5c0aacf14a1bef3616c30c86fafcbf340b713eb6b3793fca36d545b523</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:20:44 +0000</pubDate>
+<pubDate>Sat, 31 Oct 2026 23:15:10 +0000</pubDate>
 <description>The seven-time world champion finally has his first pole for Ferrari.</description>
 <enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/QnSWfP2DPAq4_Rr9L77RmTFaG_1440x960.jpg" type="image/jpeg"/>
 <media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/QnSWfP2DPAq4_Rr9L77RmTFaG_1440x960.jpg" medium="image"/>
+</item>
+<item>
+<title>Are Tottenham, at last, a good team again?</title>
+<link>https://www.nytimes.com/athletic/7742396/2026/10/31/tottenham-hotspur-de-zerbi-crystal-palace-column</link>
+<guid isPermaLink="false">e0ba2e976816af51f3f4470297e52ee6e78e4aedae089c1d7157efe8ac5ab38e</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:14:56 +0000</pubDate>
+<description>Spurs winning three in a row may just signal their fans can genuinely get excited about this season</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31185541/GettyImages-2302394465-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31185541/GettyImages-2302394465-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Jon Sumrall apologizes to Florida fans after Georgia extends Cocktail Party dominance</title>
+<link>https://www.nytimes.com/athletic/7741941/2026/10/31/florida-georgia-kirby-smart-jon-sumrall</link>
+<guid isPermaLink="false">750fb3fb183ff97a062f56a031fb9edcfbcc10eebd5c246c108694639de81aa0</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:05:26 +0000</pubDate>
+<description>The Gators could still play spoiler at Kentucky in a few weeks, but they don’t look like serious Playoff contenders.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31211920/GettyImages-2302445690-scaled-e1793496048326.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31211920/GettyImages-2302445690-scaled-e1793496048326.jpg" medium="image"/>
+</item>
+<item>
+<title>Canelo defeats Christian Mbilli to regain WBC super-middleweight title: Reaction</title>
+<link>https://www.nytimes.com/athletic/live-blogs/canelo-vs-mbilli-live-updates-fight-card-time-results/7IwORGWa2bAA</link>
+<guid isPermaLink="false">962074f0c2b3abdcb39b16e31e26d580ab57fe25b681b2612b5a06a646d11edb</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:03:18 +0000</pubDate>
+<description>Canelo dethroned Mbilli to regain one of the titles he lost to Terence Crawford last year.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/7IwORGWa2bAA_LPaPpg4aV3pK_1440x960.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/7IwORGWa2bAA_LPaPpg4aV3pK_1440x960.jpg" medium="image"/>
+</item>
+<item>
+<title>Nikita Kucherov's current, former teammates react to trade request: 'A tough day'</title>
+<link>https://www.nytimes.com/athletic/7742389/2026/10/31/nikita-kucherov-lightning-trade-request-steven-stamkos</link>
+<guid isPermaLink="false">0a560153be621038aa62b4ffc664a44efddcae2f637fd50ca3057c240c6f6dbe</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:02:25 +0000</pubDate>
+<description>Kucherov’s shocking trade request from the Lightning did not seem to impact his play or change how his teammates feel about him.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31185455/2026-10-31T192815Z_1897954110_MT1USATODAY30238836_RTRMADP_3_NHL-TAMPA-BAY-LIGHTNING-AT-NASHVILLE-PREDATORS-scaled-e1793487325278.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31185455/2026-10-31T192815Z_1897954110_MT1USATODAY30238836_RTRMADP_3_NHL-TAMPA-BAY-LIGHTNING-AT-NASHVILLE-PREDATORS-scaled-e1793487325278.jpg" medium="image"/>
+</item>
+<item>
+<title>Aston Villa latest: Emery admits work to do ahead of Barcelona and Man Utd</title>
+<link>https://www.skysports.com/football/live-blog/12040/13025491/aston-villa-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts</link>
+<guid isPermaLink="false">dc62125ba36b5cb6ca6e00ddf7b972207214ced460d80c3f1ad2a28c0786a2de</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:01:00 +0000</pubDate>
+<description></description>
+<enclosure url="https://e2.365dm.com/26/08/1920x1080/skysports-aston-villa-news_7331919.jpg?20260826153826" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/08/1920x1080/skysports-aston-villa-news_7331919.jpg?20260826153826" medium="image"/>
+</item>
+<item>
+<title>How a busy Premier League Saturday unfolded as Chelsea and Spurs won while Man City and Man United lost</title>
+<link>https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce</link>
+<guid isPermaLink="false">225afa6ce8d5ca291d285bb75cfd3fcd5a0cb4242a2745afdddc050f2682ad8a</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:00:39 +0000</pubDate>
+<description>Recap the action from the eight Premier League games across England today.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/waBPQKuZUQce_m0lAJPw3x0lq_1440x953.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/waBPQKuZUQce_m0lAJPw3x0lq_1440x953.jpg" medium="image"/>
+</item>
+<item>
+<title>Canelo returns to beat Mbilli and reclaim world title in Riyadh</title>
+<link>https://www.skysports.com/boxing/news/12040/13606459/canelo-alvarez-returns-to-beat-christian-mbilli-and-reclaim-wbc-super-middleweight-world-championship-in-riyadh</link>
+<guid isPermaLink="false">5d700440874d892e08254175b002d70597f1f57e124102b5051a96452a90f2f8</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 23:00:00 +0000</pubDate>
+<description>Canelo Alvarez marshalled Christian Mbilli as he reclaimed the WBC super-middleweight world championship he used to hold.</description>
+<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-canelo-alvarez-terence-crawford_7393321.jpg?20261031195718" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-canelo-alvarez-terence-crawford_7393321.jpg?20261031195718" medium="image"/>
+</item>
+<item>
+<title>Fan taken to hospital after medical emergency at Cincinnati-Utah football game</title>
+<link>https://www.nytimes.com/athletic/7742424/2026/10/31/fan-medical-emergency-cincinnati-utah</link>
+<guid isPermaLink="false">7bd4f5c4248e8e35e7b01809a70c2f43dacf5812f4a8a4537c6e48aa60912786</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:57:47 +0000</pubDate>
+<description>There were no immediate, official details on the identity or status of the fan.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184114/GettyImages-135087870-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184114/GettyImages-135087870-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Fulham latest: We can beat anyone, says Arbeloa</title>
+<link>https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights</link>
+<guid isPermaLink="false">f508eaf83e4e67807563a328a3e0cb6356c1bc3709b328612799fd0d65b2c18d</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:51:00 +0000</pubDate>
+<description></description>
+<enclosure url="https://e2.365dm.com/26/08/1920x1080/skysports-fulham-news-rumours_7331920.jpg?20260826153855" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/08/1920x1080/skysports-fulham-news-rumours_7331920.jpg?20260826153855" medium="image"/>
+</item>
+<item>
+<title>Costumed Colorado fans storm field as Deion Sanders' Buffs get first Big 12 win in 385 days</title>
+<link>https://www.nytimes.com/athletic/7742312/2026/10/31/colorado-kansas-state-score-result-field-storm-deion-sanders</link>
+<guid isPermaLink="false">73156bacdca20c4de16a37bcd22d62c68d0b982636684479639f6bf7946e6bc6</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:47:19 +0000</pubDate>
+<description>The Buffaloes prevailed in overtime against Kansas State to improve to 3-5 in Coach Prime's fourth season.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184547/GettyImages-2302430924.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31184547/GettyImages-2302430924.jpg" medium="image"/>
+</item>
+<item>
+<title>Watch: Sovereignty is crowned King in the Breeders' Cup Classic</title>
+<link>https://www.skysports.com/watch/video/13606526/watch-sovereignty-is-crowned-king-in-the-breeders-cup-classic</link>
+<guid isPermaLink="false">6303d311c88dead920efc436225583e1a21be70024ac040ec1647a0d72fda96c</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:46:00 +0000</pubDate>
+<description>The 2025 Kentucky Derby Sovereignty delivered a knockout blow to land the Breeders' Cup Classic.</description>
+<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-sovereignty-breeders-cup-classic_7393508.jpg?20261031224939" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-sovereignty-breeders-cup-classic_7393508.jpg?20261031224939" medium="image"/>
+</item>
+<item>
+<title>ECU player breaks leg after official stumbles into him between plays</title>
+<link>https://www.nytimes.com/athletic/7742324/2026/10/31/east-carolina-official-injury-david-coleman-jr</link>
+<guid isPermaLink="false">73becf0dcf7920d753f5a73915436a89f2a92c5ff63e7c680f6e94c53b77367a</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:35:40 +0000</pubDate>
+<description>The incident occurred during the first half of the Pirates' game against Temple at Dowdy-Ficklen Stadium.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31182757/GettyImages-848084546-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31182757/GettyImages-848084546-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Mexican GP qualifying recap: Lewis Hamilton claims first Ferrari pole</title>
+<link>https://www.nytimes.com/athletic/7742221/2026/10/31/mexico-city-gp-qualifying-results</link>
+<guid isPermaLink="false">0f08e518dd552edf7a472c7634b5f50bbe906adfa33e1c1f980ecc74f1fbcb94</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:30:17 +0000</pubDate>
+<description>Lewis Hamilton pipped George Russell to top F1 qualifying in Mexico, with champion-in-waiting Kimi Antonelli down in fifth.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31183335/GettyImages-2302434188-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31183335/GettyImages-2302434188-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Red Wings show their best and worst in blown lead to Blues</title>
+<link>https://www.nytimes.com/athletic/7742097/2026/10/31/detroit-red-wings-john-gibson-st-louis-blues</link>
+<guid isPermaLink="false">bbb0fa4984c463c23580eff3b1109938a4ddf9eb3f94f10986d4321b3793555a</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:26:17 +0000</pubDate>
+<description>The Red Wings played stifling defense for the first half of Saturday's game. Then they got sloppy and gave it all back.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31181907/2026-10-31T191340Z_376477780_MT1USATODAY30237190_RTRMADP_3_NHL-ST-LOUIS-BLUES-AT-DETROIT-RED-WINGS-scaled-e1793485192676.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31181907/2026-10-31T191340Z_376477780_MT1USATODAY30237190_RTRMADP_3_NHL-ST-LOUIS-BLUES-AT-DETROIT-RED-WINGS-scaled-e1793485192676.jpg" medium="image"/>
+</item>
+<item>
+<title>Mexico City Grand Prix - Qualifying Highlights</title>
+<link>https://www.skysports.com/watch/video/13606516/mexico-city-grand-prix-qualifying-highlights</link>
+<guid isPermaLink="false">1fee3620e00bd6c564662e73006ebd54b9a292e0f8b5c4395515c3d52fac78d3</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 31 Oct 2026 22:23:00 +0000</pubDate>
+<description>Highlights from qualifying for the 2026 Mexico City Grand Prix.</description>
+<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-qualifying-highlights_7393484.jpg?20261031222638" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-qualifying-highlights_7393484.jpg?20261031222638" medium="image"/>
 </item>
 <item>
 <title>Lamine Yamal, Raphinha score twice in emphatic Barcelona win against Alaves</title>
@@ -114,105 +730,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31175247/GettyImages-2302407674-scaled-e1793483588355.jpg" medium="image"/>
 </item>
 <item>
-<title>Canelo Alvarez vs Christian Mbilli: Live blog, round-by-round and results</title>
-<link>https://sports.yahoo.com/articles/canelo-alvarez-vs-christian-mbilli-061150046.html</link>
-<guid isPermaLink="false">5ef8c12d91e38bc90cc158151b6a3c08d39dac75b8d5ba39d8eece1797de99c5</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:20:17 +0000</pubDate>
-<description>Canelo Alvarez faces Christian Mbilli live today from Riyadh!</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/1021b4be6dcf020611aac8384c377a95.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/1021b4be6dcf020611aac8384c377a95.jpg" medium="image"/>
-</item>
-<item>
-<title>Dream vs. Valkyries live updates: WNBA Finals Game 7 start time, how to watch and latest</title>
-<link>https://www.nytimes.com/athletic/live-blogs/dream-vs-valkyries-live-score-updates-wnba-finals-game-7-result/9MzDkCrG5Jdo</link>
-<guid isPermaLink="false">14512717a136dc5b67546507686b93f25e48d5c25b6caaf505b994b693ce6fd7</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:20:01 +0000</pubDate>
-<description>Follow our live coverage of the deciding game in the WNBA Finals between Atlanta and Golden State.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/9MzDkCrG5Jdo_LPulzOQcqIAC_1440x960.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/9MzDkCrG5Jdo_LPulzOQcqIAC_1440x960.jpg" medium="image"/>
-</item>
-<item>
-<title>F1 Mexico GP: Lewis Hamilton beats George Russell and Charles Leclerc to pole</title>
-<link>https://sports.yahoo.com/articles/f1-mexico-gp-lewis-hamilton-221947272.html</link>
-<guid isPermaLink="false">21221abe9b9f69577a0f9a2c888e91f3f6f3f672ef88d8034bac8063f0579a0b</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:19:47 +0000</pubDate>
-<description>Lewis Hamilton takes pole by 0.009s from George Russell at Formula 1's Mexico City Grand Prix</description>
-<enclosure url="https://media.zenfs.com/en/motorsport_articles_445/5bc23435bb981c761af23341b019be51.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/motorsport_articles_445/5bc23435bb981c761af23341b019be51.jpg" medium="image"/>
-</item>
-<item>
-<title>F1 grid: Starting positions for Mexican Grand Prix</title>
-<link>https://sports.yahoo.com/articles/f1-bahrain-grand-prix-malaysia-081739238.html</link>
-<guid isPermaLink="false">e8e0e25e2491453208b1de33cb604ae5529be12810ea3285e4c6dc0864fd0b00</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:19:16 +0000</pubDate>
-<description>F1 returns to the Autodromo Hermanos Rodriguez for round 19 with Kimi Antonelli set to clinch the world title</description>
-<enclosure url="https://media.zenfs.com/en/the_independent_us_sports_articles_270/411f58443796953c0cb79dbff1800aa7.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the_independent_us_sports_articles_270/411f58443796953c0cb79dbff1800aa7.jpg" medium="image"/>
-</item>
-<item>
-<title>Halloween Scare In Riyadh: Jaime Munguia Rises To Win</title>
-<link>https://sports.yahoo.com/articles/halloween-scare-riyadh-jaime-munguia-221801739.html</link>
-<guid isPermaLink="false">3f9091238053421cbf19c66f5aa0592ff54bdad23a69903bf73321effd195ba3</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:18:01 +0000</pubDate>
-<description>What To Know It took until the co-main event to deliver a thriller fitting of Halloween and Dia De Los Muertos in Riyadh on Saturday, thanks to Jaime Munguia and Daniel Zon. Munguia and Zon stole the show in a competitive contest with a Round of the Year candidate. Rafael Espinoza and Reito Tsutsumi weren’t […]</description>
-<enclosure url="https://media.zenfs.com/en/ny_fights_228/efab83b7b4755ad51098133451b31a33.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/ny_fights_228/efab83b7b4755ad51098133451b31a33.jpg" medium="image"/>
-</item>
-<item>
-<title>Canelo Alvarez vs. Christian Mbilli live results, updates, highlights from 2026 boxing fight</title>
-<link>https://sports.yahoo.com/articles/canelo-alvarez-vs-christian-mbilli-145108581.html</link>
-<guid isPermaLink="false">0cf740834d87553ab518027912f56f3f366da805af0741d36ad1be0ea4ee6af5</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:18:00 +0000</pubDate>
-<description>The Sporting News will provide analysis and highlights from Canelo Alvarez vs. Christian Mbilli and the entire fight card.</description>
-<enclosure url="https://media.zenfs.com/en/the_sporting_news_articles_584/d76b00e71e823e5365ca3f7ff1d85bf9" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the_sporting_news_articles_584/d76b00e71e823e5365ca3f7ff1d85bf9" medium="image"/>
-</item>
-<item>
-<title>Patriots Make Two Roster Moves Ahead of Dolphins Game</title>
-<link>https://sports.yahoo.com/articles/patriots-two-roster-moves-ahead-221749052.html</link>
-<guid isPermaLink="false">dba18eb68949a7607b720d23a82367a63977251f407cd27569bc22ff8644a010</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:17:49 +0000</pubDate>
-<description>With A.J. Brown and TreVeyon Henderson sidelined, the Patriots add reinforcements at two positions before facing Miami.</description>
-<enclosure url="https://media.zenfs.com/en/nesn_articles_905/9af7ff64129624b3c21086e076e8b5f4" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/nesn_articles_905/9af7ff64129624b3c21086e076e8b5f4" medium="image"/>
-</item>
-<item>
-<title>Hamilton takes first pole for Ferrari at Mexico City Grand Prix</title>
-<link>https://sports.yahoo.com/articles/hamilton-takes-first-pole-ferrari-221738713.html</link>
-<guid isPermaLink="false">cfa687f6398bfa819ff3a6bacb0323a2adc52b4aaf612d6c28df033950433c87</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:17:38 +0000</pubDate>
-<description>Lewis Hamilton takes his first pole position for Ferrari and his first for more than three years at the Mexico City Grand Prix.</description>
-<enclosure url="https://media.zenfs.com/en/bbc_us_articles_995/2dba5dc137fabd934deb2864f979be4d.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/bbc_us_articles_995/2dba5dc137fabd934deb2864f979be4d.jpg" medium="image"/>
-</item>
-<item>
-<title>What happened to Josh Hoover? Indiana QB pulled from game at halftime vs. Minnesota</title>
-<link>https://sports.yahoo.com/articles/happened-josh-hoover-indiana-qb-221711528.html</link>
-<guid isPermaLink="false">9e502f5f9c05f3cbb80f13f910ac2c4d010beb224270fb2e9a5053fb9df9c23b</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:17:11 +0000</pubDate>
-<description>The star QB did not start for the Hoosiers in the second half.</description>
-<enclosure url="https://media.zenfs.com/en/the_sporting_news_articles_584/4a58bbb0d11414ad58d5bffe4c6bb651" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the_sporting_news_articles_584/4a58bbb0d11414ad58d5bffe4c6bb651" medium="image"/>
-</item>
-<item>
 <title>Banner on plane at Florida State calls for Mike Norvell firing — except it misspelled his name</title>
 <link>https://www.nytimes.com/athletic/7742251/2026/10/31/florida-state-banner-mike-norvell-firing</link>
 <guid isPermaLink="false">6dbfd9c35735f7ad19449285e670aea614375509481af8eb033c90f8069d199d</guid>
@@ -224,125 +741,26 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31174305/MikeNorvell-scaled.jpg" medium="image"/>
 </item>
 <item>
-<title>Match Awards from Bayern Munich’s costly 2-2 Der Klassiker draw</title>
-<link>https://sports.yahoo.com/articles/match-awards-bayern-munich-costly-195230786.html</link>
-<guid isPermaLink="false">6fb38e9570ae598db0862f365b8cf60de2dba1b698fd0ab9b48f1ca591487094</guid>
-<source>Yahoo Sports</source>
+<title>Hamilton pips Russell to become oldest pole sitter in 44 years!</title>
+<link>https://www.skysports.com/watch/video/13606514/mexico-city-gp-lewis-hamilton-pips-george-russell-to-become-oldest-pole-sitter-in-44-years</link>
+<guid isPermaLink="false">f5827362704298f20aab217171606242a4e5a90c19c2548cfec704ccfb3e4d88</guid>
+<source>Sky Sports Football</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:16:48 +0000</pubDate>
-<description>FC Bayern was forced to settled for a late draw in Der Klassiker.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/b953fcdbabe423759969a2ff9dabea85.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/b953fcdbabe423759969a2ff9dabea85.jpg" medium="image"/>
-</item>
-<item>
-<title>All that glitters is gold for Daphne Weller, girls' cross country state champion</title>
-<link>https://sports.yahoo.com/articles/glitters-gold-daphne-weller-girls-221430435.html</link>
-<guid isPermaLink="false">e6658e9cb952b84e6bc350c03e1f85f3ce7b1cdd42f6b10c58df7e1e3939815b</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:14:30 +0000</pubDate>
-<description>Fort Wayne Concordia Lutheran's Daphne Weller follows in sister's footsteps, wins cross country state title. Lake Central takes team title.</description>
-<enclosure url="https://media.zenfs.com/en/indystar-the-indianapolis-star/eb44bd72c3fcb78cac9bf47d1482e5d9.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/indystar-the-indianapolis-star/eb44bd72c3fcb78cac9bf47d1482e5d9.jpg" medium="image"/>
-</item>
-<item>
-<title>Second-half blitz helps Saracens beat Newcastle</title>
-<link>https://sports.yahoo.com/articles/second-half-blitz-helps-saracens-172058993.html</link>
-<guid isPermaLink="false">0d535a2c02b066df26cd5645e05339845d5e9218c5063e3f6e6baf69ebdb91f9</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:14:25 +0000</pubDate>
-<description>Saracens take advantage of Newcastle Red Bulls indiscipline to overturn a 10-point half-time deficit to eventually win 39-31.</description>
-<enclosure url="https://media.zenfs.com/en/bbc_us_articles_995/925fa160ed07f0ebebecc113ced5903e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/bbc_us_articles_995/925fa160ed07f0ebebecc113ced5903e.jpg" medium="image"/>
-</item>
-<item>
-<title>Freddie James, Legendary Texas High School Football Coach Portrayed in “Friday Night Lights”, Dies at 89</title>
-<link>https://sports.yahoo.com/articles/freddie-james-legendary-texas-high-221409762.html</link>
-<guid isPermaLink="false">12e3ef07bb7391a0e17423a35a5752a875abe5b7f2f54a8de51d92e2461c342a</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:14:09 +0000</pubDate>
-<description>James led Dallas’ Carter High School to 139 wins between 1982 and 1995, including the legendary 1988 championship that was later stripped</description>
-<enclosure url="https://media.zenfs.com/en/people_218/e5fffe7f904cab60fd01d228f3c4c49a.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/people_218/e5fffe7f904cab60fd01d228f3c4c49a.jpg" medium="image"/>
-</item>
-<item>
-<title>Benvenuto Cellini wins Breeders' Cup Turf</title>
-<link>https://sports.yahoo.com/articles/benvenuto-cellini-wins-breeders-cup-221402572.html</link>
-<guid isPermaLink="false">763363ac536d2b8713c1ea3d3b454847d10147c9670096535c3269119309ba4c</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:14:02 +0000</pubDate>
-<description>Benvenuto Cellini won the $5 million Breeders' Cup Turf at Keeneland on Saturday, giving Irish trainer Aidan O'Brien a 24th Breeders' Cup victory.Baffert also nabbed a victory on Friday, in the Juvenile, but Ireland's O'Brien will depart Kentucky atop the Breeders' Cup trainers' table after an outstanding performance from jockey Ryan Moore aboard Benvenuto Cellini -- the Irish Derby winner who had finished a disappointing ninth in the Prix de l'Arc de Triomphe earlier this month.</description>
-<enclosure url="https://media.zenfs.com/en/afp.com/02d742f9dc39de90459cc9bfaf2a7c27.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/afp.com/02d742f9dc39de90459cc9bfaf2a7c27.jpg" medium="image"/>
-</item>
-<item>
-<title>Spurs’ Victor Wembanyama drops bold MVP prediction for himself this season</title>
-<link>https://sports.yahoo.com/articles/spurs-victor-wembanyama-drops-bold-221346047.html</link>
-<guid isPermaLink="false">c7da72a80c397dbc7ac2b798b526e783167a9917b48a7fbbb7bd680805c90666</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:13:46 +0000</pubDate>
-<description>All-Star center Victor Wembanyama and the San Antonio Spurs have the best odds to win the NBA Finals in 2027. After losing 4-1 to the New York Knicks in his first Finals appearance and finishing runner-up for MVP, Spurs’ Wembanyama has had plenty of highlight reels against some of the better teams in the Western Conference this season. However, […] The post Spurs’ Victor Wembanyama drops bold MVP prediction for himself this season appeared first on ClutchPoints.</description>
-<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/39eeb22eae0cd0c1ba92e45bf1e9c8b8.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/39eeb22eae0cd0c1ba92e45bf1e9c8b8.jpg" medium="image"/>
-</item>
-<item>
-<title>Viktor Arvidsson proving to be productive free-agent signing by Wings</title>
-<link>https://sports.yahoo.com/articles/viktor-arvidsson-proving-productive-free-221134988.html</link>
-<guid isPermaLink="false">53eae22140cc244b48291e2e6d44840a1aaf080d2387f95278a312e44df18509</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:11:34 +0000</pubDate>
-<description>The Wings signed Viktor Arvidsson to essentially replace Patrick Kane. So far, he's been more than an adequate replacement.</description>
-<enclosure url="https://media.zenfs.com/en/detroit_news_articles_230/e8c277bb929e1c3154ac0aa1b51f5f76.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/detroit_news_articles_230/e8c277bb929e1c3154ac0aa1b51f5f76.jpg" medium="image"/>
+<pubDate>Sat, 31 Oct 2026 22:16:00 +0000</pubDate>
+<description>Lewis Hamilton edged out George Russell to become the oldest person to claim pole position since 1982.</description>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-motorsport-f1-ferrari_7393492.jpg?20261031223647" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-motorsport-f1-ferrari_7393492.jpg?20261031223647" medium="image"/>
 </item>
 <item>
 <title>Hamilton claims first pole for Ferrari at Mexico City GP</title>
-<link>https://news.sky.com/story/mexico-city-gp-qualifying-lewis-hamilton-claims-first-pole-position-for-ferrari-by-edging-out-mercedes-george-russell-13606015</link>
-<guid isPermaLink="false">3e4eab500179cec05d88399c544a3c8a346def4be45a545347cc96c04e5347fa</guid>
-<source>Sky News Sports</source>
+<link>https://www.skysports.com/f1/news/12040/13606015/mexico-city-gp-qualifying-lewis-hamilton-claims-first-pole-position-for-ferrari-by-edging-out-mercedes-george-russell</link>
+<guid isPermaLink="false">4d97cebba3ccc8335a350ec60d89c331a85e306505e61455c5e6927e91f12177</guid>
+<source>Sky Sports Football</source>
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 22:10:00 +0000</pubDate>
 <description>Lewis Hamilton claimed his first pole position for Ferrari by edging out Mercedes' George Russell in qualifying for the Mexico City Grand Prix.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393478.jpg?20261031222125" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393478.jpg?20261031222125" medium="image"/>
-</item>
-<item>
-<title>Undav unfazed by Bundesliga goal drought as Stuttgart claim important win over Leverkusen</title>
-<link>https://sports.yahoo.com/articles/undav-unfazed-bundesliga-goal-drought-221000346.html</link>
-<guid isPermaLink="false">061d36d19a0362d140283db913348fc530b6bb6624ba72fd7b489da14e483d5d</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:10:00 +0000</pubDate>
-<description>VfB Stuttgart claimed three much-needed points in the Bundesliga with a 4-2 victory over Bayer Leverkusen on Saturday.Captain Deniz Undav provided a neat assist, but was unable to end his Bundesliga g...</description>
-<enclosure url="https://media.zenfs.com/en/bulinews_articles_290/fc4e73a0828a23cea81d5a09b592c253.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/bulinews_articles_290/fc4e73a0828a23cea81d5a09b592c253.jpg" medium="image"/>
-</item>
-<item>
-<title>Here’s what Geno Auriemma thinks about Dream-Valkyries WNBA Finals Game 7</title>
-<link>https://sports.yahoo.com/articles/geno-auriemma-thinks-dream-valkyries-220929217.html</link>
-<guid isPermaLink="false">4856489252e792338af72660f731251de7d456b0e85693e884b49fbbe78e0dba</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:09:29 +0000</pubDate>
-<description>UConn women’s basketball coach Geno Auriemma is no stranger to high-stakes women’s basketball games, and he weighed in on the upcoming Game 7 of the WNBA Finals. Following a dominant victory by the Atlanta Dream on Thursday, the Valkyrie and the Dream are facing off in a winner-take-all Game 7 that is the first in WNBA history. Auriemma said the […] The post Here’s what Geno Auriemma thinks about Dream-Valkyries WNBA Finals Game 7 appeared first on ClutchPoints.</description>
-<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/4571184882005fc501a3a41189cc78c6.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/4571184882005fc501a3a41189cc78c6.jpg" medium="image"/>
-</item>
-<item>
-<title>Brighton stun Man City, 10-man Man Utd beaten by Chelsea</title>
-<link>https://sports.yahoo.com/articles/brighton-stun-man-city-10-171547904.html</link>
-<guid isPermaLink="false">b7a03e338f1b0147ac6b49f6b5f989df73eefffe70ba4624889dc848ff581281</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:08:35 +0000</pubDate>
-<description>Brighton inflicted a second straight Premier League defeat on Manchester City with a 1-0 win to close within two points of the leaders on Saturday, while Manchester United slumped to another damaging defeat for Michael Carrick at Chelsea.- Man Utd self-implode - Manchester United's nine-game winless run is their longest without victory for 38 years after a 2-0 defeat at Chelsea.</description>
-<enclosure url="https://media.zenfs.com/en/afp.com/7c7044bc4698376cb9f577e5af9d3a49.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/afp.com/7c7044bc4698376cb9f577e5af9d3a49.jpg" medium="image"/>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393483.jpg?20261031222430" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393483.jpg?20261031222430" medium="image"/>
 </item>
 <item>
 <title>Seahawks getting Zach Charbonnet, possibly Jadarian Price back for Monday vs. Bears</title>
@@ -356,39 +774,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31180353/GettyImages-2253833018-scaled.jpg" medium="image"/>
 </item>
 <item>
-<title>Barca hammer Alaves to retain Liga top spot</title>
-<link>https://sports.yahoo.com/articles/atletico-beat-levante-move-top-145918997.html</link>
-<guid isPermaLink="false">c57bbbc1a6a4b2397d86435613cc713e76908fd1ad898e2a91af3787f3252722</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:06:48 +0000</pubDate>
-<description>Raphinha and Lamine Yamal struck twice each as Barcelona thrashed Alaves 6-1 on Saturday to reclaim their La Liga lead and get back on track after two damaging defeats.Barcelona moved ahead in the eighth minute, with La Liga's top scorer Raphinha continuing his red-hot form.</description>
-<enclosure url="https://media.zenfs.com/en/afp.com/7985e45db35c3aa9ea75277d6ac40b0e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/afp.com/7985e45db35c3aa9ea75277d6ac40b0e.jpg" medium="image"/>
-</item>
-<item>
-<title>Fort Collins boys surge to 3rd place at Colorado state cross-country</title>
-<link>https://sports.yahoo.com/articles/fort-collins-boys-surge-3rd-220642549.html</link>
-<guid isPermaLink="false">656226a1dffb5632f8ca4f32ea3f75ccf73997f4b5a229464adadcdcb4e012f7</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:06:42 +0000</pubDate>
-<description>Impressive third-place finishes for the Fort Collins boys led a strong showing for local runners at the Colorado state cross-country meet.</description>
-<enclosure url="https://media.zenfs.com/en/the-coloradoan/59a7ac063cfa5ebf0ad011b59b5f4ba9.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the-coloradoan/59a7ac063cfa5ebf0ad011b59b5f4ba9.jpg" medium="image"/>
-</item>
-<item>
-<title>LIVE UFC Fight Night: Moicano vs. Nolan Results &amp; Highlights</title>
-<link>https://sports.yahoo.com/articles/live-ufc-fight-night-moicano-140000012.html</link>
-<guid isPermaLink="false">312e4b2553fcedd9a57ad8a9605bcea4e8ac92061f9a08b5ffe76aaf0fcf8872</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:06:03 +0000</pubDate>
-<description>On Saturday the leading MMA promotion returns to the Meta APEX in Las Vegas, Nevada. UFC Fight Night will be […]</description>
-<enclosure url="https://media.zenfs.com/en/sportsnaut_articles_397/89e156a7670c958ac47a76f266e3d96c.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sportsnaut_articles_397/89e156a7670c958ac47a76f266e3d96c.jpg" medium="image"/>
-</item>
-<item>
 <title>Ryan Moore at his brilliant best! Benvenuto Cellini soars to Breeders' Cup Turf win</title>
 <link>https://www.skysports.com/watch/video/13606509/ryan-moore-at-his-brilliant-best-benvenuto-cellini-soars-to-breeders-cup-turf-win</link>
 <guid isPermaLink="false">96896a76a01d661cabdcbc38af2ec6b7d7ae408a2b60291221a8b48c2e867e1c</guid>
@@ -400,103 +785,15 @@
 <media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-ryan-moore-benvenuto-cellini_7393465.jpg?20261031220755" medium="image"/>
 </item>
 <item>
-<title>Julian Nagelsmann has already received Juventus’ call, INEOS need to act soon</title>
-<link>https://sports.yahoo.com/articles/julian-nagelsmann-already-received-juventus-220600260.html</link>
-<guid isPermaLink="false">7d19cb01dd78ffee2c7bd436ac78e959a593054dcb4b5b44174720a3a12ea815</guid>
-<source>Yahoo Sports</source>
+<title>Papers: Carrick to be given at least two more games in charge at Man Utd</title>
+<link>https://www.skysports.com/football/news/12040/13606527/manchester-united-michael-carrick-to-be-given-at-least-two-more-matches-in-charge-despite-overseeing-worst-run-in-nearly-40-years-paper-talk</link>
+<guid isPermaLink="false">fc3063ee91acf5e8db445e89ef06cb1b2b0be62732526888928535e742b9ed0b</guid>
+<source>Sky Sports Football</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:06:00 +0000</pubDate>
-<description>Despite their disastrous run of form, Manchester United decided to stick with Michael Carrick following extensive crisis talks.There were murmurs that football director Jason Wilcox had approached Edd...</description>
-<enclosure url="https://media.zenfs.com/en/the_peoples_person_articles_356/7689412c7ffcaa29129187419a7a77b8.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the_peoples_person_articles_356/7689412c7ffcaa29129187419a7a77b8.jpg" medium="image"/>
-</item>
-<item>
-<title>Prayers Pour In as Arizona Wide Receiver Carted Off the Field After Nasty Hit Against Texas Tech</title>
-<link>https://sports.yahoo.com/articles/prayers-pour-arizona-wide-receiver-220542109.html</link>
-<guid isPermaLink="false">35244d9ab0cab9af721320b34d1911f5f38e677b8b980e1851033e6eaeb0dc59</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:05:42 +0000</pubDate>
-<description>The Big 12 showdown between the Texas Tech Red Raiders and Arizona Wildcats was arguably one of Week 9’s most consequential games, but the action took a worrying turn in the third quarter. Arizona lost 34-26 to Texas Tech on Saturday, and in the third quarter, wide receiver R.</description>
-<enclosure url="https://media.zenfs.com/en/essentiallysports_articles_591/b4043bd567538fef31c0ee74ab187c2b.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/essentiallysports_articles_591/b4043bd567538fef31c0ee74ab187c2b.jpg" medium="image"/>
-</item>
-<item>
-<title>49ers’ Dre Greenlaw slapped with hefty fine for punching Falcons’ Drake London</title>
-<link>https://sports.yahoo.com/articles/49ers-dre-greenlaw-slapped-hefty-220511999.html</link>
-<guid isPermaLink="false">2296e4f90bc23665588923c429ae98f19267da7e8552a1d9fbbe42401ca71580</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:05:11 +0000</pubDate>
-<description>San Francisco 49ers LB Dre Greenlaw was fined $12,537 by the NFL for striking Atlanta Falcons receiver Drake London in the helmet.</description>
-<enclosure url="https://media.zenfs.com/en/california_post_772/a952adb1972e788483696896901a54b9.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/california_post_772/a952adb1972e788483696896901a54b9.jpg" medium="image"/>
-</item>
-<item>
-<title>Barcelona star bags his first-ever assist for the club vs Alavés</title>
-<link>https://sports.yahoo.com/articles/barcelona-star-bags-first-ever-220400237.html</link>
-<guid isPermaLink="false">64a85ff5c627ffb96ef443686d8f10eab0f622e37edc57eb032e32ba9dfcca01</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:04:00 +0000</pubDate>
-<description>A member of the midfield ranks at La Liga giants Barcelona on Saturday hit a long-awaited personal benchmark in the club’s colours. This came upon Rodri breaking his duck in the assists column in Bl...</description>
-<enclosure url="https://media.zenfs.com/en/get_spanish_football_news_articles_403/8ef90621f71af70bbaa1e56c0a40f82b.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/get_spanish_football_news_articles_403/8ef90621f71af70bbaa1e56c0a40f82b.jpg" medium="image"/>
-</item>
-<item>
-<title>Suzuki's costly mistake as Villa draw with Fulham</title>
-<link>https://sports.yahoo.com/articles/aston-villa-v-fulham-103316715.html</link>
-<guid isPermaLink="false">fd54ebdb936522098cb65c34cc456f53934cd05948585f4d02ce30ed08bba8ce</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:03:51 +0000</pubDate>
-<description>Aston Villa goalkeeper Zion Suzuki drops the ball into his own net as Fulham find a helping hand to earn a Premier League draw at Villa Park.</description>
-<enclosure url="https://media.zenfs.com/en/bbc_us_articles_995/f8343ad52f91ffe64f24177066677e39.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/bbc_us_articles_995/f8343ad52f91ffe64f24177066677e39.jpg" medium="image"/>
-</item>
-<item>
-<title>UFC Vegas 123 live results, highlights, play-by-play</title>
-<link>https://sports.yahoo.com/articles/ufc-vegas-123-live-results-201500234.html</link>
-<guid isPermaLink="false">709258d694924be05b8d72d6b15644850069de97468483bfdba218fe1a1e874a</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:03:02 +0000</pubDate>
-<description>UFC Vegas 123 results, highlights, live discussion and instant play-by-play, reactions and analysis.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/3d8539b45f711b6a444377d36b56168b.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/3d8539b45f711b6a444377d36b56168b.jpg" medium="image"/>
-</item>
-<item>
-<title>Moreira on best game ‘so far’ for Milan, while Pulisic is lucky charm against Inter</title>
-<link>https://sports.yahoo.com/articles/moreira-best-game-far-milan-220300625.html</link>
-<guid isPermaLink="false">18317c7d06b4e4e6304d8468b9000033da25417fd15b60c019b0353bbcdf5d73</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:03:00 +0000</pubDate>
-<description>Diego Moreira admits this was his best Milan performance ‘for now’ after a goal and two assists, while Christian Pulisic jokes about his incredible record against Inter.The Derby della Madonnina w...</description>
-<enclosure url="https://media.zenfs.com/en/football_italia_articles_132/6bc0a1e7ee593d048bca0598b5bd8d5e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/football_italia_articles_132/6bc0a1e7ee593d048bca0598b5bd8d5e.jpg" medium="image"/>
-</item>
-<item>
-<title>Steve O'Donnell Shuts Down NASCAR Buyout Speculation Amid Investors Circling Daytona Beach’s Door</title>
-<link>https://sports.yahoo.com/articles/steve-odonnell-shuts-down-nascar-220231582.html</link>
-<guid isPermaLink="false">8913d7b68b41874e21291b377c46c067bfbddc40ec10c2d0298c6db08f6501f6</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:02:31 +0000</pubDate>
-<description>NASCAR has spent nearly eight decades building a business that extends far beyond what happens on the racetrack. Its value stretches across television rights, iconic venues, sponsorships, and a loyal American fan base.</description>
-<enclosure url="https://media.zenfs.com/en/essentiallysports_articles_591/bb7c55a01e130cf6bc09f64e3dc31372.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/essentiallysports_articles_591/bb7c55a01e130cf6bc09f64e3dc31372.jpg" medium="image"/>
-</item>
-<item>
-<title>Who does Ohio State play next? Shop Ohio State vs Oregon football tickets</title>
-<link>https://sports.yahoo.com/articles/does-ohio-state-play-next-220217456.html</link>
-<guid isPermaLink="false">3218b547d6bdddea8d97ce14700acdb7438e8d65fd9e572b6403e7741da51b34</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 22:02:17 +0000</pubDate>
-<description>The Ohio State Buckeyes host the Oregon Ducks on Saturday, Nov. 7. Tickets are still available for under $250. Shop here.</description>
-<enclosure url="https://media.zenfs.com/en/usa_today_affiliate_609/f60da62ee4a2a5db0331f207d403ae11.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/usa_today_affiliate_609/f60da62ee4a2a5db0331f207d403ae11.jpg" medium="image"/>
+<pubDate>Sat, 31 Oct 2026 22:00:00 +0000</pubDate>
+<description>The top stories and transfer rumours from Sunday's newspapers...</description>
+<enclosure url="https://e2.365dm.com/26/08/1920x1080/skysports-paper-talk-football_7317647.jpg?20260809160824" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/08/1920x1080/skysports-paper-talk-football_7317647.jpg?20260809160824" medium="image"/>
 </item>
 <item>
 <title>Is Bruins’ Morgan Geekie back? 'One of the best shots in the league'</title>
@@ -609,13 +906,13 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31160922/AP26202656496749-scaled-e1793477446539.jpg" medium="image"/>
 </item>
 <item>
-<title>It's Hank Brown's show as Iowa crushes Wisconsin in programs' 100th meeting</title>
+<title>Iowa's 30-0 shutout of Wisconsin proves this young team is way ahead of schedule</title>
 <link>https://www.nytimes.com/athletic/7742067/2026/10/31/wisconsin-iowa-result-score-takeaways</link>
 <guid isPermaLink="false">cfc71d1d5e215a1821526aa93c5e44954feae04d7caab596d83a399da546ca4e</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 20:02:40 +0000</pubDate>
-<description>Brown, a junior, and sophomore Jeremy Hecklinski had a protracted quarterback controversy that lasted through this week.</description>
+<description>Iowa's third shutout of the season sent a message loud and clear: The College Football Playoff is in reach.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31155512/GettyImages-2302370890-scaled-e1793476535447.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31155512/GettyImages-2302370890-scaled-e1793476535447.jpg" medium="image"/>
 </item>
@@ -649,8 +946,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 19:46:44 +0000</pubDate>
 <description>Find out how to watch the women's Toray Pan Pacific Open Tennis, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31174553/2Ouf5ZT.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31174553/2Ouf5ZT.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31214642/GjczW6g.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31214642/GjczW6g.jpg" medium="image"/>
 </item>
 <item>
 <title>How to watch Flames vs. Avalanche: TV channel and streaming options for October 31</title>
@@ -689,23 +986,12 @@
 <title>Spurs beat 10-man Palace to keep up Sage pressure as Eagles fall into drop zone</title>
 <link>https://www.skysports.com/football/tottenham-hotspur-vs-crystal-palace/report/559533</link>
 <guid isPermaLink="false">a7fde11889041fa73df0cd160ac441bb7a1b8d7ca7d8452a5ecd82fab8db90a1</guid>
-<source>Sky Sports Football</source>
+<source>Sky Sports Premier League</source>
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 19:30:00 +0000</pubDate>
 <description>Tottenham beat 10-man Crystal Palace 2-0 at home to record a third straight win and maintain the pressure on Eagles boss Pierre Sage, with his side dropping into the relegation zone.</description>
 <enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-jan-paul-van-hecke_7393257.jpg?20261031191310" type="image/jpeg"/>
 <media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-jan-paul-van-hecke_7393257.jpg?20261031191310" medium="image"/>
-</item>
-<item>
-<title>Kane misses penalty as Silva snatches Dortmund draw in Der Klassiker</title>
-<link>https://www.skysports.com/football/bayern-munich-vs-borussia-dortmund/report/563377</link>
-<guid isPermaLink="false">bec25441e92dcf2e5adc267c66e3b8395493547e9cd33a7ba48f5f163cd57eb5</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 19:30:00 +0000</pubDate>
-<description>Harry Kane missed a penalty for Bayern Munich and was punished by Fabio Silva’s late equaliser as Borussia Dortmund earned a 2-2 draw in Der Klassiker.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-fabio-silva-bundesliga_7393279.jpg?20261031193053" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-fabio-silva-bundesliga_7393279.jpg?20261031193053" medium="image"/>
 </item>
 <item>
 <title>Notre Dame tops Navy, but maddening moments stick out with No. 1 Miami up next</title>
@@ -728,17 +1014,6 @@
 <description>Spurs recorded a hugely encouraging win against Palace, helped by a controversial Mateta red card</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31151328/GettyImages-2302880143-scaled.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31151328/GettyImages-2302880143-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Naderi strikes late to send Rangers into League Cup final</title>
-<link>https://www.skysports.com/football/news/12040/13605283/rangers-1-0-aberdeen-ryan-naderi-strikes-late-to-send-gers-into-premier-sports-cup-final</link>
-<guid isPermaLink="false">9b83c05b55f950ba7d1def31d569db278d39b6272180b2de227131d9046f7769</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 19:20:00 +0000</pubDate>
-<description>Ryan Naderi's dramatic late strike broke down Aberdeen for a 1-0 win to book Rangers a place in the Premier Sports Cup final.</description>
-<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-ryan-naderi-league-cup_7393316.jpg?20261031195451" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-ryan-naderi-league-cup_7393316.jpg?20261031195451" medium="image"/>
 </item>
 <item>
 <title>Regis Le Bris says Sunderland struggles were expected, club 'obviously' in relegation battle</title>
@@ -785,15 +1060,15 @@
 <media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-glasner-forest_7393259.jpg?20261031191441" medium="image"/>
 </item>
 <item>
-<title>Mbilli pressing Canelo over first half of world title fight LIVE!</title>
-<link>https://www.skysports.com/boxing/live-blog/12040/13606411/canelo-alvarez-vs-christian-mbilli-live-updates-undercard-news-results-as-canelo-challenges-mbilli-for-world-title</link>
-<guid isPermaLink="false">3d0a02694ec107fdea568323452939326172830476ca4d3d6f7e94d8c4008ab2</guid>
-<source>Sky Sports Football</source>
+<title>Canelo emotional after world title win: 'Something unbelievable'</title>
+<link>https://www.skysports.com/boxing/live-blog/12183/13606411/canelo-alvarez-vs-christian-mbilli-live-updates-undercard-news-results-as-canelo-challenges-mbilli-for-world-title</link>
+<guid isPermaLink="false">b5fa3481bfd4a03387669670f4968ca72e53aa4f39f4b266c5835656cc8e17d4</guid>
+<source>Sky Sports Boxing</source>
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 18:55:00 +0000</pubDate>
 <description></description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-canelo-alvarez-christian-mbilli_7393202.jpg?20261031184632" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-canelo-alvarez-christian-mbilli_7393202.jpg?20261031184632" medium="image"/>
+<enclosure url="https://e0.365dm.com/23/10/1920x1080/skysports-saul-canelo-alvarez_6304880.jpg?20231001141004" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/23/10/1920x1080/skysports-saul-canelo-alvarez_6304880.jpg?20231001141004" medium="image"/>
 </item>
 <item>
 <title>What do Manchester United do now? Is there a plan?</title>
@@ -816,17 +1091,6 @@
 <description>According to the case file obtained by NBC26, three women alleged to police that Jacobs physically abused them.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31140211/2026-10-30T022458Z_1204754790_MT1USATODAY30221418_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-GREEN-BAY-PACKERS-scaled-e1793469749372.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31140211/2026-10-30T022458Z_1204754790_MT1USATODAY30221418_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-GREEN-BAY-PACKERS-scaled-e1793469749372.jpg" medium="image"/>
-</item>
-<item>
-<title>Suzuki own goal gets Fulham a draw at Aston Villa LIVE!</title>
-<link>https://www.skysports.com/football/aston-villa-vs-fulham/live/559524</link>
-<guid isPermaLink="false">9da4f7bf4493cce689b33e3e70064f4a34c5c30543605af004d4d57e34c4f779</guid>
-<source>Sky Sports Premier League</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 18:41:00 +0000</pubDate>
-<description></description>
-<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-aston-villa-fulham_7393438.jpg?20261031213707" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-aston-villa-fulham_7393438.jpg?20261031213707" medium="image"/>
 </item>
 <item>
 <title>Norris pips Antonelli in final practice to set up thrilling Mexico qualifying</title>
@@ -860,17 +1124,6 @@
 <description>Oleksandr Usyk may have already had his last fight as a heavyweight.</description>
 <enclosure url="https://e2.365dm.com/21/09/1920x1080/skysports-oleksandr-usyk-boxing_5523630.jpg?20210924142725" type="image/jpeg"/>
 <media:content url="https://e2.365dm.com/21/09/1920x1080/skysports-oleksandr-usyk-boxing_5523630.jpg?20210924142725" medium="image"/>
-</item>
-<item>
-<title>Watch: Bacio scorches the turf at the Breeders' Cup!</title>
-<link>https://www.skysports.com/watch/video/13606378/watch-bacio-scorches-the-turf-at-the-breeders-cup</link>
-<guid isPermaLink="false">ac2329770a87e86c626ded077f2e6175237f900eb0d6633a43e7caa580c918db</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 18:09:00 +0000</pubDate>
-<description>Bacio delivered a blockbuster performance with an ultra-impressive success in the Breeders' Cup Turf Sprint.</description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-bacio-breeders-cup_7393132.jpg?20261031181521" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-bacio-breeders-cup_7393132.jpg?20261031181521" medium="image"/>
 </item>
 <item>
 <title>Needed from next Big 12 commissioner? Standing up to Power 2, maintaining relevance</title>
@@ -924,30 +1177,19 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:32:46 +0000</pubDate>
 <description>Find out how to watch the Atlanta Dream play the Golden State Valkyries, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31173351/lpC2Fuk.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31173351/lpC2Fuk.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31213251/kSlsoOt.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31213251/kSlsoOt.jpg" medium="image"/>
 </item>
 <item>
-<title>Hull City latest: Jakirovic praises mentality after second-half fightback</title>
-<link>https://www.skysports.com/football/live-blog/11661/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights</link>
-<guid isPermaLink="false">5c8b9bd0dcc970a0c83188ceaeba428269a6596622b77a013dca0b3757b7cc9e</guid>
-<source>Sky Sports Premier League</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:30:00 +0000</pubDate>
-<description></description>
-<enclosure url="https://e0.365dm.com/26/08/1920x1080/skysports-hull-city-club-blog_7326699.jpg?20260820165339" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/08/1920x1080/skysports-hull-city-club-blog_7326699.jpg?20260820165339" medium="image"/>
-</item>
-<item>
-<title>SLC semis: Rangers 1-0 Aberdeen - Full Time</title>
-<link>https://www.skysports.com/football/rangers-vs-aberdeen/teams/558404</link>
-<guid isPermaLink="false">2bf370859bf4c0c23060644efb4f42a9551e2bf3e07bfb529540044c5be5f7bf</guid>
+<title>USA's Novak builds six-shot lead after three rounds at Mexico Open</title>
+<link>https://www.skysports.com/golf/news/12040/13606307/mexico-open-andrew-novak-builds-six-shot-lead-after-three-rounds-at-pga-tour-event-following-stellar-saturday-display</link>
+<guid isPermaLink="false">d009e68180aed5df89202130895c44fe7af955db2c234b00b58494b4ce36697d</guid>
 <source>Sky Sports Football</source>
 <category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:25:00 +0000</pubDate>
-<description></description>
-<enclosure url="https://e1.365dm.com/26/08/1920x1080/skysports-findlay-curtis-kevin-nisbet_7335487.jpg?20260830121133" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/08/1920x1080/skysports-findlay-curtis-kevin-nisbet_7335487.jpg?20260830121133" medium="image"/>
+<pubDate>Sat, 31 Oct 2026 17:20:00 +0000</pubDate>
+<description>Andrew Novak built a comfortable lead at the turn and then poured it on by going five under par on the first five holes of the back nine on his way to a nine-under 62 as he built a six-shot lead at the Mexico Open.</description>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-novak-pga-tour-golf_7393570.jpg?20261031235129" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-novak-pga-tour-golf_7393570.jpg?20261031235129" medium="image"/>
 </item>
 <item>
 <title>England's Mitchell injured as Northampton, Bath, Saracens, Quins pick up Prem wins</title>
@@ -959,28 +1201,6 @@
 <description>Alex Mitchell provided an injury worry for England ahead of the Nations Championship as the scrum-half was forced off during Northampton's 28-14 win against Gloucester on Saturday evening.</description>
 <enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-alex-mitchell-rugby_7393324.jpg?20261031200333" type="image/jpeg"/>
 <media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-alex-mitchell-rugby_7393324.jpg?20261031200333" medium="image"/>
-</item>
-<item>
-<title>Chelsea capitalise on second-half implosion to defeat 10-man Man Utd</title>
-<link>https://www.skysports.com/watch/video/13606146/chelsea-2-0-manchester-united-premier-league-highlights</link>
-<guid isPermaLink="false">144894b87d0ee4c0965e16c68c1cdaca183251563a42ba407c2bbf1df85be851</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:15:00 +0000</pubDate>
-<description>FREE TO WATCH: Highlights from Chelsea’s match against Manchester United in the Premier League.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-chelsea-man-u_7392697.jpg?20261031145739" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-chelsea-man-u_7392697.jpg?20261031145739" medium="image"/>
-</item>
-<item>
-<title>Lankshear scores twice in Boro win</title>
-<link>https://www.skysports.com/football/middlesbrough-vs-charlton-athletic/report/560645</link>
-<guid isPermaLink="false">af5d16c41fb953cd9e4d76081603d59de9584b99674c2b71234272000c270cf2</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:15:00 +0000</pubDate>
-<description>In-form Will Lankshear bagged a brace as Middlesbrough maintained their position at the Championship summit with a comprehensive 3-0 victory over Charlton at the Riverside.</description>
-<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-middlesbrough-fc_7392835.jpg?20261031161835" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-middlesbrough-fc_7392835.jpg?20261031161835" medium="image"/>
 </item>
 <item>
 <title>Alcaraz reaches first Vienna final as De Minaur upsets Zverev</title>
@@ -1001,8 +1221,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:12:18 +0000</pubDate>
 <description>Find out how to watch the Cleveland Cavaliers play the Milwaukee Bucks, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170528/PyArab6.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170528/PyArab6.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190431/DmEnFAj.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190431/DmEnFAj.jpg" medium="image"/>
 </item>
 <item>
 <title>How to watch Thunder vs. Rockets: TV channel and streaming options for October 31</title>
@@ -1012,8 +1232,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:10:20 +0000</pubDate>
 <description>Find out how to watch the Oklahoma City Thunder play the Houston Rockets, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170523/llDJLpT.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170523/llDJLpT.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31210442/HsaHrUO.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31210442/HsaHrUO.jpg" medium="image"/>
 </item>
 <item>
 <title>St Johnstone fight back from Steward dismissal to take point at Kilmarnock</title>
@@ -1025,17 +1245,6 @@
 <description>St Johnstone battled to a terrific 2-2 draw with 10 men as Kilmarnock's woes continued.</description>
 <enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-johnstone-st-kilmarnock_7393038.jpg?20261031174022" type="image/jpeg"/>
 <media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-johnstone-st-kilmarnock_7393038.jpg?20261031174022" medium="image"/>
-</item>
-<item>
-<title>Fadinger's penalty downs St Mirren to end Motherwell's winless run</title>
-<link>https://www.skysports.com/football/motherwell-vs-st-mirren/report/558403</link>
-<guid isPermaLink="false">31a7b8f725d82f24bc7289b0857ebd8ab1a4e6ec3228d7158a5561b6077b87e9</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:08:00 +0000</pubDate>
-<description>Lukas Fadinger's late penalty brought Motherwell's seven-game winless run to an end and delivered three much-needed Scottish Premiership points against out-of-sorts St Mirren.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-lukas-fadinger-motherwell_7392955.jpg?20261031170656" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-lukas-fadinger-motherwell_7392955.jpg?20261031170656" medium="image"/>
 </item>
 <item>
 <title>Bournemouth 2 Leeds 0: A self-inflicted defeat, but is form cause for concern?</title>
@@ -1056,8 +1265,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:06:36 +0000</pubDate>
 <description>Find out how to watch the Sacramento Kings play the Memphis Grizzlies, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170511/Iuunk8O.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170511/Iuunk8O.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190957/3Gecr1w.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190957/3Gecr1w.jpg" medium="image"/>
 </item>
 <item>
 <title>How to watch Timberwolves vs. Spurs: TV channel and streaming options for October 31</title>
@@ -1067,8 +1276,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:06:28 +0000</pubDate>
 <description>Find out how to watch the Minnesota Timberwolves play the San Antonio Spurs, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170631/s0UDJ7O.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170631/s0UDJ7O.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190522/Nw3AZwg.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190522/Nw3AZwg.jpg" medium="image"/>
 </item>
 <item>
 <title>Ballon d'Or voting: The two nations that snubbed Kane, Fernandes' bad year and Greece's bizarre top 10</title>
@@ -1082,18 +1291,7 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31121025/GettyImages-2302143432-scaled-e1793463041103.jpg" medium="image"/>
 </item>
 <item>
-<title>Bournemouth punish Trafford horror error to sink Leeds</title>
-<link>https://www.skysports.com/football/bournemouth-vs-leeds-united/report/559525</link>
-<guid isPermaLink="false">de77bbe7e2c8ae5bf70009fabc0320c22154f4011e66a0136204aa6a3116d1ae</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 17:00:00 +0000</pubDate>
-<description>Bournemouth made it six wins on the spin in all competitions without conceding as they beat toothless Leeds 2-0.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-bournemouth_7392764.jpg?20261031154029" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-bournemouth_7392764.jpg?20261031154029" medium="image"/>
-</item>
-<item>
-<title>PL Predictions: Spurs set for statement win over Palace</title>
+<title>PL Predictions: Can Liverpool catapult into the title race?</title>
 <link>https://www.skysports.com/football/news/11661/13604412/premier-league-predictions-jones-knows-best-bets-liverpool-vs-arsenal-crystal-palace-vs-tottenham-and-much-more</link>
 <guid isPermaLink="false">e94697116c6778a02a470b294854b9e0b1bb05c99127990b25a073d770b4747d</guid>
 <source>Sky Sports Premier League</source>
@@ -1115,15 +1313,15 @@
 <media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-erling-haaland-premier-league_7392885.jpg?20261031164305" medium="image"/>
 </item>
 <item>
-<title>Coventry cruise past Sunderland to climb out of drop zone</title>
-<link>https://www.skysports.com/football/coventry-city-vs-sunderland/report/559528</link>
-<guid isPermaLink="false">dc448bfefe4e7e2f7c37169a7556f8a07f94a2a418d50f2a2cf53a75fc21c753</guid>
+<title>Bournemouth punish Trafford horror error to sink Leeds</title>
+<link>https://www.skysports.com/football/bournemouth-vs-leeds-united/report/559525</link>
+<guid isPermaLink="false">de77bbe7e2c8ae5bf70009fabc0320c22154f4011e66a0136204aa6a3116d1ae</guid>
 <source>Sky Sports Premier League</source>
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 17:00:00 +0000</pubDate>
-<description>Coventry climbed out of the Premier League relegation zone as they cruised to victory over bottom side Sunderland.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-jack-rudoni_7392896.jpg?20261031165034" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-jack-rudoni_7392896.jpg?20261031165034" medium="image"/>
+<description>Bournemouth made it six wins on the spin in all competitions without conceding as they beat toothless Leeds 2-0.</description>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-bournemouth_7392764.jpg?20261031154029" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-bournemouth_7392764.jpg?20261031154029" medium="image"/>
 </item>
 <item>
 <title>Hadjar given formal warning following paddock altercation with fan</title>
@@ -1254,8 +1452,8 @@
 <category>sports</category>
 <pubDate>Sat, 31 Oct 2026 15:04:14 +0000</pubDate>
 <description>Find out how to watch the Atlanta Hawks play the New Orleans Pelicans, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170434/KFOfT88.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31170434/KFOfT88.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190442/fdVrFHd.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31190442/fdVrFHd.jpg" medium="image"/>
 </item>
 <item>
 <title>Ryo Hirakawa to make F1 debut with Haas, replacing Esteban Ocon for Mexico City Grand Prix</title>
@@ -1368,17 +1566,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31085551/GettyImages-2302734614-scaled.jpg" medium="image"/>
 </item>
 <item>
-<title>Forest fans boo their team as scoring woes continue in loss at Brentford</title>
-<link>https://www.skysports.com/football/brentford-vs-nottingham-forest/report/559526</link>
-<guid isPermaLink="false">3fec9d75b118ac56a66a0636be260e303e86ef92fbb2025477e477c9a90e31a1</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 13:29:00 +0000</pubDate>
-<description>Nottingham Forest's poor goalscoring run continued as wasteful finishing contributed to a 2-0 defeat at Brentford – and they were booed off by their own angry fans.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-brentford_7392774.jpg?20261031154712" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-premier-league-brentford_7392774.jpg?20261031154712" medium="image"/>
-</item>
-<item>
 <title>Martinez sent off as Man Utd implode against Chelsea</title>
 <link>https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527</link>
 <guid isPermaLink="false">fe28aa635398d192e9045068408d79c6a88532d6fcafc913daafb408e8827fd4</guid>
@@ -1467,17 +1654,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31074459/GwA5lQP.jpg" medium="image"/>
 </item>
 <item>
-<title>AJ Dybantsa answers dad’s challenge, shows he can be 'a two-way impact player'</title>
-<link>https://www.nytimes.com/athletic/7740778/2026/10/31/aj-dybantsa-washington-wizards-charlotte-hornets</link>
-<guid isPermaLink="false">7e7c02a763cc90ed3b7d33a3cbdca6f9e7c64878d1cb36f32afece3dcec40515</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:30:54 +0000</pubDate>
-<description>The No. 1 pick in the 2026 NBA Draft can score. In his regular-season home debut, he proves he can defend, too.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31005816/2026-10-31T011501Z_365387472_MT1USATODAY30229844_RTRMADP_3_NBA-CHARLOTTE-HORNETS-AT-WASHINGTON-WIZARDS-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31005816/2026-10-31T011501Z_365387472_MT1USATODAY30229844_RTRMADP_3_NBA-CHARLOTTE-HORNETS-AT-WASHINGTON-WIZARDS-scaled.jpg" medium="image"/>
-</item>
-<item>
 <title>Dart reaches first WTA Tour final after dramatic comeback</title>
 <link>https://www.skysports.com/tennis/news/12110/13606067/guangzhou-open-harriet-dart-reaches-first-wta-tour-final-after-dramatic-comeback-against-chinese-teenager-sun-xinran</link>
 <guid isPermaLink="false">a164847b1b806813f2262e844cf3b3a883971d2afc935d1386f7e58ab24df86f</guid>
@@ -1487,61 +1663,6 @@
 <description>Harriet Dart is through to her first WTA Tour singles final after beating Sun Xinran 5-7 7-6 (7-1) 6-0 at the Guangzhou Open.</description>
 <enclosure url="https://e1.365dm.com/26/08/1920x1080/skysports-harriet-dart-tennis_7336702.jpg?20260831162857" type="image/jpeg"/>
 <media:content url="https://e1.365dm.com/26/08/1920x1080/skysports-harriet-dart-tennis_7336702.jpg?20260831162857" medium="image"/>
-</item>
-<item>
-<title>The Bulls weren't beaten; they were bludgeoned. 'It's unacceptable to be losing like we are'</title>
-<link>https://www.nytimes.com/athletic/7741049/2026/10/31/bulls-wilson-giddey-splitter-celtics</link>
-<guid isPermaLink="false">ea945192a58e56c88a3198bf28cb0efb7f5f1d28464cdbee612aa2ae9df50385</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:15:07 +0000</pubDate>
-<description>The 125-111 defeat brought levels of demoralization that the final score won’t display. These Bulls were left questioning their effort.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31060036/2026-10-31T013504Z_1346558422_MT1USATODAY30230216_RTRMADP_3_NBA-CHICAGO-BULLS-AT-BOSTON-CELTICS-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31060036/2026-10-31T013504Z_1346558422_MT1USATODAY30230216_RTRMADP_3_NBA-CHICAGO-BULLS-AT-BOSTON-CELTICS-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Soft? Selfish? Flyers' much-talked-about culture suddenly is in the spotlight</title>
-<link>https://www.nytimes.com/athletic/7739925/2026/10/31/flyers-culture-sean-couturier-soft-comments</link>
-<guid isPermaLink="false">83e475ecbd4d7cf2b501393354feb53cc135190efb013255563c0dc8b1bd8edb</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:12:46 +0000</pubDate>
-<description>The hole the Flyers have dug for themselves might already be too deep to climb out of, and it's not even November yet.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30212038/2026-10-11T225510Z_786702351_MT1USATODAY30061232_RTRMADP_3_NHL-CAROLINA-HURRICANES-AT-PHILADELPHIA-FLYERS-scaled-e1793409656811.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30212038/2026-10-11T225510Z_786702351_MT1USATODAY30061232_RTRMADP_3_NHL-CAROLINA-HURRICANES-AT-PHILADELPHIA-FLYERS-scaled-e1793409656811.jpg" medium="image"/>
-</item>
-<item>
-<title>How to watch Trail Blazers vs. Jazz: TV channel and streaming options for October 31</title>
-<link>https://www.nytimes.com/athletic/7741160/2026/10/31/trail-blazers-vs-jazz-stream-how-to-watch-oct-31</link>
-<guid isPermaLink="false">8c7e022a97a0df1ded39e5e969784e607bca5d69c6b0c91ca1e2d4222386794b</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:04:50 +0000</pubDate>
-<description>Find out how to watch the Portland Trail Blazers play the Utah Jazz, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31150632/ZgmqZf3.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31150632/ZgmqZf3.jpg" medium="image"/>
-</item>
-<item>
-<title>Behind Kirill Kaprizov's scoring tear: A heart-to-heart with Bill Guerin and a 78-goal pace</title>
-<link>https://www.nytimes.com/athletic/7739465/2026/10/31/kirill-kaprizov-rocket-richard-goals-pace</link>
-<guid isPermaLink="false">1cb347d53faeda3e61c28f16e3b0384ef3f08373f7ca4aa9a4e265c281537518</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:00:58 +0000</pubDate>
-<description>The Wild superstar winger has 14 goals in 15 games to open the 2026-27 season — on his way to a potential Rocket Richard season.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30194643/GettyImages-2301957735-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30194643/GettyImages-2301957735-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Klay Thompson's 3-point explosion unlocks 'exponential effect' for Heat</title>
-<link>https://www.nytimes.com/athletic/7740777/2026/10/31/klay-thompsons-3-point-explosion-unlocks-exponential-effect-for-heat</link>
-<guid isPermaLink="false">1a69e2f2ac8b3c4eb6a5145300893a8b5b9b1280f1135340322d6e8b7c2d6e0f</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 31 Oct 2026 11:00:57 +0000</pubDate>
-<description>Klay Thompson was due for a big night. He knocked down seven 3-pointers against the Indiana Pacers on Friday.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31022218/2026-10-31T015323Z_1378793453_MT1USATODAY30231484_RTRMADP_3_NBA-INDIANA-PACERS-AT-MIAMI-HEAT-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/31022218/2026-10-31T015323Z_1378793453_MT1USATODAY30231484_RTRMADP_3_NBA-INDIANA-PACERS-AT-MIAMI-HEAT-scaled.jpg" medium="image"/>
 </item>
 <item>
 <title>Connections: Sports Edition today: Hints and answers for Oct. 31, 2026, puzzle No. 768</title>
@@ -1831,25 +1952,14 @@
 </item>
 <item>
 <title>Hits and misses: Martinez sums up Man Utd disorder as Brighton dare to dream</title>
-<link>https://www.skysports.com/football/news/12040/13605884/lisandro-martinez-red-card-sums-up-dysfunction-at-man-utd-as-brighton-post-statement-win-to-spark-title-talk-premier-league-hits-and-misses</link>
-<guid isPermaLink="false">7688c353662850952c4046c6cc009bb55c62fabe5d3f528cda7b4726bf96d61e</guid>
-<source>Sky Sports Football</source>
+<link>https://www.skysports.com/football/news/11661/13605884/lisandro-martinez-red-card-sums-up-dysfunction-at-man-utd-as-brighton-post-statement-win-to-spark-title-talk-premier-league-hits-and-misses</link>
+<guid isPermaLink="false">d580355be110b89225eef7f64178c4f6b73963d3aca0b8a735155c98e304662f</guid>
+<source>Sky Sports Premier League</source>
 <category>sports</category>
 <pubDate>Fri, 30 Oct 2026 19:13:00 +0000</pubDate>
 <description></description>
 <enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-premier-league-hits-and-misses_7393214.jpg?20261031185319" type="image/jpeg"/>
 <media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-premier-league-hits-and-misses_7393214.jpg?20261031185319" medium="image"/>
-</item>
-<item>
-<title>Ja Morant suffers Grade 2 hamstring injury, to miss at least 4 weeks</title>
-<link>https://www.nytimes.com/athletic/7738923/2026/10/30/ja-morant-injury-hamstring-trail-blazers</link>
-<guid isPermaLink="false">556748a661d0d46e55de2128c4cb24d02a9478b721ba56257f6e20487c1410a4</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 18:44:54 +0000</pubDate>
-<description>The Trail Blazers guard hurt himself in his fourth game with Portland.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30102627/GettyImages-2302633244-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30102627/GettyImages-2302633244-scaled.jpg" medium="image"/>
 </item>
 <item>
 <title>Zverev repeats Wimbledon victory over Fery to reach Vienna semi-finals</title>
@@ -1863,136 +1973,15 @@
 <media:content url="https://e1.365dm.com/26/09/1920x1080/skysports-arthur-fery-tennis_7338355.jpg?20260902042952" medium="image"/>
 </item>
 <item>
-<title>Emi Martinez says finger 'won't ever return' to normal after playing through injury at World Cup</title>
-<link>https://www.nytimes.com/athletic/7739373/2026/10/30/emi-martinez-world-cup-finger-injury</link>
-<guid isPermaLink="false">367aae14532b8d57ddb40fd389d2009e0f6ae20dfa7ea17d5637e3970de525c0</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 18:32:04 +0000</pubDate>
-<description>Martinez said he would "see stars" while playing after opting against surgery for the fracture he sustained before the Europa League final.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30135949/GettyImages-2298448898-scaled-e1793383211866.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30135949/GettyImages-2298448898-scaled-e1793383211866.jpg" medium="image"/>
-</item>
-<item>
-<title>Mariners, still searching for a manager, add CJ Gillman as hitting coach: Sources</title>
-<link>https://www.nytimes.com/athletic/7739471/2026/10/30/mariners-hitting-coach-cj-gillman</link>
-<guid isPermaLink="false">939159798e76c3fd5257a4d025d728fff15fbbf3b7d09597393759a4d788771c</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 18:30:07 +0000</pubDate>
-<description>Gillman spent last season as the director of hitting for the Washington Nationals.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30141920/GettyImages-2269275373-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30141920/GettyImages-2269275373-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Bears' big move for Jeffery Simmons told him 'everything I needed to know'</title>
-<link>https://www.nytimes.com/athletic/7739053/2026/10/30/bears-jeffery-simmons-trade-ryan-poles</link>
-<guid isPermaLink="false">f5092e81bc381040d14b3c74b5fcf23f77cc6035da1a4f16b63a0e0f42fdda1c</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 18:13:03 +0000</pubDate>
-<description>GM Ryan Poles said this week’s trade for Simmons gave the Bears “a shot in the arm” and that the building was “on fire” Thursday.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30113123/GettyImages-2296266655-1-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30113123/GettyImages-2296266655-1-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Chelsea's Maxence Lacroix feared to be out until January with hamstring injury</title>
-<link>https://www.nytimes.com/athletic/7735223/2026/10/30/maxence-lacroix-injury-chelsea</link>
-<guid isPermaLink="false">54d636d0c8a2c1d933673901a633847fdaafaac6704e76499c1b6c5ef1bfe810</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 17:23:47 +0000</pubDate>
-<description>Lacroix joined Chelsea from Crystal Palace in the summer and had started 11 of their opening 12 games of the season.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/29061702/lacroix-injury-chelsea-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/29061702/lacroix-injury-chelsea-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Nebraska QB Anthony Colandrea agrees to return for 2027 season</title>
-<link>https://www.nytimes.com/athletic/7739165/2026/10/30/anthony-colandrea-nebraska-matt-rhule-2027-season</link>
-<guid isPermaLink="false">10dda928247b490ae40d207b9330628c3ad930b3db13713a4cdfb56f5e9160a4</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 17:04:52 +0000</pubDate>
-<description>Colandrea arrived via the portal in January after the transfer of former five-star prospect Dylan Raiola.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30120446/GettyImages-2300238815-scaled-e1793376305260.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30120446/GettyImages-2300238815-scaled-e1793376305260.jpg" medium="image"/>
-</item>
-<item>
-<title>Mexico City GP: Hamilton claims first Ferrari pole LIVE!</title>
+<title>Lawson disqualified from Mexico qualifying after technical breach</title>
 <link>https://www.skysports.com/f1/live-blog/12040/13605837/f1-mexico-city-gp-live-qualifying-and-final-practice-updates-results-stream-highlights-from-formula-1-race-weekend-at-autodromo-hermanos-rodriguez</link>
 <guid isPermaLink="false">3637f8be3e2dde7aaac036b6eb14e18bfebf7cc97d21a27d641d165ea1b26498</guid>
 <source>Sky Sports Football</source>
 <category>sports</category>
 <pubDate>Fri, 30 Oct 2026 17:00:00 +0000</pubDate>
 <description></description>
-<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393428.jpg?20261031212907" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7393428.jpg?20261031212907" medium="image"/>
-</item>
-<item>
-<title>La Liga referees set for televised post-match interviews in league first</title>
-<link>https://www.nytimes.com/athletic/7738648/2026/10/30/la-liga-referees-interviews</link>
-<guid isPermaLink="false">9a181885df4bef19aa75b371745da337678c5b332e22071f8df5deec3d28537d</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 15:53:10 +0000</pubDate>
-<description>The initiative will start this weekend, with Levante vs. Atletico Madrid and then the Basque derby between Athletic Club and Real Sociedad.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30113858/GettyImages-2243418076-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30113858/GettyImages-2243418076-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Big 12 commissioner Brett Yormark stepping down for opportunity outside college sports</title>
-<link>https://www.nytimes.com/athletic/7738944/2026/10/30/big-12-commissioner-brett-yormark-departing</link>
-<guid isPermaLink="false">442540e0a392c7123fe5102c7145d0ffcb46e017deb8e481798821340b0338fc</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 14:53:09 +0000</pubDate>
-<description>Early on, Yormark made it a key part of his job to grow the conference's footprint in many ways.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2025/07/09202511/GettyImages-2224123182-scaled-e1752107134911.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2025/07/09202511/GettyImages-2224123182-scaled-e1752107134911.jpg" medium="image"/>
-</item>
-<item>
-<title>Ryan Gravenberch backed by Andoni Iraola to refind best Liverpool form: 'We trust him'</title>
-<link>https://www.nytimes.com/athletic/7738832/2026/10/30/ryan-gravenberch-liverpool-form-andoni-iraola</link>
-<guid isPermaLink="false">1618fa6e0e53c7ca014e743e10b32acb4037c83d040efb86cfc1d52330263a67</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 14:52:01 +0000</pubDate>
-<description>The 24-year-old midfielder conceded a penalty against Chelsea in the Carabao Cup last-16 tie before missing his own effort in the shootout.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30100455/GettyImages-2294164521-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30100455/GettyImages-2294164521-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>'We are not in Disneyland': Arsenal's Mikel Arteta defends his reaction to Max Dowman red card</title>
-<link>https://www.nytimes.com/athletic/7738958/2026/10/30/disneyland-arteta-dowman-red-card-fleetwood-appeal</link>
-<guid isPermaLink="false">c857b582c4197d4786de0880c5ebed885dd1280486b48faa48b9b10bb7c436fe</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 14:44:07 +0000</pubDate>
-<description>Arteta also said he was "very disappointed" that the club's appeal against Dowman's sending off was dismissed by an independent commission.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/27194820/GettyImages-2302290709.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/27194820/GettyImages-2302290709.jpg" medium="image"/>
-</item>
-<item>
-<title>Xabi Alonso says no talk of Estevao leaving Chelsea in January, Maxence Lacroix out for 'weeks'</title>
-<link>https://www.nytimes.com/athletic/7738834/2026/10/30/estevao-chelsea-future-alonso</link>
-<guid isPermaLink="false">0ec9fbb00289a9bd099e14442b18fade22e72855cf0fb870a094a9c718b5e268</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 14:35:39 +0000</pubDate>
-<description>The 19-year-old was included in the Brazil squad despite has lack of recent minutes at Chelsea under Alonso.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30100623/estevao-oct-26-scaled-e1793369231565.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30100623/estevao-oct-26-scaled-e1793369231565.jpg" medium="image"/>
-</item>
-<item>
-<title>Panthers fire defensive coordinator Ejiro Evero after 3 1/2 seasons</title>
-<link>https://www.nytimes.com/athletic/7738893/2026/10/30/panthers-defensive-coordinator-fired-ejiro-evero</link>
-<guid isPermaLink="false">f76ba7b676c90e172bb6a0dd90759ccb3f8d68082e67db2eedaf557ccf37c4e2</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 30 Oct 2026 14:28:54 +0000</pubDate>
-<description>The Panthers allowed 59 points in Week 1 to the Bears and 43 points in Week 7 to the Buccaneers and are 27th in the NFL in scoring defense.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30102544/AP26281086425368-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/30102544/AP26281086425368-scaled.jpg" medium="image"/>
+<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-liam-lawson-formula-one_7393575.jpg?20261031235858" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-liam-lawson-formula-one_7393575.jpg?20261031235858" medium="image"/>
 </item>
 <item>
 <title>What does Djokovic need to do to qualify for ATP Finals in Turin?</title>
@@ -2039,7 +2028,7 @@
 <media:content url="https://e2.365dm.com/26/10/1920x1080/sky-sports-swiss-indoors-basel_7391754.jpg?20261030104312" medium="image"/>
 </item>
 <item>
-<title>Arsenal latest: Arteta quizzed on Rice, Madueke and Calafiori fitness</title>
+<title>Arsenal latest: Arteta says Rice deal only a 'matter of time'</title>
 <link>https://www.skysports.com/football/live-blog/11661/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts</link>
 <guid isPermaLink="false">8edf9ad4ee415ec7c75128b402ac412b90eb1ae728dcea0de805a8e3fcce851f</guid>
 <source>Sky Sports Premier League</source>
@@ -2105,39 +2094,6 @@
 <media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/NDhmQJet3Xa2_Ulo233Kegp0U_1440x960.jpg" medium="image"/>
 </item>
 <item>
-<title>'I'm built differently' - Hamilton defiant over extending F1 career into 2030s</title>
-<link>https://www.skysports.com/f1/news/12433/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s</link>
-<guid isPermaLink="false">f55acb457a045806bb4ccf6bb772b9cfbcfd52b64a776004612314e1f914429e</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Thu, 29 Oct 2026 23:30:00 +0000</pubDate>
-<description>Lewis Hamilton insisted he "is built differently" as he continued to rule out extending his Formula 1 career into the 2030s.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7391535.jpg?20261029232814" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-lewis-hamilton-ferrari_7391535.jpg?20261029232814" medium="image"/>
-</item>
-<item>
-<title>Russell: 2026 F1 season won't break me</title>
-<link>https://www.skysports.com/f1/news/12433/13605424/george-russell-mercedes-driver-insists-2026-formula-1-season-wont-break-me-as-he-looks-set-to-lose-title-to-kimi-antonelli</link>
-<guid isPermaLink="false">81b9d3b674735a72b897c70e441985b2835841a2c246b3fd843439269947af71</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Thu, 29 Oct 2026 22:16:00 +0000</pubDate>
-<description>George Russell insists this year's Formula 1 season "won't break me" as Kimi Antonelli is set to become world champion this weekend in Mexico.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-george-russell_7391475.jpg?20261029220249" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-george-russell_7391475.jpg?20261029220249" medium="image"/>
-</item>
-<item>
-<title>'Lack of talent' - Alonso doubles down on Albon criticism</title>
-<link>https://www.skysports.com/f1/news/12433/13605423/fernando-alonso-doubles-down-on-alex-albon-and-f1-field-criticism-ahead-of-mexico-city-grand-prix</link>
-<guid isPermaLink="false">a9f571ac52c5430e9a6bd88bc7c8d18e0148ed033c461e0d99226f691c1c040c</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Thu, 29 Oct 2026 21:05:00 +0000</pubDate>
-<description>Aston Martin's Fernando Alonso has doubled down on his criticism of "low level" Formula 1 drivers who have a "lack of talent" following his collision with Williams' Alex Albon in Austin.</description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-f1-fernando-alonso_7391319.jpg?20261029194434" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-f1-fernando-alonso_7391319.jpg?20261029194434" medium="image"/>
-</item>
-<item>
 <title>McCullum: Brook one of best tactical captains I've come across</title>
 <link>https://www.skysports.com/cricket/news/12123/13605472/england-head-coach-brendon-mccullum-hails-captain-harry-brook-after-tourists-end-odi-tri-series-with-consolation-win</link>
 <guid isPermaLink="false">7bc1b88759adb7ebb9fab41f6dfb585569ae8c0d3d270bdf61ade1e3a9878ff8</guid>
@@ -2158,17 +2114,6 @@
 <description>Carlos Alcaraz was forced to work hard to reach the quarter-finals of the Vienna Open, as the world No 3 was taken to a dramatic second-set tiebreak by Nikoloz Basilashvili, before he sealed a 6-1 7-6 (13-11) victory.</description>
 <enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-carlos-alcaraz_7391185.jpg?20261029175810" type="image/jpeg"/>
 <media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-carlos-alcaraz_7391185.jpg?20261029175810" medium="image"/>
-</item>
-<item>
-<title>Antonelli misses Mexico media day with viral illness</title>
-<link>https://www.skysports.com/f1/news/12433/13605421/kimi-antonelli-to-miss-mexico-city-gp-media-day-due-to-viral-illness-ahead-of-likely-world-championship-coronation</link>
-<guid isPermaLink="false">aa18fb38ae2541cd1c6ff91561ae682f99e0f4767065984361cec4391f481fb5</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Thu, 29 Oct 2026 17:00:00 +0000</pubDate>
-<description>Kimi Antonelli missed Thursday's media day at the Mexico City Grand Prix due to a viral illness ahead of the weekend when he will likely become Formula 1 world champion.</description>
-<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-kimi-antonelli-mercedes_7391128.jpg?20261029171045" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-kimi-antonelli-mercedes_7391128.jpg?20261029171045" medium="image"/>
 </item>
 <item>
 <title>Medvedev PUNCHES court in frustration in clash with Norrie!</title>
@@ -2292,17 +2237,6 @@
 <media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-osaka-naomi-tennis_7390613.jpg?20261030121205" medium="image"/>
 </item>
 <item>
-<title>Wolff explains Antonelli turnaround after tears</title>
-<link>https://www.skysports.com/f1/news/12433/13604769/toto-wolff-explains-kimi-antonelli-turnaround-after-tears-in-belgium-2025-to-likely-world-championship-coronation-at-mexico-city-gp</link>
-<guid isPermaLink="false">2a431ab438533b86bd7ef1cf3db0d034e0904ad7c440fd657a0d0f6191c0e3aa</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Thu, 29 Oct 2026 06:00:00 +0000</pubDate>
-<description>Mercedes team principal Toto Wolff says it is "extremely satisfying" to see Kimi Antonelli's turnaround from last year as the Italian looks to secure the 2026 Formula 1 world title this weekend in Mexico.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-toto-wolff-kimi-antonelli_7389642.jpg?20261028121844" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-toto-wolff-kimi-antonelli_7389642.jpg?20261028121844" medium="image"/>
-</item>
-<item>
 <title>Kayla Allen: From self-taught boxer to star prospect</title>
 <link>https://www.skysports.com/boxing/news/12183/13604844/kayla-allen-from-self-taught-boxer-to-star-prospect-it-started-in-a-unique-way-and-itll-finish-in-a-unique-way</link>
 <guid isPermaLink="false">190474e86cd18cedf4f076a4a6409e86d99d769db99342973483833dd42f17e4</guid>
@@ -2314,17 +2248,6 @@
 <media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-kayla-allen-zuffa-boxing-11_7389824.jpg?20261028135246" medium="image"/>
 </item>
 <item>
-<title>Norris, Verstappen among 10 F1 drivers to miss Mexico first practice</title>
-<link>https://www.skysports.com/f1/news/12433/13604824/mexico-city-gp-max-verstappen-george-russell-lando-norris-among-nine-f1-drivers-to-miss-first-practice</link>
-<guid isPermaLink="false">e442fac4bbb92c8ddbe8bb2c55b1ddbc4be3a98b3192e6d8d92b90a3155b998c</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Wed, 28 Oct 2026 18:30:00 +0000</pubDate>
-<description>Lando Norris and Max Verstappen are among 10 Formula 1 drivers who will miss first practice for the Mexico City Grand Prix this Friday.</description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-f1-lando-norris-max-verstappen_7390123.jpg?20261028182623" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-f1-lando-norris-max-verstappen_7390123.jpg?20261028182623" medium="image"/>
-</item>
-<item>
 <title>Matthew Hatton: Defeat to Mbilli would tarnish Canelo's legacy</title>
 <link>https://www.skysports.com/boxing/news/12183/13604663/canelo-alvarez-would-tarnish-his-legacy-if-he-lost-to-christian-mbilli-on-saturday-says-former-opponent-matthew-hatton</link>
 <guid isPermaLink="false">00a43b0bd0966dcf18d8f6e843dc55b04487f6533008f285ede9c1a062b36b96</guid>
@@ -2334,17 +2257,6 @@
 <description>Canelo Alvarez should now retire, urges former opponent Matthew Hatton.</description>
 <enclosure url="https://e2.365dm.com/25/06/1920x1080/skysports-saul-alvarez-canelo_6948204.jpg?20250622200156" type="image/jpeg"/>
 <media:content url="https://e2.365dm.com/25/06/1920x1080/skysports-saul-alvarez-canelo_6948204.jpg?20250622200156" medium="image"/>
-</item>
-<item>
-<title>Why Ferrari could dominate in Mexico</title>
-<link>https://www.skysports.com/watch/video/13604874/mexico-city-grand-prix-ant-davidson-explains-why-ferrari-could-dominate-in-mexico</link>
-<guid isPermaLink="false">dc232aa93277969624158ba7f176727a00b5e52013102182ac87ba6e9298b594</guid>
-<source>Sky Sports Formula 1</source>
-<category>sports</category>
-<pubDate>Wed, 28 Oct 2026 14:30:00 +0000</pubDate>
-<description>Speaking on F1 Show podcast, Ant Davidson explains why Ferrari could be dominant this weekend at the Mexico City Grand Prix.</description>
-<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-mexico-ferrari_7389887.jpg?20261028144115" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-mexico-ferrari_7389887.jpg?20261028144115" medium="image"/>
 </item>
 <item>
 <title>When Billam-Smith and Clarke went toe-to-toe in 2016</title>
@@ -2622,17 +2534,6 @@
 <media:content url="https://e1.365dm.com/26/05/1920x1080/skysports-dubois-boxing_7244126.jpg?20260510000405" medium="image"/>
 </item>
 <item>
-<title>Cordina: I've been offered Pacquiao fight on AJ-Fury card</title>
-<link>https://www.skysports.com/boxing/news/12183/13602753/joe-cordina-says-hes-been-offered-manny-pacquiao-fight-as-part-of-anthony-joshua-tyson-fury-bill-in-cardiff</link>
-<guid isPermaLink="false">43c2ba88aa541cd3dfe44cea5bb1cee5255158fc43cfc9ada52ce6b62e23f2ab</guid>
-<source>Sky Sports Boxing</source>
-<category>sports</category>
-<pubDate>Fri, 23 Oct 2026 16:45:00 +0000</pubDate>
-<description>Welsh boxer Joe Cordina has told Sky Sports that he has been offered a fight with Manny Pacquiao as part of the undercard for the blockbuster all-British heavyweight clash between Anthony Joshua and Tyson Fury on December.</description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-joe-cordina-boxing_7381998.jpg?20261020175049" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-joe-cordina-boxing_7381998.jpg?20261020175049" medium="image"/>
-</item>
-<item>
 <title>Heroic Shadab century leads Pakistan to incredible comeback win over England</title>
 <link>https://www.skysports.com/cricket/news/12123/13603562/pakistan-vs-england-shadab-khan-makes-maiden-odi-century-in-89-run-last-wicket-stand-to-secure-victory-despite-ben-duckett-ton</link>
 <guid isPermaLink="false">472f2af67de580f6fdd0fa44bd064139085320d9ee07a612d0c57297b0b76270</guid>
@@ -2651,8 +2552,8 @@
 <category>sports</category>
 <pubDate>Tue, 20 Oct 2026 08:55:00 +0000</pubDate>
 <description>All today's cricket scorecards from around the world, including Test matches, one-day internationals and T20 internationals.</description>
-<enclosure url="https://e2.365dm.com/26/10/1920x1080/skysports-kusal-mendis-sri-lanka-men-odi-cricket_7390893.jpg?20261029131229" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/10/1920x1080/skysports-kusal-mendis-sri-lanka-men-odi-cricket_7390893.jpg?20261029131229" medium="image"/>
+<enclosure url="https://e0.365dm.com/26/10/1920x1080/skysports-glenn-phillips-new-zealand-t20-cricket_7385333.jpg?20261024092141" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-glenn-phillips-new-zealand-t20-cricket_7385333.jpg?20261024092141" medium="image"/>
 </item>
 <item>
 <title>Raducanu could secure protected ranking with early season exit</title>
