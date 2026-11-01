@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>The best new science-fiction novels of November 2026</title>
+<link>https://www.newscientist.com/article/2596484-the-best-new-science-fiction-novels-of-november-2026</link>
+<guid isPermaLink="false">97bd4d388f1e4d3b503ceda3f6f0f1ba63705b2e51cc8154c586acf11131019b</guid>
+<source>New Scientist</source>
+<category>science</category>
+<pubDate>Sun, 01 Nov 2026 08:00:00 +0000</pubDate>
+<description>An audio drama produced by The Martian author Andy Weir, a fictional autobiography from Michael Moorcock and a new John Scalzi novel – November is a big month for sci-fi fans, says Alison Flood</description>
+<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI318505726.jpg" type="image/jpeg"/>
+<media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI318505726.jpg" medium="image"/>
+</item>
+<item>
+<title>APOD: 2026 November 1 – Colors of the Moon</title>
+<link>https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon</link>
+<guid isPermaLink="false">7b620b8ee23e792e1f6a889fc74922fe2d9e9c2db4d8e35c1744ffa574d399a5</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Sun, 01 Nov 2026 04:05:00 +0000</pubDate>
+<description>APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MoonColors_Pace_960.jpg?w=960&amp;h=991&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MoonColors_Pace_960.jpg?w=960&amp;h=991&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
+</item>
+<item>
 <title>Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks</title>
 <link>https://www.nytimes.com/2026/10/31/science/ukraine-soldiers-infection-treatment.html</link>
 <guid isPermaLink="false">c88b448a7c1d180ca214704f58196da8fa0cdc629aded4d16b48662295ea6a75</guid>
@@ -499,17 +521,6 @@
 <media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26801/PIA26801.jpg?w=1536&amp;h=1186&amp;fit=clip&amp;crop=faces%2Cfocalpoint" medium="image"/>
 </item>
 <item>
-<title>Halloween Aboard the International Space Station</title>
-<link>https://www.nasa.gov/centers-and-facilities/johnson/halloween-aboard-the-international-space-station</link>
-<guid isPermaLink="false">f3e9ae8c2f1a5665b5827adf56ea86e88d73bb4997482250145e4e88e3a9c3f2</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Thu, 29 Oct 2026 21:44:23 +0000</pubDate>
-<description>Although no ghouls, goblins, or trick-or-treaters come knocking at the International Space Station’s front hatch, crew members aboard the orbiting laboratory still like to get in the Halloween spirit. Whether individually or as an entire crew, they dress up in sometimes spooky, sometimes scary, but always creative costumes, often designed from materials available aboard the […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/luca-parmitano.jpg?w=1024" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/luca-parmitano.jpg?w=1024" medium="image"/>
-</item>
-<item>
 <title>On this day in space! Oct. 29, 1991: NASA's Galileo spacecraft flies by asteroid Gaspra and snaps amazing photos while flying at 18,000 mph</title>
 <link>https://www.space.com/space-exploration/on-this-day-in-space-october-29-2026</link>
 <guid isPermaLink="false">40acf5392dcc3a7379cf679690eab61ccd4233fcf8d70e9ed3b9334c769461a7</guid>
@@ -585,17 +596,6 @@
 <description>The astronauts of NASA's Artemis III mission met with President Trump at the White House on Wednesday (Oct. 28), just as the Artemis II spaceflyers did six months ago.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/54fSmWhNnaSojscHCvLYrh-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/54fSmWhNnaSojscHCvLYrh-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Birds can get jet lag on long, fast flights and then fly off course</title>
-<link>https://www.newscientist.com/article/2596253-birds-can-get-jet-lag-on-long-fast-flights-and-then-fly-off-course</link>
-<guid isPermaLink="false">75b8c7dd80c90fad91888dcfe1043e0fc16aad1a6d8080eb2956e64fccabe447</guid>
-<source>New Scientist</source>
-<category>science</category>
-<pubDate>Thu, 29 Oct 2026 18:00:00 +0000</pubDate>
-<description>On fast flights across the Atlantic, the body clocks of Manx shearwaters get out of sync with local time, leading them to veer away from the most direct flight path</description>
-<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_318506601.jpg" type="image/jpeg"/>
-<media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_318506601.jpg" medium="image"/>
 </item>
 <item>
 <title>Cosmic graveyard of zombie planets offers a grisly warning about our own solar system's fate</title>
@@ -983,17 +983,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" medium="image"/>
 </item>
 <item>
-<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
-<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
-<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
-<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>November full moon 2026: When, where and how to see the Beaver Moon</title>
 <link>https://www.space.com/stargazing/november-full-moon-2026-when-where-and-how-to-see-the-beaver-moon</link>
 <guid isPermaLink="false">50365fa0e0d6551e7c2fae903ff4fb0c117ba767fab4f0dbf388b0a0db6215a7</guid>
@@ -1003,6 +992,17 @@
 <description>Your guide to November's full Beaver Moon, from peak times to skywatching highlights.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/cCumP2kADy3aTSJc9aaLRP-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>Cowboy Space unveils 'Big Iron' rocket to launch 20,000 AI data centers</title>
+<link>https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers</link>
+<guid isPermaLink="false">201d778d87f542b80285e29ffc6ae2e9d270d8f2f8993f6ba1e335bcba3882d2</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 27 Oct 2026 18:00:00 +0000</pubDate>
+<description>Cowboy Space just gave us our first look at its "Big Iron" rocket, which the company will use to build its AI data center constellation. Big Iron's debut is targeted for late 2028.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/y3SBdSPdw5xKKFPYS279h4-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>'Dungeon Crawler Carl' is getting a killer new comic book series</title>
@@ -1016,17 +1016,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/9ME6GczH728ybMNSYeRowU-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>On this day in space! Oct. 27, 1961: NASA launches Saturn I rocket on 1st test flight from Florida to set stage for the mighty Saturn V moon rocket</title>
-<link>https://www.space.com/space-exploration/on-this-day-in-space-october-27-2026</link>
-<guid isPermaLink="false">de82abb022499f12496f96a9a3e9d0816a13f70327a9f148aff00b7e66192907</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
-<description>On Oct. 27, 1961, NASA launched the first test flight of its new Saturn I space launch vehicle. Here's why it mattered.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/HSHB7NyZsy82FurftpXRnc-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/HSHB7NyZsy82FurftpXRnc-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>Mars rover tracks from a historic drive | Space photo of the day for Oct. 27, 2026</title>
 <link>https://www.space.com/space-exploration/mars-rovers/mars-rover-tracks-from-a-historic-drive-space-photo-of-the-day-for-oct-27-2026</link>
 <guid isPermaLink="false">1d6a461926c729cd8b7073f2efd41cd523efef72d3df77331d86e10d3934549a</guid>
@@ -1036,6 +1025,17 @@
 <description>Rover tracks can be seen on the Martian surface, left behind by NASA's Perseverance Mars rover.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/4UQPESBZ3MdA248mM29MYd-1920-80.png" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/4UQPESBZ3MdA248mM29MYd-1920-80.png" medium="image"/>
+</item>
+<item>
+<title>On this day in space! Oct. 27, 1961: NASA launches Saturn I rocket on 1st test flight from Florida to set stage for the mighty Saturn V moon rocket</title>
+<link>https://www.space.com/space-exploration/on-this-day-in-space-october-27-2026</link>
+<guid isPermaLink="false">de82abb022499f12496f96a9a3e9d0816a13f70327a9f148aff00b7e66192907</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Tue, 27 Oct 2026 14:00:00 +0000</pubDate>
+<description>On Oct. 27, 1961, NASA launched the first test flight of its new Saturn I space launch vehicle. Here's why it mattered.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/HSHB7NyZsy82FurftpXRnc-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/HSHB7NyZsy82FurftpXRnc-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>'Star Trek' legend and sci-fi luminary Walter Koenig dies at 90</title>
