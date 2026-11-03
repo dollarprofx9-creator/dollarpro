@@ -4,29 +4,271 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Midterm elections updates: Trump says he'll be 'Mr. Veto' if Dems control Congress</title>
+<title>Russian strikes kill 26 in Ukraine after longest ceasefire ends</title>
+<link>https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends</link>
+<guid isPermaLink="false">a4e958250ed1536937293a6cff0976bcec5c80af7bcda39306b805f9bf777945</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Tue, 03 Nov 2026 01:18:44 +0000</pubDate>
+<description>Russia killed at least 26 people in strikes on a village in southern Ukraine on Monday, including civilians collecting humanitarian aid, emergency workers and police officers. The attack came hours after a rare ceasefire ended, extinguishing hopes of progress towards peace.</description>
+<enclosure url="https://s.france24.com/media/display/77d61602-d701-11f1-8594-d18c5759e759/w:1024/p:16x9/c83c0482d49f8575fc0b65f32d551aa79b4d413b.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/77d61602-d701-11f1-8594-d18c5759e759/w:1024/p:16x9/c83c0482d49f8575fc0b65f32d551aa79b4d413b.jpg" medium="image"/>
+</item>
+<item>
+<title>AI 'highly likely' to be used in attack on Britain's infrastructure</title>
+<link>https://news.sky.com/story/ai-highly-likely-to-be-used-in-attack-on-britains-infrastructure-ncsc-warns-13607264</link>
+<guid isPermaLink="false">a5446790e86b79dbc7a438caf655fc6b4c9f62e613c13e2be4a19ac0e778bad7</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Tue, 03 Nov 2026 01:00:00 +0000</pubDate>
+<description>Artificial intelligence is "helping to industrialise cyber attacks" and is "highly likely" to be used in attacks on Britain's critical national infrastructure by 2028, the National Cybersecurity Centre (NCSC) has warned.</description>
+<enclosure url="https://e3.365dm.com/24/01/1920x1080/skynews-hacker-cyberattack_6439404.jpg?20240131153309" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/24/01/1920x1080/skynews-hacker-cyberattack_6439404.jpg?20240131153309" medium="image"/>
+</item>
+<item>
+<title>North Korea denies involvement in Binance hack, criticizes FBI probe</title>
+<link>https://abcnews.com/International/wireStory/north-korea-denies-involvement-binance-hack-criticizes-fbi-137788208</link>
+<guid isPermaLink="false">6894c182526275da73fb202b320b28a02fd15810bdeb620785ac3e47109fb8b3</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 03 Nov 2026 00:56:43 +0000</pubDate>
+<description>North Korea has denied its involvement in the recent cryptocurrency heist at Binance, dismissing as “a trite provocation” a U.S. announcement that North Korean hackers were behind the incident</description>
+<enclosure url="https://s.abcnews.com/images/International/wirestory_01c9b80d938dd67c747e268c410f265d_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/International/wirestory_01c9b80d938dd67c747e268c410f265d_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>New York state reports 1st measles-associated death in over 30 years</title>
+<link>https://abcnews.com/Health/new-york-state-reports-1st-measles-death-30/story?id=137787620</link>
+<guid isPermaLink="false">5278074c736155062f77271db0f648998e10fb8291e02576b27ebecc1fe805b7</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Tue, 03 Nov 2026 00:46:07 +0000</pubDate>
+<description>A child died in Lewis County associated with the ongoing measles outbreak, health officials said.</description>
+<enclosure url="https://s.abcnews.com/images/Health/measles-gty-er-240311_1710169973597_hpMain_4_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Health/measles-gty-er-240311_1710169973597_hpMain_4_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>North Korea rejects US allegations over $6 billion Binance crypto heist</title>
+<link>https://www.france24.com/en/asia-pacific/20261102-north-korea-rejects-us-allegations-over-6-billion-binance-crypto-heist</link>
+<guid isPermaLink="false">685d3b1c8c8dd32e5151c90000aadb795a13a3a15de2605e52d922c8af78ed12</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 23:49:10 +0000</pubDate>
+<description>North Korea on Tuesday dismissed US allegations that it was behind a $6 billion cryptocurrency theft from Binance as "absurd rhetoric", accusing Washington of seeking to portray the country as a cybercriminal state and warning that US hostility could affect future diplomatic engagement.</description>
+<enclosure url="https://s.france24.com/media/display/8f8ad8a0-cdb0-11f1-9dd8-4da0d2c6855d/w:1024/p:16x9/2026-10-08T042855Z-1116982708-RC2SYNASEWEO-RTRMADP-3-NORTHKOREA-SOUTHKOREA-1.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/8f8ad8a0-cdb0-11f1-9dd8-4da0d2c6855d/w:1024/p:16x9/2026-10-08T042855Z-1116982708-RC2SYNASEWEO-RTRMADP-3-NORTHKOREA-SOUTHKOREA-1.jpg" medium="image"/>
+</item>
+<item>
+<title>Midterm elections live updates: SCOTUS denies Trump bid to segregate California votes</title>
 <link>https://abcnews.com/Politics/live-updates/midterm-elections-2026-1-week-high-stakes-elections?id=137578278</link>
 <guid isPermaLink="false">f634d3a2c078d40fc5dd52208b9bc0ba0e7da02b675d1f0980cf8e9981479d8c</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Mon, 02 Nov 2026 18:01:08 +0000</pubDate>
-<description>President Donald Trump is scheduled to appear at the Reflecting Pool on Monday.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/trump--main_1793609890478_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/trump--main_1793609890478_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Mon, 02 Nov 2026 23:21:01 +0000</pubDate>
+<description>The Supreme Court denied the Trump administration's request for an injunction ordering California to segregate 20,000 ballots that could have been cast by noncitizens.</description>
+<enclosure url="https://s.abcnews.com/images/US/donald-trump-12-gty-gmh-261103_1793650040890_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/donald-trump-12-gty-gmh-261103_1793650040890_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>European grocery chains' freezers, refrigerators targeted in apparent cyberattacks</title>
-<link>https://abcnews.com/International/european-grocery-chains-freezers-refrigerators-targeted-apparent-cyberattacks/story?id=137769974</link>
-<guid isPermaLink="false">97150ec449a448844dfedbed2eb182b66f07ee5be68fedbf77e5b7e092b59b65</guid>
+<title>Emergency alerts hacking 'designed to undermine trust in government', expert says</title>
+<link>https://www.france24.com/en/tv-shows/a-propos/20261102-emergency-alerts-hacking-designed-to-undermine-trust-in-government-expert-says</link>
+<guid isPermaLink="false">3e24a09abf48840f635ddf434f5fdbdffb53bab00615e8c0c2b48d5125394529</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 22:30:09 +0000</pubDate>
+<description>Emergency alert systems in Russia and Ukraine were hit in cyber attacks overnight, with fake warnings of possible nuclear strikes broadcast to users in both countries. The systems have since been brought back under control, though much remains unclear about the attacks, including who was responsible. FRANCE 24's Sharon Gaffney speaks with Dr Melanie Garson, Associate Professor in International Security at University College London. She says that these kind of attacks "are designed to undermine faith in the government's ability to provide trust".</description>
+<enclosure url="https://s.france24.com/media/display/ea04afee-d707-11f1-b1d9-1beafce15fea/w:1024/p:16x9/EN-20261102-223118-224510-CS.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/ea04afee-d707-11f1-b1d9-1beafce15fea/w:1024/p:16x9/EN-20261102-223118-224510-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>Trump promised 'no more wars'. His foreign policy tells another story</title>
+<link>https://www.france24.com/en/tv-shows/truth-or-fake/20261102-trump-promised-no-more-wars-his-foreign-policy-tells-another-story</link>
+<guid isPermaLink="false">47a93264b68e87c3d4c0a73dddbeac8aac8562a1c3937e0e4a7a6b2fa9e7aeba</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 21:34:10 +0000</pubDate>
+<description>Donald Trump promised an “America First” foreign policy and pledged to keep the US out of foreign wars. But since returning to the White House, his administration has been deeply involved in conflicts around the world. From the war in Ukraine and threats to Greenland and Canada, to the US intervention in Venezuela, Trump's shifting approach to the Middle East and war with Iran, Vedika Bahl examines his foreign policy record since returning to office.</description>
+<enclosure url="https://s.france24.com/media/display/67eb27a2-d6fa-11f1-8418-a575454bc579/w:1024/p:16x9/capture-1a252fd9.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/67eb27a2-d6fa-11f1-8418-a575454bc579/w:1024/p:16x9/capture-1a252fd9.jpg" medium="image"/>
+</item>
+<item>
+<title>Uganda withdrawing troops from peacekeeping mission in Somalia</title>
+<link>https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia</link>
+<guid isPermaLink="false">de085b5a97a22c35d3c205868a756568f50a08f6bb39e3472d1758d1f026dd50</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 21:24:21 +0000</pubDate>
+<description>In tonight's edition, Uganda starts drawing down troops just days after the UN ends its political mission in Somalia. Also, upcoming municipal elections in South Africa risk solidifying growing political fragmentation. And the drought gripping Chad could be the country’s worst in more than 40 years.</description>
+<enclosure url="https://s.france24.com/media/display/071e4c16-d703-11f1-b357-d18c5759e759/w:1024/p:16x9/DL00006258-VOD-00023657.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/071e4c16-d703-11f1-b357-d18c5759e759/w:1024/p:16x9/DL00006258-VOD-00023657.jpg" medium="image"/>
+</item>
+<item>
+<title>How do midterm candidates plan to fight inflation? Economists evaluate proposals</title>
+<link>https://abcnews.com/Business/midterm-candidates-plan-fight-inflation-economists-evaluate-proposals/story?id=137570780</link>
+<guid isPermaLink="false">45204c2d00a989e6afec0fbe096361089a938c2fd98970178ebe949e43098fe9</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Mon, 02 Nov 2026 17:45:59 +0000</pubDate>
-<description>Temperature settings were increased, resulting in food spoilage, companies said.</description>
-<enclosure url="https://s.abcnews.com/images/International/grocery-1-gty-er-261102_1793638677114_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/International/grocery-1-gty-er-261102_1793638677114_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Mon, 02 Nov 2026 21:22:59 +0000</pubDate>
+<description>Proposals include tax cuts and an end to the Iran war.</description>
+<enclosure url="https://s.abcnews.com/images/Business/grocery-1-ap-er-261029_1793303507304_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Business/grocery-1-ap-er-261029_1793303507304_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Iran engages US in 'intensive' negotiations to avert fresh war outbreak</title>
+<title>The Long Hull: Karl Bushby reflects on perseverance &amp; 'best of humanity' on his 28-year journey home</title>
+<link>https://www.france24.com/en/tv-shows/spotlight/20261102-the-long-hull-karl-bushby-reflects-on-perseverance-best-of-humanity-on-his-28-year-journey-home</link>
+<guid isPermaLink="false">36a7e13bd371aa479966409b9554dc302caf68f5c30c5bb83b7474719dd0cf26</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 20:54:38 +0000</pubDate>
+<description>“They say it takes a village. In this case, it took a world.” After 28 years and some 50,000 kilometres, British explorer and adventurer Karl Bushby has returned to his hometown of Hull, completing an extraordinary life journey across four continents that illustrates not only the limits of human endurance, but also the intricate relationship between individual determination, geopolitical constraints and a world of humanity. Speaking to France 24's François Picard shortly after his emotional homecoming, Bushby reflects on an undertaking that resembles a modern-day Odyssey, although the defining obstacles were often more geopolitical than mythological.</description>
+<enclosure url="https://s.france24.com/media/display/ec1df072-d6fa-11f1-aa08-695cb59fade5/w:1024/p:16x9/EN-20261102-183552-184505-CS.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/ec1df072-d6fa-11f1-aa08-695cb59fade5/w:1024/p:16x9/EN-20261102-183552-184505-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>EU says fridge attacks 'deliberate attempt to disrupt' bloc's food supply</title>
+<link>https://www.france24.com/en/eu-says-fridge-attacks-deliberate-attempt-to-disrupt-bloc-s-food-supply</link>
+<guid isPermaLink="false">66c4d792c545c8c445307ec95457fd10fabd0a2bf9d67c336add70f3e5583816</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 20:30:07 +0000</pubDate>
+<description>Grocery stores from Sweden to Portugal were hit Monday by a suspected cyberattack on their freezer systems, in what the EU denounced as a deliberate attempt to disrupt the bloc's food chain. Supermarkets in Belgium, Estonia, Finland, Ireland, Luxembourg and the Netherlands were among at least eight countries affected in the incident, which came three weeks after a cyberattack caused mass disruption in French grocery stores. Food retailers were forced to throw out produce that had spoiled or was at risk of spoiling after refrigerator temperatures soared overnight. FRANCE 24's Dave Keating reports from Brussels.</description>
+<enclosure url="https://s.france24.com/media/display/bcd91bec-d6fb-11f1-8781-a575454bc579/w:1024/p:16x9/EN-20261102-211244-211858-CS.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/bcd91bec-d6fb-11f1-8781-a575454bc579/w:1024/p:16x9/EN-20261102-211244-211858-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>What you need to know about the Election Day Voter Poll</title>
+<link>https://abcnews.com/Politics/election-day-voter-poll/story?id=73792952</link>
+<guid isPermaLink="false">bcb4455fe6590186722443576b26d9fd769ca36551444bf7424ae570ee49a610</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 20:29:54 +0000</pubDate>
+<description>The Election Day Voter Poll helps answer the question of who won and why and explain what issues were important in the election.</description>
+<enclosure url="https://s.abcnews.com/images/US/vote-1-gty-gmh-261016_1792169247197_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/vote-1-gty-gmh-261016_1792169247197_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>AI chatbots are becoming political advisers. Their answers can mislead voters</title>
+<link>https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice</link>
+<guid isPermaLink="false">2ec847015cb7db4e71f3cd02d4bc85a7e47748424b5ee2f7f000c5469fd6467f</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 20:02:41 +0000</pubDate>
+<description>Millions of Americans are turning to AI for election information, but chatbots are getting voting facts wrong and recommending candidates, raising concerns they could influence voters' decisions.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F38%2F09ecdec14eff88fe2fc14345fc06%2Fgettyimages-2302583503.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F38%2F09ecdec14eff88fe2fc14345fc06%2Fgettyimages-2302583503.jpg" medium="image"/>
+</item>
+<item>
+<title>Is America really that polarized? The answer might be a surprise</title>
+<link>https://www.npr.org/2026/11/02/nx-s1-6003534/us-political-polarization-research-trump</link>
+<guid isPermaLink="false">b8a9054114421e425a975d7faa321a0ccfb3f7b2176c3c0b397a947001417303</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 20:00:00 +0000</pubDate>
+<description>The U.S. has become more politically polarized, but research shows people overestimate their differences and there is 'messy middle' majority of Americans who share overlapping political views.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5500x3670+0+0/resize/5500x3670!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F16%2Ffd%2F401ffbcb4dea8054ffd72e0169a5%2Fgettyimages-2301917700.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5500x3670+0+0/resize/5500x3670!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F16%2Ffd%2F401ffbcb4dea8054ffd72e0169a5%2Fgettyimages-2301917700.jpg" medium="image"/>
+</item>
+<item>
+<title>Free and fair? The Midterms and the state of US democracy</title>
+<link>https://www.france24.com/en/tv-shows/the-debate/20261102-free-and-fair-the-midterms-and-the-state-of-us-democracy</link>
+<guid isPermaLink="false">80885eec4c329a966ae00ed2af2c2a05d2aafaca8eafa116e3d6d5d332c48ea6</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 19:37:21 +0000</pubDate>
+<description>How far will the president of the United States press this time if Tuesday’s Midterm elections don’t go his party’s way? From “only if the Republicans win” campaign promises to a US Justice Department that’s already gotten involved in races, will the White House weigh on the outcome? How will ballot counting go? What’s changed since his “stop the steal” rhetoric begat the January 6th, 2021 storming of the US Capitol?</description>
+<enclosure url="https://s.france24.com/media/display/c085514e-d6f0-11f1-8735-1beafce15fea/w:1024/p:16x9/2026-11-02T150455Z-57526818-RC29FOA6T5LS-RTRMADP-3-USA-TRUMP-ELECTION.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/c085514e-d6f0-11f1-8735-1beafce15fea/w:1024/p:16x9/2026-11-02T150455Z-57526818-RC29FOA6T5LS-RTRMADP-3-USA-TRUMP-ELECTION.jpg" medium="image"/>
+</item>
+<item>
+<title>MAGA: Why Trump's most loyal supporters are turning against him?</title>
+<link>https://www.france24.com/en/maga-why-trump-s-most-loyal-supporters-are-turning-against-him</link>
+<guid isPermaLink="false">2635b3044ba6a40a0bbdaf083f09edec164b724d09a194e922dd5dc5e3757625</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 19:17:55 +0000</pubDate>
+<description>Is Trump losing the support of the very coalition that brought him back to power? Just one day before the midterm elections, Trump's approval rating stands at 32%, one of the lowest ever recorded at this stage of a presidency. And discontent is growing beyond Democratic voters. Some of Trump's most loyal Republican and MAGA supporters are increasingly torn between political loyalty and economic reality. The war in Iran, rising costs linked to the Strait of Hormuz blockade, unfulfilled “America First” promises and other controversial issues, including the Epstein files scandal, are widening the rift between Trump and his electoral base. Can he regain control of the diverse coalition that makes up MAGA? FRANCE 24 journalist Stella Elgersma spoke to MAGA and Republican experts to explore how the movement has evolved, what its supporters want and what is driving their discontent. Watch the full youtube documentary : https://youtu.be/XkehRG77itY?si=iOfIl0PwrgyX-j0X</description>
+<enclosure url="https://s.france24.com/media/display/e4a4e68e-d6f0-11f1-a46d-d18c5759e759/w:1024/p:16x9/minia-2-3.png" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/e4a4e68e-d6f0-11f1-a46d-d18c5759e759/w:1024/p:16x9/minia-2-3.png" medium="image"/>
+</item>
+<item>
+<title>Israeli 'unity government': Efrat Shapira expects Herzog will urge rival camps to form a 'coalition'</title>
+<link>https://www.france24.com/en/israeli-unity-government-efrat-shapira-expects-herzog-will-urge-rival-camps-to-form-a-coalition</link>
+<guid isPermaLink="false">6946ac5dfcf15656573031223890ac6807b746ceaefb4962b5d90d6eed37c036</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 19:15:58 +0000</pubDate>
+<description>Erin Ogunkeye is pleased to welcome Efrat Shapira Rosenberg, Israeli Radio/TV Host, Columnist, Podcaster and Educator. Following a deadlocked Israeli election, “everyone is saying who they’re not going to sit with, but no one is actually saying who they will sit with.” As President Isaac Herzog prepares to consult parliamentary factions over the formation of a new coalition, the impasse reveals tensions that extend beyond the familiar confrontation between Benjamin Netanyahu and his political opponents. According to Shapira, co-host of the highly popular Israeli politics podcast Miflaget Hamakshavot, the divisions are equally pronounced within the opposition bloc supporting Gadi Eisenkot.</description>
+<enclosure url="https://s.france24.com/media/display/d205afae-d6eb-11f1-be39-1beafce15fea/w:1024/p:16x9/EN-20261102-161238-162232-CS.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/d205afae-d6eb-11f1-be39-1beafce15fea/w:1024/p:16x9/EN-20261102-161238-162232-CS.jpg" medium="image"/>
+</item>
+<item>
+<title>LIVE: ABC News Live</title>
+<link>https://abcnews.com/video/41463246</link>
+<guid isPermaLink="false">c4dde2f9d4430a48432ef223ef2dea7731f9a2b9448e21ee003bf7e7734a1e77</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 19:10:56 +0000</pubDate>
+<description>24/7 coverage of breaking news and live events</description>
+<enclosure url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials</title>
+<link>https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden</link>
+<guid isPermaLink="false">47a3663619495d74c032747357051d892bf8d17f2124d1cdf16507e9443853a4</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 18:54:01 +0000</pubDate>
+<description>The judge said he was "deeply troubled" by the mistakes and rushed nature of the case over the FBI's Hunter Biden probes — one of several politically charged DOJ actions ahead of the midterms.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fcb%2F16f82eca423aa567a3f7b440f7ae%2Fgettyimages-2185699833.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fcb%2F16f82eca423aa567a3f7b440f7ae%2Fgettyimages-2185699833.jpg" medium="image"/>
+</item>
+<item>
+<title>Two teens arrested after five boys stabbed at Halloween party</title>
+<link>https://news.sky.com/story/two-teens-arrested-on-suspicion-of-attempted-murder-after-five-boys-stabbed-at-halloween-party-13607234</link>
+<guid isPermaLink="false">68bc669c017850383be6cd4ecb932bf119fe0233054b0317ae41e20386f62073</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 18:42:00 +0000</pubDate>
+<description>Two boys have been arrested after five teenagers were seriously injured when they were allegedly stabbed at a party on Halloween.</description>
+<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-police-stabbing_7393922.jpg?20261101155124" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-police-stabbing_7393922.jpg?20261101155124" medium="image"/>
+</item>
+<item>
+<title>Trans row nurse Sandie Peggie loses discrimination case against union</title>
+<link>https://news.sky.com/story/trans-row-nurse-sandie-peggie-loses-discrimination-case-against-union-13607231</link>
+<guid isPermaLink="false">eb7ad8548d4258e769ef24c2ba87a8d96e768aa15f00424d2ea7b9791309d0b1</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 18:15:00 +0000</pubDate>
+<description>The Royal College of Nursing (RCN) did not discriminate against one of its members because of her gender beliefs, a tribunal has ruled.</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-sandie-peggie-dundee_7365557.jpg?20261001100959" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-sandie-peggie-dundee_7365557.jpg?20261001100959" medium="image"/>
+</item>
+<item>
+<title>French student protests: 'Illiberal' Macron govt dismisses social movement as 'urban violence'</title>
+<link>https://www.france24.com/en/video/20261102-french-student-protests-illiberal-macron-govt-dismisses-social-movement-as-urban-violence</link>
+<guid isPermaLink="false">d8d32e11b3d7c331a040c718d8920fc6933702a5dc6549b9f920e10d3300fc74</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 18:07:59 +0000</pubDate>
+<description>Jennie Shin is pleased to welcome Éric Fassin, Sociologist and Professor at Université Paris 8. “In a democracy, elections are very important, but it’s not the end of democracy. It’s the beginning,” explains Fassin. He interprets France’s student protest movement growing into a challenge to socioeconomic policy and what he describes as an “illiberal turn” in government. Connecting the treatment of working-class, racialized youth with wider restrictions on dissent, he argues that racism and democratic participation are central to understanding the unrest. His analysis also challenges the attribution of responsibility to the left, placing the government’s response within a broader debate over the normalization of oppressive measures and the far right.</description>
+<enclosure url="https://s.france24.com/media/display/4493e650-d578-11f1-bbde-1beafce15fea/w:1024/p:16x9/EN-20261031-140425-141401-CS-01.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/4493e650-d578-11f1-bbde-1beafce15fea/w:1024/p:16x9/EN-20261031-140425-141401-CS-01.jpg" medium="image"/>
+</item>
+<item>
+<title>Burnham will 'reshape Commonwealth' as he joins King in Caribbean</title>
+<link>https://news.sky.com/story/uk-will-help-reshape-commonwealth-as-burnham-joins-the-king-in-the-caribbean-13607227</link>
+<guid isPermaLink="false">d5a60a86725d63c2a74544620a24d9f6d806f028e75a0448ee3693b7cb27455d</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 17:54:00 +0000</pubDate>
+<description>The prime minister has said the UK will play a leading role reshaping the Commonwealth, including pursuing a debt "reset" to help nations struggling with higher borrowing costs.</description>
+<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-andy-burnham-king-charles_7394350.jpg?20261101230826" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-andy-burnham-king-charles_7394350.jpg?20261101230826" medium="image"/>
+</item>
+<item>
+<title>Trump says deal with Tehran 'could happen' amid 'intensive' talks</title>
 <link>https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak</link>
 <guid isPermaLink="false">06664a4986cd5919a4c6727e526a481cd6168a140143dd99b0c62a1cc0ef469f</guid>
 <source>France 24</source>
@@ -35,6 +277,17 @@
 <description>Tehran on Monday said that the country was holding "intensive" indirect talks with Washington to avoid a fresh round of US attacks on Iran ahead of the US midterm elections this week. Foreign ministry spokesperson Esmaeil Baghaei shared Iranian plans to reopen blockaded energy corridor, the Strait of Hormuz, if the US were to meet its demands.</description>
 <enclosure url="https://s.france24.com/media/display/18a41438-d6dc-11f1-b1cd-1beafce15fea/w:1024/p:16x9/2026-10-17T081002Z-2072440926-RC2W4OA50VW1-RTRMADP-3-IRAQ-CONFERENCE-OIC.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/18a41438-d6dc-11f1-b1cd-1beafce15fea/w:1024/p:16x9/2026-10-17T081002Z-2072440926-RC2W4OA50VW1-RTRMADP-3-IRAQ-CONFERENCE-OIC.jpg" medium="image"/>
+</item>
+<item>
+<title>Refrigeration cyberattacks highlight risks of connecting industry to the internet</title>
+<link>https://www.france24.com/en/europe/20261102-caught-cold-fridge-cyberattack-highlights-internet-gadget-weaknesses</link>
+<guid isPermaLink="false">721c22a98b74d95173cc896448aa794a0be583b460589c88f6e04acc65a9b271</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 17:29:48 +0000</pubDate>
+<description>Cyberattacks affecting supermarket refrigeration systems on Monday in several European countries – including Belgium, Estonia, Finland, Ireland, Luxembourg, the Netherlands and Sweden – have highlighted the risks of connecting industrial infrastructure to the internet.</description>
+<enclosure url="https://s.france24.com/media/display/48dab10e-d6d0-11f1-b62d-bf1914cabd52/w:1024/p:16x9/9d184e67dc748e00594d4b7526509569de9d828e.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/48dab10e-d6d0-11f1-b62d-bf1914cabd52/w:1024/p:16x9/9d184e67dc748e00594d4b7526509569de9d828e.jpg" medium="image"/>
 </item>
 <item>
 <title>Iran offers deal on Hormuz Strait, Netanyahu wants to 'finish the job'</title>
@@ -48,13 +301,13 @@
 <media:content url="https://s.france24.com/media/display/3c0624b8-d6da-11f1-87b4-695cb59fade5/w:1024/p:16x9/capture-b0a449cf.jpg" medium="image"/>
 </item>
 <item>
-<title>Petition to ban French right-wing TV channel clears 500,000 signatures after racist killing</title>
+<title>Petition to ban French right-wing TV channel clears 600,000 signatures after racist killing</title>
 <link>https://www.france24.com/en/france/20261102-petition-to-ban-french-right-wing-tv-channel-clears-500-000-signatures-after-racist-killing</link>
 <guid isPermaLink="false">fb5d18cf961f471279802117abb171952cc5e7f0577f32087096f231a2f62ec1</guid>
 <source>France 24</source>
 <category>world</category>
 <pubDate>Mon, 02 Nov 2026 16:53:34 +0000</pubDate>
-<description>A petition calling for right-wing television channel CNews to be taken off-air cleared half a million signatures on Monday after a Frenchman shot and killed a French national of Congolese origin and wounded seven others. The 39-year-old shooter is believed to have been an avid watcher of CNews, which is owned by ultra-conservative billionaire Vincent Bolloré and has been accused of promoting far-right anti-immigrant views.</description>
+<description>A petition calling for right-wing television channel CNews to be taken off-air cleared 600,000 signatures on Monday after a Frenchman shot and killed a French national of Congolese origin and wounded seven others. The 39-year-old shooter is believed to have been an avid watcher of CNews, which is owned by ultra-conservative billionaire Vincent Bolloré and has been accused of promoting far-right anti-immigrant views.</description>
 <enclosure url="https://s.france24.com/media/display/f2098d52-d6b9-11f1-99d5-a575454bc579/w:1024/p:16x9/000-B3JA8MX.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/f2098d52-d6b9-11f1-99d5-a575454bc579/w:1024/p:16x9/000-B3JA8MX.jpg" medium="image"/>
 </item>
@@ -70,13 +323,24 @@
 <media:content url="https://s.france24.com/media/display/f06a2dc2-d6db-11f1-bc19-a575454bc579/w:1024/p:16x9/mini3-2.jpg" medium="image"/>
 </item>
 <item>
-<title>DOJ asks for Supreme Court to intervene on California ballot demands</title>
+<title>Iconic Paris department store BHV Marais granted bankruptcy protection</title>
+<link>https://www.france24.com/en/france/20261102-storied-paris-department-store-bhv-marais-granted-bankruptcy-protection</link>
+<guid isPermaLink="false">20cb0a21ed7cbc033582f67ed9c92e086c43df5d6256d5d4337015fab922d5bb</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 16:43:48 +0000</pubDate>
+<description>A French court granted bankruptcy protection on Monday to iconic department store BHV Marais, which has stood in central Paris for around 170 years. The move comes after the company announced last week that it sought bankruptcy protection to safeguard its operations and jobs as part of a "relaunch".</description>
+<enclosure url="https://s.france24.com/media/display/92af004e-d6dc-11f1-8f0c-bf1914cabd52/w:1024/p:16x9/4b8c75e88ca86d62d48908ab337e07a2a02abeab.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/92af004e-d6dc-11f1-8f0c-bf1914cabd52/w:1024/p:16x9/4b8c75e88ca86d62d48908ab337e07a2a02abeab.jpg" medium="image"/>
+</item>
+<item>
+<title>The Supreme Court rejects a DOJ push to separate California ballots</title>
 <link>https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump</link>
 <guid isPermaLink="false">fd98d40db8729390b8dfd3cd0e4607e8b877039fb2c92390053fdb521bf2f1ef</guid>
 <source>NPR News</source>
 <category>world</category>
 <pubDate>Mon, 02 Nov 2026 16:34:17 +0000</pubDate>
-<description>On the eve of the Nov. 3 election, the Trump administration is hoping the Supreme Court will reverse lower courts that rejected its request to order California to set aside the ballots of thousands of people it says are "likely" noncitizens.</description>
+<description>The U.S. Supreme Court has denied a last-minute request from the Department of Justice to wade into its unprecedented feud with California over the state's voter rolls.</description>
 <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8028x5352+0+0/resize/8028x5352!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F17%2F2b3a2cb44c0a80d5324b88c83698%2Fgettyimages-2299615393.jpg" type="image/jpeg"/>
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8028x5352+0+0/resize/8028x5352!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F17%2F2b3a2cb44c0a80d5324b88c83698%2Fgettyimages-2299615393.jpg" medium="image"/>
 </item>
@@ -101,17 +365,6 @@
 <description>ABC News' Kayna Whitworth reports live from Lumen Field in Seattle on how the Seahawks are helping kids build leadership skills and pursue their dreams.</description>
 <enclosure url="https://s.abcnews.com/images/GMA/261102_gma_whitworth1_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/GMA/261102_gma_whitworth1_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Judge dismisses DOJ case against two ex-FBI agents who investigated Hunter Biden</title>
-<link>https://abcnews.com/US/judge-dismisses-doj-case-fbi-agents-investigated-hunter/story?id=137771456</link>
-<guid isPermaLink="false">5ec5894d3e7077914c73946fe4af01c8618c2e46f76c1f37f64b20d6f7ccfcf4</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 16:20:39 +0000</pubDate>
-<description>A judge has dismissed the DOJ's federal false statements case against two former FBI agents accused of lying to Congress about past investigations of Hunter Biden.</description>
-<enclosure url="https://s.abcnews.com/images/US/hunter-biden-ap-gmh-261102_1793635945964_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/hunter-biden-ap-gmh-261102_1793635945964_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>A musical overview of trans-European punk</title>
@@ -158,28 +411,6 @@
 <media:content url="https://s.france24.com/media/display/1373b412-d6cf-11f1-99ce-a575454bc579/w:1024/p:16x9/mini2-5.jpg" medium="image"/>
 </item>
 <item>
-<title>Inflation, war and corruption: Will anger at Trump see Republicans punished at midterms?</title>
-<link>https://www.france24.com/en/video/20261102-inflation-war-and-corruption-will-anger-at-trump-see-republicans-punished-at-midterms</link>
-<guid isPermaLink="false">9a6b23ec63d60c75497a1f1eb3d252cb8666485a860dd6b17a5e85bd3e5f1065</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 15:30:59 +0000</pubDate>
-<description>Donald Trump and his Republican Party will make last-gasp pitches to US midterm voters Monday to hold back a predicted Democrat wave that could take over Congress and impose tight political constraints on the president for the first time in two years. With Trump's popularity at an historic low, many are predicting voters will punish the Republican Party at the polls. France 24's Philip Turle takes a closer look.</description>
-<enclosure url="https://s.france24.com/media/display/c8075c88-d6d1-11f1-8626-a575454bc579/w:1024/p:16x9/EN-20261102-160514-160923-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/c8075c88-d6d1-11f1-8626-a575454bc579/w:1024/p:16x9/EN-20261102-160514-160923-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>Heading into the midterms, 'no US president in recent times has been as unpopular as Donald Trump'</title>
-<link>https://www.france24.com/en/heading-into-the-midterms-no-us-president-in-recent-times-has-been-as-unpopular-as-donald-trump</link>
-<guid isPermaLink="false">a4e41fd79210814b87f836e173c7c62c44bab894b6f497a38fdce1588f237bf9</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 15:25:20 +0000</pubDate>
-<description>Erin Ogunkeye is pleased to welcome Richard Johnson, Senior Lecturer in US Politics at Queen Mary University of London. He says that "Donald Trump is damaged goods at this point in his presidency." With this uncompromising assessment, Johnson takes us through the political forces shaping the 2026 US midterm elections. Far from assuming that Trump's formidable campaigning instincts can once again mobilize Republican voters, Johnson questions whether the president's political influence has become a liability for the very party he once transformed. He points to a potentially significant realignment within the American electorate. Economic grievances, rising living costs, trade disputes and disillusionment with the war in Iran appear, in Johnson's reading, to be weakening important elements of the coalition that sustained Trump's return to power. Particularly consequential is the possibility that Latino voters, agricultural communities and sections of the MAGA electorate may be reconsideri</description>
-<enclosure url="https://s.france24.com/media/display/bdbaa30e-d6cf-11f1-ab72-1beafce15fea/w:1024/p:16x9/EN-20261102-150111-151452-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/bdbaa30e-d6cf-11f1-ab72-1beafce15fea/w:1024/p:16x9/EN-20261102-150111-151452-CS.jpg" medium="image"/>
-</item>
-<item>
 <title>WATCH: Video of ICE agent apparently pointing gun in bystander's face during arrest</title>
 <link>https://abcnews.com/video/137764412</link>
 <guid isPermaLink="false">035892ef423a10309a3ecc7025ef805aa2926cda5b947ec4634ff6602bf2a3f1</guid>
@@ -191,26 +422,15 @@
 <media:content url="https://s.abcnews.com/images/GMA/261102_gma_thomas_ice2_0712_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Ukraine and Russia report fake emergency alerts after cyberattacks target apps</title>
-<link>https://www.france24.com/en/ukraine-and-russia-report-fake-emergency-alerts-after-cyberattacks-target-apps</link>
-<guid isPermaLink="false">d0b256d1a8380dabfe34c8430bb4331d14ba8be1978a2bc8cdba3090c01e43c9</guid>
-<source>France 24</source>
+<title>FIFA to share documents relating to World Cup sell-off plan</title>
+<link>https://news.sky.com/story/fifa-to-partially-release-documents-relating-to-world-cup-sell-off-plan-13605768</link>
+<guid isPermaLink="false">c8af2aa4119967e245620eebbb9c4d7b47ab1b2bc3244d7a93d6b6ca7c6367af</guid>
+<source>Sky News Home</source>
 <category>world</category>
-<pubDate>Mon, 02 Nov 2026 15:06:41 +0000</pubDate>
-<description>Authorities in Ukraine and Russia said their emergency alert mobile apps had been targeted by cyberattacks, with users in Ukraine receiving false warnings of an imminent nuclear threat. Moscow said that hackers had sent fake emergency alerts after gaining access to the Russian Emergency Situations Ministry’s mobile app, and that efforts were ongoing to restore the app's functionality.</description>
-<enclosure url="https://s.france24.com/media/display/30e69a66-d6cd-11f1-800e-1beafce15fea/w:1024/p:16x9/capture-471ee61c.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/30e69a66-d6cd-11f1-800e-1beafce15fea/w:1024/p:16x9/capture-471ee61c.jpg" medium="image"/>
-</item>
-<item>
-<title>US Midterms: Will Gen Z enthusiasm help turn Michigan Senate blue?</title>
-<link>https://www.france24.com/en/video/20261102-us-midterms-will-gen-z-enthusiasm-help-turn-michigan-senate-blue</link>
-<guid isPermaLink="false">1418f90e56415d2957fbc9438d36fe79aa6ee2957ce729b90235f49cb797061d</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 15:03:53 +0000</pubDate>
-<description>Michigan’s Senate seat is a must-win for the Democratic Party as it seeks to take control of the upper house of Congress. There’s a surge of energy behind progressive candidate Abdul El-Sayed, especially among younger voters. But can Gen Z's enthusiasm translate into votes and help Democrats win a critical Senate seat?</description>
-<enclosure url="https://s.france24.com/media/display/4434a4ec-d6cc-11f1-94f1-a575454bc579/w:1024/p:16x9/capture-815f4d3f.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/4434a4ec-d6cc-11f1-94f1-a575454bc579/w:1024/p:16x9/capture-815f4d3f.jpg" medium="image"/>
+<pubDate>Mon, 02 Nov 2026 15:11:00 +0000</pubDate>
+<description>FIFA will give members of its ruling council access to some documents for the first time related to the World Cup sell-off, Sky News understands.</description>
+<enclosure url="https://e3.365dm.com/26/09/1920x1080/skynews-infantino-fifa_7340206.jpg?20260903184707" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/09/1920x1080/skynews-infantino-fifa_7340206.jpg?20260903184707" medium="image"/>
 </item>
 <item>
 <title>Democratic Rep. Stevens endorses GOP candidate Mike Rogers in Michigan US Senate race</title>
@@ -224,50 +444,6 @@
 <media:content url="https://s.abcnews.com/images/US/mike-rogers-1-ap-gmh-261101_1793556442085_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>Man who stabbed 10 on train said 'I am the baddest', court hears</title>
-<link>https://news.sky.com/story/man-who-stabbed-10-people-on-train-said-i-am-the-baddest-court-hears-13607139</link>
-<guid isPermaLink="false">d305cff16999ac09014f90520027582747bee471fe8edacb666ec5372a3b8ada</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 14:37:00 +0000</pubDate>
-<description>A man who stabbed 10 people on a train said "I am the baddest, no-one is as bad as me" as he paced up and down on a different train the day before, a court has heard.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-huntingdon-huntingdon-train-attack_7390373.jpg?20261028220311" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-huntingdon-huntingdon-train-attack_7390373.jpg?20261028220311" medium="image"/>
-</item>
-<item>
-<title>Could Argentina’s Patagonia become a haven for data centres?</title>
-<link>https://www.france24.com/en/video/20261102-could-argentina-s-patagonia-become-a-haven-for-data-centres</link>
-<guid isPermaLink="false">cdb0b6a42bbc40e4290e5bfe74ac7af351f3f79efb343a3298569b3972ea5dfc</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 14:16:34 +0000</pubDate>
-<description>Around the world, citizens and lawmakers are increasingly pushing back against the construction of data centres, citing noise pollution, massive power consumption and general unsightliness. But Argentina's President Javier Milei wants more of them - and the government thinks it may have found an ideal location, in the vast open steppes of Patagonia.</description>
-<enclosure url="https://s.france24.com/media/display/490a7712-d6c7-11f1-b522-a575454bc579/w:1024/p:16x9/EN-20261102-144234-144418-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/490a7712-d6c7-11f1-b522-a575454bc579/w:1024/p:16x9/EN-20261102-144234-144418-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>French school protests resume on smaller scale after autumn break</title>
-<link>https://www.france24.com/en/video/20261102-french-school-protests-resume-on-smaller-scale-after-autumn-break</link>
-<guid isPermaLink="false">88515182c100628201fc41afe084981949356a416ae0d15a1be10f2245a8e0a6</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 14:15:12 +0000</pubDate>
-<description>French high school student protests resumed on Monday on a ​much smaller scale than in past weeks as pupils returned from a two-week break, with youngsters trying to blockade a few high schools in Paris, Marseille and Rennes.</description>
-<enclosure url="https://s.france24.com/media/display/bfb21bec-d6c5-11f1-b1dd-d18c5759e759/w:1024/p:16x9/EN-20261102-144020-144142-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/bfb21bec-d6c5-11f1-b1dd-d18c5759e759/w:1024/p:16x9/EN-20261102-144020-144142-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>Sour grapes? Dems shocked as Haley Stevens breaks ranks</title>
-<link>https://www.france24.com/en/video/20261102-sour-grapes-dems-shocked-as-haley-stevens-breaks-ranks</link>
-<guid isPermaLink="false">39d02c84aea73a1b8a236d2624fbef2b16428bebaf1cf0346912daf99a666ee0</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 13:54:39 +0000</pubDate>
-<description>France 24’s Fraser Jackson takes a look at the state of play one day ahead of crucial midterm elections in the US as both Democrats and Republicans make their final bids for votes. Meanwhile, Michigan Democrat Haley Stevens has rocked the state’s Senate race by endorsing Republican Mike Rogers over Democratic candidate Abdul El-Sayed. Stevens lost the Michigan Democrats' Senate primary to El-Sayed in a bitterly contested race, leading some to accuse her of sour grapes.</description>
-<enclosure url="https://s.france24.com/media/display/85c34c60-d6c2-11f1-84d0-d18c5759e759/w:1024/p:16x9/EN-20261102-140324-140754-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/85c34c60-d6c2-11f1-84d0-d18c5759e759/w:1024/p:16x9/EN-20261102-140324-140754-CS.jpg" medium="image"/>
-</item>
-<item>
 <title>WATCH: A look at the state of the midterm races</title>
 <link>https://abcnews.com/video/137764411</link>
 <guid isPermaLink="false">972e4e9e558772aac595cd9e72802bb2ffdbc48992d0f9cdb03bbe9920ee5558</guid>
@@ -277,72 +453,6 @@
 <description>ABC News' Senior Political Correspondent Rachel Scott breaks down the state of play as a new New York Times/Siena poll shows Democrats are gaining ground, slightly pulling ahead in key Senate races.</description>
 <enclosure url="https://s.abcnews.com/images/GMA/261102_gma_scott_election1_0709_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/GMA/261102_gma_scott_election1_0709_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Fresh wave of fridge cyberattacks hits European supermarkets</title>
-<link>https://www.france24.com/en/europe/20261102-fresh-wave-of-fridge-cyberattacks-hits-european-supermarkets</link>
-<guid isPermaLink="false">81a7e18ccf0102e6e751da922a900357381e5775ed0feca8a1bd385e8ec54bae</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 13:40:09 +0000</pubDate>
-<description>Stores and supermarkets across Belgium, Luxembourg, Finland, Estonia and Sweden all reported early Monday abrupt temperature spikes in their fridges and freezers in an apparent cyberattack targeting refrigeration units. The incidents follow a similar attack that hit hundreds of supermarkets across France in October, triggering food loss and fires.</description>
-<enclosure url="https://s.france24.com/media/display/071116b6-d6b0-11f1-99f9-695cb59fade5/w:1024/p:16x9/000-D64Y2DM.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/071116b6-d6b0-11f1-99f9-695cb59fade5/w:1024/p:16x9/000-D64Y2DM.jpg" medium="image"/>
-</item>
-<item>
-<title>Greenpeace deploys boulders in North Sea to 'protect porpoises'</title>
-<link>https://news.sky.com/story/greenpeace-deploys-boulder-barrier-in-north-sea-to-protect-porpoises-13607103</link>
-<guid isPermaLink="false">06fcfcc33ceb375bcfbdc7bfb009ec21d4dabdb951cc24fac8f021c87d810f9d</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 13:33:00 +0000</pubDate>
-<description>Greenpeace says it has formed an underwater barrier with boulders in the North Sea to prevent "destructive fishing" in an area created to protect porpoises.</description>
-<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-greenpeace-boulder_7394859.jpg?20261102130127" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-greenpeace-boulder_7394859.jpg?20261102130127" medium="image"/>
-</item>
-<item>
-<title>Italian journalists under police protection as threats rise across the country</title>
-<link>https://www.france24.com/en/video/20261102-italian-journalists-under-police-protection-as-threats-rise-across-the-country</link>
-<guid isPermaLink="false">830ee8076ae274b8aec14de34bc905921947b60bf7dd9021b273c0f5f3aa3281</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 13:20:55 +0000</pubDate>
-<description>Italy is the European country with the largest number of journalists under police protection. There, journalism is a profession particularly susceptible to threats and intimidation, but the European Union's measures to protect press freedom are slow to be implemented. FRANCE 24's team has more.</description>
-<enclosure url="https://s.france24.com/media/display/8bb11af2-d6b9-11f1-9e68-695cb59fade5/w:1024/p:16x9/capture-0bf09737.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/8bb11af2-d6b9-11f1-9e68-695cb59fade5/w:1024/p:16x9/capture-0bf09737.jpg" medium="image"/>
-</item>
-<item>
-<title>US midterm elections: North Carolina farmers hit hard by inflation</title>
-<link>https://www.france24.com/en/tv-shows/focus/20261102-us-midterm-elections-north-carolina-farmers-hit-hard-by-inflation</link>
-<guid isPermaLink="false">ce27d9ebb852e3a195f07ee19e0238ad3e3a236ba2dc050c0bbef0096981b4e0</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 13:13:31 +0000</pubDate>
-<description>On the eve of the midterm elections, US President Donald Trump's unpopularity is impacting Republicans across the board. Many states with seats once considered Republican strongholds are now on shaky ground. One of them is North Carolina, a rural state where one in five jobs is tied to agriculture.</description>
-<enclosure url="https://s.france24.com/media/display/6dfd6204-d6be-11f1-ade0-bf1914cabd52/w:1024/p:16x9/capture-cbd2a019.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/6dfd6204-d6be-11f1-ade0-bf1914cabd52/w:1024/p:16x9/capture-cbd2a019.jpg" medium="image"/>
-</item>
-<item>
-<title>Michigan Democrat's endorsement of Republican ruffles critical Senate race</title>
-<link>https://www.france24.com/en/video/20261102-michigan-democrat-s-endorsement-of-republican-ruffles-critical-senate-race-1</link>
-<guid isPermaLink="false">4cbb9c0ac3c6adf4b1f1c4450480966406b0cfd24f33f70ee128c4ed325a533f</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 12:41:56 +0000</pubDate>
-<description>A prominent Michigan Democrat endorsed Republican Mike Rogers on Sunday, giving President Donald Trump's Republicans an unexpected boost in a critical US Senate race two days before midterm elections that will decide control of Congress.</description>
-<enclosure url="https://s.france24.com/media/display/a093d6fc-d6ba-11f1-a802-695cb59fade5/w:1024/p:16x9/mini-39.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/a093d6fc-d6ba-11f1-a802-695cb59fade5/w:1024/p:16x9/mini-39.jpg" medium="image"/>
-</item>
-<item>
-<title>'No political solution' to anger in France, expert says amid ongoing protests</title>
-<link>https://www.france24.com/en/tv-shows/perspective/20261102-no-political-solution-to-the-anger-in-france-expert-says-amid-ongoing-protests</link>
-<guid isPermaLink="false">ceef1091da5c63adfb09b9a0e18b219139c9c340f387b25ac611cc3d665804ad</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 12:41:04 +0000</pubDate>
-<description>With the vast majority of French high schools reopening despite calls for new blockades, and the number of people attending weekend demonstrations down for the third week in a row, are the protests in France beginning to die out? We spoke to one political expert who says he believes they will, saying it is difficult to see who people are protesting against, given that the government has no majority in parliament.</description>
-<enclosure url="https://s.france24.com/media/display/144ede1a-d6b7-11f1-aeab-695cb59fade5/w:1024/p:16x9/capture-aead05f9.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/144ede1a-d6b7-11f1-aeab-695cb59fade5/w:1024/p:16x9/capture-aead05f9.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Sisters go from lifesaving surgery to running a marathon</title>
@@ -356,37 +466,15 @@
 <media:content url="https://s.abcnews.com/images/US/261102_gmafl_marathon_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>How Antonelli became Formula One's youngest world champion</title>
-<link>https://www.france24.com/en/video/20261102-how-antonelli-became-formula-one-s-youngest-world-champion</link>
-<guid isPermaLink="false">19d8845f2297269ea2b0db45eb9401ad6b1b39cbcd7e537951536976788fcc38</guid>
-<source>France 24</source>
+<title>Major business group calls for fundamental change in UK-EU relationship</title>
+<link>https://news.sky.com/story/major-business-group-calls-for-fundamental-change-in-uk-eu-relationship-as-current-system-failing-13607061</link>
+<guid isPermaLink="false">35d9e6420df01e79eb5dbba832c9b54365fe99d55d834b7fcf18e0292d969d45</guid>
+<source>Sky News Home</source>
 <category>world</category>
-<pubDate>Mon, 02 Nov 2026 11:54:27 +0000</pubDate>
-<description>A tearful Kimi Antonelli became Formula One's youngest world champion at 20 years and 68 ​days old on Sunday when he finished third for Mercedes in a red-flagged and restarted Mexico City Grand Prix won by Red Bull's Max Verstappen.</description>
-<enclosure url="https://s.france24.com/media/display/428c2d90-d6ae-11f1-a83b-bf1914cabd52/w:1024/p:16x9/EN-20261102-104215-104406-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/428c2d90-d6ae-11f1-a83b-bf1914cabd52/w:1024/p:16x9/EN-20261102-104215-104406-CS.jpg" medium="image"/>
-</item>
-<item>
-<title>US Midterms: Michigan Democrat Haley Stevens defects from party</title>
-<link>https://www.france24.com/en/video/20261102-us-midterms-michigan-democrat-haley-stevens-defects-from-party</link>
-<guid isPermaLink="false">27dc729571a856c2580fbbfea7ecd16a88639818a523c9eb8075a521673113c4</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 11:52:05 +0000</pubDate>
-<description>Democrats sought on Monday, November 2, to contain a rift in Michigan's US Senate race after one of their own crossed party lines to endorse the Republican candidate, as both parties made final pitches before midterm elections that will decide control of Congress. FRANCE 24's International Affairs Editor Philip Turle has more.</description>
-<enclosure url="https://s.france24.com/media/display/8d395c4e-d6b0-11f1-852b-d18c5759e759/w:1024/p:16x9/capture-13352aed.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/8d395c4e-d6b0-11f1-852b-d18c5759e759/w:1024/p:16x9/capture-13352aed.jpg" medium="image"/>
-</item>
-<item>
-<title>'More patients and fewer doctors': The struggle for maternity care in Afghanistan</title>
-<link>https://www.france24.com/en/video/20261102-more-patients-and-fewer-doctors-the-struggle-for-maternity-care-in-afghanistan</link>
-<guid isPermaLink="false">58e52bc384ba8a776540954c4c3d20a90c2c11e486985dd0980b90a7487b11ec</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 11:48:52 +0000</pubDate>
-<description>Afghanistan has one of the highest maternal mortality rates in the world. Experts say on average, a woman dies every two hours from complications during childbirth. The problem has become more accute since the Taliban returned to power in 2021, with access to healthcare for Afghan women becoming increasingly difficult. FRANCE 24's team reports from on the ground.</description>
-<enclosure url="https://s.france24.com/media/display/6026897a-d6ab-11f1-80ef-1beafce15fea/w:1024/p:16x9/capture-4bc490a2.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/6026897a-d6ab-11f1-80ef-1beafce15fea/w:1024/p:16x9/capture-4bc490a2.jpg" medium="image"/>
+<pubDate>Mon, 02 Nov 2026 12:27:00 +0000</pubDate>
+<description>A major UK business group has called on the government to "fundamentally reassess" the country's relationship with the EU, as it said the current system is still "failing to deliver".</description>
+<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-eu-britain-brexit_7371037.jpg?20261008074237" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-eu-britain-brexit_7371037.jpg?20261008074237" medium="image"/>
 </item>
 <item>
 <title>Two economists studied California's billionaire tax. They reached wildly different conclusions</title>
@@ -400,6 +488,17 @@
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4735x3157+0+0/resize/4735x3157!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F05%2Fae%2F72c32e9e4280ab25ed64537115d5%2Fgettyimages-2261837536.jpg" medium="image"/>
 </item>
 <item>
+<title>Voters are concerned as healthcare costs increase. Here are some possible causes</title>
+<link>https://abcnews.com/Health/americans-worried-healthcare-costs-midterms-approach-rising/story?id=137569440</link>
+<guid isPermaLink="false">94d16f571214090dcc98ebe89a07756a832e5f1e91852b7d2b2b82a2ce20f3e9</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Mon, 02 Nov 2026 11:10:21 +0000</pubDate>
+<description>As many U.S. voters worry about healthcare costs, experts tell ABC News there are many reasons why costs may be rising.</description>
+<enclosure url="https://s.abcnews.com/images/Health/healthcare-stock-gty-jef-261027_1793106524671_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Health/healthcare-stock-gty-jef-261027_1793106524671_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>'Everything is destroyed': Hackers target refrigerators in new cyber attacks</title>
 <link>https://news.sky.com/story/hackers-target-refrigerators-in-ireland-and-european-countries-in-new-wave-of-cyber-attacks-13607013</link>
 <guid isPermaLink="false">26b330a5774fabf7c1c5165dc150c0ef84b6bbbe79482aebe56149876c6f052f</guid>
@@ -411,26 +510,15 @@
 <media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-ica-sweden-freezers_7394730.jpg?20261102111823" medium="image"/>
 </item>
 <item>
-<title>Man jailed for life after dragging headteacher to his death under his car</title>
-<link>https://news.sky.com/story/simon-richardson-jailed-for-life-after-fatally-dragging-head-teacher-michael-mullins-to-his-death-under-his-car-13607015</link>
-<guid isPermaLink="false">d7ae5fed86c570fde79f9b2b78e33a424d69553ffcefacb44e0ff65b3fb943c0</guid>
-<source>Sky News Home</source>
+<title>Advocates rally voters after dozens of polling sites closed in 'swing' Texas county</title>
+<link>https://abcnews.com/Politics/advocates-rally-midterm-voters-after-dozens-polling-sites/story?id=137615179</link>
+<guid isPermaLink="false">e5fc4fc4ee064f082545465e3ee6f7595b4038b83df4cc5d19115a403dfe6b44</guid>
+<source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Mon, 02 Nov 2026 10:35:00 +0000</pubDate>
-<description>A man who hit a cyclist and knowingly dragged him for more than a mile under his car has been sentenced to at least 25 years in prison for the murder.</description>
-<enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-simon-richardson-michael-mullins_7392068.jpg?20261030173040" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-simon-richardson-michael-mullins_7392068.jpg?20261030173040" medium="image"/>
-</item>
-<item>
-<title>With students scarce, college admissions offices get friendlier, less intimidating</title>
-<link>https://www.npr.org/2026/11/02/nx-s1-6007855/college-admissions-change-fewer-students</link>
-<guid isPermaLink="false">daa6340103c9cb2e16bdc3cd0fbfb4d60e8f17e7bcaac74d5b83ee4b10c19f7d</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
-<description>Colleges are trying to transform an admissions process that has often been daunting, secretive and stressful into an experience that's open, easier — and downright friendly.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3500x2335+0+0/resize/3500x2335!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fa9%2F95bd950e460a90001fb1918c4891%2Fhe-admissions-all-in-1.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3500x2335+0+0/resize/3500x2335!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fa9%2F95bd950e460a90001fb1918c4891%2Fhe-admissions-all-in-1.jpg" medium="image"/>
+<pubDate>Mon, 02 Nov 2026 10:00:04 +0000</pubDate>
+<description>Community and advocacy groups in Tarrant County, Texas, are rallying to get voters to the polls after officials shut down dozens of polling locations before the midterms.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/texas-gty-er-261030_1793373528194_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/texas-gty-er-261030_1793373528194_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>How does this fluoride-free toothpaste compare when it comes to oral health?</title>
@@ -444,26 +532,15 @@
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2121x1414+0+0/resize/2121x1414!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe7%2F2e%2F428040b546e4a122a586b07d146e%2Fgettyimages-2292510964.jpg" medium="image"/>
 </item>
 <item>
-<title>What Vance's midterm push reveals about his potential 2028 bid</title>
-<link>https://www.npr.org/2026/11/02/nx-s1-6023159/what-vances-midterm-push-reveals-about-his-potential-2028-bid</link>
-<guid isPermaLink="false">863c53c58505e93ac7e8bad69d5bc6c0279fe9df55936db8c9524c4868572625</guid>
+<title>With students scarce, college admissions offices get friendlier, less intimidating</title>
+<link>https://www.npr.org/2026/11/02/nx-s1-6007855/college-admissions-change-fewer-students</link>
+<guid isPermaLink="false">daa6340103c9cb2e16bdc3cd0fbfb4d60e8f17e7bcaac74d5b83ee4b10c19f7d</guid>
 <source>NPR News</source>
 <category>world</category>
 <pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
-<description>Vance's delivery is different from the president's but his speeches contain plenty of MAGA DNA.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5392x3592+0+0/resize/5392x3592!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6c%2Ffe%2Fc5e8c5f942f9b33b890b7ed97281%2Fgettyimages-2302226858.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5392x3592+0+0/resize/5392x3592!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6c%2Ffe%2Fc5e8c5f942f9b33b890b7ed97281%2Fgettyimages-2302226858.jpg" medium="image"/>
-</item>
-<item>
-<title>UN's peacekeeping mission in disputed Western Sahara ends after 35 years</title>
-<link>https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends</link>
-<guid isPermaLink="false">f4c5be0a71e76073b83082bcfe79a56a3a0b3f3f1f7cd68afe4f29809edf4761</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 07:19:35 +0000</pubDate>
-<description>The U.N.'s long-running peacekeeping mission for the disputed Western Sahara ceased operations Sunday after 35 years. Once ruled by Spain, it is claimed by both Morocco and the pro-independence Polisario Front.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8351x5567+0+0/resize/8351x5567!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F4e%2Fde1f3e074a53adb6510217f3e291%2Fap26305659609431.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8351x5567+0+0/resize/8351x5567!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F30%2F4e%2Fde1f3e074a53adb6510217f3e291%2Fap26305659609431.jpg" medium="image"/>
+<description>Colleges are trying to transform an admissions process that has often been daunting, secretive and stressful into an experience that's open, easier — and downright friendly.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3500x2335+0+0/resize/3500x2335!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fa9%2F95bd950e460a90001fb1918c4891%2Fhe-admissions-all-in-1.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3500x2335+0+0/resize/3500x2335!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2Fa9%2F95bd950e460a90001fb1918c4891%2Fhe-admissions-all-in-1.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Thrilling finishes at NYC marathon</title>
@@ -486,39 +563,6 @@
 <description>British backpackers in Australia could be forced to spend more time in regional areas under proposed changes to the country's working holiday visa.</description>
 <enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-australia-tourism_7395016.jpg?20261102152318" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-australia-tourism_7395016.jpg?20261102152318" medium="image"/>
-</item>
-<item>
-<title>Sen. Chris Murphy hospitalized after suffering a stroke, chief of staff says</title>
-<link>https://abcnews.com/Politics/sen-chris-murphy-hospitalized-after-suffering-stroke-chief/story?id=137751743</link>
-<guid isPermaLink="false">097b631085f51c98cd31cfc19abeae73c08f7ef1236c0bb4a3e4f72af3ad62fb</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Mon, 02 Nov 2026 00:37:58 +0000</pubDate>
-<description>U.S. Sen. Chris Murphy has been hospitalized after suffering a stroke, his chief of staff said in a statement on Sunday.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/chris-murphy-abc-jm-250209_1739113572108_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/chris-murphy-abc-jm-250209_1739113572108_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>DOJ urges sanctions for database analysis critical of its noncitizen voting claims</title>
-<link>https://abcnews.com/US/wireStory/justice-department-urges-sanctions-database-analysis-critical-noncitizen-137757433</link>
-<guid isPermaLink="false">1fa001145f3e57d59d32d8ff451a26c239bb3bbcce95bcae7bd5f6c71138c59f</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sun, 01 Nov 2026 23:54:05 +0000</pubDate>
-<description>The Justice Department is urging a federal judge to consider whether to hold an immigrant rights group in contempt of court for disclosing the results of its analysis of a dataset of alleged noncitizens registered to vote in California</description>
-<enclosure url="https://s.abcnews.com/images/US/wirestory_2cc44eb5ff13d956443eef75eadb24c9_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/wirestory_2cc44eb5ff13d956443eef75eadb24c9_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Pilot's last words before jet crashes in Florida, killing all nine on board</title>
-<link>https://news.sky.com/story/business-jet-carrying-nine-crashes-in-florida-13606818</link>
-<guid isPermaLink="false">d00086bfb9136256436ccf2a1d81664ae0c21ed4106edbda9e8bec8636295a6e</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sun, 01 Nov 2026 20:34:00 +0000</pubDate>
-<description>A business jet has crashed in a Florida neighbourhood killing all nine people on board.</description>
-<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-florida-plane_7394455.jpg?20261102010847" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-florida-plane_7394455.jpg?20261102010847" medium="image"/>
 </item>
 <item>
 <title>Suspected far-right activists from Britain 'with tear gas bombs' detained in France</title>
@@ -587,17 +631,6 @@
 <media:content url="https://s.abcnews.com/images/Politics/california-voting-ap-jt-261031_1793472010818_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>DC, Virginia file suit to block construction on Trump's proposed arch</title>
-<link>https://abcnews.com/Politics/dc-virginia-file-suit-block-construction-trumps-proposed/story?id=137739420</link>
-<guid isPermaLink="false">c54c54e8e922e450e2cd158674fc46cb9fd5a8c9b04d9f244a8025f6d3bcf6a0</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 31 Oct 2026 22:20:34 +0000</pubDate>
-<description>Washington D.C. and Virginia are asking a judge to block the president's Triumphal Arch.</description>
-<enclosure url="https://s.abcnews.com/images/US/arch-1-ht-gmh-261019_1792435449124_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/arch-1-ht-gmh-261019_1792435449124_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
 <title>Judge dismisses Trump's Wall Street Journal lawsuit</title>
 <link>https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496</link>
 <guid isPermaLink="false">7134f0761dc6eb35a36d34b29bcfef08e69d2da034ba37528a6f1e2810e159ae</guid>
@@ -607,17 +640,6 @@
 <description>A US judge has dismissed President Donald Trump's lawsuit against The Wall Street Journal over a story about a birthday card he allegedly sent Jeffrey Epstein.</description>
 <enclosure url="https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-darline-graham_7391141.jpg?20261029173106" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-darline-graham_7391141.jpg?20261029173106" medium="image"/>
-</item>
-<item>
-<title>Judge says court will investigate government officials in DC golf course case</title>
-<link>https://abcnews.com/Politics/judge-court-investigate-government-officials-dc-golf-case/story?id=137723824</link>
-<guid isPermaLink="false">46c03af8a2742d3c3364e9a55c0809509236bbf59a2ed327c3dd6ac25dec78a0</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 31 Oct 2026 17:54:15 +0000</pubDate>
-<description>The judge wants to know if lawyers tried to mislead her over Trump's plans.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/east-potomac-watch-20261030-ap-jh_1793405130651_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/east-potomac-watch-20261030-ap-jh_1793405130651_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Majority of funds stolen in cryptocurrency hack replenished, Binance says</title>
@@ -651,28 +673,6 @@
 <description>Body camera footage shows the dramatic police shootout that left a suspected sailboat thief dead in Newport, Rhode Island. The 40-foot boat was stolen back in August.</description>
 <enclosure url="https://s.abcnews.com/images/WNT/261030_wn_newport_RI_norwood_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/WNT/261030_wn_newport_RI_norwood_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>These House races could determine which party is in control in the next Congress</title>
-<link>https://abcnews.com/Politics/house-races-determine-party-control-congress/story?id=137301298</link>
-<guid isPermaLink="false">7f0a1236e60240b78480926c2cb5ca4ac7d08d7fc70ef6d273b4594f0162946c</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Fri, 30 Oct 2026 21:39:08 +0000</pubDate>
-<description>All 435 seats in the House of Representatives are on the ballot when voters head to the polls on Nov. 3.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/us-capitol-20261029-rt-jh_1793321924036_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/us-capitol-20261029-rt-jh_1793321924036_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>DOJ says election officials could face jail time if they fail to preserve records</title>
-<link>https://abcnews.com/US/doj-warns-state-election-officials-face-jail-time/story?id=137719272</link>
-<guid isPermaLink="false">e61878f091c38c325858a0660e79ff29050a77902cc57ae5fa3d7e3790a5289f</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Fri, 30 Oct 2026 21:17:14 +0000</pubDate>
-<description>The DOJ has warned election officials in multiple states that they could face jail time if they fail to preserve election records in accordance with federal law.</description>
-<enclosure url="https://s.abcnews.com/images/US/vote-ga-5-rt-gmh-261020_1792518861259_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/vote-ga-5-rt-gmh-261020_1792518861259_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: How to keep pets safe on Halloween</title>
@@ -730,6 +730,17 @@
 <media:content url="https://s.abcnews.com/images/WNT/261029_wn_ender_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
+<title>Ahead of midterms, backlash grows over soaring electricity bills</title>
+<link>https://abcnews.com/US/ahead-midterms-backlash-grows-soaring-electricity-bills/story?id=137675396</link>
+<guid isPermaLink="false">704b6ed0dfee210b942b7deab30778d8daa3281e6d7374699cdbcd024a91f885</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Thu, 29 Oct 2026 19:11:42 +0000</pubDate>
+<description>Nationwide, electricity costs have spiked approximately 5% in the past year, government data shows.</description>
+<enclosure url="https://s.abcnews.com/images/GMA/election-sign-gty-jef-261029_1793289146089_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/GMA/election-sign-gty-jef-261029_1793289146089_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>WATCH: See National Geographic's best destinations for 2026</title>
 <link>https://abcnews.com/video/137679246</link>
 <guid isPermaLink="false">1398bb81d3562a201ea855d8b169bb1cef09a2b80d85f7b436f77a2ba3f50c86</guid>
@@ -741,14 +752,14 @@
 <media:content url="https://s.abcnews.com/images/GMA/261029_gma3_nat_geo_destinations_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
-<title>LIVE: ABC News Live</title>
-<link>https://abcnews.com/video/41463246</link>
-<guid isPermaLink="false">c4dde2f9d4430a48432ef223ef2dea7731f9a2b9448e21ee003bf7e7734a1e77</guid>
+<title>Control of Congress is up for grabs. What's the math for Democrats and Republicans?</title>
+<link>https://abcnews.com/Politics/control-congress-grabs-election-day-math-democrats-republicans/story?id=137229697</link>
+<guid isPermaLink="false">42bf4364a92fb8378f30df30b692705e74b778f0f5068f454dc28d102cc83648</guid>
 <source>ABC News Top Stories</source>
 <category>world</category>
-<pubDate>Wed, 28 Oct 2026 17:03:52 +0000</pubDate>
-<description>24/7 coverage of breaking news and live events</description>
-<enclosure url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Live/abc_news_live-abc-ml-250210_1739199021469_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Tue, 27 Oct 2026 11:32:35 +0000</pubDate>
+<description>Republicans currently hold majorities in the House and Senate. How many seats must Hakeem Jeffries and Chuck Schumer flip to seize control of Congress?</description>
+<enclosure url="https://s.abcnews.com/images/US/Capitol-1-ap-gmh-261013_1791915975350_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/Capitol-1-ap-gmh-261013_1791915975350_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 </channel></rss>
