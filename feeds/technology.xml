@@ -4,6 +4,72 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Dev error bricked 600 PCs, caused $1M CD-ROM write-off</title>
+<link>https://www.theregister.com/software/2026/11/09/dev-error-bricked-600-pcs-caused-1m-cd-rom-write-off/5308039</link>
+<guid isPermaLink="false">b69529d1774580624796769206d93b278f1271071db2d71a0a3e0a9e275f8098</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 07:36:00 +0000</pubDate>
+<description>One lucky engineer scored a free dinner during the frantic fix, the rest got to explain their mistake</description>
+<enclosure url="https://image.theregister.com/?imageId=225379&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=225379&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Welcome to Weed Island</title>
+<link>https://www.wired.com/story/welcome-to-weed-island-jersey</link>
+<guid isPermaLink="false">9c6bbc67161592c6a6347bb7d9e8338d31468c9211bf180512f06b101e1c2683</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 07:00:00 +0000</pubDate>
+<description>How the tiny, self-governing British island of Jersey unintentionally became Europe’s front line in the multibillion-dollar global cannabis industry.</description>
+<enclosure url="https://media.wired.com/photos/6aba9754b8c27fd4adca81cc/master/pass/092426-Jersey%20Weed%20Island.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6aba9754b8c27fd4adca81cc/master/pass/092426-Jersey%20Weed%20Island.jpg" medium="image"/>
+</item>
+<item>
+<title>Linus Torvalds sees signs AI-prompted patch flood has peaked</title>
+<link>https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345</link>
+<guid isPermaLink="false">e811360dc86da18ed11e34ee4ba43d00337239e8c97036fe2a3509c2568b821a</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 04:53:08 +0000</pubDate>
+<description>Fixes are arriving faster than new bug reports for one major Linux project</description>
+<enclosure url="https://image.theregister.com/?imageId=5241522&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5241522&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Huawei says it’s made a 100 percent Chinese PC</title>
+<link>https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335</link>
+<guid isPermaLink="false">ae25d23a57ace606f15f2c1d1fc3db26b3e8809fc498ca81a52454f9ab4ca6a0</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 02:14:17 +0000</pubDate>
+<description>PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!</description>
+<enclosure url="https://image.theregister.com/?imageId=5308342&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5308342&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>How to use your laptop as a second monitor</title>
+<link>https://www.engadget.com/2309277/how-to-use-laptop-second-desktop-monitor</link>
+<guid isPermaLink="false">fad7fb836ffaf3299f36068c4002a2beab530fabf443763dc4f408f6411c5036</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 01:30:00 +0000</pubDate>
+<description>If you have an extra laptop lying around, you can connect it to your primary laptop with a wireless or wired connection for a free dual monitor set up.</description>
+<enclosure url="https://www.engadget.com/img/gallery/how-to-use-your-laptop-as-a-second-monitor/l-intro-1793914883.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/how-to-use-your-laptop-as-a-second-monitor/l-intro-1793914883.jpg" medium="image"/>
+</item>
+<item>
+<title>Why your USB device isn't showing up on your MacBook and how you can fix it</title>
+<link>https://www.engadget.com/2309279/why-usb-device-not-showing-up-macbook-fixes</link>
+<guid isPermaLink="false">a1bebff432732cd887f8a7bc724c7c68238db1305884220e985277aacea203e2</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 01:00:00 +0000</pubDate>
+<description>If your USB device isn't showing up on your MacBook, the issue could be anything from a damaged cord to software troubles. Find out how to fix these problems.</description>
+<enclosure url="https://www.engadget.com/img/gallery/why-your-usb-device-isnt-showing-up-on-your-macbook-and-how-you-can-fix-it/l-intro-1793975296.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/why-your-usb-device-isnt-showing-up-on-your-macbook-and-how-you-can-fix-it/l-intro-1793975296.jpg" medium="image"/>
+</item>
+<item>
 <title>Which Canon Cameras Are Compatible With Its Free 3D Photo Software?</title>
 <link>https://www.engadget.com/2309282/which-canon-cameras-compatible-with-free-3d-software</link>
 <guid isPermaLink="false">fda0c72e2dabd8d80a13bec03f1da1a23214d7a5658dfb438085fed783a78bb2</guid>
@@ -35,6 +101,17 @@
 <description>Tim Cook led Apple for 15 years, during which time the company's offerings expanded and went through all kinds of changes.</description>
 <enclosure url="https://www.engadget.com/img/gallery/10-apple-products-and-features-that-transformed-under-tim-cooks-leadership/l-intro-1793207854.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/10-apple-products-and-features-that-transformed-under-tim-cooks-leadership/l-intro-1793207854.jpg" medium="image"/>
+</item>
+<item>
+<title>Nvidia CEO Jensen Huang starring in possible remake of The Spy Who Shagged Me</title>
+<link>https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-starring-in-possible-remake-of-the-spy-who-shagged-me/5308327</link>
+<guid isPermaLink="false">fc17a80ae37f1112ec9a99ec43d9f757e0ddb50cfb9c1b4265ac381a12971d09</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 09 Nov 2026 00:04:47 +0000</pubDate>
+<description>Admits to affair after company board opens probe into alleged contact with possible Chinese asset who bought GPUs in bulk</description>
+<enclosure url="https://image.theregister.com/?imageId=5308332&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5308332&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Those white cameras mounted above traffic lights serve a little-known purpose</title>
@@ -246,28 +323,6 @@
 <media:content url="https://www.engadget.com/img/gallery/dont-throw-away-your-old-flip-phone-do-this-instead/l-intro-1793913615.jpg" medium="image"/>
 </item>
 <item>
-<title>The danger of charging your phone under your pillow isn't radiation</title>
-<link>https://www.engadget.com/2309290/why-charging-phone-under-pillow-dangerous-explained</link>
-<guid isPermaLink="false">618d8bae5615f17ee1dd768a927eb09990aacfb16f63655e9e93b8538262665a</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Sun, 08 Nov 2026 20:00:00 +0000</pubDate>
-<description>The old fear about cell phone radiation causing cancer is an overblown concern, but there are other dangers when you tuck a charging phone under your pillow.</description>
-<enclosure url="https://www.engadget.com/img/gallery/the-danger-of-charging-your-phone-under-your-pillow-isnt-radiation/l-intro-1793912846.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/the-danger-of-charging-your-phone-under-your-pillow-isnt-radiation/l-intro-1793912846.jpg" medium="image"/>
-</item>
-<item>
-<title>Why Apple's M6 Chip Can't Hold Its Own Against Any NVIDIA GPU</title>
-<link>https://www.engadget.com/2309286/why-apple-m6-chip-cant-compete-any-nvidia-gpu</link>
-<guid isPermaLink="false">79910a5b36729e16dd2a71a520c049ef1078671a52ca28901e639c580f8fa5c8</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Sun, 08 Nov 2026 19:45:00 +0000</pubDate>
-<description>With the announcement of its M6, Apple is stepping into a new generation of its processors. Here's why it still can't compete with NVIDIA GPUs.</description>
-<enclosure url="https://www.engadget.com/img/gallery/why-apples-m6-chip-cant-hold-its-own-against-any-nvidia-gpu/l-intro-1793913055.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/why-apples-m6-chip-cant-hold-its-own-against-any-nvidia-gpu/l-intro-1793913055.jpg" medium="image"/>
-</item>
-<item>
 <title>Apple is racing to make Siri more agentic</title>
 <link>https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic</link>
 <guid isPermaLink="false">b9c0dd474c98ba84113b49b43813bbe3cfd9a5ff75bc65902eab23da6920ff99</guid>
@@ -332,6 +387,17 @@
 <description>Tuning in to electronic noise can tell us whether electrons have paired up or not.</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-90737843-884x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-90737843-884x648.jpg" medium="image"/>
+</item>
+<item>
+<title>The efficiency trap: why optimising everything can backfire, badly</title>
+<link>https://www.theguardian.com/books/2026/nov/08/the-efficiency-trap-why-optimising-everything-can-backfire-badly</link>
+<guid isPermaLink="false">bbbb86b7d578c108f500ebeb01e311f650fe1fb6cd691218dc14260f9883667c</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Sun, 08 Nov 2026 12:00:39 +0000</pubDate>
+<description>From roundabouts to the stock market, relentless streamlining could be making the world more dangerous We have all been there: packed shoulder to shoulder on the train while the person beside us coughs and sneezes. A protective flu jab offers some reassurance, but so does the thought that there will be a hospital bed for you, should you need it. Yet, in England, about 95% of adult hospital beds were occupied at the height of flu season last year. If hospitals were hotels, that level of occupancy would be good business, and we would commend them for their efficiency. But do we really want a hospital to have so few beds in reserve that it’s just one bad flu week away from having to treat patients in corridors? Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/e68bbef8dbe92c67f604bdd86917dcb9368a1049/0_349_1847_1476/master/1847.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b5d71ef564773091db7efc4a88579595" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/e68bbef8dbe92c67f604bdd86917dcb9368a1049/0_349_1847_1476/master/1847.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=b5d71ef564773091db7efc4a88579595" medium="image"/>
 </item>
 <item>
 <title>8 Best Computer Speakers (2026) After Testing 30 Pairs</title>
@@ -653,17 +719,6 @@
 <media:content url="https://media.wired.com/photos/6aed04343576db1689ab3d03/master/pass/Caregiving%20app.jpg" medium="image"/>
 </item>
 <item>
-<title>Ecoflow Rapid Pro Power Bank Deal: Save $80</title>
-<link>https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026</link>
-<guid isPermaLink="false">fd7cbae1066b35debac76e8f5c1b831b2d97becf4e56d7f80daabe2a5965da7f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Sat, 07 Nov 2026 11:00:00 +0000</pubDate>
-<description>With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.</description>
-<enclosure url="https://media.wired.com/photos/6aee6950f3308d4d3049680f/master/pass/Your-Holiday-Travels-Need-a-Power-Bank,-and-My-Favorite-Has-Never-Been-Cheaper.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6aee6950f3308d4d3049680f/master/pass/Your-Holiday-Travels-Need-a-Power-Bank,-and-My-Favorite-Has-Never-Been-Cheaper.jpg" medium="image"/>
-</item>
-<item>
 <title>He Ran on Fighting Data Centers. Now, He’s Going to Congress</title>
 <link>https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress</link>
 <guid isPermaLink="false">181ef523da1e3408f919db3466bd5ca9ccac6f817f3ba8c3d2581ef4ecf46ac3</guid>
@@ -673,6 +728,17 @@
 <description>Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.</description>
 <enclosure url="https://media.wired.com/photos/6aee8c314e9fcb3cda39f822/master/pass/Power-Play-Ran-on-Hating-Congress.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6aee8c314e9fcb3cda39f822/master/pass/Power-Play-Ran-on-Hating-Congress.jpg" medium="image"/>
+</item>
+<item>
+<title>Ecoflow Rapid Pro Power Bank Deal: Save $80</title>
+<link>https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026</link>
+<guid isPermaLink="false">fd7cbae1066b35debac76e8f5c1b831b2d97becf4e56d7f80daabe2a5965da7f</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Sat, 07 Nov 2026 11:00:00 +0000</pubDate>
+<description>With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.</description>
+<enclosure url="https://media.wired.com/photos/6aee6950f3308d4d3049680f/master/pass/Your-Holiday-Travels-Need-a-Power-Bank,-and-My-Favorite-Has-Never-Been-Cheaper.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6aee6950f3308d4d3049680f/master/pass/Your-Holiday-Travels-Need-a-Power-Bank,-and-My-Favorite-Has-Never-Been-Cheaper.jpg" medium="image"/>
 </item>
 <item>
 <title>NHS breach helpline left staff carrying a 'significant emotional burden'</title>
@@ -882,17 +948,6 @@
 <description>Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1498933988-1152x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1498933988-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>The nine best personalized gift ideas: customized for the person you love</title>
-<link>https://www.theguardian.com/thefilter-us/2026/nov/06/best-personalized-custom-gift-ideas</link>
-<guid isPermaLink="false">48f249f7b2003d1dfb74d9bcad949dcb5e9c317d54bf29e508ac6f6a24a470cb</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Fri, 06 Nov 2026 20:15:51 +0000</pubDate>
-<description>Monogramming or customizing takes gifts to the next level – and shows recipients that you know what they like and who they are The best beauty Advent calendars of 2026 in the US Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things A personalized gift is a special thing that says that you not only know what the recipient likes, but that you also know who they are. “Gift math” suggests you score extra points for offering a personalized gift, and it’s not hard to see why: monogramming or engraving, which takes time and effort, may feel more meaningful than, say, a last-minute grocery store bouquet of carnations. When shopping for a loved one (or even the colleague on the other side of your cubicle), a personalized gift suggests foresight and consideration that is incredibly thoughtful without coming on too strong. To get you started on your quest for shopping for that perfect personalized gift this holiday season , we have sourced from ideas we’ve given,</description>
-<enclosure url="https://i.guim.co.uk/img/media/916a350ef95f6264f22ddf0f6898ff1adb457690/0_0_1799_1440/master/1799.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=1c2449df65ab2eb4d9e6f4a6ade19b99" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/916a350ef95f6264f22ddf0f6898ff1adb457690/0_0_1799_1440/master/1799.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=1c2449df65ab2eb4d9e6f4a6ade19b99" medium="image"/>
 </item>
 <item>
 <title>Nvidia hardware worth $11.4M vanished between Oakland and Texas</title>
@@ -1797,17 +1852,6 @@
 <media:content url="https://image.theregister.com/?imageId=4093655&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>The Best Smart Ring for Discreet Fitness Tracking in 2026</title>
-<link>https://www.wired.com/story/best-smart-ring</link>
-<guid isPermaLink="false">fa944c61e9bc5327515c909cc8bcb14655bcf9815c1743d01c6632bc9edf9048</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Thu, 05 Nov 2026 10:09:00 +0000</pubDate>
-<description>Turns out, your finger is prime real estate for health tracking. Here are the smart rings that impressed me the most.</description>
-<enclosure url="https://media.wired.com/photos/6aea0aa67e8b0dd825e7acc4/master/pass/Relaunch%20Best%20Smart%20Ring%20112026%20top%20art%20SOURCE%20Amazon.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6aea0aa67e8b0dd825e7acc4/master/pass/Relaunch%20Best%20Smart%20Ring%20112026%20top%20art%20SOURCE%20Amazon.jpg" medium="image"/>
-</item>
-<item>
 <title>‘It’s so glossy and sexy!’: 10 movies (and one TV show) that inspired Grand Theft Auto</title>
 <link>https://www.theguardian.com/games/2026/nov/05/its-so-glossy-and-sexy-10-movies-and-one-tv-show-that-inspired-grand-theft-auto</link>
 <guid isPermaLink="false">7fc28c04213e8df8fdafb4ab55c2f99e08aec59597709e617ac082dcd26d9a85</guid>
@@ -1927,50 +1971,6 @@
 <description>Agent orchestration startup gets its exit</description>
 <enclosure url="https://image.theregister.com/?imageId=5307715&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5307715&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Building AI factories at enterprise scale</title>
-<link>https://www.theregister.com/ai-and-ml/2026/11/05/sponsored-building-ai-factories-at-enterprise-scale/5306629</link>
-<guid isPermaLink="false">844aa326a7fd2825acebb07695c3bdf930388bc4d48faec4f801d95c647382f0</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 05 Nov 2026 00:01:00 +0000</pubDate>
-<description>SPONSORED FEATURE: ASUS wants to scale AI everywhere in the enterprise</description>
-<enclosure url="https://image.theregister.com/?imageId=5306631&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5306631&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Apple turns iCloud into spy cloud, will start looking at public share links</title>
-<link>https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681</link>
-<guid isPermaLink="false">1977d1ff181ce91597a605fee61af0a4ea7fbb186f570cf6d78e826ef6ea9f1f</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 04 Nov 2026 21:49:38 +0000</pubDate>
-<description>Content shared with anyone who has the URL will be scanned for 'harmful content,' though the iMaker hasn't defined that term</description>
-<enclosure url="https://image.theregister.com/?imageId=5307696&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5307696&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Hey, Siri: Plug into my app like you said you'd do way back in 2024</title>
-<link>https://www.theregister.com/ai-and-ml/2026/11/04/hey-siri-plug-into-my-app-like-you-said-youd-do-way-back-in-2024/5307659</link>
-<guid isPermaLink="false">2ee2e98e092a81eb6ac9926ec215ae77a67b84f34289f2ec9f3da1bb1491fcb4</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 04 Nov 2026 20:56:16 +0000</pubDate>
-<description>More than two years after promising it, Apple lets developers test Siri AI app integration</description>
-<enclosure url="https://image.theregister.com/?imageId=5307663&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5307663&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Palantir CEO says it's pioneering an antiwar movement – while happily accepting defense dollars</title>
-<link>https://www.theregister.com/offbeat/2026/11/04/palantir-ceo-says-its-pioneering-an-antiwar-movement-while-happily-accepting-defense-dollars/5307605</link>
-<guid isPermaLink="false">38ef1bc11771a4a1a6dd617bc528c9cefa7286bea905c7b50d691fa19b360752</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Wed, 04 Nov 2026 19:25:00 +0000</pubDate>
-<description>Alex Karp casts military software as a force for peace while declaring a moral imperative to dominate the market</description>
-<enclosure url="https://image.theregister.com/?imageId=258394&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=258394&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Safari finally gets 3 popular browser features – and I can’t wait to try them</title>
