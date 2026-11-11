@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>New Research Compares Long-Term Relief From 21 Antidepressants</title>
+<link>https://www.nytimes.com/2026/11/10/well/mind/antidepressants-efficacy-work.html</link>
+<guid isPermaLink="false">3c87e4eaaaaf0f264e52fd74f8bf46688c8e549e9eafedde81a81fb1b7ad2b87</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Tue, 10 Nov 2026 23:30:23 +0000</pubDate>
+<description>In the meta-analysis, a few drugs stood out for offering greater effectiveness over time.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/09/well/WELL-DEPRESSION-MEDS1/WELL-DEPRESSION-MEDS1-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/09/well/WELL-DEPRESSION-MEDS1/WELL-DEPRESSION-MEDS1-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>The U.S. Has Lost Its Measles-Elimination Status, Data Suggests</title>
 <link>https://www.nytimes.com/2026/11/10/health/measles-united-states-elimination-rfk.html</link>
 <guid isPermaLink="false">66b6901ed4ac7e5c75c27e66d06e4e868ebfec85bb601d8c0b54368ebbc654a9</guid>
@@ -598,17 +609,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/EDSLPgQe5gCsFs72XukEyF-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>NASA chief Jared Isaacman skydives into space agency's MAX POWER air show — 'Going into this job, I knew we had to do something like this.'</title>
-<link>https://www.space.com/space-exploration/nasa-chief-jared-isaacman-skydives-into-space-agencys-max-power-air-show-going-into-this-job-i-i-knew-we-had-to-do-something-like-this</link>
-<guid isPermaLink="false">6cfb6a33fb3dee0906883286a75678912becd828e7983d847b4e8c95ef31d367</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
-<description>"I promise you, there'll be more to come."</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/cn82GcQHERqoYh2TVVqoN4-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/cn82GcQHERqoYh2TVVqoN4-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>NASA unveils $10 billion in moon base contracts, new lunar missions and the 'PROMISE' of a nuclear-powered rover</title>
 <link>https://www.space.com/space-exploration/artemis/nasa-unveils-usd10-billion-in-moon-base-contracts-new-lunar-missions-and-the-promise-of-a-nuclear-powered-rover</link>
 <guid isPermaLink="false">0af86ae370ba9b467be3799eb6c6e08a3b7da1708ac5e95d34541c29d91cefe4</guid>
@@ -618,6 +618,17 @@
 <description>NASA is pushing ahead with its plan to build a moon base for astronauts by 2032, unveiling up to $10 billion in new contracts to launch and deliver cargo to Earth's nearest neighbor.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/QqobdB5e8LcM5ERUWc2mqV-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/QqobdB5e8LcM5ERUWc2mqV-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>NASA chief Jared Isaacman skydives into space agency's MAX POWER air show — 'Going into this job, I knew we had to do something like this.'</title>
+<link>https://www.space.com/space-exploration/nasa-chief-jared-isaacman-skydives-into-space-agencys-max-power-air-show-going-into-this-job-i-i-knew-we-had-to-do-something-like-this</link>
+<guid isPermaLink="false">6cfb6a33fb3dee0906883286a75678912becd828e7983d847b4e8c95ef31d367</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
+<description>"I promise you, there'll be more to come."</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/cn82GcQHERqoYh2TVVqoN4-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/cn82GcQHERqoYh2TVVqoN4-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>Yes, it runs 'Doom': Satellite plays iconic game in world's 1st demonstration of orbital voice control</title>
