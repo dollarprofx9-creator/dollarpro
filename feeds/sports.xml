@@ -4,103 +4,411 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>NBA season live scores updates: NBA Cup latest with Knicks, Brunson rallying at Pacers, FAA ground stop impacts travel</title>
+<title>Connecticut football's numbers keep falling. Coaches say rebuilding starts long before high school</title>
+<link>https://sports.yahoo.com/articles/connecticut-footballs-numbers-keep-falling-101500012.html</link>
+<guid isPermaLink="false">445d1011f1ac1f3f6971fe180e8ab4fd8b5474a0c688ee98d39bbbf650bab156</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:15:00 +0000</pubDate>
+<description>From youth leagues to recruiting in school hallways, Connecticut football coaches look to rebuild participation.</description>
+<enclosure url="https://media.zenfs.com/en/ct_insider_187/037214cc92d90d3ef198c5cf4ca529b5.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/ct_insider_187/037214cc92d90d3ef198c5cf4ca529b5.jpg" medium="image"/>
+</item>
+<item>
+<title>Aryna Sabalenka's tennis season ends with her game — and perhaps her place in history — uncertain</title>
+<link>https://www.nytimes.com/athletic/7780592/2026/11/14/aryna-sabalenka-tennis-results-trophies-game</link>
+<guid isPermaLink="false">64a986b9fd6b9780d6ee90c2d64b91ec569926e5b7de705c1a106e8122302eaa</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:11:44 +0000</pubDate>
+<description>Sabalenka's tendency to lose from winning positions is having legacy-impacting as well as immediate effects on her tennis.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13232804/Aryna-Sabalenka-Tennis-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13232804/Aryna-Sabalenka-Tennis-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>For Frances Tiafoe, the ATP Finals is the destination of a journey into the unknown</title>
+<link>https://www.nytimes.com/athletic/7777254/2026/11/14/frances-tiafoe-tennis-atp-finals-mindset-improvement</link>
+<guid isPermaLink="false">1c3fbdaa67ab8664d9553932087bae91c844ad969a9a733bf8d90eca8329b725</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:11:12 +0000</pubDate>
+<description>At the start of the year, Tiafoe's inner circle told him to change or quit. He chose to change.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12173702/Frances-Tiafoe-Tennis-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12173702/Frances-Tiafoe-Tennis-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>George Russell is “looking down the barrel” of Kimi Antonelli’s raw pace, says James Allison</title>
+<link>https://sports.yahoo.com/articles/george-russell-looking-down-barrel-101030113.html</link>
+<guid isPermaLink="false">859f3a67b00538d232fbd136ed2f177d253ea26a7845ebdf1a29c2f2e3dfef42</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:10:30 +0000</pubDate>
+<description>James Allison praises George Russell's honesty as the Briton confronts his own driving deficiencies against Kimi Antonelli</description>
+<enclosure url="https://media.zenfs.com/en/motorsport_articles_445/35f802507bac91f893de94b41286ff55.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/motorsport_articles_445/35f802507bac91f893de94b41286ff55.jpg" medium="image"/>
+</item>
+<item>
+<title>Pat Fitzgerald's downtown tour shows he gets Michigan State culture</title>
+<link>https://sports.yahoo.com/articles/pat-fitzgeralds-downtown-tour-shows-100746848.html</link>
+<guid isPermaLink="false">9efb5c9db0e7e82ba51fcb0258188e87efbd238ed0ac2785a74ba968403fa84a</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:07:46 +0000</pubDate>
+<description>On Wednesday, Michigan State football coach Pat Fitzgerald and his new athletic director took the Paul Bunyan Trophy to the people of East Lansing.</description>
+<enclosure url="https://media.zenfs.com/en/detroit-free-press/d122102bcc0f11ca73c0f5cc90044f01.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/detroit-free-press/d122102bcc0f11ca73c0f5cc90044f01.jpg" medium="image"/>
+</item>
+<item>
+<title>“Why Would We Ever Agree to That?”: Oklahoma Fans Demand Accountability as Ole Miss Travel Disruption Threatens Game-Day Plans</title>
+<link>https://sports.yahoo.com/articles/why-ever-agree-oklahoma-fans-100726718.html</link>
+<guid isPermaLink="false">391e3c89f8fb5127a570218aeda0137ff6aa7b3df4523f078b93ce4a9941dd38</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:07:26 +0000</pubDate>
+<description>Ole Miss’ travel complications ahead of its Week 11 matchup against Oklahoma have sparked frustration among Sooners fans. A nationwide FAA ground stop disrupted flights across the country on Friday, leaving the Rebels unable to travel to Norman as originally planned.</description>
+<enclosure url="https://media.zenfs.com/en/college_football_network_979/47db2e50952d7ad7f350b4e5a789e74b.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/college_football_network_979/47db2e50952d7ad7f350b4e5a789e74b.jpg" medium="image"/>
+</item>
+<item>
+<title>Michigan State-Washington scouting report, prediction: Fighting to bowl</title>
+<link>https://sports.yahoo.com/articles/michigan-state-washington-scouting-report-100525887.html</link>
+<guid isPermaLink="false">1403358b76c9b8564d45e5701941072658c380a2f9d31291c151a98989f58f7e</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:05:25 +0000</pubDate>
+<description>How does Michigan State football stack up against Washington in Week 11 test?</description>
+<enclosure url="https://media.zenfs.com/en/detroit-free-press/083af758800e44fe5bec96f9e7339335.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/detroit-free-press/083af758800e44fe5bec96f9e7339335.jpg" medium="image"/>
+</item>
+<item>
+<title>Ligon, Hirsch headline area's all-district football honorees</title>
+<link>https://sports.yahoo.com/articles/ligon-hirsch-headline-areas-district-100509258.html</link>
+<guid isPermaLink="false">5d205abc79ed931ea0abece4b9667d9db42850032a6671ebe559aa4247946dc9</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:05:09 +0000</pubDate>
+<description>Chillicothe's Cartae Ligon and Huntington's Frankie Hirsch have earned District Player of the Year nods in their respective Divisions.</description>
+<enclosure url="https://media.zenfs.com/en/chillicothe-gazette/623b87b9eeda6d718fa21a525e3bda55.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/chillicothe-gazette/623b87b9eeda6d718fa21a525e3bda55.jpg" medium="image"/>
+</item>
+<item>
+<title>Jaguars can't afford to overlook what's left of the Titans</title>
+<link>https://sports.yahoo.com/articles/jaguars-cant-afford-overlook-whats-100331242.html</link>
+<guid isPermaLink="false">02521960e35e74a537ee72d2123137083cfeaafd7e5bdab1a09e7f6957493ffc</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:03:31 +0000</pubDate>
+<description>The Jacksonville Jaguars face a Titans team in transition, but Tony Pollard and a familiar division rivalry could complicate Jacksonville's plans.</description>
+<enclosure url="https://media.zenfs.com/en/the-florida-times-union/99e82be1aa9b0a6e5c637bfa8929b665.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-florida-times-union/99e82be1aa9b0a6e5c637bfa8929b665.jpg" medium="image"/>
+</item>
+<item>
+<title>What channel is Penn State football vs Minnesota today? Time, TV</title>
+<link>https://sports.yahoo.com/articles/channel-penn-state-football-vs-100225118.html</link>
+<guid isPermaLink="false">ed9e0aac11d74eed575dc1f3c123beaeae1e48fe8e1ed09575a96c8e4074532e</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:02:25 +0000</pubDate>
+<description>What channel is the Penn State football vs Minnesota on today? Here's how to watch, including start time and viewing options.</description>
+<enclosure url="https://media.zenfs.com/en/york-daily-record/8a32b5c5d6dbc525f8ab2f0bff93fc91.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/york-daily-record/8a32b5c5d6dbc525f8ab2f0bff93fc91.jpg" medium="image"/>
+</item>
+<item>
+<title>Sebastian Grønning explains how Hertha have turned things around in Berlin</title>
+<link>https://sports.yahoo.com/articles/sebastian-gr-nning-explains-hertha-100200685.html</link>
+<guid isPermaLink="false">f84cf28aeaae49c23333e6f0cc3858614a5cd6378fb6180df75510ab08f40923</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:02:00 +0000</pubDate>
+<description>After several turbulent years, Hertha finally appear to be moving in the right direction. Following relegation from the Bundesliga in 2023 and successive campaigns in which promotion proved elusive, t...</description>
+<enclosure url="https://media.zenfs.com/en/bulinews_articles_290/a66647fb5765ceb81f016adf3e5bd459.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/bulinews_articles_290/a66647fb5765ceb81f016adf3e5bd459.jpg" medium="image"/>
+</item>
+<item>
+<title>Sitting Jessie Bates, Jordan Davis right move for Jacksonville Jaguars</title>
+<link>https://sports.yahoo.com/articles/sitting-jessie-bates-jordan-davis-100147177.html</link>
+<guid isPermaLink="false">a6b5c369260e3f28a4461b1b36ff72afca0236a868b73e3e202164a6ab49631f</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:01:47 +0000</pubDate>
+<description>The Jaguars will give Jordan Davis and Jessie Bates their bye week by resting them against the Tennessee Titans.</description>
+<enclosure url="https://media.zenfs.com/en/the-florida-times-union/dd54ad4d76e6260e48efeb2f50cddfe8.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/the-florida-times-union/dd54ad4d76e6260e48efeb2f50cddfe8.jpg" medium="image"/>
+</item>
+<item>
+<title>Streaming expert on the best ways to watch No. 20 Ohio State vs. Northwestern for free</title>
+<link>https://sports.yahoo.com/articles/streaming-expert-best-ways-watch-100100492.html</link>
+<guid isPermaLink="false">b0d48e11580f2e699034ddd2d5a633f485836192aee6adb5f954f090a86a75b6</guid>
+<source>Yahoo Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:01:00 +0000</pubDate>
+<description>The Buckeyes will welcome back a familiar face as Chip Kelly and Northwestern visit The Shoe this afternoon. If you’re not sure the best way to watch, we break down all of your free over-the-air and streaming options.</description>
+<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/76a531dc111e1995b44bc1aac54a6e95.jpg" type="image/jpeg"/>
+<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/76a531dc111e1995b44bc1aac54a6e95.jpg" medium="image"/>
+</item>
+<item>
+<title>The Red Sox knew the costs with the Jake Bauers addition. They acted anyway</title>
+<link>https://www.nytimes.com/athletic/7780390/2026/11/14/jake-bauers-red-sox-farm-system-brewers</link>
+<guid isPermaLink="false">bd591eff7799d7890d802cf0d5d7d47e9e54def1abf1b967e912238b735d4e35</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 10:00:12 +0000</pubDate>
+<description>Plus: a robot umps report, the Atlanta Braves’ pitching plans and more MLB news and notes.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13225720/GettyImages-2300264132-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13225720/GettyImages-2300264132-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>'Being number 1 is dream come true' - Zverev previews ATP Finals</title>
+<link>https://www.skysports.com/watch/video/13612138/tennis-alexander-zverev-previews-atp-finals</link>
+<guid isPermaLink="false">b571fdd4695e02023b8c2077756ca7c0ff13fd02bbedf405a416d7a5df0bfe5e</guid>
+<source>Sky Sports Tennis</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 09:45:00 +0000</pubDate>
+<description>World Number one Alexander Zverev discussed how he feels being top of the rankings and previews the ATP finals.</description>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-tennis-atp_7406303.jpg?20261114094746" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-tennis-atp_7406303.jpg?20261114094746" medium="image"/>
+</item>
+<item>
+<title>Argentina’s life after Lionel Messi begins with Uruguay defeat in front of half-empty stadium</title>
+<link>https://www.nytimes.com/athletic/7781070/2026/11/14/argentina-uruguay-result-messi</link>
+<guid isPermaLink="false">f679ceee5b37c1f822a42ddf3bc3fbc1072e9bf3ce6b4b37ba2be38b96efbf2c</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 08:36:16 +0000</pubDate>
+<description>Argentina lost 2-1 to Uruguay at the Bombonera stadium in Buenos Aires.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14033036/GettyImages-2305023494-scaled-e1794645065114.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14033036/GettyImages-2305023494-scaled-e1794645065114.jpg" medium="image"/>
+</item>
+<item>
+<title>What I’m hearing about Chargers-Broncos trade bitterness, why Jonathan Taylor stayed</title>
+<link>https://www.nytimes.com/athletic/7780632/2026/11/14/daiyan-henley-chargers-broncos-trade-deadline</link>
+<guid isPermaLink="false">e9aca9cde3db502b13e5972b44731b23bfa820eb5e9177fcd39271d7dee3e6d5</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 08:00:15 +0000</pubDate>
+<description>Plus, the NFL has an onside kick problem.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13221643/GettyImages-2296280262-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13221643/GettyImages-2296280262-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Warner claims sandpapergate investigation 'stinks of a cover-up'</title>
+<link>https://www.skysports.com/cricket/news/12040/13612120/sandpapergate-david-warner-claims-cricket-australias-investigation-into-2018-scandal-stinks-of-a-cover-up</link>
+<guid isPermaLink="false">31ca036b10fec4c1b374b5ff8d1af5d597175e259ecca8d0bf6caca87b5c9b6a</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:54:00 +0000</pubDate>
+<description>David Warner has claimed Cricket Australia’s investigation into the 2018 ball tampering scandal “stinks of a cover-up”.</description>
+<enclosure url="https://e1.365dm.com/26/10/1920x1080/skysports-david-warner-australia_7381543.png?20261020115016" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/10/1920x1080/skysports-david-warner-australia_7381543.png?20261020115016" medium="image"/>
+</item>
+<item>
+<title>SEC moves Ole Miss game at Oklahoma to Sunday over Sooners' 'strong objection'</title>
+<link>https://www.nytimes.com/athletic/7780962/2026/11/14/oklahoma-ole-miss-sec-sunday-forfeit</link>
+<guid isPermaLink="false">aac2d91555eeaa070a7f9782bdd85f29844dc312b76ffcee86ed976fb93d77a7</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:45:55 +0000</pubDate>
+<description>Oklahoma AD Roger Denny said the SEC "informed us that our failure to play on Sunday at the directed time would result in a forfeit."</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14031254/2026-09-06T005210Z_1822840670_MT1USATODAY29752685_RTRMADP_3_NCAA-FOOTBALL-TEXAS-EL-PASO-AT-OKLAHOMA-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14031254/2026-09-06T005210Z_1822840670_MT1USATODAY29752685_RTRMADP_3_NCAA-FOOTBALL-TEXAS-EL-PASO-AT-OKLAHOMA-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Hatton leads McIlroy after stunning eagle in Race to Dubai finale LIVE!</title>
+<link>https://www.skysports.com/golf/live-blog/12040/13611918/dp-world-tour-championship-third-round-live-latest-scores-highlights-as-rory-mcilroy-and-tyrrell-hatton-battle-for-lead</link>
+<guid isPermaLink="false">4953b40ae4065d5b1255c22f80f8674178168068929ad9c3f5f3be59265e2676</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:45:00 +0000</pubDate>
+<description></description>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-golf_7406309.jpg?20261114100621" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-golf_7406309.jpg?20261114100621" medium="image"/>
+</item>
+<item>
+<title>NBA season live updates: Spurs streak hits 11, Knicks Cup defense in dire straits, flight chaos for teams</title>
 <link>https://www.nytimes.com/athletic/live-blogs/nba-news-scores-games-schedule-stats-live-updates/3O8C8RgzvHTs</link>
 <guid isPermaLink="false">380e477154da2381cd9d27b09ef9b27318b0823d0dca22771a342aca37d5fda8</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:19:12 +0000</pubDate>
-<description>Follow our live coverage of the latest news, flight issues, injury fallout and tonight’s NBA Cup action.</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/3O8C8RgzvHTs_tlLfffVI4u1L_1440x960.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/3O8C8RgzvHTs_tlLfffVI4u1L_1440x960.jpg" medium="image"/>
+<pubDate>Sat, 14 Nov 2026 07:44:04 +0000</pubDate>
+<description>Follow our live coverage of the latest news, travel issues, injury concerns and NBA Cup fallout from across the association.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/3O8C8RgzvHTs_h7VROfBPk55a_1440x960.jpeg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/3O8C8RgzvHTs_h7VROfBPk55a_1440x960.jpeg" medium="image"/>
 </item>
 <item>
-<title>Kentucky needed a last-gasp 3-pointer to beat a team it was a 33.5-point favorite against</title>
+<title>Goalkeeper Owono given 12-match ban after De Miguel's death from collision</title>
+<link>https://www.skysports.com/football/news/12040/13612118/goalkeeper-jesus-owono-given-12-match-ban-after-tenerife-forward-jesus-de-miguels-death-following-collision</link>
+<guid isPermaLink="false">9c70867e94ba6c996782bea51d3f18a1082b2e3cfafb0baa07e9d9ea44ad2884</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:22:00 +0000</pubDate>
+<description>FC Andorra goalkeeper Jesus Owono has been suspended for 12 matches for his challenge of "excessive force" which resulted in the death of Tenerife forward Jesus de Miguel.</description>
+<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-jesus-owono-andorra_7397054.jpg?20261104170145" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-jesus-owono-andorra_7397054.jpg?20261104170145" medium="image"/>
+</item>
+<item>
+<title>Adames fights Warburton as Bentley targets 2027 bout with champion</title>
+<link>https://www.skysports.com/boxing/news/12040/13612025/carlos-adames-fights-gerome-warburton-as-denzel-bentley-targets-shot-at-wbc-middleweight-world-champion-next-year</link>
+<guid isPermaLink="false">8042d3e8edae29edd0d6bb9c20e0f8442bc5ebbf7945ddceb233f33cf74e4951</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:00:00 +0000</pubDate>
+<description>WBC world champion Carlos Adames fights Wales’ Gerome Warburton on Saturday, live on Sky Sports Mix from 4pm.</description>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-carlos-adames-gerome-warburton_7406042.jpg?20261113200008" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-carlos-adames-gerome-warburton_7406042.jpg?20261113200008" medium="image"/>
+</item>
+<item>
+<title>What does a Pochettino team look like?</title>
+<link>https://www.skysports.com/football/news/11661/13611443/mauricio-pochettino-to-man-utd-what-does-a-pochettino-team-look-like-and-how-will-he-set-up-struggling-red-devils</link>
+<guid isPermaLink="false">294e5b8ae1940d3575cf8112ce759f5f8b85cdc67274e96326bdc3669326b81d</guid>
+<source>Sky Sports Premier League</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:00:00 +0000</pubDate>
+<description>Mauricio Pochettino has been named Manchester United's new manager following the sacking of Michael Carrick, so what can supporters actually expect on the pitch?</description>
+<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-premier-league-manchester-united_7405659.jpg?20261113093243" type="image/jpeg"/>
+<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-premier-league-manchester-united_7405659.jpg?20261113093243" medium="image"/>
+</item>
+<item>
+<title>Gane still hopes for Aspinall rematch</title>
+<link>https://news.sky.com/story/ciryl-gane-still-hopes-for-tom-aspinall-rematch-first-fight-was-not-good-for-him-for-me-for-everyone-13612063</link>
+<guid isPermaLink="false">00ef08259e848d78b20856547700b27c6a602f357c8a1a7f645ca7502b692562</guid>
+<source>Sky News Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 07:00:00 +0000</pubDate>
+<description>Ciryl Gane is still hoping for a rematch with Britain’s Tom Aspinall.</description>
+<enclosure url="https://e3.365dm.com/26/11/1920x1080/skysports-ciryl-gane-ufc_7406123.jpg?20261113220937" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/11/1920x1080/skysports-ciryl-gane-ufc_7406123.jpg?20261113220937" medium="image"/>
+</item>
+<item>
+<title>FAA nationwide ground stop lifted: Latest sports news as teams’ travel plans affected by flight delays, cancellations</title>
+<link>https://www.nytimes.com/athletic/live-blogs/faa-nationwide-ground-stop-flight-delays-cancellations-sports-college-teams-travel-updates/fSxpSclAr79u</link>
+<guid isPermaLink="false">cc641defd91fe69660ad195da20f54e0dd23cbb698ea49520f509c190f31dfee</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 06:56:28 +0000</pubDate>
+<description>A nationwide ground stop left teams scrambling to make plans for their games.</description>
+<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/fSxpSclAr79u_vrVeZNecqeEd_1440x960.jpg" type="image/jpeg"/>
+<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/fSxpSclAr79u_vrVeZNecqeEd_1440x960.jpg" medium="image"/>
+</item>
+<item>
+<title>How France defied a deadly 'tush push' and their own demons to sink South Africa</title>
+<link>https://www.nytimes.com/athletic/7780952/2026/11/14/rugby-france-south-africa-result-analysis</link>
+<guid isPermaLink="false">6aaadb8d2fd192423c90686a1dbf38b95981364779a31a3a9900a726062a31e0</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 06:45:32 +0000</pubDate>
+<description>A 21-19 victory against the double world champions was mucky, muddled, occasionally magnificent — and it really mattered</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14012649/GettyImages-2304485599-e1794637895758.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14012649/GettyImages-2304485599-e1794637895758.jpg" medium="image"/>
+</item>
+<item>
+<title>Ask the Ref: Who is the worst manager to handle? Which ground is most intimidating?</title>
+<link>https://www.nytimes.com/athletic/7779798/2026/11/14/premier-league-referee-qa-graham-scott</link>
+<guid isPermaLink="false">182527af838e4959ee993b261f2a0efc4b13862b3e8f7c441c4b5db3a857af36</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 06:00:59 +0000</pubDate>
+<description>On our latest Athletic FC podcast, ex-Premier League referee Graham Scott answered your questions on what the job's really like</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13151941/GettyImages-1774759662-scaled-e1794601198553.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13151941/GettyImages-1774759662-scaled-e1794601198553.jpg" medium="image"/>
+</item>
+<item>
+<title>What is it really like being an out-of-work manager?</title>
+<link>https://www.nytimes.com/athletic/7773092/2026/11/14/out-of-work-managers</link>
+<guid isPermaLink="false">107a9e359e6d5a0aeb5c62f28e985c922632cf932329a86c6315c9858a943b08</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 05:13:32 +0000</pubDate>
+<description>Going from the intensity of management to the void after losing your job can be a real challenge, as can finding the next challenge</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/11131313/GettyImages-2242296706-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/11131313/GettyImages-2242296706-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Rudi Garcia interview: Thinking Balogun decision was 'a joke', managing Ronaldo and Man Utd interviews</title>
+<link>https://www.nytimes.com/athletic/7709867/2026/11/14/rudi-garcia-balogun-ronaldo-man-united</link>
+<guid isPermaLink="false">8cc7454e43719becf54b83a124ce1ccec39647be1cf4da821ff7606269bd45f9</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 05:12:07 +0000</pubDate>
+<description>The Frenchman was in charge of Belgium at the World Cup and found himself involved in one of the tournament's biggest controversies</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/10/21032720/GettyImages-2285145346-scaled-e1792567668996.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/10/21032720/GettyImages-2285145346-scaled-e1792567668996.jpg" medium="image"/>
+</item>
+<item>
+<title>Why Tom Brady left Birmingham City as club pushes for the Premier League</title>
+<link>https://www.nytimes.com/athletic/7775559/2026/11/14/tom-brady-birmingham-city-exit-why</link>
+<guid isPermaLink="false">7746a953cdc7f5ae5ecb7ff24610f2379e91b3b670eb7d64f28f3a3543d2f0e5</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 05:03:23 +0000</pubDate>
+<description>Not so long ago, Brady’s departure from Birmingham may have rocked the boat, but their voyage back to the top division is well underway</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13055802/GettyImages-2172464565-scaled-e1794567508811.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13055802/GettyImages-2172464565-scaled-e1794567508811.jpg" medium="image"/>
+</item>
+<item>
+<title>Connections: Sports Edition today: Hints and answers for Nov. 14, 2026, puzzle No. 782</title>
+<link>https://www.nytimes.com/athletic/7779909/2026/11/14/connections-sports-edition-hints-answers-nov-14-2026</link>
+<guid isPermaLink="false">39b2b2d794ce3ee4fae3a8e5aff82d98a5e888ae6d5d2cbf6c2df0759e569396</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 05:00:03 +0000</pubDate>
+<description>Welcome to Connections: Sports Edition Coach — a spot to gather clues and discuss (and share) scores.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13161103/11142026_ConnectionsCoach782-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13161103/11142026_ConnectionsCoach782-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>How to watch the men's Stockholm Open: Streaming options for the Final</title>
+<link>https://www.nytimes.com/athletic/7780832/2026/11/13/mens-stockholm-open-stream-how-to-watch-november-14</link>
+<guid isPermaLink="false">acd8607fdd62a2bb45925d92ab1530aca3e326a986cdf0c9907b5501cd7f0cb8</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 04:49:34 +0000</pubDate>
+<description>Find out how to watch the men's Stockholm Open, with time, TV channel and streaming information.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14044541/VkyzUvR.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/14044541/VkyzUvR.jpg" medium="image"/>
+</item>
+<item>
+<title>No. 4 UCLA survives Illinois, ties school record with 10th victory</title>
+<link>https://www.nytimes.com/athletic/7780739/2026/11/13/ucla-ty-dieffenbach-injury-illinois</link>
+<guid isPermaLink="false">44c3682a8282d11c99a8d067d588d2adf4cb3c6f75f3b4de9bc1f00034da20d2</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 04:21:10 +0000</pubDate>
+<description>Quarterback Ty Dieffenbach returned from an upper-body injury and led the Bruins on vital second-half scoring drives.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13231637/Diffenbauch-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13231637/Diffenbauch-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>After FAA ground stop, Arizona State is flying 1,900 miles to play UCF on same day: 'Let’s dance'</title>
+<link>https://www.nytimes.com/athletic/7780730/2026/11/13/arizona-state-ucf-faa-ground-stop-travel</link>
+<guid isPermaLink="false">40e2d18663eb0f851ffdb91fc054221f9ec89ad4f447e3848931cc682e4af49e</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 03:43:52 +0000</pubDate>
+<description>Coach Kenny Dillingham's Sun Devils were set to fly out Friday. Now they must cross two time zones to take on UCF in Orlando on Saturday.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13223422/GettyImages-2301829761-scaled.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13223422/GettyImages-2301829761-scaled.jpg" medium="image"/>
+</item>
+<item>
+<title>Judge orders LSU to roster RJ Luis, clearing him to play despite SEC rule</title>
+<link>https://www.nytimes.com/athletic/7780401/2026/11/13/judge-orders-lsu-roster-rj-luis-sec</link>
+<guid isPermaLink="false">206ecf482534e981de1363ef5b8b90edaf9da12bb55c1d9eaad9a043b6de6458</guid>
+<source>The Athletic Sports</source>
+<category>sports</category>
+<pubDate>Sat, 14 Nov 2026 03:17:00 +0000</pubDate>
+<description>LSU coach Will Wade testified that he had not rostered Luis, who had signed a two-way NBA contract, for fear of retribution from the SEC.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13195001/AP26237102578179.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13195001/AP26237102578179.jpg" medium="image"/>
+</item>
+<item>
+<title>Kentucky needs last-gasp 3-pointer to avoid upset vs. 30.5-point underdog</title>
 <link>https://www.nytimes.com/athletic/7780562/2026/11/13/kentucky-basketball-northern-arizona-favorite</link>
 <guid isPermaLink="false">5f8aa9a5d5e8a2f260e87cde886b66c98d94990de0d6f585423651f11c001f7c</guid>
 <source>The Athletic Sports</source>
 <category>sports</category>
 <pubDate>Sat, 14 Nov 2026 02:17:48 +0000</pubDate>
-<description>Alex Wilkins made a 3-pointer with 2 seconds left to defeat the Lumberjacks, who were picked to finish last in their conference this season.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13211611/AlexWilkins-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13211611/AlexWilkins-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>LSU football’s Whit Weeks questionable to take the field vs. Texas</title>
-<link>https://sports.yahoo.com/articles/lsu-football-whit-weeks-questionable-021350856.html</link>
-<guid isPermaLink="false">a46e1e73845d05363008120eb6204e89d815cb83a1885f148465858ec989a5be</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:13:50 +0000</pubDate>
-<description>Coach Lane Kiffin’s LSU Tigers are 6-3 on the season and scheduled to welcome coach Steve Sarkisian’s Texas Longhorns to Baton Rouge for a 7:30 p.m. kickoff on Saturday, November 14, while the prospective visitors were hit with travel related issues . A former LSU QB made headlines before the game with a portal update while attention turned to a […] The post LSU football’s Whit Weeks questionable to take the field vs. Texas appeared first on ClutchPoints.</description>
-<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/3dc73bbf704ba01f6c2b2f311bc5b3c8.jpg_up.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/3dc73bbf704ba01f6c2b2f311bc5b3c8.jpg_up.jpg" medium="image"/>
-</item>
-<item>
-<title>FAA nationwide ground stop lifted: Latest sports news as teams' travel plans affected by flight delays, cancellations</title>
-<link>https://www.nytimes.com/athletic/live-blogs/faa-nationwide-ground-stop-flight-delays-cancellations-sports-college-teams-travel-updates/fSxpSclAr79u</link>
-<guid isPermaLink="false">cc641defd91fe69660ad195da20f54e0dd23cbb698ea49520f509c190f31dfee</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:12:03 +0000</pubDate>
-<description>A nationwide ground stop left teams scrambling to make plans for their games</description>
-<enclosure url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/fSxpSclAr79u_vrVeZNecqeEd_1440x960.jpg" type="image/jpeg"/>
-<media:content url="https://theathletic-media-production.s3-us-west-2.amazonaws.com/fSxpSclAr79u_vrVeZNecqeEd_1440x960.jpg" medium="image"/>
-</item>
-<item>
-<title>Frosh Brooklynn Haywood gives Oregon Ducks big lift in win vs. Maine</title>
-<link>https://sports.yahoo.com/articles/frosh-brooklynn-haywood-gives-oregon-021112051.html</link>
-<guid isPermaLink="false">674fce0f0efa87b69a8c50951b7aad7fd0efc051a7eba02ccd4d4cc8a75c201d</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:11:12 +0000</pubDate>
-<description>Oregon women's basketball wrapped up its long road trip to the East Coast with a win vs. Maine, led by freshman Brooklynn Haywood.</description>
-<enclosure url="https://media.zenfs.com/en/the-register-guard/8a50d4adba875cbe8f5d78e356d5fc78.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the-register-guard/8a50d4adba875cbe8f5d78e356d5fc78.jpg" medium="image"/>
-</item>
-<item>
-<title>ATVS Reacts Results: How do you feel about the new CFP 24-team format?</title>
-<link>https://sports.yahoo.com/articles/atvs-reacts-results-feel-cfp-021024821.html</link>
-<guid isPermaLink="false">75ac4f537624951b49215e748b3923490ac0624b40cb24a6c692fc26cb828d10</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:10:24 +0000</pubDate>
-<description>ATVS readers give their thoughts on the new CFP format</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/ed9092b4cd96de9b683b44846b5a64b8.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/ed9092b4cd96de9b683b44846b5a64b8.jpg" medium="image"/>
-</item>
-<item>
-<title>Texas football remains in Austin after FAA ground stop</title>
-<link>https://sports.yahoo.com/articles/texas-football-remains-austin-faa-020912135.html</link>
-<guid isPermaLink="false">2a90853747b328352557a2d43ada249fbcb2f431c63f713cf863f5b3ab8517c1</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:09:12 +0000</pubDate>
-<description>The Longhorns were ready to leave for Baton Rouge before all flights in the United States were grounded.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/b36132c4921ccbf44b629c68b821b67a.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/b36132c4921ccbf44b629c68b821b67a.jpg" medium="image"/>
-</item>
-<item>
-<title>Bo Jackson crowned Louisville Slugger Museum &amp; Factory's 2026 Living Legend</title>
-<link>https://sports.yahoo.com/articles/bo-jackson-crowned-louisville-slugger-020833724.html</link>
-<guid isPermaLink="false">0c1150dc244ed3509ff5ba1caf0ac946c752f41e595902325e198c767b739be3</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:08:33 +0000</pubDate>
-<description>Bo Jackson is the Louisville Slugger Museum &amp; Factory's Living Legend for 2026. The Herculean two-sport athlete reflects on his baseball career:</description>
-<enclosure url="https://media.zenfs.com/en/the-courier-journal/ee71719d16ac03d8d66b3e49629f851f.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the-courier-journal/ee71719d16ac03d8d66b3e49629f851f.jpg" medium="image"/>
-</item>
-<item>
-<title>Can the Chicago Bears get to 12 wins?</title>
-<link>https://sports.yahoo.com/articles/chicago-bears-12-wins-020829267.html</link>
-<guid isPermaLink="false">5b6b972e947b9d94f6f087d59177a73c83f787d61feca63ff4a961cea11cc937</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:08:29 +0000</pubDate>
-<description>The Bears play in the toughest division in the NFL and have seven wins at the bye, so can they better their 2025 record and get to 12 wins?</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/2d0576caa91867bdd44442e3ded2f394.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/2d0576caa91867bdd44442e3ded2f394.jpg" medium="image"/>
+<description>Alex Wilkins made a 3-pointer with 2 seconds left to defeat Northern Arizona, which was picked to finish last in their conference.</description>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13211611/AlexWilkins-scaled-e1794625774640.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13211611/AlexWilkins-scaled-e1794625774640.jpg" medium="image"/>
 </item>
 <item>
 <title>Daiyan Henley's wild week ended with an unexpected return to Chargers: 'Am I jobless?'</title>
@@ -112,182 +420,6 @@
 <description>Henley was his same jovial self even after the Chargers tried to trade him, and his teammates stuck by his side in the process.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13203825/Henley-scaled-e1794620895599.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13203825/Henley-scaled-e1794620895599.jpg" medium="image"/>
-</item>
-<item>
-<title>Gicarri Harris Leads Purdue to 80-62 Victory over THE Ohio University</title>
-<link>https://sports.yahoo.com/articles/gicarri-harris-leads-purdue-80-020758113.html</link>
-<guid isPermaLink="false">5a88412fd3e6119e80d944b2e5ef19927d0ecd271689adb02c9534e5a50f96da</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:07:58 +0000</pubDate>
-<description>The Boilermakers move to 2-2.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/2120353728ef9e1ef5800e66b29e4261.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/2120353728ef9e1ef5800e66b29e4261.jpg" medium="image"/>
-</item>
-<item>
-<title>No. 3 Illinois pulls past Sam Houston after messy first half</title>
-<link>https://sports.yahoo.com/articles/no-3-illinois-pulls-past-020720968.html</link>
-<guid isPermaLink="false">a4059a114d3f4299badc73b09745108cd4877c88a2c6d6fe0787ec415994ee64</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:07:20 +0000</pubDate>
-<description>Illinois is a second-half team.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/fb6dd0a66c25a7670e996b486a279d66.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/fb6dd0a66c25a7670e996b486a279d66.jpg" medium="image"/>
-</item>
-<item>
-<title>Steelers could be forced to bus to Cincinnati after FAA grounds flights</title>
-<link>https://sports.yahoo.com/articles/steelers-could-forced-bus-cincinnati-020651630.html</link>
-<guid isPermaLink="false">33d900c5eed91a2289b8d9e2d4502a3432c153c9030ab2af6e3be36aeecff0f1</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:06:51 +0000</pubDate>
-<description>All of a sudden, Steelers travel plans could look drastically different.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/101567a48add7746bda3ec2b96a53b8f.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/101567a48add7746bda3ec2b96a53b8f.jpg" medium="image"/>
-</item>
-<item>
-<title>Diego Pacheco vs Darius Fulghum, Rain or Shine on Saturday</title>
-<link>https://sports.yahoo.com/articles/diego-pacheco-vs-darius-fulghum-020626056.html</link>
-<guid isPermaLink="false">5c3a0eaaf790654fc04a05d1c18d890dda0b4ad1f153ae54a20c81bdc69cf29e</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:06:26 +0000</pubDate>
-<description>Diego Pacheco wants one more win before the year is over. Darius Fulghum stands in his way.</description>
-<enclosure url="https://media.zenfs.com/en/ny_fights_228/2a0aa9df10a6b3f6e4d5eb9df41a939a.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/ny_fights_228/2a0aa9df10a6b3f6e4d5eb9df41a939a.jpg" medium="image"/>
-</item>
-<item>
-<title>Kentucky Basketball miraculously rallies past Northern Arizona: 3 things to know and postgame banter</title>
-<link>https://sports.yahoo.com/articles/kentucky-basketball-miraculously-rallies-past-020552854.html</link>
-<guid isPermaLink="false">67ec8138b099cb49f6058eae756a7e1f01f33669ded7eb0601883a46f84d8814</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:05:52 +0000</pubDate>
-<description>Things aren’t well in Lexington, but the Kentucky Wildcats did enough to get the W vs. Northern Arizona.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/377fdbe29ac6507ca95cfdd21c45451e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/377fdbe29ac6507ca95cfdd21c45451e.jpg" medium="image"/>
-</item>
-<item>
-<title>Hope women's basketball recap: Flying Dutch knock off Wittenberg</title>
-<link>https://sports.yahoo.com/articles/hope-womens-basketball-recap-flying-020520227.html</link>
-<guid isPermaLink="false">98eef2433b52c55499167cd9c373be0068a03cbeb2701b924170a211a310573e</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:05:20 +0000</pubDate>
-<description>A game-by-game look at the Hope College women's basketball season.</description>
-<enclosure url="https://media.zenfs.com/en/the-holland-sentinel/46522d523ea84c64668fa0ae196dd8e0.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the-holland-sentinel/46522d523ea84c64668fa0ae196dd8e0.jpg" medium="image"/>
-</item>
-<item>
-<title>Cedar Ridge vs Dripping Springs football: Photos of 2 powerhouse teams' UIL playoff game</title>
-<link>https://sports.yahoo.com/articles/cedar-ridge-vs-dripping-springs-020409534.html</link>
-<guid isPermaLink="false">5899bd6c7416c3e83a2549bf35966463d6da8b93f4096633cb30f8cbae8d3c6f</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:04:09 +0000</pubDate>
-<description>The Cedar Ridge Raiders and Dripping Springs Tigers fight to advance out of the bi-district round of the Texas high school UIL state playoffs</description>
-<enclosure url="https://media.zenfs.com/en/austin_american_statesman_hearst_articles_361/345ca530b7655c1092855cb41c4f4e35.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/austin_american_statesman_hearst_articles_361/345ca530b7655c1092855cb41c4f4e35.jpg" medium="image"/>
-</item>
-<item>
-<title>Friday’s LSU vs. Texas injury report: Weeks game time decision</title>
-<link>https://sports.yahoo.com/articles/friday-lsu-vs-texas-injury-020145040.html</link>
-<guid isPermaLink="false">7c38d544e8f2d14fcc631d6e933aee25c20f7d101ba3eb4d271c2bd7b2c25f68</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:01:45 +0000</pubDate>
-<description>Whit Weeks still listed as questionable on final injury report for LSU</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/e23a5abfacb9142a4e4fb415d81a41f6.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/e23a5abfacb9142a4e4fb415d81a41f6.jpg" medium="image"/>
-</item>
-<item>
-<title>Lipscomb denies FGCU ASUN women's soccer title, NCAA berth</title>
-<link>https://sports.yahoo.com/articles/lipscomb-denies-fgcu-asun-womens-020037483.html</link>
-<guid isPermaLink="false">a4f2e065f5fe59b3f210e70e59651947f9cc9ba886486b76ab8addfb43cddb72</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:37 +0000</pubDate>
-<description>The Bison scored in the 69th minute and that goal held as Lipscomb beat FGCU 1-0 for its third straight ASUN crown.</description>
-<enclosure url="https://media.zenfs.com/en/the-news-press/d38a489124ee33eb119974d906edb199.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the-news-press/d38a489124ee33eb119974d906edb199.jpg" medium="image"/>
-</item>
-<item>
-<title>Purple Row After Dark: Arizona Fall League Semifinals discussion thread</title>
-<link>https://sports.yahoo.com/articles/purple-row-dark-arizona-fall-020035192.html</link>
-<guid isPermaLink="false">5c26c7ae6da41b75e7d1a64ebbe44da7babcc20743029213782e423200e390a4</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:35 +0000</pubDate>
-<description>The fourth-ranked Salt River Rafters will look to take down the top-ranked Peoria Javelinas.</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/10282105b83d4e8ecf890bf0a656557c.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/10282105b83d4e8ecf890bf0a656557c.jpg" medium="image"/>
-</item>
-<item>
-<title>Every player from California to play for the Golden State Warriors - John Coughran</title>
-<link>https://sports.yahoo.com/articles/every-player-california-play-golden-020034911.html</link>
-<guid isPermaLink="false">92e96b1c1c355ac2c1c260ce26bd8e71ac380f2d35d94ea3f40217a13e7c7098</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:34 +0000</pubDate>
-<description>Our focus in this article is John Coughran.</description>
-<enclosure url="https://media.zenfs.com/en/warriors_wire_usa_today_sports_articles_759/df8fb0a5ec760df45b2ad747c0578695.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/warriors_wire_usa_today_sports_articles_759/df8fb0a5ec760df45b2ad747c0578695.jpg" medium="image"/>
-</item>
-<item>
-<title>Auburn football bussing to Mississippi State after flight was grounded</title>
-<link>https://sports.yahoo.com/articles/auburn-football-bussing-mississippi-state-020033914.html</link>
-<guid isPermaLink="false">ff820d92c7581cee4833ef5f446244433845ec8c4f2b5870b876f2c989597b0a</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:33 +0000</pubDate>
-<description>People around the country are at the mercy of the Federal Aviation Administration, as they sit stranded at the airport waiting for any helpful information and estimated times of departure. Auburn football would probably prefer the comfort of air travel, but it is in a hurry. Since their flight was grounded on Friday, the Tigers are instead making […] The post Auburn football bussing to Mississippi State after flight was grounded appeared first on ClutchPoints.</description>
-<enclosure url="https://media.zenfs.com/en/clutchpoints_articles_939/73a3f8b477115932157a4e0f7bc78c45.jpg_up.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/clutchpoints_articles_939/73a3f8b477115932157a4e0f7bc78c45.jpg_up.jpg" medium="image"/>
-</item>
-<item>
-<title>Every player from California to play for the Brooklyn Nets</title>
-<link>https://sports.yahoo.com/articles/every-player-california-play-brooklyn-020027968.html</link>
-<guid isPermaLink="false">6137d083d005da2f0930ad427c9ac88d3747734aa25d5cb0101a1fd5192854a6</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:27 +0000</pubDate>
-<description>Our focus in this article is Lucious Harris</description>
-<enclosure url="https://media.zenfs.com/en/nets_wire_usa_today_sports_articles_725/96cf0d55748147852701c62aca99a18f.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/nets_wire_usa_today_sports_articles_725/96cf0d55748147852701c62aca99a18f.jpg" medium="image"/>
-</item>
-<item>
-<title>Kayla Harrison did ‘a lot of soul-searching’ before deciding to return from neck surgery and fight Amanda Nunes at UFC 334</title>
-<link>https://sports.yahoo.com/articles/kayla-harrison-did-lot-soul-020000506.html</link>
-<guid isPermaLink="false">83dc72b2456fc7413e06cacd8f1933bf6356c240f87bc6a49ff97f2034b19bd8</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:00 +0000</pubDate>
-<description>Kayla Harrison explains physical and mental battles she faced preparing for Amanda Nunes</description>
-<enclosure url="https://media.zenfs.com/en/sb_nation_articles_115/a90ea0b4de795b7f4d52311b7c024e6e.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/sb_nation_articles_115/a90ea0b4de795b7f4d52311b7c024e6e.jpg" medium="image"/>
-</item>
-<item>
-<title>How to watch Houston vs Colorado: Live stream, NCAA, College Football, TV channel</title>
-<link>https://sports.yahoo.com/articles/watch-houston-vs-colorado-live-020000815.html</link>
-<guid isPermaLink="false">6b3b14ddbd425ccb28be72bc7609ddc290c910043b229ad8f0b25171ad646822</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 02:00:00 +0000</pubDate>
-<description>No. 14 Houston heads to Colorado on Friday hoping to climb even further into contention for a CFP berth. How to watch Houston vs Colorado Houston is back up to 14th in the rankings as it travels to Colorado on…</description>
-<enclosure url="https://media.zenfs.com/en/the_big_lead_articles_114/19c53e8a54e271b6813dbf99d18e5414.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/the_big_lead_articles_114/19c53e8a54e271b6813dbf99d18e5414.jpg" medium="image"/>
-</item>
-<item>
-<title>Bristol falls to West Catholic in PIAA 2A football sub-regional</title>
-<link>https://sports.yahoo.com/articles/bristol-falls-west-catholic-piaa-015944209.html</link>
-<guid isPermaLink="false">9113afe2337d6866a4c40353d332cad92f411028726e99f6c0d7508d7646e5d5</guid>
-<source>Yahoo Sports</source>
-<category>sports</category>
-<pubDate>Sat, 14 Nov 2026 01:59:44 +0000</pubDate>
-<description>Bristol fell to West Catholic in the PIAA Class 2A high school football sub-regional.</description>
-<enclosure url="https://media.zenfs.com/en/bucks-county-courier-times/80ae0d8ff8c00d23c99b5c22f002ac95.jpg" type="image/jpeg"/>
-<media:content url="https://media.zenfs.com/en/bucks-county-courier-times/80ae0d8ff8c00d23c99b5c22f002ac95.jpg" medium="image"/>
 </item>
 <item>
 <title>Independent experts to review how Eagles handled Jalen Hurts’ blood clots, NFL says</title>
@@ -345,6 +477,17 @@
 <media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-elina-svitolina-karolina-muchova_7406212.jpg?20261113233529" medium="image"/>
 </item>
 <item>
+<title>Svitolina claims semi final spot after tough match with Sabalenka</title>
+<link>https://www.skysports.com/watch/video/13612094/aryna-sabalenka-vs-elina-svitolina-wta-finals-highlights</link>
+<guid isPermaLink="false">79e37e89a20f575f53ba73ae8163bb954f8f6f06de5868d874f63fcbbbdb8c64</guid>
+<source>Sky Sports Football</source>
+<category>sports</category>
+<pubDate>Fri, 13 Nov 2026 23:39:00 +0000</pubDate>
+<description>Highlights of Aryna Sabalenka against Elina Svitolina in the WTA Finals.</description>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-tennis-wta_7406217.jpg?20261113234201" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-tennis-wta_7406217.jpg?20261113234201" medium="image"/>
+</item>
+<item>
 <title>Alabama QB Keelon Russell not expected to play against Vanderbilt: Source</title>
 <link>https://www.nytimes.com/athletic/7780128/2026/11/13/keelon-russell-alabama-quarterback-injury-vanderbilt</link>
 <guid isPermaLink="false">84d30af04cbb3d39679e3885f19c1670e53b0ec81aa00cff8bbe574a2e7ae9d6</guid>
@@ -374,8 +517,8 @@
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 22:51:00 +0000</pubDate>
 <description>Hye-Jin Choi opened with two bogeys, made up ground with a 15-foot eagle putt late and finished with a three-under 67 on Friday that gave her part of a three-way share of the lead at The Annika.</description>
-<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-hye-jin-choi-the-annika_7406201.jpg?20261113232107" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-hye-jin-choi-the-annika_7406201.jpg?20261113232107" medium="image"/>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-hye-jin-choi-the-annika_7406201.jpg?20261114072740" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-hye-jin-choi-the-annika_7406201.jpg?20261114072740" medium="image"/>
 </item>
 <item>
 <title>Papers: Man Utd eyeing move for Como star Paz</title>
@@ -466,17 +609,6 @@
 <media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-golf-austin_7406138.jpg?20261113222212" medium="image"/>
 </item>
 <item>
-<title>Reijnders scores hat-trick as Netherlands beat Greece by seven</title>
-<link>https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more</link>
-<guid isPermaLink="false">31350a58d84fb7c1676c20c52d8fe638f23855a04f2f47c078bdbafe56792743</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 22:14:00 +0000</pubDate>
-<description></description>
-<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-netherlands-nations-league_7406126.jpg?20261113221316" medium="image"/>
-</item>
-<item>
 <title>MLS's San Jose Earthquakes sold for $625 million to Heath Freeman</title>
 <link>https://www.nytimes.com/athletic/7780080/2026/11/13/san-jose-earthquakes-sale-heath-freeman-mls-john-fisher</link>
 <guid isPermaLink="false">eb2000f9409aeaa601996c5ed88812228bc8d220e7aeb6bb9aa14c40e0674429</guid>
@@ -505,7 +637,7 @@
 <source>The Athletic Sports</source>
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 21:54:00 +0000</pubDate>
-<description>FAA technicians are investigating a “communication issue impacting all Air Route Traffic Control Centers.”</description>
+<description>SEC moves the football game between No. 19 Ole Miss and Oklahoma to Sunday, over host Oklahoma's objections.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13163533/GettyImages-2223798482-scaled.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13163533/GettyImages-2223798482-scaled.jpg" medium="image"/>
 </item>
@@ -638,8 +770,8 @@
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 20:06:29 +0000</pubDate>
 <description>Find out how to watch the Oklahoma City Thunder play the Los Angeles Clippers, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13210637/kjpOhAX.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13210637/kjpOhAX.jpg" medium="image"/>
+<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13230441/DiNOjsd.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13230441/DiNOjsd.jpg" medium="image"/>
 </item>
 <item>
 <title>How to watch Warriors vs. Spurs: TV channel and streaming options for November 13</title>
@@ -950,39 +1082,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13114642/kj5y2xj.jpg" medium="image"/>
 </item>
 <item>
-<title>How to watch Tennessee State vs. Tennessee men's basketball: TV channel and streaming options for November 13</title>
-<link>https://www.nytimes.com/athletic/7779345/2026/11/13/tennessee-state-vs-tennessee-stream-how-to-watch-nov-13</link>
-<guid isPermaLink="false">7fd7e4c3841c491af9fff64b72cce8cbad96da1eda9f4431baff56953e7332cb</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:46:14 +0000</pubDate>
-<description>Find out how to watch the Tennessee State Tigers play the Tennessee Volunteers, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13114614/NuRtjxh.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13114614/NuRtjxh.jpg" medium="image"/>
-</item>
-<item>
-<title>NHL's 3 most-surprising award front-runners: Can a goalie win the Calder Trophy?</title>
-<link>https://www.nytimes.com/athletic/7779275/2026/11/13/nhl-awards-favorites-odds-canadiens-jacob-fowler</link>
-<guid isPermaLink="false">e5b5f4f93f614a6919f6311b874f5a41ceed4c613bd4ab13b479fd3a6cef4d01</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:43:47 +0000</pubDate>
-<description>Plus: Bruins' Sturm for Jack Adams? Oilers' Bouchard for Norris? Let's dive in.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13111924/GettyImages-2304043373-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13111924/GettyImages-2304043373-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>How to watch Denver vs. LSU women's basketball: TV channel and streaming options for November 13</title>
-<link>https://www.nytimes.com/athletic/7779334/2026/11/13/denver-vs-lsu-stream-how-to-watch-nov-13</link>
-<guid isPermaLink="false">de7de95d8e4312caa45953ba3b5d3a78a249ec442bb746c60af85fd2644db5f6</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:42:17 +0000</pubDate>
-<description>Find out how to watch the Denver Pioneers play the LSU Tigers, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13114217/pgVMwyP.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13114217/pgVMwyP.jpg" medium="image"/>
-</item>
-<item>
 <title>Tickets for group stage games at Women's World Cup to go on sale for as low as $5</title>
 <link>https://www.nytimes.com/athletic/7779266/2026/11/13/womens-world-cup-tickets-brazil</link>
 <guid isPermaLink="false">bbec062dbdc3c7bf022c7666dd3ee66c3e43ca35a3b5dcc15da29f5ba768c92e</guid>
@@ -1001,74 +1100,8 @@
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 16:12:00 +0000</pubDate>
 <description></description>
-<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-dupont-france-rugby_7406060.jpg?20261113203811" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-dupont-france-rugby_7406060.jpg?20261113203811" medium="image"/>
-</item>
-<item>
-<title>How to watch Knicks vs. Pacers: TV channel and streaming options for November 13</title>
-<link>https://www.nytimes.com/athletic/7779273/2026/11/13/knicks-vs-pacers-stream-how-to-watch-nov-13</link>
-<guid isPermaLink="false">a335d3bcfaf47f73111031bad8da1bd45da91556106406d386ad259f51b4ac18</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:05:15 +0000</pubDate>
-<description>Find out how to watch the New York Knicks play the Indiana Pacers, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13190504/OGGshqq.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13190504/OGGshqq.jpg" medium="image"/>
-</item>
-<item>
-<title>How to watch Bucks vs. Magic: TV channel and streaming options for November 13</title>
-<link>https://www.nytimes.com/athletic/7779270/2026/11/13/bucks-vs-magic-stream-how-to-watch-nov-13</link>
-<guid isPermaLink="false">664f528645c97f0d0ae6451ba8b64415cd1785c8313f6de8b532170ffc374ab8</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:04:43 +0000</pubDate>
-<description>Find out how to watch the Milwaukee Bucks play the Orlando Magic, with time, TV channel and streaming information.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13190505/ldJKRDm.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13190505/ldJKRDm.jpg" medium="image"/>
-</item>
-<item>
-<title>Pochettino's Spurs return is looking increasingly unlikely - and maybe that's a good thing</title>
-<link>https://www.nytimes.com/athletic/7778574/2026/11/13/pochettino-spurs-return</link>
-<guid isPermaLink="false">c88cb5f409caa82986547bf0ad52684709f5609f0ac4ad4b2b851ef6d24483a5</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:00:46 +0000</pubDate>
-<description>Mauricio Pochettino’s move to Manchester United will inevitably stir up the emotions of Tottenham Hotspur supporters all over again</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13053129/GettyImages-683045236-scaled-e1794565957572.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13053129/GettyImages-683045236-scaled-e1794565957572.jpg" medium="image"/>
-</item>
-<item>
-<title>Brock Faber’s return is so close, he’s already picking up tab for Wild teammates</title>
-<link>https://www.nytimes.com/athletic/7778817/2026/11/13/brock-faber-return-date-wild</link>
-<guid isPermaLink="false">1a7340277834312c79c59bc1a8ee5ae59185523e52ee59538e8e0a5bf773de85</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 16:00:06 +0000</pubDate>
-<description>Faber could return from a fractured skull Saturday against the Bruins or Tuesday against the Predators. "He looks like his old self."</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13105326/GettyImages-2275380952-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13105326/GettyImages-2275380952-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Ravens quarterback Jackson to miss up to 10 weeks with thumb injury</title>
-<link>https://www.skysports.com/nfl/news/12040/13611953/nfl-baltimore-ravens-quarterback-lamar-jackson-to-miss-up-to-10-weeks-with-broken-and-dislocated-thumb</link>
-<guid isPermaLink="false">f6494740df9f6a5dbc9ab09332138651d68d8203919b614b2405a970cec2a5e1</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 15:47:00 +0000</pubDate>
-<description>Baltimore Ravens quarterback Lamar Jackson will miss between ‌six and 10 weeks as he recovers from a broken and ‌dislocated thumb.</description>
-<enclosure url="https://e2.365dm.com/26/09/1920x1080/skysports-lamar-jackson-colts_7350721.jpg?20260913185129" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/09/1920x1080/skysports-lamar-jackson-colts_7350721.jpg?20260913185129" medium="image"/>
-</item>
-<item>
-<title>Emotional Pochettino bids farewell to USMNT, U.S. Soccer after taking Man United job</title>
-<link>https://www.nytimes.com/athletic/7779028/2026/11/13/mauricio-pochettino-press-conference-usmnt-us-soccer-manchester-united</link>
-<guid isPermaLink="false">544d17ce2585c14afde4ef50bd5f8d6a3db33e21a78956b5cdd367efc739b465</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 15:28:13 +0000</pubDate>
-<description>Pochettino shed some tears as he spoke for the first time since opting to leave the USMNT for Manchester United.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13100021/AP26317531512913-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13100021/AP26317531512913-scaled.jpg" medium="image"/>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-dupont-france-rugby_7406060.jpg?20261114075544" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-dupont-france-rugby_7406060.jpg?20261114075544" medium="image"/>
 </item>
 <item>
 <title>Lionel Messi set for Argentina return in Inter Miami friendly at Estadio Monumental</title>
@@ -1091,17 +1124,6 @@
 <description>Griffin, a Texas native, led Baylor to 10 wins in 2011 and was the No. 2 pick by Washington in the 2012 NFL Draft.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13092908/2024-01-20T210102Z_339448351_MT1USATODAY22336691_RTRMADP_3_NFL-AFC-DIVISIONAL-ROUND-HOUSTON-TEXANS-AT-BALTIMORE-RAVENS-scaled.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13092908/2024-01-20T210102Z_339448351_MT1USATODAY22336691_RTRMADP_3_NFL-AFC-DIVISIONAL-ROUND-HOUSTON-TEXANS-AT-BALTIMORE-RAVENS-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Kyren Williams, Blake Corum have redefined Rams offense: 'This is who we really are'</title>
-<link>https://www.nytimes.com/athletic/7777806/2026/11/13/kyren-williams-blake-corum-rams-offense</link>
-<guid isPermaLink="false">1b34bab16116b1f24dd51809f36d8f65e0f7de2fcf180392f424db0ef2565735</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 15:13:35 +0000</pubDate>
-<description>The Rams’ offense is at its best when Williams and Corum lead the way.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13093423/GettyImages-2244697118-scaled-e1794580532452.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13093423/GettyImages-2244697118-scaled-e1794580532452.jpg" medium="image"/>
 </item>
 <item>
 <title>England respond to Jones' mind games ahead of Japan match</title>
@@ -1181,17 +1203,6 @@
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/13092214/sam-hartman-commanders-scaled.jpg" medium="image"/>
 </item>
 <item>
-<title>Chacarra plots weekend fightback to stop McIlroy from Race to Dubai history</title>
-<link>https://news.sky.com/story/rory-mcilroy-boosts-race-to-dubai-hopes-at-dp-world-tour-championship-as-eugenio-chacarra-targets-weekend-fightback-13611846</link>
-<guid isPermaLink="false">478648a6fe94c2cf37abc350628a0227e8a075d09ec724abd9cf0a77adc0ec43</guid>
-<source>Sky News Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 14:30:00 +0000</pubDate>
-<description>Eugenio Chacarra remains optimistic about chasing down Rory McIlroy at the DP World Tour Championship and denying his bid for a record-equalling eighth Race to Dubai title.</description>
-<enclosure url="https://e3.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-eugenio-chacarra_7405873.png?20261113144400" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-eugenio-chacarra_7405873.png?20261113144400" medium="image"/>
-</item>
-<item>
 <title>Palace latest: Eagles hold further Frank talks</title>
 <link>https://www.skysports.com/football/live-blog/12040/13279298/crystal-palace-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights</link>
 <guid isPermaLink="false">ac3624a8c6684bbe14e88d2df502c4318f36b5606eb21675a2674c41348c3be0</guid>
@@ -1212,17 +1223,6 @@
 <description>Sky Sports's Rob Dorsett explains why the new Manchester United head coach, Mauricio Pochettino, has a VERY busy few days ahead of him.</description>
 <enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-mauricio-pochettino_7405857.jpg?20261113141506" type="image/jpeg"/>
 <media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-mauricio-pochettino_7405857.jpg?20261113141506" medium="image"/>
-</item>
-<item>
-<title>July Flower fancied for Handicap gold at Cheltenham</title>
-<link>https://www.skysports.com/racing/news/12040/13611848/cheltenham-tips-july-flower-fancied-for-handicap-gold-at-prestbury-park</link>
-<guid isPermaLink="false">47b2b9426a5f90d0f9004c3683f1d7cc619463fc061bbebb78957ca740ee51d7</guid>
-<source>Sky Sports Football</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 13:30:00 +0000</pubDate>
-<description>Ahead of the start of Cheltenham's November meeting, the Weekend Winners panel offered their top tips for a potentially informative Saturday at Prestbury Park.</description>
-<enclosure url="https://e1.365dm.com/26/09/1920x1080/skysports-weekend-winners-racing_7347813.png?20260911103256" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/09/1920x1080/skysports-weekend-winners-racing_7347813.png?20260911103256" medium="image"/>
 </item>
 <item>
 <title>Michael Carrick calls Manchester United job an 'immense privilege' in first statement since sacking</title>
@@ -1248,9 +1248,9 @@
 </item>
 <item>
 <title>Who will win ATP Finals in Turin? Alcaraz favourite to land first title</title>
-<link>https://www.skysports.com/tennis/news/12040/13611772/atp-finals-predictions-sky-sports-panel-pick-their-winners-and-surprise-package-as-alexander-zverev-and-carlos-alcaraz-lead-the-field</link>
-<guid isPermaLink="false">b1e69d798b0ce86189af3b7f04e7a172a273b50b99de1a011b3a3a2bbcb05459</guid>
-<source>Sky Sports Football</source>
+<link>https://www.skysports.com/tennis/news/12110/13611772/atp-finals-predictions-sky-sports-panel-pick-their-winners-and-surprise-package-as-alexander-zverev-and-carlos-alcaraz-lead-the-field</link>
+<guid isPermaLink="false">a5c19ab92e03004ea07097f61312bea8a5155d4ff757fb2ccb002bc87464bd5a</guid>
+<source>Sky Sports Tennis</source>
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 13:00:00 +0000</pubDate>
 <description>World No 1 Alexander Zverev and second seed Carlos Alcaraz are among the favourites the win the season-ending ATP Finals in Turin - but what do our Sky Sports panel think?</description>
@@ -1281,14 +1281,14 @@
 </item>
 <item>
 <title>England in losing habit after 'failing to adapt' in Perth drubbing</title>
-<link>https://www.skysports.com/cricket/news/12040/13611851/australia-vs-england-brendon-mccullum-blames-sides-failure-to-adapt-in-heavy-first-odi-defeat-in-perth</link>
-<guid isPermaLink="false">ce0ce19fcfe51e5e41e87c41b8ef1d232ffb5279e7efcdc4a292e68f19f54e95</guid>
-<source>Sky Sports Football</source>
+<link>https://www.skysports.com/cricket/news/12123/13611851/australia-vs-england-brendon-mccullum-blames-sides-failure-to-adapt-in-heavy-first-odi-defeat-in-perth</link>
+<guid isPermaLink="false">1c3af5e22fab4097f36b12da66310e3325573b67058b6339f008cc9811db34ed</guid>
+<source>Sky Sports Cricket</source>
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 12:30:00 +0000</pubDate>
 <description>England "weren't quick enough to adapt to the conditions" as they slumped to a seven-wicket loss to Australia in the first ODI of their three-match series in Perth, according to head coach Brendon McCullum.</description>
-<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-tom-banton-england-mens-odi-cricket_7405612.jpg?20261113080744" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-tom-banton-england-mens-odi-cricket_7405612.jpg?20261113080744" medium="image"/>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-tom-banton-england-mens-odi-cricket_7405612.jpg?20261114073048" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-tom-banton-england-mens-odi-cricket_7405612.jpg?20261114073048" medium="image"/>
 </item>
 <item>
 <title>The ATP Final: The Race to Turin</title>
@@ -1430,8 +1430,8 @@
 <category>sports</category>
 <pubDate>Fri, 13 Nov 2026 08:40:00 +0000</pubDate>
 <description>England capitulated in Perth for the second year running as an Australia side engulfed by the 'Sandpapergate' storm cruised to a seven-wicket victory in a series-opening ODI in which debutant Mahli Beardman recorded a six-wicket haul.</description>
-<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-mahli-beardman-australia-men-odi-cricket_7405533.jpg?20261113054023" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-mahli-beardman-australia-men-odi-cricket_7405533.jpg?20261113054023" medium="image"/>
+<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-mahli-beardman-australia-men-odi-cricket_7405533.jpg?20261114073021" type="image/jpeg"/>
+<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-mahli-beardman-australia-men-odi-cricket_7405533.jpg?20261114073021" medium="image"/>
 </item>
 <item>
 <title>Morgan Rogers: 'A lie' and 'nonsense' to suggest Cole Palmer doesn't want to play for England</title>
@@ -1465,17 +1465,6 @@
 <description>Jessica Pegula saved a match ‌point en route to a gritty 7-6 (7-2) 4-6 7-5 win over Linda Noskova to advance to the semi-finals at the WTA Finals and ​send fellow American Coco Gauff packing from the season-ending championships.</description>
 <enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-jessica-pegula-mirra-andreeva_7403793.jpg?20261111113305" type="image/jpeg"/>
 <media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-jessica-pegula-mirra-andreeva_7403793.jpg?20261111113305" medium="image"/>
-</item>
-<item>
-<title>Cummins rebukes Khawaja claims in extraordinary press conference</title>
-<link>https://www.skysports.com/watch/video/13611765/pat-cummins-dismisses-usman-khawajas-ball-tampering-scandal-allegations</link>
-<guid isPermaLink="false">3aba12f5365c8f79b68f7e78d33aeed6455ee5d5247b6208cfcb9836cb56ce4c</guid>
-<source>Sky Sports Cricket</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 06:11:00 +0000</pubDate>
-<description>Australia captain Pat Cummins has described allegations from ex-team-mate Usman Khawaja that every Australian player knew about using sandpaper to tamper with a ball in a 2018 cheating scandal as “utter nonsense”</description>
-<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-presser-cricket_7405581.jpg?20261113071923" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-presser-cricket_7405581.jpg?20261113071923" medium="image"/>
 </item>
 <item>
 <title>Happy birthday Lando! Relive the moment he became F1 world champion last year!</title>
@@ -1586,72 +1575,6 @@
 <description>The alleged incident occurred in February 2025, with the Washington County Attorney's Office originally filing charges a year later.</description>
 <enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/02/11195730/GettyImages-2247227408-scaled-e1770857895317.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/02/11195730/GettyImages-2247227408-scaled-e1770857895317.jpg" medium="image"/>
-</item>
-<item>
-<title>WNBA ramping up commissioner search, has been meeting with candidates in person</title>
-<link>https://www.nytimes.com/athletic/7777602/2026/11/12/wnba-commissioner-search-cathy-engelbert</link>
-<guid isPermaLink="false">f2fdd54714b5576da58ecb12357f967fe96d5d0fba6b4ecc5b6034a5325f0025</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 01:07:19 +0000</pubDate>
-<description>Candidates were interviewed in person the last two weeks.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12194637/GettyImages-22916391521-scaled-e1794530821541.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12194637/GettyImages-22916391521-scaled-e1794530821541.jpg" medium="image"/>
-</item>
-<item>
-<title>Pete Crow-Armstrong, the Cubs star who lit up Wrigley Field, unanimously wins NL MVP</title>
-<link>https://www.nytimes.com/athletic/7776584/2026/11/12/pete-crow-armstrong-nl-mvp-cubs</link>
-<guid isPermaLink="false">738ca7d710540d7084654688ffc0b5269187eb6cb7c117c6849ecc68b0045176</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 00:53:32 +0000</pubDate>
-<description>Crow-Armstrong launched 45 home runs and stole 41 bases this season, becoming the sport's seventh 40-40 player.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12133502/GettyImages-2291837083-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12133502/GettyImages-2291837083-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Rams place WR Puka Nacua on injured reserve with MCL/PCL sprain, turf toe</title>
-<link>https://www.nytimes.com/athletic/7777600/2026/11/12/rams-puka-nacua-injured-reserve-knee-turf-toe</link>
-<guid isPermaLink="false">d54ab2b69c23d3f29b40da36f478f759be8d2358d44e9b707839695aeef939a1</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 00:52:51 +0000</pubDate>
-<description>Nacua will be forced to miss at least the Rams' next four games after being placed on IR.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12194354/GettyImages-2302477796-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/12194354/GettyImages-2302477796-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>Defense in MLB pitch-rigging trial shows that bets on some pitches in question lost</title>
-<link>https://www.nytimes.com/athletic/7777510/2026/11/12/defense-in-mlb-pitch-rigging-trial-shows-that-bets-on-some-pitches-in-question-lost</link>
-<guid isPermaLink="false">e77c3e4b31a4ef989b7d27b19458ca975c197fa823537494a2b913917bf4f9b8</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 00:52:04 +0000</pubDate>
-<description>Bets on pitches to Manny Machado, Terrin Vavra and Ramón Laureano are among those that lost.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/04202133/AP26306523697750-scaled-e1793841717199.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/04202133/AP26306523697750-scaled-e1793841717199.jpg" medium="image"/>
-</item>
-<item>
-<title>Astros DH Yordan Alvarez wins AL MVP after dominant offensive season</title>
-<link>https://www.nytimes.com/athletic/7766068/2026/11/12/yordan-alvarez-astros-al-mvp</link>
-<guid isPermaLink="false">04cfa98f7d3df2bb3818d9029e1f0d83c4b497c772eca5f1358532419a4b876f</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 00:23:03 +0000</pubDate>
-<description>Despite playing only 25 games in the field, Alvarez's excellence at the plate swayed the voters.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/08193706/2026-09-23T045620Z_1525638202_MT1USATODAY29891824_RTRMADP_3_MLB-HOUSTON-ASTROS-AT-SEATTLE-MARINERS-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/08193706/2026-09-23T045620Z_1525638202_MT1USATODAY29891824_RTRMADP_3_MLB-HOUSTON-ASTROS-AT-SEATTLE-MARINERS-scaled.jpg" medium="image"/>
-</item>
-<item>
-<title>USWNT stars Megan Rapinoe, Julie Ertz voted into National Soccer Hall of Fame</title>
-<link>https://www.nytimes.com/athletic/7774976/2026/11/12/uswnt-megan-rapinoe-julie-ertz-national-soccer-hall-of-fame-class-2027</link>
-<guid isPermaLink="false">19f64d93eed94257c43d117492e64762b8f8649aeb9c30511245b2adfa28a613</guid>
-<source>The Athletic Sports</source>
-<category>sports</category>
-<pubDate>Fri, 13 Nov 2026 00:09:44 +0000</pubDate>
-<description>The U.S. stars enter the hall of fame in their first year of eligibility.</description>
-<enclosure url="https://static01.nyt.com/athletic/uploads/wp/2026/11/11205109/GettyImages-1720832985-scaled.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/athletic/uploads/wp/2026/11/11205109/GettyImages-1720832985-scaled.jpg" medium="image"/>
 </item>
 <item>
 <title>Cummins dismisses Khawaja's claims in 68-minute press conference</title>
@@ -1786,17 +1709,6 @@
 <media:content url="https://e0.365dm.com/26/10/1920x1080/skysports-f1-liam-lawson-arvid-lindblad_7389969.jpg?20261028160218" medium="image"/>
 </item>
 <item>
-<title>What does a Pochettino team look like?</title>
-<link>https://www.skysports.com/football/news/11661/13611443/mauricio-pochettino-to-man-utd-what-does-a-pochettino-team-look-like-and-how-will-he-set-up-struggling-red-devils</link>
-<guid isPermaLink="false">294e5b8ae1940d3575cf8112ce759f5f8b85cdc67274e96326bdc3669326b81d</guid>
-<source>Sky Sports Premier League</source>
-<category>sports</category>
-<pubDate>Thu, 12 Nov 2026 10:59:00 +0000</pubDate>
-<description>Mauricio Pochettino has been named Manchester United's new manager following the sacking of Michael Carrick, so what can supporters actually expect on the pitch?</description>
-<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-premier-league-manchester-united_7405659.jpg?20261113093243" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-premier-league-manchester-united_7405659.jpg?20261113093243" medium="image"/>
-</item>
-<item>
 <title>How Carrick's reign unravelled</title>
 <link>https://www.skysports.com/football/news/11661/13602738/michael-carrick-sacked-by-man-utd-how-his-old-trafford-reign-unravelled-in-worst-start-to-a-season-in-40-years</link>
 <guid isPermaLink="false">ddb9cc2d124f8986e0dc8684e44bb8d8f6a79367c676103db82c60b1113594c7</guid>
@@ -1826,8 +1738,8 @@
 <category>sports</category>
 <pubDate>Thu, 12 Nov 2026 10:00:00 +0000</pubDate>
 <description></description>
-<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-kinghorn-scotland_7405867.jpg?20261113143542" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-kinghorn-scotland_7405867.jpg?20261113143542" medium="image"/>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-kinghorn-scotland_7405867.jpg?20261114073412" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-kinghorn-scotland_7405867.jpg?20261114073412" medium="image"/>
 </item>
 <item>
 <title>The Fast and the Curious</title>
@@ -2457,17 +2369,6 @@
 <media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-chris-billam-smith_7400666.jpg?20261108004022" medium="image"/>
 </item>
 <item>
-<title>Ali and Nicolson on a collision course?</title>
-<link>https://www.skysports.com/boxing/news/12183/13609513/ramla-ali-and-skye-nicolson-could-be-on-a-collision-course-if-they-win-their-world-title-fights-in-texas</link>
-<guid isPermaLink="false">020dac2956d9147a512cc86f24570dfb6fb9b6acf80ff413f93c4b753dc7ef72</guid>
-<source>Sky Sports Boxing</source>
-<category>sports</category>
-<pubDate>Sun, 08 Nov 2026 07:00:00 +0000</pubDate>
-<description>Ramla Ali and Skye Nicolson could meet in a unification contest early next year if they both win their title fights, live on Sky Sports in the early hours of Monday morning.</description>
-<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-ramla-ali-mikiah-kreps_7400179.jpg?20261107165640" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-ramla-ali-mikiah-kreps_7400179.jpg?20261107165640" medium="image"/>
-</item>
-<item>
 <title>Clarke STUNS Billam-Smith with sensational seventh-round stoppage</title>
 <link>https://www.skysports.com/watch/video/13609602/chev-clarke-stuns-chris-billam-smith-with-sensational-seventh-round-stoppage</link>
 <guid isPermaLink="false">326fbbe10a4a63e1e4f41c4ac5101e87bd42d6f180632b67f154616a047a9d0a</guid>
@@ -2512,17 +2413,6 @@
 <media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-jessica-pegula-wta-tour-tennis_7399659.jpg?20261106231950" medium="image"/>
 </item>
 <item>
-<title>Fritz misses out on ATP Finals after squandering chance to beat Alcaraz</title>
-<link>https://www.skysports.com/tennis/news/12110/13608938/paris-masters-taylor-fritz-squanders-match-points-against-carlos-alcaraz-as-defeat-ends-hopes-of-reaching-atp-finals</link>
-<guid isPermaLink="false">a57cd1bf9b2053b54d033a35979d52345255651511f25e8df153ebf049a53f57</guid>
-<source>Sky Sports Tennis</source>
-<category>sports</category>
-<pubDate>Fri, 06 Nov 2026 22:20:00 +0000</pubDate>
-<description>Taylor Fritz missed out on claiming the last spot at the ATP Finals in Turin later this month after squandering two match points in his Paris Masters quarter-final defeat to Carlos Alcaraz.</description>
-<enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-taylor-fritz-paris-masters-tnnis_7399236.jpg?20261106162314" type="image/jpeg"/>
-<media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-taylor-fritz-paris-masters-tnnis_7399236.jpg?20261106162314" medium="image"/>
-</item>
-<item>
 <title>Russell launches karting initiative for young drivers</title>
 <link>https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts</link>
 <guid isPermaLink="false">2bb762da5b5752d5c0c0b78eef857760a9702e5f48081c585613933c09830ed0</guid>
@@ -2532,17 +2422,6 @@
 <description></description>
 <enclosure url="https://e1.365dm.com/26/11/1920x1080/skysports-george-russell-mercedes_7405077.jpg?20261112142448" type="image/jpeg"/>
 <media:content url="https://e1.365dm.com/26/11/1920x1080/skysports-george-russell-mercedes_7405077.jpg?20261112142448" medium="image"/>
-</item>
-<item>
-<title>Burrage: People must be held to account over social media abuse</title>
-<link>https://www.skysports.com/tennis/news/12110/13608359/jodie-burrage-british-tennis-player-calls-on-social-media-platforms-to-hold-people-accountable-for-sending-abusive-messages</link>
-<guid isPermaLink="false">0a46fd0562e7f86fe7e12734765564ed58b56dde6175ea43995365ee8205e3ee</guid>
-<source>Sky Sports Tennis</source>
-<category>sports</category>
-<pubDate>Thu, 05 Nov 2026 15:26:00 +0000</pubDate>
-<description>British tennis star Jodie Burrage has called on social media platforms to hold people accountable for sending death threats and abuse.</description>
-<enclosure url="https://e2.365dm.com/26/11/1920x1080/skysports-jodie-burrage-tennis_7398250.jpg?20261105164730" type="image/jpeg"/>
-<media:content url="https://e2.365dm.com/26/11/1920x1080/skysports-jodie-burrage-tennis_7398250.jpg?20261105164730" medium="image"/>
 </item>
 <item>
 <title>County cricket ins and outs 2027</title>
@@ -2563,8 +2442,8 @@
 <category>sports</category>
 <pubDate>Tue, 20 Oct 2026 08:55:00 +0000</pubDate>
 <description>All today's cricket scorecards from around the world, including Test matches, one-day internationals and T20 internationals.</description>
-<enclosure url="https://e0.365dm.com/26/08/1920x1080/skysports-saud-shakeel-pakistan-test-cricket_7335591.jpg?20260830141316" type="image/jpeg"/>
-<media:content url="https://e0.365dm.com/26/08/1920x1080/skysports-saud-shakeel-pakistan-test-cricket_7335591.jpg?20260830141316" medium="image"/>
+<enclosure url="https://e0.365dm.com/26/11/1920x1080/skysports-freya-kemp-womens-big-bash-league_7397711.jpg?20261105094526" type="image/jpeg"/>
+<media:content url="https://e0.365dm.com/26/11/1920x1080/skysports-freya-kemp-womens-big-bash-league_7397711.jpg?20261105094526" medium="image"/>
 </item>
 <item>
 <title>'Sandpapergate' explained: Where are we now?</title>

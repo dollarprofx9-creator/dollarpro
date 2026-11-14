@@ -4,12 +4,23 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>New Scientist readers on how the magazine has shaped their lives</title>
+<link>https://www.newscientist.com/article/2595857-new-scientist-readers-on-how-the-magazine-has-shaped-their-lives</link>
+<guid isPermaLink="false">fdc067167b966ae3b487cf8e51a5c113c6949b2908de678396732fa45f7b2be8</guid>
+<source>New Scientist</source>
+<category>science</category>
+<pubDate>Sat, 14 Nov 2026 07:00:00 +0000</pubDate>
+<description>To celebrate our 70th anniversary, we asked readers how they first encountered New Scientist – and why they still read it today</description>
+<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_318736989.jpg" type="image/jpeg"/>
+<media:content url="https://www.newscientist.com/wp-content/uploads/2026/10/SEI_318736989.jpg" medium="image"/>
+</item>
+<item>
 <title>SpaceX’s Latest Starship Launch Skips Attempt to Catch the Booster</title>
 <link>https://www.nytimes.com/2026/11/13/science/spacex-launch-starship-rocket-catch.html</link>
 <guid isPermaLink="false">6f5ae386265596f3bea2f1d43fcf14261a8ce9b88ba1b4f3bbed0ca355d895a1</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Fri, 13 Nov 2026 23:47:31 +0000</pubDate>
+<pubDate>Sat, 14 Nov 2026 03:06:59 +0000</pubDate>
 <description>SpaceX could still try to catch the rocket’s upper stage tomorrow. Progress toward a fully reusable rocket remains mixed.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/13/multimedia/spacex-launch-update-pwvq/spacex-launch-update-pwvq-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/13/multimedia/spacex-launch-update-pwvq/spacex-launch-update-pwvq-mediumSquareAt3X.jpg" medium="image"/>
@@ -59,15 +70,15 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Rocket Lab launching 100th space mission early on Nov. 14: Watch it live</title>
+<title>100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (photos)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite</link>
 <guid isPermaLink="false">17b1181be8b31eaeb96c1d25137cdcd12f7402a0d494594ea8a79f0856b67809</guid>
 <source>Space.com</source>
 <category>science</category>
 <pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
-<description>Rocket Lab will launch its 100th space mission shortly after midnight on Saturday (Nov. 14), and you can watch the milestone liftoff live.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/cFwdJn2eVKRuusYHDbMyRm-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/cFwdJn2eVKRuusYHDbMyRm-1920-80.jpg" medium="image"/>
+<description>Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>California's brand-new Air &amp; Space Center, home of the space shuttle Endeavour, opens today</title>
@@ -202,17 +213,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/rgRe2CTrVLqFQTGzMVBm9V-1920-80.png" medium="image"/>
 </item>
 <item>
-<title>Astronaut Suni Williams rides through NYC as Grand Marshal of the Veterans Day Parade | Space photo of the day for Nov. 13, 2026</title>
-<link>https://www.space.com/space-exploration/human-spaceflight/astronaut-suni-williams-rides-through-nyc-as-grand-marshal-of-the-veterans-day-parade-space-photo-of-the-day-for-nov-13-2026</link>
-<guid isPermaLink="false">ed16254505f696c5d8eb7e33d631da50cd3b9a179ad4089555a56671caddc051</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
-<description>NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" medium="image"/>
-</item>
-<item>
 <title>I saw Saturn’s rings in seconds with the Celestron StarSense Explorer 150mm Tabletop Dobsonian telescope — full review</title>
 <link>https://www.space.com/stargazing/skywatching-kit/i-saw-saturns-rings-in-seconds-with-the-celestron-starsense-explorer-150mm-tabletop-dobsonian-telescope-full-review</link>
 <guid isPermaLink="false">bfaec3a1904c7e00bfcd9f251ce44c560d5428f2edb3c4312c8f898af32b6b78</guid>
@@ -222,6 +222,17 @@
 <description>Celestron’s StarSense Explorer tech makes this 150mm Dobsonian so easy to operate — but its tabletop design makes me wonder whether beginners should go bigger.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/n8CuApNZ4LyAmmJHMQVsL3-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/n8CuApNZ4LyAmmJHMQVsL3-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>Astronaut Suni Williams rides through NYC as Grand Marshal of the Veterans Day Parade | Space photo of the day for Nov. 13, 2026</title>
+<link>https://www.space.com/space-exploration/human-spaceflight/astronaut-suni-williams-rides-through-nyc-as-grand-marshal-of-the-veterans-day-parade-space-photo-of-the-day-for-nov-13-2026</link>
+<guid isPermaLink="false">ed16254505f696c5d8eb7e33d631da50cd3b9a179ad4089555a56671caddc051</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+<description>NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" medium="image"/>
 </item>
 <item>
 <title>Can you pass our science quiz set by Nobel laureates?</title>
@@ -246,7 +257,7 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/sffkFhsSvZteVyVhHrKG77-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Powerful Vulcan Centaur rocket launching for 1st time in 9 months Nov. 14: Watch it live</title>
+<title>Powerful Vulcan Centaur rocket launching for 1st time in 9 months today: Watch it live</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</link>
 <guid isPermaLink="false">fdbabb74a9b628f6c5bf6574e6b00b69938eaa8739e861c427488b9327da485a</guid>
 <source>Space.com</source>
@@ -475,17 +486,6 @@
 <description>The Euclid space telescope released its first major batch of data, capturing the light of more than a billion objects over an area of sky as big as 9,500 full moons.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/6zArwyGLXXZHN5caJ3ZXtN-1920-80.png" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/6zArwyGLXXZHN5caJ3ZXtN-1920-80.png" medium="image"/>
-</item>
-<item>
-<title>Pink noise played during sleep shows promise for Alzheimer’s memory loss</title>
-<link>https://www.newscientist.com/article/2598656-pink-noise-played-during-sleep-shows-promise-for-alzheimers-memory-loss</link>
-<guid isPermaLink="false">12b0bbd427e28d142f8d06cbbb4e82165a36d43c20bbd2440081cd1eb49a9316</guid>
-<source>New Scientist</source>
-<category>science</category>
-<pubDate>Thu, 12 Nov 2026 17:00:00 +0000</pubDate>
-<description>There is some evidence that pink noise signals can boost the brain's ability to clear out waste products. Now there are some indications that this might improve memory performance in people with Alzheimer's</description>
-<enclosure url="https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320287222.jpg" type="image/jpeg"/>
-<media:content url="https://www.newscientist.com/wp-content/uploads/2026/11/SEI_320287222.jpg" medium="image"/>
 </item>
 <item>
 <title>Pakistani astronaut set to become 1st international visitor to China's Tiangong space station this month</title>
@@ -741,17 +741,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/sUscbyNcGzAkq7QeXUWQJn-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Why I recommend the Seestar S30 Plus smart telescope for beginners — full review</title>
-<link>https://www.space.com/stargazing/skywatching-kit/why-i-recommend-the-seestar-s30-plus-smart-telescope-for-beginners-full-review</link>
-<guid isPermaLink="false">59d992b699ffab56c494517ebc86f88e3864de8719fbf09fea6e5677c6811d78</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Wed, 11 Nov 2026 13:00:00 +0000</pubDate>
-<description>I photographed galaxies, nebulas and star clusters from a city with the Seestar S30 Plus. Here’s why I think it’s the best affordable smart telescope for beginners.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>NASA's new UVEX space telescope will peer deep into the universe's most violent events</title>
 <link>https://www.space.com/science/astrophysics/nasas-new-uvex-space-telescope-will-peer-deep-into-the-universes-most-violent-events</link>
 <guid isPermaLink="false">45d963b871641c446fc300c950f6ce32dc50973e7206d29e8f19fc410754670b</guid>
@@ -761,6 +750,17 @@
 <description>NASA's new UVEX space telescope will study the universe in ultraviolet light to reveal the violent and turbulent events that bubble under what appears to be a cosmic sea of tranquility.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/qiLNW6MFxpp6cd8GpRyPmm-1920-80.png" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/qiLNW6MFxpp6cd8GpRyPmm-1920-80.png" medium="image"/>
+</item>
+<item>
+<title>Why I recommend the Seestar S30 Plus smart telescope for beginners — full review</title>
+<link>https://www.space.com/stargazing/skywatching-kit/why-i-recommend-the-seestar-s30-plus-smart-telescope-for-beginners-full-review</link>
+<guid isPermaLink="false">59d992b699ffab56c494517ebc86f88e3864de8719fbf09fea6e5677c6811d78</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Wed, 11 Nov 2026 13:00:00 +0000</pubDate>
+<description>I photographed galaxies, nebulas and star clusters from a city with the Seestar S30 Plus. Here’s why I think it’s the best affordable smart telescope for beginners.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>What time will SpaceX launch Starship Flight 15, its 1st double landing test, today? (Full mission timeline)</title>
@@ -1080,17 +1080,6 @@
 <description>The space agency is recruiting its next class of space travelers for missions to low-Earth orbit and the moon. Applications are due Dec. 3.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/07/multimedia/07sci-nasa-astronauts-topart-lzfc/07sci-nasa-astronauts-topart-lzfc-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/07/multimedia/07sci-nasa-astronauts-topart-lzfc/07sci-nasa-astronauts-topart-lzfc-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
-<title>Still on the President’s Agenda: Daylight Saving Time</title>
-<link>https://www.nytimes.com/2026/11/07/science/donald-trump-daylight-saving-time.html</link>
-<guid isPermaLink="false">d80646a64c702ae3a5ddb7fcc166a36dd451a931a16f5c0edb10fa711a6a2bcf</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sat, 07 Nov 2026 14:21:08 +0000</pubDate>
-<description>Following an election-year rout for Republicans, Trump castigated lawmakers for not passing the Sunshine Protection Act. Some scientists have warned against the change.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/07/multimedia/07SCI-DSL-TRUMP-ltmq/07SCI-DSL-TRUMP-ltmq-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/07/multimedia/07SCI-DSL-TRUMP-ltmq/07SCI-DSL-TRUMP-ltmq-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>M30's Sparkling Stars</title>
