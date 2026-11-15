@@ -4,15 +4,26 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Starship Live Updates: SpaceX Makes History With Successful Rocket Landing in Texas</title>
+<title>Highlights From the Starship Landing</title>
 <link>https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch</link>
 <guid isPermaLink="false">99ae00b514c0a5178428ca761e8b202025207c64d8065b445fd80e2f3094af88</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Sat, 14 Nov 2026 21:25:39 +0000</pubDate>
+<pubDate>Sun, 15 Nov 2026 01:17:38 +0000</pubDate>
 <description>The Starship spacecraft safely landed back at the Starbase launch facility, a major step in SpaceX’s quest to build fully reusable rockets.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>SpaceX Makes History With Successful Rocket Catch in Texas</title>
+<link>https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html</link>
+<guid isPermaLink="false">c2a35fad501d61088ef14e1e649d50e616fa5b7071fc33717f930c85d5150e77</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sun, 15 Nov 2026 00:36:32 +0000</pubDate>
+<description>The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Starship will play a big role in Artemis III.</title>
@@ -114,15 +125,15 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/L58BN7mnVx7acqZpijhSpi-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Watch SpaceX will attempt its 1st-ever 'chopsticks' Starship landing catch of a rocket from orbit today (livestream)</title>
+<title>'Now everything changes': SpaceX catches Starship upper stage for 1st time ever (video)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14</link>
 <guid isPermaLink="false">5677aba9c8aba10af001605e61f353bdcb515a8c327ff65c02dc0db1ab0dc9ea</guid>
 <source>Space.com</source>
 <category>science</category>
 <pubDate>Sat, 14 Nov 2026 13:00:00 +0000</pubDate>
-<description>SpaceX plans to catch the upper stage of its Starship megarocket at the launch pad today (Nov. 14), and you can watch the unprecedented action live.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/RK3uSYWxeqozWwbDfBZLRC-1920-80.png" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/RK3uSYWxeqozWwbDfBZLRC-1920-80.png" medium="image"/>
+<description>SpaceX caught the upper stage of its Starship megarocket for the first time ever today (Nov. 14), a landmark achievement that could unlock the giant vehicle's immense potential.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/Bn6L7LBhuT5CaGFgDgYCRM-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/Bn6L7LBhuT5CaGFgDgYCRM-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>See Jupiter and Mars make a spectacular close approach overnight Nov. 15-16</title>
@@ -191,17 +202,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/nPEBawPrstV8fopNghgnUn-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>'Arrival' at 10: Denis Villeneuve's alien visitation classic that reminded us it's good to talk</title>
-<link>https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk</link>
-<guid isPermaLink="false">32a726cac21236e711e9256f889452941441b1040335db54b794d57689cfbec0</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
-<description>How the 'Dune' director turned a little-known short story into one of the best sci-fi movies of the 21st century</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (photos)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite</link>
 <guid isPermaLink="false">17b1181be8b31eaeb96c1d25137cdcd12f7402a0d494594ea8a79f0856b67809</guid>
@@ -211,6 +211,17 @@
 <description>Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>'Arrival' at 10: Denis Villeneuve's alien visitation classic that reminded us it's good to talk</title>
+<link>https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk</link>
+<guid isPermaLink="false">32a726cac21236e711e9256f889452941441b1040335db54b794d57689cfbec0</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
+<description>How the 'Dune' director turned a little-known short story into one of the best sci-fi movies of the 21st century</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>California's brand-new Air &amp; Space Center, home of the space shuttle Endeavour, opens today</title>
@@ -1124,17 +1135,6 @@
 <description>Mineralized “structures” discovered in the bone were the fossilized remains of red blood cells, according to a recent study. Other experts aren’t so sure.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/03/multimedia/03SCI-DINOSAUR-BLOOD-01-vmtq/03SCI-DINOSAUR-BLOOD-01-vmtq-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/03/multimedia/03SCI-DINOSAUR-BLOOD-01-vmtq/03SCI-DINOSAUR-BLOOD-01-vmtq-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA Is Selecting Future Astronauts. Here’s How to Apply.</title>
-<link>https://www.nytimes.com/2026/11/07/science/nasa-recruiting-astronauts.html</link>
-<guid isPermaLink="false">ccd1b353b49f025dc6797f36e198cedbec404904b15546c0c36bb9b8ff9b34db</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sun, 08 Nov 2026 02:17:03 +0000</pubDate>
-<description>The space agency is recruiting its next class of space travelers for missions to low-Earth orbit and the moon. Applications are due Dec. 3.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/07/multimedia/07sci-nasa-astronauts-topart-lzfc/07sci-nasa-astronauts-topart-lzfc-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/07/multimedia/07sci-nasa-astronauts-topart-lzfc/07sci-nasa-astronauts-topart-lzfc-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>M30's Sparkling Stars</title>

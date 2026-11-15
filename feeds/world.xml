@@ -4,40 +4,84 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>FAA ground stop live updates: 'Zero evidence of anything nefarious,' FAA head says</title>
-<link>https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled?id=138125140</link>
-<guid isPermaLink="false">0d667934dcad9ad1257264b0b3f732b1dae1ba892fc7913e7c02f4f91c1ca791</guid>
-<source>ABC News Top Stories</source>
+<title>FAA ground stop disrupts college football</title>
+<link>https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays</link>
+<guid isPermaLink="false">6661ab766b74c042fc4872390063ef6e28974fedd2f223e30365531c57737f91</guid>
+<source>NPR News</source>
 <category>world</category>
-<pubDate>Sat, 14 Nov 2026 20:51:34 +0000</pubDate>
-<description>The DHS secretary said there were no indications of a cyberattack.</description>
-<enclosure url="https://s.abcnews.com/images/Politics/bedford-presser-rt-jt-261114_1794673426905_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/Politics/bedford-presser-rt-jt-261114_1794673426905_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Sun, 15 Nov 2026 01:13:59 +0000</pubDate>
+<description>Some college football games were delayed a few hours on Saturday or postponed to Sunday. And in Oklahoma at least, there will be perks for fans to make up for the inconvenience, including cheap beers.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2Fb5%2F30886ed245579f651c8eea629e9a%2Fgettyimages-2305144013.jpg" medium="image"/>
 </item>
 <item>
-<title>SpaceX's Starship set for return to Earth after failed booster catch</title>
+<title>How travelers can navigate trips as ground stop effects linger, expert says</title>
+<link>https://abcnews.com/US/travelers-navigate-trips-ground-stop-effects-linger-expert/story?id=138141476</link>
+<guid isPermaLink="false">da4e4f078bddbf0023641822554a3fb8412008dde4e23a42e3085cb049d0ed08</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sun, 15 Nov 2026 00:42:58 +0000</pubDate>
+<description>FAA administrator Bryan Bedford said the system is expected to be fully recovered by Sunday.</description>
+<enclosure url="https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Politics/airport-01-gty-jt-261114_1794673206544_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Florida city cancels St. Patrick's Day parade, citing new anti-DEI law</title>
+<link>https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei</link>
+<guid isPermaLink="false">080e45c3b8f37f65061166c822f484d9e28018ff92d0dd77f4c169834ca3504c</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Sun, 15 Nov 2026 00:03:52 +0000</pubDate>
+<description>A new Florida law that prohibits taxpayer dollars from going toward diversity initiatives has prompted Delray Beach to cancel its St. Patrick's Day parade after a nearly 60-year run.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5035x3357+0+0/resize/5035x3357!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F0f%2F1063ea794a708c96e803c59414c7%2Fgettyimages-2301658899.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5035x3357+0+0/resize/5035x3357!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F0f%2F1063ea794a708c96e803c59414c7%2Fgettyimages-2301658899.jpg" medium="image"/>
+</item>
+<item>
+<title>US has lost measles elimination status, global health authorities say</title>
+<link>https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho</link>
+<guid isPermaLink="false">b4661fce0d1887542e6b95ad29d9013e40da5a6958844c6e74728c63999c0e92</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Sat, 14 Nov 2026 22:15:02 +0000</pubDate>
+<description>The U.S. has lost its status as a country where measles is eliminated, according to researchers with direct knowledge of the deliberations at the Pan American Health Organization.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2873x1825+0+0/resize/2873x1825!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F49%2F1f36704d408faf669fa00f372d61%2Fmeasles-02.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2873x1825+0+0/resize/2873x1825!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F49%2F1f36704d408faf669fa00f372d61%2Fmeasles-02.jpg" medium="image"/>
+</item>
+<item>
+<title>SpaceX’s Starship returns from orbit, caught by launch pad arms in dramatic first</title>
+<link>https://abcnews.com/Technology/wireStory/spacexs-starship-returns-orbit-captured-launch-pad-arms-138148467</link>
+<guid isPermaLink="false">002602add1a5387678321065c08772fb2b7843f5cb5995c4fa799f4f70251f80</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sat, 14 Nov 2026 22:11:54 +0000</pubDate>
+<description>It was the grand finale that Elon Musk and his team hoped for.</description>
+<enclosure url="https://s.abcnews.com/images/US/wirestory_df394c1b5a0f85e11194f9ff7db9ee6b_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/wirestory_df394c1b5a0f85e11194f9ff7db9ee6b_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>SpaceX successfully catches Starship and makes history</title>
+<link>https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history</link>
+<guid isPermaLink="false">5069998f2f2a84049447866067da8d7d30758760364bbba7a060d846ef2c4a85</guid>
+<source>NPR News</source>
+<category>world</category>
+<pubDate>Sat, 14 Nov 2026 21:42:41 +0000</pubDate>
+<description>The company's spacecraft returned to its Texas launchpad in dramatic fashion — by carefully lowering itself until two metal arms attached to the launch tower could secure it.</description>
+<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg" type="image/jpeg"/>
+<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8068x5379+0+0/resize/8068x5379!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F90%2Fff5836a94be4aff14474cce4144c%2Fstarship.jpg" medium="image"/>
+</item>
+<item>
+<title>SpaceX's Starship completes first-ever mid-air catch after return from orbit</title>
 <link>https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch</link>
 <guid isPermaLink="false">ffcd9c7babb7b0d4115698643c67ec35842ac48646d903cfba4a4d6191831c62</guid>
 <source>France 24</source>
 <category>world</category>
 <pubDate>Sat, 14 Nov 2026 20:51:24 +0000</pubDate>
-<description>SpaceX's Starship spacecraft was on track to return to its Texas launch site for a planned mid-air catch, after an aborted recovery attempt.</description>
-<enclosure url="https://s.france24.com/media/display/8cb1e4b2-e05b-11f1-b193-5f54d898a954/w:1024/p:16x9/2026-11-14T012408Z-750862810-RC2ANOA0O8FL-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/8cb1e4b2-e05b-11f1-b193-5f54d898a954/w:1024/p:16x9/2026-11-14T012408Z-750862810-RC2ANOA0O8FL-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg" medium="image"/>
+<description>SpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt.</description>
+<enclosure url="https://s.france24.com/media/display/db6b6746-e073-11f1-8695-695cb59fade5/w:1024/p:16x9/000-D7H72W2.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/db6b6746-e073-11f1-8695-695cb59fade5/w:1024/p:16x9/000-D7H72W2.jpg" medium="image"/>
 </item>
 <item>
-<title>Authorities investigate 'credible' bomb threat at Illinois plant</title>
-<link>https://abcnews.com/US/peoria-police-urge-evacuations-after-reported-bomb-threat/story?id=138137440</link>
-<guid isPermaLink="false">8f233a4675e80a468f39df17b0579727c64fdfbdfa69739db31ca1c07b1f7408</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 20:50:59 +0000</pubDate>
-<description>No additional devices were found and the evacuation order has been lifted after investigators searched the facility for hours, Peoria police said Saturday.</description>
-<enclosure url="https://s.abcnews.com/images/US/illinois-bomb-threat-ht-jt-261114_1794668219374_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/illinois-bomb-threat-ht-jt-261114_1794668219374_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Netanyahu renews call for Israeli government unity as Eisenkot dismisses 'tricks'</title>
+<title>Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'</title>
 <link>https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks</link>
 <guid isPermaLink="false">fd54d0cd74311e3c46099e18f9d90f0460c0a870fc345cdf16f511fd97d91c72</guid>
 <source>France 24</source>
@@ -57,6 +101,17 @@
 <description>French President Emmanuel Macron on Saturday warned that limiting aid to Ukraine would force Kyiv into an "unjust peace" and risk another war. His statement comes as the United States pushes ahead with efforts to negotiate between Ukraine and Moscow.</description>
 <enclosure url="https://s.france24.com/media/display/b003a0ce-ce6b-11f1-a0f5-23d55109f116/w:1024/p:16x9/AP26295395173953-1.jpg" type="image/jpeg"/>
 <media:content url="https://s.france24.com/media/display/b003a0ce-ce6b-11f1-a0f5-23d55109f116/w:1024/p:16x9/AP26295395173953-1.jpg" medium="image"/>
+</item>
+<item>
+<title>New Orleans port officials sue owner of tanker that hit cruise ship</title>
+<link>https://news.sky.com/story/new-orleans-port-officials-sue-owner-of-tanker-that-hit-cruise-ship-13612331</link>
+<guid isPermaLink="false">f0bfb156c7354d9ebd56aedcd42897dd59383ee2276c4fbb6bafc377847c08cc</guid>
+<source>Sky News Home</source>
+<category>world</category>
+<pubDate>Sat, 14 Nov 2026 19:40:00 +0000</pubDate>
+<description>New Orleans port officials have sued the owner of a tanker that lost control and crashed into a cruise ship on the Mississippi River.</description>
+<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-neworleans-mississipi_7406089.jpg?20261113211957" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-neworleans-mississipi_7406089.jpg?20261113211957" medium="image"/>
 </item>
 <item>
 <title>Meta fined $887M in Italy over Android gallery photos, videos on Facebook</title>
@@ -79,6 +134,17 @@
 <description>Democrats from across the country descended on Denver for a two-day conference to chart the course of their party after sweeping victories in the midterm elections.</description>
 <enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3509x2632+213+0/resize/3509x2632!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F64%2F879cc2d14c54a9ec911488b48d94%2Fap26317088763752.jpg" type="image/jpeg"/>
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3509x2632+213+0/resize/3509x2632!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F64%2F879cc2d14c54a9ec911488b48d94%2Fap26317088763752.jpg" medium="image"/>
+</item>
+<item>
+<title>'No justice, no peace': Fifth round of protests sweep across France</title>
+<link>https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france</link>
+<guid isPermaLink="false">33a53c59ec2d4612a984fcc622ade98a0e154708ea0c1238b386fcd5d8e32efc</guid>
+<source>France 24</source>
+<category>world</category>
+<pubDate>Sat, 14 Nov 2026 18:23:25 +0000</pubDate>
+<description>Between 106,000 and 200,000 people took to the streets across France on Saturday for the fifth round of protests, according to figures from the interior ministry and student unions respectively, as turnout fell and some incidents were reported.</description>
+<enclosure url="https://s.france24.com/media/display/a840c416-e072-11f1-b800-f71d22e7fea9/w:1024/p:16x9/2026-11-14T161721Z-1217346689-RC2SNOASVFNM-RTRMADP-3-FRANCE-PROTEST.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/a840c416-e072-11f1-b800-f71d22e7fea9/w:1024/p:16x9/2026-11-14T161721Z-1217346689-RC2SNOASVFNM-RTRMADP-3-FRANCE-PROTEST.jpg" medium="image"/>
 </item>
 <item>
 <title>Elon Musk's SpaceX aborts booster recovery due to technical issues</title>
@@ -301,17 +367,6 @@
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5191x3461+0+0/resize/5191x3461!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F04%2F692982c643afb52e86b590ea8647%2Fap26307845117065.jpg" medium="image"/>
 </item>
 <item>
-<title>Perspective: A new kind of White House press secretary</title>
-<link>https://www.npr.org/2026/11/14/nx-s1-6028743/perspective-a-new-kind-of-white-house-press-secretary</link>
-<guid isPermaLink="false">7574f018f995a67468eb63ea8d942762c3fdb19cde7d412227f1f8f380bdc49c</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 13:00:00 +0000</pubDate>
-<description>With the White House press secretary job still left unfilled, maybe an AI assistant might be the answer?</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x682+0+0/resize/1024x682!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2F60%2Fa9d434ea40a7ae36a18406a56821%2Fap26313796894744.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x682+0+0/resize/1024x682!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2F60%2Fa9d434ea40a7ae36a18406a56821%2Fap26313796894744.jpg" medium="image"/>
-</item>
-<item>
 <title>Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting</title>
 <link>https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting</link>
 <guid isPermaLink="false">64d2eb5d22c039082783e2a81c61cb40a3dcebb0ceae302bcb66cc4a8b70dda1</guid>
@@ -411,17 +466,6 @@
 <media:content url="https://s.france24.com/media/display/eb59b9c4-e013-11f1-9576-f71d22e7fea9/w:1024/p:16x9/EN-20261114-101129-101300-CS.jpg" medium="image"/>
 </item>
 <item>
-<title>Can Nvidia survive without tech titan Jensen Huang?</title>
-<link>https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang</link>
-<guid isPermaLink="false">9cf2241e07bcf9c74632fc6865b863767c7af919a5dc7659dc19166617564521</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 10:20:11 +0000</pubDate>
-<description>The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamouring for Huang's return – as his fellow tech leader Elon Musk. A sign of Huang's lingering star power, in an industry where so often the fate of each giant company depends on one man. Story by Peter O'Brien.</description>
-<enclosure url="https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg" medium="image"/>
-</item>
-<item>
 <title>Business secretary to hold further talks with Poundland owners amid rescue talks</title>
 <link>https://news.sky.com/story/reynolds-to-hold-further-talks-with-poundland-owners-amid-rescue-talks-13612143</link>
 <guid isPermaLink="false">d220cd50370dcacbb55ad87560b2d53184c421a9c37b453c557b853545b8fdda</guid>
@@ -431,39 +475,6 @@
 <description>Jonathan Reynolds, the business secretary, is to hold further talks with Poundland's owner and its management team amid a race to save the discount retailer from collapse.</description>
 <enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-poundland-kleinman_7406316.jpg?20261114102016" medium="image"/>
-</item>
-<item>
-<title>Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?</title>
-<link>https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test</link>
-<guid isPermaLink="false">72328a85a76c157207d8d6e0e80bc75a23c7c0418bc97c9a08f1b1b0eb388d79</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 10:00:00 +0000</pubDate>
-<description>Democrats have been given a huge opportunity with majorities in both the House and Senate — but the balance of priorities, timing, messaging and discipline are all going to be major tests.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1599+0+0/resize/2400x1599!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F7f%2F1e1751c144f1bd74d4bf72ab16e1%2Fgettyimages-2244508651.jpg" medium="image"/>
-</item>
-<item>
-<title>A new policy could help solve the U.S. organ shortage. Critics say it's unethical</title>
-<link>https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics</link>
-<guid isPermaLink="false">0793bd268a5fe7528aa0ed2a0c36686deceaabad78f26d0c4d30a7158a34dfee</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 10:00:00 +0000</pubDate>
-<description>New guidelines are supposed to protect organ donors in a retrieval procedure that keeps blood flowing through livers, kidneys, lungs and hearts. But bioethicists have troubling questions.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7000x3126+0+0/resize/7000x3126!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd2%2F46%2Fa2ad3f994a15b9f140a4ef191be6%2Fgettyimages-1448138188.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7000x3126+0+0/resize/7000x3126!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd2%2F46%2Fa2ad3f994a15b9f140a4ef191be6%2Fgettyimages-1448138188.jpg" medium="image"/>
-</item>
-<item>
-<title>As Democrats win big, thirst traps of male candidates take social media by storm</title>
-<link>https://www.npr.org/2026/11/14/nx-s1-6040507/democrats-male-candidates-masculinity-trump</link>
-<guid isPermaLink="false">2f8406128347a116829ba48a881e96f9f98751418f0bc65abd2ba398a99d071f</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 10:00:00 +0000</pubDate>
-<description>It's everywhere on social media: Democrats celebrating the attractive men voters elected in the midterms. But it's bigger than a meme and says a lot about politics of masculinity in the age of Trump.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5001x3334+0+0/resize/5001x3334!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F16%2Fe3%2F81d91cd9444f9384936dd56e379c%2Fgettyimages-2300231094.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5001x3334+0+0/resize/5001x3334!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F16%2Fe3%2F81d91cd9444f9384936dd56e379c%2Fgettyimages-2300231094.jpg" medium="image"/>
 </item>
 <item>
 <title>Trump, Xi and Putin to hold unprecedented meeting, White House says</title>
@@ -499,17 +510,6 @@
 <media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-manchester-moss-bank_7406510.jpg?20261114154612" medium="image"/>
 </item>
 <item>
-<title>Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican</title>
-<link>https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins</link>
-<guid isPermaLink="false">5e16b30c2de28f2e520180a5343f9017e27cd51e9f99a3c5c96f481cdbf16aa1</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 14 Nov 2026 05:12:43 +0000</pubDate>
-<description>Kreiss-Tomkins, a former state legislator, ran a campaign emphasizing bipartisanship in the the state that usually votes Republican. At 37, he'll be the youngest governor in the state's history.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1956x1500+0+0/resize/1956x1500!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9f%2Fc8%2F33103fa7402ba264b48ddc1ee50e%2Ftomkins.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1956x1500+0+0/resize/1956x1500!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9f%2Fc8%2F33103fa7402ba264b48ddc1ee50e%2Ftomkins.jpg" medium="image"/>
-</item>
-<item>
 <title>LIVE: ABC News Live</title>
 <link>https://abcnews.com/video/41463246</link>
 <guid isPermaLink="false">c4dde2f9d4430a48432ef223ef2dea7731f9a2b9448e21ee003bf7e7734a1e77</guid>
@@ -530,6 +530,17 @@
 <description>Supporters and donors have been encouraging GOP Arkansas Gov. Sarah Huckabee Sanders to run for president in the 2028 cycle, sources told ABC News.</description>
 <enclosure url="https://s.abcnews.com/images/Politics/huckabee-gty-er-261113_1794601439796_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/Politics/huckabee-gty-er-261113_1794601439796_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
+<title>Congressional Republicans push Howard Lutnick, Jensen Huang to testify about Nvidia</title>
+<link>https://abcnews.com/Politics/house-senate-republicans-call-howard-lutnick-jensen-huang/story?id=138111390</link>
+<guid isPermaLink="false">4175249a825a9e38a1ec1737483d6fa50423c300316a06a33a2a7d96e88892a4</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Fri, 13 Nov 2026 21:47:16 +0000</pubDate>
+<description>Senate Banking Committee Chairman Tim Scott, a Republican, sent letters to both Huang and Lutnick to publicly testify in front of the committee</description>
+<enclosure url="https://s.abcnews.com/images/US/lutnick-3-ap-gmh-261113_1794580135333_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/US/lutnick-3-ap-gmh-261113_1794580135333_hpMain_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>Schumer and Van Hollen face off for Senate majority leader. What do Democrats think?</title>
@@ -629,17 +640,6 @@
 <description>ABC News' Danny New reports on a group of middle schoolers in Maryland who are about to get the snow day of their lives in the form of a class trip to Antarctica.</description>
 <enclosure url="https://s.abcnews.com/images/US/261113_gmafl_class_trip_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/US/261113_gmafl_class_trip_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Texas Attorney General Ken Paxton has finalized his divorce</title>
-<link>https://abcnews.com/Politics/wireStory/texas-attorney-general-ken-paxton-finalized-divorce-lawyer-138095312</link>
-<guid isPermaLink="false">14227b118dc13708b018b423bb03c5c55396c438b5da515bb995e650f2f7c32f</guid>
-<source>ABC News Top Stories</source>
-<category>world</category>
-<pubDate>Fri, 13 Nov 2026 01:42:05 +0000</pubDate>
-<description>An attorney for Republican Ken Paxton says Texas' outgoing attorney general has finalized his divorce</description>
-<enclosure url="https://s.abcnews.com/images/US/wirestory_63a44e1521d290263ce0be4ae701dcff_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/US/wirestory_63a44e1521d290263ce0be4ae701dcff_16x9_1600.jpg" medium="image"/>
 </item>
 <item>
 <title>WATCH: Tanker truck driver narrowly avoids train crash in Fort Worth</title>
