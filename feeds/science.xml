@@ -4,6 +4,28 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>F.D.A. Rejects Closely Watched Lung Cancer Drug From China</title>
+<link>https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html</link>
+<guid isPermaLink="false">98bedd5c468710b59dc9bebd7e0cfe4e1c60fdc562663a6f412140f1fcfbdc70</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sun, 15 Nov 2026 20:33:07 +0000</pubDate>
+<description>The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/11/business/11BIZ-CANCER-DRUG/11BIZ-CANCER-DRUG-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/11/business/11BIZ-CANCER-DRUG/11BIZ-CANCER-DRUG-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>Highlights From the Starship Landing</title>
+<link>https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch</link>
+<guid isPermaLink="false">99ae00b514c0a5178428ca761e8b202025207c64d8065b445fd80e2f3094af88</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sun, 15 Nov 2026 20:03:41 +0000</pubDate>
+<description>The Starship spacecraft safely landed back at the Starbase launch facility, a major step in SpaceX’s quest to build fully reusable rockets.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>30 years ago, 'Space Jam' proposed the best way to resolve interplanetary disputes</title>
 <link>https://www.space.com/entertainment/space-movies-shows/30-years-ago-space-jam-proposed-the-best-way-to-resolve-interplanetary-disputes</link>
 <guid isPermaLink="false">480c296727f53c2f847bc3dd4f5b26b13151c98f659b478fd238ae5434f28bb2</guid>
@@ -57,17 +79,6 @@
 <description>SpaceX just made spaceflight history, catching the upper stage of its Starship megarocket when it returned to Earth. But Starship still has some pretty big boxes left to check.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/T38fmGMPT8J5XSbVo6Ud9L-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/T38fmGMPT8J5XSbVo6Ud9L-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Highlights From the Starship Landing</title>
-<link>https://www.nytimes.com/live/2026/11/14/science/spacex-starship-launch</link>
-<guid isPermaLink="false">99ae00b514c0a5178428ca761e8b202025207c64d8065b445fd80e2f3094af88</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sun, 15 Nov 2026 01:17:38 +0000</pubDate>
-<description>The Starship spacecraft safely landed back at the Starbase launch facility, a major step in SpaceX’s quest to build fully reusable rockets.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-launch-header-cfqw/14starship-launch-header-cfqw-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>SpaceX Makes History With Successful Rocket Catch in Texas</title>
@@ -455,15 +466,15 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/sffkFhsSvZteVyVhHrKG77-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Powerful Vulcan Centaur rocket launching for 1st time in 9 months today: Watch it live</title>
+<title>Vulcan Centaur rocket fails during return-to-flight launch, 40 Amazon satellites lost (video)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch</link>
 <guid isPermaLink="false">fdbabb74a9b628f6c5bf6574e6b00b69938eaa8739e861c427488b9327da485a</guid>
 <source>Space.com</source>
 <category>science</category>
 <pubDate>Fri, 13 Nov 2026 11:00:00 +0000</pubDate>
-<description>United Launch Alliance's Vulcan Centaur rocket will launch 40 Amazon internet satellites to orbit on Nov. 15. You can watch the liftoff — Vulcan's first since February —live here at Space.com.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/vhvNRBhtiDYC4TYL6m5zpf-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/vhvNRBhtiDYC4TYL6m5zpf-1920-80.jpg" medium="image"/>
+<description>United Launch Alliance's Vulcan Centaur rocket suffered an anomaly during its launch today (Nov. 15), resulting in the loss of 40 Amazon internet satellites.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/XL5t5tMQrJym2bu9ujg5Um-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/XL5t5tMQrJym2bu9ujg5Um-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>Why we buy: 5 thinking errors companies exploit to make you shop</title>
@@ -939,17 +950,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/sUscbyNcGzAkq7QeXUWQJn-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>Why I recommend the Seestar S30 Plus smart telescope for beginners — full review</title>
-<link>https://www.space.com/stargazing/skywatching-kit/why-i-recommend-the-seestar-s30-plus-smart-telescope-for-beginners-full-review</link>
-<guid isPermaLink="false">59d992b699ffab56c494517ebc86f88e3864de8719fbf09fea6e5677c6811d78</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Wed, 11 Nov 2026 13:00:00 +0000</pubDate>
-<description>I photographed galaxies, nebulas and star clusters from a city with the Seestar S30 Plus. Here’s why I think it’s the best affordable smart telescope for beginners.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>NASA's new UVEX space telescope will peer deep into the universe's most violent events</title>
 <link>https://www.space.com/science/astrophysics/nasas-new-uvex-space-telescope-will-peer-deep-into-the-universes-most-violent-events</link>
 <guid isPermaLink="false">45d963b871641c446fc300c950f6ce32dc50973e7206d29e8f19fc410754670b</guid>
@@ -959,6 +959,17 @@
 <description>NASA's new UVEX space telescope will study the universe in ultraviolet light to reveal the violent and turbulent events that bubble under what appears to be a cosmic sea of tranquility.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/qiLNW6MFxpp6cd8GpRyPmm-1920-80.png" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/qiLNW6MFxpp6cd8GpRyPmm-1920-80.png" medium="image"/>
+</item>
+<item>
+<title>Why I recommend the Seestar S30 Plus smart telescope for beginners — full review</title>
+<link>https://www.space.com/stargazing/skywatching-kit/why-i-recommend-the-seestar-s30-plus-smart-telescope-for-beginners-full-review</link>
+<guid isPermaLink="false">59d992b699ffab56c494517ebc86f88e3864de8719fbf09fea6e5677c6811d78</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Wed, 11 Nov 2026 13:00:00 +0000</pubDate>
+<description>I photographed galaxies, nebulas and star clusters from a city with the Seestar S30 Plus. Here’s why I think it’s the best affordable smart telescope for beginners.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/fQpViQbo2cphxG8jcdHSpe-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>What time will SpaceX launch Starship Flight 15, its 1st double landing test, today? (Full mission timeline)</title>
