@@ -4,6 +4,39 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>White House Withdraws Nomination of Heidi Overton to Be F.D.A. Commissioner</title>
+<link>https://www.nytimes.com/2026/11/17/us/overton-fda-nomination-withdrawn.html</link>
+<guid isPermaLink="false">00594b07353ae2741b0e136b7059ce4f5d3fcd959565d23801ee9b8a3dd24b00</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Wed, 18 Nov 2026 03:26:28 +0000</pubDate>
+<description>The Senate health committee was scheduled to vote on her nomination Wednesday morning after wrestling with concerns about her stance on abortion and vaccines.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/17/multimedia/17DC-FDA-OVERTON-hpzm/17DC-FDA-OVERTON-hpzm-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>Permitting Bill Would Charge Data Centers Billions for Power</title>
+<link>https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html</link>
+<guid isPermaLink="false">108a32d3b79a7705a0a5586732c2701070e1d8ec80b838182966967f472297de</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Wed, 18 Nov 2026 00:59:09 +0000</pubDate>
+<description>The permitting bill could make it easier to build data centers for A.I. but a novel provision would also force data centers to pay much more for power.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/16/multimedia/16cli-permitting-data-centers-01-qhbt/16cli-permitting-data-centers-01-qhbt-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/16/multimedia/16cli-permitting-data-centers-01-qhbt/16cli-permitting-data-centers-01-qhbt-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>NASA Launches Nuclear Power Systems Student Contest</title>
+<link>https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest</link>
+<guid isPermaLink="false">0c5fad1c6ec664104725bb674f4a69692e3d0dd457509c6367ecb49a9caffd68</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Tue, 17 Nov 2026 22:02:48 +0000</pubDate>
+<description>NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/power-to-explore-contest/2027-power-to-explore/PTE_2026-2027_X%20-%201200x675-80.jpg?w=1201&amp;h=676&amp;fit=clip" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-science-division/radioisotope-power-systems/power-to-explore-contest/2027-power-to-explore/PTE_2026-2027_X%20-%201200x675-80.jpg?w=1201&amp;h=676&amp;fit=clip" medium="image"/>
+</item>
+<item>
 <title>NASA's Voyager 1 launched second, so how did it beat Voyager 2 to a light-day by nearly a decade?</title>
 <link>https://www.space.com/space-exploration/voyager/nasas-voyager-1-launched-second-so-how-did-it-beat-voyager-2-to-a-light-day-by-nearly-a-decade</link>
 <guid isPermaLink="false">b6e8a51987181f54d0eb3bd58b3e49c10626b5ba8f8fc16cd1629ea924fa5545</guid>
@@ -24,6 +57,17 @@
 <description>It’s unclear whether the Trump administration will proceed with a lease sale set for Thursday to permit companies to mine the ocean floor off American Samoa.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/17/science/17CLI-SEABED-MINING/17CLI-SEABED-MINING-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/17/science/17CLI-SEABED-MINING/17CLI-SEABED-MINING-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
+<title>NASA Space Apps Challenge Breaks Global Hackathon Records</title>
+<link>https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records</link>
+<guid isPermaLink="false">231b826ea9d0e37a20b30bec21093dd920befdc7115154a303d30bd13b7fd6e4</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Tue, 17 Nov 2026 21:50:34 +0000</pubDate>
+<description>On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2048&amp;h=1706&amp;fit=clip" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2048&amp;h=1706&amp;fit=clip" medium="image"/>
 </item>
 <item>
 <title>Space is filling up with junk. Could laser-reflecting mirrors help humanity clean things up?</title>
@@ -334,28 +378,6 @@
 <media:content url="https://static01.nyt.com/images/2026/11/18/multimedia/18sp-watches-atomic-inyt-02-hfvq/18sp-watches-atomic-inyt-02-hfvq-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
-<title>APOD: 2026 November 17 – Milky Way versus Aurora</title>
-<link>https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora</link>
-<guid isPermaLink="false">5cf4301583bea7d8db6f5ed62f533202dae9d09bdc87322e4a4d5b8c2ed096eb</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Tue, 17 Nov 2026 05:05:00 +0000</pubDate>
-<description>APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated Milky Way […]</description>
-<enclosure url="https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/GalaxyVsAurora_Scheib_960.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/GalaxyVsAurora_Scheib_960.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" medium="image"/>
-</item>
-<item>
-<title>Tossing Fireworks from Cloud to Cloud</title>
-<link>https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud</link>
-<guid isPermaLink="false">ff29f8a875bc688b7e23c711bd666e26055802ad3b91dfb424d7be7ddf7c7f7d</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Tue, 17 Nov 2026 05:01:00 +0000</pubDate>
-<description>For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.</description>
-<enclosure url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" medium="image"/>
-</item>
-<item>
 <title>Pipeline Executive Worked for Alan Armstrong During Permitting Push</title>
 <link>https://www.nytimes.com/2026/11/16/climate/alan-armstrong-oklahoma.html</link>
 <guid isPermaLink="false">0d53d80a88338f75c86f316502f57feaa1707476ca8acd9b06bd00854ec7d209</guid>
@@ -420,17 +442,6 @@
 <description>For Artemis II astronaut Victor Glover, one of the hardest parts of traveling to the moon happened before he even left Earth.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/BUmVWRPLd5qnr8PFhBmTw-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/BUmVWRPLd5qnr8PFhBmTw-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Permitting Bill Would Charge Data Centers Billions for Power</title>
-<link>https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html</link>
-<guid isPermaLink="false">108a32d3b79a7705a0a5586732c2701070e1d8ec80b838182966967f472297de</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Mon, 16 Nov 2026 17:00:36 +0000</pubDate>
-<description>The permitting bill could make it easier to build data centers for A.I. but a novel provision would also force data centers to pay much more for power.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/16/multimedia/16cli-permitting-data-centers-01-qhbt/16cli-permitting-data-centers-01-qhbt-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/16/multimedia/16cli-permitting-data-centers-01-qhbt/16cli-permitting-data-centers-01-qhbt-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>How I used evidence and imagination to write an account of the world in 2096</title>
@@ -851,17 +862,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/nPEBawPrstV8fopNghgnUn-1920-80.jpg" medium="image"/>
 </item>
 <item>
-<title>100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (video, photos)</title>
-<link>https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite</link>
-<guid isPermaLink="false">17b1181be8b31eaeb96c1d25137cdcd12f7402a0d494594ea8a79f0856b67809</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
-<description>Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" medium="image"/>
-</item>
-<item>
 <title>'Arrival' at 10: Denis Villeneuve's alien visitation classic that reminded us it's good to talk</title>
 <link>https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk</link>
 <guid isPermaLink="false">32a726cac21236e711e9256f889452941441b1040335db54b794d57689cfbec0</guid>
@@ -871,6 +871,17 @@
 <description>How the 'Dune' director turned a little-known short story into one of the best sci-fi movies of the 21st century</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/4ef9VxduTz3dPiQsVoPLBo-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (video, photos)</title>
+<link>https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite</link>
+<guid isPermaLink="false">17b1181be8b31eaeb96c1d25137cdcd12f7402a0d494594ea8a79f0856b67809</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Fri, 13 Nov 2026 20:00:00 +0000</pubDate>
+<description>Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/R7TryzciM4KTsiDuMSDHDM-1920-80.jpg" medium="image"/>
 </item>
 <item>
 <title>California's brand-new Air &amp; Space Center, home of the space shuttle Endeavour, opens today</title>
@@ -939,17 +950,6 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/rgRe2CTrVLqFQTGzMVBm9V-1920-80.png" medium="image"/>
 </item>
 <item>
-<title>Astronaut Suni Williams rides through NYC as Grand Marshal of the Veterans Day Parade | Space photo of the day for Nov. 13, 2026</title>
-<link>https://www.space.com/space-exploration/human-spaceflight/astronaut-suni-williams-rides-through-nyc-as-grand-marshal-of-the-veterans-day-parade-space-photo-of-the-day-for-nov-13-2026</link>
-<guid isPermaLink="false">ed16254505f696c5d8eb7e33d631da50cd3b9a179ad4089555a56671caddc051</guid>
-<source>Space.com</source>
-<category>science</category>
-<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
-<description>NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026.</description>
-<enclosure url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" type="image/jpeg"/>
-<media:content url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" medium="image"/>
-</item>
-<item>
 <title>I saw Saturn’s rings in seconds with the Celestron StarSense Explorer 150mm Tabletop Dobsonian telescope — full review</title>
 <link>https://www.space.com/stargazing/skywatching-kit/i-saw-saturns-rings-in-seconds-with-the-celestron-starsense-explorer-150mm-tabletop-dobsonian-telescope-full-review</link>
 <guid isPermaLink="false">bfaec3a1904c7e00bfcd9f251ce44c560d5428f2edb3c4312c8f898af32b6b78</guid>
@@ -959,6 +959,17 @@
 <description>Celestron’s StarSense Explorer tech makes this 150mm Dobsonian so easy to operate — but its tabletop design makes me wonder whether beginners should go bigger.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/n8CuApNZ4LyAmmJHMQVsL3-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/n8CuApNZ4LyAmmJHMQVsL3-1920-80.jpg" medium="image"/>
+</item>
+<item>
+<title>Astronaut Suni Williams rides through NYC as Grand Marshal of the Veterans Day Parade | Space photo of the day for Nov. 13, 2026</title>
+<link>https://www.space.com/space-exploration/human-spaceflight/astronaut-suni-williams-rides-through-nyc-as-grand-marshal-of-the-veterans-day-parade-space-photo-of-the-day-for-nov-13-2026</link>
+<guid isPermaLink="false">ed16254505f696c5d8eb7e33d631da50cd3b9a179ad4089555a56671caddc051</guid>
+<source>Space.com</source>
+<category>science</category>
+<pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+<description>NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026.</description>
+<enclosure url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" type="image/jpeg"/>
+<media:content url="https://cdn.mos.cms.futurecdn.net/bdtkY5kfDcejYVUhxUmy4N-1920-80.png" medium="image"/>
 </item>
 <item>
 <title>Double-catch drama: Why Starship's Flight 15 is so important to SpaceX</title>
@@ -1104,17 +1115,6 @@
 <media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/11/Metabolism-First-cr.Mark-Belan-Default.webp" medium="image"/>
 </item>
 <item>
-<title>New Research Compares Long-Term Relief From 21 Antidepressants</title>
-<link>https://www.nytimes.com/2026/11/10/well/mind/antidepressants-efficacy-work.html</link>
-<guid isPermaLink="false">3c87e4eaaaaf0f264e52fd74f8bf46688c8e549e9eafedde81a81fb1b7ad2b87</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Tue, 10 Nov 2026 23:30:23 +0000</pubDate>
-<description>In the meta-analysis, a few drugs stood out for offering greater effectiveness over time.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/09/well/WELL-DEPRESSION-MEDS1/WELL-DEPRESSION-MEDS1-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/09/well/WELL-DEPRESSION-MEDS1/WELL-DEPRESSION-MEDS1-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
 <title>CHAPEA Crew Leaves a Mark</title>
 <link>https://www.nasa.gov/image-detail/photos-from-chapea-mission-2-arranged-around-boot-print</link>
 <guid isPermaLink="false">4aaf3c7658589f19d2dee4ec970584be5edab1f285f7c4d5a37b6a5344da7b61</guid>
@@ -1179,28 +1179,6 @@
 <description>A sinuous spiral galaxy (center) appears in the same field of view as a vivid gravitational lens (right corner) in this Hubble image.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's Neo Surveyor Sunshade</title>
-<link>https://www.nasa.gov/image-detail/1-pia26715-bae-sunshade-inspection-2</link>
-<guid isPermaLink="false">cf751a4f21cc8f2a408e578da6f3d5566eeb5f311096e7331341b290ffeebddd</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 18:02:00 +0000</pubDate>
-<description>The large sunshade of NASA’s Near-Earth Object Surveyor mission is inspected by a technician at BAE Systems Space &amp; Mission Systems in Boulder, Colorado, in late July.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's X-59 Aircraft and Test Pilot</title>
-<link>https://www.nasa.gov/image-detail/mike-lippert-x-59-lbfd-flight-39-3</link>
-<guid isPermaLink="false">3fcf708f42313da9f2d09e1bf0d096a52fa472691c3107c45ca491fc3362bd5e</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Mon, 26 Oct 2026 15:29:00 +0000</pubDate>
-<description>NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency's X-59 quiet supersonic research aircraft on Oct. 21, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg" medium="image"/>
 </item>
 <item>
 <title>RS-25 Engine Tests at NASA Stennis</title>
@@ -1278,17 +1256,6 @@
 <description>The SpaceX Crew Dragon Freedom spacecraft is seen as it lands with NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev aboard in the Pacific Ocean off the coast of Los Angeles, Calif., Thursday, Oct. 8, 2026.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55577377940-a59482db3e-o.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55577377940-a59482db3e-o.jpg" medium="image"/>
-</item>
-<item>
-<title>Artemis II Crew Moon Photo Annotations</title>
-<link>https://www.nasa.gov/image-detail/fd07_impact-flashes</link>
-<guid isPermaLink="false">aca9374dc368026f5a67eed2b725e5ae423457f3699ddc7ef6f63711a8f42c0c</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Wed, 07 Oct 2026 15:46:00 +0000</pubDate>
-<description>A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member's tablet.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg" medium="image"/>
 </item>
 <item>
 <title>Astronomers Solve Cosmic Cold Case with NASA Hubble Data</title>
