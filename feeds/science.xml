@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>International Mission Arrives at Mercury to Study Its Mysteries</title>
+<link>https://www.nytimes.com/2026/11/20/science/mercury-bepi-colombo-orbit.html</link>
+<guid isPermaLink="false">54bbdb68f444dc9715e5ad055febd9381c86d49dfc8acbc9c29ea2e4dcdfe336</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sun, 22 Nov 2026 01:26:28 +0000</pubDate>
+<description>BepiColombo is now the second spacecraft in history to orbit the planet closest to the sun.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-MERCURY-BEPI1-lfkc/20SCI-MERCURY-BEPI1-lfkc-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-MERCURY-BEPI1-lfkc/20SCI-MERCURY-BEPI1-lfkc-mediumSquareAt3X.jpg" medium="image"/>
+</item>
+<item>
 <title>Anthropic Mathematician Claims to Solve Riemann Hypothesis With Help From Claude</title>
 <link>https://www.nytimes.com/2026/11/20/science/anthropic-ai-math-riemann-hypothesis.html</link>
 <guid isPermaLink="false">c6fb85f5d2a7fa7ce61d294daf980bb22ec5eaa4a45c4e1c57ea401b03086e0e</guid>
@@ -101,6 +112,17 @@
 <description>If artificial intelligence is giving rise to outages, cyberattacks and more, it’s consistent with history, in that it shows how new innovations often set off calamitous failure before they make life better.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/22/multimedia/22sci-failure-top1-kgbl/22sci-failure-top1-kgbl-mediumSquareAt3X-v4.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/22/multimedia/22sci-failure-top1-kgbl/22sci-failure-top1-kgbl-mediumSquareAt3X-v4.jpg" medium="image"/>
+</item>
+<item>
+<title>New Ph.D. Enrollment in the Sciences Dropped 10 Percent Under Trump</title>
+<link>https://www.nytimes.com/2026/11/20/us/phd-enrollment-sciences-declines.html</link>
+<guid isPermaLink="false">72fdb45b948e97fb00ad8c0bd4b233a73dacac61b22e8d19baf7c35c61905032</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Sat, 21 Nov 2026 07:47:27 +0000</pubDate>
+<description>Falling international enrollment drove most of the decline, but there were also fewer American students starting doctoral programs in 2025.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/18/us/promo-nat-doctoral-student-data-2026-11-18-lost-gen-survey-promos/promo-nat-doctoral-student-data-2026-11-18-lost-gen-survey-promos-mediumSquareAt3X.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/18/us/promo-nat-doctoral-student-data-2026-11-18-lost-gen-survey-promos/promo-nat-doctoral-student-data-2026-11-18-lost-gen-survey-promos-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>SpaceX launches classified mission for US Space Force from California (video)</title>
@@ -444,13 +466,13 @@
 <media:content url="https://cdn.mos.cms.futurecdn.net/nPqTb7efHfV9R8sZYv2ns-1920-80.png" medium="image"/>
 </item>
 <item>
-<title>SpaceX Dragon cargo capsule heads home to Earth from the ISS</title>
+<title>SpaceX Dragon cargo capsule returns to Earth from the ISS</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-dragon-iss-cargo-mission-return-to-earth</link>
 <guid isPermaLink="false">1b81e8f975aaffdadff2b8f28b68c8980948ec8cbe469cc2677acc2e0b71b40f</guid>
 <source>Space.com</source>
 <category>science</category>
 <pubDate>Fri, 20 Nov 2026 11:00:00 +0000</pubDate>
-<description>SpaceX's 35th Dragon cargo mission undocked from the International Space Station today (Nov. 20), starting its journey home to Earth.</description>
+<description>SpaceX's 35th Dragon cargo mission splashed down in the Pacific Ocean on Saturday (Nov. 21), a day after it undocked from the International Space Station.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/ugf6BTHPoeoNQ3J9iuTShh-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/ugf6BTHPoeoNQ3J9iuTShh-1920-80.jpg" medium="image"/>
 </item>
@@ -464,17 +486,6 @@
 <description>In a new study, Google researchers demonstrated a strange phenomenon called quantum contextuality, in which a quantum machine’s data can change as the context does.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/19/multimedia/19SCI-QUANTUM-CONTEXTUALITY-fwhv/19SCI-QUANTUM-CONTEXTUALITY-fwhv-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/19/multimedia/19SCI-QUANTUM-CONTEXTUALITY-fwhv/19SCI-QUANTUM-CONTEXTUALITY-fwhv-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
-<title>Mercury Is a Mystery. An International Mission Aims to Solve It.</title>
-<link>https://www.nytimes.com/2026/11/20/science/mercury-bepi-colombo-orbit.html</link>
-<guid isPermaLink="false">54bbdb68f444dc9715e5ad055febd9381c86d49dfc8acbc9c29ea2e4dcdfe336</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Fri, 20 Nov 2026 10:00:44 +0000</pubDate>
-<description>BepiColombo is about to become the second spacecraft in history to orbit the planet closest to the sun.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-MERCURY-BEPI1-lfkc/20SCI-MERCURY-BEPI1-lfkc-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/20/multimedia/20SCI-MERCURY-BEPI1-lfkc/20SCI-MERCURY-BEPI1-lfkc-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Dark Eden author Chris Beckett on how sci-fi needs ‘surface plausibility’</title>
@@ -1179,17 +1190,6 @@
 <description>The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/11/business/11BIZ-CANCER-DRUG/11BIZ-CANCER-DRUG-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/11/business/11BIZ-CANCER-DRUG/11BIZ-CANCER-DRUG-mediumSquareAt3X.jpg" medium="image"/>
-</item>
-<item>
-<title>SpaceX Makes History With Successful Rocket Catch in Texas</title>
-<link>https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html</link>
-<guid isPermaLink="false">c2a35fad501d61088ef14e1e649d50e616fa5b7071fc33717f930c85d5150e77</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sun, 15 Nov 2026 00:36:33 +0000</pubDate>
-<description>The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/14/multimedia/14starship-header-01-vgzq/14starship-header-01-vgzq-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Can Network Science Transform Health and Nutrition?</title>

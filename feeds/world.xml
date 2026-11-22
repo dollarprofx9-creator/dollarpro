@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>FBI's national crime database targeted in hack, Trump says</title>
+<link>https://abcnews.com/US/fbis-national-crime-database-targeted-hack-trump/story?id=138347810</link>
+<guid isPermaLink="false">59a057cb33d3254899273effc134ed8511afa8e49b840223730d14087d639631</guid>
+<source>ABC News Top Stories</source>
+<category>world</category>
+<pubDate>Sun, 22 Nov 2026 02:12:39 +0000</pubDate>
+<description>President Donald Trump confirmed on Saturday that the FBI’s National Crime Information Center database was targeted in a hack.</description>
+<enclosure url="https://s.abcnews.com/images/Health/fbi-building-gty-lv-230124_1674604652411_hpMain_16x9_1600.jpg" type="image/jpeg"/>
+<media:content url="https://s.abcnews.com/images/Health/fbi-building-gty-lv-230124_1674604652411_hpMain_16x9_1600.jpg" medium="image"/>
+</item>
+<item>
 <title>Trump orders federal contractors to check with White House before responding to Congress</title>
 <link>https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress</link>
 <guid isPermaLink="false">76aebbfe6050a03b02f956d757426c11470b06347827d7a54b3c8a8a0de4645a</guid>
@@ -15,15 +26,15 @@
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3599x2399+0+0/resize/3599x2399!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F0e%2F00%2F8bdf254b4a1089592ab211f30cf5%2Fap26324673842521.jpg" medium="image"/>
 </item>
 <item>
-<title>Cartel leader on FBI's most wanted list arrested</title>
-<link>https://abcnews.com/International/mexican-cartel-leader-fbis-10-wanted-fugitive-list/story?id=138346100</link>
-<guid isPermaLink="false">85a57378d1dabc2202a0fc1762deb71bdc31b61d8563ce03c259465b8bb6b109</guid>
-<source>ABC News Top Stories</source>
+<title>EU-Indonesia agreement sees the light after ten years of negotiations</title>
+<link>https://www.france24.com/en/video/20261121-eu-indonesia-agreement-sees-the-light-after-ten-years-of-negotiations</link>
+<guid isPermaLink="false">6b9c7be2271c305cf4b7f312eb3cdd2e9b9bacec21f7544a93d1253a34bb63cc</guid>
+<source>France 24</source>
 <category>world</category>
-<pubDate>Sat, 21 Nov 2026 22:00:02 +0000</pubDate>
-<description>Fausto Isidro Meza Flores, known as "Chapo Isidro," was captured in an operation in Sinaloa.</description>
-<enclosure url="https://s.abcnews.com/images/International/cartel-leader-ht-jt-261121_1795274682402_hpMain_16x9_1600.jpg" type="image/jpeg"/>
-<media:content url="https://s.abcnews.com/images/International/cartel-leader-ht-jt-261121_1795274682402_hpMain_16x9_1600.jpg" medium="image"/>
+<pubDate>Sat, 21 Nov 2026 22:23:03 +0000</pubDate>
+<description>The European Union and Indonesia have signed a major trade deal, ten years after talks began.The agreement removes almost all tariffs between the EU and Southeast Asia's biggest economy: 98.5 per cent of them. For Europe, it means access to a market of 280 million people and a steadier supply of nickel for batteries. For Indonesia, easier exports of palm oil, textiles and footwear, and it arrives just before its current EU trade preferences end on the 1st of January. To discuss the deal Airlangga Hartarto, Coordinating Minister for Economic Affairs in Indonesia joined us on the programme.</description>
+<enclosure url="https://s.france24.com/media/display/ea9d9328-e5f6-11f1-b921-1bac47ab2f5d/w:1024/p:16x9/capture-a5f225a1.jpg" type="image/jpeg"/>
+<media:content url="https://s.france24.com/media/display/ea9d9328-e5f6-11f1-b921-1bac47ab2f5d/w:1024/p:16x9/capture-a5f225a1.jpg" medium="image"/>
 </item>
 <item>
 <title>At least 24 dead in Nigeria when boat going to funeral capsizes</title>
@@ -147,7 +158,7 @@
 <media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F45%2F0b%2F4ca5429c4444a8280c4ead69cf19%2Fgettyimages-2305764692.jpg" medium="image"/>
 </item>
 <item>
-<title>Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence</title>
+<title>Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead</title>
 <link>https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained</link>
 <guid isPermaLink="false">5b76dfe3de30c0fc5f04678394b79cadf63b60625dcf77bd164416ba8b15f487</guid>
 <source>NPR News</source>
@@ -297,8 +308,8 @@
 <category>world</category>
 <pubDate>Sat, 21 Nov 2026 13:34:00 +0000</pubDate>
 <description>An outburst of violence has killed at least 11 people after Mexican authorities captured suspected cartel leader Fausto Isidro Meza Flores, known as El Chapo Isidro.</description>
-<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro_7412275.png?20261121142327" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro_7412275.png?20261121142327" medium="image"/>
+<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro-meza-flores_7413068.jpg?20261122010847" type="image/jpeg"/>
+<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro-meza-flores_7413068.jpg?20261122010847" medium="image"/>
 </item>
 <item>
 <title>Perspective: Defining 'human'</title>
@@ -345,17 +356,6 @@
 <media:content url="https://s.france24.com/media/display/c489cff2-e5a7-11f1-bb16-ebb478925cf0/w:1024/p:16x9/EN-20261121-131728-132120-CS.jpg" medium="image"/>
 </item>
 <item>
-<title>Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI</title>
-<link>https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai</link>
-<guid isPermaLink="false">b9f55373dafe7bac7d35a22070ba4d663f89f8d88a1dadc43816e474bc7a5506</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 21 Nov 2026 12:30:16 +0000</pubDate>
-<description>A mathematician who works for artificial intelligence giant Anthropic claims he has solved a Holy Grail of math problems with the help of the company's AI tool Claude. It marks the second time in recent months that an AI company or someone linked to one claims to have cracked a famed unsolved math problem.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8565x5710+0+0/resize/8565x5710!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F44%2F26%2F578525af4450b59d88792c06e0da%2Fap26323821321779.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8565x5710+0+0/resize/8565x5710!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F44%2F26%2F578525af4450b59d88792c06e0da%2Fap26323821321779.jpg" medium="image"/>
-</item>
-<item>
 <title>Ethiopia: Tackling period poverty and stigma</title>
 <link>https://www.france24.com/en/ethiopia-tackling-period-poverty-and-stigma</link>
 <guid isPermaLink="false">4f0bded21225cf6996ffe94aec14edf81b37a2ebbd46fc6a74587b9ab3eee71a</guid>
@@ -400,17 +400,6 @@
 <media:content url="https://s.france24.com/media/display/75dade0c-e500-11f1-86bd-1bac47ab2f5d/w:1024/p:16x9/AP21173406344763.jpg" medium="image"/>
 </item>
 <item>
-<title>'Unacceptable': EU chief condemns alleged Russian plot to kill US-Ukrainian citizen</title>
-<link>https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen</link>
-<guid isPermaLink="false">dca3e06988cd150bce5b32ee0f68957ea95e716bc3757606275e38ef0f7e48a4</guid>
-<source>France 24</source>
-<category>world</category>
-<pubDate>Sat, 21 Nov 2026 10:32:36 +0000</pubDate>
-<description>European Commission President Ursula von der Leyen condemned an alleged Russian intelligence plot to assassinate a US-Ukrainian citizen in Denmark, vowing full solidarity with Copenhagen.</description>
-<enclosure url="https://s.france24.com/media/display/09933754-e590-11f1-bdd0-e56ab3dc0809/w:1024/p:16x9/2026-11-20T132245Z-1935520672-RC2OROAXK61L-RTRMADP-3-EU-BRITAIN-SUMMIT.jpg" type="image/jpeg"/>
-<media:content url="https://s.france24.com/media/display/09933754-e590-11f1-bdd0-e56ab3dc0809/w:1024/p:16x9/2026-11-20T132245Z-1935520672-RC2OROAXK61L-RTRMADP-3-EU-BRITAIN-SUMMIT.jpg" medium="image"/>
-</item>
-<item>
 <title>Man charged with attempted murder after councillor stabbed in Bradford</title>
 <link>https://news.sky.com/story/man-charged-with-attempted-murder-after-councillor-stabbed-in-bradford-13614648</link>
 <guid isPermaLink="false">852ea8107882bb785f23a9d31998be72a257039f6681d6ffae26102ae9d0a2c6</guid>
@@ -420,17 +409,6 @@
 <description>A man has been charged with attempted murder after a councillor was stabbed while out door-knocking in Bradford.</description>
 <enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-ibrar-ali-bradord_7410656.jpg?20261119175537" type="image/jpeg"/>
 <media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-ibrar-ali-bradord_7410656.jpg?20261119175537" medium="image"/>
-</item>
-<item>
-<title>5 ways to turn off your 'work brain' after the day ends</title>
-<link>https://www.npr.org/2026/11/21/nx-s1-6043793/stop-thinking-about-work</link>
-<guid isPermaLink="false">d57730fd271415f097a3402f8e1767b8aad931afb4fe52cc3d77d2691b76db24</guid>
-<source>NPR News</source>
-<category>world</category>
-<pubDate>Sat, 21 Nov 2026 10:01:00 +0000</pubDate>
-<description>Don't let your work troubles follow you home. Psychologist Guy Winch shares techniques to help you stop ruminating about your nine-to-five, so you can focus on what really matters.</description>
-<enclosure url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4356x2904+0+0/resize/4356x2904!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F3e%2F55%2F5987a64f424b84b128aba38ba342%2Fnpr-lr-stop-thinking-about-work-harlan-3.jpg" type="image/jpeg"/>
-<media:content url="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4356x2904+0+0/resize/4356x2904!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F3e%2F55%2F5987a64f424b84b128aba38ba342%2Fnpr-lr-stop-thinking-about-work-harlan-3.jpg" medium="image"/>
 </item>
 <item>
 <title>German bidder stages last-gasp bid to rescue Poundland</title>
@@ -486,17 +464,6 @@
 <description>Digital creator Kerra Masella shares her tips for planning and hosting a Friendsgiving celebration, from getting organized ahead of time to making friends feel welcome around the table.</description>
 <enclosure url="https://s.abcnews.com/images/US/261121_abcnl_6p_friends_hpMain_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/US/261121_abcnl_6p_friends_hpMain_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>NHS warns of 'alarming' rise in hospital admissions for 'silent killer'</title>
-<link>https://news.sky.com/story/nhs-warns-of-alarming-rise-in-hospital-admissions-for-high-blood-pressure-13614403</link>
-<guid isPermaLink="false">d75dc0d64e26edd42c48bcd92515018b8592c5eb9dfefeee441c90a23bd7afce</guid>
-<source>Sky News Home</source>
-<category>world</category>
-<pubDate>Sat, 21 Nov 2026 00:01:00 +0000</pubDate>
-<description>NHS leaders are warning of an "alarming" rise in hospital admissions for high blood pressure across the UK.</description>
-<enclosure url="https://e3.365dm.com/22/11/1920x1080/skynews-blood-pressure-health_5957608.jpg?20221107151420" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/22/11/1920x1080/skynews-blood-pressure-health_5957608.jpg?20221107151420" medium="image"/>
 </item>
 <item>
 <title>WATCH: Is travel insurance worth it after the FAA ground stop?</title>
@@ -673,17 +640,6 @@
 <description>There are three other former soldiers who are on the military’s death row.</description>
 <enclosure url="https://s.abcnews.com/images/Politics/hasan-ap-er-261008_1791492476826_hpMain_2_16x9_1600.jpg" type="image/jpeg"/>
 <media:content url="https://s.abcnews.com/images/Politics/hasan-ap-er-261008_1791492476826_hpMain_2_16x9_1600.jpg" medium="image"/>
-</item>
-<item>
-<title>Thomas Markle fit to stand trial over child abuse images, US court rules</title>
-<link>https://news.sky.com/story/thomas-markle-fit-to-stand-trial-over-child-abuse-images-us-court-rules-13614172</link>
-<guid isPermaLink="false">356047fe438bb5b903ebdfd72575b98fb008a561c42b52a7aec9b37469c5e19c</guid>
-<source>Sky News World</source>
-<category>world</category>
-<pubDate>Thu, 19 Nov 2026 21:39:00 +0000</pubDate>
-<description>Thomas Markle is fit to stand trial on charges of possessing child sexual abuse material, a US court has ruled.</description>
-<enclosure url="https://e3.365dm.com/26/11/1920x1080/skynews-thomas-markle-us_7411020.jpg?20261119231423" type="image/jpeg"/>
-<media:content url="https://e3.365dm.com/26/11/1920x1080/skynews-thomas-markle-us_7411020.jpg?20261119231423" medium="image"/>
 </item>
 <item>
 <title>UK conducting offensive cyber ops against Russia, China, Iran and North Korea, says top commander</title>
