@@ -4,7 +4,40 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure</title>
+<title>APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251</title>
+<link>https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251</link>
+<guid isPermaLink="false">18d2d15197a71813b9b65cfd5f994eb2b390dcbd9fa0d4b68db923c7a4db1c22</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Mon, 23 Nov 2026 05:05:00 +0000</pubDate>
+<description>APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&amp;h=2048&amp;fit=clip" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Ldn1251Comparison_Cruz_2160.jpg?w=2048&amp;h=2048&amp;fit=clip" medium="image"/>
+</item>
+<item>
+<title>Laser Focus at the Top of the World</title>
+<link>https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world</link>
+<guid isPermaLink="false">24598c1cc994ea15bd5db2abd881db5245d63297a29c57f298130896d86ef2ce</guid>
+<source>NASA Breaking News</source>
+<category>science</category>
+<pubDate>Mon, 23 Nov 2026 05:01:00 +0000</pubDate>
+<description>A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.</description>
+<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&amp;h=960&amp;fit=clip" type="image/jpeg"/>
+<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730.jpg?w=1440&amp;h=960&amp;fit=clip" medium="image"/>
+</item>
+<item>
+<title>COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels</title>
+<link>https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html</link>
+<guid isPermaLink="false">d25de59c6fa8a6660f934cf433ca386b1d064b6850aa70a0384f4ff9a5037b1c</guid>
+<source>New York Times Science</source>
+<category>science</category>
+<pubDate>Mon, 23 Nov 2026 02:01:42 +0000</pubDate>
+<description>European and vulnerable nations rejected a proposed agreement after Saudi Arabia and other oil producers blocked any mention of phasing out coal, oil and gas.</description>
+<enclosure url="https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg" type="image/jpeg"/>
+<media:content url="https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg" medium="image"/>
+</item>
+<item>
+<title>Watch live today: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch</link>
 <guid isPermaLink="false">2b242dfe7268406ceeba36f6914cb81a1574ec340aa73edbb67bed86a37cc5c7</guid>
 <source>Space.com</source>
@@ -37,24 +70,13 @@
 <media:content url="https://static01.nyt.com/images/2026/11/18/multimedia/18obit-hooton-03-gpht/18obit-hooton-03-gpht-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
-<title>COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels</title>
-<link>https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html</link>
-<guid isPermaLink="false">d25de59c6fa8a6660f934cf433ca386b1d064b6850aa70a0384f4ff9a5037b1c</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Sun, 22 Nov 2026 18:20:39 +0000</pubDate>
-<description>European and vulnerable nations rejected a proposed agreement after Saudi Arabia and other oil producers blocked any mention of phasing out coal, oil and gas.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/22/multimedia/22cli-cop31-final3-fmcb/22cli-cop31-final3-fmcb-mediumSquareAt3X-v2.jpg" medium="image"/>
-</item>
-<item>
-<title>SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)</title>
+<title>SpaceX launches 2 rockets from same pad 32 hours apart, smashing turnaround record (video)</title>
 <link>https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture</link>
 <guid isPermaLink="false">a1dc7d83d0f69332932d031fdbb96629697fc1801d92f38b89c9fcce2001c17f</guid>
 <source>Space.com</source>
 <category>science</category>
 <pubDate>Sun, 22 Nov 2026 16:05:33 +0000</pubDate>
-<description>SpaceX launched a batch of classified spy satellites for the U.S. government's National Reconnaissance Office early on Sunday morning (Nov. 22).</description>
+<description>SpaceX just launched two rockets from the same California pad 32 hours apart, breaking its own turnaround record by about 13 hours.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/Zo7K3LFdny8ECPyBDZLpiH-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/Zo7K3LFdny8ECPyBDZLpiH-1920-80.jpg" medium="image"/>
 </item>
@@ -451,19 +473,8 @@
 <category>science</category>
 <pubDate>Fri, 20 Nov 2026 16:27:46 +0000</pubDate>
 <description>Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awards were Christine Powell, NASA Stennis center director, and Jeremy Parsons, the agency’s Artemis program manager responsible for management and oversight of NASA’s initiative to return […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6269-stennis-honor-awards-1.jpg?w=1024" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6269-stennis-honor-awards-1.jpg?w=1024" medium="image"/>
-</item>
-<item>
-<title>NASA’s Curiosity Mars Rover Collects Samples</title>
-<link>https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples</link>
-<guid isPermaLink="false">7bd5c1a01e3528cc5ce708cac3014f71c7f568c515f57d17c7074e1942dd57e1</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Fri, 20 Nov 2026 15:53:24 +0000</pubDate>
-<description>This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/pia26804.jpg?w=2048" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/pia26804.jpg?w=2048" medium="image"/>
+<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6274-stennis-honor-awards-11.jpg?w=1024" type="image/jpeg"/>
+<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6274-stennis-honor-awards-11.jpg?w=1024" medium="image"/>
 </item>
 <item>
 <title>Inside COP31: Part Trade Show, Part Climate Therapy Session</title>
@@ -653,17 +664,6 @@
 <media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/IMG_4364N_Kyriazis.jpg?w=2048&amp;h=2048&amp;fit=clip" medium="image"/>
 </item>
 <item>
-<title>The Stormy Southwest Pacific</title>
-<link>https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific</link>
-<guid isPermaLink="false">a92cc23a668bfe4b397d68bda61deee81a28977c97da17850de73a278000fe5b</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Fri, 20 Nov 2026 05:01:00 +0000</pubDate>
-<description>Tropical Cyclone Xavier launched the basin’s storm season with a bang.</description>
-<enclosure url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116.jpg?w=1440&amp;h=960&amp;fit=clip" type="image/jpeg"/>
-<media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116.jpg?w=1440&amp;h=960&amp;fit=clip" medium="image"/>
-</item>
-<item>
 <title>Voyager 1 team, unbowed by communications glitch, celebrates epic 1-light-day distance milestone</title>
 <link>https://www.space.com/space-exploration/voyager/voyager-1-team-unbowed-by-communications-glitch-celebrates-epic-1-light-day-distance-milestone</link>
 <guid isPermaLink="false">90b73bcbd613ac4c0317a73ab7cb14407313ca35b56b71f6d21a7dc8eafe4d41</guid>
@@ -739,17 +739,6 @@
 <description>Japan's space agency has decided to switch destinations and objectives for the final act of its Hayabusa2 asteroid mission, due to problems with the spacecraft's ion thrusters.</description>
 <enclosure url="https://cdn.mos.cms.futurecdn.net/eu2FmcRSGP2BEPSmedZjm6-1920-80.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.mos.cms.futurecdn.net/eu2FmcRSGP2BEPSmedZjm6-1920-80.jpg" medium="image"/>
-</item>
-<item>
-<title>Challenge: Public Input on Life and the World in 2075</title>
-<link>https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075</link>
-<guid isPermaLink="false">1aefc3b058a85a50b2d8eb39a5c192edd60e00633bea92b150733685104d786c</guid>
-<source>NASA Breaking News</source>
-<category>science</category>
-<pubDate>Thu, 19 Nov 2026 19:34:20 +0000</pubDate>
-<description>NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/ttt-publicinputonlife-2026.png?w=2048" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/ttt-publicinputonlife-2026.png?w=2048" medium="image"/>
 </item>
 <item>
 <title>China rolls out rocket for launch of 1st international astronaut to Tiangong space station (video)</title>
@@ -1203,17 +1192,6 @@
 <media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/11/DES-cr.CTIO-NOIRLab-NSF-AURA-T.-Matsopoulos-Default.webp" medium="image"/>
 </item>
 <item>
-<title>How to Watch the 2026 Leonids Meteor Shower</title>
-<link>https://www.nytimes.com/2026/11/16/science/leonids-meteor-shower-peak.html</link>
-<guid isPermaLink="false">0eb0a9496848e7e2e71ef74f1d237077cbbcba39db03ca1a525c4d0a6056212c</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Mon, 16 Nov 2026 05:01:05 +0000</pubDate>
-<description>Known for bright, fast meteors with long tails, the Leonids come around every November. But the number of streaks visible per hour can be low.</description>
-<enclosure url="https://static01.nyt.com/images/2021/01/20/science/16sci-leonids/01sci-spacecalendar-leonids-mediumSquareAt3X-v3.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2021/01/20/science/16sci-leonids/01sci-spacecalendar-leonids-mediumSquareAt3X-v3.jpg" medium="image"/>
-</item>
-<item>
 <title>Can Network Science Transform Health and Nutrition?</title>
 <link>https://www.quantamagazine.org/can-network-science-transform-health-and-nutrition-20261112</link>
 <guid isPermaLink="false">f9dbd3c56fd3b6c5207ad9a3e16ca7027f16350e992ce990501f22587516f66e</guid>
@@ -1247,17 +1225,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e425219orig.jpg" medium="image"/>
 </item>
 <item>
-<title>M30's Sparkling Stars</title>
-<link>https://www.nasa.gov/image-detail/hubble-m30-potm2610a</link>
-<guid isPermaLink="false">2311f7a0466139caae28a2c78adcc6011a4e94be0a488211072769e9f8e6e7f5</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Fri, 06 Nov 2026 16:28:00 +0000</pubDate>
-<description>This NASA/ESA Hubble Space Telescope image features the globular star cluster called Messier 30 (M30), also called NGC 7099.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg" medium="image"/>
-</item>
-<item>
 <title>Midwestern City Lights</title>
 <link>https://www.nasa.gov/image-detail/iss075e0227352</link>
 <guid isPermaLink="false">24d5ee144c92ac09a7214cbf060670586f0131f45d709ccb59b218bdeac99199</guid>
@@ -1280,61 +1247,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0253663orig.jpg" medium="image"/>
 </item>
 <item>
-<title>NASA's CHAPEA Crew "Returns" to Earth</title>
-<link>https://www.nasa.gov/image-detail/chapea-mission-2-crew-poses-outdoors-after-exiting-habitat</link>
-<guid isPermaLink="false">42d5b470a57d74bb57c782db30c834a3a1f974e8a3cb0316c15916ee1372c66b</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Mon, 02 Nov 2026 18:51:00 +0000</pubDate>
-<description>The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424293orig.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's Hubble Marks Way for Roman Space Telescope</title>
-<link>https://www.nasa.gov/image-detail/55606049603-e8822462fe-o</link>
-<guid isPermaLink="false">656e56dd2f4e91c03cb3395552356bd88145dfb2641d6fca3fbb9302293a39ba</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Thu, 29 Oct 2026 15:02:00 +0000</pubDate>
-<description>A sinuous spiral galaxy (center) appears in the same field of view as a vivid gravitational lens (right corner) in this Hubble image.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55606049603-e8822462fe-o.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's Neo Surveyor Sunshade</title>
-<link>https://www.nasa.gov/image-detail/1-pia26715-bae-sunshade-inspection-2</link>
-<guid isPermaLink="false">cf751a4f21cc8f2a408e578da6f3d5566eeb5f311096e7331341b290ffeebddd</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 27 Oct 2026 18:02:00 +0000</pubDate>
-<description>The large sunshade of NASA’s Near-Earth Object Surveyor mission is inspected by a technician at BAE Systems Space &amp; Mission Systems in Boulder, Colorado, in late July.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's X-59 Aircraft and Test Pilot</title>
-<link>https://www.nasa.gov/image-detail/mike-lippert-x-59-lbfd-flight-39-3</link>
-<guid isPermaLink="false">3fcf708f42313da9f2d09e1bf0d096a52fa472691c3107c45ca491fc3362bd5e</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Mon, 26 Oct 2026 15:29:00 +0000</pubDate>
-<description>NASA test pilot Mike Lippert poses for a photo ahead of his first time flying the agency's X-59 quiet supersonic research aircraft on Oct. 21, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/afrc2026-0227-51.jpg" medium="image"/>
-</item>
-<item>
-<title>RS-25 Engine Tests at NASA Stennis</title>
-<link>https://www.nasa.gov/image-detail/ssc-20261021-s00947horig</link>
-<guid isPermaLink="false">6ff1a31b150a0efae57f1969eaecfc62a4a321cc21b34e948f7b124cb2916ba6</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Fri, 23 Oct 2026 18:59:00 +0000</pubDate>
-<description>Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg" medium="image"/>
-</item>
-<item>
 <title>Science on the Space Station with NASA Astronaut Jessica Watkins</title>
 <link>https://www.nasa.gov/image-detail/iss075e0190239</link>
 <guid isPermaLink="false">5f00aca8df46e2506f7a6e916ebae327aae0b38872c55b91a38e55bcd1b78305</guid>
@@ -1344,17 +1256,6 @@
 <description>NASA astronaut and Expedition 75 flight engineer Jessica Watkins works inside the Kibo laboratory module's Life Science Glovebox, safely mixing living cell samples with a bioink and then filling a special cartridge with the cell‑ink mixture.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/iss075e0190239orig.jpg" medium="image"/>
-</item>
-<item>
-<title>Martian Dawn</title>
-<link>https://www.nasa.gov/image-detail/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs-2</link>
-<guid isPermaLink="false">a6a14a28737ed87a3ef14e8e321b7b22b3c69cc19fd97312aab882cf347f0342</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Mon, 19 Oct 2026 16:05:00 +0000</pubDate>
-<description>The captivating shapes of wind-carved crags called yardangs are revealed in this zoomed-in crop of a broader panorama captured by NASA’s Curiosity Mars rover. Scientists are eager to learn more about how the yardang layer formed.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp" medium="image"/>
 </item>
 <item>
 <title>Artemis II Heat Shield After Splashdown</title>
@@ -1412,17 +1313,6 @@
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/art002e016252.jpg" medium="image"/>
 </item>
 <item>
-<title>Astronomers Solve Cosmic Cold Case with NASA Hubble Data</title>
-<link>https://www.nasa.gov/image-detail/stsci-01m3cbk3t6srkp4q7wv9cgfgw9</link>
-<guid isPermaLink="false">e7acee45febf783e11665c7d291d8b2a40f8aba5f5607b9b460e19e507ca7a75</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 06 Oct 2026 16:17:00 +0000</pubDate>
-<description>This artist’s concept depicts a possible explanation for the unusual chemical abundances NASA’s Hubble Space Telescope detected in the HS 0209+0832 system: a second-generation planet orbiting the white dwarf star.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/stsci-01m3cbk3t6srkp4q7wv9cgfgw9.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/stsci-01m3cbk3t6srkp4q7wv9cgfgw9.jpg" medium="image"/>
-</item>
-<item>
 <title>NASA Astronaut Christina Koch at Eagles vs. Rams</title>
 <link>https://www.nasa.gov/image-detail/nasas-inspiration-tour-at-lincoln-financial-field</link>
 <guid isPermaLink="false">578734c1fe8df2e9efa4b83a532b1ddf9a63a7e7b36defe815c606d85de22c40</guid>
@@ -1432,17 +1322,6 @@
 <description>NASA astronaut and mission specialist of the agency's Artemis II mission, Christina Koch, led the fans in singing the Eagles Fight Song from the field at an NFL game between the Philadelphia Eagles and the Los Angeles Rams at Lincoln Financial Field on Sunday, Oct. 4, 2026, in Philadelphia.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/nhq202610040010orig.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/nhq202610040010orig.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA’s SpaceX Crew-13 Launches</title>
-<link>https://www.nasa.gov/image-detail/nasas-spacex-crew-13-launch-3</link>
-<guid isPermaLink="false">07f5c690e45e94633737ffc40a00e6a269a635b19c6024bf14b670f62bc26804</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Thu, 01 Oct 2026 18:07:00 +0000</pubDate>
-<description>A SpaceX Falcon 9 rocket carrying the company's Dragon spacecraft is launched on NASA’s SpaceX Crew-13 mission to the International Space Station with NASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov aboard, Thursday, Oct. 1, 2026, from Cape Canaveral Space Force Station in Florida.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/10/55563235995-2bae0fafbc-o.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/10/55563235995-2bae0fafbc-o.jpg" medium="image"/>
 </item>
 <item>
 <title>Star Trails</title>
@@ -1498,28 +1377,6 @@
 <description>NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA's Kennedy Space Center in Florida on Wednesday, Sept. 2, 2026.</description>
 <enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/ksc-20260902-ph-kls01-0023orig-rotated.jpg" type="image/jpeg"/>
 <media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/ksc-20260902-ph-kls01-0023orig-rotated.jpg" medium="image"/>
-</item>
-<item>
-<title>NASA's Chandra Spots Galactic Gem</title>
-<link>https://www.nasa.gov/image-detail/galaxies-iizw096</link>
-<guid isPermaLink="false">6a1d948744d290016a0617c18261d449a216e52c846e957efd5a8ea82c6a5c5e</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Fri, 11 Sep 2026 17:22:00 +0000</pubDate>
-<description>Galaxies are like cosmic gems, each with characteristics including size and shape that make them distinct. A gallery from NASA’s Chandra X-ray Observatory and other telescopes displays a collection of galactic images that showcase this variety.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg" medium="image"/>
-</item>
-<item>
-<title>Superbubble in the Large Magellanic Cloud</title>
-<link>https://www.nasa.gov/image-detail/hubble-n44-wfc3-large</link>
-<guid isPermaLink="false">026a0bc93661a13b3d9350ebebc36e78a1b5937b2f4ba3b195ce5ec192fb29e3</guid>
-<source>NASA Image of the Day</source>
-<category>science</category>
-<pubDate>Tue, 08 Sep 2026 16:49:00 +0000</pubDate>
-<description>N44 is a complex nebula filled with glowing hydrogen gas, dark lanes of dust, massive stars, and many populations of stars of different ages. One of its most distinctive features, however, is the dark, starry gap called a “superbubble,” visible in this Hubble Space Telescope image in the upper central region.</description>
-<enclosure url="https://www.nasa.gov/wp-content/uploads/2026/09/hubble-n44-wfc3-large.jpg" type="image/jpeg"/>
-<media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/hubble-n44-wfc3-large.jpg" medium="image"/>
 </item>
 <item>
 <title>Lunar Occultation of Venus</title>
