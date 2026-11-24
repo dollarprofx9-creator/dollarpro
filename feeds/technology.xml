@@ -4,15 +4,345 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
-<title>How Jensen Huang ended up as Nvidia CEO again</title>
-<link>https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return</link>
-<guid isPermaLink="false">ba7fe03235f718d9453a98004a19bca33570b763f9b3b9773e3ab140915fc7e9</guid>
+<title>Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse</title>
+<link>https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795</link>
+<guid isPermaLink="false">940939f2535771037aebaae91410186930e34000e08bdad7a8d6a532a77b3a68</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 01:46:56 +0000</pubDate>
+<description>‘Shirudo’ project promises to whip up compensating controls in a hurry</description>
+<enclosure url="https://image.theregister.com/?imageId=1682068&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=1682068&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Inside Nvidia, Not Everyone Is Celebrating Jensen Huang’s Return</title>
+<link>https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return</link>
+<guid isPermaLink="false">f8e298cdc3baa0743ecb8391c9db97087bfa03ac6f0d04a94568f9f281d8cfd1</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 01:35:38 +0000</pubDate>
+<description>Some saw Huang’s resignation as an opportunity for culture change at the chip giant. “If Jensen comes back, I’m not doing any HR trainings ever again,” one employee said.</description>
+<enclosure url="https://media.wired.com/photos/6b0489fe20864bfc4bb456b5/master/pass/Jensen-Huang-Tells-Nvidia-Employees-Business-2300373740.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6b0489fe20864bfc4bb456b5/master/pass/Jensen-Huang-Tells-Nvidia-Employees-Business-2300373740.jpg" medium="image"/>
+</item>
+<item>
+<title>Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap</title>
+<link>https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo</link>
+<guid isPermaLink="false">efda50d063378404bb94cb4e67a563da068c4f3baac6e7cc6477f45e6c864f29</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 01:34:39 +0000</pubDate>
+<description>Huang receives hero’s welcome at firm’s Silicon Valley headquarters as return cements role as key AI figure Jensen Huang made his return to Nvidia’s headquarters with a hero’s welcome on Monday. Hours earlier he’d been reinstated as the CEO of the world’s most valuable chip company, following a whiplash series of events that involved a romantic affair with a suspected Chinese spy, a drastic plummet in the stock market, and an intervention from Donald Trump. As Huang entered the company’s Silicon Valley office, wearing his signature dark-colored uniform, crowds of employees rushed to greet him clapping, hollering and chanting: “Jensen, Jensen, Jensen!” Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/463_0_4821_3856/master/4821.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8a47af50288dbd704e85cd18842507d3" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/463_0_4821_3856/master/4821.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=8a47af50288dbd704e85cd18842507d3" medium="image"/>
+</item>
+<item>
+<title>The three DISM commands you should know to fix your Windows system images</title>
+<link>https://www.engadget.com/2320620/dism-commands-for-windows-system-image-repair</link>
+<guid isPermaLink="false">6eb709e7eddb6adde49a5bef02bdd5c2dfb446d17ac40c5b83e3e26ad82eae39</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 01:30:00 +0000</pubDate>
+<description>Check and repair damaged system files with these DISM commands.</description>
+<enclosure url="https://www.engadget.com/img/gallery/the-three-dism-commands-you-should-know-to-fix-your-windows-system-images/l-intro-1795019660.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/the-three-dism-commands-you-should-know-to-fix-your-windows-system-images/l-intro-1795019660.jpg" medium="image"/>
+</item>
+<item>
+<title>The biggest downsides to using Apple's Magic Mouse</title>
+<link>https://www.engadget.com/2320296/apple-magic-mouse-biggest-downsides</link>
+<guid isPermaLink="false">ddb63dc4c49f003340b8dcd46a94750113e92f523ed8702798fb62e272212bc8</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 00:30:00 +0000</pubDate>
+<description>Mac users have their reasons for ditching Apple's Magic Mouse despite its slick touch gestures. Knowing them can help you decide if it suits your desk.</description>
+<enclosure url="https://www.engadget.com/img/gallery/the-biggest-downsides-to-using-apples-magic-mouse/l-intro-1794594332.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/the-biggest-downsides-to-using-apples-magic-mouse/l-intro-1794594332.jpg" medium="image"/>
+</item>
+<item>
+<title>Anthropic says Claude solved an age-old math problem, but the written proof is 250,000 pages of slop</title>
+<link>https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775</link>
+<guid isPermaLink="false">60874055d807837d196e68c6b324f3241d28f9cece208b3194148fc616ca2785</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 00:18:17 +0000</pubDate>
+<description>If the AI can't explain what it's proven, are we actually any closer to understanding?</description>
+<enclosure url="https://image.theregister.com/?imageId=5264648&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5264648&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Google alternative Kagi launches an email service</title>
+<link>https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative</link>
+<guid isPermaLink="false">0ff2877103f30dc0bf7bf22f960e291200a6b80103eee540f5d40e97899ecc8c</guid>
 <source>The Verge</source>
 <category>technology</category>
-<pubDate>Mon, 23 Nov 2026 19:57:18 +0000</pubDate>
-<description>The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been "unfaithful" to his wife […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+<pubDate>Tue, 24 Nov 2026 00:02:52 +0000</pubDate>
+<description>Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has "no surveillance, no ads, open standards, and no lock-in." With Kagi Mail, you […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/mail-inbox-overview.RlzZ8Gtt.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/mail-inbox-overview.RlzZ8Gtt.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Commons reasons your Android phone's icons won't move and how to fix it</title>
+<link>https://www.engadget.com/2320294/reasons-android-phone-icons-wont-move-fix</link>
+<guid isPermaLink="false">d2811d8c4f4778cf64ecc8262d57839935d47e452bc4c6049a68767a4c8efb8b</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+<description>It's most likely your home screen settings.</description>
+<enclosure url="https://www.engadget.com/img/gallery/commons-reasons-your-android-phones-icons-wont-move-and-how-to-fix-it/l-intro-1794580701.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/commons-reasons-your-android-phones-icons-wont-move-and-how-to-fix-it/l-intro-1794580701.jpg" medium="image"/>
+</item>
+<item>
+<title>What you can do with your old, discontinued Mac Pro</title>
+<link>https://www.engadget.com/2320292/what-do-with-old-discontinued-mac-pro</link>
+<guid isPermaLink="false">bff143c4516fe061a3d8b83131a85f3f562606d2ad61f52403cbce0e249ac786</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 23:30:00 +0000</pubDate>
+<description>Apple is discontinuing Mac Pro, but there are several ways you can still get use out of the computer, even without Apple support.</description>
+<enclosure url="https://www.engadget.com/img/gallery/what-you-can-do-with-your-old-discontinued-mac-pro/l-intro-1794837278.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/what-you-can-do-with-your-old-discontinued-mac-pro/l-intro-1794837278.jpg" medium="image"/>
+</item>
+<item>
+<title>The hacker behind early GTA VI leaks has been sentenced — and released</title>
+<link>https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released</link>
+<guid isPermaLink="false">d42171599ff148708470b4b9c5112f5c4dfe2301145b4bcc0d97e5df4a67760a</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 23:25:01 +0000</pubDate>
+<description>Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jason_and_Lucia_03.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>The Verge’s 2026 holiday gift guide</title>
+<link>https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026</link>
+<guid isPermaLink="false">b8bb9b15845ecf137424a2171032fb11b54c6dd47e6b3783f89a3818981fdf5c</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 23:14:10 +0000</pubDate>
+<description>Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your own, though. Sometimes you just need a push in the right direction to get things rolling. […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MAIN_STILL0_09b4c3.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MAIN_STILL0_09b4c3.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Can you fix a scratched CD? Here are your options</title>
+<link>https://www.engadget.com/2315527/can-you-fix-a-scratched-cd</link>
+<guid isPermaLink="false">8076cf83d5e379041c665cad8f97eccbf4451be3ea268aad5a633bbbfcc62cfa</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 23:00:00 +0000</pubDate>
+<description>It's true: CDs are experiencing a revival. If you've got scratched discs, there are options for fixing them, from DIY methods to seeking professional help.</description>
+<enclosure url="https://www.engadget.com/img/gallery/can-you-fix-a-scratched-cd-here-are-your-options/l-intro-1794497293.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/can-you-fix-a-scratched-cd-here-are-your-options/l-intro-1794497293.jpg" medium="image"/>
+</item>
+<item>
+<title>Ladybird, the first new browser engine in years, is now available to test</title>
+<link>https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing</link>
+<guid isPermaLink="false">179fd3db322f1a8d4c11fe14b47b5156edb4b634df4a4e04b6b4b795170edc80</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 22:38:09 +0000</pubDate>
+<description>Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to arrive with an entirely new engine. […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ladybird-screenshot.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Trump engineered a risky comeback for Jensen Huang</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated</link>
+<guid isPermaLink="false">fa9136539de5ecb7ea15be1ff29dd88182d495f40567548f3d7386a3a176fd12</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 22:25:12 +0000</pubDate>
+<description>After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would "end up on his feet." […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Jensen Huang reinstated as Nvidia CEO after Trump intervenes</title>
+<link>https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive</link>
+<guid isPermaLink="false">833a072f63c18c6f1a0c8f152fb3e5878a2ce04022694990da025e6e418678ce</guid>
+<source>The Guardian Technology</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 22:23:40 +0000</pubDate>
+<description>Share price surges as chipmaker reverses decision to remove chief executive after US president ‘convinced’ its board Comment: Nvidia’s humiliated board should resign out of embarrassment US politics – live updates Timeline: fall and comeback of Jensen Huang Nvidia has reinstated Jensen Huang as chief executive after Donald Trump directly intervened with the US AI chipmaker’s board of directors, in a stunning reversal of the tech billionaire’s downfall . Speaking on Monday shortly after Nvidia’s surprise announcement that Huang had been restored to the top job – less than two weeks after he resigned – Trump said that he had “convinced” the board to do it. “I made the deal,” he told CNBC. Huang had resigned after reports of extramarital affairs, including with an alleged Chinese spy and two Nvidia employees. Continue reading...</description>
+<enclosure url="https://i.guim.co.uk/img/media/d43043e64abd1e9a3d80d7870de50d134c45b4dd/199_0_5507_4407/master/5507.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e5b369084591f3010811a25c77d8cbd1" type="image/jpeg"/>
+<media:content url="https://i.guim.co.uk/img/media/d43043e64abd1e9a3d80d7870de50d134c45b4dd/199_0_5507_4407/master/5507.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e5b369084591f3010811a25c77d8cbd1" medium="image"/>
+</item>
+<item>
+<title>Nvidia CEO Jensen Huang is back. What happens next?</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang</link>
+<guid isPermaLink="false">38ea5b66d259522356b1fd73eab5aead985ba155990b27facb1d91bc6d476ec6</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 22:10:32 +0000</pubDate>
+<description>After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Welcome to elite impunity, Jensen Huang</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang</link>
+<guid isPermaLink="false">4ce697c6dbd75e8a8795f7ef9c5cec103e27bdcc9b77300fd3fd558fdec9934b</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 22:09:26 +0000</pubDate>
+<description>I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a "free market" is might […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_06.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_06.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>Trump halts Iowa detonation, says new governor to blame if it blows accidentally</title>
+<link>https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally</link>
+<guid isPermaLink="false">8c559536214f5b984aa9acdaff0c9bd625cd06331c273b872cc2ce9eb6c8acde</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:58:34 +0000</pubDate>
+<description>The Army said on Sunday that it would carry out the detonation on Wednesday.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306107359-1024x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306107359-1024x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Inception - possibly a ShinyHunters reboot - claims seven victims in a week</title>
+<link>https://www.theregister.com/security/2026/11/23/inception-possibly-a-shinyhunters-reboot-claims-seven-victims-in-a-week/5311768</link>
+<guid isPermaLink="false">5b4e47e85a14db93668d16a7d1c4ba0705654c2e2d8dea79f8b5792e6d531a23</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:52:23 +0000</pubDate>
+<description>Whatever they call themselves these days: be on the lookout for voice phishing attempts</description>
+<enclosure url="https://image.theregister.com/?imageId=5311772&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5311772&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>The Apple Watch Series 12 is cheaper than ever ahead of Black Friday</title>
+<link>https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale</link>
+<guid isPermaLink="false">8e84e3770e7a447788e8af4fc619193ce2129d84f6ec8de15d39d2e79055f7f7</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:36:48 +0000</pubDate>
+<description>If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $299 ($100 off) at Amazon and Walmart, beating its most sale price […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268738_Apple_Watch_Series_12_AKrales_0280.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>How to Win Big Betting on Jensen Huang? Listen to Trump</title>
+<link>https://www.wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump</link>
+<guid isPermaLink="false">ec4e03a6a8015321e519d9339feb15b4b3f86d48218aed3c27d759eca25e0b89</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:31:08 +0000</pubDate>
+<description>Prediction market traders profited from the Nvidia CEO’s comeback by following the White House’s lead. “It’s 2026 and Trump is president, scandal schmandal,” says one winner.</description>
+<enclosure url="https://media.wired.com/photos/6b0499d1945816fbdeabbb63/master/pass/How-to-Make-Big-Money-Betting-on-Jensen-Business-2298607192.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/6b0499d1945816fbdeabbb63/master/pass/How-to-Make-Big-Money-Betting-on-Jensen-Business-2298607192.jpg" medium="image"/>
+</item>
+<item>
+<title>States sue SpaceX to stop Grok from generating child sex images, revenge porn</title>
+<link>https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn</link>
+<guid isPermaLink="false">bf2b853553a4f5010e2dfd1da80b802148871e4bc52ab688cc3bd0592e31cf0a</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:30:44 +0000</pubDate>
+<description>X says every Grok output is screened, but state AGs say Grok is still making CSAM.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Amazon scoops up AI accelerator tech to keep chips busy at all times</title>
+<link>https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754</link>
+<guid isPermaLink="false">761a690e3d012257c494bc383e91344fed30fc540eb4141ddf00376e42ad9daf</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:17:15 +0000</pubDate>
+<description>Not the whole startup - just its tech and the brains behind it</description>
+<enclosure url="https://image.theregister.com/?imageId=5222824&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=5222824&amp;width=800" medium="image"/>
+</item>
+<item>
+<title>Your older, discontinued AirTags can still serve a purpose</title>
+<link>https://www.engadget.com/2320290/discontinued-airtags-still-serve-purpose</link>
+<guid isPermaLink="false">e1e36c8ffdf08c71d41dffc4caecbe3adecd50741f25d73ec29320a9651812c4</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 21:00:00 +0000</pubDate>
+<description>Apple has moved on from the original AirTag, but you don't have to. Find out how your old trackers can still earn their keep at home and on the go.</description>
+<enclosure url="https://www.engadget.com/img/gallery/your-older-discontinued-airtags-can-still-serve-a-purpose/l-intro-1794602506.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/your-older-discontinued-airtags-can-still-serve-a-purpose/l-intro-1794602506.jpg" medium="image"/>
+</item>
+<item>
+<title>New leaks reveal the iPhone 18e will have a redesigned camera plateau</title>
+<link>https://www.engadget.com/2325828/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau</link>
+<guid isPermaLink="false">4a8cf03c1cbb73cc0c0629acaebc5a3005f3e0d0571735cc9a4c916bc9c1e4a8</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:57:55 +0000</pubDate>
+<description>We've also got further confirmation the iPhone Air 2 will have a second camera lens.</description>
+<enclosure url="https://www.engadget.com/img/gallery/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/l-intro-1795466976.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/new-leaks-reveal-the-iphone-18e-will-have-a-redesigned-camera-plateau/l-intro-1795466976.jpg" medium="image"/>
+</item>
+<item>
+<title>Apple renews Ted Lasso for season 5</title>
+<link>https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv</link>
+<guid isPermaLink="false">a5308ba62a5f2de2373c117ec5fedd078c161f00d5a5c9f67899639635799f57</guid>
+<source>The Verge</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:56:00 +0000</pubDate>
+<description>One of Apple's biggest shows is sticking around for at least one more season. The streamer announced today that Ted Lasso has been renewed for a fifth season on Apple TV, after what the company calls a "record-breaking season four debut." There are currently no details about the new season nor when it might debut. […]</description>
+<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Ted_Lasso_Photo_041001.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
+<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Ted_Lasso_Photo_041001.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
+</item>
+<item>
+<title>GTA 6 player gets social ban on PSN after sending a photo of in-game nudity</title>
+<link>https://www.engadget.com/2325800/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity</link>
+<guid isPermaLink="false">ba12f87ba86a1cadd75bac6934b3bbddb153a4adf993483be973ce207c989d1d</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:46:23 +0000</pubDate>
+<description>Apparently just because it's in the game doesn't mean sharing "obscene" content is okay.</description>
+<enclosure url="https://www.engadget.com/img/gallery/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/l-intro-1795466635.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/gta-6-player-gets-social-ban-on-psn-after-sending-a-photo-of-in-game-nudity/l-intro-1795466635.jpg" medium="image"/>
+</item>
+<item>
+<title>Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret</title>
+<link>https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret</link>
+<guid isPermaLink="false">b25e1bf55a272e3f8027db08339b57d6135cbdae9628e38baa4162f58d72e091</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:34:51 +0000</pubDate>
+<description>"I would ask you to please reach out to Roscosmos directly."</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/52674646862_dbe4378754_k-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/02/52674646862_dbe4378754_k-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Grand Theft Auto 6 is really about the death of the American Dream</title>
+<link>https://www.engadget.com/2325713/grand-theft-auto</link>
+<guid isPermaLink="false">7ebe6cebf1d4d9376b748a2021ca84d07e7b79de8cde0e7b4bd5be0c2c84a930</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:16:10 +0000</pubDate>
+<description>The struggle in GTA6 is both real and virtual.</description>
+<enclosure url="https://www.engadget.com/img/gallery/grand-theft-auto-6-is-really-about-the-death-of-the-american-dream/l-intro-1795464912.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/grand-theft-auto-6-is-really-about-the-death-of-the-american-dream/l-intro-1795464912.jpg" medium="image"/>
+</item>
+<item>
+<title>Surveillance pricing uses our personal data to make us pay more</title>
+<link>https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more</link>
+<guid isPermaLink="false">d475d1892e13fd8a0fc59dc091327a37c4e757153a691ee015d67bb0c3b7ed7c</guid>
+<source>Ars Technica</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:11:43 +0000</pubDate>
+<description>Personalized pricing can mean unfair, and even biased, prices.</description>
+<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1527415822-1152x648.jpg" type="image/jpeg"/>
+<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1527415822-1152x648.jpg" medium="image"/>
+</item>
+<item>
+<title>Anthropic softens its data retention policy for Mythos and Fable model use</title>
+<link>https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use</link>
+<guid isPermaLink="false">53a78d2f13c84e42cea4791b58402ddc6c6bf31f1e0c6ad40137b5ab3646ac21</guid>
+<source>Engadget</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 20:02:30 +0000</pubDate>
+<description>Enterprise customers can now keep prompts and responses on their own servers.</description>
+<enclosure url="https://www.engadget.com/img/gallery/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/l-intro-1795464099.jpg" type="image/jpeg"/>
+<media:content url="https://www.engadget.com/img/gallery/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/l-intro-1795464099.jpg" medium="image"/>
 </item>
 <item>
 <title>NVIDIA's Jensen Huang will testify publicly before senators on December 3</title>
@@ -37,17 +367,6 @@
 <media:content url="https://www.engadget.com/img/gallery/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty/l-intro-1795462891.jpg" medium="image"/>
 </item>
 <item>
-<title>HBO Max is offering one of the best Black Friday deals we’ve seen this year</title>
-<link>https://www.theverge.com/gadgets/1039300/hbo-max-black-friday-2026-deal-sale</link>
-<guid isPermaLink="false">357aee899bf00d655308e77eaadd0670f1efaab7a869b81a7529042a8e315b5b</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 19:40:00 +0000</pubDate>
-<description>If you’ve been meaning to catch up on Lanterns or the latest season of The Gilded Age, Thanksgiving weekend is the perfect time to do so. And thanks to HBO Max’s new Black Friday deal, new and returning subscribers can now watch both shows for less. The streaming service is currently offering a 50 percent […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK055_HBOMAX_2_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK055_HBOMAX_2_D.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Amazon fights Delivery Protection Act by putting stickers on its packages</title>
 <link>https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages</link>
 <guid isPermaLink="false">a623625e86edac771d6c4d5a4d67d7d063acdca1eee43efe14e87d97386b3695</guid>
@@ -68,6 +387,17 @@
 <description>Connecting Bluetooth headphones to your Xbox Series X can be frustrating due to incompatibility. However, there are a few workarounds to solve this problem.</description>
 <enclosure url="https://www.engadget.com/img/gallery/how-to-connect-your-bluetooth-headphones-to-your-xbox-series-x/l-intro-1794583527.jpg" type="image/jpeg"/>
 <media:content url="https://www.engadget.com/img/gallery/how-to-connect-your-bluetooth-headphones-to-your-xbox-series-x/l-intro-1794583527.jpg" medium="image"/>
+</item>
+<item>
+<title>Bluetooth brakes are broken as researchers find anyone can control them</title>
+<link>https://www.theregister.com/security/2026/11/23/bluetooth-brakes-are-broken-as-researchers-find-anyone-can-control-them/5311748</link>
+<guid isPermaLink="false">fc370184ad215a4e9b8c34a70d545e10559324fdb3ba25889b840840a771133a</guid>
+<source>The Register</source>
+<category>technology</category>
+<pubDate>Mon, 23 Nov 2026 19:29:59 +0000</pubDate>
+<description>Security fixes are available for two Elecbrakes models, but an older controller remains vulnerable and unpatched</description>
+<enclosure url="https://image.theregister.com/?imageId=229180&amp;width=800" type="image/jpeg"/>
+<media:content url="https://image.theregister.com/?imageId=229180&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>Reports: Russia may launch nuclear weapon into orbit as soon as next month</title>
@@ -92,28 +422,6 @@
 <media:content url="https://www.engadget.com/img/gallery/kodaks-slidetag-combines-a-digital-photo-frame-and-an-airtag/l-intro-1795461541.jpg" medium="image"/>
 </item>
 <item>
-<title>New magical shows worth watching instead of Harry Potter</title>
-<link>https://www.theverge.com/entertainment/1038020/shows-to-stream-instead-of-harry-potter</link>
-<guid isPermaLink="false">40639258b1705412a7089f1d3e249221035fd021260eb81fac0c0658c865b26f</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 19:17:11 +0000</pubDate>
-<description>Since we wrote earlier this year about J.K. Rowling using her money to support groups and policies harming transgender people, she has accused the United Nations of promoting "sex denialism" and described trans rights activists as "elitists" whose work creates "a climate of fear and intimidation." Also, her upcoming HBO Harry Potter series has not […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-23-at-2.08.20-PM.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-23-at-2.08.20-PM.png?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription</title>
-<link>https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording</link>
-<guid isPermaLink="false">f878ab62338f7472bd88c6d51c312757da47a83fc72bb9b2abd3fadb58b9f8b5</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 19:04:52 +0000</pubDate>
-<description>Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nothing.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nothing.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>These underrated smart rings are more affordable than the Oura Ring 5</title>
 <link>https://www.engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5</link>
 <guid isPermaLink="false">4bb657ad6ebf329628350d50671c815bcd24bb96241ab7988e5f82cfc1e61ade</guid>
@@ -125,28 +433,6 @@
 <media:content url="https://www.engadget.com/img/gallery/these-underrated-smart-rings-are-more-affordable-than-the-oura-ring-5/l-intro-1794494729.jpg" medium="image"/>
 </item>
 <item>
-<title>GTA VI’s pretentious puzzler makes indie developers feel ‘part of larger culture’</title>
-<link>https://www.theverge.com/games/1040265/gta-vi-tenebrae-lux-indie-developers</link>
-<guid isPermaLink="false">47e46bb37ae4a97a89ec39e78d08bddc71038c62d3c50cde3f99d42ea0bfd4a5</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 18:55:06 +0000</pubDate>
-<description>One of the most intriguing games of the year is called Tenebrae Lux. It's a moody, black-and-white title with obtuse puzzles and a main character that constantly narrates to himself with dramatic language. Its credits attribute pretty much everything to a developer named Johannes Zuch. It's generated a lot of discussion for seemingly mocking games […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1a2099a4ca189-screenshotUrl.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1a2099a4ca189-screenshotUrl.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Jensen Huang reinstated as Nvidia CEO after Trump intervenes</title>
-<link>https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive</link>
-<guid isPermaLink="false">833a072f63c18c6f1a0c8f152fb3e5878a2ce04022694990da025e6e418678ce</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 18:51:56 +0000</pubDate>
-<description>Chipmaker reverses decision to remove chief executive after US president ‘convinced’ its board Comment: Nvidia’s humiliated board should resign out of embarrassment Business live – latest updates US politics – live updates Nvidia has reinstated Jensen Huang as chief executive after Donald Trump directly intervened with the US AI chipmaker’s board of directors, in a stunning reversal of the tech billionaire’s downfall . Speaking on Monday shortly after Nvidia’s surprise announcement that Huang had been restored to the top job – less than two weeks after he resigned – Trump said that he had “convinced” the board to do it. “I made the deal,” he told CNBC. Huang had resigned after reports of extramarital affairs, including with an alleged Chinese spy and two Nvidia employees. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/d43043e64abd1e9a3d80d7870de50d134c45b4dd/199_0_5507_4407/master/5507.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e5b369084591f3010811a25c77d8cbd1" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/d43043e64abd1e9a3d80d7870de50d134c45b4dd/199_0_5507_4407/master/5507.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=e5b369084591f3010811a25c77d8cbd1" medium="image"/>
-</item>
-<item>
 <title>The Feds Left Iowans in the Dark About Plans to Blow Up Tons of Lead</title>
 <link>https://www.wired.com/story/the-feds-left-iowans-in-the-dark-about-plans-to-blow-up-tons-of-lead</link>
 <guid isPermaLink="false">0bfdc8bda8e0b37952dc8f09123535aaa067042290cd55ef4d3c4b205da4b295</guid>
@@ -156,28 +442,6 @@
 <description>The US Army plans to blow up 9,500 pounds of lead azide held at an Iowa ammunition plant. Local officials say they learned most of the details through a press release.</description>
 <enclosure url="https://media.wired.com/photos/6b00cf1fe6d43a3251b4bce0/master/pass/Local-Officials-Say-Pentagon-Told-Them-Nothing-About-Volcano-of-Exploding-Lead-Science-2305973748.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6b00cf1fe6d43a3251b4bce0/master/pass/Local-Officials-Say-Pentagon-Told-Them-Nothing-About-Volcano-of-Exploding-Lead-Science-2305973748.jpg" medium="image"/>
-</item>
-<item>
-<title>Peacock subscriptions are up to 66 percent off for Black Friday</title>
-<link>https://www.theverge.com/gadgets/1040122/peacock-subscription-black-friday-2026-deal-sale</link>
-<guid isPermaLink="false">b250dd281b48665b5845fa063be9ac167c2fde55363eef0743be733afc3221c8</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 18:33:29 +0000</pubDate>
-<description>Thanks to Black Friday, you have two options to save on your Peacock subscription. You can now sign up for the ad-supported Select plan, usually $8.99 per month or $89.99 per year, for $2.99 for the first three months or $29.99 for the first year. The ad-supported Premium plan — which includes live sports, movies, […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK105_peacock_02-1.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK105_peacock_02-1.webp?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Oregon and Virginia sue SpaceX over Grok’s porn deepfakes</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit</link>
-<guid isPermaLink="false">609c363594e6686756a72ee0aa798454f62af3106f33d457108d4ee6a2db085c</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 18:26:47 +0000</pubDate>
-<description>In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
 </item>
 <item>
 <title>Uber now lets riders request drivers who are recording their trips</title>
@@ -263,7 +527,7 @@
 <source>The Guardian Technology</source>
 <category>technology</category>
 <pubDate>Mon, 23 Nov 2026 17:37:10 +0000</pubDate>
-<description>Jensen Huang’s return as CEO comes despite fact board hasn’t completed investigation into reports of affair with alleged Chinese spy Jensen Huang reinstated as Nvidia CEO Business live – latest updates What was it that Nvidia’s board was saying about there being no chance of Jensen Huang coming back? The position – a mere six days ago – was supposed to be definitive. The exit of the co-founder came after “disclosure of personal behaviour inconsistent with the company’s code of conduct, standards and cultural norms”, said Harvey Jones, who had been rapidly installed as chair of the chipmaker. The board “does not intend to reinstate Jensen as CEO” after he “voluntarily resigned”, added Jones . Continue reading...</description>
+<description>Jensen Huang’s return as CEO comes despite fact board hasn’t completed investigation into reports of affair with alleged Chinese spy Jensen Huang reinstated as Nvidia CEO What was it that Nvidia’s board was saying about there being no chance of Jensen Huang coming back? The position – a mere six days ago – was supposed to be definitive. The exit of the co-founder came after “disclosure of personal behaviour inconsistent with the company’s code of conduct, standards and cultural norms”, said Harvey Jones, who had been rapidly installed as chair of the chipmaker. The board “does not intend to reinstate Jensen as CEO” after he “voluntarily resigned”, added Jones . Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/1c86eb468485514265ee27c663d10f3cb3fb8fb0/341_0_3331_2666/master/3331.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0672ede127f0c169dae68303219eda20" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/1c86eb468485514265ee27c663d10f3cb3fb8fb0/341_0_3331_2666/master/3331.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0672ede127f0c169dae68303219eda20" medium="image"/>
 </item>
@@ -312,17 +576,6 @@
 <media:content url="https://www.engadget.com/img/gallery/what-important-features-should-you-look-for-in-a-home-security-camera/l-intro-1794421485.jpg" medium="image"/>
 </item>
 <item>
-<title>The best Black Friday deals we’ve already found</title>
-<link>https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026</link>
-<guid isPermaLink="false">41ae633c6584dee9d5b17bb95344d72396bc2b1c4a82242507937d389ea50215</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 17:14:20 +0000</pubDate>
-<description>The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until Friday, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_EARLY_DEALS_Headers_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_EARLY_DEALS_Headers_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Bulgaria evicts cyber snoops who lurked inside government networks for 5 years</title>
 <link>https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629</link>
 <guid isPermaLink="false">5b0964a66b065c23f3925914527aed6e463651421562622fd4c5774a3a4b6821</guid>
@@ -332,17 +585,6 @@
 <description>Minister says intruders downloaded more than 130 GB of data as political churn left security neglected</description>
 <enclosure url="https://image.theregister.com/?imageId=256287&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=256287&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Google is finally retiring the Nest app early next year</title>
-<link>https://www.engadget.com/2325245/google-is-finally-retiring-the-nest-app-early-next-year</link>
-<guid isPermaLink="false">c2d5500fd0a4a0e7d226eed302d6af092bc9f75dd4fcbf73a0a45bb177a4de97</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 16:59:56 +0000</pubDate>
-<description>It's also removing Google Assistant from smart speakers and displays.</description>
-<enclosure url="https://www.engadget.com/img/gallery/google-is-finally-retiring-the-nest-app-early-next-year/l-intro-1795453127.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/google-is-finally-retiring-the-nest-app-early-next-year/l-intro-1795453127.jpg" medium="image"/>
 </item>
 <item>
 <title>How freaked out should we be? After mass outages, experts tell us how close we are to ‘doomsday’</title>
@@ -356,28 +598,6 @@
 <media:content url="https://i.guim.co.uk/img/media/9d85845928e02b3a6eff671b4454f59dd4937dfb/1_0_2999_2400/master/2999.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=77a4b4e93f4608d668514e99701b4612" medium="image"/>
 </item>
 <item>
-<title>The pros and cons of wearing your Fitbit around your ankle</title>
-<link>https://www.engadget.com/2320282/pros-cons-wearing-fitbit-ankle</link>
-<guid isPermaLink="false">33578553fed9f441de1319524aa8bc7dcfb72255ea9dc7ec36f79ef6b69fe034</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 16:45:00 +0000</pubDate>
-<description>Wearing a Fitbit around your ankle can improve monitoring and accuracy. But are there any downsides? How does a Fitbit on your wrist compare to your ankle?</description>
-<enclosure url="https://www.engadget.com/img/gallery/the-pros-and-cons-of-wearing-your-fitbit-around-your-ankle/l-intro-1794517903.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/the-pros-and-cons-of-wearing-your-fitbit-around-your-ankle/l-intro-1794517903.jpg" medium="image"/>
-</item>
-<item>
-<title>White House brags that Trump was ‘totally involved’ in getting Jensen reinstated</title>
-<link>https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated</link>
-<guid isPermaLink="false">f5ab5067ad25840d0a1dee1745b86025c18eeb96ff6bef07eaa9172d4ecb6dd5</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 16:30:11 +0000</pubDate>
-<description>It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. "President Trump was totally involved and this is a great decision by the NVIDIA board," White House communications director Steven Cheung said in a statement, […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2250207971.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2250207971.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
 <title>Microsoft mega outage: Report reveals testing gaps and emails that never arrived</title>
 <link>https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656</link>
 <guid isPermaLink="false">a58b1a4fd1605432433ce9b12063f6e8294d9a4d3baca7a3ca5a294a473b1671</guid>
@@ -387,39 +607,6 @@
 <description>July bug overwhelmed newer servers, prompting promises of stronger safeguards and faster recovery</description>
 <enclosure url="https://image.theregister.com/?imageId=5295388&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5295388&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>What the green flashing light on your Roku remote is telling you</title>
-<link>https://www.engadget.com/2321531/what-green-flasing-light-roku-remote-telling-you</link>
-<guid isPermaLink="false">3ed5477f58ab9225e9c9002048ec1c1148dd94064bc3f8fa90584d3b60c85675</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 16:15:00 +0000</pubDate>
-<description>Find out what your Roku remote's green light means, when it's harmless and when it signals a problem, plus what to do if your remote isn't working as it should.</description>
-<enclosure url="https://www.engadget.com/img/gallery/what-the-green-flashing-light-on-your-roku-remote-is-telling-you/l-intro-1795026720.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/what-the-green-flashing-light-on-your-roku-remote-is-telling-you/l-intro-1795026720.jpg" medium="image"/>
-</item>
-<item>
-<title>Tech leaders are celebrating Jensen Huang’s return</title>
-<link>https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay</link>
-<guid isPermaLink="false">54b870a4c86e13f83ce329ec06c0b9c78a10627f0727945bda8296270ab22146</guid>
-<source>The Verge</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 16:14:04 +0000</pubDate>
-<description>Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) "terrorized" your employees, a series of indiscretions that led to your ouster from what was once the world's most valuable company. (The stock price has recently taken […]</description>
-<enclosure url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_01.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" type="image/jpeg"/>
-<media:content url="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_01.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" medium="image"/>
-</item>
-<item>
-<title>Two states sue SpaceX over sexually explicit Grok deepfakes</title>
-<link>https://www.engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes</link>
-<guid isPermaLink="false">6bef9ebeca73f6b4b936e70918fe04c687683d191b0f85fb4b5aaf9e52d668f6</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 15:57:49 +0000</pubDate>
-<description>Oregon and Virginia's attorneys general said the company broke state consumer protection laws.</description>
-<enclosure url="https://www.engadget.com/img/gallery/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/l-intro-1795449366.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/l-intro-1795449366.jpg" medium="image"/>
 </item>
 <item>
 <title>Marvel crams every superhero ever into Avengers: Doomsday final trailer</title>
@@ -442,17 +629,6 @@
 <description>Trump says he spoke to the board and that Huang "did nothing wrong."</description>
 <enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg" type="image/jpeg"/>
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg" medium="image"/>
-</item>
-<item>
-<title>What is Sound Glow on HomePods, and how do you get it on your Apple speaker?</title>
-<link>https://www.engadget.com/2320280/what-is-apple-homepod-sound-glow</link>
-<guid isPermaLink="false">b939bed71e61f008ced6e5c3bbee050de0bf21d59b97510364c4380bc8ae1c3b</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 15:45:00 +0000</pubDate>
-<description>Apple's latest HomePod update makes the top of your speaker glow in sync with music.</description>
-<enclosure url="https://www.engadget.com/img/gallery/what-is-sound-glow-on-homepods-and-how-do-you-get-it-on-your-apple-speaker/l-intro-1794947532.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/what-is-sound-glow-on-homepods-and-how-do-you-get-it-on-your-apple-speaker/l-intro-1794947532.jpg" medium="image"/>
 </item>
 <item>
 <title>COP31 ends in failure as countries split over fossil fuels, climate finance</title>
@@ -488,17 +664,6 @@
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2301328017.jpg" medium="image"/>
 </item>
 <item>
-<title>How to pair your Bluetooth headphones to your Windows PC</title>
-<link>https://www.engadget.com/2320151/how-to-pair-bluetooth-headphones-windows-pc</link>
-<guid isPermaLink="false">e559d2a05cf8c54b8187478f55b5d06140d338e959dc98b3592e18e5695d9e9d</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 14:45:00 +0000</pubDate>
-<description>Connecting a pair of Bluetooth headphones to a Windows PC isn't as simple as plugging into a headphone socket, but it's still quite straightforward.</description>
-<enclosure url="https://www.engadget.com/img/gallery/how-to-pair-your-bluetooth-headphones-to-your-windows-pc/l-intro-1794973961.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/how-to-pair-your-bluetooth-headphones-to-your-windows-pc/l-intro-1794973961.jpg" medium="image"/>
-</item>
-<item>
 <title>Nvidia board puts Jensen Huang back as boss</title>
 <link>https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674</link>
 <guid isPermaLink="false">c627598ce7fe78afc5d38d4ee86173c71b74b3e84f985614da283d575026f405</guid>
@@ -519,28 +684,6 @@
 <description>The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.</description>
 <enclosure url="https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg" medium="image"/>
-</item>
-<item>
-<title>NVIDIA reinstates Jensen Huang as CEO and president, effective immediately</title>
-<link>https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately</link>
-<guid isPermaLink="false">c209e242b02ccdc910549c052f429992faea4e6173b85e54f27d9c2a5da1c63d</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 14:16:53 +0000</pubDate>
-<description>So much for the board not intending to bring him back.</description>
-<enclosure url="https://www.engadget.com/img/gallery/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/l-intro-1795453171.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/l-intro-1795453171.jpg" medium="image"/>
-</item>
-<item>
-<title>5 underrated Apple Watch shortcuts you can set up in minutes</title>
-<link>https://www.engadget.com/2319938/underrated-apple-watch-shortcuts-quick-setup</link>
-<guid isPermaLink="false">fbf1d4f22f53a27239f3477a7d795e4614d907818d38e5aad569696331f52f78</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 14:15:00 +0000</pubDate>
-<description>From late nights out to long drives, these five underrated Apple Watch shortcuts take only minutes to set up and can make your days much easier.</description>
-<enclosure url="https://www.engadget.com/img/gallery/5-underrated-apple-watch-shortcuts-you-can-set-up-in-minutes/l-intro-1794948121.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/5-underrated-apple-watch-shortcuts-you-can-set-up-in-minutes/l-intro-1794948121.jpg" medium="image"/>
 </item>
 <item>
 <title>Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier</title>
@@ -576,17 +719,6 @@
 <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305548314-1152x648.jpg" medium="image"/>
 </item>
 <item>
-<title>How to clear the cache on Microsoft Edge</title>
-<link>https://www.engadget.com/2319769/how-to-clear-browser-cache-microsoft-edge</link>
-<guid isPermaLink="false">3e1d713e8a015112be13c0936fc303ba6f30e7cc65140283e4f2f89a86434a3b</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 13:45:00 +0000</pubDate>
-<description>The cache in Microsoft Edge stores data from websites to make them faster to load next time. You likely have more than you need.</description>
-<enclosure url="https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-microsoft-edge/l-intro-1794946828.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-microsoft-edge/l-intro-1794946828.jpg" medium="image"/>
-</item>
-<item>
 <title>Trump says he won't allow US companies to build datacenters abroad</title>
 <link>https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640</link>
 <guid isPermaLink="false">9e55190251e13e13b0e2a09f03a36b0004bd869826ee02d4637403f19838d09e</guid>
@@ -614,7 +746,7 @@
 <guid isPermaLink="false">1e2611f193c9b67a394daeed976f5f8ecc55011515f50174fe3ba9b3d84d8e27</guid>
 <source>Wired</source>
 <category>technology</category>
-<pubDate>Mon, 23 Nov 2026 13:11:48 +0000</pubDate>
+<pubDate>Mon, 23 Nov 2026 13:11:00 +0000</pubDate>
 <description>Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.</description>
 <enclosure url="https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6b00bf3096143f394c42fff6/master/pass/Nvidia-Powering%20Brain-Computer-Interfaces-mary-connexus-control-unit-Science.jpg" medium="image"/>
@@ -829,17 +961,6 @@
 <media:content url="https://media.wired.com/photos/6b013ceaf081739979ed6edd/master/pass/The-Best-Early-Black-Friday-Espresso-Machine-Deals-for-National-Espresso-Day.jpg" medium="image"/>
 </item>
 <item>
-<title>Amazon resorts to package stickers in its fight against NYC's proposed delivery law</title>
-<link>https://www.engadget.com/2324629/amazon-resorts-to-package-stickers-in-its-fight-against-nyc-proposed-delivery-law</link>
-<guid isPermaLink="false">5b29818e528048a9a6df9c07660d9605e96104ddc070c79b45a9bba587d82950</guid>
-<source>Engadget</source>
-<category>technology</category>
-<pubDate>Mon, 23 Nov 2026 09:35:53 +0000</pubDate>
-<description>In its latest salvo against New York City's Delivery Protection Act, Amazon is trying to win over residents with a new tactic.</description>
-<enclosure url="https://www.engadget.com/img/gallery/amazon-resorts-to-package-stickers-in-its-fight-against-nycs-proposed-delivery-law/l-intro-1795426294.jpg" type="image/jpeg"/>
-<media:content url="https://www.engadget.com/img/gallery/amazon-resorts-to-package-stickers-in-its-fight-against-nycs-proposed-delivery-law/l-intro-1795426294.jpg" medium="image"/>
-</item>
-<item>
 <title>Airbus may be leaving Microsoft Office, but for its 36,000 defense staff, Office isn't leaving them</title>
 <link>https://www.theregister.com/applications/2026/11/23/airbus-may-be-leaving-microsoft-office-but-for-its-36000-defense-staff-office-isnt-leaving-them/5311325</link>
 <guid isPermaLink="false">e8f79721aff1aaf59e2aeb605b9a8835e51e4fa3fdcc34194f0667335862d7e7</guid>
@@ -937,17 +1058,6 @@
 <description>Get a better night’s sleep with monitoring and guidance from smartwatches, smart rings, smart bands and sleep earbuds The best sleep masks and best Bluetooth sleep masks Getting quality sleep is just as crucial as getting enough sleep. And how you feel in the morning only tells part of the story. Smartwatches, smart bands, smart rings and sleep earbuds can all help fill in the details: how long it took you to doze off, how long you spent in deep sleep, how restless you were, your resting heart rate, even if you have night-time breathing difficulties. Armed with this information, you can learn how your lifestyle affects your sleep. Maybe your after dinner cappuccino triggers a night of tossing and turning, or you’re more restful after evening workouts. As the wise GI Joe once said, knowing is half the battle. And the more you know about your sleep, the better chance you have of improving it. Continue reading...</description>
 <enclosure url="https://i.guim.co.uk/img/media/299810b8ddede6ce30a9f856d4c8b57586fd489e/1_0_2499_2000/master/2499.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=105f216ae9fa0b987ee653716ca3d745" type="image/jpeg"/>
 <media:content url="https://i.guim.co.uk/img/media/299810b8ddede6ce30a9f856d4c8b57586fd489e/1_0_2499_2000/master/2499.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=105f216ae9fa0b987ee653716ca3d745" medium="image"/>
-</item>
-<item>
-<title>Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds</title>
-<link>https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds</link>
-<guid isPermaLink="false">0162d4886027e7025e58b4b25f515ecf4dd7e91feccdadf0dc194e8b386f1413</guid>
-<source>The Guardian Technology</source>
-<category>technology</category>
-<pubDate>Sun, 22 Nov 2026 19:00:34 +0000</pubDate>
-<description>Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email , free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is “just the tip of the iceberg”. Analysis by Transparency International Australia argues these meetings, when combined with political donations, demonstrate “unfettered access” to decision-makers that creates an “uneven playing field”. Continue reading...</description>
-<enclosure url="https://i.guim.co.uk/img/media/7c9ca8255b51e9604fa64118322f08bb4d19c764/475_0_3640_2912/master/3640.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3054e10d3368009599cebe801e772e55" type="image/jpeg"/>
-<media:content url="https://i.guim.co.uk/img/media/7c9ca8255b51e9604fa64118322f08bb4d19c764/475_0_3640_2912/master/3640.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=3054e10d3368009599cebe801e772e55" medium="image"/>
 </item>
 <item>
 <title>Two groups verify mathematician’s claim that Claude helped prove mathematics problem</title>
@@ -1269,17 +1379,6 @@
 <media:content url="https://i.guim.co.uk/img/media/23b370295e6a0451fe53a38aba2282045f215272/1054_0_6677_5342/master/6677.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=54ec5b052d157cd06d88783abff580ec" medium="image"/>
 </item>
 <item>
-<title>Mint Mobile Discounts for November 2026</title>
-<link>https://www.wired.com/story/mint-mobile-promo-code</link>
-<guid isPermaLink="false">b8f96101317d5d3aeee56f938d848113e17452daebaf04df30932d350ea9d27f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Sat, 21 Nov 2026 06:00:00 +0000</pubDate>
-<description>Reduce your monthly cell phone bill with these active Mint Mobile coupons and promos, limited-time promotions, and 5G plan savings.</description>
-<enclosure url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" medium="image"/>
-</item>
-<item>
 <title>Mountain Hardwear Coupon Code 15% Off November</title>
 <link>https://www.wired.com/story/mountain-hardwear-promo-codes</link>
 <guid isPermaLink="false">ecae6d941fd361b603207fdfc793b27e1512e578d5f70bfb47b8cb067ce35193</guid>
@@ -1313,6 +1412,28 @@
 <media:content url="https://media.wired.com/photos/66ea076ea6cbbaa16c12af30/master/pass/WIRED-Coupons-12.jpg" medium="image"/>
 </item>
 <item>
+<title>Mint Mobile Discounts for November 2026</title>
+<link>https://www.wired.com/story/mint-mobile-promo-code</link>
+<guid isPermaLink="false">b8f96101317d5d3aeee56f938d848113e17452daebaf04df30932d350ea9d27f</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Sat, 21 Nov 2026 06:00:00 +0000</pubDate>
+<description>Reduce your monthly cell phone bill with these active Mint Mobile coupons and promos, limited-time promotions, and 5G plan savings.</description>
+<enclosure url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/67b63b98fb14553f0ebd9ffd/master/pass/WIRED-Coupons-R2_15.png" medium="image"/>
+</item>
+<item>
+<title>Total Wireless Promo Codes &amp; Deals: 50% Off Select Plans</title>
+<link>https://www.wired.com/story/total-wireless-promo-code</link>
+<guid isPermaLink="false">b6650a5bc0b1fd7bbfb22c69c30bf17d51a804af993e9ff4fe65df76943a69c3</guid>
+<source>Wired</source>
+<category>technology</category>
+<pubDate>Sat, 21 Nov 2026 06:00:00 +0000</pubDate>
+<description>Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.</description>
+<enclosure url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" type="image/jpeg"/>
+<media:content url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" medium="image"/>
+</item>
+<item>
 <title>Ulta Promo Codes: Up to 20% Off in November 2026</title>
 <link>https://www.wired.com/story/ulta-coupon</link>
 <guid isPermaLink="false">3499b2393ffc6e8e65cd2e4147262fc16aea01fccc2c84cb66f0c59c3e282ead</guid>
@@ -1344,17 +1465,6 @@
 <description>Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.</description>
 <enclosure url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png" medium="image"/>
-</item>
-<item>
-<title>Total Wireless Promo Codes &amp; Deals: 50% Off Select Plans</title>
-<link>https://www.wired.com/story/total-wireless-promo-code</link>
-<guid isPermaLink="false">b6650a5bc0b1fd7bbfb22c69c30bf17d51a804af993e9ff4fe65df76943a69c3</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Sat, 21 Nov 2026 06:00:00 +0000</pubDate>
-<description>Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.</description>
-<enclosure url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg" medium="image"/>
 </item>
 <item>
 <title>Therabody Promo Codes: 15% Off November 2026</title>
@@ -1522,39 +1632,6 @@
 <media:content url="https://image.theregister.com/?imageId=227546&amp;width=800" medium="image"/>
 </item>
 <item>
-<title>Watching as a giant star swallowed its neighbor and exploded</title>
-<link>https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion</link>
-<guid isPermaLink="false">85429396aa089ddfdabc92ae4cc8d8e671a22fe87455544e19fbc918f833f316</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 20:41:17 +0000</pubDate>
-<description>A recent brightening turned out to be from a star orbiting inside another.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2-500x500-1795204431.png" medium="image"/>
-</item>
-<item>
-<title>NASA’s new Moon plan is taking shape, but some big questions remain</title>
-<link>https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain</link>
-<guid isPermaLink="false">b6e6571fc353d14478bc0749a3d2c2d2aebfde3a89f4b32a491e0920254f523e</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 20:26:33 +0000</pubDate>
-<description>"We tend to have a lot of technical discussion and debate. That point will continue to be debated."</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg" medium="image"/>
-</item>
-<item>
-<title>Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.</title>
-<link>https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too</link>
-<guid isPermaLink="false">117db62089793671462dc12890d8ecfc5cddddc647cec0c737796cc74082205b</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 19:52:59 +0000</pubDate>
-<description>CTIA said jamming test showed "interference... up to two and a half miles away."</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/prison-barbed-wire-1152x648-1767732268.jpg" medium="image"/>
-</item>
-<item>
 <title>Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation</title>
 <link>https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation</link>
 <guid isPermaLink="false">f6e966e3ca18b7ec8ff6252a3d43792e7709978444689a7613a57e2edd760d6f</guid>
@@ -1564,17 +1641,6 @@
 <description>Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”</description>
 <enclosure url="https://media.wired.com/photos/6b007b4f6873ef9746910ee1/master/pass/GettyImages-2298479100.jpg" type="image/jpeg"/>
 <media:content url="https://media.wired.com/photos/6b007b4f6873ef9746910ee1/master/pass/GettyImages-2298479100.jpg" medium="image"/>
-</item>
-<item>
-<title>Army delays detonating "catastrophically hazardous" lead azide amid fear, anger</title>
-<link>https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide</link>
-<guid isPermaLink="false">5be7c9455fef12b34185deffad6cb24b7b875721aa943992b12e7be381ed009c</guid>
-<source>Ars Technica</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 19:21:50 +0000</pubDate>
-<description>Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.</description>
-<enclosure url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg" type="image/jpeg"/>
-<media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg" medium="image"/>
 </item>
 <item>
 <title>Nvidia’s journey to forge the one CPU SKU to rule them all</title>
@@ -1731,17 +1797,6 @@
 <media:content url="https://media.wired.com/photos/6affa5f18893fa526fe4be1e/master/pass/The-Birdfy-Gifts-I%E2%80%99d-Buy-for-Backyard-Birders.jpg" medium="image"/>
 </item>
 <item>
-<title>Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites</title>
-<link>https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026</link>
-<guid isPermaLink="false">d05c5f311f7e159104e6e9860b01149f5b6a24e3e7e061260815ce051e53014f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 13:00:00 +0000</pubDate>
-<description>I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.</description>
-<enclosure url="https://media.wired.com/photos/6affa4fa92df27a5701c00d9/master/pass/Update--Rest-Easy-With-These-Early-Black-Friday-Mattress-Deals.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6affa4fa92df27a5701c00d9/master/pass/Update--Rest-Easy-With-These-Early-Black-Friday-Mattress-Deals.jpg" medium="image"/>
-</item>
-<item>
 <title>AI could open wallets where ERP upgrade pitches can't, says PwC</title>
 <link>https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221</link>
 <guid isPermaLink="false">750068326b8d4382e272e6e537f9299438a41efb9723d3b48b312e52a6467a61</guid>
@@ -1762,17 +1817,6 @@
 <description>Notice's existence can be acknowledged without harming national security, but its precise demands remain under wraps</description>
 <enclosure url="https://image.theregister.com/?imageId=5220278&amp;width=800" type="image/jpeg"/>
 <media:content url="https://image.theregister.com/?imageId=5220278&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Best Robot Vacuum Early Black Friday Deals from Roborock (2026)</title>
-<link>https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026</link>
-<guid isPermaLink="false">7ee996bb903b0280d89cdcd73717e42b49222d5ea282516b72f1c8ffe9d8fc8f</guid>
-<source>Wired</source>
-<category>technology</category>
-<pubDate>Fri, 20 Nov 2026 12:15:00 +0000</pubDate>
-<description>A few of the best robot vacuums I’ve tested from the brand are at their lowest prices ever.</description>
-<enclosure url="https://media.wired.com/photos/6affa2c5fc894cda63c23f38/master/pass/Roborock%E2%80%99s-Early-Black-Friday-Sale-Isn%E2%80%99t-One-to-Miss.jpg" type="image/jpeg"/>
-<media:content url="https://media.wired.com/photos/6affa2c5fc894cda63c23f38/master/pass/Roborock%E2%80%99s-Early-Black-Friday-Sale-Isn%E2%80%99t-One-to-Miss.jpg" medium="image"/>
 </item>
 <item>
 <title>Windows 11 passkey bug cries failure after successful sign-in</title>
@@ -1896,39 +1940,6 @@
 <media:content url="https://i.guim.co.uk/img/media/af1e31b49b5341ebce31c28c93c8ad558d8934b8/181_0_3988_3192/master/3988.jpg?width=460&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=c9438f7c969bc0b755221af67d2f4c5b" medium="image"/>
 </item>
 <item>
-<title>Palo Alto Networks opens wallet for open-weight training biz</title>
-<link>https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168</link>
-<guid isPermaLink="false">e4627094b361c3599e8aa3e00fec4c83350ac8e67ae56726eea21b8ad7b4cdae</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 19 Nov 2026 20:00:00 +0000</pubDate>
-<description>Security shop buys the hand that feeds it</description>
-<enclosure url="https://image.theregister.com/?imageId=5311172&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5311172&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>Nvidia adds possible hack to list of very bad things under investigation</title>
-<link>https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153</link>
-<guid isPermaLink="false">b1d23014709d9b5ce5a85f2ca8c0852e4ab42f60e0e8c52cb5c9bbcf015333d5</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 19 Nov 2026 18:52:53 +0000</pubDate>
-<description>Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked</description>
-<enclosure url="https://image.theregister.com/?imageId=5311157&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5311157&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>XXRI-OS explores the lowest end of the Linux desktop</title>
-<link>https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036</link>
-<guid isPermaLink="false">8f4720a930ab7d2b1bb59e44926e558a03fe53ee1dbce391e372ef3fe14ea5e7</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 19 Nov 2026 18:35:00 +0000</pubDate>
-<description>Less is more, but this distro explores exactly how much less</description>
-<enclosure url="https://image.theregister.com/?imageId=5311047&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=5311047&amp;width=800" medium="image"/>
-</item>
-<item>
 <title>Anthropic keeps the AI party swinging, but the atmosphere is bubbly | Nils Pratley</title>
 <link>https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly</link>
 <guid isPermaLink="false">b5b4456068dd8b3b5f1d98c1701ec61c6d8790fbaa43cec62d0f187094a864e9</guid>
@@ -1971,28 +1982,6 @@
 <description>With temporary threads, any searches you run in Google’s AI Mode won’t be associated with your account or saved to your chat history.</description>
 <enclosure url="https://www.zdnet.com/wp-content/uploads/sites/3/Google-AI-Mode-temporary-thread.jpg" type="image/jpeg"/>
 <media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Google-AI-Mode-temporary-thread.jpg" medium="image"/>
-</item>
-<item>
-<title>Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading</title>
-<link>https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143</link>
-<guid isPermaLink="false">34e81664ebc5d664f40252e01d80dfc6ff5b112ad938c5fb987275accd86039e</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 19 Nov 2026 17:09:45 +0000</pubDate>
-<description>Company still has to contend with massive compute obligations and the threat of open models, neither of which Dario Amodei is worried about, he claims</description>
-<enclosure url="https://image.theregister.com/?imageId=166252&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=166252&amp;width=800" medium="image"/>
-</item>
-<item>
-<title>NAND prices tipped to fall as Chinese cloud giants cut SSD orders</title>
-<link>https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116</link>
-<guid isPermaLink="false">0099d15892409107575ef455ce68f7f41e4465e24ef0d7213269cc1ce575d80b</guid>
-<source>The Register</source>
-<category>technology</category>
-<pubDate>Thu, 19 Nov 2026 17:02:00 +0000</pubDate>
-<description>TrendForce sees supply outpacing demand in 2027, though cheaper flash won't fix the DRAM squeeze</description>
-<enclosure url="https://image.theregister.com/?imageId=229944&amp;width=800" type="image/jpeg"/>
-<media:content url="https://image.theregister.com/?imageId=229944&amp;width=800" medium="image"/>
 </item>
 <item>
 <title>The Flipper One is more than a Zero 2.0 – it’s a $399 Linux computer with a $13M Kickstarter</title>
