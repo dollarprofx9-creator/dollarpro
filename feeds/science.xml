@@ -174,7 +174,7 @@
 <guid isPermaLink="false">8d8c09e2a00232b93c502453627e52ceb0eaaf2ec3635c36449ae4aad7f468eb</guid>
 <source>New York Times Science</source>
 <category>science</category>
-<pubDate>Thu, 26 Nov 2026 10:04:04 +0000</pubDate>
+<pubDate>Thu, 26 Nov 2026 10:04:05 +0000</pubDate>
 <description>Researchers are using seabirds equipped with GPS and audio gear to detect vessels that operate with no tracking signals and to assess the environmental hazards they pose.</description>
 <enclosure url="https://static01.nyt.com/images/2026/11/26/science/26CLI-SPYING-SEABIRDS-02/26CLI-SPYING-SEABIRDS-02-mediumSquareAt3X.jpg" type="image/jpeg"/>
 <media:content url="https://static01.nyt.com/images/2026/11/26/science/26CLI-SPYING-SEABIRDS-02/26CLI-SPYING-SEABIRDS-02-mediumSquareAt3X.jpg" medium="image"/>
@@ -1014,17 +1014,6 @@
 <description>When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame. The post Network Researchers Nail Down Theory of ‘Perfect Resilience’ first appeared on Quanta Magazine</description>
 <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2026/11/net-resilience-cr.DVDP-Default.webp" type="image/jpeg"/>
 <media:content url="https://www.quantamagazine.org/wp-content/uploads/2026/11/net-resilience-cr.DVDP-Default.webp" medium="image"/>
-</item>
-<item>
-<title>Senate Passes Major Permitting Bill to Speed Up Energy Projects</title>
-<link>https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html</link>
-<guid isPermaLink="false">097b8fd14bac3b4341dc007d90803eeed62f870de6bb33d5e144dd9a4f16080a</guid>
-<source>New York Times Science</source>
-<category>science</category>
-<pubDate>Fri, 20 Nov 2026 12:31:59 +0000</pubDate>
-<description>The bill would overhaul federal environmental laws to make it easier to build everything from gas pipelines to wind farms. But it faces hurdles in the House.</description>
-<enclosure url="https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg" type="image/jpeg"/>
-<media:content url="https://static01.nyt.com/images/2026/11/20/multimedia/20cli-permitting-senate-HFO2-qlhz/20cli-permitting-senate-HFO2-qlhz-mediumSquareAt3X.jpg" medium="image"/>
 </item>
 <item>
 <title>Quantum Computing Is Even Weirder Than You Think</title>

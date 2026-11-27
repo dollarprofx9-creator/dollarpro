@@ -4,6 +4,17 @@
 <link>https://example.com/</link>
 <description>Aggregated headlines linking to original publishers</description>
 <item>
+<title>Should You Run Your Own AI or Pay a Provider? Here’s How to Decide.</title>
+<link>https://www.entrepreneur.com/business-news/should-you-run-your-own-ai-or-pay-a-provider-heres-how-to-decide</link>
+<guid isPermaLink="false">43b89141bfebefbfca0cb64923b051006b5ccc05c41f7a7de8912bac95883a03</guid>
+<source>Entrepreneur</source>
+<category>business</category>
+<pubDate>Thu, 26 Nov 2026 18:00:00 +0000</pubDate>
+<description>Open-weight models finally give businesses a real choice between running AI on their own servers or renting it from the cloud.</description>
+<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/ai-servers-1126-g-2301015302.jpg" type="image/jpeg"/>
+<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/ai-servers-1126-g-2301015302.jpg" medium="image"/>
+</item>
+<item>
 <title>Stop Using AI as an Excuse for Layoffs. Here’s How to Use AI to Retain Talent Instead</title>
 <link>https://www.entrepreneur.com/business-news/stop-using-ai-as-an-excuse-for-layoffs-heres-how-to-use-ai-to-retain-talent-instead</link>
 <guid isPermaLink="false">127c098224193080a12d79ac8a9fa936f7517c25d752aaa96a99495ae932bdf1</guid>
@@ -101,16 +112,5 @@
 <description>A new generation of entrepreneurs is emerging, armed with tools that previous generations could only dream of.</description>
 <enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/elon-musk-future-1126_g2297261485-2218041922.jpg" type="image/jpeg"/>
 <media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/elon-musk-future-1126_g2297261485-2218041922.jpg" medium="image"/>
-</item>
-<item>
-<title>This Amazon Tech Leader Has a ‘Famous’ 4 a.m. Morning Routine. It Starts With an AI Agent.</title>
-<link>https://www.entrepreneur.com/business-news/amazon-tech-leaders-famous-morning-routine-starts-at-4-a-m-with-ai-agent</link>
-<guid isPermaLink="false">0891c05de528e22c5c3ede627798c4020e0aaf140785018bb8e8917d2992d4b0</guid>
-<source>Entrepreneur</source>
-<category>business</category>
-<pubDate>Wed, 25 Nov 2026 16:19:41 +0000</pubDate>
-<description>Here's how the Amazon Web Services chief AI and tech officer uses an AI agent to streamline getting ready.</description>
-<enclosure url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/Matt-Wood-GettyImages-1918798442.jpg" type="image/jpeg"/>
-<media:content url="https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/Matt-Wood-GettyImages-1918798442.jpg" medium="image"/>
 </item>
 </channel></rss>
